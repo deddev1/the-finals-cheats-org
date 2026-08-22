@@ -72,7 +72,7 @@
     "eyebrow": "Reviews",
     "homeTitle": "Rust Cheats reviews",
     "buyerReviews": "{{count}} buyer reviews",
-    "averageAria": "{{rating}} average from {{count}} reviews",
+    "averageAria": "{{rating}} average from {{count}} buyer reviews",
     "outOfFiveAria": "{{rating}} out of 5",
     "readAll": "Read all reviews →"
   },

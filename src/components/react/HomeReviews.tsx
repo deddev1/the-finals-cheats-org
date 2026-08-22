@@ -16,6 +16,7 @@ type Props = {
 	reviews: Review[];
 	averageRating: number;
 	totalCount: number;
+	reviewCountLabel: string;
 	reviewsBasePath: string;
 };
 
@@ -35,10 +36,12 @@ function HomeReviewsInner({
 	reviews,
 	averageRating,
 	totalCount,
+	reviewCountLabel,
 	reviewsBasePath,
 }: Props) {
 	const { t } = useTranslation();
 	const ratingLabel = averageRating.toFixed(1);
+	const countLabel = reviewCountLabel || String(totalCount);
 
 	return (
 		<section className="reviews" aria-labelledby="reviews-title">
@@ -50,7 +53,7 @@ function HomeReviewsInner({
 					</div>
 					<div
 						className="reviews__score"
-						aria-label={t('reviews.averageAria', { rating: ratingLabel, count: totalCount })}
+						aria-label={t('reviews.averageAria', { rating: ratingLabel, count: countLabel })}
 					>
 						<strong>{ratingLabel}</strong>
 						<div>
@@ -61,7 +64,7 @@ function HomeReviewsInner({
 									</svg>
 								))}
 							</span>
-							<p>{t('reviews.buyerReviews', { count: totalCount })}</p>
+							<p>{t('reviews.buyerReviews', { count: countLabel })}</p>
 						</div>
 					</div>
 				</header>
