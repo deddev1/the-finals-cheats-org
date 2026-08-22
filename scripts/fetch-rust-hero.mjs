@@ -9,6 +9,7 @@ const HERO_URL =
 	'file://' + path.resolve(__dirname, '../public/images/rust-hero-source.png');
 const imagesDir = path.resolve('public/images');
 const HERO_WEBP = { quality: 82, effort: 6, smartSubsample: true };
+const HERO_BG = { r: 5, g: 5, b: 6, alpha: 1 };
 
 /** Match homepage hero bar — same wide banner ratio as before (3.15:1). */
 const BANNER_RATIO = 3.15;
@@ -28,23 +29,29 @@ function bannerHeight(width) {
 	return Math.round(width / BANNER_RATIO);
 }
 
-for (const width of [640, 1024]) {
+const resizeOpts = {
+	fit: 'contain',
+	position: 'centre',
+	background: HERO_BG,
+};
+
+for (const width of [640, 1024, 1536]) {
 	const height = bannerHeight(width);
-	const webp = await sharp(heroBuffer)
-		.resize(width, height, { fit: 'cover', position: 'centre' })
-		.webp(HERO_WEBP)
-		.toBuffer();
+	const webp = await sharp(heroBuffer).resize(width, height, resizeOpts).webp(HERO_WEBP).toBuffer();
 	await writeFile(path.join(imagesDir, `rust-cheats-hero-${width}w.webp`), webp);
 	console.log(`✓ rust-cheats-hero-${width}w.webp (${width}x${height}, ${Math.round(webp.length / 1024)}KB)`);
 }
 
 const canonicalHeight = bannerHeight(1024);
 const canonical = await sharp(heroBuffer)
-	.resize(1024, canonicalHeight, { fit: 'cover', position: 'centre' })
+	.resize(1024, canonicalHeight, resizeOpts)
 	.webp(HERO_WEBP)
 	.toBuffer();
 for (const name of ['rust-cheats-hero.webp', 'rust-hero-banner.webp', 'hero-banner.webp']) {
 	await writeFile(path.join(imagesDir, name), canonical);
 }
 
-console.log(`Done — hero banner ${BANNER_RATIO}:1 (1024x${canonicalHeight})`);
+const png = await sharp(heroBuffer).resize(1024, canonicalHeight, resizeOpts).png().toBuffer();
+await writeFile(path.join(imagesDir, 'rust-cheats-hero.png'), png);
+
+console.log(`Done — hero banner ${BANNER_RATIO}:1 (1024x${canonicalHeight}), fit: contain`);
