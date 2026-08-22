@@ -35,8 +35,7 @@ const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo
 		--hero-pad-y: clamp(1rem, 2vw, 1.75rem);
 		--hero-stack: clamp(0.5rem, 1.1vw, 0.75rem);
 		/*
-		 * Fixed wide banner bar (3.15:1). Artwork uses object-fit: contain so the
-		 * full image is visible without cover-crop zoom.
+		 * Fixed wide banner bar (3.15:1). Artwork stretches to fill the bar edge-to-edge.
 		 */
 		--hero-ratio: 3.15 / 1;
 		position: relative;
@@ -74,8 +73,7 @@ const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo
 	}
 
 	.hero__media img {
-		/* Contain = full artwork visible inside the fixed hero bar (no cover zoom) */
-		object-fit: contain;
+		object-fit: fill;
 		object-position: center center;
 		image-rendering: auto;
 		transform: translateZ(0);
@@ -308,7 +306,7 @@ const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo
 		}
 
 		.hero__media img {
-			object-fit: contain;
+			object-fit: fill;
 			object-position: center center;
 		}
 
