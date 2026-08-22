@@ -14,6 +14,7 @@ import type { LocaleCode } from '../data/i18n/locales';
 import { homeFaqs, homeSeo, productInfo, siteConfig, customerReviewStats } from '../data/site';
 import { heroPreloadSrc, heroSizes, heroSrcSet } from '../lib/responsive-images';
 import { defaultCrawlImageSrc } from '../data/page-images';
+import { demoVideoSchema } from '../data/media';
 
 interface Props {
 	locale: LocaleCode;
@@ -86,6 +87,10 @@ const extraGraph: Record<string, unknown>[] = [
 		})),
 	},
 ];
+
+if (locale === 'en') {
+	extraGraph.push(demoVideoSchema(canonicalURL));
+}
 ---
 
 <Layout
@@ -225,6 +230,87 @@ const extraGraph: Record<string, unknown>[] = [
 		border-bottom: 1px solid var(--line-soft);
 	}
 
+	.home__about-grid {
+		display: grid;
+		grid-template-columns: minmax(0, 1fr) minmax(10.5rem, 16.5rem);
+		gap: clamp(1rem, 2.5vw, 1.75rem);
+		align-items: start;
+	}
+
+	.home__about-media {
+		margin: 0;
+		width: 100%;
+		max-width: 16.5rem;
+		justify-self: end;
+	}
+
+	.home__video-wrap {
+		position: relative;
+		border-radius: var(--radius-md, 0.75rem);
+		overflow: hidden;
+		border: 1px solid var(--line);
+		background: #000;
+		aspect-ratio: 16 / 9;
+		box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+	}
+
+	.home__video {
+		display: block;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		vertical-align: middle;
+	}
+
+	.home__video-play {
+		position: absolute;
+		inset: 0;
+		display: grid;
+		place-items: center;
+		margin: 0;
+		padding: 0;
+		border: 0;
+		background: linear-gradient(180deg, rgba(7, 7, 7, 0.08), rgba(7, 7, 7, 0.42));
+		cursor: pointer;
+		transition: background 0.2s ease;
+	}
+
+	.home__video-play:hover {
+		background: linear-gradient(180deg, rgba(7, 7, 7, 0.12), rgba(7, 7, 7, 0.5));
+	}
+
+	.home__video-play-icon {
+		display: grid;
+		place-items: center;
+		width: 3rem;
+		height: 3rem;
+		border-radius: 999px;
+		background: color-mix(in srgb, var(--magenta) 92%, #000);
+		color: #fff;
+		box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+		transition:
+			transform 0.2s ease,
+			background 0.2s ease;
+	}
+
+	.home__video-play-icon svg {
+		width: 1.35rem;
+		height: 1.35rem;
+		margin-left: 0.15rem;
+	}
+
+	.home__video-play:hover .home__video-play-icon {
+		transform: scale(1.06);
+		background: var(--accent-hover);
+	}
+
+	.home__video-caption {
+		margin: 0.45rem 0 0;
+		font-size: 0.72rem;
+		line-height: 1.4;
+		color: var(--ink-faint);
+	}
+
 	.home__prose-callout {
 		max-width: 42rem;
 		padding-left: 1.1rem;
@@ -261,5 +347,16 @@ const extraGraph: Record<string, unknown>[] = [
 
 	.home__prose--en a:hover {
 		color: var(--ink);
+	}
+
+	@media (max-width: 768px) {
+		.home__about-grid {
+			grid-template-columns: 1fr;
+		}
+
+		.home__about-media {
+			max-width: 14.5rem;
+			justify-self: start;
+		}
 	}
 </style>
