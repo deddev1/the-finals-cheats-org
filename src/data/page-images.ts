@@ -19,7 +19,7 @@ export const crawlPhotoPool = [
  * Prefer compressed WebP screenshots so Google can fetch them quickly.
  */
 export const pageImageSrcById: Record<PageId, string> = {
-	home: '/images/rust-cheats-hero-1024w.webp',
+	home: '/images/rust-cheats-hero-1536w.webp',
 	'rust-esp': shot(2),
 	'rust-aimbot': shot(4),
 	features: shot(5),

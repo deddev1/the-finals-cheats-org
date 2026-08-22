@@ -38,17 +38,19 @@ export function contentSrcSet(baseSrc: string): string | undefined {
 }
 
 /**
- * Homepage / banner hero — wide banner (~3.15:1); LCP src is the 1024w WebP variant.
+ * Homepage / banner hero — wide banner (~3.15:1); LCP uses the 1536w WebP variant.
  */
 export const heroResponsive: ResponsiveWidth[] = [
 	{ src: '/images/rust-cheats-hero-640w.webp', width: 640 },
 	{ src: '/images/rust-cheats-hero-1024w.webp', width: 1024 },
+	{ src: '/images/rust-cheats-hero-1536w.webp', width: 1536 },
+	{ src: '/images/rust-cheats-hero-1778w.webp', width: 1778 },
 ];
 
 export const heroDesktopResponsive: ResponsiveWidth[] = heroResponsive;
 
-/** Default LCP src — mid ladder WebP. */
-export const heroSrc = '/images/rust-cheats-hero-1024w.webp';
+/** Default LCP src — sharp mid-high ladder WebP for retina desktops. */
+export const heroSrc = '/images/rust-cheats-hero-1536w.webp';
 export const heroSrcSet = buildSrcSet(heroResponsive);
 export const heroSizes = '100vw';
 
@@ -56,9 +58,9 @@ export const heroSizes = '100vw';
 export const heroPreloadSrc = heroSrc;
 export const heroMimeType = 'image/webp';
 
-/** Intrinsic dimensions of the default LCP asset (1024w variant). */
-export const heroWidth = 1024;
-export const heroHeight = 325;
+/** Intrinsic dimensions of the default LCP asset (1536w variant). */
+export const heroWidth = 1536;
+export const heroHeight = 488;
 
 /** Responsive widths for below-fold content images. */
 export const contentWidths = [480, 960] as const;

@@ -8,10 +8,14 @@ const HERO_URL =
 	process.env.RUST_HERO_URL ??
 	'file://' + path.resolve(__dirname, '../public/images/rust-hero-source.png');
 const imagesDir = path.resolve('public/images');
-const HERO_WEBP = { quality: 82, effort: 6, smartSubsample: true };
+/** High-quality WebP — hero is LCP; prioritize clarity over file size. */
+const HERO_WEBP = { quality: 94, effort: 6, smartSubsample: false, alphaQuality: 100 };
 
 /** Match homepage hero bar — same wide banner ratio as before (3.15:1). */
 const BANNER_RATIO = 3.15;
+
+/** Output widths — capped at source width so we never upscale. */
+const HERO_WIDTHS = [640, 1024, 1536, 1778];
 
 const heroBuffer = Buffer.from(
 	await (HERO_URL.startsWith('file://')
@@ -28,28 +32,42 @@ function bannerHeight(width) {
 	return Math.round(width / BANNER_RATIO);
 }
 
-const resizeOpts = {
-	fit: 'cover',
-	position: 'centre',
-};
+const sourceMeta = await sharp(heroBuffer).metadata();
+const maxWidth = sourceMeta.width ?? 1778;
+const outputWidths = HERO_WIDTHS.filter((width) => width <= maxWidth);
+if (!outputWidths.includes(maxWidth) && maxWidth > (outputWidths.at(-1) ?? 0)) {
+	outputWidths.push(maxWidth);
+}
 
-for (const width of [640, 1024, 1536]) {
+function resizeHero(width) {
 	const height = bannerHeight(width);
-	const webp = await sharp(heroBuffer).resize(width, height, resizeOpts).webp(HERO_WEBP).toBuffer();
+	return sharp(heroBuffer)
+		.resize(width, height, {
+			fit: 'cover',
+			position: 'centre',
+			kernel: sharp.kernel.lanczos3,
+			withoutEnlargement: true,
+		})
+		.sharpen({ sigma: 0.35, m1: 0.5, m2: 0.25 });
+}
+
+for (const width of outputWidths) {
+	const height = bannerHeight(width);
+	const webp = await resizeHero(width).webp(HERO_WEBP).toBuffer();
 	await writeFile(path.join(imagesDir, `rust-cheats-hero-${width}w.webp`), webp);
 	console.log(`✓ rust-cheats-hero-${width}w.webp (${width}x${height}, ${Math.round(webp.length / 1024)}KB)`);
 }
 
-const canonicalHeight = bannerHeight(1024);
-const canonical = await sharp(heroBuffer)
-	.resize(1024, canonicalHeight, resizeOpts)
-	.webp(HERO_WEBP)
-	.toBuffer();
+const lcpWidth = outputWidths.includes(1536) ? 1536 : outputWidths.at(-1) ?? 1024;
+const canonicalHeight = bannerHeight(lcpWidth);
+const canonical = await resizeHero(lcpWidth).webp(HERO_WEBP).toBuffer();
 for (const name of ['rust-cheats-hero.webp', 'rust-hero-banner.webp', 'hero-banner.webp']) {
 	await writeFile(path.join(imagesDir, name), canonical);
 }
 
-const png = await sharp(heroBuffer).resize(1024, canonicalHeight, resizeOpts).png().toBuffer();
+const png = await resizeHero(lcpWidth).png({ compressionLevel: 6 }).toBuffer();
 await writeFile(path.join(imagesDir, 'rust-cheats-hero.png'), png);
 
-console.log(`Done — hero banner ${BANNER_RATIO}:1 (1024x${canonicalHeight}), fit: cover (centre)`);
+console.log(
+	`Done — hero banner ${BANNER_RATIO}:1 (LCP ${lcpWidth}x${canonicalHeight}), fit: cover, quality ${HERO_WEBP.quality}`,
+);

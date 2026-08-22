@@ -27,8 +27,8 @@ export const brand = {
 	logoRasterWidth: 512,
 	logoRasterHeight: 512,
 	logoAlt: 'Rust Cheats logo',
-	defaultOgImage: '/images/rust-cheats-hero-1024w.webp',
-	heroImage: '/images/rust-cheats-hero-1024w.webp',
+	defaultOgImage: '/images/rust-cheats-hero-1536w.webp',
+	heroImage: '/images/rust-cheats-hero-1536w.webp',
 
 	plans: [
 		{ id: 'monthly', label: 'Monthly', price: 35, duration: 'P30D' },
