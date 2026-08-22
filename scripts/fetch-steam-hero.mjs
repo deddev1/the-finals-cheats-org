@@ -3,7 +3,7 @@ import path from 'node:path';
 import sharp from 'sharp';
 
 const STEAM_LIBRARY_HERO =
-	'https://cdn.akamai.steamstatic.com/steam/apps/376210/library_hero.jpg';
+	'https://cdn.akamai.steamstatic.com/steam/apps/252490/library_hero.jpg';
 const imagesDir = path.resolve('public/images');
 
 const heroBuffer = Buffer.from(

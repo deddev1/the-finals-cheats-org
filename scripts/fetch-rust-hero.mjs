@@ -1,9 +1,12 @@
-import { writeFile } from 'node:fs/promises';
+import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import sharp from 'sharp';
 
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const HERO_URL =
-	'https://boqgsoiwnpbisvrxulbe.supabase.co/storage/v1/object/public/rustimages/ChatGPT%20Image%20Aug%2015,%202026,%2009_04_18%20AM.png';
+	process.env.RUST_HERO_URL ??
+	'file://' + path.resolve(__dirname, '../public/images/rust-hero-source.png');
 const imagesDir = path.resolve('public/images');
 const HERO_WEBP = { quality: 82, effort: 6, smartSubsample: true };
 
@@ -11,12 +14,14 @@ const HERO_WEBP = { quality: 82, effort: 6, smartSubsample: true };
 const BANNER_RATIO = 3.15;
 
 const heroBuffer = Buffer.from(
-	await fetch(HERO_URL, {
-		headers: { 'User-Agent': 'Mozilla/5.0 (compatible; TheRustCheatsSite/1.0)' },
-	}).then((r) => {
-		if (!r.ok) throw new Error(`HTTP ${r.status}`);
-		return r.arrayBuffer();
-	}),
+	await (HERO_URL.startsWith('file://')
+		? readFile(HERO_URL.replace('file://', ''))
+		: fetch(HERO_URL, {
+				headers: { 'User-Agent': 'Mozilla/5.0 (compatible; RustCheatsSite/1.0)' },
+			}).then((r) => {
+				if (!r.ok) throw new Error(`HTTP ${r.status}`);
+				return r.arrayBuffer();
+			})),
 );
 
 function bannerHeight(width) {
