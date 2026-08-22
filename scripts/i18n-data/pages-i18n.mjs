@@ -6,27 +6,27 @@ import { LEGAL_I18N } from './legal-i18n.mjs';
 
 /** Page-specific translated meta for home across locales. */
 const PAGE_META_HOME = {
-	es: { title: 'The Isle Hacks 2026 | ESP, Wallhack y Aimbot', desc: 'Trucos The Isle indetectables para The Isle en PC. ESP wallhack, radar hack y Aimbot con mantenimiento Easy Anti-Cheat. Entrega digital instantánea.', h1: 'The Isle Hacks — ESP, Wallhack y Aimbot indetectables', intro: 'Paquete undetected para The Isle en Windows PC: ESP wallhack, radar y Aimbot con mantenimiento Easy Anti-Cheat tras cada parche.', imageAlt: 'Isle ESP — etiquetas de jugador hack', gallery: 'Galería The Isle Hacks — ESP, Aimbot y wallhack', cta2: 'Ver funciones', h2a: 'Por qué eligen The Isle Hacks en 2026', h2b: 'ESP wallhack, radar y Aimbot en una licencia', topicA: 'Ideal para leer escuadrones enemigos en BR y growth run.', topicB: 'Una licencia en lugar de herramientas separadas.' },
-	fr: { title: 'The Isle Hacks 2026 | ESP, Wallhack et Aimbot', desc: 'Triches The Isle indétectables pour The Isle sur PC. ESP wallhack, radar hack et Aimbot avec maintenance Easy Anti-Cheat. Livraison numérique instantanée.', h1: 'The Isle Hacks — ESP, Wallhack et Aimbot indétectables', intro: 'Pack undetected pour The Isle sur PC Windows : ESP wallhack, radar et Aimbot avec maintenance Easy Anti-Cheat après chaque patch.', imageAlt: 'Isle ESP — tags joueur hack', gallery: 'Galerie The Isle Hacks — ESP, Aimbot et wallhack', cta2: 'Voir les fonctions', h2a: 'Pourquoi choisir The Isle Hacks en 2026', h2b: 'ESP wallhack, radar et Aimbot en une licence', topicA: 'Parfait pour lire les escouades ennemies en BR et growth run.', topicB: 'Une licence au lieu d\'outils séparés.' },
-	de: { title: 'The Isle Hacks 2026 | ESP, Wallhack & Aimbot', desc: 'Undetected The Isle Hacks für The Isle auf PC. ESP Wallhack, Radar Hack und Aimbot mit Easy Anti-Cheat-Wartung. Sofortige digitale Lieferung.', h1: 'The Isle Hacks — Undetected ESP, Wallhack und Aimbot', intro: 'Undetected Windows PC Paket für The Isle: ESP Wallhack, Radar und Aimbot mit Easy Anti-Cheat-Wartung nach jedem Patch.', imageAlt: 'Isle ESP — Spieler-Tags Hack', gallery: 'The Isle Hacks Galerie — ESP, Aimbot und Wallhack', cta2: 'Features ansehen', h2a: 'Warum The Isle Hacks 2026 führt', h2b: 'ESP Wallhack, Radar und Aimbot in einer Lizenz', topicA: 'Ideal um feindliche Squads in BR und growth run zu lesen.', topicB: 'Eine Lizenz statt separater Tools.' },
-	pt: { title: 'The Isle Hacks 2026 | ESP, Wallhack e Aimbot', desc: 'Cheats The Isle indetectáveis para The Isle no PC. ESP wallhack, radar hack e Aimbot com manutenção Easy Anti-Cheat. Entrega digital instantánea.', h1: 'The Isle Hacks — ESP, Wallhack e Aimbot indetectáveis', intro: 'Pacote undetected para The Isle no Windows PC: ESP wallhack, radar e Aimbot com manutenção Easy Anti-Cheat após cada patch.', imageAlt: 'Isle ESP player tags hack', gallery: 'Galeria The Isle Hacks — ESP, Aimbot e wallhack', cta2: 'Ver recursos', h2a: 'Por que escolher The Isle Hacks em 2026', h2b: 'ESP wallhack, radar e Aimbot numa licença', topicA: 'Ideal para ler epackrões inimigos em BR e growth run.', topicB: 'Uma licença em vez de ferramentas separadas.' },
-	it: { title: 'The Isle Hacks 2026 | ESP, Wallhack e Aimbot', desc: 'Cheat The Isle indetectable per The Isle su PC. ESP wallhack, radar hack e Aimbot con manutenzione Easy Anti-Cheat. Consegna digitale istantanea.', h1: 'The Isle Hacks — ESP, Wallhack e Aimbot indetectable', intro: 'Pacchetto undetected per The Isle su PC Windows: ESP wallhack, radar e Aimbot con manutenzione Easy Anti-Cheat dopo ogni patch.', imageAlt: 'Isle ESP player tags hack', gallery: 'Galleria The Isle Hacks — ESP, Aimbot e wallhack', cta2: 'Vedi funzioni', h2a: 'Perché scegliere The Isle Hacks nel 2026', h2b: 'ESP wallhack, radar e Aimbot in una licenza', topicA: 'Ideale per leggere packre nemiche in BR e growth run.', topicB: 'Una licenza invece di tool separati.' },
-	nl: { title: 'The Isle Hacks 2026 | ESP, Wallhack & Aimbot', desc: 'Undetected the isle hacks voor The Isle op PC. ESP wallhack, radar hack en Aimbot met Easy Anti-Cheat-onderhoud. Directe digitale levering.', h1: 'The Isle Hacks — Undetected ESP, Wallhack & Aimbot', intro: 'Undetected Windows PC pakket voor The Isle: ESP wallhack, radar en Aimbot met Easy Anti-Cheat-onderhoud na elke patch.', imageAlt: 'Isle ESP player tags hack', gallery: 'The Isle Hacks galerij — ESP, Aimbot en wallhack', cta2: 'Bekijk functies', h2a: 'Waarom The Isle Hacks in 2026', h2b: 'ESP wallhack, radar en Aimbot in één licentie', topicA: 'Ideaal om vijandelijke packs te lezen in BR en growth run.', topicB: 'Eén licentie in plaats van losse tools.' },
-	pl: { title: 'The Isle Hacks 2026 | ESP, Wallhack i Aimbot', desc: 'Undetected cheaty The Isle dla The Isle na PC. ESP wallhack, radar hack i Aimbot z konserwacją Easy Anti-Cheat. Natychmiastowa dostawa cyfrowa.', h1: 'The Isle Hacks — Undetected ESP, Wallhack i Aimbot', intro: 'Pakiet undetected dla The Isle na Windows PC: ESP wallhack, radar i Aimbot z konserwacją Easy Anti-Cheat po każdym patchu.', imageAlt: 'Isle ESP player tags hack', gallery: 'Galeria The Isle Hacks — ESP, Aimbot i wallhack', cta2: 'Zobacz funkcje', h2a: 'Dlaczego The Isle Hacks w 2026', h2b: 'ESP wallhack, radar i Aimbot w jednej licencji', topicA: 'Idealny do czytania wrogich packów w BR i growth run.', topicB: 'Jedna licencja zamiast osobnych narzędzi.' },
-	ru: { title: 'The Isle Hacks 2026 | ESP, Wallhack и Aimbot', desc: 'Undetected читы The Isle для The Isle на PC. ESP wallhack, radar hack и Aimbot с обслуживанием Easy Anti-Cheat. Мгновенная цифровая доставка.', h1: 'The Isle Hacks — Undetected ESP, Wallhack и Aimbot', intro: 'Undetected пакет для The Isle на Windows PC: ESP wallhack, radar и Aimbot с обслуживанием Easy Anti-Cheat после патчей.', imageAlt: 'Isle ESP — теги игроков hack', gallery: 'Галерея The Isle Hacks — ESP, Aimbot и wallhack', cta2: 'Смотреть функции', h2a: 'Почему выбирают The Isle Hacks в 2026', h2b: 'ESP wallhack, radar и Aimbot в одной лицензии', topicA: 'Идеально для чтения вражеских отрядов в BR и growth run.', topicB: 'Одна лицензия вместо отдельных инструментов.' },
-	tr: { title: 'The Isle Hacks 2026 | ESP, Wallhack ve Aimbot', desc: 'The Isle için undetected hileler. ESP wallhack, radar hack ve Aimbot — Easy Anti-Cheat bakımı. Anında dijital teslimat.', h1: 'The Isle Hacks — Undetected ESP, Wallhack ve Aimbot', intro: 'The Isle Windows PC undetected paketi: ESP wallhack, radar ve Aimbot — Easy Anti-Cheat bakımı dahil.', imageAlt: 'Isle ESP player tags hack', gallery: 'The Isle Hacks galeri — ESP, Aimbot ve wallhack', cta2: 'Özellikleri gör', h2a: '2026\'da neden The Isle Hacks', h2b: 'ESP wallhack, radar ve Aimbot tek lisans', topicA: 'BR ve growth run\'da düşman pack okumak için ideal.', topicB: 'Ayrı araçlar yerine tek lisans.' },
-	ar: { title: 'The Isle Hacks 2026 | ESP وWallhack وAimbot', desc: 'غش The Isle undetected لـ The Isle على PC. ESP wallhack ورadar hack وAimbot مع صيانة Easy Anti-Cheat. تسليم رقمي فوري.', h1: 'The Isle Hacks — ESP وWallhack وAimbot غير مكتشف', intro: 'حزمة undetected لـ The Isle على Windows PC: ESP wallhack ورadar وAimbot مع صيانة Easy Anti-Cheat.', imageAlt: 'Isle ESP player tags hack', gallery: 'معرض The Isle Hacks — ESP وAimbot وwallhack', cta2: 'عرض الميزات', h2a: 'لماذا The Isle Hacks في 2026', h2b: 'ESP wallhack ورadar وAimbot في ترخيص واحد', topicA: 'مثالي لقراءة فرق العدو في BR وgrowth run.', topicB: 'ترخيص واحد بدلاً من أدوات منفصلة.' },
-	ja: { title: 'The Isle Hacks 2026 | ESP・Wallhack・Aimbot', desc: 'The Isle向けundetectedチート。ESP wallhack、radar hack、Aimbot、Easy Anti-Cheatメンテナンス。即時デジタル配信。', h1: 'The Isle Hacks — Undetected ESP・Wallhack・Aimbot', intro: 'The Isle Windows PC向けundetectedパッケージ：ESP wallhack、radar、Aimbot、Easy Anti-Cheatメンテナンス付き。', imageAlt: 'the isle hacks hero ESP aimbot wallhack', gallery: 'The Isle Hacksギャラリー — ESP、Aimbot、wallhack', cta2: '機能を見る', h2a: '2026年にThe Isle Hacksを選ぶ理由', h2b: 'ESP wallhack、radar、Aimbotが1ライセンス', topicA: 'BRとgrowth runで敵スクワッドを読むのに最適。', topicB: '別ツールではなく1ライセンス。' },
-	ko: { title: 'The Isle Hacks 2026 | ESP, Wallhack, Aimbot', desc: 'The Isle undetected 치트. ESP wallhack, radar hack, Aimbot, Easy Anti-Cheat 유지보수. 즉시 디지털 배송.', h1: 'The Isle Hacks — Undetected ESP, Wallhack, Aimbot', intro: 'The Isle Windows PC undetected 패키지: ESP wallhack, radar, Aimbot, Easy Anti-Cheat 유지보수 포함.', imageAlt: 'the isle hacks hero ESP aimbot wallhack', gallery: 'The Isle Hacks 갤러리 — ESP, Aimbot, wallhack', cta2: '기능 보기', h2a: '2026년 The Isle Hacks를 선택하는 이유', h2b: 'ESP wallhack, radar, Aimbot 단일 라이선스', topicA: 'BR 및 growth run에서 적 분대 읽기에 이상적.', topicB: '별도 도구 대신 단일 라이선스.' },
-	zh: { title: 'The Isle Hacks 2026 | ESP、Wallhack、Aimbot', desc: 'The Isle undetected作弊。ESP wallhack、radar hack、Aimbot、Easy Anti-Cheat维护。即时数字交付。', h1: 'The Isle Hacks — Undetected ESP、Wallhack、Aimbot', intro: 'The Isle Windows PC undetected套餐：ESP wallhack、radar、Aimbot，含Easy Anti-Cheat维护。', imageAlt: 'the isle hacks hero ESP aimbot wallhack', gallery: 'The Isle Hacks图库 — ESP、Aimbot、wallhack', cta2: '查看功能', h2a: '2026年选择The Isle Hacks的原因', h2b: 'ESP wallhack、radar、Aimbot单一许可证', topicA: '适合在BR和growth run中读取敌方小队。', topicB: '一个许可证而非多个工具。' },
-	hi: { title: 'The Isle Hacks 2026 | ESP, Wallhack और Aimbot', desc: 'The Isle undetected cheats. ESP wallhack, radar hack, Aimbot, Easy Anti-Cheat maintenance. Instant digital delivery.', h1: 'The Isle Hacks — Undetected ESP, Wallhack और Aimbot', intro: 'The Isle Windows PC undetected पैकेज: ESP wallhack, radar, Aimbot, Easy Anti-Cheat maintenance सहित.', imageAlt: 'the isle hacks hero ESP aimbot wallhack', gallery: 'The Isle Hacks gallery — ESP, Aimbot, wallhack', cta2: 'फ़ीचर्स देखें', h2a: '2026 में The Isle Hacks क्यों', h2b: 'ESP wallhack, radar, Aimbot एक लाइसेंस में', topicA: 'BR और growth run में दुश्मन pack पढ़ने के लिए आदर्श.', topicB: 'अलग टूल्स के बजाय एक लाइसेंस.' },
-	id: { title: 'The Isle Hacks 2026 | ESP, Wallhack & Aimbot', desc: 'Cheat The Isle undetected untuk The Isle di PC. ESP wallhack, radar hack, Aimbot, pemeliharaan Easy Anti-Cheat. Pengiriman digital instan.', h1: 'The Isle Hacks — Undetected ESP, Wallhack & Aimbot', intro: 'Paket undetected The Isle di Windows PC: ESP wallhack, radar, Aimbot dengan pemeliharaan Easy Anti-Cheat.', imageAlt: 'Isle ESP player tags hack', gallery: 'Galeri The Isle Hacks — ESP, Aimbot, wallhack', cta2: 'Lihat fitur', h2a: 'Mengapa The Isle Hacks di 2026', h2b: 'ESP wallhack, radar, Aimbot dalam satu lisensi', topicA: 'Ideal membaca pack musuh di BR dan growth run.', topicB: 'Satu lisensi alih-alih alat terpisah.' },
-	th: { title: 'The Isle Hacks 2026 | ESP, Wallhack และ Aimbot', desc: 'Cheat The Isle undetected สำหรับ The Isle บน PC. ESP wallhack, radar hack, Aimbot, Easy Anti-Cheat maintenance. จัดส่งดิจิทัลทันที.', h1: 'The Isle Hacks — Undetected ESP, Wallhack และ Aimbot', intro: 'แพ็ก undetected สำหรับ The Isle บน Windows PC: ESP wallhack, radar, Aimbot พร้อม Easy Anti-Cheat maintenance', imageAlt: 'Isle ESP player tags hack', gallery: 'แกลเลอรี The Isle Hacks — ESP, Aimbot, wallhack', cta2: 'ดูฟีเจอร์', h2a: 'ทำไมเลือก The Isle Hacks ปี 2026', h2b: 'ESP wallhack, radar, Aimbot ในใบอนุญาตเดียว', topicA: 'เหมาะสำหรับอ่าน pack ศัตรูใน BR และ growth run', topicB: 'ใบอนุญาตเดียวแทนเครื่องมือแยก' },
-	vi: { title: 'The Isle Hacks 2026 | ESP, Wallhack & Aimbot', desc: 'Cheat The Isle undetected cho The Isle trên PC. ESP wallhack, radar hack, Aimbot, bảo trì Easy Anti-Cheat. Giao hàng kỹ thuật số tức thì.', h1: 'The Isle Hacks — Undetected ESP, Wallhack & Aimbot', intro: 'Gói undetected The Isle trên Windows PC: ESP wallhack, radar, Aimbot với bảo trì Easy Anti-Cheat.', imageAlt: 'Isle ESP player tags hack', gallery: 'Thư viện The Isle Hacks — ESP, Aimbot, wallhack', cta2: 'Xem tính năng', h2a: 'Vì sao chọn The Isle Hacks 2026', h2b: 'ESP wallhack, radar, Aimbot trong một giấy phép', topicA: 'Lý tưởng đọc pack địch trong BR và growth run.', topicB: 'Một giấy phép thay vì công cụ riêng.' },
-	uk: { title: 'The Isle Hacks 2026 | ESP, Wallhack і Aimbot', desc: 'Undetected чіти The Isle для The Isle на PC. ESP wallhack, radar hack, Aimbot, обслуговування Easy Anti-Cheat. Мгновенная цифровая доставка.', h1: 'The Isle Hacks — Undetected ESP, Wallhack і Aimbot', intro: 'Undetected пакет для The Isle на Windows PC: ESP wallhack, radar, Aimbot з обслуговуванням Easy Anti-Cheat.', imageAlt: 'Isle ESP player tags hack', gallery: 'Галерея The Isle Hacks — ESP, Aimbot, wallhack', cta2: 'Дивитися функції', h2a: 'Чому The Isle Hacks у 2026', h2b: 'ESP wallhack, radar і Aimbot в одній ліцензії', topicA: 'Ідеально для читання ворожих загонів у BR і growth run.', topicB: 'Одна ліцензія замість окремих інструментів.' },
-	cs: { title: 'The Isle Hacks 2026 | ESP, Wallhack a Aimbot', desc: 'Undetected the isle hacky pro The Isle na PC. ESP wallhack, radar hack, Aimbot, údržba Easy Anti-Cheat. Okamžité digitální doručení.', h1: 'The Isle Hacks — Undetected ESP, Wallhack a Aimbot', intro: 'Undetected balíček pro The Isle na Windows PC: ESP wallhack, radar, Aimbot s údržbou Easy Anti-Cheat.', imageAlt: 'Isle ESP player tags hack', gallery: 'Galerie The Isle Hacks — ESP, Aimbot, wallhack', cta2: 'Zobrazit funkce', h2a: 'Proč The Isle Hacks v roce 2026', h2b: 'ESP wallhack, radar a Aimbot v jedné licenci', topicA: 'Ideální pro čtení nepřátelských packů v BR a growth run.', topicB: 'Jedna licence místo samostatných nástrojů.' },
-	ro: { title: 'The Isle Hacks 2026 | ESP, Wallhack și Aimbot', desc: 'Cheats The Isle undetected pentru The Isle pe PC. ESP wallhack, radar hack, Aimbot, mentenanță Easy Anti-Cheat. Livrare digitală instantă.', h1: 'The Isle Hacks — Undetected ESP, Wallhack și Aimbot', intro: 'Pachet undetected The Isle pe Windows PC: ESP wallhack, radar, Aimbot cu mentenanță Easy Anti-Cheat.', imageAlt: 'Isle ESP player tags hack', gallery: 'Galerie The Isle Hacks — ESP, Aimbot, wallhack', cta2: 'Vezi funcții', h2a: 'De ce The Isle Hacks în 2026', h2b: 'ESP wallhack, radar și Aimbot într-o licență', topicA: 'Ideal pentru citirea pack-urilor inamice în BR și growth run.', topicB: 'O licență în loc de instrumente separate.' },
-	sv: { title: 'The Isle Hacks 2026 | ESP, Wallhack & Aimbot', desc: 'Undetected the isle hacks för The Isle på PC. ESP wallhack, radar hack, Aimbot, Easy Anti-Cheat-underhåll. Omedelbar digital leverans.', h1: 'The Isle Hacks — Undetected ESP, Wallhack & Aimbot', intro: 'Undetected paket för The Isle på Windows PC: ESP wallhack, radar, Aimbot med Easy Anti-Cheat-underhåll.', imageAlt: 'Isle ESP player tags hack', gallery: 'The Isle Hacks galleri — ESP, Aimbot, wallhack', cta2: 'Se funktioner', h2a: 'Varför The Isle Hacks 2026', h2b: 'ESP wallhack, radar och Aimbot i en licens', topicA: 'Ideal för att läsa fiendepacks i BR och growth run.', topicB: 'En licens istället för separata verktyg.' },
+	es: { title: 'Rust Cheats 2026 | ESP, Wallhack y Aimbot', desc: 'Trucos Rust indetectables para Rust en PC. ESP wallhack, radar hack y Aimbot con mantenimiento Easy Anti-Cheat. Entrega digital instantánea.', h1: 'Rust Cheats — ESP, Wallhack y Aimbot indetectables', intro: 'Paquete undetected para Rust en Windows PC: ESP wallhack, radar y Aimbot con mantenimiento Easy Anti-Cheat tras cada parche.', imageAlt: 'Rust ESP — etiquetas de jugador hack', gallery: 'Galería Rust Cheats — ESP, Aimbot y wallhack', cta2: 'Ver funciones', h2a: 'Por qué eligen Rust Cheats en 2026', h2b: 'ESP wallhack, radar y Aimbot en una licencia', topicA: 'Ideal para leer escuadrones enemigos en BR y farming run.', topicB: 'Una licencia en lugar de herramientas separadas.' },
+	fr: { title: 'Rust Cheats 2026 | ESP, Wallhack et Aimbot', desc: 'Triches Rust indétectables pour Rust sur PC. ESP wallhack, radar hack et Aimbot avec maintenance Easy Anti-Cheat. Livraison numérique instantanée.', h1: 'Rust Cheats — ESP, Wallhack et Aimbot indétectables', intro: 'Pack undetected pour Rust sur PC Windows : ESP wallhack, radar et Aimbot avec maintenance Easy Anti-Cheat après chaque patch.', imageAlt: 'Rust ESP — tags joueur hack', gallery: 'Galerie Rust Cheats — ESP, Aimbot et wallhack', cta2: 'Voir les fonctions', h2a: 'Pourquoi choisir Rust Cheats en 2026', h2b: 'ESP wallhack, radar et Aimbot en une licence', topicA: 'Parfait pour lire les escouades ennemies en BR et farming run.', topicB: 'Une licence au lieu d\'outils séparés.' },
+	de: { title: 'Rust Cheats 2026 | ESP, Wallhack & Aimbot', desc: 'Undetected Rust Cheats für Rust auf PC. ESP Wallhack, Radar Hack und Aimbot mit Easy Anti-Cheat-Wartung. Sofortige digitale Lieferung.', h1: 'Rust Cheats — Undetected ESP, Wallhack und Aimbot', intro: 'Undetected Windows PC Paket für Rust: ESP Wallhack, Radar und Aimbot mit Easy Anti-Cheat-Wartung nach jedem Patch.', imageAlt: 'Rust ESP — Spieler-Tags Hack', gallery: 'Rust Cheats Galerie — ESP, Aimbot und Wallhack', cta2: 'Features ansehen', h2a: 'Warum Rust Cheats 2026 führt', h2b: 'ESP Wallhack, Radar und Aimbot in einer Lizenz', topicA: 'Ideal um feindliche Squads in BR und farming run zu lesen.', topicB: 'Eine Lizenz statt separater Tools.' },
+	pt: { title: 'Rust Cheats 2026 | ESP, Wallhack e Aimbot', desc: 'Cheats Rust indetectáveis para Rust no PC. ESP wallhack, radar hack e Aimbot com manutenção Easy Anti-Cheat. Entrega digital instantánea.', h1: 'Rust Cheats — ESP, Wallhack e Aimbot indetectáveis', intro: 'Pacote undetected para Rust no Windows PC: ESP wallhack, radar e Aimbot com manutenção Easy Anti-Cheat após cada patch.', imageAlt: 'Rust ESP player tags hack', gallery: 'Galeria Rust Cheats — ESP, Aimbot e wallhack', cta2: 'Ver recursos', h2a: 'Por que escolher Rust Cheats em 2026', h2b: 'ESP wallhack, radar e Aimbot numa licença', topicA: 'Ideal para ler epackrões inimigos em BR e farming run.', topicB: 'Uma licença em vez de ferramentas separadas.' },
+	it: { title: 'Rust Cheats 2026 | ESP, Wallhack e Aimbot', desc: 'Cheat Rust indetectable per Rust su PC. ESP wallhack, radar hack e Aimbot con manutenzione Easy Anti-Cheat. Consegna digitale istantanea.', h1: 'Rust Cheats — ESP, Wallhack e Aimbot indetectable', intro: 'Pacchetto undetected per Rust su PC Windows: ESP wallhack, radar e Aimbot con manutenzione Easy Anti-Cheat dopo ogni patch.', imageAlt: 'Rust ESP player tags hack', gallery: 'Galleria Rust Cheats — ESP, Aimbot e wallhack', cta2: 'Vedi funzioni', h2a: 'Perché scegliere Rust Cheats nel 2026', h2b: 'ESP wallhack, radar e Aimbot in una licenza', topicA: 'Ideale per leggere packre nemiche in BR e farming run.', topicB: 'Una licenza invece di tool separati.' },
+	nl: { title: 'Rust Cheats 2026 | ESP, Wallhack & Aimbot', desc: 'Undetected rust cheats voor Rust op PC. ESP wallhack, radar hack en Aimbot met Easy Anti-Cheat-onderhoud. Directe digitale levering.', h1: 'Rust Cheats — Undetected ESP, Wallhack & Aimbot', intro: 'Undetected Windows PC pakket voor Rust: ESP wallhack, radar en Aimbot met Easy Anti-Cheat-onderhoud na elke patch.', imageAlt: 'Rust ESP player tags hack', gallery: 'Rust Cheats galerij — ESP, Aimbot en wallhack', cta2: 'Bekijk functies', h2a: 'Waarom Rust Cheats in 2026', h2b: 'ESP wallhack, radar en Aimbot in één licentie', topicA: 'Ideaal om vijandelijke packs te lezen in BR en farming run.', topicB: 'Eén licentie in plaats van losse tools.' },
+	pl: { title: 'Rust Cheats 2026 | ESP, Wallhack i Aimbot', desc: 'Undetected cheaty Rust dla Rust na PC. ESP wallhack, radar hack i Aimbot z konserwacją Easy Anti-Cheat. Natychmiastowa dostawa cyfrowa.', h1: 'Rust Cheats — Undetected ESP, Wallhack i Aimbot', intro: 'Pakiet undetected dla Rust na Windows PC: ESP wallhack, radar i Aimbot z konserwacją Easy Anti-Cheat po każdym patchu.', imageAlt: 'Rust ESP player tags hack', gallery: 'Galeria Rust Cheats — ESP, Aimbot i wallhack', cta2: 'Zobacz funkcje', h2a: 'Dlaczego Rust Cheats w 2026', h2b: 'ESP wallhack, radar i Aimbot w jednej licencji', topicA: 'Idealny do czytania wrogich packów w BR i farming run.', topicB: 'Jedna licencja zamiast osobnych narzędzi.' },
+	ru: { title: 'Rust Cheats 2026 | ESP, Wallhack и Aimbot', desc: 'Undetected читы Rust для Rust на PC. ESP wallhack, radar hack и Aimbot с обслуживанием Easy Anti-Cheat. Мгновенная цифровая доставка.', h1: 'Rust Cheats — Undetected ESP, Wallhack и Aimbot', intro: 'Undetected пакет для Rust на Windows PC: ESP wallhack, radar и Aimbot с обслуживанием Easy Anti-Cheat после патчей.', imageAlt: 'Rust ESP — теги игроков hack', gallery: 'Галерея Rust Cheats — ESP, Aimbot и wallhack', cta2: 'Смотреть функции', h2a: 'Почему выбирают Rust Cheats в 2026', h2b: 'ESP wallhack, radar и Aimbot в одной лицензии', topicA: 'Идеально для чтения вражеских отрядов в BR и farming run.', topicB: 'Одна лицензия вместо отдельных инструментов.' },
+	tr: { title: 'Rust Cheats 2026 | ESP, Wallhack ve Aimbot', desc: 'Rust için undetected hileler. ESP wallhack, radar hack ve Aimbot — Easy Anti-Cheat bakımı. Anında dijital teslimat.', h1: 'Rust Cheats — Undetected ESP, Wallhack ve Aimbot', intro: 'Rust Windows PC undetected paketi: ESP wallhack, radar ve Aimbot — Easy Anti-Cheat bakımı dahil.', imageAlt: 'Rust ESP player tags hack', gallery: 'Rust Cheats galeri — ESP, Aimbot ve wallhack', cta2: 'Özellikleri gör', h2a: '2026\'da neden Rust Cheats', h2b: 'ESP wallhack, radar ve Aimbot tek lisans', topicA: 'BR ve farming run\'da düşman pack okumak için ideal.', topicB: 'Ayrı araçlar yerine tek lisans.' },
+	ar: { title: 'Rust Cheats 2026 | ESP وWallhack وAimbot', desc: 'غش Rust undetected لـ Rust على PC. ESP wallhack ورadar hack وAimbot مع صيانة Easy Anti-Cheat. تسليم رقمي فوري.', h1: 'Rust Cheats — ESP وWallhack وAimbot غير مكتشف', intro: 'حزمة undetected لـ Rust على Windows PC: ESP wallhack ورadar وAimbot مع صيانة Easy Anti-Cheat.', imageAlt: 'Rust ESP player tags hack', gallery: 'معرض Rust Cheats — ESP وAimbot وwallhack', cta2: 'عرض الميزات', h2a: 'لماذا Rust Cheats في 2026', h2b: 'ESP wallhack ورadar وAimbot في ترخيص واحد', topicA: 'مثالي لقراءة فرق العدو في BR وfarming run.', topicB: 'ترخيص واحد بدلاً من أدوات منفصلة.' },
+	ja: { title: 'Rust Cheats 2026 | ESP・Wallhack・Aimbot', desc: 'Rust向けundetectedチート。ESP wallhack、radar hack、Aimbot、Easy Anti-Cheatメンテナンス。即時デジタル配信。', h1: 'Rust Cheats — Undetected ESP・Wallhack・Aimbot', intro: 'Rust Windows PC向けundetectedパッケージ：ESP wallhack、radar、Aimbot、Easy Anti-Cheatメンテナンス付き。', imageAlt: 'rust cheats hero ESP aimbot wallhack', gallery: 'Rust Cheatsギャラリー — ESP、Aimbot、wallhack', cta2: '機能を見る', h2a: '2026年にRust Cheatsを選ぶ理由', h2b: 'ESP wallhack、radar、Aimbotが1ライセンス', topicA: 'BRとfarming runで敵スクワッドを読むのに最適。', topicB: '別ツールではなく1ライセンス。' },
+	ko: { title: 'Rust Cheats 2026 | ESP, Wallhack, Aimbot', desc: 'Rust undetected 치트. ESP wallhack, radar hack, Aimbot, Easy Anti-Cheat 유지보수. 즉시 디지털 배송.', h1: 'Rust Cheats — Undetected ESP, Wallhack, Aimbot', intro: 'Rust Windows PC undetected 패키지: ESP wallhack, radar, Aimbot, Easy Anti-Cheat 유지보수 포함.', imageAlt: 'rust cheats hero ESP aimbot wallhack', gallery: 'Rust Cheats 갤러리 — ESP, Aimbot, wallhack', cta2: '기능 보기', h2a: '2026년 Rust Cheats를 선택하는 이유', h2b: 'ESP wallhack, radar, Aimbot 단일 라이선스', topicA: 'BR 및 farming run에서 적 분대 읽기에 이상적.', topicB: '별도 도구 대신 단일 라이선스.' },
+	zh: { title: 'Rust Cheats 2026 | ESP、Wallhack、Aimbot', desc: 'Rust undetected作弊。ESP wallhack、radar hack、Aimbot、Easy Anti-Cheat维护。即时数字交付。', h1: 'Rust Cheats — Undetected ESP、Wallhack、Aimbot', intro: 'Rust Windows PC undetected套餐：ESP wallhack、radar、Aimbot，含Easy Anti-Cheat维护。', imageAlt: 'rust cheats hero ESP aimbot wallhack', gallery: 'Rust Cheats图库 — ESP、Aimbot、wallhack', cta2: '查看功能', h2a: '2026年选择Rust Cheats的原因', h2b: 'ESP wallhack、radar、Aimbot单一许可证', topicA: '适合在BR和farming run中读取敌方小队。', topicB: '一个许可证而非多个工具。' },
+	hi: { title: 'Rust Cheats 2026 | ESP, Wallhack और Aimbot', desc: 'Rust undetected cheats. ESP wallhack, radar hack, Aimbot, Easy Anti-Cheat maintenance. Instant digital delivery.', h1: 'Rust Cheats — Undetected ESP, Wallhack और Aimbot', intro: 'Rust Windows PC undetected पैकेज: ESP wallhack, radar, Aimbot, Easy Anti-Cheat maintenance सहित.', imageAlt: 'rust cheats hero ESP aimbot wallhack', gallery: 'Rust Cheats gallery — ESP, Aimbot, wallhack', cta2: 'फ़ीचर्स देखें', h2a: '2026 में Rust Cheats क्यों', h2b: 'ESP wallhack, radar, Aimbot एक लाइसेंस में', topicA: 'BR और farming run में दुश्मन pack पढ़ने के लिए आदर्श.', topicB: 'अलग टूल्स के बजाय एक लाइसेंस.' },
+	id: { title: 'Rust Cheats 2026 | ESP, Wallhack & Aimbot', desc: 'Cheat Rust undetected untuk Rust di PC. ESP wallhack, radar hack, Aimbot, pemeliharaan Easy Anti-Cheat. Pengiriman digital instan.', h1: 'Rust Cheats — Undetected ESP, Wallhack & Aimbot', intro: 'Paket undetected Rust di Windows PC: ESP wallhack, radar, Aimbot dengan pemeliharaan Easy Anti-Cheat.', imageAlt: 'Rust ESP player tags hack', gallery: 'Galeri Rust Cheats — ESP, Aimbot, wallhack', cta2: 'Lihat fitur', h2a: 'Mengapa Rust Cheats di 2026', h2b: 'ESP wallhack, radar, Aimbot dalam satu lisensi', topicA: 'Ideal membaca pack musuh di BR dan farming run.', topicB: 'Satu lisensi alih-alih alat terpisah.' },
+	th: { title: 'Rust Cheats 2026 | ESP, Wallhack และ Aimbot', desc: 'Cheat Rust undetected สำหรับ Rust บน PC. ESP wallhack, radar hack, Aimbot, Easy Anti-Cheat maintenance. จัดส่งดิจิทัลทันที.', h1: 'Rust Cheats — Undetected ESP, Wallhack และ Aimbot', intro: 'แพ็ก undetected สำหรับ Rust บน Windows PC: ESP wallhack, radar, Aimbot พร้อม Easy Anti-Cheat maintenance', imageAlt: 'Rust ESP player tags hack', gallery: 'แกลเลอรี Rust Cheats — ESP, Aimbot, wallhack', cta2: 'ดูฟีเจอร์', h2a: 'ทำไมเลือก Rust Cheats ปี 2026', h2b: 'ESP wallhack, radar, Aimbot ในใบอนุญาตเดียว', topicA: 'เหมาะสำหรับอ่าน pack ศัตรูใน BR และ farming run', topicB: 'ใบอนุญาตเดียวแทนเครื่องมือแยก' },
+	vi: { title: 'Rust Cheats 2026 | ESP, Wallhack & Aimbot', desc: 'Cheat Rust undetected cho Rust trên PC. ESP wallhack, radar hack, Aimbot, bảo trì Easy Anti-Cheat. Giao hàng kỹ thuật số tức thì.', h1: 'Rust Cheats — Undetected ESP, Wallhack & Aimbot', intro: 'Gói undetected Rust trên Windows PC: ESP wallhack, radar, Aimbot với bảo trì Easy Anti-Cheat.', imageAlt: 'Rust ESP player tags hack', gallery: 'Thư viện Rust Cheats — ESP, Aimbot, wallhack', cta2: 'Xem tính năng', h2a: 'Vì sao chọn Rust Cheats 2026', h2b: 'ESP wallhack, radar, Aimbot trong một giấy phép', topicA: 'Lý tưởng đọc pack địch trong BR và farming run.', topicB: 'Một giấy phép thay vì công cụ riêng.' },
+	uk: { title: 'Rust Cheats 2026 | ESP, Wallhack і Aimbot', desc: 'Undetected чіти Rust для Rust на PC. ESP wallhack, radar hack, Aimbot, обслуговування Easy Anti-Cheat. Мгновенная цифровая доставка.', h1: 'Rust Cheats — Undetected ESP, Wallhack і Aimbot', intro: 'Undetected пакет для Rust на Windows PC: ESP wallhack, radar, Aimbot з обслуговуванням Easy Anti-Cheat.', imageAlt: 'Rust ESP player tags hack', gallery: 'Галерея Rust Cheats — ESP, Aimbot, wallhack', cta2: 'Дивитися функції', h2a: 'Чому Rust Cheats у 2026', h2b: 'ESP wallhack, radar і Aimbot в одній ліцензії', topicA: 'Ідеально для читання ворожих загонів у BR і farming run.', topicB: 'Одна ліцензія замість окремих інструментів.' },
+	cs: { title: 'Rust Cheats 2026 | ESP, Wallhack a Aimbot', desc: 'Undetected rust cheaty pro Rust na PC. ESP wallhack, radar hack, Aimbot, údržba Easy Anti-Cheat. Okamžité digitální doručení.', h1: 'Rust Cheats — Undetected ESP, Wallhack a Aimbot', intro: 'Undetected balíček pro Rust na Windows PC: ESP wallhack, radar, Aimbot s údržbou Easy Anti-Cheat.', imageAlt: 'Rust ESP player tags hack', gallery: 'Galerie Rust Cheats — ESP, Aimbot, wallhack', cta2: 'Zobrazit funkce', h2a: 'Proč Rust Cheats v roce 2026', h2b: 'ESP wallhack, radar a Aimbot v jedné licenci', topicA: 'Ideální pro čtení nepřátelských packů v BR a farming run.', topicB: 'Jedna licence místo samostatných nástrojů.' },
+	ro: { title: 'Rust Cheats 2026 | ESP, Wallhack și Aimbot', desc: 'Cheats Rust undetected pentru Rust pe PC. ESP wallhack, radar hack, Aimbot, mentenanță Easy Anti-Cheat. Livrare digitală instantă.', h1: 'Rust Cheats — Undetected ESP, Wallhack și Aimbot', intro: 'Pachet undetected Rust pe Windows PC: ESP wallhack, radar, Aimbot cu mentenanță Easy Anti-Cheat.', imageAlt: 'Rust ESP player tags hack', gallery: 'Galerie Rust Cheats — ESP, Aimbot, wallhack', cta2: 'Vezi funcții', h2a: 'De ce Rust Cheats în 2026', h2b: 'ESP wallhack, radar și Aimbot într-o licență', topicA: 'Ideal pentru citirea pack-urilor inamice în BR și farming run.', topicB: 'O licență în loc de instrumente separate.' },
+	sv: { title: 'Rust Cheats 2026 | ESP, Wallhack & Aimbot', desc: 'Undetected rust cheats för Rust på PC. ESP wallhack, radar hack, Aimbot, Easy Anti-Cheat-underhåll. Omedelbar digital leverans.', h1: 'Rust Cheats — Undetected ESP, Wallhack & Aimbot', intro: 'Undetected paket för Rust på Windows PC: ESP wallhack, radar, Aimbot med Easy Anti-Cheat-underhåll.', imageAlt: 'Rust ESP player tags hack', gallery: 'Rust Cheats galleri — ESP, Aimbot, wallhack', cta2: 'Se funktioner', h2a: 'Varför Rust Cheats 2026', h2b: 'ESP wallhack, radar och Aimbot i en licens', topicA: 'Ideal för att läsa fiendepacks i BR och farming run.', topicB: 'En licens istället för separata verktyg.' },
 };
 
 function buildHome(locale) {
@@ -52,8 +52,8 @@ function buildHome(locale) {
 
 /** Unique title/desc tails per page — English base + locale overrides for hero H1/subtitle. */
 const PAGE_META_TAILS = {
-	'isle-esp': { suffix: 'Player Boxes & Wallhack', focus: 'player boxes, carcass markers, and wallhack overlays', altKeyword: 'ESP wallhack overlay' },
-	'isle-aimbot': { suffix: 'Soft Aim Controls', focus: 'soft aim, FOV, and per-species Aimbot profiles', altKeyword: 'aimbot combat' },
+	'rust-esp': { suffix: 'Player Boxes & Wallhack', focus: 'player boxes, loot markers, and wallhack overlays', altKeyword: 'ESP wallhack overlay' },
+	'rust-aimbot': { suffix: 'Soft Aim Controls', focus: 'soft aim, FOV, and per-weapon Aimbot profiles', altKeyword: 'aimbot combat' },
 	features: { suffix: 'Full Feature List', focus: 'ESP, soft aim, radar controls', altKeyword: 'cheats package ESP aimbot' },
 	pricing: { suffix: 'Monthly & Lifetime', focus: '$35 monthly or $150 lifetime licenses', altKeyword: 'cheats pricing' },
 	setup: { suffix: 'PC Setup Guide', focus: 'Windows PC activation and first-launch setup', altKeyword: 'setup PC activation' },
@@ -61,25 +61,25 @@ const PAGE_META_TAILS = {
 	faq: { suffix: 'Common Answers', focus: 'ESP, soft aim, delivery, and Easy Anti-Cheat questions', altKeyword: 'FAQ ESP aimbot' },
 	support: { suffix: 'Help & Contact', focus: 'order help and license support contact', altKeyword: 'support license help' },
 	undetected: { suffix: 'Easy Anti-Cheat Safe Status', focus: 'undetected maintenance after Easy Anti-Cheat patches', altKeyword: 'undetected cheats ESP' },
-	wallhack: { suffix: 'ESP Visibility', focus: 'wallhack ESP for players, carcasses, and distance', altKeyword: 'wallhack ESP visibility' },
+	wallhack: { suffix: 'ESP Visibility', focus: 'wallhack ESP for players, loot, and distance', altKeyword: 'wallhack ESP visibility' },
 	radar: { suffix: '2D Threat Overlay', focus: '2D radar cues for flanks and rotations', altKeyword: 'radar hack overlay' },
-	eac: { suffix: 'Patch Maintenance', focus: 'how Easy Anti-Cheat updates are handled for The Isle hacks', altKeyword: 'Easy Anti-Cheat bypass ESP aimbot' },
-	'cheats-2026': { suffix: 'Buyer Guide', focus: '2026 the isle hacks checklist before checkout', altKeyword: 'cheats 2026 ESP aimbot' },
-	hacks: { suffix: 'ESP Aimbot Guide', focus: 'The Isle Hacks pillar for ESP and Aimbot', altKeyword: 'hacks ESP aimbot' },
+	eac: { suffix: 'Patch Maintenance', focus: 'how Easy Anti-Cheat updates are handled for Rust hacks', altKeyword: 'Easy Anti-Cheat bypass ESP aimbot' },
+	'cheats-2026': { suffix: 'Buyer Guide', focus: '2026 rust cheats checklist before checkout', altKeyword: 'cheats 2026 ESP aimbot' },
+	hacks: { suffix: 'ESP Aimbot Guide', focus: 'Rust Cheats pillar for ESP and Aimbot', altKeyword: 'hacks ESP aimbot' },
 	'cheat-download': { suffix: 'Instant Access', focus: 'digital license download after payment', altKeyword: 'cheat download ESP aimbot' },
 	'mod-menu': { suffix: 'In-Game Toggles', focus: 'in-client ESP and soft aim toggles', altKeyword: 'mod menu ESP aimbot' },
 	'soft-aim': { suffix: 'Smooth Aim Settings', focus: 'smooth soft aim settings for Windows PC', altKeyword: 'soft aim aimbot' },
-	'best-cheats': { suffix: 'Buyer Checklist', focus: 'what to compare before buying the isle hacks', altKeyword: 'best cheats ESP aimbot' },
-	'aimbot-hack': { suffix: 'Soft Aim Assist', focus: 'undetected Aimbot hack assist for The Isle', altKeyword: 'aimbot hack combat' },
-	'esp-hack': { suffix: 'Boxes & Loot', focus: 'ESP hack boxes, carcass pins, and distance', altKeyword: 'ESP hack wallhack' },
-	'unlock-all': { suffix: 'What It Means', focus: 'unlock-all searches vs real ESP and Aimbot tools', altKeyword: 'unlock all species ESP aimbot' },
+	'best-cheats': { suffix: 'Buyer Checklist', focus: 'what to compare before buying rust cheats', altKeyword: 'best cheats ESP aimbot' },
+	'aimbot-hack': { suffix: 'Soft Aim Assist', focus: 'undetected Aimbot hack assist for Rust', altKeyword: 'aimbot hack combat' },
+	'esp-hack': { suffix: 'Boxes & Loot', focus: 'ESP hack boxes, loot pins, and distance', altKeyword: 'ESP hack wallhack' },
+	'unlock-all': { suffix: 'What It Means', focus: 'unlock-all searches vs real ESP and Aimbot tools', altKeyword: 'unlock all items ESP aimbot' },
 };
 
 /** Localized H1 suffixes (title/subtitle language change on product pages). */
 const SUFFIX_I18N = {
 	es: {
-		'isle-esp': 'Cajas de jugador y wallhack',
-		'isle-aimbot': 'Controles soft aim',
+		'rust-esp': 'Cajas de jugador y wallhack',
+		'rust-aimbot': 'Controles soft aim',
 		features: 'Lista completa de funciones',
 		pricing: 'Mensual y de por vida',
 		setup: 'Guía de instalación PC',
@@ -97,12 +97,12 @@ const SUFFIX_I18N = {
 		'soft-aim': 'Ajustes soft aim',
 		'best-cheats': 'Lista de compra',
 		'aimbot-hack': 'Asistencia soft aim',
-		'esp-hack': 'Cajas y carcasses',
+		'esp-hack': 'Cajas y loot',
 		'unlock-all': 'Qué significa',
 	},
 	fr: {
-		'isle-esp': 'Boîtes joueur et wallhack',
-		'isle-aimbot': 'Contrôles soft aim',
+		'rust-esp': 'Boîtes joueur et wallhack',
+		'rust-aimbot': 'Contrôles soft aim',
 		features: 'Liste complète des fonctions',
 		pricing: 'Mensuel et à vie',
 		setup: 'Guide d\'installation PC',
@@ -120,12 +120,12 @@ const SUFFIX_I18N = {
 		'soft-aim': 'Réglages soft aim',
 		'best-cheats': 'Checklist acheteur',
 		'aimbot-hack': 'Assistance soft aim',
-		'esp-hack': 'Boîtes et carcasses',
+		'esp-hack': 'Boîtes et loot',
 		'unlock-all': 'Ce que ça signifie',
 	},
 	de: {
-		'isle-esp': 'Spielerboxen & Wallhack',
-		'isle-aimbot': 'Soft-Aim Steuerung',
+		'rust-esp': 'Spielerboxen & Wallhack',
+		'rust-aimbot': 'Soft-Aim Steuerung',
 		features: 'Vollständige Feature-Liste',
 		pricing: 'Monatlich & Lifetime',
 		setup: 'PC Setup-Anleitung',
@@ -147,8 +147,8 @@ const SUFFIX_I18N = {
 		'unlock-all': 'Was es bedeutet',
 	},
 	pt: {
-		'isle-esp': 'Caixas de jogador e wallhack',
-		'isle-aimbot': 'Controles soft aim',
+		'rust-esp': 'Caixas de jogador e wallhack',
+		'rust-aimbot': 'Controles soft aim',
 		features: 'Lista completa de recursos',
 		pricing: 'Mensal e vitalício',
 		setup: 'Guia de instalação PC',
@@ -166,12 +166,12 @@ const SUFFIX_I18N = {
 		'soft-aim': 'Ajustes soft aim',
 		'best-cheats': 'Checklist do comprador',
 		'aimbot-hack': 'Assistência soft aim',
-		'esp-hack': 'Caixas e carcasses',
+		'esp-hack': 'Caixas e loot',
 		'unlock-all': 'O que significa',
 	},
 	it: {
-		'isle-esp': 'Box giocatore e wallhack',
-		'isle-aimbot': 'Controlli soft aim',
+		'rust-esp': 'Box giocatore e wallhack',
+		'rust-aimbot': 'Controlli soft aim',
 		features: 'Elenco completo funzioni',
 		pricing: 'Mensile e lifetime',
 		setup: 'Guida setup PC',
@@ -189,12 +189,12 @@ const SUFFIX_I18N = {
 		'soft-aim': 'Impostazioni soft aim',
 		'best-cheats': 'Checklist acquirente',
 		'aimbot-hack': 'Assist soft aim',
-		'esp-hack': 'Box e carcasses',
+		'esp-hack': 'Box e loot',
 		'unlock-all': 'Cosa significa',
 	},
 	ru: {
-		'isle-esp': 'Боксы игроков и wallhack',
-		'isle-aimbot': 'Управление soft aim',
+		'rust-esp': 'Боксы игроков и wallhack',
+		'rust-aimbot': 'Управление soft aim',
 		features: 'Полный список функций',
 		pricing: 'Месяц и lifetime',
 		setup: 'Гайд по установке',
@@ -220,7 +220,7 @@ const SUFFIX_I18N = {
 function productPage(locale, pageKey, topicName, cta2href) {
 	const p = phrases[locale];
 	const home = PAGE_META_HOME[locale];
-	const meta = PAGE_META_TAILS[pageKey] ?? { suffix: 'The Isle Hacks', focus: 'ESP wallhack, radar, and Aimbot', altKeyword: 'ESP aimbot wallhack' };
+	const meta = PAGE_META_TAILS[pageKey] ?? { suffix: 'Rust Cheats', focus: 'ESP wallhack, radar, and Aimbot', altKeyword: 'ESP aimbot wallhack' };
 	const focus = FOCUS_I18N[locale]?.[pageKey] ?? meta.focus;
 	const suffix = SUFFIX_I18N[locale]?.[pageKey] ?? meta.suffix;
 	const titleBase = `${topicName} | ${suffix}`;
@@ -231,7 +231,7 @@ function productPage(locale, pageKey, topicName, cta2href) {
 		),
 		h1: topicName,
 		intro: p.s1(`${topicName}.`),
-		imageAlt: PAGE_IMAGE_ALTS[pageKey] || `${topicName} — The Isle Hacks screenshot`,
+		imageAlt: PAGE_IMAGE_ALTS[pageKey] || `${topicName} — Rust Cheats screenshot`,
 		galleryTitle: topicName,
 		heroImage: HERO_IMAGES[pageKey],
 		ctaPrimary: p.buy,
@@ -246,8 +246,8 @@ function productPage(locale, pageKey, topicName, cta2href) {
 }
 
 const TOPIC_NAMES = {
-	'isle-esp': { en: 'Isle ESP', es: 'ESP The Isle', fr: 'ESP The Isle', de: 'Isle ESP', pt: 'ESP The Isle', it: 'ESP The Isle', nl: 'Isle ESP', pl: 'ESP The Isle', ru: 'ESP The Isle', tr: 'Isle ESP', ar: 'ESP The Isle', ja: 'Isle ESP', ko: 'Isle ESP', zh: 'Isle ESP', hi: 'Isle ESP', id: 'ESP The Isle', th: 'Isle ESP', vi: 'ESP The Isle', uk: 'ESP The Isle', cs: 'Isle ESP', ro: 'ESP The Isle', sv: 'Isle ESP' },
-	'isle-aimbot': { en: 'Isle Aimbot', es: 'Aimbot The Isle', fr: 'Aimbot The Isle', de: 'Isle Aimbot', pt: 'Aimbot The Isle', it: 'Aimbot The Isle', nl: 'Isle Aimbot', pl: 'Aimbot The Isle', ru: 'Aimbot The Isle', tr: 'Isle Aimbot', ar: 'Aimbot The Isle', ja: 'Isle Aimbot', ko: 'Isle Aimbot', zh: 'Isle Aimbot', hi: 'Isle Aimbot', id: 'Aimbot The Isle', th: 'Isle Aimbot', vi: 'Aimbot The Isle', uk: 'Aimbot The Isle', cs: 'Isle Aimbot', ro: 'Aimbot The Isle', sv: 'Isle Aimbot' },
+	'rust-esp': { en: 'Rust ESP', es: 'ESP Rust', fr: 'ESP Rust', de: 'Rust ESP', pt: 'ESP Rust', it: 'ESP Rust', nl: 'Rust ESP', pl: 'ESP Rust', ru: 'ESP Rust', tr: 'Rust ESP', ar: 'ESP Rust', ja: 'Rust ESP', ko: 'Rust ESP', zh: 'Rust ESP', hi: 'Rust ESP', id: 'ESP Rust', th: 'Rust ESP', vi: 'ESP Rust', uk: 'ESP Rust', cs: 'Rust ESP', ro: 'ESP Rust', sv: 'Rust ESP' },
+	'rust-aimbot': { en: 'Rust Aimbot', es: 'Aimbot Rust', fr: 'Aimbot Rust', de: 'Rust Aimbot', pt: 'Aimbot Rust', it: 'Aimbot Rust', nl: 'Rust Aimbot', pl: 'Aimbot Rust', ru: 'Aimbot Rust', tr: 'Rust Aimbot', ar: 'Aimbot Rust', ja: 'Rust Aimbot', ko: 'Rust Aimbot', zh: 'Rust Aimbot', hi: 'Rust Aimbot', id: 'Aimbot Rust', th: 'Rust Aimbot', vi: 'Aimbot Rust', uk: 'Aimbot Rust', cs: 'Rust Aimbot', ro: 'Aimbot Rust', sv: 'Rust Aimbot' },
 	features: { en: 'Features', es: 'Funciones', fr: 'Fonctions', de: 'Features', pt: 'Recursos', it: 'Funzioni', nl: 'Functies', pl: 'Funkcje', ru: 'Функции', tr: 'Özellikler', ar: 'الميزات', ja: '機能', ko: '기능', zh: '功能', hi: 'फ़ीचर्स', id: 'Fitur', th: 'ฟีเจอร์', vi: 'Tính năng', uk: 'Функції', cs: 'Funkce', ro: 'Funcții', sv: 'Funktioner' },
 	pricing: { en: 'Pricing', es: 'Precios', fr: 'Tarifs', de: 'Preise', pt: 'Preços', it: 'Prezzi', nl: 'Prijzen', pl: 'Cennik', ru: 'Цены', tr: 'Fiyatlar', ar: 'الأسعار', ja: '料金', ko: '가격', zh: '价格', hi: 'कीमत', id: 'Harga', th: 'ราคา', vi: 'Giá', uk: 'Ціни', cs: 'Ceny', ro: 'Prețuri', sv: 'Priser' },
 	setup: { en: 'Setup', es: 'Instalación', fr: 'Installation', de: 'Setup', pt: 'Instalação', it: 'Setup', nl: 'Setup', pl: 'Instalacja', ru: 'Установка', tr: 'Kurulum', ar: 'التثبيت', ja: 'セットアップ', ko: '설치', zh: '安装', hi: 'सेटअप', id: 'Setup', th: 'ติดตั้ง', vi: 'Cài đặt', uk: 'Встановлення', cs: 'Instalace', ro: 'Instalare', sv: 'Installation' },
@@ -255,41 +255,41 @@ const TOPIC_NAMES = {
 	faq: { en: 'FAQ', es: 'FAQ', fr: 'FAQ', de: 'FAQ', pt: 'FAQ', it: 'FAQ', nl: 'FAQ', pl: 'FAQ', ru: 'FAQ', tr: 'SSS', ar: 'الأسئلة', ja: 'FAQ', ko: 'FAQ', zh: '常见问题', hi: 'FAQ', id: 'FAQ', th: 'FAQ', vi: 'FAQ', uk: 'FAQ', cs: 'FAQ', ro: 'FAQ', sv: 'FAQ' },
 	support: { en: 'Support', es: 'Soporte', fr: 'Support', de: 'Support', pt: 'Suporte', it: 'Supporto', nl: 'Support', pl: 'Wsparcie', ru: 'Поддержка', tr: 'Destek', ar: 'الدعم', ja: 'サポート', ko: '지원', zh: '支持', hi: 'सहायता', id: 'Dukungan', th: 'สนับสนุน', vi: 'Hỗ trợ', uk: 'Підтримка', cs: 'Podpora', ro: 'Suport', sv: 'Support' },
 	undetected: { en: 'Undetected Cheats', es: 'Trucos indetectables', fr: 'Triches indétectables', de: 'Undetected Cheats', pt: 'Cheats indetectáveis', it: 'Cheat indetectable', nl: 'Undetected Cheats', pl: 'Cheaty undetected', ru: 'Undetected читы', tr: 'Undetected hileler', ar: 'غش undetected', ja: 'Undetectedチート', ko: 'Undetected 치트', zh: 'Undetected作弊', hi: 'Undetected cheats', id: 'Cheat undetected', th: 'Cheats undetected', vi: 'Cheat undetected', uk: 'Undetected чіти', cs: 'Undetected cheaty', ro: 'Cheats undetected', sv: 'Undetected cheats' },
-	wallhack: { en: 'The Isle Wallhack', es: 'The Isle Wallhack', fr: 'The Isle Wallhack', de: 'The Isle Wallhack', pt: 'The Isle Wallhack', it: 'The Isle Wallhack', nl: 'The Isle Wallhack', pl: 'The Isle Wallhack', ru: 'The Isle Wallhack', tr: 'The Isle Wallhack', ar: 'The Isle Wallhack', ja: 'The Isle Wallhack', ko: 'The Isle Wallhack', zh: 'The Isle Wallhack', hi: 'The Isle Wallhack', id: 'The Isle Wallhack', th: 'The Isle Wallhack', vi: 'The Isle Wallhack', uk: 'The Isle Wallhack', cs: 'The Isle Wallhack', ro: 'The Isle Wallhack', sv: 'The Isle Wallhack' },
+	wallhack: { en: 'Rust Wallhack', es: 'Rust Wallhack', fr: 'Rust Wallhack', de: 'Rust Wallhack', pt: 'Rust Wallhack', it: 'Rust Wallhack', nl: 'Rust Wallhack', pl: 'Rust Wallhack', ru: 'Rust Wallhack', tr: 'Rust Wallhack', ar: 'Rust Wallhack', ja: 'Rust Wallhack', ko: 'Rust Wallhack', zh: 'Rust Wallhack', hi: 'Rust Wallhack', id: 'Rust Wallhack', th: 'Rust Wallhack', vi: 'Rust Wallhack', uk: 'Rust Wallhack', cs: 'Rust Wallhack', ro: 'Rust Wallhack', sv: 'Rust Wallhack' },
 	radar: { en: 'Radar Hack', es: 'Radar hack', fr: 'Radar hack', de: 'Radar Hack', pt: 'Radar hack', it: 'Radar hack', nl: 'Radar Hack', pl: 'Radar hack', ru: 'Radar hack', tr: 'Radar hack', ar: 'Radar hack', ja: 'Radar Hack', ko: 'Radar Hack', zh: 'Radar Hack', hi: 'Radar Hack', id: 'Radar hack', th: 'Radar Hack', vi: 'Radar hack', uk: 'Radar hack', cs: 'Radar Hack', ro: 'Radar hack', sv: 'Radar Hack' },
 	eac: { en: 'Easy Anti-Cheat Bypass', es: 'Bypass Easy Anti-Cheat', fr: 'Bypass Easy Anti-Cheat', de: 'Easy Anti-Cheat Bypass', pt: 'Bypass Easy Anti-Cheat', it: 'Bypass Easy Anti-Cheat', nl: 'Easy Anti-Cheat Bypass', pl: 'Bypass Easy Anti-Cheat', ru: 'Bypass Easy Anti-Cheat', tr: 'Easy Anti-Cheat bypass', ar: 'Bypass Easy Anti-Cheat', ja: 'Easy Anti-Cheat Bypass', ko: 'Easy Anti-Cheat Bypass', zh: 'Easy Anti-Cheat Bypass', hi: 'Easy Anti-Cheat Bypass', id: 'Bypass Easy Anti-Cheat', th: 'Easy Anti-Cheat Bypass', vi: 'Bypass Easy Anti-Cheat', uk: 'Bypass Easy Anti-Cheat', cs: 'Easy Anti-Cheat Bypass', ro: 'Bypass Easy Anti-Cheat', sv: 'Easy Anti-Cheat Bypass' },
-	'cheats-2026': { en: 'The Isle Hacks 2026', es: 'Trucos The Isle 2026', fr: 'Triches The Isle 2026', de: 'The Isle Hacks 2026', pt: 'Cheats The Isle 2026', it: 'Cheat The Isle 2026', nl: 'The Isle Hacks 2026', pl: 'Cheaty The Isle 2026', ru: 'Читы The Isle 2026', tr: 'The Isle Hileleri 2026', ar: 'غش The Isle 2026', ja: 'The Isle Hacks 2026', ko: 'The Isle Hacks 2026', zh: 'The Isle作弊 2026', hi: 'The Isle Hacks 2026', id: 'Cheat The Isle 2026', th: 'The Isle Hacks 2026', vi: 'Cheat The Isle 2026', uk: 'Чіти The Isle 2026', cs: 'the isle hacky 2026', ro: 'Cheats The Isle 2026', sv: 'The Isle Hacks 2026' },
-	hacks: { en: 'The Isle Hacks', es: 'Trucos The Isle', fr: 'Triches The Isle', de: 'The Isle Hacks', pt: 'Cheats The Isle', it: 'Cheat The Isle', nl: 'The Isle Hacks', pl: 'Cheaty The Isle', ru: 'Читы The Isle', tr: 'The Isle Hileleri', ar: 'غش The Isle', ja: 'The Isle Hacks', ko: 'The Isle Hacks', zh: 'The Isle作弊', hi: 'The Isle Hacks', id: 'Cheat The Isle', th: 'The Isle Hacks', vi: 'Cheat The Isle', uk: 'Чіти The Isle', cs: 'the isle hacky', ro: 'Cheats The Isle', sv: 'The Isle Hacks' },
-	'cheat-download': { en: 'The Isle Cheat Download', es: 'Descarga The Isle Hacks', fr: 'Téléchargement The Isle Hacks', de: 'The Isle Cheat Download', pt: 'Download The Isle Hacks', it: 'Download The Isle Hacks', nl: 'The Isle Cheat Download', pl: 'Pobieranie The Isle Hacks', ru: 'Скачать The Isle Hacks', tr: 'The Isle Hile İndir', ar: 'تحميل The Isle Hacks', ja: 'The Isle Cheat Download', ko: 'The Isle Cheat Download', zh: 'The Isle作弊下载', hi: 'The Isle Cheat Download', id: 'Download Cheat The Isle', th: 'ดาวน์โหลด The Isle Hacks', vi: 'Tải Cheat The Isle', uk: 'Завантаження The Isle Hacks', cs: 'Stáhnout The Isle Hacks', ro: 'Descărcare The Isle Hacks', sv: 'The Isle Cheat Download' },
-	'mod-menu': { en: 'The Isle Mod Menu', es: 'Menú mod The Isle', fr: 'Menu mod The Isle', de: 'The Isle Mod-Menü', pt: 'Menu mod The Isle', it: 'Mod menu The Isle', nl: 'The Isle Mod Menu', pl: 'Mod menu The Isle', ru: 'Мод-меню The Isle', tr: 'The Isle Mod Menü', ar: 'قائمة مود The Isle', ja: 'The Isle Mod Menu', ko: 'The Isle 모드 메뉴', zh: 'The Isle修改菜单', hi: 'The Isle Mod Menu', id: 'Menu mod The Isle', th: 'เมนูมอด The Isle', vi: 'Mod menu The Isle', uk: 'Мод-меню The Isle', cs: 'The Isle mod menu', ro: 'Meniu mod The Isle', sv: 'The Isle Mod-meny' },
-	'soft-aim': { en: 'The Isle Soft Aim', es: 'Soft aim The Isle', fr: 'Soft aim The Isle', de: 'The Isle Soft Aim', pt: 'Soft aim The Isle', it: 'Soft aim The Isle', nl: 'The Isle Soft Aim', pl: 'Soft aim The Isle', ru: 'Soft aim The Isle', tr: 'The Isle Soft Aim', ar: 'Soft aim The Isle', ja: 'The Isle Soft Aim', ko: 'The Isle Soft Aim', zh: 'The Isle Soft Aim', hi: 'The Isle Soft Aim', id: 'Soft aim The Isle', th: 'The Isle Soft Aim', vi: 'Soft aim The Isle', uk: 'Soft aim The Isle', cs: 'The Isle Soft Aim', ro: 'Soft aim The Isle', sv: 'The Isle Soft Aim' },
-	'best-cheats': { en: 'Best The Isle Hacks', es: 'Mejores trucos The Isle', fr: 'Meilleures triches The Isle', de: 'Beste The Isle Hacks', pt: 'Melhores cheats The Isle', it: 'Migliori cheat The Isle', nl: 'Beste The Isle Hacks', pl: 'Najlepsze cheaty The Isle', ru: 'Лучшие читы The Isle', tr: 'En İyi The Isle Hileleri', ar: 'أفضل غش The Isle', ja: '最強The Isleチート', ko: '최고의 The Isle 치트', zh: '最佳The Isle作弊', hi: 'सर्वश्रेष्ठ The Isle Hacks', id: 'Cheat The Isle terbaik', th: 'Cheat The Isle ที่ดีที่สุด', vi: 'Cheat The Isle tốt nhất', uk: 'Найкращі чіти The Isle', cs: 'Nejlepší the isle hacky', ro: 'Cele mai bune cheats The Isle', sv: 'Bästa The Isle Hacks' },
-	'aimbot-hack': { en: 'Isle Aimbot Hack', es: 'Hack aimbot The Isle', fr: 'Hack aimbot The Isle', de: 'Isle Aimbot Hack', pt: 'Hack aimbot The Isle', it: 'Hack aimbot The Isle', nl: 'Isle Aimbot Hack', pl: 'Hack aimbot The Isle', ru: 'Хак aimbot The Isle', tr: 'Isle Aimbot Hilesi', ar: 'هاك Aimbot The Isle', ja: 'Isle Aimbot Hack', ko: 'The Isle 에임봇 핵', zh: 'The Isle自瞄外挂', hi: 'Isle Aimbot Hack', id: 'Hack aimbot The Isle', th: 'Hack Aimbot The Isle', vi: 'Hack aimbot The Isle', uk: 'Хак aimbot The Isle', cs: 'Isle Aimbot hack', ro: 'Hack aimbot The Isle', sv: 'Isle Aimbot Hack' },
-	'esp-hack': { en: 'Isle ESP Hack', es: 'Hack ESP The Isle', fr: 'Hack ESP The Isle', de: 'Isle ESP Hack', pt: 'Hack ESP The Isle', it: 'Hack ESP The Isle', nl: 'Isle ESP Hack', pl: 'Hack ESP The Isle', ru: 'Хак ESP The Isle', tr: 'Isle ESP Hilesi', ar: 'هاك ESP The Isle', ja: 'Isle ESP Hack', ko: 'Isle ESP 핵', zh: 'Isle ESP外挂', hi: 'Isle ESP Hack', id: 'Hack ESP The Isle', th: 'Hack ESP The Isle', vi: 'Hack ESP The Isle', uk: 'Хак ESP The Isle', cs: 'Isle ESP hack', ro: 'Hack ESP The Isle', sv: 'Isle ESP Hack' },
-	'unlock-all': { en: 'The Isle Unlock All', es: 'Unlock all The Isle', fr: 'Unlock all The Isle', de: 'The Isle Unlock All', pt: 'Unlock all The Isle', it: 'Unlock all The Isle', nl: 'The Isle Unlock All', pl: 'Unlock all The Isle', ru: 'Unlock all The Isle', tr: 'The Isle Unlock All', ar: 'Unlock all The Isle', ja: 'The Isle Unlock All', ko: 'The Isle Unlock All', zh: 'The Isle Unlock All', hi: 'The Isle Unlock All', id: 'Unlock all The Isle', th: 'The Isle Unlock All', vi: 'Unlock all The Isle', uk: 'Unlock all The Isle', cs: 'The Isle Unlock All', ro: 'Unlock all The Isle', sv: 'The Isle Unlock All' },
+	'cheats-2026': { en: 'Rust Cheats 2026', es: 'Trucos Rust 2026', fr: 'Triches Rust 2026', de: 'Rust Cheats 2026', pt: 'Cheats Rust 2026', it: 'Cheat Rust 2026', nl: 'Rust Cheats 2026', pl: 'Cheaty Rust 2026', ru: 'Читы Rust 2026', tr: 'Rust Hileleri 2026', ar: 'غش Rust 2026', ja: 'Rust Cheats 2026', ko: 'Rust Cheats 2026', zh: 'Rust作弊 2026', hi: 'Rust Cheats 2026', id: 'Cheat Rust 2026', th: 'Rust Cheats 2026', vi: 'Cheat Rust 2026', uk: 'Чіти Rust 2026', cs: 'rust cheaty 2026', ro: 'Cheats Rust 2026', sv: 'Rust Cheats 2026' },
+	hacks: { en: 'Rust Cheats', es: 'Trucos Rust', fr: 'Triches Rust', de: 'Rust Cheats', pt: 'Cheats Rust', it: 'Cheat Rust', nl: 'Rust Cheats', pl: 'Cheaty Rust', ru: 'Читы Rust', tr: 'Rust Hileleri', ar: 'غش Rust', ja: 'Rust Cheats', ko: 'Rust Cheats', zh: 'Rust作弊', hi: 'Rust Cheats', id: 'Cheat Rust', th: 'Rust Cheats', vi: 'Cheat Rust', uk: 'Чіти Rust', cs: 'rust cheaty', ro: 'Cheats Rust', sv: 'Rust Cheats' },
+	'cheat-download': { en: 'Rust Cheat Download', es: 'Descarga Rust Cheats', fr: 'Téléchargement Rust Cheats', de: 'Rust Cheat Download', pt: 'Download Rust Cheats', it: 'Download Rust Cheats', nl: 'Rust Cheat Download', pl: 'Pobieranie Rust Cheats', ru: 'Скачать Rust Cheats', tr: 'Rust Hile İndir', ar: 'تحميل Rust Cheats', ja: 'Rust Cheat Download', ko: 'Rust Cheat Download', zh: 'Rust作弊下载', hi: 'Rust Cheat Download', id: 'Download Cheat Rust', th: 'ดาวน์โหลด Rust Cheats', vi: 'Tải Cheat Rust', uk: 'Завантаження Rust Cheats', cs: 'Stáhnout Rust Cheats', ro: 'Descărcare Rust Cheats', sv: 'Rust Cheat Download' },
+	'mod-menu': { en: 'Rust Mod Menu', es: 'Menú mod Rust', fr: 'Menu mod Rust', de: 'Rust Mod-Menü', pt: 'Menu mod Rust', it: 'Mod menu Rust', nl: 'Rust Mod Menu', pl: 'Mod menu Rust', ru: 'Мод-меню Rust', tr: 'Rust Mod Menü', ar: 'قائمة مود Rust', ja: 'Rust Mod Menu', ko: 'Rust 모드 메뉴', zh: 'Rust修改菜单', hi: 'Rust Mod Menu', id: 'Menu mod Rust', th: 'เมนูมอด Rust', vi: 'Mod menu Rust', uk: 'Мод-меню Rust', cs: 'Rust mod menu', ro: 'Meniu mod Rust', sv: 'Rust Mod-meny' },
+	'soft-aim': { en: 'Rust Soft Aim', es: 'Soft aim Rust', fr: 'Soft aim Rust', de: 'Rust Soft Aim', pt: 'Soft aim Rust', it: 'Soft aim Rust', nl: 'Rust Soft Aim', pl: 'Soft aim Rust', ru: 'Soft aim Rust', tr: 'Rust Soft Aim', ar: 'Soft aim Rust', ja: 'Rust Soft Aim', ko: 'Rust Soft Aim', zh: 'Rust Soft Aim', hi: 'Rust Soft Aim', id: 'Soft aim Rust', th: 'Rust Soft Aim', vi: 'Soft aim Rust', uk: 'Soft aim Rust', cs: 'Rust Soft Aim', ro: 'Soft aim Rust', sv: 'Rust Soft Aim' },
+	'best-cheats': { en: 'Best Rust Cheats', es: 'Mejores trucos Rust', fr: 'Meilleures triches Rust', de: 'Beste Rust Cheats', pt: 'Melhores cheats Rust', it: 'Migliori cheat Rust', nl: 'Beste Rust Cheats', pl: 'Najlepsze cheaty Rust', ru: 'Лучшие читы Rust', tr: 'En İyi Rust Hileleri', ar: 'أفضل غش Rust', ja: '最強Rustチート', ko: '최고의 Rust 치트', zh: '最佳Rust作弊', hi: 'सर्वश्रेष्ठ Rust Cheats', id: 'Cheat Rust terbaik', th: 'Cheat Rust ที่ดีที่สุด', vi: 'Cheat Rust tốt nhất', uk: 'Найкращі чіти Rust', cs: 'Nejlepší rust cheaty', ro: 'Cele mai bune cheats Rust', sv: 'Bästa Rust Cheats' },
+	'aimbot-hack': { en: 'Rust Aimbot Hack', es: 'Hack aimbot Rust', fr: 'Hack aimbot Rust', de: 'Rust Aimbot Hack', pt: 'Hack aimbot Rust', it: 'Hack aimbot Rust', nl: 'Rust Aimbot Hack', pl: 'Hack aimbot Rust', ru: 'Хак aimbot Rust', tr: 'Rust Aimbot Hilesi', ar: 'هاك Aimbot Rust', ja: 'Rust Aimbot Hack', ko: 'Rust 에임봇 핵', zh: 'Rust自瞄外挂', hi: 'Rust Aimbot Hack', id: 'Hack aimbot Rust', th: 'Hack Aimbot Rust', vi: 'Hack aimbot Rust', uk: 'Хак aimbot Rust', cs: 'Rust Aimbot hack', ro: 'Hack aimbot Rust', sv: 'Rust Aimbot Hack' },
+	'esp-hack': { en: 'Rust ESP Hack', es: 'Hack ESP Rust', fr: 'Hack ESP Rust', de: 'Rust ESP Hack', pt: 'Hack ESP Rust', it: 'Hack ESP Rust', nl: 'Rust ESP Hack', pl: 'Hack ESP Rust', ru: 'Хак ESP Rust', tr: 'Rust ESP Hilesi', ar: 'هاك ESP Rust', ja: 'Rust ESP Hack', ko: 'Rust ESP 핵', zh: 'Rust ESP外挂', hi: 'Rust ESP Hack', id: 'Hack ESP Rust', th: 'Hack ESP Rust', vi: 'Hack ESP Rust', uk: 'Хак ESP Rust', cs: 'Rust ESP hack', ro: 'Hack ESP Rust', sv: 'Rust ESP Hack' },
+	'unlock-all': { en: 'Rust Unlock All', es: 'Unlock all Rust', fr: 'Unlock all Rust', de: 'Rust Unlock All', pt: 'Unlock all Rust', it: 'Unlock all Rust', nl: 'Rust Unlock All', pl: 'Unlock all Rust', ru: 'Unlock all Rust', tr: 'Rust Unlock All', ar: 'Unlock all Rust', ja: 'Rust Unlock All', ko: 'Rust Unlock All', zh: 'Rust Unlock All', hi: 'Rust Unlock All', id: 'Unlock all Rust', th: 'Rust Unlock All', vi: 'Unlock all Rust', uk: 'Unlock all Rust', cs: 'Rust Unlock All', ro: 'Unlock all Rust', sv: 'Rust Unlock All' },
 };
 
 const CTA2_HREF = {
-	'isle-esp': '/isle-hacks/',
-	'isle-aimbot': '/isle-esp/',
+	'rust-esp': '/rust-cheats/',
+	'rust-aimbot': '/rust-esp/',
 	features: '/pricing/',
 	pricing: '/setup/',
 	setup: '/support/',
-	updates: '/isle-hacks/',
+	updates: '/rust-cheats/',
 	faq: '/support/',
 	support: '/setup/',
-	undetected: '/isle-hacks/',
-	wallhack: '/isle-esp/',
-	radar: '/isle-esp/',
+	undetected: '/rust-cheats/',
+	wallhack: '/rust-esp/',
+	radar: '/rust-esp/',
 	eac: '/updates/',
-	'cheats-2026': '/isle-hacks/',
+	'cheats-2026': '/rust-cheats/',
 	hacks: '/features/',
 	'cheat-download': '/setup/',
 	'mod-menu': '/features/',
-	'soft-aim': '/isle-aimbot/',
+	'soft-aim': '/rust-aimbot/',
 	'best-cheats': '/pricing/',
-	'aimbot-hack': '/isle-aimbot/',
-	'esp-hack': '/isle-esp/',
+	'aimbot-hack': '/rust-aimbot/',
+	'esp-hack': '/rust-esp/',
 	'unlock-all': '/features/',
 };
 
@@ -305,12 +305,12 @@ function buildLegal(locale, pageKey, kind) {
 	const pageCopy = L?.[kind] ?? {};
 	const h2 = pageCopy.h2 ?? ['Information we collect', 'How we use data', 'Your rights'];
 	return {
-		title: clampTitle(stripZadeyoFromMeta(`${h1} | The Isle Hacks`)),
-		description: clampDesc(stripZadeyoFromMeta(`${h1} ${L?.descFor ?? 'for The Isle Hacks — ESP wallhack, Aimbot'}, ${p.win}.`)),
+		title: clampTitle(stripZadeyoFromMeta(`${h1} | Rust Cheats`)),
+		description: clampDesc(stripZadeyoFromMeta(`${h1} ${L?.descFor ?? 'for Rust Cheats — ESP wallhack, Aimbot'}, ${p.win}.`)),
 		h1,
-		intro: p.s1(`${h1} ${L?.introTopic ?? 'for theislehacks.org and The Isle licenses.'}`),
-		imageAlt: 'The Isle Hacks',
-		galleryTitle: 'The Isle Hacks',
+		intro: p.s1(`${h1} ${L?.introTopic ?? 'for rustcheats.co and Rust licenses.'}`),
+		imageAlt: 'Rust Cheats',
+		galleryTitle: 'Rust Cheats',
 		heroImage: HERO_IMAGES[pageKey],
 		ctaPrimary: L?.emailSupport ?? 'Email support',
 		ctaSecondary:
@@ -323,17 +323,17 @@ function buildLegal(locale, pageKey, kind) {
 				h2[0],
 				p.s1(L?.sec1p1 ?? 'Contact email, Zadeyo order references, and basic site security data.'),
 				kind === 'privacy'
-					? L?.privacy?.sec1p2 ?? 'Payment details are processed by Zadeyo checkout — not stored on theislehacks.org.'
+					? L?.privacy?.sec1p2 ?? 'Payment details are processed by Zadeyo checkout — not stored on rustcheats.co.'
 					: p.s2(),
 			),
 			section(
 				h2[1],
 				p.s1(L?.privacy?.sec2p1 ?? 'Support responses, order resolution, and legal compliance when required.'),
 				kind === 'terms'
-					? L?.terms?.sec2p2 ?? 'Using cheats may violate The Isle team terms — you assume all ban risk.'
+					? L?.terms?.sec2p2 ?? 'Using cheats may violate Facepunch Studios terms — you assume all ban risk.'
 					: p.s3(),
 			),
-			section(h2[2], p.legal(), `${L?.emailLabel ?? 'Email:'} support@theislehacks.org`),
+			section(h2[2], p.legal(), `${L?.emailLabel ?? 'Email:'} support@rustcheats.co`),
 		],
 	};
 }

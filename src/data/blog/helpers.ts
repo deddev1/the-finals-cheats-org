@@ -1,5 +1,5 @@
 import { siteConfig } from '../site';
-import { isleImages } from '../isle';
+import { rustImages } from '../rust';
 import { blogSitemapImageMeta } from '../brand-sitemap';
 import {
 	defaultLocale,
@@ -12,20 +12,20 @@ import type { BlogImageKey, BlogPostDefinition, BlogTranslation, ResolvedBlogPos
 import { blogPosts as rawBlogPosts } from './posts.generated';
 
 const imageMap: Record<BlogImageKey, string> = {
-	hero: isleImages.espWallhack,
-	espWallhack: isleImages.espWallhack,
-	aimbotCombat: isleImages.aimbotCombat,
-	aimbotSkeleton: isleImages.aimbotSkeleton,
-	packFight: isleImages.aimbotCombat,
-	headerArt: isleImages.dinoEsp,
-	hacksPackage: isleImages.espWallhack,
-	dinoEsp: isleImages.dinoEsp,
-	ambushFight: isleImages.aimbotCombat,
-	survivalCombat: isleImages.hacksCombat,
-	survivalIslandMap: isleImages.espWallhack,
+	hero: rustImages.espWallhack,
+	espWallhack: rustImages.espWallhack,
+	aimbotCombat: rustImages.aimbotCombat,
+	aimbotSkeleton: rustImages.aimbotSkeleton,
+	squadFight: rustImages.aimbotCombat,
+	headerArt: rustImages.playerEsp,
+	hacksPackage: rustImages.espWallhack,
+	playerEsp: rustImages.playerEsp,
+	raidFight: rustImages.aimbotCombat,
+	raidCombat: rustImages.hacksCombat,
+	raidMapMap: rustImages.espWallhack,
 };
 
-const FALLBACK_BLOG_IMAGE = isleImages.espWallhack;
+const FALLBACK_BLOG_IMAGE = rustImages.espWallhack;
 
 function expandTranslations(
 	translations: Partial<Record<LocaleCode, BlogTranslation>> & { en: BlogTranslation },
@@ -194,7 +194,7 @@ export function getBlogSitemapEntriesForLocale(locale: LocaleCode) {
 	for (const post of blogPosts) {
 		const t = post.translations[locale];
 		const imageSrc = getBlogImageSrc(post.imageKey);
-		const isProductPost = /The Isle Hacks|Aimbot|ESP|Undetected|Comparisons/i.test(post.category);
+		const isProductPost = /Rust Cheats|Aimbot|ESP|Undetected|Comparisons/i.test(post.category);
 		entries.push({
 			path: getBlogPostPath(locale, t.slug),
 			lastmod: post.updated,

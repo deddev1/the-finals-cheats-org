@@ -50,16 +50,16 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 			{
 				h2: 'ESP & wallhack',
 				paragraphs: [
-					'See players, wild dinosaurs, bosses, and carcasses through walls with distance readouts.',
-					'Use filters so the overlay stays clear in high-traffic zones, high-traffic zones, and growth run chaos.',
+					'See players, NPCs, bosses, and loot through walls with distance readouts.',
+					'Use filters so the overlay stays clear in compound zones, high-traffic zones, and farming run chaos.',
 				],
-				list: ['Player boxes & distance', 'Carcass and nest markers', 'Boss and juvenile filters'],
+				list: ['Player boxes & distance', 'Loot and base markers', 'Boss and juvenile filters'],
 			},
 			{
 				h2: 'Aimbot & soft aim',
 				paragraphs: [
 					'Aim help you can tune to feel natural.',
-					'Set FOV, smoothness, and bone priority per species before you spawn in.',
+					'Set FOV, smoothness, and bone priority per weapon before you raid.',
 				],
 				list: ['Smooth aim strength', 'FOV and bone priority', 'Hotkeys mid-match'],
 			},
@@ -67,9 +67,9 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 				h2: 'Radar',
 				paragraphs: [
 					'A simple 2D radar for threats outside your view.',
-					'Spot flanks near nests and water without filling the whole screen.',
+					'Spot flanks near monuments and compounds without filling the whole screen.',
 				],
-				list: ['Nearby enemy cues', 'Adjustable range', 'Works in herbivore & carnivore'],
+				list: ['Nearby enemy cues', 'Adjustable range', 'Works in raiders & survivors'],
 			},
 			{
 				h2: 'Explore related topics',
@@ -77,14 +77,14 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 					'Most {game} cheat sites cover ESP, aimbot, radar, setup, and status on separate pages. Use these guides next:',
 				],
 				list: [
-					'<a href="/isle-esp/">ESP & wallhack guide</a>',
-					'<a href="/isle-aimbot/">Aimbot & soft aim</a>',
-					'<a href="/isle-radar-hack/">2D radar overlay</a>',
+					'<a href="/rust-esp/">ESP & wallhack guide</a>',
+					'<a href="/rust-aimbot/">Aimbot & soft aim</a>',
+					'<a href="/rust-radar-hack/">2D radar overlay</a>',
 					'<a href="/setup/">Setup guide</a>',
 					'<a href="/updates/">Live status</a>',
-					'<a href="/blog/">Isle Intel blog</a>',
-					'<a href="https://store.steampowered.com/app/376210/news/" target="_blank" rel="noopener noreferrer">Official Steam patch notes</a>',
-					'<a href="https://isle.fandom.com/wiki/The_Isle" target="_blank" rel="noopener noreferrer">The Isle Wiki (Fandom)</a>',
+					'<a href="/blog/">Rust Intel blog</a>',
+					'<a href="https://store.steampowered.com/app/252490/news/" target="_blank" rel="noopener noreferrer">Official Steam patch notes</a>',
+					'<a href="https://rust.fandom.com/wiki/Rust" target="_blank" rel="noopener noreferrer">Rust Wiki (Fandom)</a>',
 				],
 			},
 			{
@@ -92,7 +92,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 				paragraphs: [
 					'We rebuild after big {game} or {antiCheat} patches.',
 					'Check Status before you play after a patch day.',
-					'Verify official changes on <a href="https://store.steampowered.com/app/376210/news/" target="_blank" rel="noopener noreferrer">Steam patch notes</a> and the <a href="https://isle.fandom.com/wiki/The_Isle" target="_blank" rel="noopener noreferrer">Isle Wiki</a> before you tune overlays.',
+					'Verify official changes on <a href="https://store.steampowered.com/app/252490/news/" target="_blank" rel="noopener noreferrer">Steam patch notes</a> and the <a href="https://rust.fandom.com/wiki/Rust" target="_blank" rel="noopener noreferrer">Rust Wiki</a> before you tune overlays.',
 				],
 				list: ['Status on the Status page', 'Setup guide included', 'Email support with your order ID'],
 			},
@@ -141,18 +141,18 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		h1: 'Status',
 		intro: brandCopy.statusIntro,
 		ctaPrimary: brandCopy.ctaBuy,
-		ctaSecondary: 'The Isle Hacks overview',
+		ctaSecondary: 'Rust Cheats overview',
 		ctaSecondaryHref: '/',
 		galleryTitle: 'In-game look',
 		sections: [
 			{
 				h2: 'Current status',
 				paragraphs: [
-					'As of 13 Aug 2026 the package is online for The Isle on Windows PC. We post a new note here when a game or Easy Anti-Cheat patch needs a rebuild.',
-					'If Status is green, you can session. If we are rebuilding, wait for the next note.',
+					'As of 13 Aug 2026 the package is online for Rust on Windows PC. We post a new note here when a game or Easy Anti-Cheat patch needs a rebuild.',
+					'If Status is green, you can raid. If we are rebuilding, wait for the next note.',
 				],
 				list: [
-					'Check this page before every session after a patch',
+					'Check this page before every raid after a patch',
 					'Monthly and lifetime licenses get rebuilds while active',
 					'No cheat stays undetected forever — status first, then play',
 				],
@@ -174,7 +174,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 	hacks: page({
 		title: brandSeo.previewTitle,
 		description: brandSeo.previewDescription,
-		h1: 'The Isle Hacks',
+		h1: 'Rust Cheats',
 		intro: brandCopy.previewIntro,
 		ctaPrimary: brandCopy.ctaBuy,
 		ctaSecondary: 'View features',
@@ -184,7 +184,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 			{
 				h2: 'What you get',
 				paragraphs: [
-					'One license for The Isle on Windows PC — built for herbivore and carnivore survival sessions.',
+					'One license for Rust on Windows PC — built for base raids and PvP fights.',
 				],
 				list: [
 					'ESP / wallhack with distance',
@@ -194,14 +194,14 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 				],
 			},
 			{
-				h2: 'Built for The Isle sessions',
+				h2: 'Built for Rust raids',
 				paragraphs: [
-					'Read players and wild dinosaurs before you push, mark carcasses worth the risk, and stay aware near nests and water. Tune soft aim per species for high-traffic zones and long-range ambushes.',
+					'Read players and NPCs before you push, mark loot worth the risk, and stay aware near monuments and compounds. Tune soft aim per weapon for high-traffic zones and bolt-action ambushes.',
 				],
 				list: [
-					'<a href="/isle-esp/">ESP guide</a>',
-					'<a href="/isle-aimbot/">Aimbot controls</a>',
-					'<a href="/isle-radar-hack/">Radar overlay</a>',
+					'<a href="/rust-esp/">ESP guide</a>',
+					'<a href="/rust-aimbot/">Aimbot controls</a>',
+					'<a href="/rust-radar-hack/">Radar overlay</a>',
 					'<a href="/updates/">Live status</a>',
 				],
 			},
@@ -216,25 +216,25 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 			},
 		],
 	}),
-	'isle-esp': page({
-		title: 'Isle ESP | {brand}',
+	'rust-esp': page({
+		title: 'Rust ESP | {brand}',
 		description:
-			'Isle ESP and wallhack for The Isle on Windows PC — player boxes, distance, carcass filters, and clear overlays in sessions.',
+			'Rust ESP and wallhack for Rust on Windows PC — player boxes, distance, loot filters, and clear overlays in raids.',
 		h1: 'ESP',
-		intro: 'See players and carcasses through walls during The Isle sessions. Part of the same {brand} license.',
+		intro: 'See players and loot through walls during Rust raids. Part of the same {brand} license.',
 		ctaPrimary: brandCopy.ctaBuy,
-		ctaSecondary: 'The Isle Hacks overview',
+		ctaSecondary: 'Rust Cheats overview',
 		ctaSecondaryHref: '/',
-		galleryTitle: 'ESP in session',
+		galleryTitle: 'ESP in raid',
 		sections: [
 			{
 				h2: 'What ESP shows',
-				paragraphs: ['Boxes, distance, and filters for players, wild dinosaurs, bosses, and carcasses.'],
+				paragraphs: ['Boxes, distance, and filters for players, NPCs, bosses, and loot.'],
 				list: ['Player ESP', 'Loot markers', 'Boss and juvenile filters'],
 			},
 			{
 				h2: 'When to use it',
-				paragraphs: ['Clear high-traffic zones, and growth runs without flooding the screen.'],
+				paragraphs: ['Clear high-traffic zones, and farming runs without flooding the screen.'],
 				list: ['Tune opacity', 'Filter noise', 'Pair with radar'],
 			},
 			{
@@ -248,26 +248,26 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 			},
 		],
 	}),
-	'isle-aimbot': page({
-		title: 'Isle Aimbot | {brand}',
+	'rust-aimbot': page({
+		title: 'Rust Aimbot | {brand}',
 		description:
-			'Isle Aimbot and soft aim for The Isle on Windows PC — FOV, smoothness, and bone priority you can tune per species.',
+			'Rust Aimbot and soft aim for Rust on Windows PC — FOV, smoothness, and bone priority you can tune per weapon.',
 		h1: 'Aimbot',
-		intro: 'Soft aim and aim assist you can tune for The Isle. Included in the same {brand} license.',
+		intro: 'Soft aim and aim assist you can tune for Rust. Included in the same {brand} license.',
 		ctaPrimary: brandCopy.ctaBuy,
-		ctaSecondary: 'The Isle Hacks overview',
+		ctaSecondary: 'Rust Cheats overview',
 		ctaSecondaryHref: '/',
 		galleryTitle: 'Aimbot view',
 		sections: [
 			{
 				h2: 'Controls',
-				paragraphs: ['Set FOV, smoothness, and bone priority before you spawn in.'],
+				paragraphs: ['Set FOV, smoothness, and bone priority before you raid.'],
 				list: ['Soft aim strength', 'Bone priority', 'Hotkeys mid-match'],
 			},
 			{
 				h2: 'Play styles',
-				paragraphs: ['Keep settings subtle for longer sessions. Raise strength only when you accept more risk.'],
-				list: ['Legit soft aim', 'Per-species profiles', 'Works with ESP'],
+				paragraphs: ['Keep settings subtle for longer raids. Raise strength only when you accept more risk.'],
+				list: ['Legit soft aim', 'Per-weapon profiles', 'Works with ESP'],
 			},
 			{
 				h2: 'Next steps',
@@ -281,26 +281,26 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		],
 	}),
 	radar: page({
-		title: 'The Isle Radar | {brand}',
+		title: 'Rust Radar | {brand}',
 		description:
-			'The Isle 2D radar for The Isle on Windows PC — flank cues near nests and water without filling the whole screen.',
+			'Rust 2D radar for Rust on Windows PC — flank cues near monuments and compounds without filling the whole screen.',
 		h1: 'Radar',
 		intro: 'A simple 2D radar for threats outside your view. Included in the same {brand} license.',
 		ctaPrimary: brandCopy.ctaBuy,
-		ctaSecondary: 'The Isle Hacks overview',
+		ctaSecondary: 'Rust Cheats overview',
 		ctaSecondaryHref: '/',
 		galleryTitle: 'Radar overlay',
 		sections: [
 			{
 				h2: 'What it shows',
-				paragraphs: ['Nearby enemy cues with adjustable range for herbivore and carnivore.'],
-				list: ['Flank awareness', 'Nest approaches', 'Adjustable range'],
+				paragraphs: ['Nearby enemy cues with adjustable range for solo farmers and raiders.'],
+				list: ['Flank awareness', 'Base approaches', 'Adjustable range'],
 			},
 			{
 				h2: 'With ESP',
 				paragraphs: ['Use radar for threats you cannot see yet. Use ESP when you push.'],
 				list: [
-					'<a href="/isle-esp/">ESP guide</a>',
+					'<a href="/rust-esp/">ESP guide</a>',
 					'<a href="/">Full product</a>',
 					'<a href="/pricing/">Store</a>',
 				],

@@ -6,38 +6,38 @@ const root = path.resolve('.');
 const imagesDir = path.join(root, 'public/images');
 const publicDir = path.join(root, 'public');
 const assetsDir =
-	'C:/Users/Aman/.cursor/projects/c-Users-Aman-islehacks/assets';
+	'C:/Users/Aman/.cursor/projects/c-Users-Aman-rusthacks/assets';
 
 const USER_SCREENSHOTS = [
 	{
 		source:
 			'c__Users_Aman_AppData_Roaming_Cursor_User_workspaceStorage_5fc01ad59007d6b1ec3564ba48b04eb7_images_image-4e39dba0-c5eb-40a6-9dff-f00c004bf6c1.png',
-		file: 'isle-esp-player-tags.webp',
+		file: 'rust-esp-player-tags.webp',
 	},
 	{
 		source:
 			'c__Users_Aman_AppData_Roaming_Cursor_User_workspaceStorage_5fc01ad59007d6b1ec3564ba48b04eb7_images_image-d50dbb87-0ddd-476a-b41f-a5ba6cf79e6b.png',
-		file: 'isle-wallhack-skeleton.webp',
+		file: 'rust-wallhack-skeleton.webp',
 	},
 	{
 		source:
 			'c__Users_Aman_AppData_Roaming_Cursor_User_workspaceStorage_5fc01ad59007d6b1ec3564ba48b04eb7_images_image-d6376015-d4c8-420c-bb87-bd5bd5d98c45.png',
-		file: 'isle-aimbot-sniper.webp',
+		file: 'rust-aimbot-sniper.webp',
 	},
 	{
 		source:
 			'c__Users_Aman_AppData_Roaming_Cursor_User_workspaceStorage_5fc01ad59007d6b1ec3564ba48b04eb7_images_image-339045fa-5567-4df1-8592-91160ec6e0af.png',
-		file: 'isle-aimbot-skeleton.webp',
+		file: 'rust-aimbot-skeleton.webp',
 	},
 	{
 		source:
 			'c__Users_Aman_AppData_Roaming_Cursor_User_workspaceStorage_5fc01ad59007d6b1ec3564ba48b04eb7_images_image-f0dcf8d8-7475-4e77-b690-c0bcac4fc67c.png',
-		file: 'isle-esp-radar.webp',
+		file: 'rust-esp-radar.webp',
 	},
 	{
 		source:
 			'c__Users_Aman_AppData_Roaming_Cursor_User_workspaceStorage_5fc01ad59007d6b1ec3564ba48b04eb7_images_image-ba262ad4-1a09-43a6-95eb-e7371f63c6ee.png',
-		file: 'isle-hacks-combat.webp',
+		file: 'rust-cheats-combat.webp',
 	},
 ];
 
@@ -45,27 +45,27 @@ const HERO_WIDTHS = [480, 640, 960, 1400];
 const CONTENT_WIDTHS = [480, 960];
 
 const REMOVE_PREFIXES = [
-	'isle-survival-game-combat',
-	'isle-extract-fight',
-	'isle-hacks-aimbot',
-	'the-isle-hacks-cover',
-	'isle-hacks-esp-wallhack',
-	'isle-hacks-hero',
-	'isle-hacks-logo',
-	'the-isle-hacks-package',
-	'isle-header-art',
-	'isle-loadout-builder',
-	'isle-player-esp',
-	'isle-growth-run-combat',
-	'isle-growth-run-mode',
-	'isle-pack-fight',
-	'isle-verdansk-map',
+	'rust-survival-combat',
+	'rust-extract-fight',
+	'rust-cheats-aimbot',
+	'rust-cheats-cover',
+	'rust-cheats-esp-wallhack',
+	'rust-cheats-hero',
+	'rust-cheats-logo',
+	'rust-cheats-package',
+	'rust-header-art',
+	'rust-loadout-builder',
+	'rust-player-esp',
+	'rust-growth-run-combat',
+	'rust-growth-run-mode',
+	'rust-pack-fight',
+	'rust-verdansk-map',
 ];
 
-async function removeOldThe IsleImages() {
+async function removeOldRustImages() {
 	const files = await readdir(imagesDir).catch(() => []);
 	for (const file of files) {
-		if (file.includes('isle-hacks-logo')) continue;
+		if (file.includes('rust-cheats-logo')) continue;
 		const base = file.replace(/(-\d+w)?\.webp$/i, '');
 		if (REMOVE_PREFIXES.includes(base)) {
 			await unlink(path.join(imagesDir, file));
@@ -91,12 +91,12 @@ async function convertScreenshots() {
 }
 
 async function generateResponsiveVariants() {
-	const heroSource = path.join(imagesDir, 'isle-esp-player-tags.webp');
+	const heroSource = path.join(imagesDir, 'rust-esp-player-tags.webp');
 	const heroMeta = await sharp(heroSource).metadata();
 
 	for (const width of HERO_WIDTHS) {
 		if (heroMeta.width && width > heroMeta.width) continue;
-		const file = `isle-esp-player-tags-${width}w.webp`;
+		const file = `rust-esp-player-tags-${width}w.webp`;
 		const quality = width <= 480 ? 56 : width <= 640 ? 70 : 78;
 		const buffer = await sharp(heroSource)
 			.resize({ width, withoutEnlargement: true })
@@ -107,7 +107,7 @@ async function generateResponsiveVariants() {
 	}
 
 	for (const { file } of USER_SCREENSHOTS) {
-		if (file === 'isle-esp-player-tags.webp') continue;
+		if (file === 'rust-esp-player-tags.webp') continue;
 		const source = path.join(imagesDir, file);
 		const meta = await sharp(source).metadata();
 		const base = file.replace(/\.webp$/i, '');
@@ -126,7 +126,7 @@ async function generateResponsiveVariants() {
 }
 
 async function generateFavicons() {
-	const logoPath = path.join(imagesDir, 'isle-hacks-logo.png');
+	const logoPath = path.join(imagesDir, 'rust-cheats-logo.png');
 	const logoBuffer = await sharp(logoPath)
 		.resize(512, 512, { fit: 'contain', background: { r: 10, g: 6, b: 18, alpha: 1 } })
 		.png()
@@ -158,7 +158,7 @@ async function generateFavicons() {
 }
 
 await mkdir(imagesDir, { recursive: true });
-await removeOldThe IsleImages();
+await removeOldRustImages();
 await convertScreenshots();
 await generateResponsiveVariants();
 await generateFavicons();

@@ -6,39 +6,39 @@ export const LOCALES = [
 ];
 
 export const PAGE_IDS = [
-	'home', 'isle-esp', 'isle-aimbot', 'features', 'pricing', 'setup',
+	'home', 'rust-esp', 'rust-aimbot', 'features', 'pricing', 'setup',
 	'updates', 'faq', 'support', 'undetected', 'wallhack', 'radar', 'eac',
 	'cheats-2026', 'hacks', 'cheat-download', 'mod-menu', 'soft-aim', 'best-cheats',
 	'aimbot-hack', 'esp-hack', 'unlock-all', 'privacy', 'refund', 'terms',
 ];
 
-/** Hero image per page — simple the isle hacks keyword filenames. */
+/** Hero image per page — simple rust cheats keyword filenames. */
 export const HERO_IMAGES = {
-	home: '/images/isle-hacks-esp.webp',
-	'isle-esp': '/images/isle-hacks-radar.webp',
-	'isle-aimbot': '/images/isle-hacks-aimbot.webp',
-	features: '/images/isle-hacks-aimbot-view.webp',
-	pricing: '/images/isle-hacks-session.webp',
-	setup: '/images/isle-hacks-radar.webp',
-	updates: '/images/isle-hacks-esp.webp',
-	faq: '/images/isle-hacks-aimbot-view.webp',
-	support: '/images/isle-hacks-session.webp',
-	undetected: '/images/isle-hacks-wallhack.webp',
-	wallhack: '/images/isle-hacks-wallhack.webp',
-	radar: '/images/isle-hacks-radar.webp',
-	eac: '/images/isle-hacks-aimbot.webp',
-	'cheats-2026': '/images/isle-hacks-esp.webp',
-	hacks: '/images/isle-hacks-session.webp',
-	'cheat-download': '/images/isle-hacks-session.webp',
-	'mod-menu': '/images/isle-hacks-radar.webp',
-	'soft-aim': '/images/isle-hacks-aimbot-view.webp',
-	'best-cheats': '/images/isle-hacks-esp.webp',
-	'aimbot-hack': '/images/isle-hacks-aimbot-view.webp',
-	'esp-hack': '/images/isle-hacks-wallhack.webp',
-	'unlock-all': '/images/isle-hacks-radar.webp',
-	privacy: '/images/isle-hacks-aimbot.webp',
-	refund: '/images/isle-hacks-session.webp',
-	terms: '/images/isle-hacks-aimbot-view.webp',
+	home: '/images/rust-cheats-esp.webp',
+	'rust-esp': '/images/rust-cheats-radar.webp',
+	'rust-aimbot': '/images/rust-cheats-aimbot.webp',
+	features: '/images/rust-cheats-aimbot-view.webp',
+	pricing: '/images/rust-cheats-session.webp',
+	setup: '/images/rust-cheats-radar.webp',
+	updates: '/images/rust-cheats-esp.webp',
+	faq: '/images/rust-cheats-aimbot-view.webp',
+	support: '/images/rust-cheats-session.webp',
+	undetected: '/images/rust-cheats-wallhack.webp',
+	wallhack: '/images/rust-cheats-wallhack.webp',
+	radar: '/images/rust-cheats-radar.webp',
+	eac: '/images/rust-cheats-aimbot.webp',
+	'cheats-2026': '/images/rust-cheats-esp.webp',
+	hacks: '/images/rust-cheats-session.webp',
+	'cheat-download': '/images/rust-cheats-session.webp',
+	'mod-menu': '/images/rust-cheats-radar.webp',
+	'soft-aim': '/images/rust-cheats-aimbot-view.webp',
+	'best-cheats': '/images/rust-cheats-esp.webp',
+	'aimbot-hack': '/images/rust-cheats-aimbot-view.webp',
+	'esp-hack': '/images/rust-cheats-wallhack.webp',
+	'unlock-all': '/images/rust-cheats-radar.webp',
+	privacy: '/images/rust-cheats-aimbot.webp',
+	refund: '/images/rust-cheats-session.webp',
+	terms: '/images/rust-cheats-aimbot-view.webp',
 };
 
 export const TS_HEADER = `import type { LocaleCode } from './locales';
@@ -66,11 +66,11 @@ export type LocaleUi = {
 \tcommon: { buyNow: string; readGuide: string; language: string; officialLanguageNote: string; relatedPages: string };
 \tfooter: { explore: string; help: string; tagline: string };
 \timages: {
-\t\thero: string; espWallhack: string; aimbotCombat: string; packFight: string; dinoEsp: string;
-\t\theaderArt: string; hacksPackage: string; ambushFight: string; battleRoyale: string; survivalIsland: string;
+\t\thero: string; espWallhack: string; aimbotCombat: string; squadFight: string; playerEsp: string;
+\t\theaderArt: string; hacksPackage: string; raidFight: string; battleRoyale: string; raidMap: string;
 \t};
 };
-export type PageId = 'home' | 'isle-esp' | 'isle-aimbot' | 'features' | 'pricing' | 'setup' | 'updates' | 'faq' | 'support' | 'undetected' | 'wallhack' | 'radar' | 'eac' | 'cheats-2026' | 'hacks' | 'cheat-download' | 'mod-menu' | 'soft-aim' | 'best-cheats' | 'aimbot-hack' | 'esp-hack' | 'unlock-all' | 'privacy' | 'refund' | 'terms';
+export type PageId = 'home' | 'rust-esp' | 'rust-aimbot' | 'features' | 'pricing' | 'setup' | 'updates' | 'faq' | 'support' | 'undetected' | 'wallhack' | 'radar' | 'eac' | 'cheats-2026' | 'hacks' | 'cheat-download' | 'mod-menu' | 'soft-aim' | 'best-cheats' | 'aimbot-hack' | 'esp-hack' | 'unlock-all' | 'privacy' | 'refund' | 'terms';
 `;
 
 /** Clamp meta strings to SEO limits without ugly ellipsis. */
@@ -101,7 +101,7 @@ export function stripZadeyoFromMeta(text) {
 		.replace(/\s*Zadeyo delivery\.?/gi, ' instant digital delivery.')
 		.replace(/\s*and Zadeyo delivery\.?/gi, ' and instant digital delivery.')
 		.replace(/\|\s*Instant Zadeyo Delivery/g, '| Instant Digital Delivery')
-		.replace(/Buy on Zadeyo/g, 'Buy The Isle Hacks')
+		.replace(/Buy on Zadeyo/g, 'Buy Rust Cheats')
 		.replace(/\s{2,}/g, ' ')
 		.trim();
 }
@@ -124,11 +124,11 @@ export function section(h2, ...args) {
 /** Authoritative external citation helpers (open in new tab). */
 export const EXT = {
 	activision:
-		'<a href="https://store.steampowered.com/app/376210/The_Isle/" target="_blank" rel="noopener noreferrer">The Isle</a>',
-	isle:
-		'<a href="https://store.steampowered.com/app/376210/The_Isle/" target="_blank" rel="noopener noreferrer">The Isle</a>',
+		'<a href="https://store.steampowered.com/app/252490/Rust/" target="_blank" rel="noopener noreferrer">Rust</a>',
+	rust:
+		'<a href="https://store.steampowered.com/app/252490/Rust/" target="_blank" rel="noopener noreferrer">Rust</a>',
 	status:
-		'<a href="https://store.steampowered.com/app/376210/The_Isle/" target="_blank" rel="noopener noreferrer">The Isle on Steam</a>',
+		'<a href="https://store.steampowered.com/app/252490/Rust/" target="_blank" rel="noopener noreferrer">Rust on Steam</a>',
 	eac:
 		'<a href="https://www.easy.ac/" target="_blank" rel="noopener noreferrer">Easy Anti-Cheat</a>',
 };

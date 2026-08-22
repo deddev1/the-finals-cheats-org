@@ -8,34 +8,34 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const SRC = path.resolve(ROOT, '..', 'amansand');
 
 const UI_REPLACEMENTS = [
-	['The Isle Hacks', 'The Isle Hacks'],
-	['the isle hacks', 'the isle hacks'],
-	['The Isle Hacks', 'The Isle Hacks'],
-	['The Isle', 'The Isle'],
-	['The Isle', 'The Isle'],
-	['Call of Duty', 'The Isle'],
-	['The Isle PC', 'The Isle PC'],
-	['for The Isle', 'for The Isle'],
-	['The Isle ', 'The Isle '],
-	['isle ', 'isle '],
+	['Rust Hacks', 'Rust Hacks'],
+	['rust cheats', 'rust cheats'],
+	['Rust Hacks', 'Rust Hacks'],
+	['Rust', 'Rust'],
+	['Rust', 'Rust'],
+	['Call of Duty', 'Rust'],
+	['Rust PC', 'Rust PC'],
+	['for Rust', 'for Rust'],
+	['Rust ', 'Rust '],
+	['rust ', 'rust '],
 	['Easy Anti-Cheat maintenance', 'Easy Anti-Cheat maintenance'],
 	['Easy Anti-Cheat', 'Easy Anti-Cheat'],
 	['Easy Anti-Cheat', 'Easy Anti-Cheat'],
-	['operatorEsp', 'dinoEsp'],
-	['extractFight', 'ambushFight'],
-	['alMazrah', 'survivalIsland'],
+	['operatorEsp', 'playerEsp'],
+	['extractFight', 'raidFight'],
+	['alMazrah', 'raidMap'],
 	['players', 'players'],
 	['operator', 'player'],
 	['players', 'Players'],
 	['Operator', 'Player'],
 	['Al Mazrah', 'Verdansk'],
 	['Verdansk', 'Verdansk'],
-	['growth run', 'growth run'],
+	['farming run', 'farming run'],
 	['extract', 'extract'],
-	['theislehacks.org', 'theislehacks.org'],
-	['Trucos The Isle', 'Trucos The Isle'],
-	['Triches The Isle', 'Triches The Isle'],
-	['Cheats The Isle', 'Cheats The Isle'],
+	['rustcheats.co', 'rustcheats.co'],
+	['Trucos Rust', 'Trucos Rust'],
+	['Triches Rust', 'Triches Rust'],
+	['Cheats Rust', 'Cheats Rust'],
 ];
 
 function apply(content) {
@@ -55,8 +55,8 @@ for (const file of ['ui-strings-part1.mjs', 'ui-strings-part2.mjs']) {
 // Fix pages-en eac key
 let pagesEn = await readFile(path.join(ROOT, 'scripts/i18n-data/pages-en.mjs'), 'utf8');
 pagesEn = pagesEn.replace(/\teac: \{/, "\t'eac': {");
-pagesEn = pagesEn.replace(/The Isle The Isle/g, 'The Isle');
-pagesEn = pagesEn.replace(/for The Isle The Isle/g, 'for The Isle');
+pagesEn = pagesEn.replace(/Rust Rust/g, 'Rust');
+pagesEn = pagesEn.replace(/for Rust Rust/g, 'for Rust');
 await writeFile(path.join(ROOT, 'scripts/i18n-data/pages-en.mjs'), pagesEn);
 
 // Fix pages-i18n

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Completes the-isle-hacks SEO audit: add missing pages, fix leftovers, strip Zadeyo from meta.
+ * Completes rust-cheats SEO audit: add missing pages, fix leftovers, strip Zadeyo from meta.
  * Run: node scripts/complete-seo-audit.mjs
  */
 import { readFile, writeFile, mkdir, access } from 'node:fs/promises';
@@ -11,57 +11,57 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const NODE = 'C:\\Program Files\\nodejs\\node.exe';
 
 const EXTRA_PAGES = [
-	{ id: 'hacks', dir: 'the-isle-hacks', pageId: 'hacks' },
-	{ id: 'cheat-download', dir: 'isle-hack-download', pageId: 'cheat-download' },
-	{ id: 'mod-menu', dir: 'isle-mod-menu', pageId: 'mod-menu' },
-	{ id: 'soft-aim', dir: 'isle-soft-aim', pageId: 'soft-aim' },
-	{ id: 'best-cheats', dir: 'best-isle-hacks', pageId: 'best-cheats' },
-	{ id: 'aimbot-hack', dir: 'isle-aimbot-hack', pageId: 'aimbot-hack' },
-	{ id: 'esp-hack', dir: 'isle-esp-hack', pageId: 'esp-hack' },
-	{ id: 'unlock-all', dir: 'isle-unlock-all', pageId: 'unlock-all' },
+	{ id: 'hacks', dir: 'rust-cheats', pageId: 'hacks' },
+	{ id: 'cheat-download', dir: 'rust-cheat-download', pageId: 'cheat-download' },
+	{ id: 'mod-menu', dir: 'rust-mod-menu', pageId: 'mod-menu' },
+	{ id: 'soft-aim', dir: 'rust-soft-aim', pageId: 'soft-aim' },
+	{ id: 'best-cheats', dir: 'best-rust-cheats', pageId: 'best-cheats' },
+	{ id: 'aimbot-hack', dir: 'rust-aimbot-hack', pageId: 'aimbot-hack' },
+	{ id: 'esp-hack', dir: 'rust-esp-hack', pageId: 'esp-hack' },
+	{ id: 'unlock-all', dir: 'rust-unlock-all', pageId: 'unlock-all' },
 ];
 
 const GLOBAL_REPLACEMENTS = [
-	[/isle-isle/g, 'isle'],
-	[/eac-bypass-isle/g, 'eac-bypass'],
-	[/The Isle/g, 'The Isle'],
-	[/The Isle/g, 'The Isle'],
-	[/Call of Duty/g, 'The Isle'],
-	[/The Isle Wallhack/g, 'The Isle Wallhack'],
-	[/The Isle Radar Hack/g, 'The Isle Radar Hack'],
-	[/The Isle Cheat Features/g, 'The Isle Cheat Features'],
-	[/The Isle Cheat Pricing/g, 'The Isle Cheat Pricing'],
-	[/The Isle Cheat Setup/g, 'The Isle Cheat Setup'],
-	[/The Isle Cheat Status/g, 'The Isle Cheat Status'],
-	[/The Isle Cheat Support/g, 'The Isle Cheat Support'],
-	[/The Isle pack fight/g, 'The Isle pack fight'],
-	[/The Isle pack builder/g, 'The Isle loadout builder'],
-	[/The Isle store header/g, 'The Isle header'],
-	[/The Isle wasteland combat/g, 'The Isle battle royale combat'],
-	[/The Isle loadout builder/g, 'The Isle loadout builder'],
-	[/The Isle pricing/g, 'The Isle pricing'],
-	[/The Isle Easy Anti-Cheat/g, 'The Isle Easy Anti-Cheat'],
-	[/on The Isle/g, 'on The Isle'],
-	[/for The Isle/g, 'for The Isle'],
-	[/The Isle guides/g, 'The Isle guides'],
-	[/The Isle guide/g, 'The Isle guide'],
-	[/The Isle hileleri/g, 'The Isle hileleri'],
-	[/The Isle hile/g, 'The Isle hile'],
-	[/The Isle hileleri/g, 'The Isle hileleri'],
-	[/cheatów The Isle/g, 'cheatów The Isle'],
-	[/cheat The Isle/g, 'cheat The Isle'],
-	[/cheats The Isle/g, 'cheats The Isle'],
-	[/trucos The Isle/g, 'trucos The Isle'],
-	[/triche The Isle/g, 'triche The Isle'],
-	[/trucchi The Isle/g, 'trucchi The Isle'],
-	[/Wallhack The Isle/g, 'The Isle Wallhack'],
-	[/cheat The Isle undetected/g, 'cheat The Isle undetected'],
-	[/cheats The Isle undetected/g, 'cheats The Isle undetected'],
-	[/Verdansk beams/g, 'long-range AR beams'],
-	[/growth run room clears/g, 'close-quarters room clears'],
-	[/Verdansk and Urzikstan/g, 'Verdansk and growth run'],
-	[/Verdansk, Urzikstan/g, 'Verdansk, growth run'],
-	[/session and growth run/g, 'session and growth run'],
+	[/rust-rust/g, 'rust'],
+	[/eac-bypass-rust/g, 'eac-bypass'],
+	[/Rust/g, 'Rust'],
+	[/Rust/g, 'Rust'],
+	[/Call of Duty/g, 'Rust'],
+	[/Rust Wallhack/g, 'Rust Wallhack'],
+	[/Rust Radar Hack/g, 'Rust Radar Hack'],
+	[/Rust Cheat Features/g, 'Rust Cheat Features'],
+	[/Rust Cheat Pricing/g, 'Rust Cheat Pricing'],
+	[/Rust Cheat Setup/g, 'Rust Cheat Setup'],
+	[/Rust Cheat Status/g, 'Rust Cheat Status'],
+	[/Rust Cheat Support/g, 'Rust Cheat Support'],
+	[/Rust squad fight/g, 'Rust squad fight'],
+	[/Rust pack builder/g, 'Rust loadout builder'],
+	[/Rust store header/g, 'Rust header'],
+	[/Rust wasteland combat/g, 'Rust battle royale combat'],
+	[/Rust loadout builder/g, 'Rust loadout builder'],
+	[/Rust pricing/g, 'Rust pricing'],
+	[/Rust Easy Anti-Cheat/g, 'Rust Easy Anti-Cheat'],
+	[/on Rust/g, 'on Rust'],
+	[/for Rust/g, 'for Rust'],
+	[/Rust guides/g, 'Rust guides'],
+	[/Rust guide/g, 'Rust guide'],
+	[/Rust hileleri/g, 'Rust hileleri'],
+	[/Rust hile/g, 'Rust hile'],
+	[/Rust hileleri/g, 'Rust hileleri'],
+	[/cheatów Rust/g, 'cheatów Rust'],
+	[/cheat Rust/g, 'cheat Rust'],
+	[/cheats Rust/g, 'cheats Rust'],
+	[/trucos Rust/g, 'trucos Rust'],
+	[/triche Rust/g, 'triche Rust'],
+	[/trucchi Rust/g, 'trucchi Rust'],
+	[/Wallhack Rust/g, 'Rust Wallhack'],
+	[/cheat Rust undetected/g, 'cheat Rust undetected'],
+	[/cheats Rust undetected/g, 'cheats Rust undetected'],
+	[/Verdansk beams/g, 'bolt-action AR beams'],
+	[/farming run room clears/g, 'close-quarters room clears'],
+	[/Verdansk and Urzikstan/g, 'Verdansk and farming run'],
+	[/Verdansk, Urzikstan/g, 'Verdansk, farming run'],
+	[/session and farming run/g, 'session and farming run'],
 	[/Activision's anti-cheat/g, "Epic Games' anti-cheat"],
 	[/Activision anti-cheat/g, 'Epic Games anti-cheat'],
 	[/Activision ships/g, 'Epic Games ships'],
@@ -70,11 +70,11 @@ const GLOBAL_REPLACEMENTS = [
 	[/Activision/g, 'Epic Games'],
 	[/eac/gi, 'eac'],
 	[/Easy Anti-Cheat/g, 'Easy Anti-Cheat'],
-	[/the-isle-hacks/g, 'the-isle-hacks'],
-	[/the-isle/g, 'isle'],
-	[/Undetected Wallhack for Call of Duty/g, 'Undetected Wallhack for The Isle'],
+	[/rust-cheats/g, 'rust-cheats'],
+	[/the-rust/g, 'rust'],
+	[/Undetected Wallhack for Call of Duty/g, 'Undetected Wallhack for Rust'],
 	[/How ESP wallhack, radar, and Aimbot rebuild after Call of Duty anti-cheat/g,
-		'How ESP wallhack, radar, and Aimbot rebuild after The Isle anti-cheat'],
+		'How ESP wallhack, radar, and Aimbot rebuild after Rust anti-cheat'],
 ];
 
 /** Remove Zadeyo from meta description/title strings only */
@@ -90,7 +90,7 @@ function stripZadeyoFromMeta(text) {
 		.replace(/\s*Zadeyo delivery\.?/gi, 'instant digital delivery.')
 		.replace(/\s*and Zadeyo delivery\.?/gi, ' and instant digital delivery.')
 		.replace(/\|\s*Instant Zadeyo Delivery/g, '| Instant Digital Delivery')
-		.replace(/Buy on Zadeyo/g, 'Buy The Isle Hacks')
+		.replace(/Buy on Zadeyo/g, 'Buy Rust Hacks')
 		.replace(/\s{2,}/g, ' ')
 		.trim();
 }
@@ -169,38 +169,38 @@ import LocalizedPage from '../../components/LocalizedPage.astro';
 async function fixLocalesBlogUi() {
 	const file = path.join(ROOT, 'src', 'data', 'i18n', 'locales.ts');
 	let content = await readFile(file, 'utf8');
-	content = content.replace(/The Isle guides/g, 'The Isle guides');
-	content = content.replace(/The Isle guide/g, 'The Isle guide');
-	content = content.replace(/The Isle hileleri/g, 'The Isle hileleri');
-	content = content.replace(/The Isle hile/g, 'The Isle hile');
-	content = content.replace(/cheat The Isle/g, 'cheat The Isle');
-	content = content.replace(/cheats The Isle/g, 'cheats The Isle');
-	content = content.replace(/trucos The Isle/g, 'trucos The Isle');
-	content = content.replace(/triche The Isle/g, 'triche The Isle');
-	content = content.replace(/trucchi The Isle/g, 'trucchi The Isle');
-	content = content.replace(/cheatów The Isle/g, 'cheatów The Isle');
-	content = content.replace(/читов The Isle/g, 'читов The Isle');
-	content = content.replace(/читів The Isle/g, 'читів The Isle');
-	content = content.replace(/The Isleチート/g, 'The Isleチート');
-	content = content.replace(/The Isle 치트/g, 'The Isle 치트');
-	content = content.replace(/The Isle作弊/g, 'The Isle作弊');
-	content = content.replace(/The Isle rehberleri/g, 'The Isle rehberleri');
-	content = content.replace(/The Isle gidsen/g, 'The Isle gidsen');
-	content = content.replace(/The Isle průvodce/g, 'The Isle průvodce');
-	content = content.replace(/The Isle guider/g, 'The Isle guider');
-	content = content.replace(/The Isle related/g, 'The Isle related');
-	content = content.replace(/The Isle ガイド/g, 'The Isle ガイド');
-	content = content.replace(/The Isle 가이드/g, 'The Isle 가이드');
-	content = content.replace(/The Isle指南/g, 'The Isle指南');
-	content = content.replace(/The Isle गाइड/g, 'The Isle गाइड');
-	content = content.replace(/The Isle panduan/g, 'The Isle panduan');
-	content = content.replace(/The Isle คู่มือ/g, 'The Isle คู่มือ');
-	content = content.replace(/The Isle hướng dẫn/g, 'The Isle hướng dẫn');
+	content = content.replace(/Rust guides/g, 'Rust guides');
+	content = content.replace(/Rust guide/g, 'Rust guide');
+	content = content.replace(/Rust hileleri/g, 'Rust hileleri');
+	content = content.replace(/Rust hile/g, 'Rust hile');
+	content = content.replace(/cheat Rust/g, 'cheat Rust');
+	content = content.replace(/cheats Rust/g, 'cheats Rust');
+	content = content.replace(/trucos Rust/g, 'trucos Rust');
+	content = content.replace(/triche Rust/g, 'triche Rust');
+	content = content.replace(/trucchi Rust/g, 'trucchi Rust');
+	content = content.replace(/cheatów Rust/g, 'cheatów Rust');
+	content = content.replace(/читов Rust/g, 'читов Rust');
+	content = content.replace(/читів Rust/g, 'читів Rust');
+	content = content.replace(/Rustチート/g, 'Rustチート');
+	content = content.replace(/Rust 치트/g, 'Rust 치트');
+	content = content.replace(/Rust作弊/g, 'Rust作弊');
+	content = content.replace(/Rust rehberleri/g, 'Rust rehberleri');
+	content = content.replace(/Rust gidsen/g, 'Rust gidsen');
+	content = content.replace(/Rust průvodce/g, 'Rust průvodce');
+	content = content.replace(/Rust guider/g, 'Rust guider');
+	content = content.replace(/Rust related/g, 'Rust related');
+	content = content.replace(/Rust ガイド/g, 'Rust ガイド');
+	content = content.replace(/Rust 가이드/g, 'Rust 가이드');
+	content = content.replace(/Rust指南/g, 'Rust指南');
+	content = content.replace(/Rust गाइड/g, 'Rust गाइड');
+	content = content.replace(/Rust panduan/g, 'Rust panduan');
+	content = content.replace(/Rust คู่มือ/g, 'Rust คู่มือ');
+	content = content.replace(/Rust hướng dẫn/g, 'Rust hướng dẫn');
 	await writeFile(file, content, 'utf8');
 	console.log('Fixed locales.ts blogUi');
 }
 
-console.log('=== The Isle Hacks SEO completion ===\n');
+console.log('=== Rust Hacks SEO completion ===\n');
 await applyGlobalFixes();
 await createExtraPages();
 await fixLocalesBlogUi();

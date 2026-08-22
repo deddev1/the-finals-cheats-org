@@ -1,6 +1,6 @@
 /**
- * SVG overlay generators for the isle hacks marketing images.
- * Composited on top of IGN The Isle gameplay screenshots.
+ * SVG overlay generators for rust cheats marketing images.
+ * Composited on top of IGN Rust gameplay screenshots.
  */
 
 const PURPLE = '#c084fc';
@@ -80,7 +80,7 @@ export function modMenuOverlay(w, h) {
 	const rows = [
 		['ESP Wallhack', true],
 		['Player Boxes', true],
-		['Carcass ESP', true],
+		['Loot ESP', true],
 		['2D Radar', true],
 		['Soft Aimbot', true],
 		['Bone Priority', false],
@@ -98,7 +98,7 @@ export function modMenuOverlay(w, h) {
 		.join('');
 	return `
 		<rect x="${x}" y="${y}" width="${pw}" height="${ph}" fill="rgba(10,6,18,0.9)" stroke="${PURPLE}" stroke-width="2" rx="10"/>
-		<text x="${x + 14}" y="${y + 28}" fill="${PURPLE}" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="800">THE ISLE HACKS</text>
+		<text x="${x + 14}" y="${y + 28}" fill="${PURPLE}" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="800">RUST CHEATS</text>
 		<text x="${x + 14}" y="${y + 44}" fill="#94a3b8" font-family="Segoe UI,Arial,sans-serif" font-size="11">UNDETECTED · v2026</text>
 		<line x1="${x + 10}" y1="${y + 50}" x2="${x + pw - 10}" y2="${y + 50}" stroke="rgba(192,132,252,0.3)" stroke-width="1"/>
 		${rowSvg}
@@ -109,7 +109,7 @@ export function modMenuOverlay(w, h) {
 export function hacksBadge(w, h) {
 	return `
 		<rect x="${w - 168}" y="${h - 36}" width="158" height="26" fill="rgba(10,6,18,0.78)" rx="4"/>
-		<text x="${w - 160}" y="${h - 18}" fill="${PURPLE}" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">THE ISLE HACKS</text>
+		<text x="${w - 160}" y="${h - 18}" fill="${PURPLE}" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">RUST CHEATS</text>
 	`;
 }
 
@@ -154,7 +154,7 @@ export function buildOverlaySvg(width, height, preset) {
 			body += espBox(width * 0.42, height * 0.28, width * 0.14, height * 0.38, 'Gulag · 12m', RED, snap);
 			body += aimbotOverlay(width, height);
 			break;
-		case 'growth run':
+		case 'farming run':
 			body += espBox(width * 0.25, height * 0.3, width * 0.1, height * 0.26, 'Squad · 44m', RED, snap);
 			body += espBox(width * 0.58, height * 0.35, width * 0.09, height * 0.22, 'Squad · 71m', RED, snap);
 			body += radarOverlay(width, height);
@@ -162,7 +162,7 @@ export function buildOverlaySvg(width, height, preset) {
 		case 'loot':
 			body += espBox(width * 0.3, height * 0.45, width * 0.07, height * 0.09, 'Loadout · 28m', GREEN);
 			body += espBox(width * 0.55, height * 0.38, width * 0.06, height * 0.08, 'Contract · 55m', GREEN);
-			body += espBox(width * 0.68, height * 0.52, width * 0.06, height * 0.08, 'growth timer · 103m', '#fbbf24');
+			body += espBox(width * 0.68, height * 0.52, width * 0.06, height * 0.08, 'raid timer · 103m', '#fbbf24');
 			body += espBox(width * 0.44, height * 0.22, width * 0.09, height * 0.24, 'Operator · 88m', RED, snap);
 			break;
 		case 'map':

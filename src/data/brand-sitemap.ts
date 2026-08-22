@@ -13,42 +13,42 @@ export type BrandSitemapImage = {
 
 const defaultImages: BrandSitemapImage[] = [
 	{
-		src: '/images/isle-hacks-esp.webp',
-		title: 'the isle hacks esp',
-		caption: 'the isle hacks esp wallhack',
+		src: '/images/rust-cheats-esp.webp',
+		title: 'rust cheats esp',
+		caption: 'rust cheats esp wallhack',
 	},
 	{
-		src: '/images/isle-hacks-wallhack.webp',
-		title: 'the isle hacks wallhack',
-		caption: 'the isle hacks wallhack esp',
+		src: '/images/rust-cheats-wallhack.webp',
+		title: 'rust cheats wallhack',
+		caption: 'rust cheats wallhack esp',
 	},
 	{
-		src: '/images/isle-hacks-aimbot.webp',
-		title: 'the isle hacks aimbot',
-		caption: 'the isle hacks aimbot soft aim',
+		src: '/images/rust-cheats-aimbot.webp',
+		title: 'rust cheats aimbot',
+		caption: 'rust cheats aimbot soft aim',
 	},
 	{
-		src: '/images/isle-hacks-aimbot-view.webp',
-		title: 'the isle hacks aimbot',
-		caption: 'the isle hacks aimbot view',
+		src: '/images/rust-cheats-aimbot-view.webp',
+		title: 'rust cheats aimbot',
+		caption: 'rust cheats aimbot view',
 	},
 	{
-		src: '/images/isle-hacks-radar.webp',
-		title: 'the isle hacks radar',
-		caption: 'the isle hacks radar hack',
+		src: '/images/rust-cheats-radar.webp',
+		title: 'rust cheats radar',
+		caption: 'rust cheats radar hack',
 	},
 	{
-		src: '/images/isle-hacks-session.webp',
-		title: 'the isle hacks',
-		caption: 'the isle hacks in session',
+		src: '/images/rust-cheats-session.webp',
+		title: 'rust cheats',
+		caption: 'rust cheats in raid',
 	},
 ];
 
 /** Per-page image title/caption templates for the English urlset. */
 const pageImageTemplates: Record<PageId, { title: string; caption: string }> = {
-	home: { title: '{brand} hero — ESP and aimbot in The Isle', caption: 'Homepage preview of {primaryKeyword} on Windows PC' },
-	'isle-esp': { title: '{primaryKeyword} ESP overlay', caption: 'Player ESP boxes and distance with {primaryKeyword}' },
-	'isle-aimbot': { title: '{primaryKeyword} aimbot view', caption: 'Aimbot and soft aim controls in {primaryKeyword}' },
+	home: { title: '{brand} hero — ESP and aimbot in Rust', caption: 'Homepage preview of {primaryKeyword} on Windows PC' },
+	'rust-esp': { title: '{primaryKeyword} ESP overlay', caption: 'Player ESP boxes and distance with {primaryKeyword}' },
+	'rust-aimbot': { title: '{primaryKeyword} aimbot view', caption: 'Aimbot and soft aim controls in {primaryKeyword}' },
 	features: { title: '{primaryKeyword} features', caption: 'ESP, soft aim, and radar included with {primaryKeyword}' },
 	pricing: { title: '{primaryKeyword} store plans', caption: 'Monthly and lifetime {primaryKeyword} plans' },
 	setup: { title: '{primaryKeyword} setup', caption: 'Install {primaryKeyword} on Windows PC after checkout' },
@@ -59,7 +59,7 @@ const pageImageTemplates: Record<PageId, { title: string; caption: string }> = {
 	wallhack: { title: '{primaryKeyword} wallhack', caption: 'Through-wall visibility with {primaryKeyword}' },
 	radar: { title: '{primaryKeyword} radar', caption: '2D radar map cues in {primaryKeyword}' },
 	eac: { title: '{antiCheat} and {primaryKeyword}', caption: '{primaryKeyword} rebuilds after a Easy Anti-Cheat update' },
-	'cheats-2026': { title: '{primaryKeyword} overview', caption: '{primaryKeyword} for The Isle on PC' },
+	'cheats-2026': { title: '{primaryKeyword} overview', caption: '{primaryKeyword} for Rust on PC' },
 	hacks: { title: '{primaryKeyword}', caption: '{primaryKeyword} ESP, aimbot, and radar package' },
 	'cheat-download': { title: '{primaryKeyword} download', caption: 'Get {primaryKeyword} after you buy' },
 	'mod-menu': { title: '{primaryKeyword} menu', caption: 'In-game menu for {primaryKeyword}' },

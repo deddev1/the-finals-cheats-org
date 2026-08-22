@@ -1,6 +1,6 @@
-# The Isle Hacks — Marketing Site
+# Rust Hacks — Marketing Site
 
-Static Astro 7 site for [theislehacks.org](https://theislehacks.org). Primary SEO keyword: **the isle hacks** (secondary: the isle cheats, isle aimbot, isle ESP).
+Static Astro 7 site for [rustcheats.co](https://rustcheats.co). Primary SEO keyword: **rust cheats** (secondary: rust cheats, rust aimbot, rust ESP).
 
 ## Stack
 
@@ -41,11 +41,11 @@ npm run build:validate
 
 ## Deploy (Cloudflare Pages)
 
-1. Create a Cloudflare Pages project named **theislehacks**
+1. Create a Cloudflare Pages project named **therusthacks**
 2. Connect this repo or upload `dist/` after `npm run build`
 3. Build command: `npm run build`
 4. Output directory: `dist`
-5. Add custom domain **theislehacks.org** (apex) and redirect **www** → apex
+5. Add custom domain **rustcheats.co** (apex) and redirect **www** → apex
 6. Enable SSL **Always Use HTTPS**
 
 CLI deploy:
@@ -57,8 +57,8 @@ npm run pages:deploy
 ## Environment
 
 - Node.js >= 22.12.0
-- Checkout URL: Zadeyo The Isle product (`siteConfig.checkoutUrl` in `src/data/site.ts`)
+- Checkout URL: Zadeyo Rust product (`siteConfig.checkoutUrl` in `src/data/site.ts`)
 
 ## License
 
-Private — for theislehacks.org deployment only.
+Private — for rustcheats.co deployment only.

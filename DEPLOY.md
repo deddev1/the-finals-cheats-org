@@ -1,11 +1,11 @@
-# Deploy theislehacks.org
+# Deploy rustcheats.co
 
-Step-by-step guide to deploy the The Isle Hacks static site to **theislehacks.org** on Cloudflare Pages, configure DNS, and submit to Google Search Console.
+Step-by-step guide to deploy the Rust Hacks static site to **rustcheats.co** on Cloudflare Pages, configure DNS, and submit to Google Search Console.
 
 ## Prerequisites
 
 - Node.js **≥ 22.12.0**
-- Cloudflare account with access to **theislehacks.org** DNS
+- Cloudflare account with access to **rustcheats.co** DNS
 - Wrangler CLI (included as dev dependency): `npx wrangler login`
 
 ## 1. Build and validate locally
@@ -50,7 +50,7 @@ If the build command is left empty, `package.json` `postinstall` still builds on
 1. Log in to [Cloudflare Dashboard](https://dash.cloudflare.com) → **Workers & Pages** → **Create application** → **Pages** → **Connect to Git**.
 2. Select this repository.
 3. Configure build settings:
-   - **Project name:** `islescheats` (existing) or create a new project
+   - **Project name:** `rustscheats` (existing) or create a new project
    - **Production branch:** `main` (or `master`)
    - **Build command:** `npm run build`
    - **Build output directory:** `dist`
@@ -64,13 +64,13 @@ npm run build:validate
 npm run pages:deploy
 ```
 
-This runs `wrangler pages deploy dist --project-name=theislehacks` (see `wrangler.toml`).
+This runs `wrangler pages deploy dist --project-name=rustcheats` (see `wrangler.toml`).
 
 ## 3. Custom domain and DNS
 
-Add **theislehacks.org** as the primary custom domain on the Pages project.
+Add **rustcheats.co** as the primary custom domain on the Pages project.
 
-### Apex (theislehacks.org)
+### Apex (rustcheats.co)
 
 In **Cloudflare DNS** for the zone:
 
@@ -84,11 +84,11 @@ Cloudflare CNAME flattening handles apex records automatically.
 
 1. Add a DNS record for `www` pointing to the same Pages project (proxied CNAME or A record).
 2. In **Rules** → **Redirect Rules** (or Bulk Redirects), create:
-   - **Source:** `www.theislehacks.org/*`
-   - **Target:** `https://theislehacks.org/${1}`
+   - **Source:** `www.rustcheats.co/*`
+   - **Target:** `https://rustcheats.co/${1}`
    - **Status:** 301
 
-The deployed `functions/_middleware.js` also enforces apex canonical host, legacy domain redirects (`theislehacks.org`, `.net`, `.com`), and legacy path redirects.
+The deployed `functions/_middleware.js` also enforces apex canonical host, legacy domain redirects (`rustcheats.co`, `.net`, `.com`), and legacy path redirects.
 
 ### SSL / HTTPS
 
@@ -100,35 +100,35 @@ The deployed `functions/_middleware.js` also enforces apex canonical host, legac
 
 Verify these URLs return **200** with correct content:
 
-- `https://theislehacks.org/`
-- `https://theislehacks.org/es/`
-- `https://theislehacks.org/the-isle-hacks/`
-- `https://theislehacks.org/isle-aimbot/`
-- `https://theislehacks.org/sitemap.xml`
-- `https://theislehacks.org/robots.txt`
+- `https://rustcheats.co/`
+- `https://rustcheats.co/es/`
+- `https://rustcheats.co/rust-cheats/`
+- `https://rustcheats.co/rust-aimbot/`
+- `https://rustcheats.co/sitemap.xml`
+- `https://rustcheats.co/robots.txt`
 
 Verify redirects:
 
-- `http://theislehacks.org` → `https://theislehacks.org` (301)
-- `https://www.theislehacks.org` → `https://theislehacks.org` (301)
-- Legacy domains (e.g. `theislehacks.org`) → `https://theislehacks.org` (301)
+- `http://rustcheats.co` → `https://rustcheats.co` (301)
+- `https://www.rustcheats.co` → `https://rustcheats.co` (301)
+- Legacy domains (e.g. `rustcheats.co`) → `https://rustcheats.co` (301)
 - `/sitemap-index.xml` → `/sitemap.xml` (301)
-- Legacy paths (e.g. `/fortnite-hacks/`) → The Isle equivalents (301)
+- Legacy paths (e.g. `/fortnite-hacks/`) → Rust equivalents (301)
 
 ## 5. Google Search Console
 
 1. Go to [Google Search Console](https://search.google.com/search-console).
-2. **Add property** → choose **Domain** → enter `theislehacks.org`.
+2. **Add property** → choose **Domain** → enter `rustcheats.co`.
 3. Verify ownership via the **DNS TXT record** Cloudflare provides (add in Cloudflare DNS, wait for propagation, then confirm in GSC).
 4. After verification, open **Sitemaps** and submit:
    ```
-   https://theislehacks.org/sitemap.xml
+   https://rustcheats.co/sitemap.xml
    ```
-   Remove any legacy submissions (`sitemap-index.xml`, old `theislehacks.org` URLs).
+   Remove any legacy submissions (`sitemap-index.xml`, old `rustcheats.co` URLs).
 5. Use **URL Inspection** to request indexing for:
    - Homepage (`/`)
-   - Pillar page (`/the-isle-hacks/`)
-   - Key landing pages (`/isle-aimbot/`, `/isle-esp/`, `/isle-hacks-2026/`, etc.)
+   - Pillar page (`/rust-cheats/`)
+   - Key landing pages (`/rust-aimbot/`, `/rust-esp/`, `/rust-cheats-2026/`, etc.)
    - A sample of locale homepages (`/es/`, `/de/`, `/fr/`)
 6. Monitor **Pages** (Coverage), **Core Web Vitals**, and **International targeting** (hreflang) over the following weeks.
 
@@ -146,11 +146,11 @@ Verify redirects:
 
 - [ ] `npm run build:validate` passes locally
 - [ ] Cloudflare Pages project attached to this repo
-- [ ] Custom domain `theislehacks.org` attached and active
+- [ ] Custom domain `rustcheats.co` attached and active
 - [ ] `www` redirects to apex
-- [ ] Legacy domains 301 to `theislehacks.org`
+- [ ] Legacy domains 301 to `rustcheats.co`
 - [ ] Always Use HTTPS enabled
-- [ ] `robots.txt` and sitemaps serve from `https://theislehacks.org`
+- [ ] `robots.txt` and sitemaps serve from `https://rustcheats.co`
 - [ ] Google Search Console domain verified
 - [ ] `sitemap.xml` submitted in GSC
-- [ ] Homepage and `/the-isle-hacks/` requested for indexing
+- [ ] Homepage and `/rust-cheats/` requested for indexing

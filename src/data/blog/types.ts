@@ -5,13 +5,13 @@ export type BlogImageKey =
 	| 'espWallhack'
 	| 'aimbotCombat'
 	| 'aimbotSkeleton'
-	| 'packFight'
+	| 'squadFight'
 	| 'headerArt'
 	| 'hacksPackage'
-	| 'dinoEsp'
-	| 'ambushFight'
-	| 'survivalCombat'
-	| 'survivalIslandMap';
+	| 'playerEsp'
+	| 'raidFight'
+	| 'raidCombat'
+	| 'raidMapMap';
 
 export type BlogSection = {
 	h2: string;
