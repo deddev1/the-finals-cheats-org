@@ -29,8 +29,8 @@ function bannerHeight(width) {
 }
 
 const resizeOpts = {
-	fit: 'fill',
-	position: 'centre',
+	fit: 'cover',
+	position: 'right',
 };
 
 for (const width of [640, 1024, 1536]) {
@@ -52,4 +52,4 @@ for (const name of ['rust-cheats-hero.webp', 'rust-hero-banner.webp', 'hero-bann
 const png = await sharp(heroBuffer).resize(1024, canonicalHeight, resizeOpts).png().toBuffer();
 await writeFile(path.join(imagesDir, 'rust-cheats-hero.png'), png);
 
-console.log(`Done — hero banner ${BANNER_RATIO}:1 (1024x${canonicalHeight}), fit: fill`);
+console.log(`Done — hero banner ${BANNER_RATIO}:1 (1024x${canonicalHeight}), fit: cover (right)`);
