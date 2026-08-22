@@ -56,17 +56,17 @@ const BLOG_PAGES = 18; // /blog/ index + 17 posts
 const REVIEW_PAGES = 11; // /reviews/ index + 10 review detail pages
 const FAQ_PAGES = 11; // FAQ answer pages (index is in the product pages)
 /** Product pages in sitemap — excludes cannibal EN URLs that 301 to stronger pillars */
-const ENGLISH_PRODUCT_PAGES = 13;
+const ENGLISH_PRODUCT_PAGES = 14;
 const ENGLISH_PAGES = ENGLISH_PRODUCT_PAGES + BLOG_PAGES + REVIEW_PAGES + FAQ_PAGES;
 const I18N_LOCALES = 21;
-/** Locale product pages also exclude the same cannibal pageIds and retired hacks pillar */
-const PRODUCT_PAGES_PER_LOCALE = 13;
+/** Locale product pages also exclude the same cannibal pageIds */
+const PRODUCT_PAGES_PER_LOCALE = 14;
 const BLOG_PAGES_PER_LOCALE = 0; // Locale blog URLs 301 to EN; not in sitemaps
 const PAGES_PER_LOCALE = PRODUCT_PAGES_PER_LOCALE + BLOG_PAGES_PER_LOCALE;
 const I18N_URLS = I18N_LOCALES * PAGES_PER_LOCALE;
 const TOTAL_PAGES = ENGLISH_PAGES + I18N_URLS;
 /** Full EN HTML may still emit redirect stubs for cannibal URLs; sitemaps omit them */
-const ENGLISH_HTML_PAGES = 24 + BLOG_PAGES + REVIEW_PAGES + FAQ_PAGES;
+const ENGLISH_HTML_PAGES = 25 + BLOG_PAGES + REVIEW_PAGES + FAQ_PAGES;
 /** Locale HTML = product pages + blog redirect stubs (index + 17 posts) that are omitted from sitemaps */
 const LOCALE_BLOG_REDIRECT_PAGES = 18;
 const TOTAL_HTML_PAGES =
@@ -87,8 +87,6 @@ const REDIRECT_ONLY_PATHS = new Set([
 	'/rust-wallhack/',
 	'/rust-cheat-download/',
 	'/eac-bypass/',
-	'/rust-cheats/',
-	'/rust-cheats/',
 ]);
 
 const ENGLISH_PATHS = [

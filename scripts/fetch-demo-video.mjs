@@ -29,19 +29,19 @@ const res = await fetch(SOURCE_URL, {
 if (!res.ok) throw new Error(`Download failed: HTTP ${res.status}`);
 await writeFile(sourcePath, Buffer.from(await res.arrayBuffer()));
 
-console.log('Encoding web MP4 (1280w, faststart)…');
+	console.log('Encoding web MP4 (960w, CRF 30, faststart)…');
 await exec('ffmpeg', [
 	'-y',
 	'-i',
 	sourcePath,
 	'-vf',
-	'scale=1280:-2',
+	'scale=960:-2',
 	'-c:v',
 	'libx264',
 	'-crf',
-	'27',
+	'30',
 	'-preset',
-	'medium',
+	'slow',
 	'-movflags',
 	'+faststart',
 	'-an',

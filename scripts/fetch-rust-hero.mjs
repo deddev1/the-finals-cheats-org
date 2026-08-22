@@ -6,7 +6,7 @@ import sharp from 'sharp';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const HERO_URL =
 	process.env.RUST_HERO_URL ??
-	'file://' + path.resolve(__dirname, '../public/images/rust-hero-source.png');
+	'file://' + path.resolve(__dirname, 'assets/rust-hero-source.png');
 const imagesDir = path.resolve('public/images');
 /** High-quality WebP — hero is LCP; prioritize clarity over file size. */
 const HERO_WEBP = { quality: 94, effort: 6, smartSubsample: false, alphaQuality: 100 };

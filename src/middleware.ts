@@ -1,5 +1,6 @@
 import { defineMiddleware } from 'astro:middleware';
 import { applySecurityHeaders } from './lib/security-headers.js';
+import { resolvePathRedirect } from './worker-redirects.js';
 
 function isBrandStudioPage(pathname: string): boolean {
 	return pathname === '/brand-studio' || pathname === '/brand-studio/';
@@ -13,6 +14,12 @@ function isBrandStudioPage(pathname: string): boolean {
  * Write API lives only in the Vite dev plugin (never in dist) and has its own IP checks.
  */
 export const onRequest = defineMiddleware(async (context, next) => {
+	const redirectPath = resolvePathRedirect(context.url.pathname);
+	if (redirectPath) {
+		const target = new URL(redirectPath, context.url.origin);
+		return context.redirect(target.toString(), 301);
+	}
+
 	if (isBrandStudioPage(context.url.pathname)) {
 		const host = context.url.hostname;
 		const localHost = host === 'localhost' || host === '127.0.0.1' || host === '::1';

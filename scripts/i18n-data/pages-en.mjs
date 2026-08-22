@@ -455,7 +455,7 @@ export const enPages = {
 		title: 'Rust Cheats 2026 | Undetected Hacks for Windows PC',
 		description:
 			'Best rust cheats 2026 — undetected ESP wallhack, soft aim and 2D radar for Windows PC. Easy Anti-Cheat maintenance and instant delivery from Rust Cheats at rustcheats.co.',
-		h1: 'Rust Cheats 2026 — ESP, Soft Aim & RadarRadar',
+		h1: 'Rust Cheats 2026 — ESP, Soft Aim & Radar',
 		intro:
 			'The 2026 Rust Cheats package for Rust — undetected ESP wallhack, radar hack, and Aimbot with Easy Anti-Cheat maintenance, instant delivery, and Windows PC support.',
 		imageAlt: "Rust Cheats product overview for Rust",

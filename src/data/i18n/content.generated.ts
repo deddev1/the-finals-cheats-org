@@ -582,8 +582,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/rust-cheats-radar.webp",
 				},
 				eac: {
-					title: "Easy Anti-Cheat Bypass Rust | Rust Cheats Maintenance",
-					description: "How rust cheats rebuild after Easy Anti-Cheat patches — ESP boxes, soft aim, and radar maintenance for Windows PC. Read before loading in.",
+					title: "Rust EAC Bypass 2026 | Easy Anti-Cheat | Rust Cheats",
+					description: "How Rust Cheats rebuilds ESP, aimbot and radar after Easy Anti-Cheat patches on Windows PC. EAC bypass maintenance — check status before loading in at",
 					h1: "Easy Anti-Cheat Bypass — Rust Cheats Maintenance",
 					intro: "Understand Easy Anti-Cheat maintenance for Rust Cheats — how ESP wallhack, radar hack, and Aimbot rebuild after Rust security updates.",
 					imageAlt: "Rust Cheats maintenance after a Easy Anti-Cheat patch",
@@ -622,7 +622,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				"cheats-2026": {
 					title: "Rust Cheats 2026 | Undetected Hacks for Windows PC",
 					description: "Best rust cheats 2026 — undetected ESP wallhack, soft aim and 2D radar for Windows PC. Easy Anti-Cheat maintenance and instant delivery from Rust Cheats at",
-					h1: "Rust Cheats 2026 — ESP, Soft Aim & RadarRadar",
+					h1: "Rust Cheats 2026 — ESP, Soft Aim & Radar",
 					intro: "The 2026 Rust Cheats package for Rust — undetected ESP wallhack, radar hack, and Aimbot with Easy Anti-Cheat maintenance, instant delivery, and Windows PC support.",
 					imageAlt: "Rust Cheats product overview for Rust",
 					galleryTitle: "Rust Cheats 2026 gallery",
