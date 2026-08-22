@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Rust Hacks — Marketing Site
 
 Static Astro 7 site for [rustcheats.co](https://rustcheats.co). Primary SEO keyword: **rust cheats** (secondary: rust cheats, rust aimbot, rust ESP).
@@ -62,3 +63,6 @@ npm run pages:deploy
 ## License
 
 Private — for rustcheats.co deployment only.
+=======
+# rust-cheats-co
+>>>>>>> origin/main
