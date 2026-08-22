@@ -20,7 +20,6 @@ import { getT } from '../i18n/server';
 import RelatedPages from '../components/RelatedPages.astro';
 import CategoryRow from '../components/CategoryRow.astro';
 import ExternalResources from '../components/ExternalResources.astro';
-import ExternalGuidePills from '../components/ExternalGuidePills.astro';
 
 type GalleryInput = string | { src: string; alt: string };
 
@@ -36,7 +35,6 @@ interface Props {
 	gallery?: ReadonlyArray<GalleryInput>;
 	galleryTitle?: string;
 	ctaPrimary?: { href: string; label: string; edit?: string };
-	ctaSecondary?: { href: string; label: string };
 	introEdit?: string;
 	showGallery?: boolean;
 	showRelatedPages?: boolean;
@@ -59,7 +57,6 @@ const {
 	gallery = rustImages.product.slice(0, 3),
 	galleryTitle,
 	ctaPrimary,
-	ctaSecondary,
 	introEdit,
 	showGallery = true,
 	showRelatedPages = true,
@@ -168,29 +165,16 @@ const useHomeHero =
 					<p class="banner__eyebrow">{resolvedEyebrow}</p>
 					<h1 class="banner__title">{heading}</h1>
 					<p class="banner__intro" data-edit={introEdit || undefined}>{intro}</p>
-					{showExternalResources && <ExternalGuidePills locale={locale} class="banner__guides" />}
 					{
-						(ctaPrimary || ctaSecondary) && (
+						ctaPrimary && (
 							<div class="banner__actions">
-								{ctaPrimary && (
-									<a
-										class="btn-buy"
-										href={ctaPrimary.href}
-										rel={ctaPrimary.href.startsWith('http') ? 'noopener noreferrer' : undefined}
-									>
-										<span data-edit={ctaPrimary.edit || undefined}>{ctaPrimary.label}</span>
-									</a>
-								)}
-								{ctaSecondary && (
-									<a
-										class="btn btn--ghost"
-										href={ctaSecondary.href}
-										target={ctaSecondary.href.startsWith('http') ? '_blank' : undefined}
-										rel={ctaSecondary.href.startsWith('http') ? 'noopener noreferrer' : undefined}
-									>
-										{ctaSecondary.label}
-									</a>
-								)}
+								<a
+									class="btn-buy"
+									href={ctaPrimary.href}
+									rel={ctaPrimary.href.startsWith('http') ? 'noopener noreferrer' : undefined}
+								>
+									<span data-edit={ctaPrimary.edit || undefined}>{ctaPrimary.label}</span>
+								</a>
 							</div>
 						)
 					}
@@ -334,10 +318,6 @@ const useHomeHero =
 		color: var(--ink-muted);
 		font-size: 0.975rem;
 		line-height: 1.55;
-	}
-
-	.banner__guides {
-		margin-top: 1rem;
 	}
 
 	.banner__actions {
