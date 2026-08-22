@@ -35,7 +35,7 @@ const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo
 		--hero-pad-y: clamp(1rem, 2vw, 1.75rem);
 		--hero-stack: clamp(0.5rem, 1.1vw, 0.75rem);
 		/*
-		 * Fixed wide banner bar (3.15:1). Artwork stretches to fill the bar edge-to-edge.
+		 * Fixed wide banner bar (3.15:1). Full artwork fits inside — no cover crop.
 		 */
 		--hero-ratio: 3.15 / 1;
 		position: relative;
@@ -73,7 +73,7 @@ const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo
 	}
 
 	.hero__media img {
-		object-fit: cover;
+		object-fit: contain;
 		object-position: right center;
 		image-rendering: auto;
 		transform: translateZ(0);
@@ -305,8 +305,16 @@ const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo
 			overflow: hidden;
 		}
 
+		.hero__media {
+			position: relative;
+			inset: auto;
+			width: 100%;
+			aspect-ratio: var(--hero-ratio);
+			max-height: min(52vw, 13.5rem);
+		}
+
 		.hero__media img {
-			object-fit: cover;
+			object-fit: contain;
 			object-position: right center;
 		}
 
@@ -321,6 +329,8 @@ const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo
 		}
 
 		.hero__content {
+			position: relative;
+			z-index: 2;
 			transform: none;
 			width: 100%;
 			min-height: clamp(18.5rem, 56svh, 28rem);

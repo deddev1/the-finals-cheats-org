@@ -9,6 +9,7 @@ const HERO_URL =
 	'file://' + path.resolve(__dirname, '../public/images/rust-hero-source.png');
 const imagesDir = path.resolve('public/images');
 const HERO_WEBP = { quality: 82, effort: 6, smartSubsample: true };
+const HERO_BG = { r: 7, g: 7, b: 7, alpha: 1 };
 
 /** Match homepage hero bar — same wide banner ratio as before (3.15:1). */
 const BANNER_RATIO = 3.15;
@@ -29,8 +30,9 @@ function bannerHeight(width) {
 }
 
 const resizeOpts = {
-	fit: 'cover',
+	fit: 'contain',
 	position: 'right',
+	background: HERO_BG,
 };
 
 for (const width of [640, 1024, 1536]) {
@@ -52,4 +54,4 @@ for (const name of ['rust-cheats-hero.webp', 'rust-hero-banner.webp', 'hero-bann
 const png = await sharp(heroBuffer).resize(1024, canonicalHeight, resizeOpts).png().toBuffer();
 await writeFile(path.join(imagesDir, 'rust-cheats-hero.png'), png);
 
-console.log(`Done — hero banner ${BANNER_RATIO}:1 (1024x${canonicalHeight}), fit: cover (right)`);
+console.log(`Done — hero banner ${BANNER_RATIO}:1 (1024x${canonicalHeight}), fit: contain (right)`);
