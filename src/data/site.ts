@@ -52,7 +52,7 @@ export const seoLandingPages = [
 
 export const mainNav = [
 	{ label: 'Home', href: '/' },
-	{ label: 'Cheats', href: '/' },
+	{ label: 'Cheats', href: '/rust-cheats/' },
 	{ label: 'Aimbot', href: '/rust-aimbot/' },
 	{ label: 'ESP', href: '/rust-esp/' },
 	{ label: 'Features', href: '/features/' },
@@ -72,7 +72,7 @@ export const footerNav = [
 
 export const footerExplore = [
 	{ label: fillBrandTokens('{brand} home'), href: '/' },
-	{ label: fillBrandTokens('{game} hacks pillar'), href: '/' },
+	{ label: fillBrandTokens('{game} hacks pillar'), href: '/rust-cheats/' },
 	{ label: fillBrandTokens('Live {game} status'), href: '/updates/' },
 	{ label: fillBrandTokens('{game} ESP overlays'), href: '/rust-esp/' },
 	{ label: fillBrandTokens('{game} Aimbot controls'), href: '/rust-aimbot/' },

@@ -28,7 +28,7 @@ export const HERO_IMAGES = {
 	radar: '/images/rust-cheats-radar.webp',
 	eac: '/images/rust-cheats-aimbot.webp',
 	'cheats-2026': '/images/rust-cheats-esp.webp',
-	hacks: '/images/rust-cheats-session.webp',
+	hacks: '/images/rust-cheats-combat.webp',
 	'cheat-download': '/images/rust-cheats-session.webp',
 	'mod-menu': '/images/rust-cheats-radar.webp',
 	'soft-aim': '/images/rust-cheats-aimbot-view.webp',

@@ -14,7 +14,7 @@ export {
 	type CannibalPageId,
 };
 
-export const sitemapExcludedPageIds = new Set<PageId>([...(cannibalPageIds as PageId[]), 'hacks']);
+export const sitemapExcludedPageIds = new Set<PageId>([...(cannibalPageIds as PageId[])]);
 
 /** Primary commercial landing for the head term "rust cheats". */
 export const MONEY_PAGE_ID = 'home' as const satisfies PageId;

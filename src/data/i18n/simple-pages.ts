@@ -174,44 +174,67 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 	hacks: page({
 		title: brandSeo.previewTitle,
 		description: brandSeo.previewDescription,
-		h1: 'Rust Cheats',
-		intro: brandCopy.previewIntro,
+		h1: 'Rust Cheats — Full Guide',
+		intro:
+			'Rust cheats add ESP, radar, and soft aim on top of the base game. This page explains what rust cheats are, what Rust Cheats includes, how Easy Anti-Cheat maintenance works, and where to go next before you buy.',
 		ctaPrimary: brandCopy.ctaBuy,
 		ctaSecondary: 'View features',
 		ctaSecondaryHref: '/features/',
-		galleryTitle: 'In-session look',
+		galleryTitle: 'Rust cheats in action',
 		sections: [
 			{
-				h2: 'What you get',
+				h2: 'What are rust cheats?',
 				paragraphs: [
-					'One license for Rust on Windows PC — built for base raids and PvP fights.',
+					'Rust cheats are third-party tools that give you extra information and combat assist during raids. Most players search for rust cheats when they want player ESP, loot visibility, off-screen radar, or smoother aim under pressure.',
+					'Rust Cheats bundles those tools in one license for Windows PC — no stacking separate downloads for wallhack, radar, and aimbot.',
+				],
+			},
+			{
+				h2: 'What Rust Cheats includes',
+				paragraphs: [
+					'One license covers the full raid stack: player ESP with distance, loot markers, 2D radar for flanks, and configurable soft aim profiles per weapon.',
 				],
 				list: [
-					'ESP / wallhack with distance',
+					'ESP / wallhack with distance readouts',
+					'Loot and resource markers',
+					'2D radar for off-screen threats',
 					'Soft aim & aimbot profiles',
-					'2D radar for flanks',
 					'Easy Anti-Cheat rebuilds after patches',
 				],
 			},
 			{
-				h2: 'Built for Rust raids',
+				h2: 'Module guides',
 				paragraphs: [
-					'Read players and NPCs before you push, mark loot worth the risk, and stay aware near monuments and compounds. Tune soft aim per weapon for high-traffic zones and bolt-action ambushes.',
+					'Each tool has its own deep-dive page if you want details before checkout.',
 				],
 				list: [
-					'<a href="/rust-esp/">ESP guide</a>',
-					'<a href="/rust-aimbot/">Aimbot controls</a>',
-					'<a href="/rust-radar-hack/">Radar overlay</a>',
-					'<a href="/updates/">Live status</a>',
+					'<a href="/rust-esp/">Rust ESP & wallhack</a>',
+					'<a href="/rust-aimbot/">Rust Aimbot & soft aim</a>',
+					'<a href="/rust-radar-hack/">Radar hack overlay</a>',
+					'<a href="/features/">Full feature list</a>',
 				],
 			},
 			{
-				h2: 'How to start',
-				paragraphs: ['Buy a plan, get your license by email, then follow setup. Check Status after every major patch.'],
+				h2: 'Undetected status & patches',
+				paragraphs: [
+					'Rust uses Easy Anti-Cheat. No cheat stays undetected forever — maintenance after patches is what matters. Check the Status page after every Rust or EAC update before you load in.',
+				],
 				list: [
-					'<a href="/pricing/">Open store</a>',
+					'<a href="/updates/">Live status & patch notes</a>',
+					'<a href="/undetected-rust-cheats/">Undetected cheats guide</a>',
+					'<a href="/eac-bypass/">Easy Anti-Cheat maintenance</a>',
+					'<a href="/faq/">FAQ before you buy</a>',
+				],
+			},
+			{
+				h2: 'How to get started',
+				paragraphs: [
+					'Pick monthly ($35) or lifetime ($150) on the store — same features on both. After checkout you receive license details by email. Follow the setup guide, then check status after major patches.',
+				],
+				list: [
+					'<a href="/pricing/">Compare plans</a>',
 					'<a href="/setup/">Setup guide</a>',
-					'<a href="/updates/">Check status</a>',
+					'<a href="/support/">Contact support</a>',
 				],
 			},
 		],

@@ -1,13 +1,12 @@
-<<<<<<< HEAD
-# Rust Hacks — Marketing Site
+# Rust Cheats — Marketing Site
 
-Static Astro 7 site for [rustcheats.co](https://rustcheats.co). Primary SEO keyword: **rust cheats** (secondary: rust cheats, rust aimbot, rust ESP).
+Static Astro 7 site for [rustcheats.co](https://rustcheats.co). Primary SEO keyword: **rust cheats** (secondary: rust hacks, rust aimbot, rust ESP).
 
 ## Stack
 
 - Astro 7 + Tailwind CSS 4 + TypeScript
 - 22-locale i18n (English at root, `/es/`, `/fr/`, …)
-- Cloudflare Pages deployment with `functions/_middleware.js`
+- Cloudflare Workers deployment with `src/worker.ts`
 
 ## Quick start
 
@@ -16,7 +15,7 @@ Static Astro 7 site for [rustcheats.co](https://rustcheats.co). Primary SEO keyw
 ```bash
 npm install
 npm run localhost
-# open http://localhost:8080
+# open http://localhost:5173
 ```
 
 Or use the helper script:
@@ -40,10 +39,10 @@ Build and validate sitemaps:
 npm run build:validate
 ```
 
-## Deploy (Cloudflare Pages)
+## Deploy (Cloudflare Workers)
 
-1. Create a Cloudflare Pages project named **therusthacks**
-2. Connect this repo or upload `dist/` after `npm run build`
+1. Create a Cloudflare Workers project named **rustcheats**
+2. Connect this repo
 3. Build command: `npm run build`
 4. Output directory: `dist`
 5. Add custom domain **rustcheats.co** (apex) and redirect **www** → apex
@@ -52,17 +51,14 @@ npm run build:validate
 CLI deploy:
 
 ```bash
-npm run pages:deploy
+npm run deploy
 ```
 
 ## Environment
 
 - Node.js >= 22.12.0
-- Checkout URL: Zadeyo Rust product (`siteConfig.checkoutUrl` in `src/data/site.ts`)
+- Checkout URL: Zadeyo Rust product (`brand.checkoutUrl` in `src/data/brand.ts`)
 
 ## License
 
 Private — for rustcheats.co deployment only.
-=======
-# rust-cheats-co
->>>>>>> origin/main
