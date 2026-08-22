@@ -332,5 +332,5 @@ export const customerReviewStats = {
 	averageRating: 4.4,
 	/** Published review count for schema and marketing UI */
 	totalCount: 10,
-	reviewCountLabel: '10',
+	reviewCountLabel: '10+',
 } as const;
