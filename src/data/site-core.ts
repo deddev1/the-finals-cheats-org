@@ -40,31 +40,36 @@ const copyDefaults = {
 } as const;
 
 const seoDefaults = {
-	homeTitle: '{brand} | Undetected {primaryKeyword}',
+	homeTitle: 'Rust Cheats 2026 | Undetected ESP, Aimbot & Wallhack',
 	homeDescription:
-		'{primaryKeyword} for Windows PC — ESP, aimbot, and radar with {antiCheat} maintenance. Compare plans and buy.',
-	featuresTitle: '{game} Features | {brand}',
+		'Buy undetected rust cheats at rustcheats.co — ESP wallhack, soft aim, 2D radar & mod menu for Windows PC. Easy Anti-Cheat patch updates. Plans from $35/month.',
+	featuresTitle: 'Rust Features 2026 | ESP, Aimbot & Radar | {brand}',
 	featuresDescription:
-		'Everything in one {game} license for Windows PC — ESP, aimbot, radar, and patch updates.',
-	storeTitle: '{game} Store | {brand}',
-	storeDescription: 'Monthly and lifetime {game} plans. Same features. Instant delivery after payment.',
-	statusTitle: '{game} Status | {brand}',
+		'Full rust cheats feature list at {brand} — ESP wallhack, soft aim, 2D radar and mod menu toggles for Windows PC. {antiCheat} maintenance included. Compare at rustcheats.co.',
+	storeTitle: 'Rust Cheats Pricing 2026 | $35/mo or $150 Lifetime',
+	storeDescription:
+		'Buy rust cheats at rustcheats.co — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.',
+	statusTitle: 'Rust Status 2026 | Undetected {antiCheat} Updates | {brand}',
 	statusDescription:
-		'Live status for {brand} after {game} or {antiCheat} patches. Check before you raid.',
-	previewTitle: '{game} Preview | {brand}',
+		'Live {brand} status after {game} or {antiCheat} patches. Check undetected ESP, aimbot and radar rebuilds on Windows PC before you raid. Updated at rustcheats.co.',
+	previewTitle: 'Rust Hacks Guide 2026 | ESP, Aimbot & Wallhack | {brand}',
 	previewDescription:
-		'Quick preview of {brand} — ESP, aimbot, radar, and updates after {game} patches.',
-	setupTitle: '{game} Setup | {brand}',
-	setupDescription: 'Install and launch {brand} on Windows PC. Short setup steps after you buy.',
-	supportTitle: '{game} Support | {brand}',
-	supportDescription: 'Get help with {brand}. Email {email} with your order ID.',
-	faqTitle: '{game} FAQ | {brand}',
-	faqDescription: 'Short answers about {brand} — delivery, setup, updates, and refunds.',
-	reviewsTitle: '{brand} Reviews | Buyer Feedback',
+		'Full rust cheats guide from {brand} — undetected ESP wallhack, soft aim, 2D radar and {antiCheat} rebuilds on Windows PC. Compare features and buy at rustcheats.co from $35.',
+	setupTitle: 'Rust Cheats Setup 2026 | Windows PC Install Guide',
+	setupDescription:
+		'Install {brand} on Windows PC after checkout — activate ESP, soft aim and radar step by step. Setup guide at rustcheats.co. Check {antiCheat} status before your first raid.',
+	supportTitle: 'Rust Cheats Support 2026 | License & Setup Help',
+	supportDescription:
+		'{brand} support for license delivery, ESP setup and billing on Windows PC. Email {email} with your order ID. Visit rustcheats.co/support for FAQs and guides.',
+	faqTitle: 'Rust Cheats FAQ 2026 | ESP, Aimbot & {antiCheat} Answers',
+	faqDescription:
+		'{brand} FAQ — delivery, setup, undetected status, {antiCheat} updates, pricing and refunds for rust cheats on Windows PC. Clear answers at rustcheats.co before you buy.',
+	reviewsTitle: 'Rust Cheats Reviews 2026 | Real Buyer Feedback',
 	reviewsDescription:
-		'Real buyer reviews for {brand} — ESP, soft aim, radar, and patch updates on Windows PC.',
-	blogTitle: '{game} Intel | {brand}',
-	blogDescription: 'Guides and notes for {game} — meta tips, ESP, aimbot, and {antiCheat} updates.',
+		'Real buyer reviews for {brand} — ESP wallhack, soft aim, radar and {antiCheat} maintenance on Windows PC. See what license holders say before you buy at rustcheats.co.',
+	blogTitle: 'Rust Intel Blog 2026 | Guides & Patch Tips | {brand}',
+	blogDescription:
+		'Rust Intel blog from {brand} — raid tips, ESP and aimbot guides, loot routes and {antiCheat} update notes for Windows PC players at rustcheats.co/blog.',
 } as const;
 
 type SeoShape = typeof seoDefaults;

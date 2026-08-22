@@ -98,25 +98,34 @@ export const brand = {
 	seo: {
 		homeTitle: 'Rust Cheats 2026 | Undetected ESP, Aimbot & Wallhack',
 		homeDescription:
-			'Buy undetected rust cheats for Windows PC — ESP wallhack, soft aim, 2D radar and mod menu. Rust hacks with Easy Anti-Cheat patch updates. Plans from $35.',
-		featuresTitle: '{game} Features | {brand}',
-		featuresDescription: 'Everything in one {game} license for Windows PC — ESP, soft aim, radar, raid tools, and patch updates after {antiCheat}. See what is included.',
-		storeTitle: '{game} Store | {brand}',
-		storeDescription: 'Monthly and lifetime {game} plans for Windows PC. Same ESP, aimbot, and radar features on both. Instant delivery after payment checkout.',
-		statusTitle: '{game} Status | {brand}',
-		statusDescription: 'Live undetected status for {brand} after {game} or {antiCheat} patches. Check here before you raid on Windows PC today.',
-		previewTitle: 'Rust Cheats Guide | ESP, Aimbot, Wallhack & EAC',
-		previewDescription: 'Full rust cheats guide — undetected ESP wallhack, soft aim, 2D radar, and Easy Anti-Cheat rebuilds. Compare rust hacks features before you buy on PC.',
-		setupTitle: '{game} Setup | {brand}',
-		setupDescription: 'Install and launch {brand} on Windows PC after checkout. Short setup steps so you can load in faster. Follow each step in order before your first raid.',
-		supportTitle: '{game} Support | {brand}',
-		supportDescription: 'Get help with {brand} on Windows PC. Email {email} with your order ID for setup, delivery, or billing help after you buy.',
-		faqTitle: '{game} FAQ | {brand}',
-		faqDescription: 'Short answers about {brand} for Rust — delivery, setup, {antiCheat} updates, refunds, and Windows PC system notes before you buy.',
-		reviewsTitle: '{brand} Reviews | Buyer Feedback',
-		reviewsDescription: 'Buyer reviews for {brand} — ESP, soft aim, radar, and patch updates for Rust on Windows PC. Real feedback from license holders.',
-		blogTitle: '{game} Intel | {brand}',
-		blogDescription: 'Guides and notes for {game} — raid tips, ESP, aimbot, loot routes, and {antiCheat} update coverage for Windows PC players.',
+			'Buy undetected rust cheats at rustcheats.co — ESP wallhack, soft aim, 2D radar & mod menu for Windows PC. Easy Anti-Cheat patch updates. Plans from $35/month.',
+		featuresTitle: 'Rust Features 2026 | ESP, Aimbot & Radar | {brand}',
+		featuresDescription:
+			'Full rust cheats feature list at {brand} — ESP wallhack, soft aim, 2D radar and mod menu toggles for Windows PC. {antiCheat} maintenance included. Compare at rustcheats.co.',
+		storeTitle: 'Rust Cheats Pricing 2026 | $35/mo or $150 Lifetime',
+		storeDescription:
+			'Buy rust cheats at rustcheats.co — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.',
+		statusTitle: 'Rust Status 2026 | Undetected {antiCheat} Updates | {brand}',
+		statusDescription:
+			'Live {brand} status after {game} or {antiCheat} patches. Check undetected ESP, aimbot and radar rebuilds on Windows PC before you raid. Updated at rustcheats.co.',
+		previewTitle: 'Rust Hacks Guide 2026 | ESP, Aimbot & Wallhack | {brand}',
+		previewDescription:
+			'Full rust cheats guide from {brand} — undetected ESP wallhack, soft aim, 2D radar and {antiCheat} rebuilds on Windows PC. Compare features and buy at rustcheats.co from $35.',
+		setupTitle: 'Rust Cheats Setup 2026 | Windows PC Install Guide',
+		setupDescription:
+			'Install {brand} on Windows PC after checkout — activate ESP, soft aim and radar step by step. Setup guide at rustcheats.co. Check {antiCheat} status before your first raid.',
+		supportTitle: 'Rust Cheats Support 2026 | License & Setup Help',
+		supportDescription:
+			'{brand} support for license delivery, ESP setup and billing on Windows PC. Email {email} with your order ID. Visit rustcheats.co/support for FAQs and guides.',
+		faqTitle: 'Rust Cheats FAQ 2026 | ESP, Aimbot & {antiCheat} Answers',
+		faqDescription:
+			'{brand} FAQ — delivery, setup, undetected status, {antiCheat} updates, pricing and refunds for rust cheats on Windows PC. Clear answers at rustcheats.co before you buy.',
+		reviewsTitle: 'Rust Cheats Reviews 2026 | Real Buyer Feedback',
+		reviewsDescription:
+			'Real buyer reviews for {brand} — ESP wallhack, soft aim, radar and {antiCheat} maintenance on Windows PC. See what license holders say before you buy at rustcheats.co.',
+		blogTitle: 'Rust Intel Blog 2026 | Guides & Patch Tips | {brand}',
+		blogDescription:
+			'Rust Intel blog from {brand} — raid tips, ESP and aimbot guides, loot routes and {antiCheat} update notes for Windows PC players at rustcheats.co/blog.',
 	},
 
 	/** On-page marketing copy (tokens allowed) */

@@ -240,9 +240,9 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		],
 	}),
 	'rust-esp': page({
-		title: 'Rust ESP | {brand}',
+		title: 'Rust ESP 2026 | Wallhack & Player Boxes | {brand}',
 		description:
-			'Rust ESP and wallhack for Rust on Windows PC — player boxes, distance, loot filters, and clear overlays in raids.',
+			'Rust ESP wallhack with player boxes, loot markers and distance tags on Windows PC. Undetected rust cheats from {brand} — aimbot and radar included. Buy at rustcheats.co.',
 		h1: 'ESP',
 		intro: 'See players and loot through walls during Rust raids. Part of the same {brand} license.',
 		ctaPrimary: brandCopy.ctaBuy,
@@ -272,9 +272,9 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		],
 	}),
 	'rust-aimbot': page({
-		title: 'Rust Aimbot | {brand}',
+		title: 'Rust Aimbot 2026 | Soft Aim Settings | {brand}',
 		description:
-			'Rust Aimbot and soft aim for Rust on Windows PC — FOV, smoothness, and bone priority you can tune per weapon.',
+			'Rust aimbot and soft aim with FOV, bone priority and hotkeys on Windows PC. Part of undetected {brand} with ESP wallhack and radar. Plans from $35 at rustcheats.co.',
 		h1: 'Aimbot',
 		intro: 'Soft aim and aim assist you can tune for Rust. Included in the same {brand} license.',
 		ctaPrimary: brandCopy.ctaBuy,
@@ -304,9 +304,9 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		],
 	}),
 	radar: page({
-		title: 'Rust Radar | {brand}',
+		title: 'Rust Radar Hack 2026 | 2D Threat Map | {brand}',
 		description:
-			'Rust 2D radar for Rust on Windows PC — flank cues near monuments and compounds without filling the whole screen.',
+			'Rust 2D radar hack for flank awareness on Windows PC. Bundled with ESP wallhack and soft aim in one {brand} license. Undetected with Easy Anti-Cheat maintenance at rustcheats.co.',
 		h1: 'Radar',
 		intro: 'A simple 2D radar for threats outside your view. Included in the same {brand} license.',
 		ctaPrimary: brandCopy.ctaBuy,

@@ -104,8 +104,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 			},
 			pages: {
 				home: {
-					title: "Rust Cheats | Undetected Aimbot, ESP & Wallhack 2026",
-					description: "Rust hacks for PC with aimbot, ESP and wallhack features. Explore gameplay features, pricing, setup information and the latest updates.",
+					title: "Rust Cheats 2026 | Undetected ESP, Aimbot & Wallhack",
+					description: "Buy undetected rust cheats at rustcheats.co — ESP wallhack, soft aim, 2D radar & mod menu for Windows PC. Easy Anti-Cheat patch updates. Plans from $35/month.",
 					h1: "Rust Cheats — Undetected ESP, Wallhack & Aimbot",
 					intro: "Rust Cheats is the undetected Rust Cheats package for Windows PC — built for Rust on Windows PC. Rust ESP wallhack, 2D radar, and Rust Aimbot with Easy Anti-Cheat maintenance after every major patch.",
 					imageAlt: "Rust Cheats homepage hero — ESP and aimbot for Rust",
@@ -117,7 +117,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Why players choose rust cheats in 2026",
 							paragraphs: [
-								"Rust rewards map awareness. Rust Cheats combines ESP wallhack for enemy players and loot, radar-style threat cues, and configurable Aimbot so you can read fights before committing — on raid, loot run, and official servers.",
+								"Rust rewards map awareness. Rust Cheats combines ESP wallhack for enemy players and loot, radar-style threat cues, and configurable Aimbot so you can read fights before committing — on raid, farming run, and official servers.",
 								"Official seasons, patches, and anti-cheat updates come from <a href=\"https://store.steampowered.com/app/252490/Rust/\" target=\"_blank\" rel=\"noopener noreferrer\">Rust</a> and <a href=\"https://www.easy.ac/\" target=\"_blank\" rel=\"noopener noreferrer\">Easy Anti-Cheat</a>. We rebuild ESP, radar, and Aimbot modules when those patches require maintenance — then post status on the <a href=\"/updates/\">Updates page</a>.",
 								"Licenses ship digitally after payment confirmation. Monthly ($35) and lifetime ($150) plans include Easy Anti-Cheat maintenance rebuilds when anti-cheat or game patches require updates.",
 								"Start with the <a href=\"/rust-cheats/\">Rust Cheats pillar</a>, <a href=\"/rust-esp/\">ESP guide</a>, <a href=\"/rust-aimbot/\">Aimbot controls</a>, and <a href=\"/rust-cheats/\">undetected status</a> pages if you are comparing tools before checkout.",
@@ -136,10 +136,10 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/rust-cheats-esp.webp",
 				},
 				"rust-esp": {
-					title: "Rust ESP 2026 | Player Boxes & Wallhack",
-					description: "Rust ESP for Windows PC — player boxes, loot markers, and distance readouts. Part of our undetected rust cheats for Rust.",
+					title: "Rust ESP 2026 | Wallhack & Player Boxes | Rust Cheats",
+					description: "Rust ESP wallhack with player boxes, loot markers and distance tags on Windows PC. Undetected rust cheats from Rust Cheats — aimbot and radar included. Buy at",
 					h1: "Rust ESP — Player Boxes & Wallhack",
-					intro: "Rust ESP visibility tools for raid and loot run. Read enemy squads, players, NPCs, loot, and distance before you commit — toggleable Rust ESP wallhack overlays bundled in our Rust Cheats package.",
+					intro: "Rust ESP visibility tools for raid and farming run. Read enemy squads, players, NPCs, loot, and distance before you commit — toggleable Rust ESP wallhack overlays bundled in our Rust Cheats package.",
 					imageAlt: "Rust ESP player boxes and distance readouts in a raid",
 					galleryTitle: "Rust ESP overlay visuals",
 					ctaPrimary: "Buy Rust Cheats",
@@ -150,7 +150,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "What Rust ESP solves in raids",
 							paragraphs: [
 								"Rust maps punish incomplete information. Rust Cheats ESP wallhack helps you spot enemy squads early, spot players and NPCs before they push your angle, and mark high-value loot worth the detour.",
-								"On raid, loot run, and official servers, that visibility gap is often the difference between a clean third-player and a patched pack. ESP ships bundled with radar overlays and Aimbot in one license.",
+								"On raid, farming run, and official servers, that visibility gap is often the difference between a clean third-player and a patched pack. ESP ships bundled with radar overlays and Aimbot in one license.",
 								"Rust’s live seasons and map updates are published by Facepunch (<a href=\"https://store.steampowered.com/app/252490/Rust/\" target=\"_blank\" rel=\"noopener noreferrer\">Rust</a>). When POIs or loot rules shift, ESP categories stay useful because they track players and loot — not a single static landmark.",
 							],
 						},
@@ -188,8 +188,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/rust-cheats-radar.webp",
 				},
 				"rust-aimbot": {
-					title: "Rust Aimbot 2026 | Soft Aim for Windows PC",
-					description: "Rust Aimbot with soft aim tuning for Windows PC. FOV, bone priority, and hotkeys bundled with ESP boxes in our Rust Cheats package.",
+					title: "Rust Aimbot 2026 | Soft Aim Settings | Rust Cheats",
+					description: "Rust aimbot and soft aim with FOV, bone priority and hotkeys on Windows PC. Part of undetected Rust Cheats with ESP wallhack and radar. Plans from $35 at",
 					h1: "Rust Aimbot — Soft Aim for Windows PC",
 					intro: "Configurable Aimbot tools for Rust firefights. Smoothness, FOV, bone priority, and per-weapon profiles — bundled with ESP wallhack and radar in one undetected license.",
 					imageAlt: "Rust Aimbot and soft aim controls on Windows PC",
@@ -240,8 +240,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/rust-cheats-aimbot.webp",
 				},
 				features: {
-					title: "Rust Cheats Features | ESP, Soft Aim & RadarRadar",
-					description: "Full rust cheats feature list: ESP boxes, soft aim, radar, and toggles for Windows PC. Review controls before checkout.",
+					title: "Rust Features 2026 | ESP, Aimbot & Radar | Rust Cheats",
+					description: "Full rust cheats feature list at Rust Cheats — ESP wallhack, soft aim, 2D radar and mod menu toggles for Windows PC. Easy Anti-Cheat maintenance included.",
 					h1: "Rust Cheats Features — Full Control List",
 					intro: "Every ESP wallhack, radar hack, and Aimbot control included in Rust Cheats for Rust on Windows PC — with Easy Anti-Cheat maintenance after major patches.",
 					imageAlt: "Rust Cheats features — ESP, soft aim, and radar screenshots",
@@ -278,8 +278,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/rust-cheats-aimbot-view.webp",
 				},
 				pricing: {
-					title: "Rust Cheats Pricing | $35/mo or $150 Life",
-					description: "rust cheats pricing: $35/month or $150 lifetime for ESP, soft aim, and radar on Windows PC. Instant delivery — pick a plan.",
+					title: "Rust Cheats Pricing 2026 | $35/mo or $150 Lifetime",
+					description: "Buy rust cheats at rustcheats.co — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant",
 					h1: "Rust Cheats Pricing — Monthly & Lifetime",
 					intro: "Choose monthly or lifetime access to undetected Rust Cheats — ESP wallhack, radar hack, and Aimbot for Rust on Windows PC. Instant digital delivery after payment.",
 					imageAlt: "Rust Cheats store plans for monthly and lifetime licenses",
@@ -316,8 +316,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/rust-cheats-session.webp",
 				},
 				setup: {
-					title: "Rust Cheats Setup | Windows PC Guide",
-					description: "Set up rust cheats on Windows PC — activate ESP boxes, soft aim profiles, and . Check Easy Anti-Cheat updates before your first load in.",
+					title: "Rust Cheats Setup 2026 | Windows PC Install Guide",
+					description: "Install Rust Cheats on Windows PC after checkout — activate ESP, soft aim and radar step by step. Setup guide at rustcheats.co. Check Easy Anti-Cheat status",
 					h1: "Rust Cheats Setup — Windows PC Guide",
 					intro: "Install and configure Rust Cheats for Rust on Windows 10 or 11. Activate your license, load ESP wallhack and Aimbot profiles, and verify Easy Anti-Cheat maintenance status before loading in.",
 					imageAlt: "Rust Cheats setup guide screenshot for Windows PC",
@@ -354,8 +354,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/rust-cheats-radar.webp",
 				},
 				updates: {
-					title: "Rust Cheats Updates | Easy Anti-Cheat Maintenance Log",
-					description: "rust cheats update log: Easy Anti-Cheat rebuilds for ESP boxes, soft aim, and radar on Windows PC. Check status before loading in after patches.",
+					title: "Rust Status 2026 | Undetected Easy Anti-Cheat Updates |",
+					description: "Live Rust Cheats status after Rust or Easy Anti-Cheat patches. Check undetected ESP, aimbot and radar rebuilds on Windows PC before you raid. Updated at",
 					h1: "Rust Cheats Updates — Maintenance Log",
 					intro: "Track Easy Anti-Cheat maintenance and Rust patch rebuilds for the undetected ESP wallhack, radar hack, and Aimbot package. Check here before loading in after major updates.",
 					imageAlt: "Rust Cheats live status after Easy Anti-Cheat and game patches",
@@ -369,7 +369,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"Rust and Easy Anti-Cheat receive frequent patches. Rust Cheats publishes maintenance notes when ESP wallhack, radar, or Aimbot behavior needs a rebuild.",
 								"Use <a href=\"https://store.steampowered.com/app/252490/Rust/\" target=\"_blank\" rel=\"noopener noreferrer\">Rust on Steam</a> for Facepunch Studios platform health and this page for Rust Cheats build status — both matter on big update days.",
-								"Checking this log before you raid reduces surprises after game days or seasonal launches on raid and loot run.",
+								"Checking this log before you raid reduces surprises after game days or seasonal launches on raid and farming run.",
 							],
 						},
 						{
@@ -392,8 +392,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/rust-cheats-esp.webp",
 				},
 				faq: {
-					title: "Rust Cheats FAQ | ESP, Soft Aim & RadarRadar Answers",
-					description: "rust cheats FAQ: ESP boxes, soft aim, Easy Anti-Cheat maintenance, and pricing for PC. Clear answers before you buy.",
+					title: "Rust Cheats FAQ 2026 | ESP, Aimbot & Easy Anti-Cheat Answers",
+					description: "Rust Cheats FAQ — delivery, setup, undetected status, Easy Anti-Cheat updates, pricing and refunds for rust cheats on Windows PC. Clear answers at",
 					h1: "Rust Cheats FAQ — Common Questions",
 					intro: "Answers about undetected Rust Cheats — ESP wallhack, radar hack, Aimbot, Easy Anti-Cheat maintenance, checkout, and Rust compatibility on Windows PC.",
 					imageAlt: "Rust Cheats FAQ — delivery, setup, and update answers",
@@ -406,7 +406,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "What is Rust Cheats?",
 							paragraphs: [
 								"Rust Cheats is an undetected cheat package for Rust on Windows PC. It includes ESP wallhack, 2D radar-style awareness, and Aimbot controls with Easy Anti-Cheat maintenance updates.",
-								"Packages cover raid and loot run. Explore <a href=\"/features/\">Features</a> for the full control list and <a href=\"/rust-esp/\">ESP</a> / <a href=\"/rust-aimbot/\">Aimbot</a> for module detail.",
+								"Packages cover raid and farming run. Explore <a href=\"/features/\">Features</a> for the full control list and <a href=\"/rust-esp/\">ESP</a> / <a href=\"/rust-aimbot/\">Aimbot</a> for module detail.",
 								"Rust itself is published by Facepunch (<a href=\"https://store.steampowered.com/app/252490/Rust/\" target=\"_blank\" rel=\"noopener noreferrer\">Rust</a>). Cheats are third-player tools and may violate Facepunch Studios' rules — use is at your own risk.",
 							],
 						},
@@ -430,8 +430,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/rust-cheats-aimbot-view.webp",
 				},
 				support: {
-					title: "Rust Cheats Support | Help & Contact",
-					description: "Contact rust cheats support for licenses, ESP setup, soft aim profiles, and on Windows PC. Include your order ID for faster help.",
+					title: "Rust Cheats Support 2026 | License & Setup Help",
+					description: "Rust Cheats support for license delivery, ESP setup and billing on Windows PC. Email support@rustcheats.co with your order ID. Visit rustcheats.co/support for",
 					h1: "Rust Cheats Support — Contact Us",
 					intro: "Get help with Rust Cheats licenses, checkout, ESP wallhack setup, Aimbot profiles, and Easy Anti-Cheat maintenance for Rust on Windows PC.",
 					imageAlt: "Rust Cheats support page for license and setup help",
@@ -468,8 +468,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/rust-cheats-session.webp",
 				},
 				undetected: {
-					title: "Undetected Rust Cheats 2026 | Easy Anti-Cheat Maintenance",
-					description: "Undetected rust cheats with Easy Anti-Cheat maintenance for ESP boxes, soft aim, and radar on Windows PC. Check status before you raid.",
+					title: "Undetected Rust Cheats 2026 | EAC Safe | Rust Cheats",
+					description: "Undetected rust cheats with Easy Anti-Cheat maintenance for ESP, soft aim and radar on Windows PC. Check live status at Rust Cheats before every raid. Buy at",
 					h1: "Undetected Rust Cheats — Easy Anti-Cheat Maintenance",
 					intro: "How Rust Cheats stays maintained for Rust after Easy Anti-Cheat patches — ESP wallhack, radar hack, and Aimbot rebuilds for Windows PC.",
 					imageAlt: "Rust Cheats undetected status overview for Windows PC",
@@ -506,8 +506,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/rust-cheats-wallhack.webp",
 				},
 				wallhack: {
-					title: "Rust Wallhack 2026 | ESP Boxes & Visibility",
-					description: "rust wallhack ESP with player boxes and loot markers for Windows PC. Undetected rust cheats — learn overlays and buy.",
+					title: "Rust Wallhack 2026 | ESP Boxes & Loot | Rust Cheats",
+					description: "Rust wallhack ESP — player boxes, loot markers and skeleton overlays on Windows PC. Undetected rust cheats from Rust Cheats with EAC patch rebuilds. Get access",
 					h1: "Rust Wallhack — ESP Boxes & Visibility",
 					intro: "Rust wallhack ESP for Rust — see players, loot, enemy players, and resource nodes through toggleable wallhack overlays built for base raids and PvP fights.",
 					imageAlt: "rust wallhack visibility through walls in a raid",
@@ -527,7 +527,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Map coverage for wallhack ESP",
 							paragraphs: [
-								"Wallhack overlays support raid, loot run, and official servers with distance readouts and snaplines for engagement control.",
+								"Wallhack overlays support raid, farming run, and official servers with distance readouts and snaplines for engagement control.",
 								"Season maps and POI changes are announced via <a href=\"https://store.steampowered.com/app/252490/Rust/\" target=\"_blank\" rel=\"noopener noreferrer\">Rust</a>. Wallhack remains useful because it tracks entities, not fixed landmarks alone.",
 								"Pair wallhack awareness with <a href=\"/rust-radar-hack/\">radar hack</a> cues for flanks during forest and monument edge ambushes.",
 							],
@@ -544,8 +544,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/rust-cheats-wallhack.webp",
 				},
 				radar: {
-					title: "Rust Radar Hack 2026 | 2D Threat Overlay",
-					description: "rust radar hack for flank awareness on Windows PC. Bundled with ESP boxes, soft aim, and radar in our Rust Cheats package.",
+					title: "Rust Radar Hack 2026 | 2D Threat Map | Rust Cheats",
+					description: "Rust 2D radar hack for flank awareness on Windows PC. Bundled with ESP wallhack and soft aim in one Rust Cheats license. Undetected with Easy Anti-Cheat",
 					h1: "Rust Radar Hack — 2D Threat Awareness",
 					intro: "2D radar-style overlay for Rust — directional threat cues for nearby players outside your line of sight, bundled with ESP wallhack and Aimbot.",
 					imageAlt: "Rust 2D radar overlay showing nearby threats",
@@ -565,7 +565,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Configurable radar range",
 							paragraphs: [
-								"Adjust radar range for early rotations versus tight compound zones. Directional cues highlight flanks during building clears and flank pushes across raid and loot run.",
+								"Adjust radar range for early rotations versus tight compound zones. Directional cues highlight flanks during building clears and flank pushes across raid and farming run.",
 								"Toggle radar alongside ESP and Aimbot with in-client hotkeys during live matches — see the <a href=\"/rust-cheats/\">mod menu</a> page.",
 								"Combat follow-up lives on <a href=\"/rust-aimbot/\">Aimbot</a> when you convert radar info into a fight.",
 							],
@@ -620,8 +620,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/rust-cheats-aimbot.webp",
 				},
 				"cheats-2026": {
-					title: "Rust Cheats 2026 | ESP Soft Aim & Radar",
-					description: "Best rust cheats 2026: ESP boxes, soft aim, and radar for Windows PC. Undetected rust cheats with Easy Anti-Cheat maintenance — compare and buy.",
+					title: "Rust Cheats 2026 | Undetected Hacks for Windows PC",
+					description: "Best rust cheats 2026 — undetected ESP wallhack, soft aim and 2D radar for Windows PC. Easy Anti-Cheat maintenance and instant delivery from Rust Cheats at",
 					h1: "Rust Cheats 2026 — ESP, Soft Aim & RadarRadar",
 					intro: "The 2026 Rust Cheats package for Rust — undetected ESP wallhack, radar hack, and Aimbot with Easy Anti-Cheat maintenance, instant delivery, and Windows PC support.",
 					imageAlt: "Rust Cheats product overview for Rust",
@@ -635,7 +635,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"2026 updates bring new maps, player balance changes, and Easy Anti-Cheat patches. Rust Cheats bundles ESP wallhack, radar hack, and Aimbot with active maintenance — not a stale prior-year build.",
 								"Track official season messaging on <a href=\"https://store.steampowered.com/app/252490/Rust/\" target=\"_blank\" rel=\"noopener noreferrer\">Rust</a>, then use our <a href=\"/updates/\">Updates log</a> for product rebuild timing.",
-								"Monthly ($35) and lifetime ($150) plans cover raid and loot run loops — see <a href=\"/pricing/\">Pricing</a>.",
+								"Monthly ($35) and lifetime ($150) plans cover raid and farming run loops — see <a href=\"/pricing/\">Pricing</a>.",
 							],
 						},
 						{
@@ -658,8 +658,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/rust-cheats-esp.webp",
 				},
 				hacks: {
-					title: "Rust Cheats 2026 | Undetected ESP, Aimbot & Radar Guide",
-					description: "Learn what rust cheats include — ESP wallhack, radar, soft aim, and Easy Anti-Cheat maintenance for Windows PC. Full rust cheats guide before you buy.",
+					title: "Rust Hacks Guide 2026 | ESP, Aimbot & Wallhack | Rust Cheats",
+					description: "Full rust cheats guide from Rust Cheats — undetected ESP wallhack, soft aim, 2D radar and Easy Anti-Cheat rebuilds on Windows PC. Compare features and buy at",
 					h1: "Rust Cheats — What You Get & How It Works",
 					intro: "Rust cheats give you extra information and combat tools on top of the base game: player ESP, loot markers, 2D radar, and configurable soft aim in one Windows PC license. This page explains what rust cheats are, what Rust Cheats includes, and how maintenance works after Easy Anti-Cheat patches.",
 					imageAlt: "Rust Cheats overview — ESP, aimbot, and radar for Rust",
@@ -672,7 +672,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "What are rust cheats?",
 							paragraphs: [
 								"Rust is an information-heavy survival game. Rust cheats are third-party tools that add overlays and assist features — typically ESP to see players and loot through walls, radar for off-screen threats, and soft aim to smooth combat under pressure.",
-								"Rust Cheats bundles those tools in one maintained package instead of juggling separate downloads. One license covers raid sessions, loot runs, and official servers on Windows 10 and 11.",
+								"Rust Cheats bundles those tools in one maintained package instead of juggling separate downloads. One license covers raid sessions, farming runs, and official servers on Windows 10 and 11.",
 								"Game updates publish on <a href=\"https://store.steampowered.com/app/252490/Rust/\" target=\"_blank\" rel=\"noopener noreferrer\">Rust</a>. Our rebuild notes live on the <a href=\"/updates/\">Updates page</a> so you know when to load in after a patch.",
 							],
 						},
@@ -704,8 +704,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/rust-cheats-combat.webp",
 				},
 				"cheat-download": {
-					title: "Rust Hack Download 2026 | Instant Access",
-					description: "rust cheat download with instant license delivery — ESP boxes, soft aim, and radar for Windows PC. Buy, activate, and play.",
+					title: "Rust Cheat Download 2026 | Instant Access | Rust Cheats",
+					description: "Rust cheat download with instant license delivery — ESP, soft aim and radar for Windows PC. Buy Rust Cheats, activate and raid. Secure checkout at",
 					h1: "Rust Hack Download — Instant License Delivery",
 					intro: "How rust cheat download works for Rust — digital license delivery after payment confirmation, with ESP wallhack, radar hack, and Aimbot access on Windows PC.",
 					imageAlt: "Rust Cheats download and install delivery flow",
@@ -742,8 +742,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/rust-cheats-session.webp",
 				},
 				"mod-menu": {
-					title: "Rust Mod Menu 2026 | ESP & Soft Aim Toggles",
-					description: "Rust mod menu for in-match toggles — ESP boxes, soft aim, radar, and on Windows PC. Undetected Rust Cheats package.",
+					title: "Rust Mod Menu 2026 | ESP & Aimbot Toggles | Rust Cheats",
+					description: "Rust mod menu for in-match ESP, soft aim and radar toggles on Windows PC. Undetected Rust Cheats with hotkeys and EAC maintenance. Get access at rustcheats.co",
 					h1: "Rust Mod Menu — In-Client Control Panel",
 					intro: "Rust mod menu controls for Rust — toggle ESP wallhack categories, radar range, and Aimbot profiles mid-match without leaving your Rust raid on Windows PC.",
 					imageAlt: "Rust Cheats in-game menu controls",
@@ -780,8 +780,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/rust-cheats-radar.webp",
 				},
 				"soft-aim": {
-					title: "Rust Soft Aim 2026 | Smooth Aimbot Settings",
-					description: "Rust soft aim settings for natural tracking on Windows PC. Smoothness, FOV, and bone priority — included in our rust cheats with ESP boxes.",
+					title: "Rust Soft Aim 2026 | Natural Aimbot Settings | Rust Cheats",
+					description: "Rust soft aim settings for natural tracking on Windows PC — smoothness, FOV and bone priority. Included in undetected Rust Cheats with ESP and radar at",
 					h1: "Rust Soft Aim — Smooth Aimbot Controls",
 					intro: "Rust soft aim settings for Rust — configurable Aimbot smoothness, FOV, bone priority, and hotkey toggles bundled with ESP wallhack and radar in one undetected license.",
 					imageAlt: "Rust soft aim FOV and smoothness settings",
@@ -818,8 +818,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/rust-cheats-aimbot-view.webp",
 				},
 				"best-cheats": {
-					title: "Best Rust Cheats 2026 | Buyer Guide",
-					description: "Best rust cheats for 2026: ESP boxes, soft aim, and Easy Anti-Cheat maintenance on Windows PC. Use this checklist before checkout.",
+					title: "Best Rust Cheats 2026 | Compare & Buy | Rust Cheats",
+					description: "Best rust cheats for 2026 — undetected ESP, soft aim and Easy Anti-Cheat maintenance on Windows PC. Use this Rust Cheats buyer checklist before checkout at",
 					h1: "Best Rust Cheats — 2026 Buyer Guide",
 					intro: "Compare rust cheats for Rust in 2026 — undetected ESP wallhack, radar hack, and Aimbot in one maintained package with Easy Anti-Cheat rebuilds and instant delivery.",
 					imageAlt: "Rust Cheats overview for Rust on PC",
@@ -832,7 +832,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "What makes rust cheats in 2026",
 							paragraphs: [
 								"The rust cheats combine active Easy Anti-Cheat maintenance, a full ESP wallhack and radar stack, configurable Aimbot, and clear update communication — not a stale build from a prior season.",
-								"Rust Cheats covers raid and loot run with in-client toggles and post-patch rebuilds.",
+								"Rust Cheats covers raid and farming run with in-client toggles and post-patch rebuilds.",
 								"Verify the live game is healthy via <a href=\"https://store.steampowered.com/app/252490/Rust/\" target=\"_blank\" rel=\"noopener noreferrer\">Rust on Steam</a>, then confirm our <a href=\"/updates/\">Updates</a> note before you judge any package “best.”",
 							],
 						},
@@ -856,8 +856,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/rust-cheats-esp.webp",
 				},
 				"aimbot-hack": {
-					title: "Rust Aimbot Hack 2026 | Soft Aim Assist",
-					description: "Rust Aimbot hack with soft aim for Windows PC. FOV, bone priority, and hotkeys — bundled with ESP boxes in our Rust Cheats package.",
+					title: "Rust Aimbot Hack 2026 | Soft Aim Assist | Rust Cheats",
+					description: "Rust aimbot hack with soft aim, FOV and bone priority on Windows PC. Bundled with ESP wallhack and radar in Rust Cheats. Undetected with EAC updates at",
 					h1: "Rust Aimbot Hack — Soft Aim Assist",
 					intro: "Rust Aimbot hack tools for Rust — smoothness, FOV, bone priority, per-weapon profiles, and hotkey toggles bundled with ESP wallhack and radar in one undetected license.",
 					imageAlt: "Rust Aimbot hack controls and bone priority",
@@ -894,10 +894,10 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/rust-cheats-aimbot-view.webp",
 				},
 				"esp-hack": {
-					title: "Rust ESP Hack 2026 | Player Boxes & Loot",
-					description: "Rust ESP hack with player boxes and loot markers for Windows PC. Undetected rust cheats with — see overlays and buy.",
+					title: "Rust ESP Hack 2026 | Player & Loot Boxes | Rust Cheats",
+					description: "Rust ESP hack with player boxes and loot markers on Windows PC. Undetected rust cheats from Rust Cheats — wallhack, radar and aimbot included. Buy at",
 					h1: "Rust ESP Hack — Player Boxes Guide",
-					intro: "Rust ESP hack overlays for Rust — player outlines, threat cues, loot and resources markers with distance readouts across raid and loot run.",
+					intro: "Rust ESP hack overlays for Rust — player outlines, threat cues, loot and resources markers with distance readouts across raid and farming run.",
 					imageAlt: "Rust ESP hack boxes and loot markers",
 					galleryTitle: "Rust ESP hack gallery",
 					ctaPrimary: "Buy Rust Cheats",
@@ -932,8 +932,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/rust-cheats-wallhack.webp",
 				},
 				"unlock-all": {
-					title: "Rust Unlock All 2026 | What It Really Means",
-					description: "Rust unlock-all explained vs real rust cheats — ESP boxes, soft aim, and radar for Windows PC. Know what you are buying.",
+					title: "Rust Unlock All 2026 | What It Means | Rust Cheats",
+					description: "Rust unlock-all explained vs real rust cheats — ESP wallhack, soft aim and radar for Windows PC. Know what Rust Cheats actually provides before buying at",
 					h1: "Rust Unlock All — What Players Search For",
 					intro: "Rust unlock-all is a common search term for Rust — this page clarifies what unlock-all tools claim versus the ESP wallhack, radar hack, and Aimbot tools Rust Cheats actually provides on Windows PC.",
 					imageAlt: "Rust Cheats license features overview",
@@ -970,8 +970,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/rust-cheats-radar.webp",
 				},
 				privacy: {
-					title: "Privacy Policy | Rust Cheats",
-					description: "Privacy policy for Rust Cheats. How we handle support emails, order data, and checkout for rust cheats licenses on rustcheats.co.",
+					title: "Privacy Policy | Rust Cheats — rustcheats.co",
+					description: "Privacy policy for Rust Cheats at rustcheats.co. How we handle support emails, order data and secure checkout for rust cheats licenses on Windows PC.",
 					h1: "Privacy Policy",
 					intro: "How Rust Cheats handles information when you browse rustcheats.co or contact support about a Rust license.",
 					imageAlt: "Rust Cheats privacy policy page",
@@ -1010,8 +1010,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/rust-cheats-aimbot.webp",
 				},
 				refund: {
-					title: "Refund Policy | Rust Cheats",
-					description: "Refund policy for Rust Cheats. Digital delivery terms and eligibility for Rust Cheats packages with ESP, soft aim, and radar.",
+					title: "Refund Policy | Rust Cheats — rustcheats.co",
+					description: "Refund policy for Rust Cheats digital licenses at rustcheats.co. Eligibility, delivery terms and how to request a refund for ESP, aimbot and radar packages.",
 					h1: "Refund Policy",
 					intro: "Refund terms for Rust Cheats licenses — ESP wallhack, radar hack, and Aimbot packages purchased through checkout for Rust.",
 					imageAlt: "Rust Cheats refund policy page",
@@ -1045,8 +1045,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/rust-cheats-session.webp",
 				},
 				terms: {
-					title: "Terms of Use 2026 | Rust Cheats Rules",
-					description: "Terms of use for rustcheats.co and Rust Cheats licenses. Usage rules, anti-cheat risk, and liability for Windows PC cheats.",
+					title: "Terms of Use | Rust Cheats — rustcheats.co",
+					description: "Terms of use for rustcheats.co and Rust Cheats licenses. Usage rules, Easy Anti-Cheat risk disclaimer and liability for Windows PC rust cheats.",
 					h1: "Terms of Use",
 					intro: "Terms governing use of rustcheats.co and Rust Cheats licenses for Rust on Windows PC.",
 					imageAlt: "Rust Cheats terms of use page",
@@ -1169,7 +1169,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Por qué eligen Rust Cheats en 2026",
 							paragraphs: [
-								"Rust Cheats ofrece ESP wallhack, radar hack y Rust Aimbot indetectables para Rust en Windows PC. Ideal para leer escuadrones enemigos en BR y loot run.",
+								"Rust Cheats ofrece ESP wallhack, radar hack y Rust Aimbot indetectables para Rust en Windows PC. Ideal para leer escuadrones enemigos en BR y farming run.",
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Easy Anti-Cheat.",
 							],
 						},
@@ -2112,7 +2112,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Pourquoi choisir Rust Cheats en 2026",
 							paragraphs: [
-								"Rust Cheats combine ESP wallhack, radar hack et Rust Aimbot indétectables pour Rust sur PC Windows. Parfait pour lire les escouades ennemies en BR et loot run.",
+								"Rust Cheats combine ESP wallhack, radar hack et Rust Aimbot indétectables pour Rust sur PC Windows. Parfait pour lire les escouades ennemies en BR et farming run.",
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Easy Anti-Cheat.",
 							],
 						},
@@ -3055,7 +3055,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Warum Rust Cheats 2026 führt",
 							paragraphs: [
-								"Rust Cheats bündelt ESP wallhack, radar hack und Rust Aimbot als undetected Paket für Rust auf Windows PC. Ideal um feindliche Squads in BR und loot run zu lesen.",
+								"Rust Cheats bündelt ESP wallhack, radar hack und Rust Aimbot als undetected Paket für Rust auf Windows PC. Ideal um feindliche Squads in BR und farming run zu lesen.",
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Easy Anti-Cheat-Wartung.",
 							],
 						},
@@ -3998,7 +3998,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Por que escolher Rust Cheats em 2026",
 							paragraphs: [
-								"Rust Cheats reúne ESP wallhack, radar hack e Rust Aimbot indetectáveis para Rust no PC Windows. Ideal para ler epackrões inimigos em BR e loot run.",
+								"Rust Cheats reúne ESP wallhack, radar hack e Rust Aimbot indetectáveis para Rust no PC Windows. Ideal para ler epackrões inimigos em BR e farming run.",
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Easy Anti-Cheat.",
 							],
 						},
@@ -4941,7 +4941,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Perché scegliere Rust Cheats nel 2026",
 							paragraphs: [
-								"Rust Cheats unisce ESP wallhack, radar hack e Rust Aimbot indetectable per Rust su PC Windows. Ideale per leggere packre nemiche in BR e loot run.",
+								"Rust Cheats unisce ESP wallhack, radar hack e Rust Aimbot indetectable per Rust su PC Windows. Ideale per leggere packre nemiche in BR e farming run.",
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Easy Anti-Cheat.",
 							],
 						},
@@ -5884,7 +5884,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Waarom Rust Cheats in 2026",
 							paragraphs: [
-								"Rust Cheats bundelt ESP wallhack, radar hack en Rust Aimbot als undetected pakket voor Rust op Windows PC. Ideaal om vijandelijke packs te lezen in BR en loot run.",
+								"Rust Cheats bundelt ESP wallhack, radar hack en Rust Aimbot als undetected pakket voor Rust op Windows PC. Ideaal om vijandelijke packs te lezen in BR en farming run.",
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Easy Anti-Cheat-onderhoud.",
 							],
 						},
@@ -6827,7 +6827,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Dlaczego Rust Cheats w 2026",
 							paragraphs: [
-								"Rust Cheats łączy ESP wallhack, radar hack i Rust Aimbot jako pakiet undetected dla Rust na PC Windows. Idealny do czytania wrogich packów w BR i loot run.",
+								"Rust Cheats łączy ESP wallhack, radar hack i Rust Aimbot jako pakiet undetected dla Rust na PC Windows. Idealny do czytania wrogich packów w BR i farming run.",
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Easy Anti-Cheat.",
 							],
 						},
@@ -7770,7 +7770,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Почему выбирают Rust Cheats в 2026",
 							paragraphs: [
-								"Rust Cheats объединяет ESP wallhack, radar hack и Rust Aimbot в undetected пакете для Rust на Windows PC. Идеально для чтения вражеских отрядов в BR и loot run.",
+								"Rust Cheats объединяет ESP wallhack, radar hack и Rust Aimbot в undetected пакете для Rust на Windows PC. Идеально для чтения вражеских отрядов в BR и farming run.",
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Easy Anti-Cheat.",
 							],
 						},
@@ -8713,7 +8713,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "2026'da neden Rust Cheats",
 							paragraphs: [
-								"Rust Cheats, Rust için Windows PC üzerinde ESP wallhack, radar hack ve Rust Aimbot undetected paket sunar. BR ve loot run'da düşman pack okumak için ideal.",
+								"Rust Cheats, Rust için Windows PC üzerinde ESP wallhack, radar hack ve Rust Aimbot undetected paket sunar. BR ve farming run'da düşman pack okumak için ideal.",
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Easy Anti-Cheat bakımı içerir.",
 							],
 						},
@@ -9656,7 +9656,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "لماذا Rust Cheats في 2026",
 							paragraphs: [
-								"Rust Cheats يجمع ESP wallhack وradar hack وRust Aimbot غير مكتشف لـ Rust على Windows PC. مثالي لقراءة فرق العدو في BR وloot run.",
+								"Rust Cheats يجمع ESP wallhack وradar hack وRust Aimbot غير مكتشف لـ Rust على Windows PC. مثالي لقراءة فرق العدو في BR وfarming run.",
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Easy Anti-Cheat.",
 							],
 						},
@@ -10599,7 +10599,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "2026年にRust Cheatsを選ぶ理由",
 							paragraphs: [
-								"Rust CheatsはRust向けWindows PC用ESP wallhack、radar hack、Rust Aimbotのundetectedパッケージです。BRとloot runで敵スクワッドを読むのに最適。",
+								"Rust CheatsはRust向けWindows PC用ESP wallhack、radar hack、Rust Aimbotのundetectedパッケージです。BRとfarming runで敵スクワッドを読むのに最適。",
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにEasy Anti-Cheatメンテナンス含む。",
 							],
 						},
@@ -11542,7 +11542,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "2026년 Rust Cheats를 선택하는 이유",
 							paragraphs: [
-								"Rust Cheats는 Rust Windows PC용 ESP wallhack, radar hack, Rust Aimbot undetected 패키지입니다. BR 및 loot run에서 적 분대 읽기에 이상적.",
+								"Rust Cheats는 Rust Windows PC용 ESP wallhack, radar hack, Rust Aimbot undetected 패키지입니다. BR 및 farming run에서 적 분대 읽기에 이상적.",
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Easy Anti-Cheat 유지보수 포함.",
 							],
 						},
@@ -12485,7 +12485,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "2026年选择Rust Cheats的原因",
 							paragraphs: [
-								"Rust Cheats为RustWindows PC提供ESP wallhack、radar hack和Rust Aimbotundetected套餐。适合在BR和loot run中读取敌方小队。",
+								"Rust Cheats为RustWindows PC提供ESP wallhack、radar hack和Rust Aimbotundetected套餐。适合在BR和farming run中读取敌方小队。",
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Easy Anti-Cheat维护。",
 							],
 						},
@@ -13428,7 +13428,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "2026 में Rust Cheats क्यों",
 							paragraphs: [
-								"Rust Cheats Rust के लिए Windows PC पर ESP wallhack, radar hack और Rust Aimbot undetected पैकेज देता है। BR और loot run में दुश्मन pack पढ़ने के लिए आदर्श.",
+								"Rust Cheats Rust के लिए Windows PC पर ESP wallhack, radar hack और Rust Aimbot undetected पैकेज देता है। BR और farming run में दुश्मन pack पढ़ने के लिए आदर्श.",
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Easy Anti-Cheat maintenance शामिल।",
 							],
 						},
@@ -14371,7 +14371,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Mengapa Rust Cheats di 2026",
 							paragraphs: [
-								"Rust Cheats menyediakan ESP wallhack, radar hack, dan Rust Aimbot undetected untuk Rust di PC Windows. Ideal membaca pack musuh di BR dan loot run.",
+								"Rust Cheats menyediakan ESP wallhack, radar hack, dan Rust Aimbot undetected untuk Rust di PC Windows. Ideal membaca pack musuh di BR dan farming run.",
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Easy Anti-Cheat.",
 							],
 						},
@@ -15314,7 +15314,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "ทำไมเลือก Rust Cheats ปี 2026",
 							paragraphs: [
-								"Rust Cheats รวม ESP wallhack, radar hack และ Rust Aimbot แบบ undetected สำหรับ Rust บน Windows PC เหมาะสำหรับอ่าน pack ศัตรูใน BR และ loot run",
+								"Rust Cheats รวม ESP wallhack, radar hack และ Rust Aimbot แบบ undetected สำหรับ Rust บน Windows PC เหมาะสำหรับอ่าน pack ศัตรูใน BR และ farming run",
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Easy Anti-Cheat",
 							],
 						},
@@ -16257,7 +16257,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Vì sao chọn Rust Cheats 2026",
 							paragraphs: [
-								"Rust Cheats cung cấp ESP wallhack, radar hack và Rust Aimbot undetected cho Rust trên PC Windows. Lý tưởng đọc pack địch trong BR và loot run.",
+								"Rust Cheats cung cấp ESP wallhack, radar hack và Rust Aimbot undetected cho Rust trên PC Windows. Lý tưởng đọc pack địch trong BR và farming run.",
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Easy Anti-Cheat.",
 							],
 						},
@@ -17200,7 +17200,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Чому Rust Cheats у 2026",
 							paragraphs: [
-								"Rust Cheats об'єднує ESP wallhack, radar hack і Rust Aimbot у undetected пакеті для Rust на Windows PC. Ідеально для читання ворожих загонів у BR і loot run.",
+								"Rust Cheats об'єднує ESP wallhack, radar hack і Rust Aimbot у undetected пакеті для Rust на Windows PC. Ідеально для читання ворожих загонів у BR і farming run.",
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Easy Anti-Cheat.",
 							],
 						},
@@ -18143,7 +18143,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Proč Rust Cheats v roce 2026",
 							paragraphs: [
-								"Rust Cheats spojuje ESP wallhack, radar hack a Rust Aimbot jako undetected balíček pro Rust na Windows PC. Ideální pro čtení nepřátelských packů v BR a loot run.",
+								"Rust Cheats spojuje ESP wallhack, radar hack a Rust Aimbot jako undetected balíček pro Rust na Windows PC. Ideální pro čtení nepřátelských packů v BR a farming run.",
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Easy Anti-Cheat.",
 							],
 						},
@@ -19086,7 +19086,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "De ce Rust Cheats în 2026",
 							paragraphs: [
-								"Rust Cheats combină ESP wallhack, radar hack și Rust Aimbot undetected pentru Rust pe PC Windows. Ideal pentru citirea pack-urilor inamice în BR și loot run.",
+								"Rust Cheats combină ESP wallhack, radar hack și Rust Aimbot undetected pentru Rust pe PC Windows. Ideal pentru citirea pack-urilor inamice în BR și farming run.",
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Easy Anti-Cheat.",
 							],
 						},
@@ -20029,7 +20029,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Varför Rust Cheats 2026",
 							paragraphs: [
-								"Rust Cheats kombinerar ESP wallhack, radar hack och Rust Aimbot som undetected paket för Rust på Windows PC. Ideal för att läsa fiendepacks i BR och loot run.",
+								"Rust Cheats kombinerar ESP wallhack, radar hack och Rust Aimbot som undetected paket för Rust på Windows PC. Ideal för att läsa fiendepacks i BR och farming run.",
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Easy Anti-Cheat-underhåll.",
 							],
 						},
