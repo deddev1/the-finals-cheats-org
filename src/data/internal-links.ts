@@ -246,7 +246,7 @@ const blogCategoryLinks: Record<string, InternalLinkTarget[]> = {
 const gameplayIntelCategories = new Set([
 	'Cosmetics',
 	'Weapons',
-	'Farming Runs',
+	'Loot Runs',
 	'Loot Routes',
 	'Settings',
 	'Warmup',

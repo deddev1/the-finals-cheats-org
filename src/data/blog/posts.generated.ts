@@ -16,7 +16,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		metaDescription: "Learn how Rust patch notes change player builds, resource economy, and maps. What to do after Easy Anti-Cheat and major updates in 2026.",
 		h1: "How to Read Rust Patch Notes",
 		intro: "When Facepunch Studios drops a patch, most players skim the headline and load in anyway. That is how you walk into Outpost with the wrong ammo and a gun that just lost its damage output. Here is a calmer way to read Rust patch notes so your next raid still makes sense.",
-		keywords: ["the rust patch notes","rust updates","eac patch"],
+		keywords: ["rust patch notes","rust updates","eac patch"],
 		imageAlt: "Player reviewing Rust patch notes before a raid",
 		sections: [
 			{
@@ -38,7 +38,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "How patches reshuffle loadouts and map plans",
 				paragraphs: [
 					"When mid-tier ARs feel strong, prioritize optics and stats that win 40–70 meter peeks. When recoil gets tighter, play more conservatively near monuments and compounds and avoid ego third-parties. When a map POI shifts — new locked rooms, moved spawns, heli spawn changes — rewrite your first three minutes on that map before you farm it for raid goals.",
-					"Keep in-game cosmetics chatter out of patch-day focus. Skin talk is fun; TTK and base camping patterns are what get you killed. For aggressive juvenile timing after a meta shift, see our <a href=\"/blog/rust-farming-run-aggressive-strategies/\">farming-run strategies</a>.",
+					"Keep in-game cosmetics chatter out of patch-day focus. Skin talk is fun; TTK and base camping patterns are what get you killed. For aggressive loot-run timing after a meta shift, see our <a href=\"/blog/rust-farming-run-aggressive-strategies/\">loot-run strategies</a>.",
 					"On big mornings, confirm <a href=\"https://store.steampowered.com/app/252490/Rust//\" target=\"_blank\" rel=\"noopener noreferrer\">Rust on Steam</a> looks healthy before you assume your client is broken. Then run a short checklist: note removed items, update your progress “buy list,” play five intentional raids, and only then lock a new main kit.",
 				],
 			},
@@ -67,7 +67,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		metaDescription: "Sensible advice on Rust cosmetics and skin previews — what to buy on the in-game store, what to skip, and how looks affect raid readability.",
 		h1: "Rust Cosmetics Buying Guide",
 		intro: "Leaks make every patch cycle feel like a fashion drop. Before you dump scrap into another loud outfit, decide whether the skin helps you play Rust — or just looks cool in a screenshot.",
-		keywords: ["rust skins","rust cosmetics","the rust store"],
+		keywords: ["rust skins","rust cosmetics","rust item store"],
 		imageAlt: "Rust character cosmetics and skin appearance options",
 		sections: [
 			{
@@ -137,7 +137,7 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "Loadout pairings and common mistakes",
 				paragraphs: [
-					"A durable kit is usually a reliable mid-tier AR, an SMG build in compound zones or high-traffic zones, enough meds, and an armor tier you can replace after deaths. In farming runs, that same spine supports the aggression patterns in our <a href=\"/blog/rust-farming-run-aggressive-strategies/\">farming strategies article</a>.",
+					"A durable kit is usually a reliable mid-tier AR, an SMG build in compound zones or high-traffic zones, enough meds, and an armor tier you can replace after deaths. In loot runs, that same spine supports the aggression patterns in our <a href=\"/blog/rust-farming-run-aggressive-strategies/\">loot strategies article</a>.",
 					"Common mistakes: full-spraying from eighty meters, re-peeking the same pixel, swapping to an SMG at forty meters out of habit, and never practicing controlled bursts offline. If you also use aim-assist tooling, lock aim smoothing and fundamentals first, then review <a href=\"/rust-aimbot/\">Rust Aimbot settings</a>.",
 				],
 			},
@@ -157,20 +157,20 @@ export const blogPosts: BlogPostDefinition[] = [
 		imageKey: "raidCombat",
 		published: "2026-07-22",
 		updated: "2026-08-17",
-		category: "Farming Runs",
+		category: "Loot Runs",
 		featured: true,
 		translations: {
 		en: {
 		slug: "rust-farming-run-aggressive-strategies",
-		title: "Rust Farming Run Strategies That Actually Farm Loot",
-		metaDescription: "Five aggressive but smart Rust farming strategies — timings, bases, third-players, and how to leave raids with loot instead of low growth.",
-		h1: "Rust Farming Run Strategies",
-		intro: "Passive starting players wait behind a bush while two player teams erase each other, then spray into the mess and die. Strong farming runs manufacture a short advantage, grab what matters, and extract before the raid ends collapses on you.",
-		keywords: ["rust farming run","the rust juvenile","rust bases"],
+		title: "Rust Loot Run Strategies That Actually Farm Loot",
+		metaDescription: "Five aggressive but smart Rust loot-run strategies — timings, bases, third-parties, and how to leave raids with scrap instead of empty hands.",
+		h1: "Rust Loot Run Strategies",
+		intro: "Passive starting players wait behind a bush while two player teams erase each other, then spray into the mess and die. Strong loot runs manufacture a short advantage, grab what matters, and extract before the raid ends collapses on you.",
+		keywords: ["rust loot run","rust starter kit","rust bases"],
 		imageAlt: "starting player moving toward a base with loot in Rust",
 		sections: [
 			{
-				h2: "Why so many farming runs feel soft",
+				h2: "Why so many loot runs feel soft",
 				paragraphs: [
 					"starter kits are random, timers are limited, and player enemy players can turn on you. Waiting forever for a “perfect” third-player often means you arrive late to a patched lobby with nothing left. Information tools like <a href=\"/rust-esp/\">Rust ESP</a> can help you see fights early — but you still need an exit plan.",
 					"Decide your raid route before you swing. Take a clear damage window, grab high-value loot, then leave. The usual third-player clock in hot POIs is only a few seconds long once gunfire starts.",
@@ -193,8 +193,8 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "Growth runs and information tools work together",
 				paragraphs: [
-					"Juvenile timing is about seconds. Seeing a fight early — through sound, map knowledge, or <a href=\"/rust-esp/\">ESP</a> — lets you third-party with a plan instead of sprinting into a crossfire.",
-					"After a strong farming run, protect the kit with conservative settings from our <a href=\"/rust-aimbot/\">aimbot guide</a> and check <a href=\"/updates/\">Updates</a> before long raids on patch weeks.",
+					"Rotation timing is about seconds. Seeing a fight early — through sound, map knowledge, or <a href=\"/rust-esp/\">ESP</a> — lets you third-party with a plan instead of sprinting into a crossfire.",
+					"After a strong loot run, protect the kit with conservative settings from our <a href=\"/rust-aimbot/\">aimbot guide</a> and check <a href=\"/updates/\">Updates</a> before long raids on patch weeks.",
 				],
 			}
 		],
@@ -235,7 +235,7 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "What actually translates to normal raids",
 				paragraphs: [
-					"Steal loot-timer discipline, a simple loot path, earlier rotates, and selective fights. Do not blindly mirror a trio drop when you solo load in. Winners rotate early enough to choose sides — the same idea shows up in our <a href=\"/blog/rust-farming-run-aggressive-strategies/\">farming aggression guide</a>.",
+					"Steal loot-timer discipline, a simple loot path, earlier rotates, and selective fights. Do not blindly mirror a trio drop when you solo load in. Winners rotate early enough to choose sides — the same idea shows up in our <a href=\"/blog/rust-farming-run-aggressive-strategies/\">loot aggression guide</a>.",
 					"Try this: watch fifteen minutes of a strong stream replay with five timestamps. Steal one mid-session habit only. Run it for a six-session raid block before adding another.",
 				],
 			},
@@ -284,7 +284,7 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "Convert a strong load into a win",
 				paragraphs: [
-					"Pair these routes with <a href=\"/blog/rust-farming-run-aggressive-strategies/\">farming aggression</a> and <a href=\"/blog/rust-player-tier-list/\">player tiers</a>. Leave load in with gear advantage so mid-session becomes a skill check instead of a desperate growth panic.",
+					"Pair these routes with <a href=\"/blog/rust-farming-run-aggressive-strategies/\">loot aggression</a> and <a href=\"/blog/rust-player-tier-list/\">player tiers</a>. Leave load in with gear advantage so mid-session becomes a skill check instead of a desperate gear panic.",
 					"If you practice with loot markers, read <a href=\"/rust-esp/\">Rust ESP</a> for category toggles — then still run the timer so your habits stay sharp without overlays.",
 				],
 			},
@@ -292,7 +292,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "Route discipline plus loot awareness",
 				paragraphs: [
 					"Routes fail when players loot like tourists. Mark your ninety-second plan, stick to cover ladders, and use <a href=\"/rust-esp/\">loot ESP filters</a> only to confirm what your route already predicted — not to replace map knowledge.",
-					"Strong routes feed into farming runs and competitive spawns. Link this guide with <a href=\"/rust-cheats/\">Rust Hacks</a> if you want radar for compound zones after your kit is online.",
+					"Strong routes feed into loot runs and competitive spawns. Link this guide with <a href=\"/rust-cheats/\">Rust Hacks</a> if you want radar for compound zones after your kit is online.",
 				],
 			}
 		],
@@ -320,7 +320,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "Visibility and performance before fancy numbers",
 				paragraphs: [
 					"If your frame rate collapses in monument river zones or Outpost interiors, no aim smoothing tip will save you. Prioritize a stable FPS and readable shadows over maximum eye candy. Many strong players lower clutter so player silhouettes pop sooner in tree lines and warehouse lighting.",
-					"Test changes in practice server or a quiet juvenile before locking them for serious raids. Your eyes adapt in a few raids — give settings that long before declaring them useless.",
+					"Test changes in practice server or a quiet server before locking them for serious raids. Your eyes adapt in a few raids — give settings that long before declaring them useless.",
 				],
 			},
 			{
@@ -369,7 +369,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "Why your first raid should not be the warmup",
 				paragraphs: [
 					"Most players boot the game, slap on a kit, and die to the first clean peeker. Hands are cold, audio is not dialed, and map timing feels off. Treat warmup as part of the raid, not optional fluff.",
-					"Offline practice, practice server habits, and a couple of low-stakes farming runs exist so your expensive grown player is not the experiment.",
+					"Offline practice, practice server habits, and a couple of low-stakes loot runs exist so your expensive grown player is not the experiment.",
 				],
 			},
 			{

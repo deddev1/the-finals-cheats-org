@@ -50,10 +50,10 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 			{
 				h2: 'ESP & wallhack',
 				paragraphs: [
-					'See players, NPCs, bosses, and loot through walls with distance readouts.',
-					'Use filters so the overlay stays clear in compound zones, high-traffic zones, and farming run chaos.',
+					'See players, scientists, and loot through walls with distance readouts.',
+					'Use filters so the overlay stays clear in monument zones, compounds, and high-traffic PvP areas.',
 				],
-				list: ['Player boxes & distance', 'Loot and base markers', 'Boss and juvenile filters'],
+				list: ['Player boxes & distance', 'Loot and base markers', 'Heli and Bradley filters'],
 			},
 			{
 				h2: 'Aimbot & soft aim',
@@ -69,7 +69,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 					'A simple 2D radar for threats outside your view.',
 					'Spot flanks near monuments and compounds without filling the whole screen.',
 				],
-				list: ['Nearby enemy cues', 'Adjustable range', 'Works in raiders & survivors'],
+				list: ['Nearby enemy cues', 'Adjustable range', 'Works in raids & roaming'],
 			},
 			{
 				h2: 'Explore related topics',
@@ -252,12 +252,12 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		sections: [
 			{
 				h2: 'What ESP shows',
-				paragraphs: ['Boxes, distance, and filters for players, NPCs, bosses, and loot.'],
-				list: ['Player ESP', 'Loot markers', 'Boss and juvenile filters'],
+				paragraphs: ['Boxes, distance, and filters for players, scientists, and loot.'],
+				list: ['Player ESP', 'Loot markers', 'Heli and Bradley filters'],
 			},
 			{
 				h2: 'When to use it',
-				paragraphs: ['Clear high-traffic zones, and farming runs without flooding the screen.'],
+				paragraphs: ['Clear monument zones and loot runs without flooding the screen.'],
 				list: ['Tune opacity', 'Filter noise', 'Pair with radar'],
 			},
 			{

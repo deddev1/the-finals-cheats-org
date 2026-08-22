@@ -40,14 +40,19 @@ export const trustSignals = {
 } as const;
 
 export const seoLandingPages = [
-	{ label: fillBrandTokens('{game} hacks'), href: '/' },
 	{ label: fillBrandTokens('{primaryKeyword}'), href: '/' },
-	{ label: fillBrandTokens('{game} esp'), href: '/rust-esp/' },
-	{ label: fillBrandTokens('{game} aimbot'), href: '/rust-aimbot/' },
-	{ label: fillBrandTokens('{game} setup'), href: '/setup/' },
 	{ label: fillBrandTokens('Undetected {primaryKeyword}'), href: '/' },
+	{ label: fillBrandTokens('{game} hacks'), href: '/rust-cheats/' },
+	{ label: fillBrandTokens('{game} cheats 2026'), href: '/rust-cheats-2026/' },
+	{ label: fillBrandTokens('{game} esp'), href: '/rust-esp/' },
 	{ label: fillBrandTokens('{game} wallhack'), href: '/rust-esp/' },
+	{ label: fillBrandTokens('{game} aimbot'), href: '/rust-aimbot/' },
 	{ label: fillBrandTokens('{game} radar hack'), href: '/rust-radar-hack/' },
+	{ label: fillBrandTokens('Best {primaryKeyword}'), href: '/best-rust-cheats/' },
+	{ label: fillBrandTokens('{game} mod menu'), href: '/rust-mod-menu/' },
+	{ label: fillBrandTokens('{game} cheat download'), href: '/rust-cheat-download/' },
+	{ label: fillBrandTokens('{game} setup'), href: '/setup/' },
+	{ label: fillBrandTokens('{game} pricing'), href: '/pricing/' },
 ] as const;
 
 export const mainNav = [
@@ -118,7 +123,7 @@ export const homeFaqs: readonly FaqItem[] = [
 		answer:
 			'Yes. ESP, radar, and aimbot are built for {game} raid flow — reading players and NPCs, spotting loot, and staying aware near monuments and compounds.',
 		slug: 'solo-farmer-and-raider-sessions',
-		seoTitle: 'Raid Session and juvenile Support | FAQ',
+		seoTitle: 'Raid Session and PvP Support | FAQ',
 		seoDescription:
 			'{brand} works in base raids and PvP fights — ESP, radar, and aimbot for Windows PC.',
 	}),
@@ -227,13 +232,13 @@ export const customerReviews = [
 	reviewMeta({
 		handle: 'buildsR4K',
 		rating: 4,
-		text: 'ESP boxes help on farming runs. You can see who is stalking a monument edge before you push. Still worth the price for Rust Cheats.',
-		short: 'ESP boxes help on farming runs. Still worth the price for Rust Cheats.',
+		text: 'ESP boxes help on loot runs. You can see who is stalking a monument edge before you push. Still worth the price for Rust Cheats.',
+		short: 'ESP boxes help on loot runs. Still worth the price for Rust Cheats.',
 		slug: 'rust-esp-growth-run-review-buildsr4k',
 		seoTitle: 'ESP Review by @buildsR4K — 4/5 | {brand}',
-		seoDescription: '@buildsR4K rates {brand} ESP 4/5 for farming runs on Windows PC.',
+		seoDescription: '@buildsR4K rates {brand} ESP 4/5 for loot runs on Windows PC.',
 		date: '2026-07-19',
-		tag: 'farming run',
+		tag: 'loot run',
 	}),
 	reviewMeta({
 		handle: 'dma_wizard',
