@@ -7,8 +7,8 @@ export const demoVideo = {
 	title: 'Rust Cheats ESP, aimbot and radar demo',
 	description:
 		'Gameplay demo of Rust Cheats on Windows PC — ESP wallhack overlays, soft aim, and 2D radar during a live Rust raid.',
-	width: 1280,
-	height: 720,
+	width: 960,
+	height: 540,
 	durationIso: 'PT20S',
 	uploadDate: '2026-08-22',
 } as const;

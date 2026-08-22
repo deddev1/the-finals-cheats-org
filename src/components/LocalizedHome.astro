@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar.astro';
 import Hero from '../components/Hero.astro';
 import HomeReviews from '../components/HomeReviews.astro';
 import HomeSeo from '../components/HomeSeo.astro';
-import HomeAboutApp from '../components/react/HomeAbout';
+import HomeAbout from '../components/HomeAbout.astro';
 import ExternalResources from '../components/ExternalResources.astro';
 import { externalUrls } from '../data/external-resources';
 import SiteFooter from '../components/SiteFooter.astro';
@@ -119,11 +119,7 @@ if (locale === 'en') {
 			{
 				locale === 'en' ? (
 					<>
-						<HomeAboutApp
-							client:visible
-							locale={locale}
-							pricingHref={getLocalizedPath('pricing', locale)}
-						/>
+						<HomeAbout locale={locale} />
 						<HomeSeo locale={locale} />
 						<div class="shell">
 							<ExternalResources locale={locale} omitHrefs={[externalUrls.wiki]} />
@@ -224,174 +220,5 @@ if (locale === 'en') {
 		margin: 1.25rem 0 0.5rem;
 		font-size: 1rem;
 		color: var(--ink);
-	}
-</style>
-
-<style is:global>
-	/* HomeAbout is React-rendered — scoped Astro styles do not reach it. */
-	.home__prose--en {
-		padding-block: clamp(2rem, 4vw, 2.75rem) 0.5rem;
-		border-bottom: 1px solid var(--line-soft);
-	}
-
-	.home__about-grid {
-		display: grid;
-		grid-template-columns: minmax(0, 1fr) minmax(11rem, 19.5rem);
-		gap: clamp(1rem, 2.5vw, 1.75rem);
-		align-items: start;
-	}
-
-	.home__about-media {
-		margin: 0;
-		width: 100%;
-		max-width: 19.5rem;
-		justify-self: end;
-	}
-
-	.home__video-wrap {
-		position: relative;
-		border-radius: var(--radius-md, 0.75rem);
-		overflow: hidden;
-		border: 1px solid var(--line);
-		background: #000;
-		aspect-ratio: 16 / 9;
-		box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
-	}
-
-	.home__video {
-		display: block;
-		width: 100%;
-		height: 100%;
-		object-fit: cover;
-		vertical-align: middle;
-	}
-
-	.home__video-play {
-		position: absolute;
-		inset: 0;
-		display: grid;
-		place-items: center;
-		margin: 0;
-		padding: 0;
-		border: 0;
-		background: linear-gradient(180deg, rgba(7, 7, 7, 0.08), rgba(7, 7, 7, 0.42));
-		cursor: pointer;
-		transition: background 0.2s ease;
-	}
-
-	.home__video-play:hover {
-		background: linear-gradient(180deg, rgba(7, 7, 7, 0.12), rgba(7, 7, 7, 0.5));
-	}
-
-	.home__video-play-icon {
-		display: grid;
-		place-items: center;
-		width: 3rem;
-		height: 3rem;
-		border-radius: 999px;
-		background: color-mix(in srgb, var(--magenta) 92%, #000);
-		color: #fff;
-		box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
-		transition:
-			transform 0.2s ease,
-			background 0.2s ease;
-	}
-
-	.home__video-play-icon svg {
-		width: 1.35rem;
-		height: 1.35rem;
-		margin-left: 0.15rem;
-	}
-
-	.home__video-play:hover .home__video-play-icon {
-		transform: scale(1.06);
-		background: var(--accent-hover);
-	}
-
-	.home__video-caption {
-		margin: 0.45rem 0 0;
-		font-size: 0.72rem;
-		line-height: 1.4;
-		color: var(--ink-faint);
-	}
-
-	.home__prose-callout {
-		max-width: 42rem;
-		padding-left: 1.1rem;
-		border-left: 3px solid var(--magenta);
-	}
-
-	.home__prose-kicker {
-		margin: 0 0 0.7rem;
-		font-family: var(--font-sans);
-		font-size: 0.8125rem;
-		font-weight: 700;
-		line-height: 1.35;
-		letter-spacing: 0.04em;
-		text-transform: uppercase;
-		color: var(--magenta-soft);
-	}
-
-	.home__prose-callout p {
-		margin: 0 0 0.75rem;
-		color: var(--ink-muted);
-		line-height: 1.65;
-		font-size: 0.9375rem;
-	}
-
-	.home__prose-callout p:last-child {
-		margin-bottom: 0;
-	}
-
-	.home__about-actions {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 0.65rem;
-		margin: 0 0 0.85rem;
-	}
-
-	.home__about-pricing {
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		padding: 0.72rem 1.15rem;
-		border-radius: 0.75rem;
-		border: 1px solid var(--line-strong);
-		background: var(--bg-elevated);
-		color: var(--ink);
-		font-size: 0.9rem;
-		font-weight: 700;
-		text-decoration: none;
-		transition:
-			border-color 0.2s ease,
-			color 0.2s ease,
-			transform 0.2s ease;
-	}
-
-	.home__about-pricing:hover {
-		border-color: color-mix(in srgb, var(--magenta) 40%, var(--line-strong));
-		color: var(--magenta-soft);
-		transform: translateY(-1px);
-	}
-
-	.home__prose--en a:not(.home__about-pricing) {
-		color: var(--magenta-soft);
-		font-weight: 600;
-		text-decoration: none;
-	}
-
-	.home__prose--en a:not(.home__about-pricing):hover {
-		color: var(--ink);
-	}
-
-	@media (max-width: 768px) {
-		.home__about-grid {
-			grid-template-columns: 1fr;
-		}
-
-		.home__about-media {
-			max-width: 17rem;
-			justify-self: start;
-		}
 	}
 </style>
