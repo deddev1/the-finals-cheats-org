@@ -11,6 +11,10 @@ interface Props {
 const { locale } = Astro.props;
 const t = getT(locale);
 const pricingHref = getLocalizedPath('pricing', locale);
+const homeHref = getLocalizedPath('home', locale);
+const espHref = getLocalizedPath('rust-esp', locale);
+const aimbotHref = getLocalizedPath('rust-aimbot', locale);
+const updatesHref = getLocalizedPath('updates', locale);
 ---
 
 <section class="shell home__prose home__prose--en" aria-labelledby="home-about-title">
@@ -27,13 +31,13 @@ const pricingHref = getLocalizedPath('pricing', locale);
 			</div>
 			<p>
 				{t('home.aboutP2Before')}{' '}
-				<a href="/">{t('home.aboutPillar')}</a>
+				<a href={homeHref}>{t('home.aboutPillar')}</a>
 				{t('home.aboutP2Mid')}
-				<a href="/rust-esp/">{t('home.aboutEsp')}</a>
+				<a href={espHref}>{t('home.aboutEsp')}</a>
 				{t('home.aboutP2Mid')}
-				<a href="/rust-aimbot/">{t('home.aboutAimbot')}</a>
+				<a href={aimbotHref}>{t('home.aboutAimbot')}</a>
 				{t('home.aboutP2Or')}
-				<a href="/updates/">{t('home.aboutUndetected')}</a>
+				<a href={updatesHref}>{t('home.aboutUndetected')}</a>
 				{t('home.aboutP2After')}
 			</p>
 		</div>
@@ -55,7 +59,7 @@ const pricingHref = getLocalizedPath('pricing', locale);
 					type="button"
 					class="home__video-play"
 					data-demo-video-play
-					aria-label={`Play video: ${demoVideo.title}`}
+					aria-label={`${t('media.playVideo')}: ${t('media.demoVideoTitle')}`}
 				>
 					<span class="home__video-play-icon" aria-hidden="true">
 						<svg viewBox="0 0 24 24" fill="currentColor">
@@ -64,7 +68,7 @@ const pricingHref = getLocalizedPath('pricing', locale);
 					</span>
 				</button>
 			</div>
-			<figcaption class="home__video-caption">{demoVideo.title}</figcaption>
+			<figcaption class="home__video-caption">{t('media.demoVideoTitle')}</figcaption>
 		</figure>
 	</div>
 </section>
@@ -78,6 +82,8 @@ const pricingHref = getLocalizedPath('pricing', locale);
 			const video = wrap.querySelector('video');
 			const playBtn = wrap.querySelector('[data-demo-video-play]');
 			if (!(video instanceof HTMLVideoElement) || !(playBtn instanceof HTMLButtonElement)) continue;
+
+			video.playsInline = true;
 
 			const showOverlay = () => {
 				playBtn.hidden = false;
@@ -98,7 +104,9 @@ const pricingHref = getLocalizedPath('pricing', locale);
 				}
 			};
 
-			playBtn.addEventListener('click', () => {
+			playBtn.addEventListener('click', (event) => {
+				event.preventDefault();
+				event.stopPropagation();
 				void startPlayback();
 			});
 

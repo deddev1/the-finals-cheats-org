@@ -5,7 +5,7 @@ import { FOCUS_I18N } from './focus-i18n.mjs';
 import { LEGAL_I18N } from './legal-i18n.mjs';
 
 /** Page-specific translated meta for home across locales. */
-const PAGE_META_HOME = {
+export const PAGE_META_HOME = {
 	es: { title: 'Rust Cheats 2026 | ESP, Wallhack y Aimbot', desc: 'Trucos Rust indetectables para Rust en PC. ESP wallhack, radar hack y Aimbot con mantenimiento Easy Anti-Cheat. Entrega digital instantánea.', h1: 'Rust Cheats — ESP, Wallhack y Aimbot indetectables', intro: 'Paquete undetected para Rust en Windows PC: ESP wallhack, radar y Aimbot con mantenimiento Easy Anti-Cheat tras cada parche.', imageAlt: 'Rust ESP — etiquetas de jugador hack', gallery: 'Galería Rust Cheats — ESP, Aimbot y wallhack', cta2: 'Ver funciones', h2a: 'Por qué eligen Rust Cheats en 2026', h2b: 'ESP wallhack, radar y Aimbot en una licencia', topicA: 'Ideal para leer escuadrones enemigos en BR y farming run.', topicB: 'Una licencia en lugar de herramientas separadas.' },
 	fr: { title: 'Rust Cheats 2026 | ESP, Wallhack et Aimbot', desc: 'Triches Rust indétectables pour Rust sur PC. ESP wallhack, radar hack et Aimbot avec maintenance Easy Anti-Cheat. Livraison numérique instantanée.', h1: 'Rust Cheats — ESP, Wallhack et Aimbot indétectables', intro: 'Pack undetected pour Rust sur PC Windows : ESP wallhack, radar et Aimbot avec maintenance Easy Anti-Cheat après chaque patch.', imageAlt: 'Rust ESP — tags joueur hack', gallery: 'Galerie Rust Cheats — ESP, Aimbot et wallhack', cta2: 'Voir les fonctions', h2a: 'Pourquoi choisir Rust Cheats en 2026', h2b: 'ESP wallhack, radar et Aimbot en une licence', topicA: 'Parfait pour lire les escouades ennemies en BR et farming run.', topicB: 'Une licence au lieu d\'outils séparés.' },
 	de: { title: 'Rust Cheats 2026 | ESP, Wallhack & Aimbot', desc: 'Undetected Rust Cheats für Rust auf PC. ESP Wallhack, Radar Hack und Aimbot mit Easy Anti-Cheat-Wartung. Sofortige digitale Lieferung.', h1: 'Rust Cheats — Undetected ESP, Wallhack und Aimbot', intro: 'Undetected Windows PC Paket für Rust: ESP Wallhack, Radar und Aimbot mit Easy Anti-Cheat-Wartung nach jedem Patch.', imageAlt: 'Rust ESP — Spieler-Tags Hack', gallery: 'Rust Cheats Galerie — ESP, Aimbot und Wallhack', cta2: 'Features ansehen', h2a: 'Warum Rust Cheats 2026 führt', h2b: 'ESP Wallhack, Radar und Aimbot in einer Lizenz', topicA: 'Ideal um feindliche Squads in BR und farming run zu lesen.', topicB: 'Eine Lizenz statt separater Tools.' },
@@ -29,7 +29,7 @@ const PAGE_META_HOME = {
 	sv: { title: 'Rust Cheats 2026 | ESP, Wallhack & Aimbot', desc: 'Undetected rust cheats för Rust på PC. ESP wallhack, radar hack, Aimbot, Easy Anti-Cheat-underhåll. Omedelbar digital leverans.', h1: 'Rust Cheats — Undetected ESP, Wallhack & Aimbot', intro: 'Undetected paket för Rust på Windows PC: ESP wallhack, radar, Aimbot med Easy Anti-Cheat-underhåll.', imageAlt: 'Rust ESP player tags hack', gallery: 'Rust Cheats galleri — ESP, Aimbot, wallhack', cta2: 'Se funktioner', h2a: 'Varför Rust Cheats 2026', h2b: 'ESP wallhack, radar och Aimbot i en licens', topicA: 'Ideal för att läsa fiendepacks i BR och farming run.', topicB: 'En licens istället för separata verktyg.' },
 };
 
-function buildHome(locale) {
+export function buildHome(locale) {
 	const p = phrases[locale];
 	const m = PAGE_META_HOME[locale];
 	return {
@@ -76,7 +76,7 @@ const PAGE_META_TAILS = {
 };
 
 /** Localized H1 suffixes (title/subtitle language change on product pages). */
-const SUFFIX_I18N = {
+export const SUFFIX_I18N = {
 	es: {
 		'rust-esp': 'Cajas de jugador y wallhack',
 		'rust-aimbot': 'Controles soft aim',
@@ -245,7 +245,7 @@ function productPage(locale, pageKey, topicName, cta2href) {
 	};
 }
 
-const TOPIC_NAMES = {
+export const TOPIC_NAMES = {
 	'rust-esp': { en: 'Rust ESP', es: 'ESP Rust', fr: 'ESP Rust', de: 'Rust ESP', pt: 'ESP Rust', it: 'ESP Rust', nl: 'Rust ESP', pl: 'ESP Rust', ru: 'ESP Rust', tr: 'Rust ESP', ar: 'ESP Rust', ja: 'Rust ESP', ko: 'Rust ESP', zh: 'Rust ESP', hi: 'Rust ESP', id: 'ESP Rust', th: 'Rust ESP', vi: 'ESP Rust', uk: 'ESP Rust', cs: 'Rust ESP', ro: 'ESP Rust', sv: 'Rust ESP' },
 	'rust-aimbot': { en: 'Rust Aimbot', es: 'Aimbot Rust', fr: 'Aimbot Rust', de: 'Rust Aimbot', pt: 'Aimbot Rust', it: 'Aimbot Rust', nl: 'Rust Aimbot', pl: 'Aimbot Rust', ru: 'Aimbot Rust', tr: 'Rust Aimbot', ar: 'Aimbot Rust', ja: 'Rust Aimbot', ko: 'Rust Aimbot', zh: 'Rust Aimbot', hi: 'Rust Aimbot', id: 'Aimbot Rust', th: 'Rust Aimbot', vi: 'Aimbot Rust', uk: 'Aimbot Rust', cs: 'Rust Aimbot', ro: 'Aimbot Rust', sv: 'Rust Aimbot' },
 	features: { en: 'Features', es: 'Funciones', fr: 'Fonctions', de: 'Features', pt: 'Recursos', it: 'Funzioni', nl: 'Functies', pl: 'Funkcje', ru: 'Функции', tr: 'Özellikler', ar: 'الميزات', ja: '機能', ko: '기능', zh: '功能', hi: 'फ़ीचर्स', id: 'Fitur', th: 'ฟีเจอร์', vi: 'Tính năng', uk: 'Функції', cs: 'Funkce', ro: 'Funcții', sv: 'Funktioner' },
@@ -269,7 +269,7 @@ const TOPIC_NAMES = {
 	'unlock-all': { en: 'Rust Unlock All', es: 'Unlock all Rust', fr: 'Unlock all Rust', de: 'Rust Unlock All', pt: 'Unlock all Rust', it: 'Unlock all Rust', nl: 'Rust Unlock All', pl: 'Unlock all Rust', ru: 'Unlock all Rust', tr: 'Rust Unlock All', ar: 'Unlock all Rust', ja: 'Rust Unlock All', ko: 'Rust Unlock All', zh: 'Rust Unlock All', hi: 'Rust Unlock All', id: 'Unlock all Rust', th: 'Rust Unlock All', vi: 'Unlock all Rust', uk: 'Unlock all Rust', cs: 'Rust Unlock All', ro: 'Unlock all Rust', sv: 'Rust Unlock All' },
 };
 
-const CTA2_HREF = {
+export const CTA2_HREF = {
 	'rust-esp': '/rust-cheats/',
 	'rust-aimbot': '/rust-esp/',
 	features: '/pricing/',
@@ -293,7 +293,7 @@ const CTA2_HREF = {
 	'unlock-all': '/features/',
 };
 
-function buildLegal(locale, pageKey, kind) {
+export function buildLegal(locale, pageKey, kind) {
 	const p = phrases[locale];
 	const titles = {
 		privacy: { es: 'Política de privacidad', fr: 'Politique de confidentialité', de: 'Datenschutz', pt: 'Política de privacidade', it: 'Informativa privacy', nl: 'Privacybeleid', pl: 'Polityka prywatności', ru: 'Политика конфиденциальности', tr: 'Gizlilik politikası', ar: 'سياسة الخصوصية', ja: 'プライバシーポリシー', ko: '개인정보 처리방침', zh: '隐私政策', hi: 'गोपनीयता नीति', id: 'Kebijakan privasi', th: 'นโยบายความเป็นส่วนตัว', vi: 'Chính sách bảo mật', uk: 'Політика конфіденційності', cs: 'Zásady ochrany soukromí', ro: 'Politica de confidențialitate', sv: 'Integritetspolicy' },

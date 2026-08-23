@@ -3,10 +3,10 @@ import PageLayout from '../layouts/PageLayout.astro';
 import { getPageContent, getUi, type PageId } from '../data/i18n';
 import { getLocalizedPath, localizeInternalHref } from '../data/i18n/routing';
 import type { LocaleCode } from '../data/i18n/locales';
-import { productInfo, seoFaqs, siteConfig } from '../data/site';
+import { getLocalizedFaqs } from '../data/localized-faq';
+import { productInfo, siteConfig } from '../data/site';
 import { absoluteFaqUrl, getFaqPath } from '../data/faq';
 import { rustImages } from '../data/rust';
-import { simplePageCopy } from '../data/i18n/simple-pages';
 import { getT } from '../i18n/server';
 import { getPageCrawlImage } from '../data/page-images';
 
@@ -20,7 +20,6 @@ const page = getPageContent(locale, pageId);
 const ui = getUi(locale);
 const t = getT(locale);
 const crawl = getPageCrawlImage(pageId);
-const simple = locale === 'en' ? simplePageCopy[pageId] : undefined;
 
 function localizeParagraphHtml(html: string): string {
 	return html
@@ -29,10 +28,12 @@ function localizeParagraphHtml(html: string): string {
 }
 
 const heading = page.h1;
-const intro = simple?.intro ?? page.intro;
-const sections = simple?.sections ?? page.sections;
-const ctaPrimaryLabel = simple?.ctaPrimary ?? page.ctaPrimary;
-const galleryTitle = simple?.galleryTitle ?? page.galleryTitle ?? t('common.inGameLook');
+const intro = page.intro;
+const sections = page.sections;
+const ctaPrimaryLabel = page.ctaPrimary;
+const galleryTitle = page.galleryTitle ?? t('common.inGameLook');
+const pageTitle = page.title;
+const pageDescription = page.description;
 
 const introEditByPage: Partial<Record<PageId, string>> = {
 	features: 'featuresIntro',
@@ -43,7 +44,7 @@ const introEditByPage: Partial<Record<PageId, string>> = {
 	support: 'supportIntro',
 	faq: 'faqIntro',
 };
-const introEdit = locale === 'en' ? introEditByPage[pageId] : undefined;
+const introEdit = introEditByPage[pageId];
 const gallery = [
 	{ src: crawl.src, alt: page.imageAlt || crawl.caption },
 	...rustImages.product.slice(0, 2).map((img) => ({
@@ -54,12 +55,14 @@ const gallery = [
 
 const pageUrl = new URL(getLocalizedPath(pageId, locale), siteConfig.url).href;
 
+const localizedFaqs = getLocalizedFaqs(locale);
+
 const faqSchema =
-	pageId === 'faq' && locale === 'en'
+	pageId === 'faq'
 		? {
 				'@type': 'FAQPage',
 				'@id': `${pageUrl}#faq`,
-				mainEntity: seoFaqs.map((item) => ({
+				mainEntity: localizedFaqs.map((item) => ({
 					'@type': 'Question',
 					name: item.question,
 					url: absoluteFaqUrl(item.slug),
@@ -72,40 +75,40 @@ const extraGraph = faqSchema ? [faqSchema] : [];
 
 const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo.plans[0];
 const lifetime = productInfo.plans.find((p) => p.id === 'lifetime') ?? productInfo.plans[1];
-const showStorePlans = pageId === 'pricing' && locale === 'en';
+const showStorePlans = pageId === 'pricing';
 
 const eyebrowByPage: Partial<Record<PageId, string>> = {
 	features: ui.nav.features,
 	pricing: ui.nav.pricing,
 	updates: ui.nav.updates,
-	hacks: locale === 'en' ? t('nav.preview') : ui.nav.hacks,
+	hacks: t('nav.preview'),
 	'rust-esp': ui.nav.esp,
 	'rust-aimbot': ui.nav.aimbot,
-	radar: 'Radar',
+	radar: t('categoryRow.radar'),
 	setup: ui.nav.setup,
 	faq: ui.nav.faq,
-	support: 'Support',
-	undetected: 'Undetected',
-	wallhack: 'Wallhack',
+	support: t('common.support'),
+	undetected: t('categoryRow.undetected'),
+	wallhack: t('categoryRow.wallhack'),
 	eac: 'EAC',
 	'cheats-2026': '2026',
-	'cheat-download': 'Download',
+	'cheat-download': t('common.readGuide'),
 	'mod-menu': 'Mod Menu',
-	'soft-aim': 'Soft Aim',
-	'best-cheats': 'Best Cheats',
-	'aimbot-hack': 'Aimbot Hack',
-	'esp-hack': 'ESP Hack',
-	'unlock-all': 'Unlock All',
-	privacy: 'Privacy',
-	refund: 'Refunds',
-	terms: 'Terms',
+	'soft-aim': ui.nav.aimbot,
+	'best-cheats': t('categoryRow.hacks'),
+	'aimbot-hack': ui.nav.aimbot,
+	'esp-hack': ui.nav.esp,
+	'unlock-all': ui.nav.features,
+	privacy: t('common.privacy'),
+	refund: t('homeSeo.linkRefunds'),
+	terms: t('common.terms'),
 };
 const breadcrumbLabel = eyebrowByPage[pageId];
 ---
 
 <PageLayout
-	title={simple?.title ?? page.title}
-	description={simple?.description ?? page.description}
+	title={pageTitle}
+	description={pageDescription}
 	canonicalPath={getLocalizedPath(pageId, locale)}
 	heading={heading}
 	breadcrumbLabel={breadcrumbLabel}
@@ -163,14 +166,14 @@ const breadcrumbLabel = eyebrowByPage[pageId];
 	}
 
 	{
-		pageId === 'faq' && locale === 'en' && (
+		pageId === 'faq' && (
 			<section class="card-panel faq-index">
 				<h2>{t('common.allQuestions')}</h2>
 				<p>{t('common.openAnyQuestion')}</p>
 				<ul class="faq-index__list">
-					{seoFaqs.map((item) => (
+					{localizedFaqs.map((item) => (
 						<li>
-							<a href={getFaqPath(item.slug)}>
+							<a href={localizeInternalHref(getFaqPath(item.slug), locale)}>
 								<span>{item.question}</span>
 								<span aria-hidden="true">→</span>
 							</a>

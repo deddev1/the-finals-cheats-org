@@ -2,6 +2,7 @@ import { brand } from './brand';
 import type { PageId } from './i18n/routing';
 
 export type ExternalResource = {
+	id: string;
 	label: string;
 	href: string;
 	note?: string;
@@ -24,26 +25,31 @@ export const externalUrls = {
 /** Authoritative third-party guides — cite official game sources for readers and search engines. */
 export const externalResources: ExternalResource[] = [
 	{
+		id: 'steam',
 		label: 'Rust on Steam',
 		href: externalUrls.steam,
 		note: 'Official store page, system requirements, and player reviews.',
 	},
 	{
+		id: 'patch',
 		label: 'Steam patch notes & news',
 		href: externalUrls.steamNews,
 		note: 'Read official update posts before you change your loadout.',
 	},
 	{
+		id: 'official',
 		label: 'Official Rust website',
 		href: externalUrls.officialSite,
 		note: 'Game overview from Facepunch Studios.',
 	},
 	{
+		id: 'wiki',
 		label: 'Rust Wiki (Fandom)',
 		href: externalUrls.wiki,
 		note: 'Player stats, maps, and survival mechanics.',
 	},
 	{
+		id: 'community',
 		label: 'Steam Community hub',
 		href: externalUrls.steamCommunity,
 		note: 'Announcements and community discussions.',

@@ -1,8 +1,6 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
-import en from './public/locales/en/translation.json';
-import es from './public/locales/es/translation.json';
 
 export const supportedLngs = [
 	'en',
@@ -29,10 +27,15 @@ export const supportedLngs = [
 	'sv',
 ];
 
-const resources = {
-	en: { translation: en },
-	es: { translation: es },
-};
+const localeModules = import.meta.glob('./public/locales/*/translation.json', { eager: true });
+
+const resources = {};
+for (const [path, mod] of Object.entries(localeModules)) {
+	const match = path.match(/locales\/([^/]+)\/translation\.json$/);
+	if (match) {
+		resources[match[1]] = { translation: mod.default };
+	}
+}
 
 if (!i18n.isInitialized) {
 	i18n

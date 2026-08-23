@@ -1,0 +1,330 @@
+{
+  "nav": {
+    "home": "首页",
+    "hacks": "Hacks",
+    "aimbot": "Aimbot",
+    "esp": "ESP",
+    "features": "功能",
+    "pricing": "价格",
+    "setup": "安装",
+    "updates": "更新",
+    "faq": "常见问题",
+    "buyNow": "立即购买",
+    "preview": "Hacks",
+    "store": "价格",
+    "status": "更新",
+    "reviews": "玩家评价",
+    "primaryAria": "Primary",
+    "mobileAria": "Mobile",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "hero": {
+    "accent": "Undetected Rust作弊",
+    "accentShort": "Rust Cheats",
+    "subtitle": "适用于Rust Windows PC的ESP wallhack、radar hack和Aimbot — 含Easy Anti-Cheat维护。",
+    "subtitleShort": "Rust PC版ESP、radar与Aimbot",
+    "buyNow": "立即购买",
+    "seeFeatures": "查看功能",
+    "title": "Rust Cheats",
+    "priceFrom": "from",
+    "imageAlt": "{{brand}} — Rust ESP and aimbot overlay",
+    "chipEsp": "ESP / wallhack",
+    "chipAim": "Soft aim",
+    "chipRadar": "2D radar",
+    "chipUpdates": "更新"
+  },
+  "cta": {
+    "buy": "立即购买",
+    "buyShort": "立即购买"
+  },
+  "trust": {
+    "status": "在线",
+    "statusNote": "Rust Cheats套餐已在Rust Windows PC上线。",
+    "statusShort": "运行中",
+    "delivery": "即时数字交付",
+    "platform": "Windows 10 和 11",
+    "antiCheat": "支持Easy Anti-Cheat维护",
+    "antiCheatShort": "Easy Anti-Cheat支持"
+  },
+  "product": {
+    "title": "Rust Cheats",
+    "addToCart": "加入购物车",
+    "monthly": "月付",
+    "lifetime": "终身",
+    "available": "现已可用",
+    "gameBadge": "Rust",
+    "platformBadge": "Windows PC",
+    "statusBadge": "Undetected套餐",
+    "days30": "30",
+    "oneTime": "终身",
+    "plans": "价格",
+    "perMonth": "/",
+    "once": "",
+    "buyMonthly": "月付",
+    "buyLifetime": "终身"
+  },
+  "reviews": {
+    "title": "玩家评价",
+    "subtitle": "Rust Cheats 买家近期反馈",
+    "outOf": "/5",
+    "countLabel": "条评价",
+    "eyebrow": "玩家评价",
+    "homeTitle": "Rust Cheats 玩家评价",
+    "buyerReviews": "条评价",
+    "averageAria": "玩家评价",
+    "outOfFiveAria": "/5",
+    "readAll": "→"
+  },
+  "common": {
+    "buyNow": "Buy Rust Cheats",
+    "readGuide": "Read guide",
+    "language": "Language",
+    "officialLanguageNote": "English is official; other locales are translated.",
+    "relatedPages": "Related pages",
+    "selectLanguage": "语言",
+    "englishOfficial": "英语为官方语言。其他语言为全球SEO翻译版本。",
+    "englishIsOfficial": "英语为官方语言。其他语言为全球SEO翻译版本。",
+    "languageSuggestion": "语言",
+    "dismiss": "Dismiss",
+    "localeVersion": "{{name}} version",
+    "localeSuggestLead": "{{nativeName}} ({{region}}) — ",
+    "breadcrumb": "Breadcrumb",
+    "gallery": "Gallery",
+    "inGameLook": "In-game look",
+    "allQuestions": "常见问题",
+    "openAnyQuestion": "阅读指南",
+    "packageStatus": "更新",
+    "productDetails": "功能",
+    "browse": "相关页面",
+    "featured": "Featured",
+    "share": "Share",
+    "shareX": "Share on X",
+    "shareReddit": "Share on Reddit",
+    "shareFacebook": "Share on Facebook",
+    "blog": "Blog",
+    "support": "Support",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "featureList": "功能",
+    "pricingPlans": "价格",
+    "buyerReviewsNav": "玩家评价",
+    "copyright": "© {{year}} {{brand}}"
+  },
+  "footer": {
+    "explore": "探索",
+    "help": "帮助与法律",
+    "tagline": "Rust undetected ESP、wallhack、radar与Aimbot — 通过Zadeyo结账。"
+  },
+  "home": {
+    "aboutTitle": "Rust Cheats — Undetected ESP、Wallhack、Aimbot",
+    "aboutP1": "Rust Windows PC undetected套餐：ESP wallhack、radar、Aimbot，含Easy Anti-Cheat维护。 价格 · 更新.",
+    "aboutPricingCta": "比较价格",
+    "aboutP2Before": "从",
+    "aboutPillar": "Rust Cheats指南",
+    "aboutEsp": "ESP指南",
+    "aboutAimbot": "自瞄控制",
+    "aboutUndetected": "undetected状态",
+    "aboutP2Mid": "、",
+    "aboutP2Or": "，或",
+    "aboutP2After": "开始，如果您还在比较工具。"
+  },
+  "homeSeo": {
+    "eyebrow": "Guides",
+    "title": "相关页面 by category",
+    "lede": "功能, 更新, 价格, 常见问题.",
+    "catFeatures": "功能",
+    "catFeaturesHint": "功能",
+    "catStatus": "更新",
+    "catStatusHint": "更新",
+    "catStore": "价格",
+    "catStoreHint": "价格",
+    "catHelp": "常见问题",
+    "catHelpHint": "常见问题",
+    "linkAllFeatures": "功能",
+    "linkEsp": "ESP",
+    "linkAimbot": "Aimbot",
+    "linkRadar": "Radar",
+    "linkLiveStatus": "更新",
+    "linkUndetected": "Undetected套餐",
+    "linkEasy Anti-Cheat": "Easy Anti-Cheat",
+    "linkSetup": "安装",
+    "linkPlans": "价格",
+    "linkReviews": "玩家评价",
+    "linkRustCheats": "Rust Cheats",
+    "linkFaq": "常见问题",
+    "linkSupport": "Support",
+    "linkSetupGuide": "安装",
+    "linkBlog": "Blog",
+    "linkRefunds": "Refunds",
+    "faqEyebrow": "常见问题",
+    "faqTitle": "常见问题",
+    "faqLede": "即时数字交付",
+    "allAnswers": "常见问题",
+    "openFullPage": "阅读指南"
+  },
+  "deals": {
+    "pricing": "价格",
+    "chooseLicense": "价格",
+    "features": "功能",
+    "featEsp": "ESP / wallhack",
+    "featAim": "Aimbot",
+    "featRadar": "2D radar",
+    "featUpdates": "更新"
+  },
+  "trustStrip": {
+    "instantDelivery": "即时数字交付",
+    "secureCheckout": "立即购买",
+    "support247": "24/7"
+  },
+  "categoryRow": {
+    "hacks": "Hacks",
+    "esp": "ESP",
+    "aimbot": "Aimbot",
+    "radar": "Radar",
+    "wallhack": "Wallhack",
+    "undetected": "Undetected套餐",
+    "features": "功能",
+    "pricing": "价格",
+    "setup": "安装",
+    "blog": "Blog"
+  },
+  "internalLinks": {
+    "relatedLede": "Rust Cheats — 相关页面.",
+    "topicsTitle": "功能",
+    "topicsLabel": "功能",
+    "topicsLede": "ESP, Aimbot, 价格, 安装, 更新.",
+    "overview": "Rust Cheats",
+    "esp": "ESP & wallhack",
+    "aimbot": "Aimbot",
+    "radar": "Radar",
+    "features": "功能",
+    "pricing": "价格",
+    "setup": "安装",
+    "status": "更新",
+    "faq": "常见问题",
+    "support": "Support",
+    "blog": "Blog",
+    "reviews": "玩家评价",
+    "hacks": "Hacks",
+    "undetected": "Undetected套餐"
+  },
+  "externalResources": {
+    "title": "Guías oficiales del juego y recursos",
+    "lede": "Enlazamos fuentes de confianza para verificar parches, estadísticas y mapas fuera de nuestro sitio.",
+    "pillsTitle": "Guías oficiales del juego y recursos",
+    "pillsLabel": "Guías oficiales del juego y recursos",
+    "steam": {
+      "label": "Rust en Steam",
+      "note": "Página oficial de la tienda, requisitos y reseñas."
+    },
+    "patch": {
+      "label": "Parches y noticias de Steam",
+      "note": "Lee actualizaciones oficiales antes de cambiar tu loadout."
+    },
+    "official": {
+      "label": "Sitio oficial de Rust",
+      "note": "Resumen del juego de Facepunch Studios."
+    },
+    "wiki": {
+      "label": "Wiki de Rust (Fandom)",
+      "note": "Estadísticas, mapas y mecánicas de supervivencia."
+    },
+    "community": {
+      "label": "Hub de Steam Community",
+      "note": "Anuncios y debates de la comunidad."
+    }
+  },
+  "images": {
+    "hero": "Rust Cheats hero — ESP and aimbot overlay in Rust",
+    "espWallhack": "Wallhack outlines showing players and NPCs through walls",
+    "aimbotCombat": "Soft aim assist overlay during a Rust raid",
+    "squadFight": "Rust Cheats combat overlay during a squad fight",
+    "playerEsp": "Player ESP boxes and distance readouts in a Rust raid",
+    "headerArt": "Aimbot view and bone priority controls for Rust",
+    "hacksPackage": "2D radar threat overlay for Rust",
+    "raidFight": "Aimbot assist during a Rust firefight",
+    "battleRoyale": "Rust Cheats in-session overview for Windows PC",
+    "raidMap": "ESP markers for loot and bases in Rust"
+  },
+  "blog": {
+    "blogTitle": "Rust Cheats Blog | ESP, Cheats & Meta Tips",
+    "blogDescription": "rust cheats and rust cheats guides — ESP, aimbot, ranked meta, loot routes, and Easy Anti-Cheat updates. Global English blog at rustcheats.co/blog/.",
+    "blogH1": "Rust Cheats Intel",
+    "blogIntro": "Actionable Rust guides for raid and farming run — meta breakdowns, loot routes, player tiers, and pro warmup routines. Pair these tips with our rust cheats pages for ESP boxes, soft aim, and cloud DMA when you need in-match tools.",
+    "readMore": "Read guide",
+    "published": "Published",
+    "updated": "Updated",
+    "relatedPosts": "Related Rust guides",
+    "allPosts": "All blog posts",
+    "home": "Rust Cheats home",
+    "language": "Language",
+    "label": "Rust Intel"
+  },
+  "gallery": {
+    "eyebrow": "the rust cheats",
+    "title": "rust cheats gallery",
+    "subtitle": "Simple rust cheats visuals — ESP, wallhack, aimbot, and radar for Rust on PC.",
+    "lead": "Rust Cheats helps you spot players, NPCs, loot, and bases with ESP, aimbot, and radar in one license.",
+    "highlightEspTitle": "rust cheats esp",
+    "highlightEspCopy": "See players through walls with rust cheats esp and wallhack overlays.",
+    "highlightRadarTitle": "rust cheats radar",
+    "highlightRadarCopy": "Track nearby threats with rust cheats radar before you push or extract.",
+    "highlightAimbotTitle": "rust cheats aimbot",
+    "highlightAimbotCopy": "Use soft aim and aimbot controls tuned for Rust raids on Windows PC.",
+    "updatesLabel": "rust cheats updates",
+    "updatesShort": "Updates"
+  },
+  "faq": {
+    "items": {
+      "what-are-rust-cheats": {
+        "q": "¿Qué es Rust Cheats?",
+        "a": "Rust Cheats es un paquete de cheats undetected para Rust en PC Windows. Incluye ESP wallhack, radar 2D y controles de aimbot, con mantenimiento Easy Anti-Cheat y soporte de instalación."
+      },
+      "are-rust-cheats-undetected-in-2026": {
+        "q": "¿Los Rust Cheats son undetected en 2026?",
+        "a": "Rust Cheats se mantiene para Rust con reconstrucciones tras parches de Easy Anti-Cheat y del juego. Revisa la 状态 antes de entrar en raid. Ningún cheat puede garantizar indetectabilidad permanente."
+      },
+      "solo-farmer-and-raider-sessions": {
+        "q": "¿Funciona en raids de base y PvP?",
+        "a": "Sí. ESP, radar y aimbot están pensados para el flujo de raid de Rust: leer jugadores y NPCs, detectar loot y mantener conciencia cerca de monumentos y compounds."
+      },
+      "esp-wallhack-radar-or-aimbot": {
+        "q": "¿Qué incluye: ESP, wallhack, radar o Aimbot?",
+        "a": "Rust Cheats agrupa ESP wallhack, marcadores de loot, radar 2D y Aimbot configurable en una licencia. Consulta 功能 para la lista completa."
+      },
+      "how-are-licenses-delivered": {
+        "q": "¿Cómo se entregan las licencias?",
+        "a": "Tras confirmar el pago, los datos de la licencia se entregan digitalmente en el checkout. El tiempo puede variar según el método de pago. Guarda la confirmación del pedido si contactas soporte."
+      },
+      "where-to-check-updates": {
+        "q": "¿Dónde reviso actualizaciones tras un parche de Rust o Easy Anti-Cheat?",
+        "a": "Las notas de mantenimiento se publican en la 状态 cuando un parche afecta al paquete. Es el lugar más rápido para confirmar si hay una nueva build."
+      },
+      "how-to-contact-support": {
+        "q": "¿Cómo contacto soporte?",
+        "a": "Usa la página de 支持 o escribe a support@rustcheats.co. Incluye los datos del pedido y una descripción clara del problema de instalación."
+      },
+      "what-is-a-rust-wallhack": {
+        "q": "¿Qué es un wallhack de Rust?",
+        "a": "Un wallhack de Rust es un overlay ESP que muestra jugadores, NPCs y loot a través de las paredes. Rust Cheats incluye distancias, señales de raid y categorías configurables."
+      },
+      "does-rust-cheats-include-radar-hack": {
+        "q": "¿Rust Cheats incluye radar hack?",
+        "a": "Sí. Rust Cheats incluye overlays de radar 2D que resaltan amenazas cercanas fuera de tu campo de visión, útil para flancos y zonas de compound."
+      },
+      "eac-anti-cheat-and-rust-cheats": {
+        "q": "¿Cómo afecta Easy Anti-Cheat a los Rust Cheats?",
+        "a": "Easy Anti-Cheat monitoriza Rust en PC Windows. Rust Cheats publica notas de mantenimiento tras parches que pueden requerir una nueva build. Revisa Estado antes de jugar."
+      },
+      "buy-undetected-rust-cheats-windows-pc": {
+        "q": "¿Puedo comprar trucos undetected de Rust para PC Windows?",
+        "a": "Sí: Rust Cheats vende licencias mensuales y de por vida para PC Windows con ESP, radar y aimbot en un solo paquete. Compara planes en la 商店 antes del checkout."
+      }
+    }
+  },
+  "media": {
+    "demoVideoTitle": "Rust Cheats ESP, Aimbot demo",
+    "playVideo": "Play video"
+  }
+}

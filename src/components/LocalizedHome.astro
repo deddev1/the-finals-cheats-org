@@ -11,7 +11,8 @@ import SiteFooter from '../components/SiteFooter.astro';
 import { getLocaleContent, getPageContent } from '../data/i18n';
 import { getLocalizedPath } from '../data/i18n/routing';
 import type { LocaleCode } from '../data/i18n/locales';
-import { homeFaqs, homeSeo, productInfo, siteConfig, customerReviewStats } from '../data/site';
+import { homeSeo, productInfo, siteConfig, customerReviewStats } from '../data/site';
+import { getLocalizedHomeFaqs } from '../data/localized-faq';
 import { heroPreloadSrc, heroSizes, heroSrcSet } from '../lib/responsive-images';
 import { defaultCrawlImageSrc } from '../data/page-images';
 import { demoVideoSchema } from '../data/media';
@@ -25,14 +26,16 @@ const { ui } = getLocaleContent(locale);
 const home = getPageContent(locale, 'home');
 const enHome = homeSeo();
 
-const title = locale === 'en' ? enHome.title : home.title;
-const description = locale === 'en' ? enHome.description : home.description;
+const title = home.title || enHome.title;
+const description = home.description || enHome.description;
 const canonicalPath = getLocalizedPath('home', locale);
 const canonicalURL = new URL(canonicalPath, siteConfig.url).href;
 /** Canonical product entity — always the English money URL, even on locale home pages. */
 const canonicalProductUrl = new URL('/', siteConfig.url).href;
 const heroImage = new URL(siteConfig.defaultOgImage || defaultCrawlImageSrc, siteConfig.url).href;
 const priceValidUntil = '2027-12-31';
+
+const localizedHomeFaqs = getLocalizedHomeFaqs(locale);
 
 const aggregateRating = {
 	'@type': 'AggregateRating',
@@ -76,7 +79,7 @@ const extraGraph: Record<string, unknown>[] = [
 	{
 		'@type': 'FAQPage',
 		'@id': `${canonicalURL}#faq`,
-		mainEntity: homeFaqs.map((item) => ({
+		mainEntity: localizedHomeFaqs.map((item) => ({
 			'@type': 'Question',
 			name: item.question,
 			url: `${siteConfig.url}/faq/${item.slug}/`,
@@ -88,9 +91,7 @@ const extraGraph: Record<string, unknown>[] = [
 	},
 ];
 
-if (locale === 'en') {
-	extraGraph.push(demoVideoSchema(canonicalURL));
-}
+extraGraph.push(demoVideoSchema(canonicalURL));
 ---
 
 <Layout
@@ -106,7 +107,7 @@ if (locale === 'en') {
 	locale={locale}
 	pageId="home"
 	breadcrumbs={[{ label: ui.nav.home }]}
-	extraGraph={locale === 'en' ? extraGraph : extraGraph.filter((n) => n['@type'] !== 'FAQPage')}
+	extraGraph={extraGraph}
 	lcpImage={heroPreloadSrc}
 	lcpImageSrcSet={heroSrcSet}
 	lcpImageSizes={heroSizes}
@@ -116,32 +117,11 @@ if (locale === 'en') {
 		<Hero locale={locale} />
 		<HomeReviews locale={locale} />
 		<div class="home__seo">
-			{
-				locale === 'en' ? (
-					<>
-						<HomeAbout locale={locale} />
-						<HomeSeo locale={locale} />
-						<div class="shell">
-							<ExternalResources locale={locale} omitHrefs={[externalUrls.wiki]} />
-						</div>
-					</>
-				) : (
-					<div class="shell home__prose">
-						<h2>{home.h1}</h2>
-						<p>{home.intro}</p>
-						{
-							home.sections.map((section) => (
-								<div>
-									<h3>{section.h2}</h3>
-									{section.paragraphs.map((p) => (
-										<p set:html={p} />
-									))}
-								</div>
-							))
-						}
-					</div>
-				)
-			}
+			<HomeAbout locale={locale} />
+			<HomeSeo locale={locale} />
+			<div class="shell">
+				<ExternalResources locale={locale} omitHrefs={[externalUrls.wiki]} />
+			</div>
 		</div>
 		<SiteFooter locale={locale} />
 	</main>

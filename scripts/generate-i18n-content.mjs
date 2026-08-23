@@ -9,8 +9,8 @@ import { fileURLToPath } from 'node:url';
 
 import { LOCALES, TS_HEADER } from './i18n-data/constants.mjs';
 import { allUiStrings } from './i18n-data/ui-strings.mjs';
-import { englishPagesFinal } from './i18n-data/pages-en.mjs';
-import { buildPagesForLocale } from './i18n-data/pages-i18n.mjs';
+import { getCanonicalEnPages } from './i18n-data/canonical-en-pages.mjs';
+import { buildLocalizedPages, validateStructure } from './i18n-data/localize-pages.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
@@ -43,11 +43,21 @@ function buildI18nContent() {
 	/** @type {Record<string, { ui: object; pages: object }>} */
 	const content = {};
 
+	const canonicalEn = getCanonicalEnPages();
+
 	for (const locale of LOCALES) {
 		const ui = allUiStrings[locale];
 		if (!ui) throw new Error(`Missing UI strings for locale: ${locale}`);
 
-		const pages = locale === 'en' ? englishPagesFinal : buildPagesForLocale(locale);
+		const pages = locale === 'en' ? canonicalEn : buildLocalizedPages(locale);
+
+		if (locale !== 'en') {
+			const structErrors = validateStructure(locale, pages);
+			if (structErrors.length > 0) {
+				for (const err of structErrors.slice(0, 5)) console.warn('STRUCT', err);
+				throw new Error(`Structure mismatch for ${locale}: ${structErrors[0]}`);
+			}
+		}
 
 		// Validate required page keys
 		const requiredPages = [
@@ -70,8 +80,11 @@ function buildI18nContent() {
 			if (['privacy', 'refund', 'terms'].includes(pageId) && p.sections.length !== 3) {
 				throw new Error(`Legal page ${pageId} must have 3 sections for ${locale}`);
 			}
-			if (!['home', 'privacy', 'refund', 'terms'].includes(pageId) && p.sections.length < 3) {
-				throw new Error(`Page ${pageId} needs 3+ sections for ${locale}, got ${p.sections.length}`);
+			if (!['home', 'privacy', 'refund', 'terms'].includes(pageId)) {
+				const minSections = canonicalEn[pageId]?.sections.length ?? 3;
+				if (p.sections.length < minSections) {
+					throw new Error(`Page ${pageId} needs ${minSections} sections for ${locale}, got ${p.sections.length}`);
+				}
 			}
 			for (const sec of p.sections) {
 				if (sec.paragraphs.length < 2) {

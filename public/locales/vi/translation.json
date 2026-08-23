@@ -1,0 +1,330 @@
+{
+  "nav": {
+    "home": "Trang chủ",
+    "hacks": "Hacks",
+    "aimbot": "Aimbot",
+    "esp": "ESP",
+    "features": "Tính năng",
+    "pricing": "Giá",
+    "setup": "Cài đặt",
+    "updates": "Cập nhật",
+    "faq": "FAQ",
+    "buyNow": "Mua ngay",
+    "preview": "Hacks",
+    "store": "Giá",
+    "status": "Cập nhật",
+    "reviews": "Người chơi nói gì",
+    "primaryAria": "Primary",
+    "mobileAria": "Mobile",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "hero": {
+    "accent": "Cheat Rust undetected",
+    "accentShort": "Rust Cheats",
+    "subtitle": "ESP wallhack, radar hack và Aimbot cho Rust trên PC Windows — bảo trì Easy Anti-Cheat bao gồm.",
+    "subtitleShort": "ESP, radar & Aimbot cho Rust PC",
+    "buyNow": "Mua ngay",
+    "seeFeatures": "Xem tính năng",
+    "title": "Rust Cheats",
+    "priceFrom": "from",
+    "imageAlt": "{{brand}} — Rust ESP and aimbot overlay",
+    "chipEsp": "ESP / wallhack",
+    "chipAim": "Soft aim",
+    "chipRadar": "2D radar",
+    "chipUpdates": "Cập nhật"
+  },
+  "cta": {
+    "buy": "Mua ngay",
+    "buyShort": "Mua ngay"
+  },
+  "trust": {
+    "status": "Trực tuyến",
+    "statusNote": "Gói Rust Cheats đang hoạt động cho Rust trên PC Windows.",
+    "statusShort": "Hoạt động",
+    "delivery": "Giao hàng kỹ thuật số tức thì",
+    "platform": "Windows 10 & 11",
+    "antiCheat": "Hỗ trợ bảo trì Easy Anti-Cheat",
+    "antiCheatShort": "Hỗ trợ Easy Anti-Cheat"
+  },
+  "product": {
+    "title": "Rust Cheats",
+    "addToCart": "Thêm vào giỏ",
+    "monthly": "Hàng tháng",
+    "lifetime": "Trọn đời",
+    "available": "Có sẵn ngay",
+    "gameBadge": "Rust",
+    "platformBadge": "Windows PC",
+    "statusBadge": "Gói undetected",
+    "days30": "30",
+    "oneTime": "Trọn đời",
+    "plans": "Giá",
+    "perMonth": "/",
+    "once": "",
+    "buyMonthly": "Hàng tháng",
+    "buyLifetime": "Trọn đời"
+  },
+  "reviews": {
+    "title": "Người chơi nói gì",
+    "subtitle": "Phản hồi gần đây từ người mua Rust Cheats",
+    "outOf": "/5",
+    "countLabel": "đánh giá",
+    "eyebrow": "Người chơi nói gì",
+    "homeTitle": "Rust Cheats Người chơi nói gì",
+    "buyerReviews": "đánh giá",
+    "averageAria": "Người chơi nói gì",
+    "outOfFiveAria": "/5",
+    "readAll": "→"
+  },
+  "common": {
+    "buyNow": "Buy Rust Cheats",
+    "readGuide": "Read guide",
+    "language": "Language",
+    "officialLanguageNote": "English is official; other locales are translated.",
+    "relatedPages": "Related pages",
+    "selectLanguage": "Ngôn ngữ",
+    "englishOfficial": "Tiếng Anh là ngôn ngữ chính thức",
+    "englishIsOfficial": "Tiếng Anh là ngôn ngữ chính thức. Các ngôn ngữ khác được dịch cho SEO toàn cầu.",
+    "languageSuggestion": "Ngôn ngữ",
+    "dismiss": "Dismiss",
+    "localeVersion": "{{name}} version",
+    "localeSuggestLead": "{{nativeName}} ({{region}}) — ",
+    "breadcrumb": "Breadcrumb",
+    "gallery": "Gallery",
+    "inGameLook": "In-game look",
+    "allQuestions": "FAQ",
+    "openAnyQuestion": "Đọc hướng dẫn",
+    "packageStatus": "Cập nhật",
+    "productDetails": "Tính năng",
+    "browse": "Trang liên quan",
+    "featured": "Featured",
+    "share": "Share",
+    "shareX": "Share on X",
+    "shareReddit": "Share on Reddit",
+    "shareFacebook": "Share on Facebook",
+    "blog": "Blog",
+    "support": "Support",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "featureList": "Tính năng",
+    "pricingPlans": "Giá",
+    "buyerReviewsNav": "Người chơi nói gì",
+    "copyright": "© {{year}} {{brand}}"
+  },
+  "footer": {
+    "explore": "Khám phá",
+    "help": "Trợ giúp & pháp lý",
+    "tagline": "ESP, wallhack, radar và Aimbot undetected cho Rust — thanh toán qua Zadeyo."
+  },
+  "home": {
+    "aboutTitle": "Rust Cheats — Undetected ESP, Wallhack & Aimbot",
+    "aboutP1": "Gói undetected Rust trên Windows PC: ESP wallhack, radar, Aimbot với bảo trì Easy Anti-Cheat. Giá · Cập nhật.",
+    "aboutPricingCta": "So sánh giá",
+    "aboutP2Before": "Bắt đầu với",
+    "aboutPillar": "trụ cột Rust Cheats",
+    "aboutEsp": "hướng dẫn ESP",
+    "aboutAimbot": "điều khiển aimbot",
+    "aboutUndetected": "trạng thái undetected",
+    "aboutP2Mid": ", ",
+    "aboutP2Or": ", hoặc ",
+    "aboutP2After": " nếu bạn vẫn đang so sánh công cụ."
+  },
+  "homeSeo": {
+    "eyebrow": "Guides",
+    "title": "Trang liên quan by category",
+    "lede": "Tính năng, Cập nhật, Giá, FAQ.",
+    "catFeatures": "Tính năng",
+    "catFeaturesHint": "Tính năng",
+    "catStatus": "Cập nhật",
+    "catStatusHint": "Cập nhật",
+    "catStore": "Giá",
+    "catStoreHint": "Giá",
+    "catHelp": "FAQ",
+    "catHelpHint": "FAQ",
+    "linkAllFeatures": "Tính năng",
+    "linkEsp": "ESP",
+    "linkAimbot": "Aimbot",
+    "linkRadar": "Radar",
+    "linkLiveStatus": "Cập nhật",
+    "linkUndetected": "Gói undetected",
+    "linkEasy Anti-Cheat": "Easy Anti-Cheat",
+    "linkSetup": "Cài đặt",
+    "linkPlans": "Giá",
+    "linkReviews": "Người chơi nói gì",
+    "linkRustCheats": "Rust Cheats",
+    "linkFaq": "FAQ",
+    "linkSupport": "Support",
+    "linkSetupGuide": "Cài đặt",
+    "linkBlog": "Blog",
+    "linkRefunds": "Refunds",
+    "faqEyebrow": "FAQ",
+    "faqTitle": "FAQ",
+    "faqLede": "Giao hàng kỹ thuật số tức thì",
+    "allAnswers": "FAQ",
+    "openFullPage": "Đọc hướng dẫn"
+  },
+  "deals": {
+    "pricing": "Giá",
+    "chooseLicense": "Giá",
+    "features": "Tính năng",
+    "featEsp": "ESP / wallhack",
+    "featAim": "Aimbot",
+    "featRadar": "2D radar",
+    "featUpdates": "Cập nhật"
+  },
+  "trustStrip": {
+    "instantDelivery": "Giao hàng kỹ thuật số tức thì",
+    "secureCheckout": "Mua ngay",
+    "support247": "24/7"
+  },
+  "categoryRow": {
+    "hacks": "Hacks",
+    "esp": "ESP",
+    "aimbot": "Aimbot",
+    "radar": "Radar",
+    "wallhack": "Wallhack",
+    "undetected": "Gói undetected",
+    "features": "Tính năng",
+    "pricing": "Giá",
+    "setup": "Cài đặt",
+    "blog": "Blog"
+  },
+  "internalLinks": {
+    "relatedLede": "Rust Cheats — Trang liên quan.",
+    "topicsTitle": "Tính năng",
+    "topicsLabel": "Tính năng",
+    "topicsLede": "ESP, Aimbot, Giá, Cài đặt, Cập nhật.",
+    "overview": "Rust Cheats",
+    "esp": "ESP & wallhack",
+    "aimbot": "Aimbot",
+    "radar": "Radar",
+    "features": "Tính năng",
+    "pricing": "Giá",
+    "setup": "Cài đặt",
+    "status": "Cập nhật",
+    "faq": "FAQ",
+    "support": "Support",
+    "blog": "Blog",
+    "reviews": "Người chơi nói gì",
+    "hacks": "Hacks",
+    "undetected": "Gói undetected"
+  },
+  "externalResources": {
+    "title": "Guías oficiales del juego y recursos",
+    "lede": "Enlazamos fuentes de confianza para verificar parches, estadísticas y mapas fuera de nuestro sitio.",
+    "pillsTitle": "Guías oficiales del juego y recursos",
+    "pillsLabel": "Guías oficiales del juego y recursos",
+    "steam": {
+      "label": "Rust en Steam",
+      "note": "Página oficial de la tienda, requisitos y reseñas."
+    },
+    "patch": {
+      "label": "Parches y noticias de Steam",
+      "note": "Lee actualizaciones oficiales antes de cambiar tu loadout."
+    },
+    "official": {
+      "label": "Sitio oficial de Rust",
+      "note": "Resumen del juego de Facepunch Studios."
+    },
+    "wiki": {
+      "label": "Wiki de Rust (Fandom)",
+      "note": "Estadísticas, mapas y mecánicas de supervivencia."
+    },
+    "community": {
+      "label": "Hub de Steam Community",
+      "note": "Anuncios y debates de la comunidad."
+    }
+  },
+  "images": {
+    "hero": "Rust Cheats hero — ESP and aimbot overlay in Rust",
+    "espWallhack": "Wallhack outlines showing players and NPCs through walls",
+    "aimbotCombat": "Soft aim assist overlay during a Rust raid",
+    "squadFight": "Rust Cheats combat overlay during a squad fight",
+    "playerEsp": "Player ESP boxes and distance readouts in a Rust raid",
+    "headerArt": "Aimbot view and bone priority controls for Rust",
+    "hacksPackage": "2D radar threat overlay for Rust",
+    "raidFight": "Aimbot assist during a Rust firefight",
+    "battleRoyale": "Rust Cheats in-session overview for Windows PC",
+    "raidMap": "ESP markers for loot and bases in Rust"
+  },
+  "blog": {
+    "blogTitle": "Rust Cheats Blog | ESP, Cheats & Meta Tips",
+    "blogDescription": "rust cheats and rust cheats guides — ESP, aimbot, ranked meta, loot routes, and Easy Anti-Cheat updates. Global English blog at rustcheats.co/blog/.",
+    "blogH1": "Rust Cheats Intel",
+    "blogIntro": "Actionable Rust guides for raid and farming run — meta breakdowns, loot routes, player tiers, and pro warmup routines. Pair these tips with our rust cheats pages for ESP boxes, soft aim, and cloud DMA when you need in-match tools.",
+    "readMore": "Read guide",
+    "published": "Published",
+    "updated": "Updated",
+    "relatedPosts": "Related Rust guides",
+    "allPosts": "All blog posts",
+    "home": "Rust Cheats home",
+    "language": "Language",
+    "label": "Rust Intel"
+  },
+  "gallery": {
+    "eyebrow": "the rust cheats",
+    "title": "rust cheats gallery",
+    "subtitle": "Simple rust cheats visuals — ESP, wallhack, aimbot, and radar for Rust on PC.",
+    "lead": "Rust Cheats helps you spot players, NPCs, loot, and bases with ESP, aimbot, and radar in one license.",
+    "highlightEspTitle": "rust cheats esp",
+    "highlightEspCopy": "See players through walls with rust cheats esp and wallhack overlays.",
+    "highlightRadarTitle": "rust cheats radar",
+    "highlightRadarCopy": "Track nearby threats with rust cheats radar before you push or extract.",
+    "highlightAimbotTitle": "rust cheats aimbot",
+    "highlightAimbotCopy": "Use soft aim and aimbot controls tuned for Rust raids on Windows PC.",
+    "updatesLabel": "rust cheats updates",
+    "updatesShort": "Updates"
+  },
+  "faq": {
+    "items": {
+      "what-are-rust-cheats": {
+        "q": "¿Qué es Rust Cheats?",
+        "a": "Rust Cheats es un paquete de cheats undetected para Rust en PC Windows. Incluye ESP wallhack, radar 2D y controles de aimbot, con mantenimiento Easy Anti-Cheat y soporte de instalación."
+      },
+      "are-rust-cheats-undetected-in-2026": {
+        "q": "¿Los Rust Cheats son undetected en 2026?",
+        "a": "Rust Cheats se mantiene para Rust con reconstrucciones tras parches de Easy Anti-Cheat y del juego. Revisa la Trạng thái antes de entrar en raid. Ningún cheat puede garantizar indetectabilidad permanente."
+      },
+      "solo-farmer-and-raider-sessions": {
+        "q": "¿Funciona en raids de base y PvP?",
+        "a": "Sí. ESP, radar y aimbot están pensados para el flujo de raid de Rust: leer jugadores y NPCs, detectar loot y mantener conciencia cerca de monumentos y compounds."
+      },
+      "esp-wallhack-radar-or-aimbot": {
+        "q": "¿Qué incluye: ESP, wallhack, radar o Aimbot?",
+        "a": "Rust Cheats agrupa ESP wallhack, marcadores de loot, radar 2D y Aimbot configurable en una licencia. Consulta Tính năng para la lista completa."
+      },
+      "how-are-licenses-delivered": {
+        "q": "¿Cómo se entregan las licencias?",
+        "a": "Tras confirmar el pago, los datos de la licencia se entregan digitalmente en el checkout. El tiempo puede variar según el método de pago. Guarda la confirmación del pedido si contactas soporte."
+      },
+      "where-to-check-updates": {
+        "q": "¿Dónde reviso actualizaciones tras un parche de Rust o Easy Anti-Cheat?",
+        "a": "Las notas de mantenimiento se publican en la Trạng thái cuando un parche afecta al paquete. Es el lugar más rápido para confirmar si hay una nueva build."
+      },
+      "how-to-contact-support": {
+        "q": "¿Cómo contacto soporte?",
+        "a": "Usa la página de Hỗ trợ o escribe a support@rustcheats.co. Incluye los datos del pedido y una descripción clara del problema de instalación."
+      },
+      "what-is-a-rust-wallhack": {
+        "q": "¿Qué es un wallhack de Rust?",
+        "a": "Un wallhack de Rust es un overlay ESP que muestra jugadores, NPCs y loot a través de las paredes. Rust Cheats incluye distancias, señales de raid y categorías configurables."
+      },
+      "does-rust-cheats-include-radar-hack": {
+        "q": "¿Rust Cheats incluye radar hack?",
+        "a": "Sí. Rust Cheats incluye overlays de radar 2D que resaltan amenazas cercanas fuera de tu campo de visión, útil para flancos y zonas de compound."
+      },
+      "eac-anti-cheat-and-rust-cheats": {
+        "q": "¿Cómo afecta Easy Anti-Cheat a los Rust Cheats?",
+        "a": "Easy Anti-Cheat monitoriza Rust en PC Windows. Rust Cheats publica notas de mantenimiento tras parches que pueden requerir una nueva build. Revisa Estado antes de jugar."
+      },
+      "buy-undetected-rust-cheats-windows-pc": {
+        "q": "¿Puedo comprar trucos undetected de Rust para PC Windows?",
+        "a": "Sí: Rust Cheats vende licencias mensuales y de por vida para PC Windows con ESP, radar y aimbot en un solo paquete. Compara planes en la Cửa hàng antes del checkout."
+      }
+    }
+  },
+  "media": {
+    "demoVideoTitle": "Rust Cheats ESP, Aimbot demo",
+    "playVideo": "Play video"
+  }
+}

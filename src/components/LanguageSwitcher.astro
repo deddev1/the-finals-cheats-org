@@ -15,13 +15,16 @@ interface Props {
 const { pageId: pageIdFallback, currentLocale } = Astro.props;
 const pathname = Astro.url.pathname;
 const onBlog = isBlogPath(pathname);
+const onReviews = pathname.startsWith('/reviews');
 const pathContext = resolvePageContextFromPath(pathname);
 const pageContext = onBlog
 	? pathContext
-	: {
-			...pathContext,
-			pageId: pathContext.pageId ?? pageIdFallback ?? 'home',
-		};
+	: onReviews
+		? pathContext
+		: {
+				...pathContext,
+				pageId: pathContext.pageId ?? pageIdFallback ?? 'home',
+			};
 
 function localeSwitchHref(targetLocale: LocaleCode): string {
 	if (onBlog) {
