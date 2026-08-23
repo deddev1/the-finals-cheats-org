@@ -1,5 +1,5 @@
 ---
-import { homeFaqs } from '../data/site';
+import { getLocalizedHomeFaqs } from '../data/localized-faq';
 import { getFaqPath } from '../data/faq';
 import { defaultLocale, type LocaleCode } from '../data/i18n/locales';
 import { getLocalizedPath } from '../data/i18n/routing';
@@ -12,7 +12,7 @@ interface Props {
 const locale = Astro.props.locale ?? defaultLocale;
 const t = getT(locale);
 
-const faqs = homeFaqs.map((item) => ({
+const faqs = getLocalizedHomeFaqs(locale).map((item) => ({
 	slug: item.slug,
 	question: item.question,
 	answer: item.answer,

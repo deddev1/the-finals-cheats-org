@@ -14,10 +14,10 @@
     "store": "ราคา",
     "status": "อัปเดต",
     "reviews": "ผู้เล่นพูดว่าอย่างไร",
-    "primaryAria": "Primary",
-    "mobileAria": "Mobile",
-    "openMenu": "Open menu",
-    "closeMenu": "Close menu"
+    "primaryAria": "หน้าแรก",
+    "mobileAria": "หน้าแรก",
+    "openMenu": "หน้าแรก",
+    "closeMenu": "หน้าแรก"
   },
   "hero": {
     "accent": "rust cheats ไม่ถูกตรวจจับ",
@@ -35,8 +35,8 @@
     "chipUpdates": "อัปเดต"
   },
   "cta": {
-    "buy": "Get Access",
-    "buyShort": "Buy"
+    "buy": "ซื้อเลย",
+    "buyShort": "ซื้อเลย"
   },
   "trust": {
     "status": "ออนไลน์",
@@ -56,11 +56,11 @@
     "gameBadge": "Rust",
     "platformBadge": "Windows PC",
     "statusBadge": "แพ็กเกจ undetected",
-    "days30": "30 days",
-    "oneTime": "One-time",
-    "plans": "Plans",
-    "perMonth": "/ month",
-    "once": " once",
+    "days30": "30",
+    "oneTime": "ตลอดชีพ",
+    "plans": "ราคา",
+    "perMonth": "/",
+    "once": "",
     "buyMonthly": "รายเดือน",
     "buyLifetime": "ตลอดชีพ"
   },
@@ -71,32 +71,32 @@
     "countLabel": "รีวิว",
     "eyebrow": "ผู้เล่นพูดว่าอย่างไร",
     "homeTitle": "Rust Cheats ผู้เล่นพูดว่าอย่างไร",
-    "buyerReviews": "{{count}} buyer reviews",
-    "averageAria": "{{rating}} average from {{count}} buyer reviews",
-    "outOfFiveAria": "{{rating}} out of 5",
-    "readAll": "Read all reviews →"
+    "buyerReviews": "รีวิว",
+    "averageAria": "ผู้เล่นพูดว่าอย่างไร",
+    "outOfFiveAria": "จาก 5",
+    "readAll": "→"
   },
   "common": {
-    "buyNow": "ซื้อเลย",
-    "readGuide": "อ่านคู่มือ",
-    "language": "ภาษา",
-    "officialLanguageNote": "ภาษาอังกฤษเป็นภาษาทางการ ภาษาอื่นแปลเพื่อ SEO ระดับโลก",
-    "relatedPages": "หน้าที่เกี่ยวข้อง",
-    "selectLanguage": "Select language",
-    "englishOfficial": "English — official language",
-    "englishIsOfficial": "English is the official language",
-    "languageSuggestion": "Language suggestion",
+    "buyNow": "Buy Rust Cheats",
+    "readGuide": "Read guide",
+    "language": "Language",
+    "officialLanguageNote": "English is official; other locales are translated.",
+    "relatedPages": "Related pages",
+    "selectLanguage": "ภาษา",
+    "englishOfficial": "ภาษาอังกฤษเป็นภาษาทางการ ภาษาอื่นแปลเพื่อ SEO ระดับโลก",
+    "englishIsOfficial": "ภาษาอังกฤษเป็นภาษาทางการ ภาษาอื่นแปลเพื่อ SEO ระดับโลก",
+    "languageSuggestion": "ภาษา",
     "dismiss": "Dismiss",
     "localeVersion": "{{name}} version",
     "localeSuggestLead": "{{nativeName}} ({{region}}) — ",
     "breadcrumb": "Breadcrumb",
     "gallery": "Gallery",
     "inGameLook": "In-game look",
-    "allQuestions": "All questions",
-    "openAnyQuestion": "Open any question for the full answer.",
-    "packageStatus": "Package status",
-    "productDetails": "Product details",
-    "browse": "Browse",
+    "allQuestions": "FAQ",
+    "openAnyQuestion": "อ่านคู่มือ",
+    "packageStatus": "อัปเดต",
+    "productDetails": "ฟีเจอร์",
+    "browse": "หน้าที่เกี่ยวข้อง",
     "featured": "Featured",
     "share": "Share",
     "shareX": "Share on X",
@@ -106,9 +106,9 @@
     "support": "Support",
     "privacy": "Privacy",
     "terms": "Terms",
-    "featureList": "Feature list",
-    "pricingPlans": "Pricing plans",
-    "buyerReviewsNav": "Buyer reviews",
+    "featureList": "ฟีเจอร์",
+    "pricingPlans": "ราคา",
+    "buyerReviewsNav": "ผู้เล่นพูดว่าอย่างไร",
     "copyright": "© {{year}} {{brand}}"
   },
   "footer": {
@@ -117,65 +117,65 @@
     "tagline": "ESP, wallhack, radar และ Aimbot ไม่ถูกตรวจจับสำหรับ Rust — ชำระผ่าน Zadeyo"
   },
   "home": {
-    "aboutTitle": "Undetected rust cheats for Rust",
-    "aboutP1": "Rust Cheats is an undetected rust cheats package for Rust on Windows PC. One license includes ESP wallhack, soft aim, and 2D radar, with Easy Anti-Cheat rebuilds after game patches. Compare plans on Store, then check Status before you raid.",
-    "aboutPricingCta": "Compare pricing",
-    "aboutP2Before": "Start with the",
-    "aboutPillar": "Rust Cheats pillar",
-    "aboutEsp": "ESP guide",
-    "aboutAimbot": "aimbot controls",
-    "aboutUndetected": "undetected status",
+    "aboutTitle": "Rust Cheats — Undetected ESP, Wallhack และ Aimbot",
+    "aboutP1": "แพ็ก undetected สำหรับ Rust บน Windows PC: ESP wallhack, radar, Aimbot พร้อม Easy Anti-Cheat maintenance ราคา · อัปเดต.",
+    "aboutPricingCta": "เปรียบเทียบราคา",
+    "aboutP2Before": "เริ่มจาก",
+    "aboutPillar": "คู่มือ Rust Cheats",
+    "aboutEsp": "คู่มือ ESP",
+    "aboutAimbot": "การควบคุม Aimbot",
+    "aboutUndetected": "สถานะ undetected",
     "aboutP2Mid": ", ",
-    "aboutP2Or": ", or ",
-    "aboutP2After": " if you are still comparing tools."
+    "aboutP2Or": ", หรือ ",
+    "aboutP2After": " หากคุณยังเปรียบเทียบเครื่องมืออยู่"
   },
   "homeSeo": {
     "eyebrow": "Guides",
-    "title": "Browse by category",
-    "lede": "Short links for features, status, store, and help.",
-    "catFeatures": "Features",
-    "catFeaturesHint": "What is included",
-    "catStatus": "Status",
-    "catStatusHint": "Before you play",
-    "catStore": "Store",
-    "catStoreHint": "Buy & plans",
-    "catHelp": "Help",
-    "catHelpHint": "Need a hand",
-    "linkAllFeatures": "All features",
+    "title": "หน้าที่เกี่ยวข้อง by category",
+    "lede": "ฟีเจอร์, อัปเดต, ราคา, FAQ.",
+    "catFeatures": "ฟีเจอร์",
+    "catFeaturesHint": "ฟีเจอร์",
+    "catStatus": "อัปเดต",
+    "catStatusHint": "อัปเดต",
+    "catStore": "ราคา",
+    "catStoreHint": "ราคา",
+    "catHelp": "FAQ",
+    "catHelpHint": "FAQ",
+    "linkAllFeatures": "ฟีเจอร์",
     "linkEsp": "ESP",
     "linkAimbot": "Aimbot",
     "linkRadar": "Radar",
-    "linkLiveStatus": "Live status",
-    "linkUndetected": "Undetected",
+    "linkLiveStatus": "อัปเดต",
+    "linkUndetected": "แพ็กเกจ undetected",
     "linkEasy Anti-Cheat": "Easy Anti-Cheat",
-    "linkSetup": "Setup",
-    "linkPlans": "Plans",
-    "linkReviews": "Reviews",
-    "linkRustCheats": "rust cheats",
+    "linkSetup": "ติดตั้ง",
+    "linkPlans": "ราคา",
+    "linkReviews": "ผู้เล่นพูดว่าอย่างไร",
+    "linkRustCheats": "Rust Cheats",
     "linkFaq": "FAQ",
     "linkSupport": "Support",
-    "linkSetupGuide": "Setup guide",
+    "linkSetupGuide": "ติดตั้ง",
     "linkBlog": "Blog",
     "linkRefunds": "Refunds",
     "faqEyebrow": "FAQ",
-    "faqTitle": "Before you buy",
-    "faqLede": "Delivery, detection status, and what is included.",
-    "allAnswers": "All answers",
-    "openFullPage": "Open full page"
+    "faqTitle": "FAQ",
+    "faqLede": "จัดส่งดิจิทัลทันที",
+    "allAnswers": "FAQ",
+    "openFullPage": "อ่านคู่มือ"
   },
   "deals": {
-    "pricing": "Pricing",
-    "chooseLicense": "Choose your license",
-    "features": "Features",
+    "pricing": "ราคา",
+    "chooseLicense": "ราคา",
+    "features": "ฟีเจอร์",
     "featEsp": "ESP / wallhack",
-    "featAim": "Soft aim & hotkeys",
+    "featAim": "Aimbot",
     "featRadar": "2D radar",
-    "featUpdates": "Patch updates"
+    "featUpdates": "อัปเดต"
   },
   "trustStrip": {
-    "instantDelivery": "Instant delivery",
-    "secureCheckout": "Secure checkout",
-    "support247": "24/7 support"
+    "instantDelivery": "จัดส่งดิจิทัลทันที",
+    "secureCheckout": "ซื้อเลย",
+    "support247": "24/7"
   },
   "categoryRow": {
     "hacks": "Hacks",
@@ -183,23 +183,57 @@
     "aimbot": "Aimbot",
     "radar": "Radar",
     "wallhack": "Wallhack",
-    "undetected": "Undetected",
-    "features": "Features",
-    "pricing": "Pricing",
-    "setup": "Setup",
+    "undetected": "แพ็กเกจ undetected",
+    "features": "ฟีเจอร์",
+    "pricing": "ราคา",
+    "setup": "ติดตั้ง",
     "blog": "Blog"
   },
   "internalLinks": {
-    "relatedLede": "Explore more Rust Cheats guides — the same topics covered on other cheat sites, mapped to our canonical pages.",
-    "topicsTitle": "Product guides",
-    "topicsLabel": "Product topic guides",
-    "topicsLede": "Jump to the main Rust Cheats pages for ESP, aimbot, radar, setup, and status."
+    "relatedLede": "Rust Cheats — หน้าที่เกี่ยวข้อง.",
+    "topicsTitle": "ฟีเจอร์",
+    "topicsLabel": "ฟีเจอร์",
+    "topicsLede": "ESP, Aimbot, ราคา, ติดตั้ง, อัปเดต.",
+    "overview": "Rust Cheats",
+    "esp": "ESP & wallhack",
+    "aimbot": "Aimbot",
+    "radar": "Radar",
+    "features": "ฟีเจอร์",
+    "pricing": "ราคา",
+    "setup": "ติดตั้ง",
+    "status": "อัปเดต",
+    "faq": "FAQ",
+    "support": "Support",
+    "blog": "Blog",
+    "reviews": "ผู้เล่นพูดว่าอย่างไร",
+    "hacks": "Hacks",
+    "undetected": "แพ็กเกจ undetected"
   },
   "externalResources": {
-    "title": "Official game guides & resources",
-    "lede": "We link to trusted third-party sources so you can verify patch notes, player stats, and map info outside our site.",
-    "pillsTitle": "Official guides",
-    "pillsLabel": "Official Rust guides"
+    "title": "Guías oficiales del juego y recursos",
+    "lede": "Enlazamos fuentes de confianza para verificar parches, estadísticas y mapas fuera de nuestro sitio.",
+    "pillsTitle": "Guías oficiales del juego y recursos",
+    "pillsLabel": "Guías oficiales del juego y recursos",
+    "steam": {
+      "label": "Rust en Steam",
+      "note": "Página oficial de la tienda, requisitos y reseñas."
+    },
+    "patch": {
+      "label": "Parches y noticias de Steam",
+      "note": "Lee actualizaciones oficiales antes de cambiar tu loadout."
+    },
+    "official": {
+      "label": "Sitio oficial de Rust",
+      "note": "Resumen del juego de Facepunch Studios."
+    },
+    "wiki": {
+      "label": "Wiki de Rust (Fandom)",
+      "note": "Estadísticas, mapas y mecánicas de supervivencia."
+    },
+    "community": {
+      "label": "Hub de Steam Community",
+      "note": "Anuncios y debates de la comunidad."
+    }
   },
   "images": {
     "hero": "Rust Cheats hero — ESP and aimbot overlay in Rust",
@@ -240,5 +274,57 @@
     "highlightAimbotCopy": "Use soft aim and aimbot controls tuned for Rust raids on Windows PC.",
     "updatesLabel": "rust cheats updates",
     "updatesShort": "Updates"
+  },
+  "faq": {
+    "items": {
+      "what-are-rust-cheats": {
+        "q": "What is Rust Cheats?",
+        "a": "Rust Cheats is an undetected rust cheats package for Rust on Windows PC. It includes ESP wallhack, 2D radar, and aimbot controls, with Easy Anti-Cheat maintenance and setup support."
+      },
+      "are-rust-cheats-undetected-in-2026": {
+        "q": "Are rust cheats undetected in 2026?",
+        "a": "Rust Cheats is maintained for Rust with rebuilds after Easy Anti-Cheat and game patches. Check the Status page before you raid. No cheat can guarantee permanent undetected status — maintenance and responsible use matter."
+      },
+      "solo-farmer-and-raider-sessions": {
+        "q": "Does this work in base raids and PvP fights?",
+        "a": "Yes. ESP, radar, and aimbot are built for Rust raid flow — reading players and NPCs, spotting loot, and staying aware near monuments and compounds."
+      },
+      "esp-wallhack-radar-or-aimbot": {
+        "q": "What is included — ESP, wallhack, radar, or Aimbot?",
+        "a": "Rust Cheats bundles ESP wallhack, loot markers, 2D radar cues, and configurable Aimbot in one license. See Features for the full list."
+      },
+      "how-are-licenses-delivered": {
+        "q": "How are licenses delivered?",
+        "a": "After payment is confirmed, Rust Cheats license details are delivered digitally through checkout. Timing can vary by payment method and order review. Keep your order confirmation ready if you contact support."
+      },
+      "where-to-check-updates": {
+        "q": "Where do I check updates after a Rust or Easy Anti-Cheat patch?",
+        "a": "Maintenance notes are posted on the Status page when a Rust or Easy Anti-Cheat update affects the package. That is the fastest place to confirm whether a new Rust Cheats build is live."
+      },
+      "how-to-contact-support": {
+        "q": "How do I contact support?",
+        "a": "Use the Support page or email support@rustcheats.co. Include your order details, package length, and a clear description of the setup issue so replies can be faster."
+      },
+      "what-is-a-rust-wallhack": {
+        "q": "What is a Rust wallhack?",
+        "a": "A Rust wallhack is an ESP overlay that shows players, NPCs, and loot through walls. Rust Cheats includes distance readouts, raid cues, and toggleable categories."
+      },
+      "does-rust-cheats-include-radar-hack": {
+        "q": "Does Rust Cheats include a radar hack?",
+        "a": "Yes. Rust Cheats includes 2D radar overlays that highlight nearby threats outside your view — useful for flanks and compound zones."
+      },
+      "eac-anti-cheat-and-rust-cheats": {
+        "q": "How does Easy Anti-Cheat affect rust cheats?",
+        "a": "Easy Anti-Cheat monitors Rust on Windows PC. Rust Cheats posts maintenance notes after patches that may need a rebuild. Check Status before you raid."
+      },
+      "buy-undetected-rust-cheats-windows-pc": {
+        "q": "Can I buy undetected Rust cheats for Windows PC?",
+        "a": "Yes — Rust Cheats sells monthly and lifetime licenses for Windows PC with ESP, radar, and aimbot in one stack. Compare plans on Store before checkout."
+      }
+    }
+  },
+  "media": {
+    "demoVideoTitle": "Rust Cheats ESP, Aimbot demo",
+    "playVideo": "Play video"
   }
 }

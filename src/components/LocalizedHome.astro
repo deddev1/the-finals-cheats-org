@@ -11,7 +11,8 @@ import SiteFooter from '../components/SiteFooter.astro';
 import { getLocaleContent, getPageContent } from '../data/i18n';
 import { getLocalizedPath } from '../data/i18n/routing';
 import type { LocaleCode } from '../data/i18n/locales';
-import { homeFaqs, homeSeo, productInfo, siteConfig, customerReviewStats } from '../data/site';
+import { homeSeo, productInfo, siteConfig, customerReviewStats } from '../data/site';
+import { getLocalizedHomeFaqs } from '../data/localized-faq';
 import { heroPreloadSrc, heroSizes, heroSrcSet } from '../lib/responsive-images';
 import { defaultCrawlImageSrc } from '../data/page-images';
 import { demoVideoSchema } from '../data/media';
@@ -33,6 +34,8 @@ const canonicalURL = new URL(canonicalPath, siteConfig.url).href;
 const canonicalProductUrl = new URL('/', siteConfig.url).href;
 const heroImage = new URL(siteConfig.defaultOgImage || defaultCrawlImageSrc, siteConfig.url).href;
 const priceValidUntil = '2027-12-31';
+
+const localizedHomeFaqs = getLocalizedHomeFaqs(locale);
 
 const aggregateRating = {
 	'@type': 'AggregateRating',
@@ -76,7 +79,7 @@ const extraGraph: Record<string, unknown>[] = [
 	{
 		'@type': 'FAQPage',
 		'@id': `${canonicalURL}#faq`,
-		mainEntity: homeFaqs.map((item) => ({
+		mainEntity: localizedHomeFaqs.map((item) => ({
 			'@type': 'Question',
 			name: item.question,
 			url: `${siteConfig.url}/faq/${item.slug}/`,

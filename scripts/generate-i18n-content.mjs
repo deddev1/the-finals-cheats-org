@@ -39,26 +39,6 @@ function serialize(value, indent = 1) {
 	return `{\n${lines.join(',\n')},\n${pad}}`;
 }
 
-/** Keep localized meta; use English section structure so every locale renders the same blocks. */
-function mergeEnglishPageStructure(localized, english) {
-	const merged = {};
-	for (const pageId of Object.keys(english)) {
-		const loc = localized[pageId];
-		const en = english[pageId];
-		if (!loc || !en) {
-			throw new Error(`Missing page "${pageId}" while merging locale content`);
-		}
-		merged[pageId] = {
-			...loc,
-			sections: en.sections,
-			galleryTitle: loc.galleryTitle ?? en.galleryTitle,
-			ctaSecondary: loc.ctaSecondary ?? en.ctaSecondary,
-			ctaSecondaryHref: loc.ctaSecondaryHref ?? en.ctaSecondaryHref,
-		};
-	}
-	return merged;
-}
-
 function buildI18nContent() {
 	/** @type {Record<string, { ui: object; pages: object }>} */
 	const content = {};
@@ -67,10 +47,7 @@ function buildI18nContent() {
 		const ui = allUiStrings[locale];
 		if (!ui) throw new Error(`Missing UI strings for locale: ${locale}`);
 
-		const pages =
-			locale === 'en'
-				? englishPagesFinal
-				: mergeEnglishPageStructure(buildPagesForLocale(locale), englishPagesFinal);
+		const pages = locale === 'en' ? englishPagesFinal : buildPagesForLocale(locale);
 
 		// Validate required page keys
 		const requiredPages = [

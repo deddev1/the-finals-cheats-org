@@ -59,7 +59,7 @@ const updatesHref = getLocalizedPath('updates', locale);
 					type="button"
 					class="home__video-play"
 					data-demo-video-play
-					aria-label={`Play video: ${demoVideo.title}`}
+					aria-label={`${t('media.playVideo')}: ${t('media.demoVideoTitle')}`}
 				>
 					<span class="home__video-play-icon" aria-hidden="true">
 						<svg viewBox="0 0 24 24" fill="currentColor">
@@ -68,7 +68,7 @@ const updatesHref = getLocalizedPath('updates', locale);
 					</span>
 				</button>
 			</div>
-			<figcaption class="home__video-caption">{demoVideo.title}</figcaption>
+			<figcaption class="home__video-caption">{t('media.demoVideoTitle')}</figcaption>
 		</figure>
 	</div>
 </section>
