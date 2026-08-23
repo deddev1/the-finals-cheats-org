@@ -11,6 +11,10 @@ interface Props {
 const { locale } = Astro.props;
 const t = getT(locale);
 const pricingHref = getLocalizedPath('pricing', locale);
+const homeHref = getLocalizedPath('home', locale);
+const espHref = getLocalizedPath('rust-esp', locale);
+const aimbotHref = getLocalizedPath('rust-aimbot', locale);
+const updatesHref = getLocalizedPath('updates', locale);
 ---
 
 <section class="shell home__prose home__prose--en" aria-labelledby="home-about-title">
@@ -27,13 +31,13 @@ const pricingHref = getLocalizedPath('pricing', locale);
 			</div>
 			<p>
 				{t('home.aboutP2Before')}{' '}
-				<a href="/">{t('home.aboutPillar')}</a>
+				<a href={homeHref}>{t('home.aboutPillar')}</a>
 				{t('home.aboutP2Mid')}
-				<a href="/rust-esp/">{t('home.aboutEsp')}</a>
+				<a href={espHref}>{t('home.aboutEsp')}</a>
 				{t('home.aboutP2Mid')}
-				<a href="/rust-aimbot/">{t('home.aboutAimbot')}</a>
+				<a href={aimbotHref}>{t('home.aboutAimbot')}</a>
 				{t('home.aboutP2Or')}
-				<a href="/updates/">{t('home.aboutUndetected')}</a>
+				<a href={updatesHref}>{t('home.aboutUndetected')}</a>
 				{t('home.aboutP2After')}
 			</p>
 		</div>

@@ -1,24 +1,21 @@
 ---
-/**
- * Locale blog posts are English clones — 301 to the EN slug.
- * Avoids fake hreflang clusters and duplicate content.
- */
-import { blogPosts, findPostBySlug, getBlogPostPath } from '../../../../data/blog/helpers';
+import BlogPostPage from '../../../../components/BlogPostPage.astro';
+import { blogPosts, getPostBySlug, resolvePost } from '../../../../data/blog/helpers';
 import { defaultLocale, isLocaleCode, localeCodes, type LocaleCode } from '../../../../data/i18n/locales';
 
 export function getStaticPaths() {
 	const paths: {
 		params: { lang: string; slug: string };
-		props: { locale: LocaleCode };
+		props: { locale: LocaleCode; post: ReturnType<typeof resolvePost> };
 	}[] = [];
 
 	for (const locale of localeCodes) {
 		if (locale === defaultLocale) continue;
 		for (const post of blogPosts) {
-			const slug = post.translations[locale].slug;
+			const resolved = resolvePost(post, locale);
 			paths.push({
-				params: { lang: locale, slug },
-				props: { locale },
+				params: { lang: locale, slug: resolved.translation.slug },
+				props: { locale, post: resolved },
 			});
 		}
 	}
@@ -26,18 +23,14 @@ export function getStaticPaths() {
 	return paths;
 }
 
-const { locale } = Astro.props;
+const { locale, post } = Astro.props;
 const slug = Astro.params.slug ?? '';
 
 if (!isLocaleCode(Astro.params.lang ?? '')) {
 	return Astro.redirect('/blog/', 301);
 }
 
-const post = findPostBySlug(slug, locale) ?? findPostBySlug(slug);
-const enSlug = post?.translations[defaultLocale].slug;
-if (!enSlug) {
-	return Astro.redirect('/blog/', 301);
-}
-
-return Astro.redirect(getBlogPostPath(defaultLocale, enSlug), 301);
+const live = getPostBySlug(locale, slug) ?? post;
 ---
+
+<BlogPostPage locale={locale} post={live} />
