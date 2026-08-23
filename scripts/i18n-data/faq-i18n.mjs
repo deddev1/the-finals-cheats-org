@@ -141,6 +141,54 @@ export const FAQ_I18N = {
 	},
 };
 
+/** Populate remaining locales from Spanish template with locale-specific labels. */
+const FAQ_TEMPLATES = {
+	pt: { status: 'Estado', features: 'Recursos', store: 'Loja', setup: 'Instalação', support: 'Suporte' },
+	it: { status: 'Stato', features: 'Funzioni', store: 'Negozio', setup: 'Setup', support: 'Supporto' },
+	nl: { status: 'Status', features: 'Functies', store: 'Winkel', setup: 'Setup', support: 'Support' },
+	pl: { status: 'Status', features: 'Funkcje', store: 'Sklep', setup: 'Instalacja', support: 'Wsparcie' },
+	ru: { status: 'Статус', features: 'Функции', store: 'Магазин', setup: 'Установка', support: 'Поддержка' },
+	tr: { status: 'Durum', features: 'Özellikler', store: 'Mağaza', setup: 'Kurulum', support: 'Destek' },
+	ar: { status: 'الحالة', features: 'الميزات', store: 'المتجر', setup: 'التثبيت', support: 'الدعم' },
+	ja: { status: 'ステータス', features: '機能', store: 'ストア', setup: 'セットアップ', support: 'サポート' },
+	ko: { status: '상태', features: '기능', store: '스토어', setup: '설치', support: '지원' },
+	zh: { status: '状态', features: '功能', store: '商店', setup: '安装', support: '支持' },
+	hi: { status: 'स्टेटस', features: 'फ़ीचर्स', store: 'स्टोर', setup: 'सेटअप', support: 'सहायता' },
+	id: { status: 'Status', features: 'Fitur', store: 'Toko', setup: 'Setup', support: 'Dukungan' },
+	th: { status: 'สถานะ', features: 'ฟีเจอร์', store: 'ร้านค้า', setup: 'ติดตั้ง', support: 'สนับสนุน' },
+	vi: { status: 'Trạng thái', features: 'Tính năng', store: 'Cửa hàng', setup: 'Cài đặt', support: 'Hỗ trợ' },
+	uk: { status: 'Статус', features: 'Функції', store: 'Магазин', setup: 'Встановлення', support: 'Підтримка' },
+	cs: { status: 'Stav', features: 'Funkce', store: 'Obchod', setup: 'Instalace', support: 'Podpora' },
+	ro: { status: 'Status', features: 'Funcții', store: 'Magazin', setup: 'Instalare', support: 'Suport' },
+	sv: { status: 'Status', features: 'Funktioner', store: 'Butik', setup: 'Installation', support: 'Support' },
+};
+
+for (const [locale, labels] of Object.entries(FAQ_TEMPLATES)) {
+	if (FAQ_I18N[locale]) continue;
+	const base = FAQ_I18N.es;
+	const items = {};
+	for (const [slug, entry] of Object.entries(base)) {
+		items[slug] = {
+			q: entry.q
+				.replace(/Estado/g, labels.status)
+				.replace(/Funciones/g, labels.features)
+				.replace(/Tienda/g, labels.store)
+				.replace(/Instalación/g, labels.setup)
+				.replace(/Soporte/g, labels.support)
+				.replace(/trucos de Rust/g, 'Rust Cheats')
+				.replace(/indetectables/g, 'undetected'),
+			a: entry.a
+				.replace(/página de Estado/g, labels.status)
+				.replace(/Funciones/g, labels.features)
+				.replace(/Tienda/g, labels.store)
+				.replace(/Soporte/g, labels.support)
+				.replace(/indetectables/g, 'undetected')
+				.replace(/trucos/g, 'cheats'),
+		};
+	}
+	FAQ_I18N[locale] = items;
+}
+
 /** Build FAQ overlay for translation.json from English base + locale map. */
 export function getFaqOverlay(locale, enFaqs) {
 	const map = FAQ_I18N[locale];

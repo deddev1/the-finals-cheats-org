@@ -14,10 +14,10 @@
     "store": "Preise",
     "status": "Updates",
     "reviews": "Was Spieler sagen",
-    "primaryAria": "Start",
-    "mobileAria": "Start",
-    "openMenu": "Start",
-    "closeMenu": "Start"
+    "primaryAria": "Primary",
+    "mobileAria": "Mobile",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
   },
   "hero": {
     "accent": "Undetected Rust Cheats",

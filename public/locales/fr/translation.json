@@ -14,10 +14,10 @@
     "store": "Tarifs",
     "status": "Mises à jour",
     "reviews": "Ce que disent les joueurs",
-    "primaryAria": "Accueil",
-    "mobileAria": "Accueil",
-    "openMenu": "Accueil",
-    "closeMenu": "Accueil"
+    "primaryAria": "Primary",
+    "mobileAria": "Mobile",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
   },
   "hero": {
     "accent": "Triches Rust indétectables",

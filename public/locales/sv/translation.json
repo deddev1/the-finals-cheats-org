@@ -14,10 +14,10 @@
     "store": "Priser",
     "status": "Uppdateringar",
     "reviews": "Vad spelare säger",
-    "primaryAria": "Hem",
-    "mobileAria": "Hem",
-    "openMenu": "Hem",
-    "closeMenu": "Hem"
+    "primaryAria": "Primary",
+    "mobileAria": "Mobile",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
   },
   "hero": {
     "accent": "Undetected rust cheats",
@@ -278,48 +278,48 @@
   "faq": {
     "items": {
       "what-are-rust-cheats": {
-        "q": "What is Rust Cheats?",
-        "a": "Rust Cheats is an undetected rust cheats package for Rust on Windows PC. It includes ESP wallhack, 2D radar, and aimbot controls, with Easy Anti-Cheat maintenance and setup support."
+        "q": "¿Qué es Rust Cheats?",
+        "a": "Rust Cheats es un paquete de cheats undetected para Rust en PC Windows. Incluye ESP wallhack, radar 2D y controles de aimbot, con mantenimiento Easy Anti-Cheat y soporte de instalación."
       },
       "are-rust-cheats-undetected-in-2026": {
-        "q": "Are rust cheats undetected in 2026?",
-        "a": "Rust Cheats is maintained for Rust with rebuilds after Easy Anti-Cheat and game patches. Check the Status page before you raid. No cheat can guarantee permanent undetected status — maintenance and responsible use matter."
+        "q": "¿Los Rust Cheats son undetected en 2026?",
+        "a": "Rust Cheats se mantiene para Rust con reconstrucciones tras parches de Easy Anti-Cheat y del juego. Revisa la Status antes de entrar en raid. Ningún cheat puede garantizar indetectabilidad permanente."
       },
       "solo-farmer-and-raider-sessions": {
-        "q": "Does this work in base raids and PvP fights?",
-        "a": "Yes. ESP, radar, and aimbot are built for Rust raid flow — reading players and NPCs, spotting loot, and staying aware near monuments and compounds."
+        "q": "¿Funciona en raids de base y PvP?",
+        "a": "Sí. ESP, radar y aimbot están pensados para el flujo de raid de Rust: leer jugadores y NPCs, detectar loot y mantener conciencia cerca de monumentos y compounds."
       },
       "esp-wallhack-radar-or-aimbot": {
-        "q": "What is included — ESP, wallhack, radar, or Aimbot?",
-        "a": "Rust Cheats bundles ESP wallhack, loot markers, 2D radar cues, and configurable Aimbot in one license. See Features for the full list."
+        "q": "¿Qué incluye: ESP, wallhack, radar o Aimbot?",
+        "a": "Rust Cheats agrupa ESP wallhack, marcadores de loot, radar 2D y Aimbot configurable en una licencia. Consulta Funktioner para la lista completa."
       },
       "how-are-licenses-delivered": {
-        "q": "How are licenses delivered?",
-        "a": "After payment is confirmed, Rust Cheats license details are delivered digitally through checkout. Timing can vary by payment method and order review. Keep your order confirmation ready if you contact support."
+        "q": "¿Cómo se entregan las licencias?",
+        "a": "Tras confirmar el pago, los datos de la licencia se entregan digitalmente en el checkout. El tiempo puede variar según el método de pago. Guarda la confirmación del pedido si contactas soporte."
       },
       "where-to-check-updates": {
-        "q": "Where do I check updates after a Rust or Easy Anti-Cheat patch?",
-        "a": "Maintenance notes are posted on the Status page when a Rust or Easy Anti-Cheat update affects the package. That is the fastest place to confirm whether a new Rust Cheats build is live."
+        "q": "¿Dónde reviso actualizaciones tras un parche de Rust o Easy Anti-Cheat?",
+        "a": "Las notas de mantenimiento se publican en la Status cuando un parche afecta al paquete. Es el lugar más rápido para confirmar si hay una nueva build."
       },
       "how-to-contact-support": {
-        "q": "How do I contact support?",
-        "a": "Use the Support page or email support@rustcheats.co. Include your order details, package length, and a clear description of the setup issue so replies can be faster."
+        "q": "¿Cómo contacto soporte?",
+        "a": "Usa la página de Support o escribe a support@rustcheats.co. Incluye los datos del pedido y una descripción clara del problema de instalación."
       },
       "what-is-a-rust-wallhack": {
-        "q": "What is a Rust wallhack?",
-        "a": "A Rust wallhack is an ESP overlay that shows players, NPCs, and loot through walls. Rust Cheats includes distance readouts, raid cues, and toggleable categories."
+        "q": "¿Qué es un wallhack de Rust?",
+        "a": "Un wallhack de Rust es un overlay ESP que muestra jugadores, NPCs y loot a través de las paredes. Rust Cheats incluye distancias, señales de raid y categorías configurables."
       },
       "does-rust-cheats-include-radar-hack": {
-        "q": "Does Rust Cheats include a radar hack?",
-        "a": "Yes. Rust Cheats includes 2D radar overlays that highlight nearby threats outside your view — useful for flanks and compound zones."
+        "q": "¿Rust Cheats incluye radar hack?",
+        "a": "Sí. Rust Cheats incluye overlays de radar 2D que resaltan amenazas cercanas fuera de tu campo de visión, útil para flancos y zonas de compound."
       },
       "eac-anti-cheat-and-rust-cheats": {
-        "q": "How does Easy Anti-Cheat affect rust cheats?",
-        "a": "Easy Anti-Cheat monitors Rust on Windows PC. Rust Cheats posts maintenance notes after patches that may need a rebuild. Check Status before you raid."
+        "q": "¿Cómo afecta Easy Anti-Cheat a los Rust Cheats?",
+        "a": "Easy Anti-Cheat monitoriza Rust en PC Windows. Rust Cheats publica notas de mantenimiento tras parches que pueden requerir una nueva build. Revisa Estado antes de jugar."
       },
       "buy-undetected-rust-cheats-windows-pc": {
-        "q": "Can I buy undetected Rust cheats for Windows PC?",
-        "a": "Yes — Rust Cheats sells monthly and lifetime licenses for Windows PC with ESP, radar, and aimbot in one stack. Compare plans on Store before checkout."
+        "q": "¿Puedo comprar trucos undetected de Rust para PC Windows?",
+        "a": "Sí: Rust Cheats vende licencias mensuales y de por vida para PC Windows con ESP, radar y aimbot en un solo paquete. Compara planes en la Butik antes del checkout."
       }
     }
   },
