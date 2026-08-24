@@ -1,6 +1,5 @@
-import { useCallback, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { demoVideo } from '../../data/media';
+import { productScreenshots } from '../../data/product-images';
 import I18nProvider from './I18nProvider';
 
 type Props = {
@@ -8,57 +7,9 @@ type Props = {
 	checkoutUrl: string;
 };
 
-function DemoVideo() {
-	const videoRef = useRef<HTMLVideoElement>(null);
-	const [playing, setPlaying] = useState(false);
-
-	const play = useCallback(() => {
-		const el = videoRef.current;
-		if (!el) return;
-		setPlaying(true);
-		void el.play();
-	}, []);
-
-	return (
-		<figure className="home__about-media">
-			<div className="home__video-wrap">
-				<video
-					ref={videoRef}
-					className="home__video"
-					src={demoVideo.src}
-					poster={demoVideo.poster}
-					width={demoVideo.width}
-					height={demoVideo.height}
-					preload="metadata"
-					playsInline
-					controls={playing}
-					onPlay={() => setPlaying(true)}
-					onPause={() => setPlaying(false)}
-					onEnded={() => setPlaying(false)}
-					aria-label={demoVideo.title}
-				/>
-				{!playing && (
-					<button
-						type="button"
-						className="home__video-play"
-						onClick={play}
-						aria-label={`Play video: ${demoVideo.title}`}
-					>
-						<span className="home__video-play-icon" aria-hidden="true">
-							<svg viewBox="0 0 24 24" fill="currentColor">
-								<path d="M8 5.14v13.72L19 12 8 5.14z" />
-							</svg>
-						</span>
-					</button>
-				)}
-			</div>
-			<figcaption className="home__video-caption">{demoVideo.title}</figcaption>
-		</figure>
-	);
-}
-
 function HomeAboutInner({ checkoutUrl }: Pick<Props, 'checkoutUrl'>) {
 	const { t } = useTranslation();
+	const preview = productScreenshots[0]!;
 
 	return (
 		<section className="shell home__prose home__prose--en" aria-labelledby="home-about-title">
@@ -85,7 +36,18 @@ function HomeAboutInner({ checkoutUrl }: Pick<Props, 'checkoutUrl'>) {
 						{t('home.aboutP2After')}
 					</p>
 				</div>
-				<DemoVideo />
+				<figure className="home__about-media">
+					<img
+						className="home__about-image"
+						src={preview.src}
+						alt={preview.alt}
+						width={640}
+						height={398}
+						loading="lazy"
+						decoding="async"
+					/>
+					<figcaption className="home__about-caption">{preview.caption}</figcaption>
+				</figure>
 			</div>
 		</section>
 	);

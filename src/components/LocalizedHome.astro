@@ -16,7 +16,6 @@ import { homeSeo, productInfo, siteConfig, customerReviewStats } from '../data/s
 import { getLocalizedHomeFaqs } from '../data/localized-faq';
 import { heroPreloadSrc, heroSizes, heroSrcSet } from '../lib/responsive-images';
 import { defaultCrawlImageSrc } from '../data/page-images';
-import { demoVideoSchema } from '../data/media';
 
 interface Props {
 	locale: LocaleCode;
@@ -91,8 +90,6 @@ const extraGraph: Record<string, unknown>[] = [
 		})),
 	},
 ];
-
-extraGraph.push(demoVideoSchema(canonicalURL));
 ---
 
 <Layout
