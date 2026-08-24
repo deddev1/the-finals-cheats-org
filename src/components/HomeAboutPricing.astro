@@ -14,70 +14,87 @@ const lifetime = productInfo.plans.find((p) => p.id === 'lifetime') ?? productIn
 ---
 
 <aside class="home__about-pricing" aria-label={t('product.plans')}>
-	<div class="home__about-pricing-grid price-grid">
-		<article class="home__price-card price-card">
-			<p class="home__price-card-label">{t('product.monthly')}</p>
-			<p class="home__price-card-price">
-				<span class="home__price-card-amount">${monthly.price}</span>
-				<span class="home__price-card-meta">{t('product.perMonth')}</span>
-			</p>
-			<p class="home__price-card-note">{t('product.days30')}</p>
-			<a class="home__price-card-cta" href={siteConfig.checkoutUrl} rel="noopener noreferrer">
-				{t('product.buyMonthly')}
-			</a>
-		</article>
+	<div class="home__about-pricing-panel">
+		<div class="home__about-pricing-grid price-grid">
+			<article class="home__price-card price-card">
+				<p class="home__price-card-label">{t('product.monthly')}</p>
+				<p class="home__price-card-price">
+					<span class="home__price-card-amount">${monthly.price}</span>
+				</p>
+				<p class="home__price-card-note">{t('product.days30')}</p>
+				<a class="home__price-card-cta" href={siteConfig.checkoutUrl} rel="noopener noreferrer">
+					{t('product.buyMonthly')}
+				</a>
+			</article>
 
-		<article class="home__price-card price-card is-featured">
-			<p class="home__price-card-label">{t('product.lifetime')}</p>
-			<p class="home__price-card-price">
-				<span class="home__price-card-amount">${lifetime.price}</span>
-				<span class="home__price-card-meta">{t('product.once')}</span>
-			</p>
-			<p class="home__price-card-note">{t('product.oneTime')}</p>
-			<a class="home__price-card-cta home__price-card-cta--solid" href={siteConfig.checkoutUrl} rel="noopener noreferrer">
-				{t('product.buyLifetime')}
-			</a>
-		</article>
+			<article class="home__price-card price-card is-featured">
+				<p class="home__price-card-label">{t('product.lifetime')}</p>
+				<p class="home__price-card-price">
+					<span class="home__price-card-amount">${lifetime.price}</span>
+				</p>
+				<p class="home__price-card-note">{t('product.oneTime')}</p>
+				<a class="home__price-card-cta home__price-card-cta--solid" href={siteConfig.checkoutUrl} rel="noopener noreferrer">
+					{t('product.buyLifetime')}
+				</a>
+			</article>
+		</div>
 	</div>
 </aside>
 
 <style>
 	.home__about-pricing {
+		margin: 0;
 		width: 100%;
 		max-width: 19.5rem;
 		justify-self: end;
+		align-self: start;
+	}
+
+	.home__about-pricing-panel {
+		display: flex;
+		width: 100%;
+		aspect-ratio: 16 / 9;
+		border: 1px solid var(--line);
+		border-radius: var(--radius-md, 0.75rem);
+		background: var(--bg-panel);
+		box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+		overflow: hidden;
 	}
 
 	.home__about-pricing-grid {
 		display: grid;
-		grid-template-rows: 1fr 1fr;
-		grid-template-columns: 1fr;
-		gap: 0.55rem;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 0.45rem;
+		width: 100%;
 		height: 100%;
-		min-height: 15.5rem;
-		margin-top: 0;
+		margin: 0;
+		padding: 0.45rem;
+		box-sizing: border-box;
 	}
 
 	.home__price-card {
 		display: flex;
 		flex-direction: column;
-		justify-content: space-between;
-		gap: 0.2rem;
-		padding: 0.85rem 0.9rem 0.8rem;
+		align-items: center;
+		justify-content: center;
+		height: 100%;
+		min-height: 0;
+		padding: 0.45rem 0.35rem 0.4rem;
+		margin: 0;
 		border: 1px solid var(--line);
-		border-radius: var(--radius-md, 0.75rem);
-		background: var(--bg-panel);
-		box-shadow: 0 10px 28px rgba(0, 0, 0, 0.28);
+		border-radius: calc(var(--radius-md, 0.75rem) - 2px);
+		background: var(--bg-elevated);
+		text-align: center;
 	}
 
 	.home__price-card.is-featured {
 		border-color: color-mix(in srgb, var(--magenta) 42%, var(--line));
-		background: color-mix(in srgb, var(--magenta) 10%, var(--bg-panel));
+		background: color-mix(in srgb, var(--magenta) 10%, var(--bg-elevated));
 	}
 
 	.home__price-card-label {
 		margin: 0;
-		font-size: 0.68rem;
+		font-size: 0.58rem;
 		font-weight: 700;
 		letter-spacing: 0.1em;
 		text-transform: uppercase;
@@ -85,15 +102,15 @@ const lifetime = productInfo.plans.find((p) => p.id === 'lifetime') ?? productIn
 	}
 
 	.home__price-card-price {
-		margin: 0;
+		margin: 0.1rem 0 0;
 		display: flex;
 		align-items: baseline;
-		gap: 0.3rem;
+		justify-content: center;
 	}
 
 	.home__price-card-amount {
 		font-family: var(--font-display);
-		font-size: 1.65rem;
+		font-size: clamp(1.1rem, 2.5vw, 1.35rem);
 		font-weight: 800;
 		letter-spacing: -0.04em;
 		line-height: 1;
@@ -104,14 +121,10 @@ const lifetime = productInfo.plans.find((p) => p.id === 'lifetime') ?? productIn
 		color: var(--magenta-soft);
 	}
 
-	.home__price-card-meta {
-		font-size: 0.72rem;
-		color: var(--ink-faint);
-	}
-
 	.home__price-card-note {
-		margin: 0;
-		font-size: 0.74rem;
+		margin: 0.08rem 0 0;
+		font-size: 0.62rem;
+		line-height: 1.25;
 		color: var(--ink-muted);
 	}
 
@@ -120,12 +133,14 @@ const lifetime = productInfo.plans.find((p) => p.id === 'lifetime') ?? productIn
 		align-items: center;
 		justify-content: center;
 		width: 100%;
-		min-height: 2.15rem;
-		margin-top: 0.35rem;
+		min-height: 1.75rem;
+		margin-top: auto;
+		padding: 0 0.2rem;
 		border: 1px solid var(--line-strong);
-		border-radius: 0.55rem;
-		font-size: 0.8rem;
+		border-radius: 0.45rem;
+		font-size: 0.65rem;
 		font-weight: 700;
+		line-height: 1.15;
 		color: var(--ink);
 		text-decoration: none;
 		transition:
@@ -156,10 +171,6 @@ const lifetime = productInfo.plans.find((p) => p.id === 'lifetime') ?? productIn
 		.home__about-pricing {
 			max-width: 17rem;
 			justify-self: start;
-		}
-
-		.home__about-pricing-grid {
-			min-height: 0;
 		}
 	}
 </style>
