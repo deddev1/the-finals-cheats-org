@@ -2102,7 +2102,7 @@ export const PAGE_CONTENT = {
 	"finals-esp": {
 		"0": {
 			"en": [
-				"Boxes, distance, and filters for players, scientists, and loot."
+				"Boxes, distance, and filters for players, objects, and loot."
 			],
 			"es": [
 				"Cajas, distancia y filtros para jugadores, científicos y loot."
@@ -2120,7 +2120,7 @@ export const PAGE_CONTENT = {
 				"Box, distanza e filtri per giocatori, scienziati e loot."
 			],
 			"nl": [
-				"Boxen, afstand en filters voor spelers, scientists en loot."
+				"Boxen, afstand en filters voor spelers, contestants en loot."
 			],
 			"pl": [
 				"Boxy, dystans i filtry dla graczy, naukowców i lootu."
@@ -2144,7 +2144,7 @@ export const PAGE_CONTENT = {
 				"玩家、科学家和物资的框体、距离和过滤器。"
 			],
 			"hi": [
-				"Players, scientists और loot के लिए boxes, distance और filters।"
+				"Players, contestants और loot के लिए boxes, distance और filters।"
 			],
 			"id": [
 				"Kotak, jarak, dan filter untuk pemain, scientist, dan loot."
@@ -2165,75 +2165,75 @@ export const PAGE_CONTENT = {
 				"Cutii, distanță și filtre pentru jucători, oameni de știință și loot."
 			],
 			"sv": [
-				"Boxar, avstånd och filter för spelare, scientists och loot."
+				"Boxar, avstånd och filter för spelare, contestants och loot."
 			]
 		},
 		"1": {
 			"en": [
-				"Clear monument zones and loot runs without flooding the screen."
+				"Clear arena sectors and cashout routes without flooding the screen."
 			],
 			"es": [
-				"Limpia zonas de monumentos y loot runs sin inundar la pantalla."
+				"Limpia zonas de sectores de arena y cashout routes sin inundar la pantalla."
 			],
 			"fr": [
-				"Gardez les zones de monuments et loot runs lisibles sans saturer l'écran."
+				"Gardez les zones de arena sectors et cashout routes lisibles sans saturer l'écran."
 			],
 			"de": [
 				"Monument-Zonen und Loot-Runs klar halten, ohne den Bildschirm zu überladen."
 			],
 			"pt": [
-				"Mantenha monumentos e loot runs claros sem lotar a tela."
+				"Mantenha sectores de arena e cashout routes claros sem lotar a tela."
 			],
 			"it": [
-				"Monumenti e loot run chiari senza riempire lo schermo."
+				"Monumenti e cashout route chiari senza riempire lo schermo."
 			],
 			"nl": [
-				"Monumentzones en loot runs helder houden zonder scherm overload."
+				"Monumentzones en cashout routes helder houden zonder scherm overload."
 			],
 			"pl": [
-				"Czytelne monumenty i loot runy bez przepełnienia ekranu."
+				"Czytelne arena sectory i cashout routey bez przepełnienia ekranu."
 			],
 			"ru": [
-				"Чистые зоны монументов и loot run без перегрузки экрана."
+				"Чистые зоны монументов и cashout route без перегрузки экрана."
 			],
 			"tr": [
-				"Ekranı doldurmadan monument ve loot run bölgelerini net tutun."
+				"Ekranı doldurmadan arena sector ve cashout route bölgelerini net tutun."
 			],
 			"ar": [
-				"اجعل مناطق المعالم وloot runs واضحة دون إغراق الشاشة."
+				"اجعل مناطق المعالم وcashout routes واضحة دون إغراق الشاشة."
 			],
 			"ja": [
-				"画面を埋め尽くさずモニュメントとloot runを見やすく。"
+				"画面を埋め尽くさずモニュメントとcashout routeを見やすく。"
 			],
 			"ko": [
-				"화면을 가리지 않고 monument와 loot run 구역을 깔끔하게."
+				"화면을 가리지 않고 arena sector와 cashout route 구역을 깔끔하게."
 			],
 			"zh": [
-				"清晰显示 monument 和 loot 路线，不遮挡屏幕。"
+				"清晰显示 arena sector 和 loot 路线，不遮挡屏幕。"
 			],
 			"hi": [
-				"स्क्रीन भरे बिना monument zones और loot runs साफ रखें।"
+				"स्क्रीन भरे बिना arena sector zones और cashout routes साफ रखें।"
 			],
 			"id": [
-				"Jaga zona monument dan loot run jelas tanpa membanjiri layar."
+				"Jaga zona arena sector dan cashout route jelas tanpa membanjiri layar."
 			],
 			"th": [
-				"ทำให้ monument และ loot run ชัดเจนโดยไม่เต็มหน้าจอ"
+				"ทำให้ arena sector และ cashout route ชัดเจนโดยไม่เต็มหน้าจอ"
 			],
 			"vi": [
-				"Giữ vùng monument và loot run rõ ràng không che màn hình."
+				"Giữ vùng arena sector và cashout route rõ ràng không che màn hình."
 			],
 			"uk": [
-				"Чіткі зони monument і loot run без перевантаження екрана."
+				"Чіткі зони arena sector і cashout route без перевантаження екрана."
 			],
 			"cs": [
-				"Přehledné monumenty a loot runy bez zaplnění obrazovky."
+				"Přehledné arena sectory a cashout routey bez zaplnění obrazovky."
 			],
 			"ro": [
-				"Zone monument și loot run clare fără a umple ecranul."
+				"Zone arena sector și cashout route clare fără a umple ecranul."
 			],
 			"sv": [
-				"Håll monumentzoner och loot runs tydliga utan att fylla skärmen."
+				"Håll arena sectorzoner och cashout routes tydliga utan att fylla skärmen."
 			]
 		},
 		"2": {
@@ -2376,112 +2376,112 @@ export const PAGE_CONTENT = {
 			"en": [
 				"Player ESP",
 				"Loot markers",
-				"Heli and Bradley filters"
+				"Objective and vehicle filters"
 			],
 			"es": [
 				"ESP de jugador",
 				"Marcadores de loot",
-				"Filtros de heli y Bradley"
+				"Filtros de heli y objective"
 			],
 			"fr": [
 				"ESP joueur",
 				"Marqueurs de loot",
-				"Filtres héli et Bradley"
+				"Filtres héli et objective"
 			],
 			"de": [
 				"Spieler-ESP",
 				"Loot-Marker",
-				"Heli- und Bradley-Filter"
+				"Heli- und objective-Filter"
 			],
 			"pt": [
 				"ESP de jogador",
 				"Marcadores de loot",
-				"Filtros de heli e Bradley"
+				"Filtros de heli e objective"
 			],
 			"it": [
 				"ESP giocatore",
 				"Marker loot",
-				"Filtri elicottero e Bradley"
+				"Filtri elicottero e objective"
 			],
 			"nl": [
 				"Speler-ESP",
 				"Loot-markers",
-				"Heli- en Bradley-filters"
+				"Heli- en objective-filters"
 			],
 			"pl": [
 				"ESP gracza",
 				"Markery lootu",
-				"Filtry helikoptera i Bradley"
+				"Filtry helikoptera i objective"
 			],
 			"ru": [
 				"ESP игроков",
 				"Маркеры лута",
-				"Фильтры вертолёта и Bradley"
+				"Фильтры вертолёта и objective"
 			],
 			"tr": [
 				"Oyuncu ESP",
 				"Loot işaretleri",
-				"Heli ve Bradley filtreleri"
+				"Heli ve objective filtreleri"
 			],
 			"ar": [
 				"ESP اللاعب",
 				"علامات loot",
-				"فلاتر Heli وBradley"
+				"فلاتر Heli وobjective"
 			],
 			"ja": [
 				"プレイヤーESP",
 				"lootマーカー",
-				"Heli・Bradleyフィルター"
+				"Heli・objectiveフィルター"
 			],
 			"ko": [
 				"플레이어 ESP",
 				"loot 마커",
-				"Heli 및 Bradley 필터"
+				"Heli 및 objective 필터"
 			],
 			"zh": [
 				"玩家ESP",
 				"物资标记",
-				"Heli和Bradley过滤器"
+				"Heli和objective过滤器"
 			],
 			"hi": [
 				"Player ESP",
 				"Loot markers",
-				"Heli और Bradley filters"
+				"Heli और objective filters"
 			],
 			"id": [
 				"ESP pemain",
 				"Marker loot",
-				"Filter Heli dan Bradley"
+				"Filter Heli dan objective"
 			],
 			"th": [
 				"ESP ผู้เล่น",
 				"มาร์กเกอร์ loot",
-				"ฟิลเตอร์ Heli และ Bradley"
+				"ฟิลเตอร์ Heli และ objective"
 			],
 			"vi": [
 				"ESP người chơi",
 				"Marker loot",
-				"Bộ lọc Heli và Bradley"
+				"Bộ lọc Heli và objective"
 			],
 			"uk": [
 				"ESP гравців",
 				"Маркери loot",
-				"Фільтри Heli та Bradley"
+				"Фільтри Heli та objective"
 			],
 			"cs": [
 				"ESP hráčů",
 				"Loot markery",
-				"Filtry Heli a Bradley"
+				"Filtry Heli a objective"
 			],
 			"ro": [
 				"ESP jucător",
 				"Markeri loot",
-				"Filtre Heli și Bradley"
+				"Filtre Heli și objective"
 			],
 			"sv": [
 				"Spelar-ESP",
 				"Loot-markörer",
-				"Heli- och Bradley-filter"
+				"Heli- och objective-filter"
 			]
 		},
 		"list1": {

@@ -150,20 +150,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "What ESP shows",
 							paragraphs: [
-								"Boxes, distance, and filters for players, scientists, and loot.",
+								"Boxes, distance, and filters for players, objects, and loot.",
 								"Toggle categories so only match-critical overlays stay active during rotations.",
 							],
 							list: [
 								"Player ESP",
 								"Loot markers",
-								"Heli and Bradley filters",
+								"Objective and vehicle filters",
 							],
 						},
 						{
 							h2: "When to use it",
 							paragraphs: [
-								"Clear monument zones and loot runs without flooding the screen.",
-								"Tune opacity and filters for monument zones, compounds, and high-traffic PvP areas.",
+								"Clear arena sectors and cashout routes without flooding the screen.",
+								"Tune opacity and filters for arena zones, vault sectors, and high-traffic PvP areas.",
 							],
 							list: [
 								"Tune opacity",
@@ -250,13 +250,13 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "ESP & wallhack",
 							paragraphs: [
-								"See players, scientists, and loot through walls with distance readouts.",
-								"Use filters so the overlay stays clear in monument zones, compounds, and high-traffic PvP areas.",
+								"See players, objects, and loot through walls with distance readouts.",
+								"Use filters so the overlay stays clear in arena zones, vault sectors, and high-traffic PvP areas.",
 							],
 							list: [
 								"Player boxes & distance",
 								"Loot and vault markers",
-								"Heli and Bradley filters",
+								"Objective and vehicle filters",
 							],
 						},
 						{
@@ -382,6 +382,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"Buy a plan first. You get a license by email.",
 								"Have your order email ready before you start installation.",
+								"The Final Cheats runs on Windows 10 or 11 (64-bit) with administrator rights for the loader. Close conflicting overlays and aim for 8 GB RAM minimum (16 GB recommended) for smooth ESP in busy arena fights.",
 							],
 							list: [
 								"Windows 10 / 11 PC",
@@ -520,7 +521,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					intro: "Get help with licenses, setup, and billing for The Final Cheats on Windows PC.",
 					imageAlt: "The Final Cheats support page for license and setup help",
 					galleryTitle: "In-game look",
-					ctaPrimary: "Get Access",
+					ctaPrimary: "Email support",
 					ctaSecondary: "FAQ",
 					ctaSecondaryHref: "/faq/",
 					sections: [
@@ -540,7 +541,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Faster answers",
 							paragraphs: [
 								"Check FAQ and Status before you write. Many setup questions are already covered.",
-								"Self-service guides often resolve activation issues faster than a new ticket.",
+								"Self-service guides often resolve activation issues faster than a new ticket. For patch timing, follow official The Finals channels on Steam and the <a href=\"https://www.reachthefinals.com/\" target=\"_blank\" rel=\"noopener noreferrer\">official site</a>.",
 							],
 							list: [
 								"<a href=\"/faq/\">FAQ</a>",
@@ -613,7 +614,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"Wallhack overlays support match, farming run, and official servers with distance readouts and snaplines for engagement control.",
 								"Season maps and POI changes are announced via undefined. Wallhack remains useful because it tracks entities, not fixed landmarks alone.",
-								"Pair wallhack awareness with <a href=\"/finals-radar-hack/\">radar hack</a> cues for flanks during forest and monument edge ambushes.",
+								"Pair wallhack awareness with <a href=\"/finals-radar-hack/\">radar hack</a> cues for flanks during arena corners and vertical fights.",
 							],
 						},
 						{
@@ -654,7 +655,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "With ESP",
 							paragraphs: [
 								"Use radar for threats you cannot see yet. Use ESP when you push.",
-								"Radar complements ESP markers during squad pushes and compound fights.",
+								"Radar complements ESP markers during squad pushes and zone fights.",
 							],
 							list: [
 								"<a href=\"/finals-esp/\">ESP guide</a>",
@@ -1313,13 +1314,13 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							list: [
 								"ESP de jugador",
 								"Marcadores de loot",
-								"Filtros de heli y Bradley",
+								"Filtros de heli y objective",
 							],
 						},
 						{
 							h2: "Cuándo usarlo",
 							paragraphs: [
-								"Limpia zonas de monumentos y loot runs sin inundar la pantalla.",
+								"Limpia zonas de sectores de arena y cashout routes sin inundar la pantalla.",
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Easy Anti-Cheat.",
 							],
 							list: [
@@ -1408,12 +1409,12 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "ESP y wallhack",
 							paragraphs: [
 								"Ve jugadores, científicos y loot a través de las paredes con distancias.",
-								"Usa filtros para mantener el overlay claro en monumentos, compounds y zonas PvP.",
+								"Usa filtros para mantener el overlay claro en sectores de arena, vault sectors y zonas PvP.",
 							],
 							list: [
 								"Cajas de jugador y distancia",
 								"Marcadores de loot y base",
-								"Filtros de heli y Bradley",
+								"Filtros de heli y objective",
 							],
 						},
 						{
@@ -1432,7 +1433,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Radar",
 							paragraphs: [
 								"Un radar 2D simple para amenazas fuera de tu vista.",
-								"Detecta flancos cerca de monumentos sin llenar toda la pantalla.",
+								"Detecta flancos cerca de sectores de arena sin llenar toda la pantalla.",
 							],
 							list: [
 								"Señales de enemigos cercanos",
@@ -1770,7 +1771,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"The Final Cheats ofrece ESP wallhack, radar hack y The Finals Aimbot indetectables para The Finals en Windows PC. wallhack ESP para jugadores, loot y distancia",
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Easy Anti-Cheat.",
-								"Pair wallhack awareness with <a href=\"/finals-radar-hack/\">Overlay radar 2D</a> cues for flanks during forest and monument edge ambushes.",
+								"Pair wallhack awareness with <a href=\"/finals-radar-hack/\">Overlay radar 2D</a> cues for flanks during arena corners and vertical fights.",
 							],
 						},
 						{
@@ -2465,13 +2466,13 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							list: [
 								"ESP joueur",
 								"Marqueurs de loot",
-								"Filtres héli et Bradley",
+								"Filtres héli et objective",
 							],
 						},
 						{
 							h2: "Quand l'utiliser",
 							paragraphs: [
-								"Gardez les zones de monuments et loot runs lisibles sans saturer l'écran.",
+								"Gardez les zones de arena sectors et cashout routes lisibles sans saturer l'écran.",
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Easy Anti-Cheat.",
 							],
 							list: [
@@ -2560,12 +2561,12 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "ESP et wallhack",
 							paragraphs: [
 								"Voyez joueurs, scientifiques et loot à travers les murs avec distances.",
-								"Utilisez des filtres pour garder l'overlay lisible dans les monuments et zones PvP.",
+								"Utilisez des filtres pour garder l'overlay lisible dans les arena sectors et zones PvP.",
 							],
 							list: [
 								"Boîtes joueur et distance",
 								"Marqueurs de loot et base",
-								"Filtres héli et Bradley",
+								"Filtres héli et objective",
 							],
 						},
 						{
@@ -2584,7 +2585,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Radar",
 							paragraphs: [
 								"Un radar 2D simple pour les menaces hors champ.",
-								"Repérez les flancs près des monuments sans remplir l'écran.",
+								"Repérez les flancs près des arena sectors sans remplir l'écran.",
 							],
 							list: [
 								"Indices d'ennemis proches",
@@ -2922,7 +2923,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"The Final Cheats combine ESP wallhack, radar hack et The Finals Aimbot indétectables pour The Finals sur PC Windows. wallhack ESP pour joueurs, loot et distance",
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Easy Anti-Cheat.",
-								"Pair wallhack awareness with <a href=\"/finals-radar-hack/\">Overlay radar 2D</a> cues for flanks during forest and monument edge ambushes.",
+								"Pair wallhack awareness with <a href=\"/finals-radar-hack/\">Overlay radar 2D</a> cues for flanks during arena corners and vertical fights.",
 							],
 						},
 						{
@@ -3617,7 +3618,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							list: [
 								"Spieler-ESP",
 								"Loot-Marker",
-								"Heli- und Bradley-Filter",
+								"Heli- und objective-Filter",
 							],
 						},
 						{
@@ -3717,7 +3718,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							list: [
 								"Spielerboxen & Distanz",
 								"Loot- und Basis-Marker",
-								"Heli- und Bradley-Filter",
+								"Heli- und objective-Filter",
 							],
 						},
 						{
@@ -4074,7 +4075,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"The Final Cheats bündelt ESP wallhack, radar hack und The Finals Aimbot als undetected Paket für The Finals auf Windows PC. Wallhack ESP für Spieler, Kadaver und Entfernung",
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Easy Anti-Cheat-Wartung.",
-								"Pair wallhack awareness with <a href=\"/finals-radar-hack/\">2D-Radar-Overlay</a> cues for flanks during forest and monument edge ambushes.",
+								"Pair wallhack awareness with <a href=\"/finals-radar-hack/\">2D-Radar-Overlay</a> cues for flanks during arena corners and vertical fights.",
 							],
 						},
 						{
@@ -4769,13 +4770,13 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							list: [
 								"ESP de jogador",
 								"Marcadores de loot",
-								"Filtros de heli e Bradley",
+								"Filtros de heli e objective",
 							],
 						},
 						{
 							h2: "Quando usar",
 							paragraphs: [
-								"Mantenha monumentos e loot runs claros sem lotar a tela.",
+								"Mantenha sectores de arena e cashout routes claros sem lotar a tela.",
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Easy Anti-Cheat.",
 							],
 							list: [
@@ -4869,7 +4870,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							list: [
 								"Player boxes & distance",
 								"Loot and vault markers",
-								"Heli and Bradley filters",
+								"Objective and vehicle filters",
 							],
 						},
 						{
@@ -5225,7 +5226,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"The Final Cheats reúne ESP wallhack, radar hack e The Finals Aimbot indetectáveis para The Finals no PC Windows. wallhack ESP para jogadores, carcaças e distância",
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Easy Anti-Cheat.",
-								"Pair wallhack awareness with <a href=\"/finals-radar-hack/\">Overlay radar 2D</a> cues for flanks during forest and monument edge ambushes.",
+								"Pair wallhack awareness with <a href=\"/finals-radar-hack/\">Overlay radar 2D</a> cues for flanks during arena corners and vertical fights.",
 							],
 						},
 						{
@@ -5920,13 +5921,13 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							list: [
 								"ESP giocatore",
 								"Marker loot",
-								"Filtri elicottero e Bradley",
+								"Filtri elicottero e objective",
 							],
 						},
 						{
 							h2: "Quando usarlo",
 							paragraphs: [
-								"Monumenti e loot run chiari senza riempire lo schermo.",
+								"Monumenti e cashout route chiari senza riempire lo schermo.",
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Easy Anti-Cheat.",
 							],
 							list: [
@@ -6020,7 +6021,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							list: [
 								"Player boxes & distance",
 								"Loot and vault markers",
-								"Heli and Bradley filters",
+								"Objective and vehicle filters",
 							],
 						},
 						{
@@ -6376,7 +6377,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"The Final Cheats unisce ESP wallhack, radar hack e The Finals Aimbot indetectable per The Finals su PC Windows. wallhack ESP per giocatori, loot e distanza",
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Easy Anti-Cheat.",
-								"Pair wallhack awareness with <a href=\"/finals-radar-hack/\">Overlay radar 2D</a> cues for flanks during forest and monument edge ambushes.",
+								"Pair wallhack awareness with <a href=\"/finals-radar-hack/\">Overlay radar 2D</a> cues for flanks during arena corners and vertical fights.",
 							],
 						},
 						{
@@ -7065,19 +7066,19 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Wat ESP toont",
 							paragraphs: [
-								"Boxen, afstand en filters voor spelers, scientists en loot.",
+								"Boxen, afstand en filters voor spelers, contestants en loot.",
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Easy Anti-Cheat-onderhoud.",
 							],
 							list: [
 								"Speler-ESP",
 								"Loot-markers",
-								"Heli- en Bradley-filters",
+								"Heli- en objective-filters",
 							],
 						},
 						{
 							h2: "Wanneer gebruiken",
 							paragraphs: [
-								"Monumentzones en loot runs helder houden zonder scherm overload.",
+								"Monumentzones en cashout routes helder houden zonder scherm overload.",
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Easy Anti-Cheat-onderhoud.",
 							],
 							list: [
@@ -7171,7 +7172,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							list: [
 								"Player boxes & distance",
 								"Loot and vault markers",
-								"Heli and Bradley filters",
+								"Objective and vehicle filters",
 							],
 						},
 						{
@@ -7527,7 +7528,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"The Final Cheats bundelt ESP wallhack, radar hack en The Finals Aimbot als undetected pakket voor The Finals op Windows PC. wallhack ESP voor spelers, karkassen en afstand",
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Easy Anti-Cheat-onderhoud.",
-								"Pair wallhack awareness with <a href=\"/finals-radar-hack/\">2D-radaroverlay</a> cues for flanks during forest and monument edge ambushes.",
+								"Pair wallhack awareness with <a href=\"/finals-radar-hack/\">2D-radaroverlay</a> cues for flanks during arena corners and vertical fights.",
 							],
 						},
 						{
@@ -8222,13 +8223,13 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							list: [
 								"ESP gracza",
 								"Markery lootu",
-								"Filtry helikoptera i Bradley",
+								"Filtry helikoptera i objective",
 							],
 						},
 						{
 							h2: "Kiedy używać",
 							paragraphs: [
-								"Czytelne monumenty i loot runy bez przepełnienia ekranu.",
+								"Czytelne arena sectory i cashout routey bez przepełnienia ekranu.",
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Easy Anti-Cheat.",
 							],
 							list: [
@@ -8322,7 +8323,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							list: [
 								"Player boxes & distance",
 								"Loot and vault markers",
-								"Heli and Bradley filters",
+								"Objective and vehicle filters",
 							],
 						},
 						{
@@ -8678,7 +8679,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"The Final Cheats łączy ESP wallhack, radar hack i The Finals Aimbot jako pakiet undetected dla The Finals na PC Windows. wallhack ESP dla graczy, tusz i dystansu",
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Easy Anti-Cheat.",
-								"Pair wallhack awareness with <a href=\"/finals-radar-hack/\">Overlay radaru 2D</a> cues for flanks during forest and monument edge ambushes.",
+								"Pair wallhack awareness with <a href=\"/finals-radar-hack/\">Overlay radaru 2D</a> cues for flanks during arena corners and vertical fights.",
 							],
 						},
 						{
@@ -9373,13 +9374,13 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							list: [
 								"ESP игроков",
 								"Маркеры лута",
-								"Фильтры вертолёта и Bradley",
+								"Фильтры вертолёта и objective",
 							],
 						},
 						{
 							h2: "Когда использовать",
 							paragraphs: [
-								"Чистые зоны монументов и loot run без перегрузки экрана.",
+								"Чистые зоны монументов и cashout route без перегрузки экрана.",
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Easy Anti-Cheat.",
 							],
 							list: [
@@ -9473,7 +9474,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							list: [
 								"Player boxes & distance",
 								"Loot and vault markers",
-								"Heli and Bradley filters",
+								"Objective and vehicle filters",
 							],
 						},
 						{
@@ -9829,7 +9830,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"The Final Cheats объединяет ESP wallhack, radar hack и The Finals Aimbot в undetected пакете для The Finals на Windows PC. wallhack ESP для игроков, туш и дистанции",
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Easy Anti-Cheat.",
-								"Pair wallhack awareness with <a href=\"/finals-radar-hack/\">2D радар overlay</a> cues for flanks during forest and monument edge ambushes.",
+								"Pair wallhack awareness with <a href=\"/finals-radar-hack/\">2D радар overlay</a> cues for flanks during arena corners and vertical fights.",
 							],
 						},
 						{
@@ -10524,13 +10525,13 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							list: [
 								"Oyuncu ESP",
 								"Loot işaretleri",
-								"Heli ve Bradley filtreleri",
+								"Heli ve objective filtreleri",
 							],
 						},
 						{
 							h2: "Ne zaman kullanılır",
 							paragraphs: [
-								"Ekranı doldurmadan monument ve loot run bölgelerini net tutun.",
+								"Ekranı doldurmadan arena sector ve cashout route bölgelerini net tutun.",
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Easy Anti-Cheat bakımı içerir.",
 							],
 							list: [
@@ -10624,7 +10625,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							list: [
 								"Player boxes & distance",
 								"Loot and vault markers",
-								"Heli and Bradley filters",
+								"Objective and vehicle filters",
 							],
 						},
 						{
@@ -10980,7 +10981,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"The Final Cheats, The Finals için Windows PC üzerinde ESP wallhack, radar hack ve The Finals Aimbot undetected paket sunar. oyuncular, leşler ve mesafe için wallhack ESP",
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Easy Anti-Cheat bakımı içerir.",
-								"Pair wallhack awareness with <a href=\"/finals-radar-hack/\">2D radar overlay</a> cues for flanks during forest and monument edge ambushes.",
+								"Pair wallhack awareness with <a href=\"/finals-radar-hack/\">2D radar overlay</a> cues for flanks during arena corners and vertical fights.",
 							],
 						},
 						{
@@ -11675,13 +11676,13 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							list: [
 								"ESP اللاعب",
 								"علامات loot",
-								"فلاتر Heli وBradley",
+								"فلاتر Heli وobjective",
 							],
 						},
 						{
 							h2: "متى تستخدمه",
 							paragraphs: [
-								"اجعل مناطق المعالم وloot runs واضحة دون إغراق الشاشة.",
+								"اجعل مناطق المعالم وcashout routes واضحة دون إغراق الشاشة.",
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Easy Anti-Cheat.",
 							],
 							list: [
@@ -11775,7 +11776,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							list: [
 								"Player boxes & distance",
 								"Loot and vault markers",
-								"Heli and Bradley filters",
+								"Objective and vehicle filters",
 							],
 						},
 						{
@@ -12131,7 +12132,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"The Final Cheats يجمع ESP wallhack وradar hack وThe Finals Aimbot غير مكتشف لـ The Finals على Windows PC. wallhack ESP للاعبين والجيف والمسافة",
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Easy Anti-Cheat.",
-								"Pair wallhack awareness with <a href=\"/finals-radar-hack/\">تراكب رادار 2D</a> cues for flanks during forest and monument edge ambushes.",
+								"Pair wallhack awareness with <a href=\"/finals-radar-hack/\">تراكب رادار 2D</a> cues for flanks during arena corners and vertical fights.",
 							],
 						},
 						{
@@ -12826,13 +12827,13 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							list: [
 								"プレイヤーESP",
 								"lootマーカー",
-								"Heli・Bradleyフィルター",
+								"Heli・objectiveフィルター",
 							],
 						},
 						{
 							h2: "使いどき",
 							paragraphs: [
-								"画面を埋め尽くさずモニュメントとloot runを見やすく。",
+								"画面を埋め尽くさずモニュメントとcashout routeを見やすく。",
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにEasy Anti-Cheatメンテナンス含む。",
 							],
 							list: [
@@ -12926,7 +12927,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							list: [
 								"Player boxes & distance",
 								"Loot and vault markers",
-								"Heli and Bradley filters",
+								"Objective and vehicle filters",
 							],
 						},
 						{
@@ -13282,7 +13283,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"The Final CheatsはThe Finals向けWindows PC用ESP wallhack、radar hack、The Finals Aimbotのundetectedパッケージです。プレイヤー、死体、距離向けwallhack ESP",
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにEasy Anti-Cheatメンテナンス含む。",
-								"Pair wallhack awareness with <a href=\"/finals-radar-hack/\">2Dレーダーオーバーレイ</a> cues for flanks during forest and monument edge ambushes.",
+								"Pair wallhack awareness with <a href=\"/finals-radar-hack/\">2Dレーダーオーバーレイ</a> cues for flanks during arena corners and vertical fights.",
 							],
 						},
 						{
@@ -13977,13 +13978,13 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							list: [
 								"플레이어 ESP",
 								"loot 마커",
-								"Heli 및 Bradley 필터",
+								"Heli 및 objective 필터",
 							],
 						},
 						{
 							h2: "사용 시기",
 							paragraphs: [
-								"화면을 가리지 않고 monument와 loot run 구역을 깔끔하게.",
+								"화면을 가리지 않고 arena sector와 cashout route 구역을 깔끔하게.",
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Easy Anti-Cheat 유지보수 포함.",
 							],
 							list: [
@@ -14077,7 +14078,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							list: [
 								"Player boxes & distance",
 								"Loot and vault markers",
-								"Heli and Bradley filters",
+								"Objective and vehicle filters",
 							],
 						},
 						{
@@ -14433,7 +14434,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"The Final Cheats는 The Finals Windows PC용 ESP wallhack, radar hack, The Finals Aimbot undetected 패키지입니다. 플레이어, 시체, 거리용 wallhack ESP",
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Easy Anti-Cheat 유지보수 포함.",
-								"Pair wallhack awareness with <a href=\"/finals-radar-hack/\">2D 레이더 오버레이</a> cues for flanks during forest and monument edge ambushes.",
+								"Pair wallhack awareness with <a href=\"/finals-radar-hack/\">2D 레이더 오버레이</a> cues for flanks during arena corners and vertical fights.",
 							],
 						},
 						{
@@ -15128,13 +15129,13 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							list: [
 								"玩家ESP",
 								"物资标记",
-								"Heli和Bradley过滤器",
+								"Heli和objective过滤器",
 							],
 						},
 						{
 							h2: "何时使用",
 							paragraphs: [
-								"清晰显示 monument 和 loot 路线，不遮挡屏幕。",
+								"清晰显示 arena sector 和 loot 路线，不遮挡屏幕。",
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Easy Anti-Cheat维护。",
 							],
 							list: [
@@ -15228,7 +15229,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							list: [
 								"Player boxes & distance",
 								"Loot and vault markers",
-								"Heli and Bradley filters",
+								"Objective and vehicle filters",
 							],
 						},
 						{
@@ -15584,7 +15585,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"The Final Cheats为The FinalsWindows PC提供ESP wallhack、radar hack和The Finals Aimbotundetected套餐。玩家、尸体和距离的wallhack ESP",
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Easy Anti-Cheat维护。",
-								"Pair wallhack awareness with <a href=\"/finals-radar-hack/\">2D雷达覆盖</a> cues for flanks during forest and monument edge ambushes.",
+								"Pair wallhack awareness with <a href=\"/finals-radar-hack/\">2D雷达覆盖</a> cues for flanks during arena corners and vertical fights.",
 							],
 						},
 						{
@@ -16273,19 +16274,19 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "ESP क्या दिखाता है",
 							paragraphs: [
-								"Players, scientists और loot के लिए boxes, distance और filters।",
+								"Players, contestants और loot के लिए boxes, distance और filters।",
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Easy Anti-Cheat maintenance शामिल।",
 							],
 							list: [
 								"Player ESP",
 								"Loot markers",
-								"Heli और Bradley filters",
+								"Heli और objective filters",
 							],
 						},
 						{
 							h2: "कब उपयोग करें",
 							paragraphs: [
-								"स्क्रीन भरे बिना monument zones और loot runs साफ रखें।",
+								"स्क्रीन भरे बिना arena sector zones और cashout routes साफ रखें।",
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Easy Anti-Cheat maintenance शामिल।",
 							],
 							list: [
@@ -16379,7 +16380,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							list: [
 								"Player boxes & distance",
 								"Loot and vault markers",
-								"Heli and Bradley filters",
+								"Objective and vehicle filters",
 							],
 						},
 						{
@@ -16735,7 +16736,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"The Final Cheats The Finals के लिए Windows PC पर ESP wallhack, radar hack और The Finals Aimbot undetected पैकेज देता है। players, loot और distance के लिए wallhack ESP",
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Easy Anti-Cheat maintenance शामिल।",
-								"Pair wallhack awareness with <a href=\"/finals-radar-hack/\">2D रडार ओवरले</a> cues for flanks during forest and monument edge ambushes.",
+								"Pair wallhack awareness with <a href=\"/finals-radar-hack/\">2D रडार ओवरले</a> cues for flanks during arena corners and vertical fights.",
 							],
 						},
 						{
@@ -17430,13 +17431,13 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							list: [
 								"ESP pemain",
 								"Marker loot",
-								"Filter Heli dan Bradley",
+								"Filter Heli dan objective",
 							],
 						},
 						{
 							h2: "Kapan menggunakan",
 							paragraphs: [
-								"Jaga zona monument dan loot run jelas tanpa membanjiri layar.",
+								"Jaga zona arena sector dan cashout route jelas tanpa membanjiri layar.",
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Easy Anti-Cheat.",
 							],
 							list: [
@@ -17530,7 +17531,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							list: [
 								"Player boxes & distance",
 								"Loot and vault markers",
-								"Heli and Bradley filters",
+								"Objective and vehicle filters",
 							],
 						},
 						{
@@ -17886,7 +17887,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"The Final Cheats menyediakan ESP wallhack, radar hack, dan The Finals Aimbot undetected untuk The Finals di PC Windows. wallhack ESP untuk pemain, bangkai, dan jarak",
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Easy Anti-Cheat.",
-								"Pair wallhack awareness with <a href=\"/finals-radar-hack/\">Overlay radar 2D</a> cues for flanks during forest and monument edge ambushes.",
+								"Pair wallhack awareness with <a href=\"/finals-radar-hack/\">Overlay radar 2D</a> cues for flanks during arena corners and vertical fights.",
 							],
 						},
 						{
@@ -18581,13 +18582,13 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							list: [
 								"ESP ผู้เล่น",
 								"มาร์กเกอร์ loot",
-								"ฟิลเตอร์ Heli และ Bradley",
+								"ฟิลเตอร์ Heli และ objective",
 							],
 						},
 						{
 							h2: "เมื่อไหร่ควรใช้",
 							paragraphs: [
-								"ทำให้ monument และ loot run ชัดเจนโดยไม่เต็มหน้าจอ",
+								"ทำให้ arena sector และ cashout route ชัดเจนโดยไม่เต็มหน้าจอ",
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Easy Anti-Cheat",
 							],
 							list: [
@@ -18681,7 +18682,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							list: [
 								"Player boxes & distance",
 								"Loot and vault markers",
-								"Heli and Bradley filters",
+								"Objective and vehicle filters",
 							],
 						},
 						{
@@ -19037,7 +19038,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"The Final Cheats รวม ESP wallhack, radar hack และ The Finals Aimbot แบบ undetected สำหรับ The Finals บน Windows PC wallhack ESP สำหรับผู้เล่น ซาก และระยะทาง",
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Easy Anti-Cheat",
-								"Pair wallhack awareness with <a href=\"/finals-radar-hack/\">โอเวอร์เลย์เรดาร์ 2D</a> cues for flanks during forest and monument edge ambushes.",
+								"Pair wallhack awareness with <a href=\"/finals-radar-hack/\">โอเวอร์เลย์เรดาร์ 2D</a> cues for flanks during arena corners and vertical fights.",
 							],
 						},
 						{
@@ -19732,13 +19733,13 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							list: [
 								"ESP người chơi",
 								"Marker loot",
-								"Bộ lọc Heli và Bradley",
+								"Bộ lọc Heli và objective",
 							],
 						},
 						{
 							h2: "Khi nào sử dụng",
 							paragraphs: [
-								"Giữ vùng monument và loot run rõ ràng không che màn hình.",
+								"Giữ vùng arena sector và cashout route rõ ràng không che màn hình.",
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Easy Anti-Cheat.",
 							],
 							list: [
@@ -19832,7 +19833,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							list: [
 								"Player boxes & distance",
 								"Loot and vault markers",
-								"Heli and Bradley filters",
+								"Objective and vehicle filters",
 							],
 						},
 						{
@@ -20188,7 +20189,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"The Final Cheats cung cấp ESP wallhack, radar hack và The Finals Aimbot undetected cho The Finals trên PC Windows. wallhack ESP cho người chơi, xác thịt và khoảng cách",
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Easy Anti-Cheat.",
-								"Pair wallhack awareness with <a href=\"/finals-radar-hack/\">Overlay radar 2D</a> cues for flanks during forest and monument edge ambushes.",
+								"Pair wallhack awareness with <a href=\"/finals-radar-hack/\">Overlay radar 2D</a> cues for flanks during arena corners and vertical fights.",
 							],
 						},
 						{
@@ -20883,13 +20884,13 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							list: [
 								"ESP гравців",
 								"Маркери loot",
-								"Фільтри Heli та Bradley",
+								"Фільтри Heli та objective",
 							],
 						},
 						{
 							h2: "Коли використовувати",
 							paragraphs: [
-								"Чіткі зони monument і loot run без перевантаження екрана.",
+								"Чіткі зони arena sector і cashout route без перевантаження екрана.",
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Easy Anti-Cheat.",
 							],
 							list: [
@@ -20983,7 +20984,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							list: [
 								"Player boxes & distance",
 								"Loot and vault markers",
-								"Heli and Bradley filters",
+								"Objective and vehicle filters",
 							],
 						},
 						{
@@ -21339,7 +21340,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"The Final Cheats об'єднує ESP wallhack, radar hack і The Finals Aimbot у undetected пакеті для The Finals на Windows PC. wallhack ESP для гравців, туш і дистанції",
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Easy Anti-Cheat.",
-								"Pair wallhack awareness with <a href=\"/finals-radar-hack/\">2D радар overlay</a> cues for flanks during forest and monument edge ambushes.",
+								"Pair wallhack awareness with <a href=\"/finals-radar-hack/\">2D радар overlay</a> cues for flanks during arena corners and vertical fights.",
 							],
 						},
 						{
@@ -22034,13 +22035,13 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							list: [
 								"ESP hráčů",
 								"Loot markery",
-								"Filtry Heli a Bradley",
+								"Filtry Heli a objective",
 							],
 						},
 						{
 							h2: "Kdy použít",
 							paragraphs: [
-								"Přehledné monumenty a loot runy bez zaplnění obrazovky.",
+								"Přehledné arena sectory a cashout routey bez zaplnění obrazovky.",
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Easy Anti-Cheat.",
 							],
 							list: [
@@ -22134,7 +22135,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							list: [
 								"Player boxes & distance",
 								"Loot and vault markers",
-								"Heli and Bradley filters",
+								"Objective and vehicle filters",
 							],
 						},
 						{
@@ -22490,7 +22491,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"The Final Cheats spojuje ESP wallhack, radar hack a The Finals Aimbot jako undetected balíček pro The Finals na Windows PC. wallhack ESP pro hráče, kadávery a vzdálenost",
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Easy Anti-Cheat.",
-								"Pair wallhack awareness with <a href=\"/finals-radar-hack/\">2D radar overlay</a> cues for flanks during forest and monument edge ambushes.",
+								"Pair wallhack awareness with <a href=\"/finals-radar-hack/\">2D radar overlay</a> cues for flanks during arena corners and vertical fights.",
 							],
 						},
 						{
@@ -23185,13 +23186,13 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							list: [
 								"ESP jucător",
 								"Markeri loot",
-								"Filtre Heli și Bradley",
+								"Filtre Heli și objective",
 							],
 						},
 						{
 							h2: "Când să folosești",
 							paragraphs: [
-								"Zone monument și loot run clare fără a umple ecranul.",
+								"Zone arena sector și cashout route clare fără a umple ecranul.",
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Easy Anti-Cheat.",
 							],
 							list: [
@@ -23285,7 +23286,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							list: [
 								"Player boxes & distance",
 								"Loot and vault markers",
-								"Heli and Bradley filters",
+								"Objective and vehicle filters",
 							],
 						},
 						{
@@ -23641,7 +23642,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"The Final Cheats combină ESP wallhack, radar hack și The Finals Aimbot undetected pentru The Finals pe PC Windows. wallhack ESP pentru jucători, carcase și distanță",
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Easy Anti-Cheat.",
-								"Pair wallhack awareness with <a href=\"/finals-radar-hack/\">Overlay radar 2D</a> cues for flanks during forest and monument edge ambushes.",
+								"Pair wallhack awareness with <a href=\"/finals-radar-hack/\">Overlay radar 2D</a> cues for flanks during arena corners and vertical fights.",
 							],
 						},
 						{
@@ -24330,19 +24331,19 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Vad ESP visar",
 							paragraphs: [
-								"Boxar, avstånd och filter för spelare, scientists och loot.",
+								"Boxar, avstånd och filter för spelare, contestants och loot.",
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Easy Anti-Cheat-underhåll.",
 							],
 							list: [
 								"Spelar-ESP",
 								"Loot-markörer",
-								"Heli- och Bradley-filter",
+								"Heli- och objective-filter",
 							],
 						},
 						{
 							h2: "När du använder det",
 							paragraphs: [
-								"Håll monumentzoner och loot runs tydliga utan att fylla skärmen.",
+								"Håll arena sectorzoner och cashout routes tydliga utan att fylla skärmen.",
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Easy Anti-Cheat-underhåll.",
 							],
 							list: [
@@ -24436,7 +24437,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							list: [
 								"Player boxes & distance",
 								"Loot and vault markers",
-								"Heli and Bradley filters",
+								"Objective and vehicle filters",
 							],
 						},
 						{
@@ -24792,7 +24793,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"The Final Cheats kombinerar ESP wallhack, radar hack och The Finals Aimbot som undetected paket för The Finals på Windows PC. wallhack ESP för spelare, kadaver och avstånd",
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Easy Anti-Cheat-underhåll.",
-								"Pair wallhack awareness with <a href=\"/finals-radar-hack/\">2D-radaroverlay</a> cues for flanks during forest and monument edge ambushes.",
+								"Pair wallhack awareness with <a href=\"/finals-radar-hack/\">2D-radaroverlay</a> cues for flanks during arena corners and vertical fights.",
 							],
 						},
 						{

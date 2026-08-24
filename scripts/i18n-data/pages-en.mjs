@@ -48,10 +48,10 @@ export const enPages = {
 				'What The Finals ESP solves in matches',
 				'The Finals maps punish incomplete information. The Final Cheats ESP wallhack helps you spot enemy squads early, spot players and NPCs before they push your angle, and mark high-value cashout worth the detour.',
 				'On match, farming run, and official servers, that visibility gap is often the difference between a clean third-player and a patched pack. ESP ships bundled with radar overlays and Aimbot in one license.',
-				`The Finals’s live seasons and map updates are published by Facepunch (${EXT.finals}). When POIs or match rules shift, ESP categories stay useful because they track players and loot — not a single static landmark.`,
+				`The Finals’s live seasons and map updates are published by Embark Studios (${EXT.finals}). When POIs or match rules shift, ESP categories stay useful because they track players and loot — not a single static landmark.`,
 			),
 			section(
-				'Player, apex, and vault ESP wallhack categories',
+				'Player, objective, and vault ESP wallhack categories',
 				'Toggle enemy player outlines, heli markers, match cues, and loot pins so only match-critical ESP wallhack overlays stay active during rotations.',
 				'Distance readouts and snapline options help you control engagement range. Team and enemy colour coding supports cashout rounds and arena PvP fights lobbies alike.',
 				'Compare category detail on the <a href="/finals-esp/">wallhack page</a> and pair visibility with the <a href="/finals-radar-hack/">radar hack</a> for flanks outside your FOV.',
@@ -136,7 +136,7 @@ export const enPages = {
 		sections: [
 			section(
 				'ESP wallhack and visibility features',
-				'Enemy player ESP wallhack, apex and base awareness cues, loot and resources markers, distance readouts, snaplines, and toggleable ESP categories for match-critical overlays only.',
+				'Enemy player ESP wallhack, objective and vault awareness cues, loot and resources markers, distance readouts, snaplines, and toggleable ESP categories for match-critical overlays only.',
 				'Team and enemy colour coding supports cashout rounds and arena PvP fights. Deep-dive the <a href="/finals-esp/">ESP page</a> and <a href="/finals-esp/">wallhack guide</a> for category-level detail.',
 				`Map and loot systems evolve with ${EXT.finals} patch cycle and map updates — toggleable ESP categories keep overlays useful when POIs rotate.`,
 			),
@@ -214,7 +214,7 @@ export const enPages = {
 			),
 			section(
 				'After The Finals or Easy Anti-Cheat patches',
-				'When Facepunch ships a major The Finals update or Easy Anti-Cheat patch, revisit Updates before loading in. Download maintenance rebuilds when posted.',
+				'When Embark Studios ships a major The Finals update or Easy Anti-Cheat patch, revisit Updates before loading in. Download maintenance rebuilds when posted.',
 				`Official anti-cheat background: ${EXT.eac}. Our practical workflow is documented on the <a href="/updates/">Easy Anti-Cheat bypass page</a> and <a href="/finals-cheats/">undetected guide</a>.`,
 				'Contact <a href="/support/">Support</a> with your order ID if activation fails after a patch — include Windows version and error details for faster replies.',
 			),
@@ -270,7 +270,7 @@ export const enPages = {
 				'What is The Final Cheats?',
 				'The Final Cheats is an undetected cheat package for The Finals on Windows PC. It includes ESP wallhack, 2D radar-style awareness, and Aimbot controls with Easy Anti-Cheat maintenance updates.',
 				'Packages cover match and farming run. Explore <a href="/features/">Features</a> for the full control list and <a href="/finals-esp/">ESP</a> / <a href="/finals-aimbot/">Aimbot</a> for module detail.',
-				`The Finals itself is published by Facepunch (${EXT.finals}). Cheats are third-player tools and may violate Embark Studios' rules — use is at your own risk.`,
+				`The Finals itself is published by Embark Studios (${EXT.finals}). Cheats are third-player tools and may violate Embark Studios' rules — use is at your own risk.`,
 			),
 			section(
 				'Are The Final Cheats undetected in 2026?',
@@ -375,7 +375,7 @@ export const enPages = {
 				'Map coverage for wallhack ESP',
 				'Wallhack overlays support match, farming run, and official servers with distance readouts and snaplines for engagement control.',
 				`Season maps and POI changes are announced via ${EXT.finals}. Wallhack remains useful because it tracks entities, not fixed landmarks alone.`,
-				'Pair wallhack awareness with <a href="/finals-radar-hack/">radar hack</a> cues for flanks during forest and monument edge ambushes.',
+				'Pair wallhack awareness with <a href="/finals-radar-hack/">radar hack</a> cues for flanks during arena corners and vertical fights.',
 			),
 			section(
 				'Undetected wallhack maintenance',
@@ -400,8 +400,8 @@ export const enPages = {
 		sections: [
 			section(
 				'Why radar hack matters in The Finals',
-				'survival arena fights happen across open terrain — hills, forests, and monument edges. A 2D radar overlay shows nearby player threats outside direct line of sight so you can reposition before a third player.',
-				'The Final Cheats radar complements <a href="/finals-esp/">ESP wallhack</a> markers during squad pushes and compound zone fights.',
+				'Arena fights happen across open terrain — arenas, rooftops, and vertical routes. A 2D radar overlay shows nearby player threats outside direct line of sight so you can reposition before a third player.',
+				'The Final Cheats radar complements <a href="/finals-esp/">ESP wallhack</a> markers during squad pushes and zone fights.',
 				`Mode rules and seasonal changes come from ${EXT.finals}. Radar range remains configurable when map scale or mobility meta shifts.`,
 			),
 			section(

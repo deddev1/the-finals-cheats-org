@@ -1,21 +1,15 @@
 ---
-import BlogPostPage from '../../../../components/BlogPostPage.astro';
-import { blogPosts, getPostBySlug, resolvePost } from '../../../../data/blog/helpers';
-import { defaultLocale, isLocaleCode, localeCodes, type LocaleCode } from '../../../../data/i18n/locales';
+import { blogPosts } from '../../../../data/blog/helpers';
+import { defaultLocale, isLocaleCode, localeCodes } from '../../../../data/i18n/locales';
 
 export function getStaticPaths() {
-	const paths: {
-		params: { lang: string; slug: string };
-		props: { locale: LocaleCode; post: ReturnType<typeof resolvePost> };
-	}[] = [];
+	const paths: { params: { lang: string; slug: string } }[] = [];
 
 	for (const locale of localeCodes) {
 		if (locale === defaultLocale) continue;
 		for (const post of blogPosts) {
-			const resolved = resolvePost(post, locale);
 			paths.push({
-				params: { lang: locale, slug: resolved.translation.slug },
-				props: { locale, post: resolved },
+				params: { lang: locale, slug: post.translations[defaultLocale].slug },
 			});
 		}
 	}
@@ -23,14 +17,11 @@ export function getStaticPaths() {
 	return paths;
 }
 
-const { locale, post } = Astro.props;
 const slug = Astro.params.slug ?? '';
 
 if (!isLocaleCode(Astro.params.lang ?? '')) {
 	return Astro.redirect('/blog/', 301);
 }
 
-const live = getPostBySlug(locale, slug) ?? post;
+return Astro.redirect(`/blog/${slug}/`, 301);
 ---
-
-<BlogPostPage locale={locale} post={live} />

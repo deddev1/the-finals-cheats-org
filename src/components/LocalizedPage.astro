@@ -71,7 +71,23 @@ const faqSchema =
 			}
 		: null;
 
-const extraGraph = faqSchema ? [faqSchema] : [];
+const howToSchema =
+	pageId === 'setup'
+		? {
+				'@type': 'HowTo',
+				'@id': `${pageUrl}#howto`,
+				name: `${heading} — ${siteConfig.name}`,
+				description: intro,
+				step: sections.map((section, index) => ({
+					'@type': 'HowToStep',
+					position: index + 1,
+					name: section.h2,
+					text: [...section.paragraphs, ...(section.list ?? [])].join(' '),
+				})),
+			}
+		: null;
+
+const extraGraph = [faqSchema, howToSchema].filter(Boolean) as Record<string, unknown>[];
 
 const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo.plans[0];
 const lifetime = productInfo.plans.find((p) => p.id === 'lifetime') ?? productInfo.plans[1];
@@ -123,7 +139,14 @@ const breadcrumbLabel = eyebrowByPage[pageId];
 	pageId={pageId}
 	extraGraph={extraGraph}
 	showExternalResources={!['privacy', 'refund', 'terms'].includes(pageId)}
-	ctaPrimary={{ href: siteConfig.checkoutUrl, label: ctaPrimaryLabel, edit: 'ctaBuy' }}
+	ctaPrimary={
+		pageId === 'support'
+			? {
+					href: `mailto:${siteConfig.supportEmail}`,
+					label: 'Email support',
+				}
+			: { href: siteConfig.checkoutUrl, label: ctaPrimaryLabel, edit: 'ctaBuy' }
+	}
 >
 	{/* JSON-LD is emitted via PageLayout → Layout extraGraph */}
 

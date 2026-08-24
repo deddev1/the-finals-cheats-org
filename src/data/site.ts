@@ -299,7 +299,7 @@ export const customerReviews = [
 		rating: 5,
 		text: 'Radar in The Final Cheats saved me near arenas and cashout vaults. Seeing the third player early in pairs is huge. Boxes plus radar look clean.',
 		short: 'Radar in The Final Cheats saved me near arenas and cashout vaults.',
-		slug: 'finals-radar-hack-review-vanliferust',
+		slug: 'finals-radar-hack-review-vanlifefinals',
 		seoTitle: 'Radar Review by @vanLifeFinals — 5/5 | {brand}',
 		seoDescription: '@vanLifeFinals rates {brand} radar 5/5 near arenas and cashout vaults on Windows PC.',
 		date: '2026-07-28',

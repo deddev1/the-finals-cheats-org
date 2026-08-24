@@ -137,7 +137,7 @@ const ENGLISH_PATHS = [
 	'/reviews/finals-cheat-setup-review-stormchaser07/',
 	'/reviews/finals-vault-esp-review-lootgoblinx/',
 	'/reviews/finals-soft-aim-session-review-rankedgrind42/',
-	'/reviews/finals-radar-hack-review-vanliferust/',
+	'/reviews/finals-radar-hack-review-vanlifefinals/',
 	'/reviews/finals-eac-update-review-patchdaymike/',
 	'/reviews/finals-sniper-soft-aim-review-snipezonly/',
 	'/faq/what-are-finals-cheats/',

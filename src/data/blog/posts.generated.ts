@@ -16,7 +16,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		metaDescription: "Learn how The Finals patch notes change player builds, resource economy, and maps. What to do after Easy Anti-Cheat and major updates in 2026.",
 		h1: "How to Read The Finals Patch Notes",
 		intro: "When Embark Studios drops a patch, most players skim the headline and load in anyway. That is how you walk into Arena with the wrong ammo and a gun that just lost its damage output. Here is a calmer way to read The Finals patch notes so your next match still makes sense.",
-		keywords: ["The Finals patch notes","rust updates","eac patch"],
+		keywords: ["The Finals patch notes","finals updates","eac patch"],
 		imageAlt: "Player reviewing The Finals patch notes before a match",
 		sections: [
 			{
@@ -67,7 +67,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		metaDescription: "Sensible advice on The Finals cosmetics and skin previews — what to buy on the in-game store, what to skip, and how looks affect match readability.",
 		h1: "The Finals Cosmetics Buying Guide",
 		intro: "Leaks make every patch cycle feel like a fashion drop. Before you dump credits into another loud outfit, decide whether the skin helps you play The Finals — or just looks cool in a screenshot.",
-		keywords: ["The Finals cosmetics","the rust store"],
+		keywords: ["The Finals cosmetics","in-game store skins","finals cosmetics guide"],
 		imageAlt: "The Finals character cosmetics and skin appearance options",
 		sections: [
 			{
@@ -116,7 +116,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		metaDescription: "A practical The Finals player tier list for solo farmers and matchers matches — ARs, SMGs, and long-range rifles, ammo, and when each gun actually wins fights.",
 		h1: "The Finals Player Tier List for 2026",
 		intro: "Creator tier lists love flashy guns. The Finals rewards expected value: damage output, recoil control you can control, and a kit you can rebuild after you die. Here is how to rank players for real matches — not highlight reels.",
-		keywords: ["rust tier list","best rust players","rust meta"],
+		keywords: ["finals weapon tier list","best finals loadouts","finals meta"],
 		imageAlt: "The Finals players laid out for a weapon comparison for a weapon loadout comparison",
 		sections: [
 			{
@@ -166,7 +166,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		metaDescription: "Five aggressive but smart The Finals farming strategies — timings, bases, third-players, and how to leave matches with loot instead of low growth.",
 		h1: "The Finals Farming Run Strategies",
 		intro: "Passive starting players wait behind a bush while two player teams erase each other, then spray into the mess and die. Strong farming runs manufacture a short advantage, grab what matters, and extract before the match ends collapses on you.",
-		keywords: ["The Finals loot run","the rust juvenile","rust bases"],
+		keywords: ["The Finals loot run","cashout strategies","arena fights"],
 		imageAlt: "starting player moving toward a base with loot in The Finals",
 		sections: [
 			{
@@ -215,7 +215,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		metaDescription: "What strong The Finals competitors optimize — match plans, loadouts, mid-session habits, and which competitive habits help normal match sessions.",
 		h1: "Competitive The Finals Meta Guide",
 		intro: "Tournament winners and high-level pairs are not lucky spawn gods. They optimize expected value: safer loot paths, cleaner mid-session habits, and fights they choose on purpose. Here is what translates into your normal The Finals load ins.",
-		keywords: ["rust competitive","rust meta","official servers"],
+		keywords: ["finals competitive","finals meta","official servers"],
 		imageAlt: "Competitive The Finals players reviewing match strategy",
 		sections: [
 			{
@@ -264,7 +264,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		metaDescription: "High-percentage The Finals cashout routes for Arena, Woods, and Arena — how to leave load in with guns, armor, and stamina recovery that win mid-session fights.",
 		h1: "The Finals Loot Routes Guide",
 		intro: "Winning in The Finals starts before the first gunfight. Random looting gets you killed with a pistol and no stamina recovery. These route habits consistently convert a load into a kit you can actually fight with.",
-		keywords: ["rust cashout routes","rust spawn guide","thefinals esp"],
+		keywords: ["finals cashout routes","spawn guide","thefinals esp"],
 		imageAlt: "Loot route planning across a The Finals map",
 		sections: [
 			{
@@ -313,7 +313,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		metaDescription: "Practical The Finals settings used by strong players — visibility, audio cues, aim smoothing, and what to copy vs ignore from pro configs.",
 		h1: "The Finals Pro Settings Guide",
 		intro: "Copying a champion’s entire config will not make you one. But a few The Finals settings reliably improve visibility, audio reads, and aim consistency. Here is what is worth stealing.",
-		keywords: ["rust settings","rust visibility","rust audio"],
+		keywords: ["finals settings","finals visibility","finals audio"],
 		imageAlt: "The Finals graphics and control settings menu",
 		sections: [
 			{
@@ -362,7 +362,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		metaDescription: "A short The Finals warmup routine before matches — aim, peeks, audio focus, and what to practice offline so your first fight is not your warmup.",
 		h1: "The Finals Warmup Routine",
 		intro: "Queuing cold into high-traffic zones or high-traffic zones is how you donate a kit. A short The Finals warmup — even ten to fifteen minutes — makes your first real fight feel like your third.",
-		keywords: ["The Finals warmup","rust aim practice","survival routine"],
+		keywords: ["The Finals warmup","finals aim practice","pvp routine"],
 		imageAlt: "Player warming up aim before a The Finals match",
 		sections: [
 			{
@@ -467,7 +467,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		metaDescription: "What to check before you buy thefinals cheats — status pages, ESP features, soft aim, refunds, pricing, and red flags in 2026.",
 		h1: "The Finals Hacks Buyers Guide",
 		intro: "Buying thefinals cheats is noisy. Every storefront promises “undetected,” instant delivery, and god mode. This buyers guide slows you down with a practical checklist so you spend money on maintenance and clarity — not banners.",
-		keywords: ["buy thefinals cheats","thefinals cheats guide","rust pricing"],
+		keywords: ["buy thefinals cheats","thefinals cheats guide","finals pricing"],
 		imageAlt: "Checklist for buying The Finals Hacks safely",
 		sections: [
 			{
@@ -610,7 +610,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		en: {
 		slug: "finals-esp-wallhack-explained",
 		title: "The Finals ESP and Wallhack Explained in Plain English",
-		metaDescription: "What rust ESP and wallhack actually show in The Finals — players, loot, distance, bases — and how to keep overlays readable in matches.",
+		metaDescription: "What The Finals ESP and wallhack actually show — players, loot, distance, vaults — and how to keep overlays readable in matches.",
 		h1: "The Finals ESP and Wallhack Guide",
 		intro: "“ESP” and “wallhack” get used interchangeably. In The Finals they both mean information through walls — but the useful details are distance, filters, and what you choose to hide so your screen stays readable.",
 		keywords: ["thefinals esp","thefinals wallhack","thefinals cheats"],
@@ -661,7 +661,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		metaDescription: "What “undetected thefinals cheats” really means under Easy Anti-Cheat — maintenance, patch days, risk, and how to read status before you queue The Finals.",
 		h1: "Undetected The Finals Hacks Explained",
 		intro: "“Undetected” is the most abused word in cheat marketing. Under Easy Anti-Cheat, it means a package is being maintained against current detections — not that bans are impossible. Here is the honest version for The Finals players.",
-		keywords: ["undetected thefinals cheats","eac rust","ban risk"],
+		keywords: ["undetected thefinals cheats","eac bypass","ban risk"],
 		imageAlt: "Easy Anti-Cheat maintenance status for undetected thefinals cheats",
 		sections: [
 			{

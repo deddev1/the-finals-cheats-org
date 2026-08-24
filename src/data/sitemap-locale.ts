@@ -1,5 +1,4 @@
 import { getPageContent } from './i18n';
-import { getBlogSitemapEntriesForLocale } from './blog/helpers';
 import { getLocalizedPath, hreflangLinksXml, pageIds, type PageId } from './i18n/routing';
 import { defaultLocale, localeCodes, type LocaleCode } from './i18n/locales';
 import { siteConfig } from './site';
@@ -56,13 +55,7 @@ export function buildLocaleSitemapEntries(locale: LocaleCode): LocaleSitemapEntr
 		};
 	});
 
-	const blogEntries: LocaleSitemapEntry[] = getBlogSitemapEntriesForLocale(locale).map((entry) => ({
-		path: entry.path,
-		lastmod: entry.lastmod,
-		priority: entry.priority,
-		changefreq: entry.changefreq,
-		image: entry.images[0],
-	}));
+	const blogEntries: LocaleSitemapEntry[] = [];
 
 	return [...productEntries, ...blogEntries];
 }

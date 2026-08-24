@@ -152,14 +152,14 @@ function buildFeatures(locale, u, p) {
 		es: {
 			h2: ['ESP y wallhack', 'Aimbot y soft aim', 'Radar', 'Explorar temas relacionados', 'Actualizaciones y soporte'],
 			p: [
-				['Ve jugadores, científicos y loot a través de las paredes con distancias.', 'Usa filtros para mantener el overlay claro en monumentos, compounds y zonas PvP.'],
+				['Ve jugadores, científicos y loot a través de las paredes con distancias.', 'Usa filtros para mantener el overlay claro en sectores de arena, vault sectors y zonas PvP.'],
 				['Asistencia de puntería que puedes ajustar para que se sienta natural.', 'Configura FOV, suavidad y prioridad de huesos por arma antes del match.'],
-				['Un radar 2D simple para amenazas fuera de tu vista.', 'Detecta flancos cerca de monumentos sin llenar toda la pantalla.'],
+				['Un radar 2D simple para amenazas fuera de tu vista.', 'Detecta flancos cerca de sectores de arena sin llenar toda la pantalla.'],
 				['La mayoría de sitios de trucos cubren ESP, aimbot, radar, instalación y estado en páginas separadas. Usa estas guías:', 'Cada guía cubre una parte del stack de match para que compares antes del checkout.'],
 				['Reconstruimos tras parches grandes de The Finals o Easy Anti-Cheat.', 'Revisa Estado antes de jugar después de un día de parche.', 'Verifica cambios oficiales en las notas de Steam y la Wiki de The Finals antes de ajustar overlays.'],
 			],
 			list: [
-				['Cajas de jugador y distancia', 'Marcadores de loot y base', 'Filtros de heli y Bradley'],
+				['Cajas de jugador y distancia', 'Marcadores de loot y base', 'Filtros de heli y objective'],
 				['Fuerza de soft aim', 'FOV y prioridad de huesos', 'Teclas rápidas en partida'],
 				['Señales de enemigos cercanos', 'Rango ajustable', 'Funciona en matches y roaming'],
 				null,
@@ -169,14 +169,14 @@ function buildFeatures(locale, u, p) {
 		fr: {
 			h2: ['ESP et wallhack', 'Aimbot et soft aim', 'Radar', 'Explorer les sujets liés', 'Mises à jour et support'],
 			p: [
-				['Voyez joueurs, scientifiques et loot à travers les murs avec distances.', 'Utilisez des filtres pour garder l\'overlay lisible dans les monuments et zones PvP.'],
+				['Voyez joueurs, scientifiques et loot à travers les murs avec distances.', 'Utilisez des filtres pour garder l\'overlay lisible dans les arena sectors et zones PvP.'],
 				['Aide à la visée réglable pour un rendu naturel.', 'Définissez FOV, fluidité et priorité d\'os par arme avant le match.'],
-				['Un radar 2D simple pour les menaces hors champ.', 'Repérez les flancs près des monuments sans remplir l\'écran.'],
+				['Un radar 2D simple pour les menaces hors champ.', 'Repérez les flancs près des arena sectors sans remplir l\'écran.'],
 				['La plupart des sites couvrent ESP, aimbot, radar, installation et statut sur des pages séparées. Utilisez ces guides :', 'Chaque guide couvre une partie du stack de match pour comparer avant le checkout.'],
 				['Nous reconstruisons après les gros patchs The Finals ou Easy Anti-Cheat.', 'Consultez Statut avant de jouer après un jour de patch.', 'Vérifiez les notes Steam et le Wiki The Finals avant d\'ajuster les overlays.'],
 			],
 			list: [
-				['Boîtes joueur et distance', 'Marqueurs de loot et base', 'Filtres héli et Bradley'],
+				['Boîtes joueur et distance', 'Marqueurs de loot et base', 'Filtres héli et objective'],
 				['Force du soft aim', 'FOV et priorité d\'os', 'Raccourcis en match'],
 				['Indices d\'ennemis proches', 'Portée réglable', 'Fonctionne en matches et roaming'],
 				null,
@@ -193,7 +193,7 @@ function buildFeatures(locale, u, p) {
 				['Wir bauen nach großen The Finals- oder Easy Anti-Cheat-Patches neu.', 'Prüfe Status vor dem Spielen nach Patch-Tagen.', 'Offizielle Änderungen in Steam-Patchnotes und The Finals Wiki prüfen, bevor du Overlays anpasst.'],
 			],
 			list: [
-				['Spielerboxen & Distanz', 'Loot- und Basis-Marker', 'Heli- und Bradley-Filter'],
+				['Spielerboxen & Distanz', 'Loot- und Basis-Marker', 'Heli- und objective-Filter'],
 				['Soft-Aim-Stärke', 'FOV und Knochenpriorität', 'Hotkeys im Match'],
 				['Nahe Feind-Hinweise', 'Einstellbare Reichweite', 'Funktioniert bei Raids & Roaming'],
 				null,

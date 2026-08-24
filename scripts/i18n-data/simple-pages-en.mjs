@@ -30,10 +30,10 @@ export const simplePagesEn = {
 			{
 				h2: 'ESP & wallhack',
 				paragraphs: [
-					'See players, scientists, and loot through walls with distance readouts.',
-					'Use filters so the overlay stays clear in monument zones, compounds, and high-traffic PvP areas.',
+					'See players, objects, and loot through walls with distance readouts.',
+					'Use filters so the overlay stays clear in arena zones, vault sectors, and high-traffic PvP areas.',
 				],
-				list: ['Player boxes & distance', 'Loot and vault markers', 'Heli and Bradley filters'],
+				list: ['Player boxes & distance', 'Loot and vault markers', 'Objective and vehicle filters'],
 			},
 			{
 				h2: 'Aimbot & soft aim',
@@ -248,16 +248,16 @@ export const simplePagesEn = {
 			{
 				h2: 'What ESP shows',
 				paragraphs: [
-					'Boxes, distance, and filters for players, scientists, and loot.',
+					'Boxes, distance, and filters for players, objects, and loot.',
 					'Toggle categories so only match-critical overlays stay active during rotations.',
 				],
-				list: ['Player ESP', 'Loot markers', 'Heli and Bradley filters'],
+				list: ['Player ESP', 'Loot markers', 'Objective and vehicle filters'],
 			},
 			{
 				h2: 'When to use it',
 				paragraphs: [
-					'Clear monument zones and loot runs without flooding the screen.',
-					'Tune opacity and filters for monument zones, compounds, and high-traffic PvP areas.',
+					'Clear arena sectors and cashout routes without flooding the screen.',
+					'Tune opacity and filters for arena zones, vault sectors, and high-traffic PvP areas.',
 				],
 				list: ['Tune opacity', 'Filter noise', 'Pair with radar'],
 			},
@@ -339,7 +339,7 @@ export const simplePagesEn = {
 				h2: 'With ESP',
 				paragraphs: [
 					'Use radar for threats you cannot see yet. Use ESP when you push.',
-					'Radar complements ESP markers during squad pushes and compound fights.',
+					'Radar complements ESP markers during squad pushes and zone fights.',
 				],
 				list: [
 					'<a href="/finals-esp/">ESP guide</a>',
@@ -365,6 +365,7 @@ export const simplePagesEn = {
 				paragraphs: [
 					'Buy a plan first. You get a license by email.',
 					'Have your order email ready before you start installation.',
+					'The Final Cheats runs on Windows 10 or 11 (64-bit) with administrator rights for the loader. Close conflicting overlays and aim for 8 GB RAM minimum (16 GB recommended) for smooth ESP in busy arena fights.',
 				],
 				list: ['Windows 10 / 11 PC', 'Disable conflicting overlays', 'Have your order email ready'],
 			},
@@ -392,7 +393,7 @@ export const simplePagesEn = {
 			'The Final Cheats support for license delivery, ESP setup and billing on Windows PC. Email support@thefinalscheats.org with your order ID. Visit thefinalscheats.org/support for FAQs and guides.',
 		h1: 'Support',
 		intro: 'Get help with licenses, setup, and billing for The Final Cheats on Windows PC.',
-		ctaPrimary: 'Get Access',
+		ctaPrimary: 'Email support',
 		ctaSecondary: 'FAQ',
 		ctaSecondaryHref: '/faq/',
 		galleryTitle: 'In-game look',
@@ -409,7 +410,7 @@ export const simplePagesEn = {
 				h2: 'Faster answers',
 				paragraphs: [
 					'Check FAQ and Status before you write. Many setup questions are already covered.',
-					'Self-service guides often resolve activation issues faster than a new ticket.',
+					'Self-service guides often resolve activation issues faster than a new ticket. For patch timing, follow official The Finals channels on Steam and the <a href="https://www.reachthefinals.com/" target="_blank" rel="noopener noreferrer">official site</a>.',
 				],
 				list: ['<a href="/faq/">FAQ</a>', '<a href="/updates/">Status</a>', '<a href="/setup/">Setup</a>'],
 			},

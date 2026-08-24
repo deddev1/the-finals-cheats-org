@@ -12,7 +12,7 @@ export const FAQ_I18N = {
 		},
 		'solo-farmer-and-raider-sessions': {
 			q: '¿Funciona en matches de base y PvP?',
-			a: 'Sí. ESP, radar y aimbot están pensados para el flujo de match de The Finals: leer jugadores y NPCs, detectar loot y mantener conciencia cerca de monumentos y compounds.',
+			a: 'Sí. ESP, radar y aimbot están pensados para el flujo de match de The Finals: leer jugadores y NPCs, detectar loot y mantener conciencia cerca de sectores de arena y vault sectors.',
 		},
 		'esp-wallhack-radar-or-aimbot': {
 			q: '¿Qué incluye: ESP, wallhack, radar o Aimbot?',
@@ -36,7 +36,7 @@ export const FAQ_I18N = {
 		},
 		'does-finals-cheats-include-radar-hack': {
 			q: '¿The Final Cheats incluye radar hack?',
-			a: 'Sí. The Final Cheats incluye overlays de radar 2D que resaltan amenazas cercanas fuera de tu campo de visión, útil para flancos y zonas de compound.',
+			a: 'Sí. The Final Cheats incluye overlays de radar 2D que resaltan amenazas cercanas fuera de tu campo de visión, útil para flancos y zonas de zone.',
 		},
 		'eac-anti-cheat-and-finals-cheats': {
 			q: '¿Cómo afecta Easy Anti-Cheat a los trucos de The Finals?',
@@ -58,7 +58,7 @@ export const FAQ_I18N = {
 		},
 		'solo-farmer-and-raider-sessions': {
 			q: 'Est-ce que ça fonctionne en matches de base et en PvP ?',
-			a: "Oui. ESP, radar et aimbot sont conçus pour le flux de match The Finals — lire les joueurs et NPCs, repérer le loot et rester vigilant près des monuments.",
+			a: "Oui. ESP, radar et aimbot sont conçus pour le flux de match The Finals — lire les joueurs et NPCs, repérer le loot et rester vigilant près des arena sectors.",
 		},
 		'esp-wallhack-radar-or-aimbot': {
 			q: "Qu'est-ce qui est inclus — ESP, wallhack, radar ou Aimbot ?",

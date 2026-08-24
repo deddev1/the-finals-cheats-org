@@ -64,9 +64,9 @@ function HomeAboutInner({ checkoutUrl }: Pick<Props, 'checkoutUrl'>) {
 		<section className="shell home__prose home__prose--en" aria-labelledby="home-about-title">
 			<div className="home__about-grid">
 				<div className="home__prose-callout">
-					<h2 id="home-about-title" className="home__prose-kicker">
+					<p id="home-about-title" className="home__prose-kicker">
 						{t('home.aboutTitle')}
-					</h2>
+					</p>
 					<p>{t('home.aboutP1')}</p>
 					<div className="home__about-actions">
 						<a className="home__about-pricing" href={checkoutUrl} rel="noopener noreferrer">

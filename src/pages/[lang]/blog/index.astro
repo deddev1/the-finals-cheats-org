@@ -1,18 +1,15 @@
 ---
-import BlogIndexPage from '../../../components/BlogIndexPage.astro';
 import { defaultLocale, isLocaleCode, localeCodes } from '../../../data/i18n/locales';
 
 export function getStaticPaths() {
 	return localeCodes
 		.filter((code) => code !== defaultLocale)
-		.map((lang) => ({ params: { lang }, props: { locale: lang } }));
+		.map((lang) => ({ params: { lang } }));
 }
 
 if (!isLocaleCode(Astro.params.lang ?? '')) {
 	return Astro.redirect('/blog/', 301);
 }
 
-const { locale } = Astro.props;
+return Astro.redirect('/blog/', 301);
 ---
-
-<BlogIndexPage locale={locale} />
