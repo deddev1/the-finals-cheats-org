@@ -47,7 +47,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				hero: {
 					accent: "2026 — Undetected ESP, Aimbot & Wallhack",
 					accentShort: "Undetected thefinals cheats 2026",
-					title: "thefinals cheats",
+					title: "Thefinals cheats",
 					subtitle: "thefinals cheats with The Finals ESP, radar hack and The Finals Aimbot for Windows PC — Easy Anti-Cheat maintenance included.",
 					subtitleShort: "The Finals ESP, radar & aimbot for PC",
 					buyNow: "Buy The Final Cheats",
@@ -107,7 +107,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				home: {
 					title: "thefinals Cheats 2026 | ESP, Aimbot & Wallhack",
 					description: "Buy undetected thefinals cheats at thefinalscheats.org — ESP, aimbot, wallhack & 2D radar for Windows PC. Easy Anti-Cheat updates after patches. Plans from",
-					h1: "thefinals cheats",
+					h1: "Thefinals cheats",
 					intro: "The Final Cheats is the undetected The Finals cheat package for Windows PC — ESP wallhack, 2D radar, and soft aim with Easy Anti-Cheat maintenance after every major patch.",
 					imageAlt: "The Finals characters in front of a glowing red neon logo — The Final Cheats hero",
 					galleryTitle: "The Final Cheats gallery — ESP, Aimbot and wallhack visuals",
