@@ -4,8 +4,8 @@
   "description": "Undetected thefinals cheats — ESP, aimbot, and radar for PC",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#0a0a0f",
-  "theme_color": "#0a0a0f",
+  "background_color": "#08090D",
+  "theme_color": "#08090D",
   "icons": [
     {
       "src": "/favicon.png",
