@@ -23,7 +23,6 @@
 		"fetch:hero": "node scripts/fetch-finals-hero.mjs",
 		"fetch:steam-hero": "node scripts/fetch-steam-hero.mjs",
 		"fetch:screenshots": "node scripts/import-finals-screenshots.mjs",
-		"fetch:demo-video": "node scripts/fetch-demo-video.mjs",
 		"generate:brand": "node scripts/generate-brand-assets.mjs",
 		"preview": "astro preview --host 0.0.0.0 --port 3000",
 		"preview:4321": "astro preview --host 0.0.0.0 --port 4321",
