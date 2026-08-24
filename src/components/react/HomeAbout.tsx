@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { productScreenshots } from '../../data/product-images';
+import { productInfo } from '../../data/site';
 import I18nProvider from './I18nProvider';
 
 type Props = {
@@ -7,9 +7,48 @@ type Props = {
 	checkoutUrl: string;
 };
 
+function HomeAboutPricing({ checkoutUrl }: { checkoutUrl: string }) {
+	const { t } = useTranslation();
+	const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo.plans[0];
+	const lifetime = productInfo.plans.find((p) => p.id === 'lifetime') ?? productInfo.plans[1];
+
+	return (
+		<aside className="home__about-pricing" aria-label={t('product.plans')}>
+			<div className="home__about-pricing-grid">
+				<article className="home__price-card">
+					<p className="home__price-card-label">{t('product.monthly')}</p>
+					<p className="home__price-card-price">
+						<span className="home__price-card-amount">${monthly.price}</span>
+						<span className="home__price-card-meta">{t('product.perMonth')}</span>
+					</p>
+					<p className="home__price-card-note">{t('product.days30')}</p>
+					<a className="home__price-card-cta" href={checkoutUrl} rel="noopener noreferrer">
+						{t('product.buyMonthly')}
+					</a>
+				</article>
+
+				<article className="home__price-card is-featured">
+					<p className="home__price-card-label">{t('product.lifetime')}</p>
+					<p className="home__price-card-price">
+						<span className="home__price-card-amount">${lifetime.price}</span>
+						<span className="home__price-card-meta">{t('product.once')}</span>
+					</p>
+					<p className="home__price-card-note">{t('product.oneTime')}</p>
+					<a
+						className="home__price-card-cta home__price-card-cta--solid"
+						href={checkoutUrl}
+						rel="noopener noreferrer"
+					>
+						{t('product.buyLifetime')}
+					</a>
+				</article>
+			</div>
+		</aside>
+	);
+}
+
 function HomeAboutInner({ checkoutUrl }: Pick<Props, 'checkoutUrl'>) {
 	const { t } = useTranslation();
-	const preview = productScreenshots[0]!;
 
 	return (
 		<section className="shell home__prose home__prose--en" aria-labelledby="home-about-title">
@@ -19,11 +58,6 @@ function HomeAboutInner({ checkoutUrl }: Pick<Props, 'checkoutUrl'>) {
 						{t('home.aboutTitle')}
 					</p>
 					<p>{t('home.aboutP1')}</p>
-					<div className="home__about-actions">
-						<a className="home__about-pricing" href={checkoutUrl} rel="noopener noreferrer">
-							{t('home.aboutPricingCta')}
-						</a>
-					</div>
 					<p>
 						{t('home.aboutP2Before')}{' '}
 						<a href="/">{t('home.aboutPillar')}</a>
@@ -36,18 +70,7 @@ function HomeAboutInner({ checkoutUrl }: Pick<Props, 'checkoutUrl'>) {
 						{t('home.aboutP2After')}
 					</p>
 				</div>
-				<figure className="home__about-media">
-					<img
-						className="home__about-image"
-						src={preview.src}
-						alt={preview.alt}
-						width={640}
-						height={398}
-						loading="lazy"
-						decoding="async"
-					/>
-					<figcaption className="home__about-caption">{preview.caption}</figcaption>
-				</figure>
+				<HomeAboutPricing checkoutUrl={checkoutUrl} />
 			</div>
 		</section>
 	);
