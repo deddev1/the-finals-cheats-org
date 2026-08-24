@@ -47,6 +47,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				hero: {
 					accent: "2026 — Undetected ESP, Aimbot & Wallhack",
 					accentShort: "Undetected thefinals cheats 2026",
+					title: "thefinals cheats",
 					subtitle: "thefinals cheats with The Finals ESP, radar hack and The Finals Aimbot for Windows PC — Easy Anti-Cheat maintenance included.",
 					subtitleShort: "The Finals ESP, radar & aimbot for PC",
 					buyNow: "Buy The Final Cheats",

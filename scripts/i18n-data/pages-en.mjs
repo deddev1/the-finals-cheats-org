@@ -6,7 +6,7 @@ export const enPages = {
 		title: 'thefinals Cheats 2026 | ESP, Aimbot & Wallhack',
 		description:
 			'Buy undetected thefinals cheats at thefinalscheats.org — ESP, aimbot, wallhack & 2D radar for Windows PC. Easy Anti-Cheat updates after patches. Plans from $35/month.',
-		h1: 'thefinals cheats',
+		h1: 'Thefinals cheats',
 		intro:
 			'The Final Cheats is the undetected The Finals cheat package for Windows PC — ESP wallhack, 2D radar, and soft aim with Easy Anti-Cheat maintenance after every major patch.',
 		imageAlt: 'The Finals characters in front of a glowing red neon logo — The Final Cheats hero',
