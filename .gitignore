@@ -4,3 +4,5 @@ dist/
 .env
 .env.*
 *.log
+public/images/finals-screenshot-new-*.png
+tmp/finals-screenshots/
