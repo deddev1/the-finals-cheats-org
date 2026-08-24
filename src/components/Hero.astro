@@ -117,9 +117,10 @@ const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo
 		font-weight: 700;
 		line-height: 1.12;
 		letter-spacing: -0.03em;
-		overflow-wrap: anywhere;
+		white-space: nowrap;
+		width: max-content;
+		max-width: 100%;
 		color: #fff;
-		width: 100%;
 		text-transform: uppercase;
 	}
 
@@ -337,8 +338,9 @@ const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo
 		}
 
 		.hero__brand {
-			font-size: clamp(1.7rem, 7.5vw, 2.35rem);
+			font-size: clamp(1.35rem, 5.8vw, 2.35rem);
 			line-height: 1.08;
+			letter-spacing: -0.02em;
 		}
 
 		.hero__lede {
@@ -386,7 +388,7 @@ const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo
 		}
 
 		.hero__brand {
-			font-size: clamp(1.55rem, 8.2vw, 1.95rem);
+			font-size: clamp(1.2rem, 6.2vw, 1.95rem);
 		}
 
 		.hero__lede {
