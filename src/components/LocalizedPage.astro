@@ -8,7 +8,8 @@ import { productInfo, siteConfig } from '../data/site';
 import { absoluteFaqUrl, getFaqPath } from '../data/faq';
 import { finalsImages } from '../data/finals';
 import { getT } from '../i18n/server';
-import { getPageCrawlImage } from '../data/page-images';
+import { getPageCrawlImage, absoluteImageUrl } from '../data/page-images';
+import { screenshotImageObjects } from '../data/product-images';
 
 interface Props {
 	locale: LocaleCode;
@@ -50,6 +51,7 @@ const gallery = [
 	...finalsImages.product.slice(0, 2).map((img) => ({
 		src: img.src,
 		alt: img.alt,
+		url: 'url' in img ? img.url : absoluteImageUrl(img.src),
 	})),
 ];
 
@@ -87,7 +89,11 @@ const howToSchema =
 			}
 		: null;
 
-const extraGraph = [faqSchema, howToSchema].filter(Boolean) as Record<string, unknown>[];
+const extraGraph = [
+	...(faqSchema ? [faqSchema] : []),
+	...(howToSchema ? [howToSchema] : []),
+	...screenshotImageObjects(4),
+] as Record<string, unknown>[];
 
 const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo.plans[0];
 const lifetime = productInfo.plans.find((p) => p.id === 'lifetime') ?? productInfo.plans[1];

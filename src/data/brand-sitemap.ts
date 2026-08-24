@@ -13,34 +13,24 @@ export type BrandSitemapImage = {
 
 const defaultImages: BrandSitemapImage[] = [
 	{
-		src: '/images/finals-cheats-esp.webp',
+		src: '/images/finals-screenshot-01.webp',
 		title: 'thefinals cheats esp',
-		caption: 'thefinals cheats esp wallhack',
+		caption: 'thefinals cheats esp wallhack player boxes',
 	},
 	{
-		src: '/images/finals-cheats-wallhack.webp',
+		src: '/images/finals-screenshot-02.webp',
 		title: 'thefinals cheats wallhack',
-		caption: 'thefinals cheats wallhack esp',
+		caption: 'thefinals cheats wallhack esp through walls',
 	},
 	{
-		src: '/images/finals-cheats-aimbot.webp',
+		src: '/images/finals-screenshot-03.webp',
 		title: 'thefinals cheats aimbot',
-		caption: 'thefinals cheats aimbot soft aim',
+		caption: 'thefinals cheats aimbot soft aim in match',
 	},
 	{
-		src: '/images/finals-cheats-aimbot-view.webp',
-		title: 'thefinals cheats aimbot',
-		caption: 'thefinals cheats aimbot view',
-	},
-	{
-		src: '/images/finals-cheats-radar.webp',
-		title: 'thefinals cheats radar',
-		caption: 'thefinals cheats radar hack',
-	},
-	{
-		src: '/images/finals-cheats-session.webp',
-		title: 'thefinals cheats',
-		caption: 'thefinals cheats in match',
+		src: '/images/finals-screenshot-04.webp',
+		title: 'thefinals cheats mod menu',
+		caption: 'thefinals cheats mod menu with ESP and radar toggles',
 	},
 ];
 

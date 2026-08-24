@@ -4,6 +4,7 @@ import { getUi } from '../data/i18n';
 import { getGalleryUi } from '../data/i18n/gallery-ui';
 import { defaultLocale, type LocaleCode } from '../data/i18n/locales';
 import { contentSrcSet, galleryTileSizes } from '../lib/responsive-images';
+import { absoluteImageUrl } from '../data/page-images';
 
 interface Props {
 	locale?: LocaleCode;
@@ -23,6 +24,7 @@ const galleryAlts = [
 
 const galleryImages = finalsImages.gallery.slice(0, 4).map((image, index) => ({
 	src: image.src,
+	url: 'url' in image && image.url ? image.url : absoluteImageUrl(image.src),
 	alt: galleryAlts[index] ?? image.alt,
 }));
 ---
@@ -34,17 +36,21 @@ const galleryImages = finalsImages.gallery.slice(0, 4).map((image, index) => ({
 	<div class="gallery__grid">
 		{
 			galleryImages.map((image) => (
-				<figure class="gallery__item media-frame">
+				<figure class="gallery__item media-frame" itemscope itemtype="https://schema.org/ImageObject">
+					<link itemprop="url" href={image.url} />
+					<meta itemprop="contentUrl" content={image.url} />
 					<img
 						src={image.src}
 						srcset={contentSrcSet(image.src)}
 						sizes={galleryTileSizes}
 						alt={image.alt}
+						itemprop="contentUrl"
 						width="640"
 						height="400"
 						loading="lazy"
 						decoding="async"
 					/>
+					<meta itemprop="name" content={image.alt} />
 				</figure>
 			))
 		}

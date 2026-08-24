@@ -172,78 +172,23 @@ export const brand = {
 		images: [
 			{
 				src: '/images/finals-screenshot-01.webp',
-				title: 'The Final Cheats mod menu overlay',
-				caption: 'The Final Cheats mod menu overlay on Windows PC',
+				title: 'The Finals ESP wallhack player boxes',
+				caption: 'The Finals ESP wallhack showing player boxes and distance tags',
 			},
 			{
 				src: '/images/finals-screenshot-02.webp',
-				title: 'The Finals ESP wallhack player boxes',
-				caption: 'The Finals ESP wallhack showing player boxes and names',
+				title: 'The Finals wallhack ESP overlay',
+				caption: 'The Finals wallhack ESP highlighting enemies through arena geometry',
 			},
 			{
 				src: '/images/finals-screenshot-03.webp',
-				title: 'The Finals wallhack ESP through walls',
-				caption: 'The Finals wallhack ESP highlighting enemies through walls',
+				title: 'The Finals aimbot soft aim in match',
+				caption: 'The Finals aimbot soft aim targeting during PvP combat',
 			},
 			{
 				src: '/images/finals-screenshot-04.webp',
-				title: 'The Finals aimbot soft aim PvP',
-				caption: 'The Finals aimbot soft aim targeting in PvP combat',
-			},
-			{
-				src: '/images/finals-screenshot-05.webp',
-				title: 'The Finals aimbot FOV settings',
-				caption: 'The Finals aimbot FOV and bone targeting settings',
-			},
-			{
-				src: '/images/finals-screenshot-06.webp',
-				title: 'The Finals 2D radar hack map',
-				caption: 'The Finals 2D radar hack with player blips on map',
-			},
-			{
-				src: '/images/finals-screenshot-07.webp',
-				title: 'The Final Cheats session HUD',
-				caption: 'The Final Cheats session HUD with ESP and radar active',
-			},
-			{
-				src: '/images/finals-screenshot-08.webp',
-				title: 'The Finals combat ESP aimbot overlay',
-				caption: 'The Finals combat screenshot with ESP and aimbot overlays',
-			},
-			{
-				src: '/images/finals-screenshot-09.webp',
-				title: 'The Finals player ESP distance tags',
-				caption: 'The Finals player ESP tags and distance labels in match',
-			},
-			{
-				src: '/images/finals-screenshot-10.webp',
-				title: 'The Finals aimbot skeleton overlay',
-				caption: 'The Finals aimbot skeleton overlay on hostile player',
-			},
-			{
-				src: '/images/finals-screenshot-11.webp',
-				title: 'The Finals arena PvP with cheats',
-				caption: 'The Finals arena PvP fight with cheat overlays enabled',
-			},
-			{
-				src: '/images/finals-screenshot-12.webp',
-				title: 'The Finals base match ESP wallhack',
-				caption: 'The Finals base match combat with ESP wallhack active',
-			},
-			{
-				src: '/images/finals-screenshot-13.webp',
-				title: 'The Finals loot run radar ESP',
-				caption: 'The Finals loot run with radar and player ESP enabled',
-			},
-			{
-				src: '/images/finals-screenshot-14.webp',
-				title: 'The Finals map radar player positions',
-				caption: 'The Finals map overview with radar and player positions',
-			},
-			{
-				src: '/images/finals-screenshot-15.webp',
-				title: 'The Finals wallhack skeleton ESP',
-				caption: 'The Finals wallhack skeleton ESP on enemy player model',
+				title: 'The Final Cheats mod menu overlay',
+				caption: 'The Final Cheats mod menu with ESP, aimbot, and radar toggles on Windows PC',
 			},
 		],
 	},

@@ -2,17 +2,12 @@ import { siteConfig } from './site';
 import { pageIds, type PageId } from './i18n/routing';
 import { pageSitemapImageLabels } from './brand-sitemap';
 
-const shot = (n: number) => `/images/finals-screenshot-${String(n).padStart(2, '0')}.webp`;
+import { screenshotSrc, PRODUCT_SCREENSHOT_COUNT } from './product-images';
+
+const shot = screenshotSrc;
 
 /** Rotating product screenshots for FAQ / review detail URLs. */
-export const crawlPhotoPool = [
-	shot(2),
-	shot(3),
-	shot(4),
-	shot(5),
-	shot(6),
-	shot(7),
-] as const;
+export const crawlPhotoPool = Array.from({ length: PRODUCT_SCREENSHOT_COUNT }, (_, i) => shot(i + 1));
 
 /**
  * One primary crawl/OG photo per product page.
@@ -20,30 +15,30 @@ export const crawlPhotoPool = [
  */
 export const pageImageSrcById: Record<PageId, string> = {
 	home: '/images/finals-cheats-hero-1448w.webp',
-	'finals-esp': shot(2),
-	'finals-aimbot': shot(4),
-	features: shot(5),
-	pricing: shot(7),
-	setup: shot(2),
+	'finals-esp': shot(1),
+	'finals-aimbot': shot(3),
+	features: shot(4),
+	pricing: shot(2),
+	setup: shot(1),
 	updates: shot(1),
-	faq: shot(5),
-	support: shot(7),
-	undetected: shot(3),
-	wallhack: shot(3),
-	radar: shot(6),
-	eac: shot(4),
+	faq: shot(4),
+	support: shot(2),
+	undetected: shot(2),
+	wallhack: shot(2),
+	radar: shot(1),
+	eac: shot(3),
 	'cheats-2026': shot(1),
-	hacks: shot(7),
-	'cheat-download': shot(7),
-	'mod-menu': shot(6),
-	'soft-aim': shot(5),
+	hacks: shot(3),
+	'cheat-download': shot(2),
+	'mod-menu': shot(1),
+	'soft-aim': shot(4),
 	'best-cheats': shot(1),
-	'aimbot-hack': shot(5),
-	'esp-hack': shot(3),
-	'unlock-all': shot(6),
-	privacy: shot(4),
-	refund: shot(7),
-	terms: shot(5),
+	'aimbot-hack': shot(4),
+	'esp-hack': shot(2),
+	'unlock-all': shot(1),
+	privacy: shot(3),
+	refund: shot(2),
+	terms: shot(4),
 };
 
 for (const pageId of pageIds) {

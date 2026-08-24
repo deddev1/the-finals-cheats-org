@@ -17,6 +17,7 @@ import {
 import { defaultLocale } from '../data/i18n/locales';
 import { siteConfig } from '../data/site';
 import { getT } from '../i18n/server';
+import { absoluteImageUrl } from '../data/page-images';
 import RelatedPages from '../components/RelatedPages.astro';
 import CategoryRow from '../components/CategoryRow.astro';
 import ExternalResources from '../components/ExternalResources.astro';
@@ -95,9 +96,11 @@ const normalizedGallery = gallery
 	.map((item) => {
 		if (typeof item !== 'string') {
 			const alt = item.alt?.trim() || resolvedHeroAlt;
-			return { src: item.src, alt };
+			const src = item.src;
+			const url = 'url' in item && item.url ? item.url : absoluteImageUrl(src);
+			return { src, alt, url };
 		}
-		return { src: item, alt: resolvedHeroAlt };
+		return { src: item, alt: resolvedHeroAlt, url: absoluteImageUrl(item) };
 	})
 	.filter((item) => Boolean(item.src));
 
@@ -208,17 +211,25 @@ const useHomeHero =
 						</header>
 						<div class="gallery-block__grid">
 							{normalizedGallery.map((image) => (
-								<figure class="gallery-block__item">
+								<figure
+									class="gallery-block__item"
+									itemscope
+									itemtype="https://schema.org/ImageObject"
+								>
+									<link itemprop="url" href={image.url} />
+									<meta itemprop="contentUrl" content={image.url} />
 									<img
 										src={image.src}
 										srcset={contentSrcSet(image.src)}
 										sizes={galleryTileSizes}
 										alt={image.alt}
+										itemprop="contentUrl"
 										width="800"
 										height="500"
 										loading="lazy"
 										decoding="async"
 									/>
+									<meta itemprop="name" content={image.alt} />
 								</figure>
 							))}
 						</div>

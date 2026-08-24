@@ -11,11 +11,11 @@ export const prerender = true;
  */
 const PREFERRED_HOSTS = [
 	englishPaths.home,
-	englishPaths['finals-esp'],
-	englishPaths['finals-aimbot'],
 	englishPaths.features,
 	englishPaths.pricing,
 	englishPaths.updates,
+	englishPaths['finals-esp'],
+	englishPaths['finals-aimbot'],
 	englishPaths.setup,
 	englishPaths.faq,
 	englishPaths.support,

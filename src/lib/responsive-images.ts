@@ -65,9 +65,7 @@ export const heroHeight = 460;
 export const contentWidths = [480, 960] as const;
 
 /** Canonical screenshot path — responsive variants use -480w / -960w suffixes. */
-export function screenshotSrc(n: number): string {
-	return `/images/finals-screenshot-${String(n).padStart(2, '0')}.webp`;
-}
+export { screenshotSrc } from '../data/product-images';
 
 export const galleryFeaturedSizes = '(max-width: 560px) 100vw, (max-width: 900px) 90vw, 640px';
 export const galleryTileSizes = '(max-width: 560px) 100vw, (max-width: 900px) 45vw, 320px';
