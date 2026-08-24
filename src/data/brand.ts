@@ -222,8 +222,8 @@ export const brand = {
 			},
 			{
 				src: '/images/finals-screenshot-11.webp',
-				title: 'The Finals monument PvP with cheats',
-				caption: 'The Finals monument PvP fight with cheat overlays enabled',
+				title: 'The Finals arena PvP with cheats',
+				caption: 'The Finals arena PvP fight with cheat overlays enabled',
 			},
 			{
 				src: '/images/finals-screenshot-12.webp',
