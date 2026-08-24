@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Completes rust-cheats SEO audit: add missing pages, fix leftovers, strip Zadeyo from meta.
+ * Completes finals-cheats SEO audit: add missing pages, fix leftovers, strip Zadeyo from meta.
  * Run: node scripts/complete-seo-audit.mjs
  */
 import { readFile, writeFile, mkdir, access } from 'node:fs/promises';
@@ -11,53 +11,53 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const NODE = 'C:\\Program Files\\nodejs\\node.exe';
 
 const EXTRA_PAGES = [
-	{ id: 'hacks', dir: 'rust-cheats', pageId: 'hacks' },
-	{ id: 'cheat-download', dir: 'rust-cheat-download', pageId: 'cheat-download' },
-	{ id: 'mod-menu', dir: 'rust-mod-menu', pageId: 'mod-menu' },
-	{ id: 'soft-aim', dir: 'rust-soft-aim', pageId: 'soft-aim' },
-	{ id: 'best-cheats', dir: 'best-rust-cheats', pageId: 'best-cheats' },
-	{ id: 'aimbot-hack', dir: 'rust-aimbot-hack', pageId: 'aimbot-hack' },
-	{ id: 'esp-hack', dir: 'rust-esp-hack', pageId: 'esp-hack' },
-	{ id: 'unlock-all', dir: 'rust-unlock-all', pageId: 'unlock-all' },
+	{ id: 'hacks', dir: 'finals-cheats', pageId: 'hacks' },
+	{ id: 'cheat-download', dir: 'finals-cheat-download', pageId: 'cheat-download' },
+	{ id: 'mod-menu', dir: 'finals-mod-menu', pageId: 'mod-menu' },
+	{ id: 'soft-aim', dir: 'finals-soft-aim', pageId: 'soft-aim' },
+	{ id: 'best-cheats', dir: 'best-finals-cheats', pageId: 'best-cheats' },
+	{ id: 'aimbot-hack', dir: 'finals-aimbot-hack', pageId: 'aimbot-hack' },
+	{ id: 'esp-hack', dir: 'finals-esp-hack', pageId: 'esp-hack' },
+	{ id: 'unlock-all', dir: 'finals-unlock-all', pageId: 'unlock-all' },
 ];
 
 const GLOBAL_REPLACEMENTS = [
 	[/rust-rust/g, 'rust'],
 	[/eac-bypass-rust/g, 'eac-bypass'],
-	[/Rust/g, 'Rust'],
-	[/Rust/g, 'Rust'],
-	[/Call of Duty/g, 'Rust'],
-	[/Rust Wallhack/g, 'Rust Wallhack'],
-	[/Rust Radar Hack/g, 'Rust Radar Hack'],
-	[/Rust Cheat Features/g, 'Rust Cheat Features'],
-	[/Rust Cheat Pricing/g, 'Rust Cheat Pricing'],
-	[/Rust Cheat Setup/g, 'Rust Cheat Setup'],
-	[/Rust Cheat Status/g, 'Rust Cheat Status'],
-	[/Rust Cheat Support/g, 'Rust Cheat Support'],
-	[/Rust squad fight/g, 'Rust squad fight'],
-	[/Rust pack builder/g, 'Rust loadout builder'],
-	[/Rust store header/g, 'Rust header'],
-	[/Rust wasteland combat/g, 'Rust battle royale combat'],
-	[/Rust loadout builder/g, 'Rust loadout builder'],
-	[/Rust pricing/g, 'Rust pricing'],
-	[/Rust Easy Anti-Cheat/g, 'Rust Easy Anti-Cheat'],
-	[/on Rust/g, 'on Rust'],
-	[/for Rust/g, 'for Rust'],
-	[/Rust guides/g, 'Rust guides'],
-	[/Rust guide/g, 'Rust guide'],
-	[/Rust hileleri/g, 'Rust hileleri'],
-	[/Rust hile/g, 'Rust hile'],
-	[/Rust hileleri/g, 'Rust hileleri'],
-	[/cheatów Rust/g, 'cheatów Rust'],
-	[/cheat Rust/g, 'cheat Rust'],
-	[/cheats Rust/g, 'cheats Rust'],
-	[/trucos Rust/g, 'trucos Rust'],
-	[/triche Rust/g, 'triche Rust'],
-	[/trucchi Rust/g, 'trucchi Rust'],
-	[/Wallhack Rust/g, 'Rust Wallhack'],
-	[/cheat Rust undetected/g, 'cheat Rust undetected'],
-	[/cheats Rust undetected/g, 'cheats Rust undetected'],
-	[/Verdansk beams/g, 'bolt-action AR beams'],
+	[/The Finals/g, 'The Finals'],
+	[/The Finals/g, 'The Finals'],
+	[/Call of Duty/g, 'The Finals'],
+	[/The Finals Wallhack/g, 'The Finals Wallhack'],
+	[/The Finals Radar Hack/g, 'The Finals Radar Hack'],
+	[/The Finals Cheat Features/g, 'The Finals Cheat Features'],
+	[/The Finals Cheat Pricing/g, 'The Finals Cheat Pricing'],
+	[/The Finals Cheat Setup/g, 'The Finals Cheat Setup'],
+	[/The Finals Cheat Status/g, 'The Finals Cheat Status'],
+	[/The Finals Cheat Support/g, 'The Finals Cheat Support'],
+	[/The Finals squad fight/g, 'The Finals squad fight'],
+	[/The Finals pack builder/g, 'The Finals loadout builder'],
+	[/The Finals store header/g, 'The Finals header'],
+	[/The Finals wasteland combat/g, 'The Finals battle royale combat'],
+	[/The Finals loadout builder/g, 'The Finals loadout builder'],
+	[/The Finals pricing/g, 'The Finals pricing'],
+	[/The Finals Easy Anti-Cheat/g, 'The Finals Easy Anti-Cheat'],
+	[/on The Finals/g, 'on The Finals'],
+	[/for The Finals/g, 'for The Finals'],
+	[/The Finals guides/g, 'The Finals guides'],
+	[/The Finals guide/g, 'The Finals guide'],
+	[/The Finals hileleri/g, 'The Finals hileleri'],
+	[/The Finals hile/g, 'The Finals hile'],
+	[/The Finals hileleri/g, 'The Finals hileleri'],
+	[/cheatów The Finals/g, 'cheatów The Finals'],
+	[/cheat The Finals/g, 'cheat The Finals'],
+	[/cheats The Finals/g, 'cheats The Finals'],
+	[/trucos The Finals/g, 'trucos The Finals'],
+	[/triche The Finals/g, 'triche The Finals'],
+	[/trucchi The Finals/g, 'trucchi The Finals'],
+	[/Wallhack The Finals/g, 'The Finals Wallhack'],
+	[/cheat The Finals undetected/g, 'cheat The Finals undetected'],
+	[/cheats The Finals undetected/g, 'cheats The Finals undetected'],
+	[/Verdansk beams/g, 'long-range AR beams'],
 	[/farming run room clears/g, 'close-quarters room clears'],
 	[/Verdansk and Urzikstan/g, 'Verdansk and farming run'],
 	[/Verdansk, Urzikstan/g, 'Verdansk, farming run'],
@@ -70,11 +70,11 @@ const GLOBAL_REPLACEMENTS = [
 	[/Activision/g, 'Epic Games'],
 	[/eac/gi, 'eac'],
 	[/Easy Anti-Cheat/g, 'Easy Anti-Cheat'],
-	[/rust-cheats/g, 'rust-cheats'],
+	[/finals-cheats/g, 'finals-cheats'],
 	[/the-rust/g, 'rust'],
-	[/Undetected Wallhack for Call of Duty/g, 'Undetected Wallhack for Rust'],
+	[/Undetected Wallhack for Call of Duty/g, 'Undetected Wallhack for The Finals'],
 	[/How ESP wallhack, radar, and Aimbot rebuild after Call of Duty anti-cheat/g,
-		'How ESP wallhack, radar, and Aimbot rebuild after Rust anti-cheat'],
+		'How ESP wallhack, radar, and Aimbot rebuild after The Finals anti-cheat'],
 ];
 
 /** Remove Zadeyo from meta description/title strings only */
@@ -90,7 +90,7 @@ function stripZadeyoFromMeta(text) {
 		.replace(/\s*Zadeyo delivery\.?/gi, 'instant digital delivery.')
 		.replace(/\s*and Zadeyo delivery\.?/gi, ' and instant digital delivery.')
 		.replace(/\|\s*Instant Zadeyo Delivery/g, '| Instant Digital Delivery')
-		.replace(/Buy on Zadeyo/g, 'Buy Rust Hacks')
+		.replace(/Buy on Zadeyo/g, 'Buy The Finals Hacks')
 		.replace(/\s{2,}/g, ' ')
 		.trim();
 }
@@ -169,38 +169,38 @@ import LocalizedPage from '../../components/LocalizedPage.astro';
 async function fixLocalesBlogUi() {
 	const file = path.join(ROOT, 'src', 'data', 'i18n', 'locales.ts');
 	let content = await readFile(file, 'utf8');
-	content = content.replace(/Rust guides/g, 'Rust guides');
-	content = content.replace(/Rust guide/g, 'Rust guide');
-	content = content.replace(/Rust hileleri/g, 'Rust hileleri');
-	content = content.replace(/Rust hile/g, 'Rust hile');
-	content = content.replace(/cheat Rust/g, 'cheat Rust');
-	content = content.replace(/cheats Rust/g, 'cheats Rust');
-	content = content.replace(/trucos Rust/g, 'trucos Rust');
-	content = content.replace(/triche Rust/g, 'triche Rust');
-	content = content.replace(/trucchi Rust/g, 'trucchi Rust');
-	content = content.replace(/cheatów Rust/g, 'cheatów Rust');
-	content = content.replace(/читов Rust/g, 'читов Rust');
-	content = content.replace(/читів Rust/g, 'читів Rust');
-	content = content.replace(/Rustチート/g, 'Rustチート');
-	content = content.replace(/Rust 치트/g, 'Rust 치트');
-	content = content.replace(/Rust作弊/g, 'Rust作弊');
-	content = content.replace(/Rust rehberleri/g, 'Rust rehberleri');
-	content = content.replace(/Rust gidsen/g, 'Rust gidsen');
-	content = content.replace(/Rust průvodce/g, 'Rust průvodce');
-	content = content.replace(/Rust guider/g, 'Rust guider');
-	content = content.replace(/Rust related/g, 'Rust related');
-	content = content.replace(/Rust ガイド/g, 'Rust ガイド');
-	content = content.replace(/Rust 가이드/g, 'Rust 가이드');
-	content = content.replace(/Rust指南/g, 'Rust指南');
-	content = content.replace(/Rust गाइड/g, 'Rust गाइड');
-	content = content.replace(/Rust panduan/g, 'Rust panduan');
-	content = content.replace(/Rust คู่มือ/g, 'Rust คู่มือ');
-	content = content.replace(/Rust hướng dẫn/g, 'Rust hướng dẫn');
+	content = content.replace(/The Finals guides/g, 'The Finals guides');
+	content = content.replace(/The Finals guide/g, 'The Finals guide');
+	content = content.replace(/The Finals hileleri/g, 'The Finals hileleri');
+	content = content.replace(/The Finals hile/g, 'The Finals hile');
+	content = content.replace(/cheat The Finals/g, 'cheat The Finals');
+	content = content.replace(/cheats The Finals/g, 'cheats The Finals');
+	content = content.replace(/trucos The Finals/g, 'trucos The Finals');
+	content = content.replace(/triche The Finals/g, 'triche The Finals');
+	content = content.replace(/trucchi The Finals/g, 'trucchi The Finals');
+	content = content.replace(/cheatów The Finals/g, 'cheatów The Finals');
+	content = content.replace(/читов The Finals/g, 'читов The Finals');
+	content = content.replace(/читів The Finals/g, 'читів The Finals');
+	content = content.replace(/The Finalsチート/g, 'The Finalsチート');
+	content = content.replace(/The Finals 치트/g, 'The Finals 치트');
+	content = content.replace(/The Finals作弊/g, 'The Finals作弊');
+	content = content.replace(/The Finals rehberleri/g, 'The Finals rehberleri');
+	content = content.replace(/The Finals gidsen/g, 'The Finals gidsen');
+	content = content.replace(/The Finals průvodce/g, 'The Finals průvodce');
+	content = content.replace(/The Finals guider/g, 'The Finals guider');
+	content = content.replace(/The Finals related/g, 'The Finals related');
+	content = content.replace(/The Finals ガイド/g, 'The Finals ガイド');
+	content = content.replace(/The Finals 가이드/g, 'The Finals 가이드');
+	content = content.replace(/The Finals指南/g, 'The Finals指南');
+	content = content.replace(/The Finals गाइड/g, 'The Finals गाइड');
+	content = content.replace(/The Finals panduan/g, 'The Finals panduan');
+	content = content.replace(/The Finals คู่มือ/g, 'The Finals คู่มือ');
+	content = content.replace(/The Finals hướng dẫn/g, 'The Finals hướng dẫn');
 	await writeFile(file, content, 'utf8');
 	console.log('Fixed locales.ts blogUi');
 }
 
-console.log('=== Rust Hacks SEO completion ===\n');
+console.log('=== The Finals Hacks SEO completion ===\n');
 await applyGlobalFixes();
 await createExtraPages();
 await fixLocalesBlogUi();

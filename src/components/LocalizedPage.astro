@@ -6,7 +6,7 @@ import type { LocaleCode } from '../data/i18n/locales';
 import { getLocalizedFaqs } from '../data/localized-faq';
 import { productInfo, siteConfig } from '../data/site';
 import { absoluteFaqUrl, getFaqPath } from '../data/faq';
-import { rustImages } from '../data/rust';
+import { finalsImages } from '../data/finals';
 import { getT } from '../i18n/server';
 import { getPageCrawlImage } from '../data/page-images';
 
@@ -47,7 +47,7 @@ const introEditByPage: Partial<Record<PageId, string>> = {
 const introEdit = introEditByPage[pageId];
 const gallery = [
 	{ src: crawl.src, alt: page.imageAlt || crawl.caption },
-	...rustImages.product.slice(0, 2).map((img) => ({
+	...finalsImages.product.slice(0, 2).map((img) => ({
 		src: img.src,
 		alt: img.alt,
 	})),
@@ -82,8 +82,8 @@ const eyebrowByPage: Partial<Record<PageId, string>> = {
 	pricing: ui.nav.pricing,
 	updates: ui.nav.updates,
 	hacks: t('nav.preview'),
-	'rust-esp': ui.nav.esp,
-	'rust-aimbot': ui.nav.aimbot,
+	'finals-esp': ui.nav.esp,
+	'finals-aimbot': ui.nav.aimbot,
 	radar: t('categoryRow.radar'),
 	setup: ui.nav.setup,
 	faq: ui.nav.faq,

@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-/** Final pass: fix remaining Rust references in src/. */
+/** Final pass: fix remaining The Finals references in src/. */
 import { readFile, writeFile, readdir } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -8,27 +8,27 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', 's
 const REMOVE_PAGE_IDS = ['hacks', 'cheat-download', 'mod-menu', 'soft-aim', 'best-cheats', 'aimbot-hack', 'esp-hack', 'unlock-all'];
 
 const REPLACEMENTS = [
-	['rustImages', 'rustImages'],
-	["from '../data/rust'", "from '../data/rust'"],
-	["from './rust'", "from './rust'"],
-	['/undetected-rust-cheats/', '/undetected-rust-cheats/'],
-	['/rust-wallhack/', '/rust-wallhack/'],
-	['/rust-radar-hack/', '/rust-radar-hack/'],
+	['finalsImages', 'finalsImages'],
+	["from '../data/finals'", "from '../data/finals'"],
+	["from './finals'", "from './finals'"],
+	['/undetected-finals-cheats/', '/undetected-finals-cheats/'],
+	['/finals-wallhack/', '/finals-wallhack/'],
+	['/finals-radar-hack/', '/finals-radar-hack/'],
 	['/eac-bypass/', '/eac-bypass/'],
-	['/rust-cheats-2026/', '/rust-cheats-2026/'],
-	['/rust-aimbot/', '/rust-aimbot/'],
-	['/rust-esp/', '/rust-esp/'],
-	['/rust-cheats/', '/rust-esp/'],
-	['Rust Hacks', 'Rust Hacks'],
-	['rust cheats', 'rust cheats'],
-	['rust wallhack', 'Rust wallhack'],
-	['rust radar', 'Rust radar'],
-	['Rust Aimbot', 'Rust Aimbot'],
-	['Rust ESP', 'Rust ESP'],
-	['Rust', 'Rust'],
+	['/finals-cheats-2026/', '/finals-cheats-2026/'],
+	['/finals-aimbot/', '/finals-aimbot/'],
+	['/finals-esp/', '/finals-esp/'],
+	['/finals-cheats/', '/finals-esp/'],
+	['The Finals Hacks', 'The Finals Hacks'],
+	['the finals cheats', 'the finals cheats'],
+	['the finals wallhack', 'The Finals wallhack'],
+	['the finals radar', 'The Finals radar'],
+	['The Finals Aimbot', 'The Finals Aimbot'],
+	['The Finals ESP', 'The Finals ESP'],
+	['The Finals', 'The Finals'],
 	['Easy Anti-Cheat', 'Easy Anti-Cheat'],
 	['eac', 'eac'],
-	['rustcheats.co', 'rustcheats.co'],
+	['thefinalscheats.org', 'thefinalscheats.org'],
 	['operatorEsp', 'playerEsp'],
 	['extractFight', 'raidFight'],
 	['alMazrah', 'raidMap'],

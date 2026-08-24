@@ -6,39 +6,39 @@ export const LOCALES = [
 ];
 
 export const PAGE_IDS = [
-	'home', 'rust-esp', 'rust-aimbot', 'features', 'pricing', 'setup',
+	'home', 'finals-esp', 'finals-aimbot', 'features', 'pricing', 'setup',
 	'updates', 'faq', 'support', 'undetected', 'wallhack', 'radar', 'eac',
 	'cheats-2026', 'hacks', 'cheat-download', 'mod-menu', 'soft-aim', 'best-cheats',
 	'aimbot-hack', 'esp-hack', 'unlock-all', 'privacy', 'refund', 'terms',
 ];
 
-/** Hero image per page — simple rust cheats keyword filenames. */
+/** Hero image per page — simple the finals cheats keyword filenames. */
 export const HERO_IMAGES = {
-	home: '/images/rust-cheats-esp.webp',
-	'rust-esp': '/images/rust-cheats-radar.webp',
-	'rust-aimbot': '/images/rust-cheats-aimbot.webp',
-	features: '/images/rust-cheats-aimbot-view.webp',
-	pricing: '/images/rust-cheats-session.webp',
-	setup: '/images/rust-cheats-radar.webp',
-	updates: '/images/rust-cheats-esp.webp',
-	faq: '/images/rust-cheats-aimbot-view.webp',
-	support: '/images/rust-cheats-session.webp',
-	undetected: '/images/rust-cheats-wallhack.webp',
-	wallhack: '/images/rust-cheats-wallhack.webp',
-	radar: '/images/rust-cheats-radar.webp',
-	eac: '/images/rust-cheats-aimbot.webp',
-	'cheats-2026': '/images/rust-cheats-esp.webp',
-	hacks: '/images/rust-cheats-combat.webp',
-	'cheat-download': '/images/rust-cheats-session.webp',
-	'mod-menu': '/images/rust-cheats-radar.webp',
-	'soft-aim': '/images/rust-cheats-aimbot-view.webp',
-	'best-cheats': '/images/rust-cheats-esp.webp',
-	'aimbot-hack': '/images/rust-cheats-aimbot-view.webp',
-	'esp-hack': '/images/rust-cheats-wallhack.webp',
-	'unlock-all': '/images/rust-cheats-radar.webp',
-	privacy: '/images/rust-cheats-aimbot.webp',
-	refund: '/images/rust-cheats-session.webp',
-	terms: '/images/rust-cheats-aimbot-view.webp',
+	home: '/images/finals-cheats-esp.webp',
+	'finals-esp': '/images/finals-cheats-radar.webp',
+	'finals-aimbot': '/images/finals-cheats-aimbot.webp',
+	features: '/images/finals-cheats-aimbot-view.webp',
+	pricing: '/images/finals-cheats-session.webp',
+	setup: '/images/finals-cheats-radar.webp',
+	updates: '/images/finals-cheats-esp.webp',
+	faq: '/images/finals-cheats-aimbot-view.webp',
+	support: '/images/finals-cheats-session.webp',
+	undetected: '/images/finals-cheats-wallhack.webp',
+	wallhack: '/images/finals-cheats-wallhack.webp',
+	radar: '/images/finals-cheats-radar.webp',
+	eac: '/images/finals-cheats-aimbot.webp',
+	'cheats-2026': '/images/finals-cheats-esp.webp',
+	hacks: '/images/finals-cheats-combat.webp',
+	'cheat-download': '/images/finals-cheats-session.webp',
+	'mod-menu': '/images/finals-cheats-radar.webp',
+	'soft-aim': '/images/finals-cheats-aimbot-view.webp',
+	'best-cheats': '/images/finals-cheats-esp.webp',
+	'aimbot-hack': '/images/finals-cheats-aimbot-view.webp',
+	'esp-hack': '/images/finals-cheats-wallhack.webp',
+	'unlock-all': '/images/finals-cheats-radar.webp',
+	privacy: '/images/finals-cheats-aimbot.webp',
+	refund: '/images/finals-cheats-session.webp',
+	terms: '/images/finals-cheats-aimbot-view.webp',
 };
 
 export const TS_HEADER = `import type { LocaleCode } from './locales';
@@ -67,10 +67,10 @@ export type LocaleUi = {
 \tfooter: { explore: string; help: string; tagline: string };
 \timages: {
 \t\thero: string; espWallhack: string; aimbotCombat: string; squadFight: string; playerEsp: string;
-\t\theaderArt: string; hacksPackage: string; raidFight: string; battleRoyale: string; raidMap: string;
+\t\theaderArt: string; hacksPackage: string; matchFight: string; battleRoyale: string; matchMap: string;
 \t};
 };
-export type PageId = 'home' | 'rust-esp' | 'rust-aimbot' | 'features' | 'pricing' | 'setup' | 'updates' | 'faq' | 'support' | 'undetected' | 'wallhack' | 'radar' | 'eac' | 'cheats-2026' | 'hacks' | 'cheat-download' | 'mod-menu' | 'soft-aim' | 'best-cheats' | 'aimbot-hack' | 'esp-hack' | 'unlock-all' | 'privacy' | 'refund' | 'terms';
+export type PageId = 'home' | 'finals-esp' | 'finals-aimbot' | 'features' | 'pricing' | 'setup' | 'updates' | 'faq' | 'support' | 'undetected' | 'wallhack' | 'radar' | 'eac' | 'cheats-2026' | 'hacks' | 'cheat-download' | 'mod-menu' | 'soft-aim' | 'best-cheats' | 'aimbot-hack' | 'esp-hack' | 'unlock-all' | 'privacy' | 'refund' | 'terms';
 `;
 
 /** Clamp meta strings to SEO limits without ugly ellipsis. */
@@ -101,7 +101,7 @@ export function stripZadeyoFromMeta(text) {
 		.replace(/\s*Zadeyo delivery\.?/gi, ' instant digital delivery.')
 		.replace(/\s*and Zadeyo delivery\.?/gi, ' and instant digital delivery.')
 		.replace(/\|\s*Instant Zadeyo Delivery/g, '| Instant Digital Delivery')
-		.replace(/Buy on Zadeyo/g, 'Buy Rust Cheats')
+		.replace(/Buy on Zadeyo/g, 'Buy The Final Cheats')
 		.replace(/\s{2,}/g, ' ')
 		.trim();
 }
@@ -124,11 +124,11 @@ export function section(h2, ...args) {
 /** Authoritative external citation helpers (open in new tab). */
 export const EXT = {
 	activision:
-		'<a href="https://store.steampowered.com/app/252490/Rust/" target="_blank" rel="noopener noreferrer">Rust</a>',
+		'<a href="https://store.steampowered.com/app/2073850/THE_FINALS/" target="_blank" rel="noopener noreferrer">The Finals</a>',
 	rust:
-		'<a href="https://store.steampowered.com/app/252490/Rust/" target="_blank" rel="noopener noreferrer">Rust</a>',
+		'<a href="https://store.steampowered.com/app/2073850/THE_FINALS/" target="_blank" rel="noopener noreferrer">The Finals</a>',
 	status:
-		'<a href="https://store.steampowered.com/app/252490/Rust/" target="_blank" rel="noopener noreferrer">Rust on Steam</a>',
+		'<a href="https://store.steampowered.com/app/2073850/THE_FINALS/" target="_blank" rel="noopener noreferrer">The Finals on Steam</a>',
 	eac:
 		'<a href="https://www.easy.ac/" target="_blank" rel="noopener noreferrer">Easy Anti-Cheat</a>',
 };

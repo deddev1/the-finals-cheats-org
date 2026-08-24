@@ -2,33 +2,33 @@ import { siteConfig } from './site';
 
 /** Simple crawl URLs — one screenshot per asset slot. */
 export const rustScreenshot = (n: number) =>
-	`/images/rust-screenshot-${String(n).padStart(2, '0')}.webp`;
+	`/images/finals-screenshot-${String(n).padStart(2, '0')}.webp`;
 
 /** SEO-friendly alt text per screenshot slot (matches import order). */
 export const rustScreenshotAlts: Record<number, string> = {
-	1: 'Rust Cheats mod menu overlay on Windows PC',
-	2: 'Rust ESP wallhack showing player boxes and names',
-	3: 'Rust wallhack ESP highlighting enemies through walls',
-	4: 'Rust aimbot soft aim targeting in PvP combat',
-	5: 'Rust aimbot FOV and bone targeting settings',
-	6: 'Rust 2D radar hack with player blips on map',
-	7: 'Rust Cheats session HUD with ESP and radar active',
-	8: 'Rust combat screenshot with ESP and aimbot overlays',
-	9: 'Rust player ESP tags and distance labels in raid',
-	10: 'Rust aimbot skeleton overlay on hostile player',
-	11: 'Rust monument PvP fight with cheat overlays enabled',
-	12: 'Rust base raid combat with ESP wallhack active',
-	13: 'Rust loot run with radar and player ESP enabled',
-	14: 'Rust map overview with radar and player positions',
-	15: 'Rust wallhack skeleton ESP on enemy player model',
+	1: 'The Final Cheats mod menu overlay on Windows PC',
+	2: 'The Finals ESP wallhack showing player boxes and names',
+	3: 'The Finals wallhack ESP highlighting enemies through walls',
+	4: 'The Finals aimbot soft aim targeting in PvP combat',
+	5: 'The Finals aimbot FOV and bone targeting settings',
+	6: 'The Finals 2D radar hack with player blips on map',
+	7: 'The Final Cheats session HUD with ESP and radar active',
+	8: 'The Finals combat screenshot with ESP and aimbot overlays',
+	9: 'The Finals player ESP tags and distance labels in match',
+	10: 'The Finals aimbot skeleton overlay on hostile player',
+	11: 'The Finals monument PvP fight with cheat overlays enabled',
+	12: 'The Finals base match combat with ESP wallhack active',
+	13: 'The Finals loot run with radar and player ESP enabled',
+	14: 'The Finals map overview with radar and player positions',
+	15: 'The Finals wallhack skeleton ESP on enemy player model',
 };
 
 export function rustScreenshotAlt(n: number): string {
-	return rustScreenshotAlts[n] ?? `Rust Cheats gameplay screenshot ${n}`;
+	return rustScreenshotAlts[n] ?? `The Final Cheats gameplay screenshot ${n}`;
 }
 
 /** Screenshots used across product pages. */
-export const rustImages = {
+export const finalsImages = {
 	hero: rustScreenshot(1),
 	espWallhack: rustScreenshot(3),
 	aimbotCombat: rustScreenshot(4),
@@ -68,7 +68,7 @@ export const rustImages = {
 		const n = i + 1;
 		return {
 			src: rustScreenshot(n),
-			title: `Rust Cheats screenshot ${n} — ESP, aimbot and radar`,
+			title: `The Final Cheats screenshot ${n} — ESP, aimbot and radar`,
 			caption: rustScreenshotAlt(n),
 		};
 	}),

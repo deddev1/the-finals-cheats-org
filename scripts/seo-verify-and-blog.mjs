@@ -16,9 +16,9 @@ const bad = [
 	'Activision',
 	'soft aim, and .',
 	'ESP, Soft Aim,',
-	'best-rust-cheats',
-	'rust-esp-hack',
-	'rust-aimbot-hack',
+	'best-finals-cheats',
+	'finals-esp-hack',
+	'finals-aimbot-hack',
 ];
 console.log('--- pages-en leftovers ---');
 for (const b of bad) {
@@ -39,8 +39,8 @@ for (const b of [
 	'Battle Pass',
 	'REasy Anti-Cheat',
 	'soft aim, and .',
-	'best-rust-cheats',
-	'rust-esp-hack',
+	'best-finals-cheats',
+	'finals-esp-hack',
 ]) {
 	const n = en.split(b).length - 1;
 	if (n) console.log(`${b}: ${n}`);
@@ -51,26 +51,26 @@ const reps = [
 	['V-Bucks', 'scrap'],
 	['Item Shop', 'in-game store'],
 	['Battle Pass', 'patch cycle progression'],
-	['FNCS', 'Rust community event'],
+	['FNCS', 'The Finals community event'],
 	['Hammer AR', 'M4A1'],
 	['mythics', 'meta guns'],
 	['island codes', 'aim train sessions maps'],
 	['Creative 1v1s', 'aim training'],
 	['creative 1v1s', 'aim training'],
 	['Epic health', 'Battlestate status'],
-	['Epic terms', 'Facepunch Studios terms'],
+	['Epic terms', 'Embark Studios terms'],
 	["Epic's Easy Anti-Cheat", 'Easy Anti-Cheat'],
-	['Epic patch', 'Rust patch'],
+	['Epic patch', 'The Finals patch'],
 	['EliteFN', 'a Fortnite cheat shop'],
 	['GhostWare', 'a slim cheat vendor'],
 	['CheatVault', 'another cheat shop'],
-	['/rust-aimbot-hack/', '/rust-aimbot/'],
-	['/rust-esp-hack/', '/rust-esp/'],
-	['/best-rust-cheats/', '/'],
-	['best rust cheats', 'rust cheats'],
+	['/finals-aimbot-hack/', '/finals-aimbot/'],
+	['/finals-esp-hack/', '/finals-esp/'],
+	['/best-finals-cheats/', '/'],
+	['best the finals cheats', 'the finals cheats'],
 	['hot drops', 'hot spawns'],
 	['ranked grinders', 'session grinders'],
-	['before Ranked', 'before a raid'],
+	['before Ranked', 'before a match'],
 ];
 let s = blog;
 let n = 0;

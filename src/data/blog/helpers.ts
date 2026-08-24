@@ -1,5 +1,5 @@
 import { siteConfig } from '../site';
-import { rustImages } from '../rust';
+import { finalsImages } from '../finals';
 import { blogSitemapImageMeta } from '../brand-sitemap';
 import {
 	defaultLocale,
@@ -12,20 +12,20 @@ import type { BlogImageKey, BlogPostDefinition, BlogTranslation, ResolvedBlogPos
 import { blogPosts as rawBlogPosts } from './posts.generated';
 
 const imageMap: Record<BlogImageKey, string> = {
-	hero: rustImages.espWallhack,
-	espWallhack: rustImages.espWallhack,
-	aimbotCombat: rustImages.aimbotCombat,
-	aimbotSkeleton: rustImages.aimbotSkeleton,
-	squadFight: rustImages.aimbotCombat,
-	headerArt: rustImages.playerEsp,
-	hacksPackage: rustImages.espWallhack,
-	playerEsp: rustImages.playerEsp,
-	raidFight: rustImages.aimbotCombat,
-	raidCombat: rustImages.hacksCombat,
-	raidMapMap: rustImages.espWallhack,
+	hero: finalsImages.espWallhack,
+	espWallhack: finalsImages.espWallhack,
+	aimbotCombat: finalsImages.aimbotCombat,
+	aimbotSkeleton: finalsImages.aimbotSkeleton,
+	squadFight: finalsImages.aimbotCombat,
+	headerArt: finalsImages.playerEsp,
+	hacksPackage: finalsImages.espWallhack,
+	playerEsp: finalsImages.playerEsp,
+	raidFight: finalsImages.aimbotCombat,
+	raidCombat: finalsImages.hacksCombat,
+	raidMapMap: finalsImages.espWallhack,
 };
 
-const FALLBACK_BLOG_IMAGE = rustImages.espWallhack;
+const FALLBACK_BLOG_IMAGE = finalsImages.espWallhack;
 
 function expandTranslations(
 	translations: Partial<Record<LocaleCode, BlogTranslation>> & { en: BlogTranslation },
@@ -217,7 +217,7 @@ export function getBlogSitemapEntriesForLocale(locale: LocaleCode) {
 	for (const post of blogPosts) {
 		const t = post.translations[locale];
 		const imageSrc = getBlogImageSrc(post.imageKey);
-		const isProductPost = /Rust Cheats|Aimbot|ESP|Undetected|Comparisons/i.test(post.category);
+		const isProductPost = /The Final Cheats|Aimbot|ESP|Undetected|Comparisons/i.test(post.category);
 		entries.push({
 			path: getBlogPostPath(locale, t.slug),
 			lastmod: post.updated,

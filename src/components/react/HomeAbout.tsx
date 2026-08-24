@@ -77,9 +77,9 @@ function HomeAboutInner({ pricingHref }: Pick<Props, 'pricingHref'>) {
 						{t('home.aboutP2Before')}{' '}
 						<a href="/">{t('home.aboutPillar')}</a>
 						{t('home.aboutP2Mid')}
-						<a href="/rust-esp/">{t('home.aboutEsp')}</a>
+						<a href="/finals-esp/">{t('home.aboutEsp')}</a>
 						{t('home.aboutP2Mid')}
-						<a href="/rust-aimbot/">{t('home.aboutAimbot')}</a>
+						<a href="/finals-aimbot/">{t('home.aboutAimbot')}</a>
 						{t('home.aboutP2Or')}
 						<a href="/updates/">{t('home.aboutUndetected')}</a>
 						{t('home.aboutP2After')}

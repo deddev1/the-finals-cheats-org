@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-/** Rebuild routing.ts and constants.mjs from clea Rust source. */
+/** Rebuild routing.ts and constants.mjs from clea The Finals source. */
 import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -13,42 +13,42 @@ const REMOVE_IDS = [
 ];
 
 const REPLACEMENTS = [
-	['rust-esp', 'rust-esp'],
-	['rust-aimbot', 'rust-aimbot'],
+	['finals-esp', 'finals-esp'],
+	['finals-aimbot', 'finals-aimbot'],
 	['eac', 'eac'],
-	['undetected-rust-cheats', 'undetected-rust-cheats'],
-	['rust-wallhack', 'rust-wallhack'],
-	['rust-radar-hack', 'rust-radar-hack'],
-	['rust-cheats-2026', 'rust-cheats-2026'],
+	['undetected-finals-cheats', 'undetected-finals-cheats'],
+	['finals-wallhack', 'finals-wallhack'],
+	['finals-radar-hack', 'finals-radar-hack'],
+	['finals-cheats-2026', 'finals-cheats-2026'],
 	['eac-bypass', 'eac-bypass'],
-	['rustcheats.co', 'rustcheats.co'],
-	['trucos-rust', 'trucos-rust'],
-	['triche-rust', 'triche-rust'],
-	['rust-cheats', 'rust-cheats'],
-	['cheats-rust', 'cheats-rust'],
-	['trucchi-rust', 'trucchi-rust'],
-	['cheaty-rust', 'cheaty-rust'],
-	['chity-rust', 'chity-rust'],
-	['chitov-rust', 'chitov-rust'],
-	['chitiv-rust', 'chitiv-rust'],
-	['cheatow-rust', 'cheatow-rust'],
-	['hile-rust', 'hile-rust'],
-	['rust-hile', 'rust-hile'],
-	['rust-esp-chity', 'rust-esp-chity'],
-	['rust-aimbot-chity', 'rust-aimbot-chity'],
-	['unentdeckte-rust-cheats', 'unentdeckte-rust-cheats'],
-	['cheats-rust-indetectaveis', 'cheats-rust-indetectaveis'],
-	['trucchi-rust-indetectabili', 'trucchi-rust-indetectabili'],
-	['niewykrywalne-cheats-rust', 'niewykrywalne-cheats-rust'],
-	['nedecektiruemye-chity-rust', 'nedecektiruemye-chity-rust'],
-	['tespit-edilemeyen-rust-hileleri', 'tespit-edilemeyen-rust-hileleri'],
-	['nedecektovani-chity-rust', 'nedecektovani-chity-rust'],
-	['cheats-rust-nedetectabile', 'cheats-rust-nedetectabile'],
-	['basta-rust-cheats', 'basta-rust-cheats'],
-	['eac-bypass-trucos-rust', 'eac-bypass-trucos-rust'],
-	['eac-bypass-triche-rust', 'eac-bypass-triche-rust'],
-	['eac-bypass-cheats-rust', 'eac-bypass-cheats-rust'],
-	['eac-bypass-chity-rust', 'eac-bypass-chity-rust'],
+	['thefinalscheats.org', 'thefinalscheats.org'],
+	['trucos-finals', 'trucos-finals'],
+	['triche-finals', 'triche-finals'],
+	['finals-cheats', 'finals-cheats'],
+	['cheats-finals', 'cheats-finals'],
+	['trucchi-finals', 'trucchi-finals'],
+	['cheaty-finals', 'cheaty-finals'],
+	['chity-finals', 'chity-finals'],
+	['chitov-finals', 'chitov-finals'],
+	['chitiv-finals', 'chitiv-finals'],
+	['cheatow-finals', 'cheatow-finals'],
+	['hile-finals', 'hile-finals'],
+	['finals-hile', 'finals-hile'],
+	['finals-esp-chity', 'finals-esp-chity'],
+	['finals-aimbot-chity', 'finals-aimbot-chity'],
+	['unentdeckte-finals-cheats', 'unentdeckte-finals-cheats'],
+	['cheats-finals-indetectaveis', 'cheats-finals-indetectaveis'],
+	['trucchi-finals-indetectabili', 'trucchi-finals-indetectabili'],
+	['niewykrywalne-cheats-finals', 'niewykrywalne-cheats-finals'],
+	['nedecektiruemye-chity-finals', 'nedecektiruemye-chity-finals'],
+	['tespit-edilemeyen-finals-hileleri', 'tespit-edilemeyen-finals-hileleri'],
+	['nedecektovani-chity-finals', 'nedecektovani-chity-finals'],
+	['cheats-finals-nedetectabile', 'cheats-finals-nedetectabile'],
+	['basta-finals-cheats', 'basta-finals-cheats'],
+	['eac-bypass-trucos-finals', 'eac-bypass-trucos-finals'],
+	['eac-bypass-triche-finals', 'eac-bypass-triche-finals'],
+	['eac-bypass-cheats-finals', 'eac-bypass-cheats-finals'],
+	['eac-bypass-chity-finals', 'eac-bypass-chity-finals'],
 	['eac-bypass-rust', 'eac-bypass'],
 ];
 
@@ -84,25 +84,25 @@ async function fixRouting() {
 }
 
 async function fixConstants() {
-	const heroImages = `/** Hero image per page topic — keyword-rich rust-cheats paths. */
+	const heroImages = `/** Hero image per page topic — keyword-rich finals-cheats paths. */
 export const HERO_IMAGES = {
-	home: '/images/the-rust-cheats-hero.webp',
-	'rust-esp': '/images/the-rust-cheats-esp-wallhack.webp',
-	'rust-aimbot': '/images/the-rust-cheats-aimbot-combat.webp',
-	features: '/images/rust-cheats-package.webp',
-	pricing: '/images/rust-cheats-cover.webp',
+	home: '/images/the-finals-cheats-hero.webp',
+	'finals-esp': '/images/the-finals-cheats-esp-wallhack.webp',
+	'finals-aimbot': '/images/the-finals-cheats-aimbot-combat.webp',
+	features: '/images/finals-cheats-package.webp',
+	pricing: '/images/finals-cheats-cover.webp',
 	setup: '/images/rust-loadout-builder.webp',
 	updates: '/images/rust-header-art.webp',
 	faq: '/images/rust-pack-fight.webp',
-	support: '/images/rust-cheats-package.webp',
+	support: '/images/finals-cheats-package.webp',
 	undetected: '/images/rust-survival-combat.webp',
-	wallhack: '/images/the-rust-cheats-esp-wallhack.webp',
+	wallhack: '/images/the-finals-cheats-esp-wallhack.webp',
 	radar: '/images/rust-player-esp.webp',
 	'eac': '/images/rust-reboot-van-fight.webp',
-	'cheats-2026': '/images/the-rust-cheats-hero.webp',
-	privacy: '/images/the-rust-cheats-aimbot-combat.webp',
-	refund: '/images/rust-cheats-cover.webp',
-	terms: '/images/rust-cheats-package.webp',
+	'cheats-2026': '/images/the-finals-cheats-hero.webp',
+	privacy: '/images/the-finals-cheats-aimbot-combat.webp',
+	refund: '/images/finals-cheats-cover.webp',
+	terms: '/images/finals-cheats-package.webp',
 };`;
 
 	let content = await readFile(path.join(SRC, 'scripts/i18n-data/constants.mjs'), 'utf8');
@@ -112,12 +112,12 @@ export const HERO_IMAGES = {
 	}
 	content = content.replace(
 		/export const PAGE_IDS = \[[\s\S]*?\];/,
-		`export const PAGE_IDS = [\n\t'home', 'rust-esp', 'rust-aimbot', 'features', 'pricing', 'setup',\n\t'updates', 'faq', 'support', 'undetected', 'wallhack', 'radar', 'eac',\n\t'cheats-2026', 'privacy', 'refund', 'terms',\n];`,
+		`export const PAGE_IDS = [\n\t'home', 'finals-esp', 'finals-aimbot', 'features', 'pricing', 'setup',\n\t'updates', 'faq', 'support', 'undetected', 'wallhack', 'radar', 'eac',\n\t'cheats-2026', 'privacy', 'refund', 'terms',\n];`,
 	);
 	content = content.replace(/\/\*\* Hero image[\s\S]*?};/, heroImages);
 	content = content.replace(
 		/export type PageId = [^;]+;/,
-		"export type PageId = 'home' | 'rust-esp' | 'rust-aimbot' | 'features' | 'pricing' | 'setup' | 'updates' | 'faq' | 'support' | 'undetected' | 'wallhack' | 'radar' | 'eac' | 'cheats-2026' | 'privacy' | 'refund' | 'terms';",
+		"export type PageId = 'home' | 'finals-esp' | 'finals-aimbot' | 'features' | 'pricing' | 'setup' | 'updates' | 'faq' | 'support' | 'undetected' | 'wallhack' | 'radar' | 'eac' | 'cheats-2026' | 'privacy' | 'refund' | 'terms';",
 	);
 	content = content.replace(/operatorEsp/g, 'playerEsp');
 	content = content.replace(/extractFight/g, 'raidFight');

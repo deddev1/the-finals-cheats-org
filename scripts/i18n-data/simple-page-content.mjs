@@ -592,92 +592,92 @@ export const PAGE_CONTENT = {
 	"updates": {
 		"0": {
 			"en": [
-				"As of 13 Aug 2026 the package is online for Rust on Windows PC. We post a new note here when a game or Easy Anti-Cheat patch needs a rebuild.",
-				"If Status is green, you can raid. If we are rebuilding, wait for the next note."
+				"As of 13 Aug 2026 the package is online for The Finals on Windows PC. We post a new note here when a game or Easy Anti-Cheat patch needs a rebuild.",
+				"If Status is green, you can match. If we are rebuilding, wait for the next note."
 			],
 			"es": [
-				"A 13 ago 2026 el paquete está online para Rust en Windows PC. Publicamos una nota aquí cuando un parche de Rust o Easy Anti-Cheat requiere rebuild.",
-				"Si el Estado está en verde, puedes raidear. Si estamos reconstruyendo, espera la siguiente nota."
+				"A 13 ago 2026 el paquete está online para The Finals en Windows PC. Publicamos una nota aquí cuando un parche de The Finals o Easy Anti-Cheat requiere rebuild.",
+				"Si el Estado está en verde, puedes matchear. Si estamos reconstruyendo, espera la siguiente nota."
 			],
 			"fr": [
-				"Au 13 août 2026, le pack est en ligne pour Rust sur PC Windows. Nous publions une note ici quand un patch Rust ou Easy Anti-Cheat nécessite une reconstruction.",
-				"Si le Statut est vert, vous pouvez raider. Si nous reconstruisons, attendez la prochaine note."
+				"Au 13 août 2026, le pack est en ligne pour The Finals sur PC Windows. Nous publions une note ici quand un patch The Finals ou Easy Anti-Cheat nécessite une reconstruction.",
+				"Si le Statut est vert, vous pouvez matcher. Si nous reconstruisons, attendez la prochaine note."
 			],
 			"de": [
-				"Stand 13. Aug. 2026 ist das Paket für Rust auf Windows PC online. Wir posten hier eine Notiz, wenn ein Rust- oder Easy Anti-Cheat-Patch einen Rebuild braucht.",
-				"Ist der Status grün, kannst du raiden. Bei Rebuild warte auf die nächste Notiz."
+				"Stand 13. Aug. 2026 ist das Paket für The Finals auf Windows PC online. Wir posten hier eine Notiz, wenn ein The Finals- oder Easy Anti-Cheat-Patch einen Rebuild braucht.",
+				"Ist der Status grün, kannst du matchen. Bei Rebuild warte auf die nächste Notiz."
 			],
 			"pt": [
-				"Em 13 ago 2026 o pacote está online para Rust no Windows PC. Publicamos uma nota aqui quando um patch de Rust ou Easy Anti-Cheat precisa de rebuild.",
-				"Se o Status estiver verde, pode raidear. Se estivermos reconstruindo, aguarde a próxima nota."
+				"Em 13 ago 2026 o pacote está online para The Finals no Windows PC. Publicamos uma nota aqui quando um patch de The Finals ou Easy Anti-Cheat precisa de rebuild.",
+				"Se o Status estiver verde, pode matchear. Se estivermos reconstruindo, aguarde a próxima nota."
 			],
 			"it": [
-				"Al 13 ago 2026 il pacchetto è online per Rust su Windows PC. Pubblichiamo una nota qui quando una patch Rust o Easy Anti-Cheat richiede rebuild.",
-				"Se lo Stato è verde, puoi raidare. Se stiamo ricostruendo, attendi la prossima nota."
+				"Al 13 ago 2026 il pacchetto è online per The Finals su Windows PC. Pubblichiamo una nota qui quando una patch The Finals o Easy Anti-Cheat richiede rebuild.",
+				"Se lo Stato è verde, puoi matchare. Se stiamo ricostruendo, attendi la prossima nota."
 			],
 			"nl": [
-				"Per 13 aug 2026 is het pakket online voor Rust op Windows PC. We plaatsen hier een notitie wanneer een Rust- of Easy Anti-Cheat-patch een rebuild nodig heeft.",
-				"Is Status groen, dan kun je raiden. Bij rebuild wacht op de volgende notitie."
+				"Per 13 aug 2026 is het pakket online voor The Finals op Windows PC. We plaatsen hier een notitie wanneer een The Finals- of Easy Anti-Cheat-patch een rebuild nodig heeft.",
+				"Is Status groen, dan kun je matchen. Bij rebuild wacht op de volgende notitie."
 			],
 			"pl": [
-				"Na 13 sie 2026 pakiet jest online dla Rust na Windows PC. Publikujemy tu notatkę, gdy patch Rust lub Easy Anti-Cheat wymaga rebuildu.",
-				"Gdy Status jest zielony, możesz raidić. Przy rebuildzie czekaj na kolejną notatkę."
+				"Na 13 sie 2026 pakiet jest online dla The Finals na Windows PC. Publikujemy tu notatkę, gdy patch The Finals lub Easy Anti-Cheat wymaga rebuildu.",
+				"Gdy Status jest zielony, możesz matchić. Przy rebuildzie czekaj na kolejną notatkę."
 			],
 			"ru": [
-				"На 13 авг. 2026 пакет онлайн для Rust на Windows PC. Мы публикуем заметку, когда патч Rust или Easy Anti-Cheat требует пересборки.",
+				"На 13 авг. 2026 пакет онлайн для The Finals на Windows PC. Мы публикуем заметку, когда патч The Finals или Easy Anti-Cheat требует пересборки.",
 				"Если Статус зелёный — можно играть. При пересборке ждите следующую заметку."
 			],
 			"tr": [
-				"13 Ağu 2026 itibarıyla paket Rust için Windows PC'de online. Rust veya Easy Anti-Cheat yaması rebuild gerektirdiğinde burada not paylaşırız.",
-				"Durum yeşilse raid atabilirsiniz. Rebuild sırasında sonraki notu bekleyin."
+				"13 Ağu 2026 itibarıyla paket The Finals için Windows PC'de online. The Finals veya Easy Anti-Cheat yaması rebuild gerektirdiğinde burada not paylaşırız.",
+				"Durum yeşilse match atabilirsiniz. Rebuild sırasında sonraki notu bekleyin."
 			],
 			"ar": [
-				"اعتباراً من 13 أغسطس 2026 الحزمة متاحة لـ Rust على Windows PC. ننشر ملاحظة هنا عندما يتطلب تصحيح Rust أو Easy Anti-Cheat إعادة بناء.",
+				"اعتباراً من 13 أغسطس 2026 الحزمة متاحة لـ The Finals على Windows PC. ننشر ملاحظة هنا عندما يتطلب تصحيح The Finals أو Easy Anti-Cheat إعادة بناء.",
 				"إذا كانت الحالة خضراء يمكنك الraid. أثناء إعادة البناء انتظر الملاحظة التالية."
 			],
 			"ja": [
-				"2026年8月13日時点で、Windows PC向けRustパッケージはオンラインです。RustまたはEasy Anti-Cheatパッチでリビルドが必要な際はここに投稿します。",
+				"2026年8月13日時点で、Windows PC向けThe Finalsパッケージはオンラインです。The FinalsまたはEasy Anti-Cheatパッチでリビルドが必要な際はここに投稿します。",
 				"ステータスが緑ならレイド可能。リビルド中は次の投稿を待ってください。"
 			],
 			"ko": [
-				"2026년 8월 13일 기준 Rust Windows PC 패키지는 온라인입니다. Rust 또는 Easy Anti-Cheat 패치로 리빌드가 필요하면 여기에 공지합니다.",
+				"2026년 8월 13일 기준 The Finals Windows PC 패키지는 온라인입니다. The Finals 또는 Easy Anti-Cheat 패치로 리빌드가 필요하면 여기에 공지합니다.",
 				"상태가 녹색이면 레이드 가능. 리빌드 중에는 다음 공지를 기다리세요."
 			],
 			"zh": [
-				"截至2026年8月13日，Rust Windows PC 套餐已上线。Rust 或 Easy Anti-Cheat 补丁需要重建时我们会在此发布说明。",
-				"状态为绿色即可 raid。重建中请等待下一条说明。"
+				"截至2026年8月13日，The Finals Windows PC 套餐已上线。The Finals 或 Easy Anti-Cheat 补丁需要重建时我们会在此发布说明。",
+				"状态为绿色即可 match。重建中请等待下一条说明。"
 			],
 			"hi": [
-				"13 अगस्त 2026 तक पैकेज Rust Windows PC पर online है। Rust या Easy Anti-Cheat पैच पर rebuild नोट यहाँ पोस्ट होता है।",
-				"स्टेटस हरा हो तो raid करें। rebuild पर अगली नोट का इंतज़ार करें।"
+				"13 अगस्त 2026 तक पैकेज The Finals Windows PC पर online है। The Finals या Easy Anti-Cheat पैच पर rebuild नोट यहाँ पोस्ट होता है।",
+				"स्टेटस हरा हो तो match करें। rebuild पर अगली नोट का इंतज़ार करें।"
 			],
 			"id": [
-				"Per 13 Agu 2026 paket online untuk Rust di Windows PC. Kami posting catatan di sini saat patch Rust atau Easy Anti-Cheat butuh rebuild.",
-				"Jika Status hijau, Anda bisa raid. Saat rebuild, tunggu catatan berikutnya."
+				"Per 13 Agu 2026 paket online untuk The Finals di Windows PC. Kami posting catatan di sini saat patch The Finals atau Easy Anti-Cheat butuh rebuild.",
+				"Jika Status hijau, Anda bisa match. Saat rebuild, tunggu catatan berikutnya."
 			],
 			"th": [
-				"ณ 13 ส.ค. 2026 แพ็กเกจออนไลน์สำหรับ Rust บน Windows PC เราโพสต์บันทึกเมื่อแพตช์ Rust หรือ Easy Anti-Cheat ต้อง rebuild",
-				"ถ้าสถานะเป็นสีเขียว raid ได้ หากกำลัง rebuild รอบันทึกถัดไป"
+				"ณ 13 ส.ค. 2026 แพ็กเกจออนไลน์สำหรับ The Finals บน Windows PC เราโพสต์บันทึกเมื่อแพตช์ The Finals หรือ Easy Anti-Cheat ต้อง rebuild",
+				"ถ้าสถานะเป็นสีเขียว match ได้ หากกำลัง rebuild รอบันทึกถัดไป"
 			],
 			"vi": [
-				"Tính đến 13/8/2026 gói đang online cho Rust trên Windows PC. Chúng tôi đăng ghi chú khi bản vá Rust hoặc Easy Anti-Cheat cần rebuild.",
-				"Nếu Trạng thái xanh, bạn có thể raid. Đang rebuild thì chờ ghi chú tiếp theo."
+				"Tính đến 13/8/2026 gói đang online cho The Finals trên Windows PC. Chúng tôi đăng ghi chú khi bản vá The Finals hoặc Easy Anti-Cheat cần rebuild.",
+				"Nếu Trạng thái xanh, bạn có thể match. Đang rebuild thì chờ ghi chú tiếp theo."
 			],
 			"uk": [
-				"Станом на 13 серп. 2026 пакет онлайн для Rust на Windows PC. Публікуємо нотатку, коли патч Rust або Easy Anti-Cheat потребує перезбірки.",
-				"Якщо Статус зелений — можна raidiти. Під час перезбірки чекайте наступну нотатку."
+				"Станом на 13 серп. 2026 пакет онлайн для The Finals на Windows PC. Публікуємо нотатку, коли патч The Finals або Easy Anti-Cheat потребує перезбірки.",
+				"Якщо Статус зелений — можна matchiти. Під час перезбірки чекайте наступну нотатку."
 			],
 			"cs": [
-				"K 13. 8. 2026 je balíček online pro Rust na Windows PC. Zde zveřejníme poznámku, když patch Rust nebo Easy Anti-Cheat vyžaduje rebuild.",
-				"Je-li Stav zelený, můžete raidovat. Při rebuildu počkejte na další poznámku."
+				"K 13. 8. 2026 je balíček online pro The Finals na Windows PC. Zde zveřejníme poznámku, když patch The Finals nebo Easy Anti-Cheat vyžaduje rebuild.",
+				"Je-li Stav zelený, můžete matchovat. Při rebuildu počkejte na další poznámku."
 			],
 			"ro": [
-				"La 13 aug 2026 pachetul este online pentru Rust pe Windows PC. Postăm o notă aici când un patch Rust sau Easy Anti-Cheat necesită rebuild.",
-				"Dacă Statusul e verde, poți raida. La rebuild așteaptă următoarea notă."
+				"La 13 aug 2026 pachetul este online pentru The Finals pe Windows PC. Postăm o notă aici când un patch The Finals sau Easy Anti-Cheat necesită rebuild.",
+				"Dacă Statusul e verde, poți matcha. La rebuild așteaptă următoarea notă."
 			],
 			"sv": [
-				"Per 13 aug 2026 är paketet online för Rust på Windows PC. Vi postar en notis här när en Rust- eller Easy Anti-Cheat-patch kräver rebuild.",
-				"Är Status grön kan du raida. Vid rebuild vänta på nästa notis."
+				"Per 13 aug 2026 är paketet online för The Finals på Windows PC. Vi postar en notis här när en The Finals- eller Easy Anti-Cheat-patch kräver rebuild.",
+				"Är Status grön kan du matcha. Vid rebuild vänta på nästa notis."
 			]
 		},
 		"1": {
@@ -818,17 +818,17 @@ export const PAGE_CONTENT = {
 		},
 		"list0": {
 			"en": [
-				"Check this page before every raid after a patch",
+				"Check this page before every match after a patch",
 				"Monthly and lifetime licenses get rebuilds while active",
 				"No cheat stays undetected forever — status first, then play"
 			],
 			"es": [
-				"Revisa esta página antes de cada raid tras un parche",
+				"Revisa esta página antes de cada match tras un parche",
 				"Licencias mensuales y de por vida reciben rebuilds mientras estén activas",
 				"Ningún cheat permanece indetectable para siempre — estado primero, luego jugar"
 			],
 			"fr": [
-				"Consultez cette page avant chaque raid après un patch",
+				"Consultez cette page avant chaque match après un patch",
 				"Les licences mensuelles et à vie reçoivent des reconstructions tant qu'actives",
 				"Aucune triche ne reste indétectable éternellement — statut d'abord, puis jouer"
 			],
@@ -838,37 +838,37 @@ export const PAGE_CONTENT = {
 				"Kein Cheat bleibt für immer undetected — erst Status, dann spielen"
 			],
 			"pt": [
-				"Verifique esta página antes de cada raid após patch",
+				"Verifique esta página antes de cada match após patch",
 				"Licenças mensais e vitalícias recebem rebuilds enquanto ativas",
 				"Nenhum cheat fica indetectável para sempre — status primeiro, depois jogar"
 			],
 			"it": [
-				"Controlla questa pagina prima di ogni raid dopo una patch",
+				"Controlla questa pagina prima di ogni match dopo una patch",
 				"Licenze mensili e lifetime ricevono rebuild finché attive",
 				"Nessun cheat resta indetectable per sempre — stato prima, poi gioca"
 			],
 			"nl": [
-				"Check deze pagina voor elke raid na een patch",
+				"Check deze pagina voor elke match na een patch",
 				"Maand- en lifetime-licenties krijgen rebuilds zolang actief",
 				"Geen cheat blijft voor altijd undetected — eerst status, dan spelen"
 			],
 			"pl": [
-				"Sprawdź tę stronę przed każdym raid po patchu",
+				"Sprawdź tę stronę przed każdym match po patchu",
 				"Licencje miesięczne i lifetime dostają rebuildy przy aktywnej licencji",
 				"Żaden cheat nie jest undetected na zawsze — najpierw status, potem gra"
 			],
 			"ru": [
-				"Проверяйте эту страницу перед каждым raid после патча",
+				"Проверяйте эту страницу перед каждым match после патча",
 				"Месячные и lifetime лицензии получают пересборки при активной лицензии",
 				"Ни один чит не остаётся undetected навсегда — сначала статус, потом игра"
 			],
 			"tr": [
-				"Yama sonrası her raid öncesi bu sayfayı kontrol edin",
+				"Yama sonrası her match öncesi bu sayfayı kontrol edin",
 				"Aylık ve lifetime lisanslar aktifken rebuild alır",
 				"Hiçbir hile sonsuza kadar undetected kalmaz — önce durum, sonra oyna"
 			],
 			"ar": [
-				"تحقق من هذه الصفحة قبل كل raid بعد التصحيح",
+				"تحقق من هذه الصفحة قبل كل match بعد التصحيح",
 				"التراخيص الشهرية وlifetime تحصل على rebuilds أثناء التفعيل",
 				"لا يبقى أي cheat غير مكتشف للأبد — الحالة أولاً ثم اللعب"
 			],
@@ -883,47 +883,47 @@ export const PAGE_CONTENT = {
 				"치트는 영원히 undetected가 아닙니다 — 상태 먼저, 그다음 플레이"
 			],
 			"zh": [
-				"补丁后每次 raid 前查看此页",
+				"补丁后每次 match 前查看此页",
 				"月付和 lifetime 许可证激活期间提供重建",
 				"没有作弊能永远 undetected — 先查状态再玩"
 			],
 			"hi": [
-				"पैच के बाद हर raid से पहले यह पेज देखें",
+				"पैच के बाद हर match से पहले यह पेज देखें",
 				"मासिक और lifetime लाइसेंस सक्रिय रहते rebuild पाते हैं",
 				"कोई cheat हमेशा undetected नहीं रहता — पहले स्टेटस, फिर खेल"
 			],
 			"id": [
-				"Cek halaman ini sebelum setiap raid setelah patch",
+				"Cek halaman ini sebelum setiap match setelah patch",
 				"Lisensi bulanan dan lifetime dapat rebuild selama aktif",
 				"Tidak ada cheat undetected selamanya — status dulu, baru main"
 			],
 			"th": [
-				"ตรวจหน้านี้ก่อน raid ทุกครั้งหลังแพตช์",
+				"ตรวจหน้านี้ก่อน match ทุกครั้งหลังแพตช์",
 				"ใบอนุญาตรายเดือนและ lifetime ได้ rebuild ขณะใช้งาน",
 				"ไม่มี cheat undetected ตลอดไป — ตรวจสถานะก่อนเล่น"
 			],
 			"vi": [
-				"Kiểm tra trang này trước mỗi raid sau bản vá",
+				"Kiểm tra trang này trước mỗi match sau bản vá",
 				"Giấy phép tháng và lifetime được rebuild khi còn hiệu lực",
 				"Không cheat nào undetected mãi — trạng thái trước, chơi sau"
 			],
 			"uk": [
-				"Перевіряйте цю сторінку перед кожним raid після патчу",
+				"Перевіряйте цю сторінку перед кожним match після патчу",
 				"Місячні та lifetime ліцензії отримують перезбірки під час активності",
 				"Жоден чит не undetected назавжди — спочатку статус, потім гра"
 			],
 			"cs": [
-				"Před každým raid po patchi zkontrolujte tuto stránku",
+				"Před každým match po patchi zkontrolujte tuto stránku",
 				"Měsíční a lifetime licence dostávají rebuildy při aktivní licenci",
 				"Žádný cheat není undetected navždy — nejdřív stav, pak hra"
 			],
 			"ro": [
-				"Verifică această pagină înainte de fiecare raid după patch",
+				"Verifică această pagină înainte de fiecare match după patch",
 				"Licențele lunare și lifetime primesc rebuild-uri cât sunt active",
 				"Niciun cheat nu rămâne undetected pentru totdeauna — status mai întâi"
 			],
 			"sv": [
-				"Kontrollera sidan före varje raid efter patch",
+				"Kontrollera sidan före varje match efter patch",
 				"Månads- och lifetime-licenser får rebuilds medan aktiva",
 				"Ingen cheat förblir undetected för evigt — status först, sedan spela"
 			]
@@ -1002,7 +1002,7 @@ export const PAGE_CONTENT = {
 			"hi": [
 				"नवीनतम स्टेटस नोट पढ़ें",
 				"समस्या हो तो सेटअप फॉलो करें",
-				"ऑर्डर ID के साथ support@rustcheats.co"
+				"ऑर्डर ID के साथ support@thefinalscheats.org"
 			],
 			"id": [
 				"Baca catatan status terbaru",
@@ -1134,124 +1134,124 @@ export const PAGE_CONTENT = {
 	"hacks": {
 		"0": {
 			"en": [
-				"Rust cheats are third-party tools that give you extra information and combat assist during raids. Most players search for rust cheats when they want player ESP, loot visibility, off-screen radar, or smoother aim under pressure.",
-				"Rust Cheats bundles those tools in one license for Windows PC — no stacking separate downloads for wallhack, radar, and aimbot."
+				"The Finals cheats are third-party tools that give you extra information and combat assist during matches. Most players search for the finals cheats when they want player ESP, loot visibility, off-screen radar, or smoother aim under pressure.",
+				"The Final Cheats bundles those tools in one license for Windows PC — no stacking separate downloads for wallhack, radar, and aimbot."
 			],
 			"es": [
-				"Los trucos de Rust son herramientas de terceros que te dan información extra y asistencia en combate durante raids. La mayoría busca rust cheats cuando quieren ESP de jugadores, visibilidad de loot, radar fuera de pantalla o puntería más suave bajo presión.",
-				"Rust Cheats agrupa esas herramientas en una licencia para Windows PC — sin descargas separadas para wallhack, radar y aimbot."
+				"Los trucos de The Finals son herramientas de terceros que te dan información extra y asistencia en combate durante matches. La mayoría busca the finals cheats cuando quieren ESP de jugadores, visibilidad de loot, radar fuera de pantalla o puntería más suave bajo presión.",
+				"The Final Cheats agrupa esas herramientas en una licencia para Windows PC — sin descargas separadas para wallhack, radar y aimbot."
 			],
 			"fr": [
-				"Les triches Rust sont des outils tiers qui donnent des infos supplémentaires et une aide au combat pendant les raids. La plupart cherchent rust cheats pour l'ESP joueurs, le loot, le radar hors écran ou une visée plus fluide sous pression.",
-				"Rust Cheats regroupe ces outils dans une licence PC Windows — sans empiler wallhack, radar et aimbot séparément."
+				"Les triches The Finals sont des outils tiers qui donnent des infos supplémentaires et une aide au combat pendant les matches. La plupart cherchent the finals cheats pour l'ESP joueurs, le loot, le radar hors écran ou une visée plus fluide sous pression.",
+				"The Final Cheats regroupe ces outils dans une licence PC Windows — sans empiler wallhack, radar et aimbot séparément."
 			],
 			"de": [
-				"Rust Cheats sind Drittanbieter-Tools mit Extra-Infos und Kampfhilfe bei Raids. Die meisten suchen rust cheats für Spieler-ESP, Loot-Sicht, Off-Screen-Radar oder sanfteres Zielen unter Druck.",
-				"Rust Cheats bündelt diese Tools in einer Windows-PC-Lizenz — ohne separate Downloads für Wallhack, Radar und Aimbot."
+				"The Final Cheats sind Drittanbieter-Tools mit Extra-Infos und Kampfhilfe bei Raids. Die meisten suchen the finals cheats für Spieler-ESP, Loot-Sicht, Off-Screen-Radar oder sanfteres Zielen unter Druck.",
+				"The Final Cheats bündelt diese Tools in einer Windows-PC-Lizenz — ohne separate Downloads für Wallhack, Radar und Aimbot."
 			],
 			"pt": [
-				"Rust cheats são ferramentas de terceiros que dão informação extra e assistência de combate em raids. A maioria procura rust cheats por ESP de jogadores, loot, radar off-screen ou mira mais suave sob pressão.",
-				"Rust Cheats reúne essas ferramentas numa licença Windows PC — sem empilhar wallhack, radar e aimbot separados."
+				"The Finals cheats são ferramentas de terceiros que dão informação extra e assistência de combate em matches. A maioria procura the finals cheats por ESP de jogadores, loot, radar off-screen ou mira mais suave sob pressão.",
+				"The Final Cheats reúne essas ferramentas numa licença Windows PC — sem empilhar wallhack, radar e aimbot separados."
 			],
 			"it": [
-				"I cheat Rust sono tool di terze parti che danno info extra e assistenza in combattimento durante i raid. Molti cercano rust cheats per ESP giocatori, loot, radar off-screen o mira più fluida sotto pressione.",
-				"Rust Cheats raggruppa questi tool in una licenza Windows PC — senza download separati per wallhack, radar e aimbot."
+				"I cheat The Finals sono tool di terze parti che danno info extra e assistenza in combattimento durante i match. Molti cercano the finals cheats per ESP giocatori, loot, radar off-screen o mira più fluida sotto pressione.",
+				"The Final Cheats raggruppa questi tool in una licenza Windows PC — senza download separati per wallhack, radar e aimbot."
 			],
 			"nl": [
-				"Rust cheats zijn tools van derden met extra info en gevechtshulp tijdens raids. De meeste zoeken rust cheats voor speler-ESP, loot, off-screen radar of soepeler richten onder druk.",
-				"Rust Cheats bundelt die tools in één Windows PC-licentie — geen aparte wallhack-, radar- en aimbot-downloads."
+				"The Finals cheats zijn tools van derden met extra info en gevechtshulp tijdens matches. De meeste zoeken the finals cheats voor speler-ESP, loot, off-screen radar of soepeler richten onder druk.",
+				"The Final Cheats bundelt die tools in één Windows PC-licentie — geen aparte wallhack-, radar- en aimbot-downloads."
 			],
 			"pl": [
-				"Rust cheats to narzędzia firm trzecich dające dodatkowe info i wsparcie w walce podczas raidów. Większość szuka rust cheats dla ESP graczy, lootu, radaru off-screen lub płynniejszego aimu pod presją.",
-				"Rust Cheats łączy te narzędzia w jednej licencji na Windows PC — bez osobnych pobrań wallhack, radar i aimbot."
+				"The Finals cheats to narzędzia firm trzecich dające dodatkowe info i wsparcie w walce podczas matchów. Większość szuka the finals cheats dla ESP graczy, lootu, radaru off-screen lub płynniejszego aimu pod presją.",
+				"The Final Cheats łączy te narzędzia w jednej licencji na Windows PC — bez osobnych pobrań wallhack, radar i aimbot."
 			],
 			"ru": [
-				"Rust cheats — сторонние инструменты с доп. информацией и боевой помощью в рейдах. Ищут rust cheats за ESP игроков, лут, off-screen radar или более плавный aim под давлением.",
-				"Rust Cheats объединяет эти инструменты в одной лицензии для Windows PC — без отдельных загрузок wallhack, radar и aimbot."
+				"The Finals cheats — сторонние инструменты с доп. информацией и боевой помощью в рейдах. Ищут the finals cheats за ESP игроков, лут, off-screen radar или более плавный aim под давлением.",
+				"The Final Cheats объединяет эти инструменты в одной лицензии для Windows PC — без отдельных загрузок wallhack, radar и aimbot."
 			],
 			"tr": [
-				"Rust hileleri raid sırasında ekstra bilgi ve savaş desteği veren üçüncü taraf araçlardır. Çoğu oyuncu ESP, loot, off-screen radar veya baskı altında daha yumuşak nişan için rust cheats arar.",
-				"Rust Cheats bu araçları Windows PC için tek lisans altında toplar — ayrı wallhack, radar ve aimbot indirmeleri yok."
+				"The Finals hileleri match sırasında ekstra bilgi ve savaş desteği veren üçüncü taraf araçlardır. Çoğu oyuncu ESP, loot, off-screen radar veya baskı altında daha yumuşak nişan için the finals cheats arar.",
+				"The Final Cheats bu araçları Windows PC için tek lisans altında toplar — ayrı wallhack, radar ve aimbot indirmeleri yok."
 			],
 			"ar": [
-				"rust cheats أدوات طرف ثالث تمنحك معلومات إضافية ومساعدة قتالية أثناء الraid. يبحث معظم اللاعبين عن rust cheats لـ ESP اللاعبين والloot والradar خارج الشاشة أو تصويب أنعم تحت الضغط.",
-				"Rust Cheats يجمع هذه الأدوات في ترخيص واحد لـ Windows PC — دون تحميلات منفصلة للwallhack والradar والaimbot."
+				"the finals cheats أدوات طرف ثالث تمنحك معلومات إضافية ومساعدة قتالية أثناء الraid. يبحث معظم اللاعبين عن the finals cheats لـ ESP اللاعبين والloot والradar خارج الشاشة أو تصويب أنعم تحت الضغط.",
+				"The Final Cheats يجمع هذه الأدوات في ترخيص واحد لـ Windows PC — دون تحميلات منفصلة للwallhack والradar والaimbot."
 			],
 			"ja": [
-				"Rustチートはレイド中に追加情報と戦闘支援を提供するサードパーティツールです。プレイヤーESP、loot、オフスクリーンradar、プレッシャー下でのスムーズなエイム目的でrust cheatsを探す人が多いです。",
-				"Rust Cheatsはwallhack、radar、aimbotをWindows PC向け1ライセンスにまとめます — 個別ダウンロード不要。"
+				"The Finalsチートはレイド中に追加情報と戦闘支援を提供するサードパーティツールです。プレイヤーESP、loot、オフスクリーンradar、プレッシャー下でのスムーズなエイム目的でthe finals cheatsを探す人が多いです。",
+				"The Final Cheatsはwallhack、radar、aimbotをWindows PC向け1ライセンスにまとめます — 個別ダウンロード不要。"
 			],
 			"ko": [
-				"Rust 치트는 레이드 중 추가 정보와 전투 보조를 제공하는 서드파티 도구입니다. 플레이어 ESP, loot, off-screen radar, 압박 상황에서 부드러운 에임을 위해 rust cheats를 찾습니다.",
-				"Rust Cheats는 wallhack, radar, aimbot을 Windows PC 단일 라이선스로 묶습니다 — 별도 다운로드 불필요."
+				"The Finals 치트는 레이드 중 추가 정보와 전투 보조를 제공하는 서드파티 도구입니다. 플레이어 ESP, loot, off-screen radar, 압박 상황에서 부드러운 에임을 위해 the finals cheats를 찾습니다.",
+				"The Final Cheats는 wallhack, radar, aimbot을 Windows PC 단일 라이선스로 묶습니다 — 별도 다운로드 불필요."
 			],
 			"zh": [
-				"Rust cheats 是第三方工具，在 raid 中提供额外信息和战斗辅助。多数玩家为玩家 ESP、物资可见、屏幕外 radar 或高压下更稳的瞄准而搜索 rust cheats。",
-				"Rust Cheats 将这些工具整合为 Windows PC 单一许可证 — 无需分别下载 wallhack、radar 和 aimbot。"
+				"The Finals cheats 是第三方工具，在 match 中提供额外信息和战斗辅助。多数玩家为玩家 ESP、物资可见、屏幕外 radar 或高压下更稳的瞄准而搜索 the finals cheats。",
+				"The Final Cheats 将这些工具整合为 Windows PC 单一许可证 — 无需分别下载 wallhack、radar 和 aimbot。"
 			],
 			"hi": [
-				"Rust cheats तीसरे पक्ष के टूल हैं जो raid में अतिरिक्त जानकारी और combat assist देते हैं। ज़्यादातर player ESP, loot visibility, off-screen radar या दबाव में smoother aim के लिए rust cheats खोजते हैं।",
-				"Rust Cheats इन टूल को Windows PC की एक लाइसेंस में बंडल करता है — अलग wallhack, radar, aimbot डाउनलोड नहीं।"
+				"The Finals cheats तीसरे पक्ष के टूल हैं जो match में अतिरिक्त जानकारी और combat assist देते हैं। ज़्यादातर player ESP, loot visibility, off-screen radar या दबाव में smoother aim के लिए the finals cheats खोजते हैं।",
+				"The Final Cheats इन टूल को Windows PC की एक लाइसेंस में बंडल करता है — अलग wallhack, radar, aimbot डाउनलोड नहीं।"
 			],
 			"id": [
-				"Rust cheats adalah alat pihak ketiga yang memberi info ekstra dan bantuan tempur saat raid. Kebanyakan mencari rust cheats untuk ESP pemain, loot, radar off-screen, atau aim lebih halus under pressure.",
-				"Rust Cheats menggabungkan alat tersebut dalam satu lisensi Windows PC — tanpa unduhan terpisah wallhack, radar, aimbot."
+				"The Finals cheats adalah alat pihak ketiga yang memberi info ekstra dan bantuan tempur saat match. Kebanyakan mencari the finals cheats untuk ESP pemain, loot, radar off-screen, atau aim lebih halus under pressure.",
+				"The Final Cheats menggabungkan alat tersebut dalam satu lisensi Windows PC — tanpa unduhan terpisah wallhack, radar, aimbot."
 			],
 			"th": [
-				"Rust cheats เป็นเครื่องมือบุคคลที่สามที่ให้ข้อมูลเพิ่มและช่วยต่อสู้ระหว่าง raid ผู้เล่นส่วนใหญ่ค้นหา rust cheats เพื่อ ESP ผู้เล่น loot radar นอกจอ หรือ aim ที่นุ่มนวลภายใต้ความกดดัน",
-				"Rust Cheats รวมเครื่องมือเหล่านี้ในใบอนุญาต Windows PC เดียว — ไม่ต้องดาวน์โหลด wallhack radar aimbot แยก"
+				"The Finals cheats เป็นเครื่องมือบุคคลที่สามที่ให้ข้อมูลเพิ่มและช่วยต่อสู้ระหว่าง match ผู้เล่นส่วนใหญ่ค้นหา the finals cheats เพื่อ ESP ผู้เล่น loot radar นอกจอ หรือ aim ที่นุ่มนวลภายใต้ความกดดัน",
+				"The Final Cheats รวมเครื่องมือเหล่านี้ในใบอนุญาต Windows PC เดียว — ไม่ต้องดาวน์โหลด wallhack radar aimbot แยก"
 			],
 			"vi": [
-				"Rust cheats là công cụ bên thứ ba cung cấp thông tin thêm và hỗ trợ chiến đấu khi raid. Nhiều người tìm rust cheats cho ESP người chơi, loot, radar ngoài màn hình hoặc aim mượt hơn dưới áp lực.",
-				"Rust Cheats gom các công cụ trong một giấy phép Windows PC — không cần tải riêng wallhack, radar, aimbot."
+				"The Finals cheats là công cụ bên thứ ba cung cấp thông tin thêm và hỗ trợ chiến đấu khi match. Nhiều người tìm the finals cheats cho ESP người chơi, loot, radar ngoài màn hình hoặc aim mượt hơn dưới áp lực.",
+				"The Final Cheats gom các công cụ trong một giấy phép Windows PC — không cần tải riêng wallhack, radar, aimbot."
 			],
 			"uk": [
-				"Rust cheats — сторонні інструменти з додатковою інформацією та боєвою допомогою під час raid. Шукають rust cheats за ESP гравців, loot, off-screen radar або плавніший aim під тиском.",
-				"Rust Cheats об’єднує ці інструменти в одній ліцензії для Windows PC — без окремих завантажень wallhack, radar і aimbot."
+				"The Finals cheats — сторонні інструменти з додатковою інформацією та боєвою допомогою під час match. Шукають the finals cheats за ESP гравців, loot, off-screen radar або плавніший aim під тиском.",
+				"The Final Cheats об’єднує ці інструменти в одній ліцензії для Windows PC — без окремих завантажень wallhack, radar і aimbot."
 			],
 			"cs": [
-				"Rust cheaty jsou nástroje třetích stran s extra informacemi a bojovou asistencí při raidech. Většina hledá rust cheats pro ESP hráčů, loot, off-screen radar nebo plynulejší aim pod tlakem.",
-				"Rust Cheats spojuje tyto nástroje v jedné licenci pro Windows PC — bez samostatných downloadů wallhack, radar a aimbot."
+				"The Finals cheaty jsou nástroje třetích stran s extra informacemi a bojovou asistencí při matchech. Většina hledá the finals cheats pro ESP hráčů, loot, off-screen radar nebo plynulejší aim pod tlakem.",
+				"The Final Cheats spojuje tyto nástroje v jedné licenci pro Windows PC — bez samostatných downloadů wallhack, radar a aimbot."
 			],
 			"ro": [
-				"Rust cheats sunt tool-uri terțe care oferă info extra și asistență de luptă în raid-uri. Majoritatea caută rust cheats pentru ESP jucători, loot, radar off-screen sau aim mai lin sub presiune.",
-				"Rust Cheats grupează aceste tool-uri într-o licență Windows PC — fără descărcări separate wallhack, radar, aimbot."
+				"The Finals cheats sunt tool-uri terțe care oferă info extra și asistență de luptă în match-uri. Majoritatea caută the finals cheats pentru ESP jucători, loot, radar off-screen sau aim mai lin sub presiune.",
+				"The Final Cheats grupează aceste tool-uri într-o licență Windows PC — fără descărcări separate wallhack, radar, aimbot."
 			],
 			"sv": [
-				"Rust cheats är tredjepartsverktyg med extra info och stridsassistans under raids. De flesta söker rust cheats för spelar-ESP, loot, off-screen radar eller mjukare sikte under press.",
-				"Rust Cheats buntar ihop dessa verktyg i en Windows PC-licens — inga separata nedladdningar för wallhack, radar och aimbot."
+				"The Finals cheats är tredjepartsverktyg med extra info och stridsassistans under matches. De flesta söker the finals cheats för spelar-ESP, loot, off-screen radar eller mjukare sikte under press.",
+				"The Final Cheats buntar ihop dessa verktyg i en Windows PC-licens — inga separata nedladdningar för wallhack, radar och aimbot."
 			]
 		},
 		"1": {
 			"en": [
-				"One license covers the full raid stack: player ESP with distance, loot markers, 2D radar for flanks, and configurable soft aim profiles per weapon."
+				"One license covers the full match stack: player ESP with distance, vault markers, 2D radar for flanks, and configurable soft aim profiles per weapon."
 			],
 			"es": [
-				"Una licencia cubre el stack completo de raid: ESP de jugadores con distancia, marcadores de loot, radar 2D para flancos y perfiles soft aim configurables por arma."
+				"Una licencia cubre el stack completo de match: ESP de jugadores con distancia, marcadores de loot, radar 2D para flancos y perfiles soft aim configurables por arma."
 			],
 			"fr": [
-				"Une licence couvre la stack raid complète : ESP joueurs avec distance, marqueurs de loot, radar 2D pour les flancs et profils soft aim configurables par arme."
+				"Une licence couvre la stack match complète : ESP joueurs avec distance, marqueurs de loot, radar 2D pour les flancs et profils soft aim configurables par arme."
 			],
 			"de": [
 				"Eine Lizenz deckt den kompletten Raid-Stack ab: Spieler-ESP mit Distanz, Loot-Marker, 2D-Radar für Flanken und konfigurierbare Soft-Aim-Profile pro Waffe."
 			],
 			"pt": [
-				"Uma licença cobre a stack completa de raid: ESP de jogadores com distância, marcadores de loot, radar 2D para flancos e perfis soft aim configuráveis por arma."
+				"Uma licença cobre a stack completa de match: ESP de jogadores com distância, marcadores de loot, radar 2D para flancos e perfis soft aim configuráveis por arma."
 			],
 			"it": [
-				"Una licenza copre lo stack raid completo: ESP giocatori con distanza, marker loot, radar 2D per i fianchi e profili soft aim configurabili per arma."
+				"Una licenza copre lo stack match completo: ESP giocatori con distanza, marker loot, radar 2D per i fianchi e profili soft aim configurabili per arma."
 			],
 			"nl": [
-				"Eén licentie dekt de volledige raid-stack: speler-ESP met afstand, loot-markers, 2D-radar voor flanks en configureerbare soft aim-profielen per wapen."
+				"Eén licentie dekt de volledige match-stack: speler-ESP met afstand, loot-markers, 2D-radar voor flanks en configureerbare soft aim-profielen per wapen."
 			],
 			"pl": [
-				"Jedna licencja obejmuje pełny stack raid: ESP graczy z dystansem, markery lootu, radar 2D na flanki i konfigurowalne profile soft aim na broń."
+				"Jedna licencja obejmuje pełny stack match: ESP graczy z dystansem, markery lootu, radar 2D na flanki i konfigurowalne profile soft aim na broń."
 			],
 			"ru": [
-				"Одна лицензия покрывает полный raid-стек: ESP игроков с дистанцией, маркеры лута, 2D radar для флангов и настраиваемые soft aim профили по оружию."
+				"Одна лицензия покрывает полный match-стек: ESP игроков с дистанцией, маркеры лута, 2D radar для флангов и настраиваемые soft aim профили по оружию."
 			],
 			"tr": [
-				"Tek lisans tam raid yığınını kapsar: mesafeli oyuncu ESP, loot işaretleri, kanat için 2D radar ve silah başına yapılandırılabilir soft aim profilleri."
+				"Tek lisans tam match yığınını kapsar: mesafeli oyuncu ESP, loot işaretleri, kanat için 2D radar ve silah başına yapılandırılabilir soft aim profilleri."
 			],
 			"ar": [
 				"ترخيص واحد يغطي stack الraid الكامل: ESP للاعبين مع المسافة وعلامات loot وradar 2D للمناورات وملفات soft aim قابلة للضبط لكل سلاح."
@@ -1263,31 +1263,31 @@ export const PAGE_CONTENT = {
 				"하나의 라이선스로 전체 레이드 스택: 거리 표시 플레이어 ESP, loot 마커, 측면 2D radar, 무기별 soft aim 프로필."
 			],
 			"zh": [
-				"一个许可证覆盖完整 raid 套件：带距离的玩家 ESP、物资标记、侧翼 2D radar 和按武器可调的 soft aim 配置。"
+				"一个许可证覆盖完整 match 套件：带距离的玩家 ESP、物资标记、侧翼 2D radar 和按武器可调的 soft aim 配置。"
 			],
 			"hi": [
-				"एक लाइसेंस पूरा raid stack कवर करता है: दूरी के साथ player ESP, loot markers, flanks के लिए 2D radar, और प्रति हथियार soft aim profiles।"
+				"एक लाइसेंस पूरा match stack कवर करता है: दूरी के साथ player ESP, vault markers, flanks के लिए 2D radar, और प्रति हथियार soft aim profiles।"
 			],
 			"id": [
-				"Satu lisensi mencakup stack raid lengkap: ESP pemain dengan jarak, marker loot, radar 2D untuk flank, dan profil soft aim per senjata."
+				"Satu lisensi mencakup stack match lengkap: ESP pemain dengan jarak, marker loot, radar 2D untuk flank, dan profil soft aim per senjata."
 			],
 			"th": [
-				"ใบอนุญาตเดียวครอบคลุม raid stack เต็ม: ESP ผู้เล่นพร้อมระยะ มาร์กเกอร์ loot radar 2D สำหรับ flank และโปรไฟล์ soft aim ต่ออาวุธ"
+				"ใบอนุญาตเดียวครอบคลุม match stack เต็ม: ESP ผู้เล่นพร้อมระยะ มาร์กเกอร์ loot radar 2D สำหรับ flank และโปรไฟล์ soft aim ต่ออาวุธ"
 			],
 			"vi": [
-				"Một giấy phép bao trùm stack raid đầy đủ: ESP người chơi kèm khoảng cách, marker loot, radar 2D cho flank, profile soft aim theo vũ khí."
+				"Một giấy phép bao trùm stack match đầy đủ: ESP người chơi kèm khoảng cách, marker loot, radar 2D cho flank, profile soft aim theo vũ khí."
 			],
 			"uk": [
-				"Одна ліцензія покриває повний raid stack: ESP гравців з дистанцією, маркери loot, 2D radar для флангів і профілі soft aim на зброю."
+				"Одна ліцензія покриває повний match stack: ESP гравців з дистанцією, маркери loot, 2D radar для флангів і профілі soft aim на зброю."
 			],
 			"cs": [
-				"Jedna licence pokrývá celý raid stack: ESP hráčů s distancí, loot markery, 2D radar pro flanky a konfigurovatelné soft aim profily na zbraň."
+				"Jedna licence pokrývá celý match stack: ESP hráčů s distancí, loot markery, 2D radar pro flanky a konfigurovatelné soft aim profily na zbraň."
 			],
 			"ro": [
-				"O licență acoperă stack-ul complet de raid: ESP jucători cu distanță, markeri loot, radar 2D pentru flancuri și profile soft aim per armă."
+				"O licență acoperă stack-ul complet de match: ESP jucători cu distanță, markeri loot, radar 2D pentru flancuri și profile soft aim per armă."
 			],
 			"sv": [
-				"En licens täcker hela raid-stacken: spelar-ESP med avstånd, loot-markörer, 2D-radar för flanker och konfigurerbara soft aim-profiler per vapen."
+				"En licens täcker hela match-stacken: spelar-ESP med avstånd, loot-markörer, 2D-radar för flanker och konfigurerbara soft aim-profiler per vapen."
 			]
 		},
 		"2": {
@@ -1360,70 +1360,70 @@ export const PAGE_CONTENT = {
 		},
 		"3": {
 			"en": [
-				"Rust uses Easy Anti-Cheat. No cheat stays undetected forever — maintenance after patches is what matters. Check the Status page after every Rust or EAC update before you load in."
+				"The Finals uses Easy Anti-Cheat. No cheat stays undetected forever — maintenance after patches is what matters. Check the Status page after every The Finals or EAC update before you load in."
 			],
 			"es": [
-				"Rust usa Easy Anti-Cheat. Ningún cheat permanece indetectable para siempre — lo importante es el mantenimiento tras parches. Revisa la página de Estado tras cada actualización de Rust o EAC antes de entrar."
+				"The Finals usa Easy Anti-Cheat. Ningún cheat permanece indetectable para siempre — lo importante es el mantenimiento tras parches. Revisa la página de Estado tras cada actualización de The Finals o EAC antes de entrar."
 			],
 			"fr": [
-				"Rust utilise Easy Anti-Cheat. Aucune triche ne reste indétectable éternellement — la maintenance après patchs compte. Consultez la page Statut après chaque mise à jour Rust ou EAC avant de jouer."
+				"The Finals utilise Easy Anti-Cheat. Aucune triche ne reste indétectable éternellement — la maintenance après patchs compte. Consultez la page Statut après chaque mise à jour The Finals ou EAC avant de jouer."
 			],
 			"de": [
-				"Rust nutzt Easy Anti-Cheat. Kein Cheat bleibt für immer undetected — Wartung nach Patches zählt. Prüfe die Status-Seite nach jedem Rust- oder EAC-Update vor dem Spielen."
+				"The Finals nutzt Easy Anti-Cheat. Kein Cheat bleibt für immer undetected — Wartung nach Patches zählt. Prüfe die Status-Seite nach jedem The Finals- oder EAC-Update vor dem Spielen."
 			],
 			"pt": [
-				"Rust usa Easy Anti-Cheat. Nenhum cheat fica indetectável para sempre — manutenção após patches importa. Verifique a página Status após cada update Rust ou EAC antes de entrar."
+				"The Finals usa Easy Anti-Cheat. Nenhum cheat fica indetectável para sempre — manutenção após patches importa. Verifique a página Status após cada update The Finals ou EAC antes de entrar."
 			],
 			"it": [
-				"Rust usa Easy Anti-Cheat. Nessun cheat resta indetectable per sempre — conta la manutenzione post-patch. Controlla la pagina Stato dopo ogni update Rust o EAC prima di giocare."
+				"The Finals usa Easy Anti-Cheat. Nessun cheat resta indetectable per sempre — conta la manutenzione post-patch. Controlla la pagina Stato dopo ogni update The Finals o EAC prima di giocare."
 			],
 			"nl": [
-				"Rust gebruikt Easy Anti-Cheat. Geen cheat blijft voor altijd undetected — onderhoud na patches telt. Check de Status-pagina na elke Rust- of EAC-update vóór je speelt."
+				"The Finals gebruikt Easy Anti-Cheat. Geen cheat blijft voor altijd undetected — onderhoud na patches telt. Check de Status-pagina na elke The Finals- of EAC-update vóór je speelt."
 			],
 			"pl": [
-				"Rust używa Easy Anti-Cheat. Żaden cheat nie jest undetected na zawsze — liczy się konserwacja po patchach. Sprawdź stronę Status po każdej aktualizacji Rust lub EAC przed grą."
+				"The Finals używa Easy Anti-Cheat. Żaden cheat nie jest undetected na zawsze — liczy się konserwacja po patchach. Sprawdź stronę Status po każdej aktualizacji The Finals lub EAC przed grą."
 			],
 			"ru": [
-				"Rust использует Easy Anti-Cheat. Ни один чит не undetected навсегда — важно обслуживание после патчей. Проверяйте страницу Статус после каждого обновления Rust или EAC перед игрой."
+				"The Finals использует Easy Anti-Cheat. Ни один чит не undetected навсегда — важно обслуживание после патчей. Проверяйте страницу Статус после каждого обновления The Finals или EAC перед игрой."
 			],
 			"tr": [
-				"Rust Easy Anti-Cheat kullanır. Hiçbir hile sonsuza kadar undetected kalmaz — yama sonrası bakım önemlidir. Oyuna girmeden önce her Rust veya EAC güncellemesinden sonra Durum sayfasını kontrol edin."
+				"The Finals Easy Anti-Cheat kullanır. Hiçbir hile sonsuza kadar undetected kalmaz — yama sonrası bakım önemlidir. Oyuna girmeden önce her The Finals veya EAC güncellemesinden sonra Durum sayfasını kontrol edin."
 			],
 			"ar": [
-				"Rust يستخدم Easy Anti-Cheat. لا يبقى أي cheat غير مكتشف للأبد — الصيانة بعد التصحيحات هي المهم. تحقق من صفحة الحالة بعد كل تحديث Rust أو EAC قبل الدخول."
+				"The Finals يستخدم Easy Anti-Cheat. لا يبقى أي cheat غير مكتشف للأبد — الصيانة بعد التصحيحات هي المهم. تحقق من صفحة الحالة بعد كل تحديث The Finals أو EAC قبل الدخول."
 			],
 			"ja": [
-				"RustはEasy Anti-Cheatを使用。チートは永久にundetectedではありません — パッチ後のメンテナンスが重要です。プレイ前にRustまたはEAC更新後はステータスページを確認してください。"
+				"The FinalsはEasy Anti-Cheatを使用。チートは永久にundetectedではありません — パッチ後のメンテナンスが重要です。プレイ前にThe FinalsまたはEAC更新後はステータスページを確認してください。"
 			],
 			"ko": [
-				"Rust는 Easy Anti-Cheat를 사용합니다. 치트는 영원히 undetected가 아닙니다 — 패치 후 유지보수가 중요합니다. 접속 전 Rust 또는 EAC 업데이트마다 상태 페이지를 확인하세요."
+				"The Finals는 Easy Anti-Cheat를 사용합니다. 치트는 영원히 undetected가 아닙니다 — 패치 후 유지보수가 중요합니다. 접속 전 The Finals 또는 EAC 업데이트마다 상태 페이지를 확인하세요."
 			],
 			"zh": [
-				"Rust 使用 Easy Anti-Cheat。没有作弊能永远 undetected — 补丁后维护才是关键。每次 Rust 或 EAC 更新后、进游戏前先查状态页。"
+				"The Finals 使用 Easy Anti-Cheat。没有作弊能永远 undetected — 补丁后维护才是关键。每次 The Finals 或 EAC 更新后、进游戏前先查状态页。"
 			],
 			"hi": [
-				"Rust Easy Anti-Cheat उपयोग करता है। कोई cheat हमेशा undetected नहीं रहता — पैच के बाद maintenance मायने रखती है। खेलने से पहले हर Rust या EAC अपडेट के बाद Status पेज देखें।"
+				"The Finals Easy Anti-Cheat उपयोग करता है। कोई cheat हमेशा undetected नहीं रहता — पैच के बाद maintenance मायने रखती है। खेलने से पहले हर The Finals या EAC अपडेट के बाद Status पेज देखें।"
 			],
 			"id": [
-				"Rust memakai Easy Anti-Cheat. Tidak ada cheat undetected selamanya — pemeliharaan setelah patch yang penting. Cek halaman Status setelah setiap update Rust atau EAC sebelum main."
+				"The Finals memakai Easy Anti-Cheat. Tidak ada cheat undetected selamanya — pemeliharaan setelah patch yang penting. Cek halaman Status setelah setiap update The Finals atau EAC sebelum main."
 			],
 			"th": [
-				"Rust ใช้ Easy Anti-Cheat ไม่มี cheat undetected ตลอดไป — การดูแลหลังแพตช์สำคัญ ตรวจหน้าสถานะหลังอัปเดต Rust หรือ EAC ก่อนเข้าเกม"
+				"The Finals ใช้ Easy Anti-Cheat ไม่มี cheat undetected ตลอดไป — การดูแลหลังแพตช์สำคัญ ตรวจหน้าสถานะหลังอัปเดต The Finals หรือ EAC ก่อนเข้าเกม"
 			],
 			"vi": [
-				"Rust dùng Easy Anti-Cheat. Không cheat nào undetected mãi — bảo trì sau bản vá mới quan trọng. Kiểm tra trang Trạng thái sau mỗi cập nhật Rust hoặc EAC trước khi vào game."
+				"The Finals dùng Easy Anti-Cheat. Không cheat nào undetected mãi — bảo trì sau bản vá mới quan trọng. Kiểm tra trang Trạng thái sau mỗi cập nhật The Finals hoặc EAC trước khi vào game."
 			],
 			"uk": [
-				"Rust використовує Easy Anti-Cheat. Жоден чит не undetected назавжди — важливе обслуговування після патчів. Перевіряйте сторінку Статус після кожного оновлення Rust або EAC перед грою."
+				"The Finals використовує Easy Anti-Cheat. Жоден чит не undetected назавжди — важливе обслуговування після патчів. Перевіряйте сторінку Статус після кожного оновлення The Finals або EAC перед грою."
 			],
 			"cs": [
-				"Rust používá Easy Anti-Cheat. Žádný cheat není undetected navždy — záleží na údržbě po patchi. Před hrou zkontrolujte stránku Stav po každé aktualizaci Rust nebo EAC."
+				"The Finals používá Easy Anti-Cheat. Žádný cheat není undetected navždy — záleží na údržbě po patchi. Před hrou zkontrolujte stránku Stav po každé aktualizaci The Finals nebo EAC."
 			],
 			"ro": [
-				"Rust folosește Easy Anti-Cheat. Niciun cheat nu rămâne undetected pentru totdeauna — mentenanța după patch contează. Verifică pagina Status după fiecare update Rust sau EAC înainte de joc."
+				"The Finals folosește Easy Anti-Cheat. Niciun cheat nu rămâne undetected pentru totdeauna — mentenanța după patch contează. Verifică pagina Status după fiecare update The Finals sau EAC înainte de joc."
 			],
 			"sv": [
-				"Rust använder Easy Anti-Cheat. Ingen cheat förblir undetected för evigt — underhåll efter patchar räknas. Kontrollera Status-sidan efter varje Rust- eller EAC-uppdatering före spel."
+				"The Finals använder Easy Anti-Cheat. Ingen cheat förblir undetected för evigt — underhåll efter patchar räknas. Kontrollera Status-sidan efter varje The Finals- eller EAC-uppdatering före spel."
 			]
 		},
 		"4": {
@@ -1496,70 +1496,70 @@ export const PAGE_CONTENT = {
 		},
 		"intro": {
 			"en": [
-				"Rust cheats add ESP, radar, and soft aim on top of the base game. This page explains what rust cheats are, what Rust Cheats includes, how Easy Anti-Cheat maintenance works, and where to go next before you buy."
+				"The Finals cheats add ESP, radar, and soft aim on top of the base game. This page explains what the finals cheats are, what The Final Cheats includes, how Easy Anti-Cheat maintenance works, and where to go next before you buy."
 			],
 			"es": [
-				"Los trucos de Rust añaden ESP, radar y soft aim sobre el juego base. Esta página explica qué son los rust cheats, qué incluye Rust Cheats, cómo funciona el mantenimiento de Easy Anti-Cheat y dónde ir antes de comprar."
+				"Los trucos de The Finals añaden ESP, radar y soft aim sobre el juego base. Esta página explica qué son los the finals cheats, qué incluye The Final Cheats, cómo funciona el mantenimiento de Easy Anti-Cheat y dónde ir antes de comprar."
 			],
 			"fr": [
-				"Les triches Rust ajoutent ESP, radar et soft aim au jeu de base. Cette page explique ce que sont les rust cheats, ce que Rust Cheats inclut, la maintenance Easy Anti-Cheat et où aller avant d'acheter."
+				"Les triches The Finals ajoutent ESP, radar et soft aim au jeu de base. Cette page explique ce que sont les the finals cheats, ce que The Final Cheats inclut, la maintenance Easy Anti-Cheat et où aller avant d'acheter."
 			],
 			"de": [
-				"Rust Cheats fügen ESP, Radar und Soft Aim zum Basisspiel hinzu. Diese Seite erklärt rust cheats, den Rust Cheats-Umfang, Easy Anti-Cheat-Wartung und nächste Schritte vor dem Kauf."
+				"The Final Cheats fügen ESP, Radar und Soft Aim zum Basisspiel hinzu. Diese Seite erklärt the finals cheats, den The Final Cheats-Umfang, Easy Anti-Cheat-Wartung und nächste Schritte vor dem Kauf."
 			],
 			"pt": [
-				"Rust cheats adicionam ESP, radar e soft aim ao jogo base. Esta página explica o que são rust cheats, o que o Rust Cheats inclui, manutenção Easy Anti-Cheat e próximos passos antes de comprar."
+				"The Finals cheats adicionam ESP, radar e soft aim ao jogo base. Esta página explica o que são the finals cheats, o que o The Final Cheats inclui, manutenção Easy Anti-Cheat e próximos passos antes de comprar."
 			],
 			"it": [
-				"I cheat Rust aggiungono ESP, radar e soft aim al gioco base. Questa pagina spiega cosa sono i rust cheats, cosa include Rust Cheats, manutenzione Easy Anti-Cheat e dove andare prima dell'acquisto."
+				"I cheat The Finals aggiungono ESP, radar e soft aim al gioco base. Questa pagina spiega cosa sono i the finals cheats, cosa include The Final Cheats, manutenzione Easy Anti-Cheat e dove andare prima dell'acquisto."
 			],
 			"nl": [
-				"Rust cheats voegen ESP, radar en soft aim toe aan het basisspel. Deze pagina legt uit wat rust cheats zijn, wat Rust Cheats bevat, Easy Anti-Cheat-onderhoud en volgende stappen vóór aankoop."
+				"The Finals cheats voegen ESP, radar en soft aim toe aan het basisspel. Deze pagina legt uit wat the finals cheats zijn, wat The Final Cheats bevat, Easy Anti-Cheat-onderhoud en volgende stappen vóór aankoop."
 			],
 			"pl": [
-				"Rust cheats dodają ESP, radar i soft aim do gry bazowej. Ta strona wyjaśnia czym są rust cheats, co zawiera Rust Cheats, konserwację Easy Anti-Cheat i co dalej przed zakupem."
+				"The Finals cheats dodają ESP, radar i soft aim do gry bazowej. Ta strona wyjaśnia czym są the finals cheats, co zawiera The Final Cheats, konserwację Easy Anti-Cheat i co dalej przed zakupem."
 			],
 			"ru": [
-				"Rust cheats добавляют ESP, radar и soft aim к базовой игре. Эта страница объясняет что такое rust cheats, что входит в Rust Cheats, обслуживание Easy Anti-Cheat и куда идти перед покупкой."
+				"The Finals cheats добавляют ESP, radar и soft aim к базовой игре. Эта страница объясняет что такое the finals cheats, что входит в The Final Cheats, обслуживание Easy Anti-Cheat и куда идти перед покупкой."
 			],
 			"tr": [
-				"Rust hileleri temel oyuna ESP, radar ve soft aim ekler. Bu sayfa rust cheats nedir, Rust Cheats neleri içerir, Easy Anti-Cheat bakımı ve satın almadan önce nereye gidileceğini açıklar."
+				"The Finals hileleri temel oyuna ESP, radar ve soft aim ekler. Bu sayfa the finals cheats nedir, The Final Cheats neleri içerir, Easy Anti-Cheat bakımı ve satın almadan önce nereye gidileceğini açıklar."
 			],
 			"ar": [
-				"تضيف rust cheats الـ ESP والرادار وsoft aim فوق اللعبة الأساسية. تشرح هذه الصفحة ما هي rust cheats وما يتضمنه Rust Cheats وصيانة Easy Anti-Cheat وأين تذهب قبل الشراء."
+				"تضيف the finals cheats الـ ESP والرادار وsoft aim فوق اللعبة الأساسية. تشرح هذه الصفحة ما هي the finals cheats وما يتضمنه The Final Cheats وصيانة Easy Anti-Cheat وأين تذهب قبل الشراء."
 			],
 			"ja": [
-				"RustチートはベースゲームにESP、radar、soft aimを追加します。このページではrust cheatsの概要、Rust Cheatsの内容、Easy Anti-Cheatメンテナンス、購入前の確認先を説明します。"
+				"The FinalsチートはベースゲームにESP、radar、soft aimを追加します。このページではthe finals cheatsの概要、The Final Cheatsの内容、Easy Anti-Cheatメンテナンス、購入前の確認先を説明します。"
 			],
 			"ko": [
-				"Rust 치트는 기본 게임 위에 ESP, radar, soft aim을 추가합니다. 이 페이지는 rust cheats란, Rust Cheats 포함 사항, Easy Anti-Cheat 유지보수, 구매 전 확인할 곳을 설명합니다."
+				"The Finals 치트는 기본 게임 위에 ESP, radar, soft aim을 추가합니다. 이 페이지는 the finals cheats란, The Final Cheats 포함 사항, Easy Anti-Cheat 유지보수, 구매 전 확인할 곳을 설명합니다."
 			],
 			"zh": [
-				"Rust cheats 在基础游戏上添加 ESP、radar 和 soft aim。本页说明什么是 rust cheats、Rust Cheats 包含什么、Easy Anti-Cheat 维护以及购买前该看哪里。"
+				"The Finals cheats 在基础游戏上添加 ESP、radar 和 soft aim。本页说明什么是 the finals cheats、The Final Cheats 包含什么、Easy Anti-Cheat 维护以及购买前该看哪里。"
 			],
 			"hi": [
-				"Rust cheats बेस गेम पर ESP, radar और soft aim जोड़ते हैं। यह पेज बताता है rust cheats क्या हैं, Rust Cheats में क्या है, Easy Anti-Cheat रखरखाव और खरीद से पहले कहाँ जाएँ।"
+				"The Finals cheats बेस गेम पर ESP, radar और soft aim जोड़ते हैं। यह पेज बताता है the finals cheats क्या हैं, The Final Cheats में क्या है, Easy Anti-Cheat रखरखाव और खरीद से पहले कहाँ जाएँ।"
 			],
 			"id": [
-				"Rust cheats menambahkan ESP, radar, dan soft aim di atas game dasar. Halaman ini menjelaskan apa itu rust cheats, apa yang termasuk Rust Cheats, pemeliharaan Easy Anti-Cheat, dan langkah sebelum membeli."
+				"The Finals cheats menambahkan ESP, radar, dan soft aim di atas game dasar. Halaman ini menjelaskan apa itu the finals cheats, apa yang termasuk The Final Cheats, pemeliharaan Easy Anti-Cheat, dan langkah sebelum membeli."
 			],
 			"th": [
-				"Rust cheats เพิ่ม ESP, radar และ soft aim บนเกมหลัก หน้านี้อธิบาย rust cheats คืออะไร Rust Cheats รวมอะไร การดูแล Easy Anti-Cheat และขั้นตอนก่อนซื้อ"
+				"The Finals cheats เพิ่ม ESP, radar และ soft aim บนเกมหลัก หน้านี้อธิบาย the finals cheats คืออะไร The Final Cheats รวมอะไร การดูแล Easy Anti-Cheat และขั้นตอนก่อนซื้อ"
 			],
 			"vi": [
-				"Rust cheats thêm ESP, radar và soft aim lên game gốc. Trang này giải thích rust cheats là gì, Rust Cheats gồm gì, bảo trì Easy Anti-Cheat và bước tiếp theo trước khi mua."
+				"The Finals cheats thêm ESP, radar và soft aim lên game gốc. Trang này giải thích the finals cheats là gì, The Final Cheats gồm gì, bảo trì Easy Anti-Cheat và bước tiếp theo trước khi mua."
 			],
 			"uk": [
-				"Rust cheats додають ESP, radar і soft aim до базової гри. Ця сторінка пояснює що таке rust cheats, що входить у Rust Cheats, обслуговування Easy Anti-Cheat і куди йти перед покупкою."
+				"The Finals cheats додають ESP, radar і soft aim до базової гри. Ця сторінка пояснює що таке the finals cheats, що входить у The Final Cheats, обслуговування Easy Anti-Cheat і куди йти перед покупкою."
 			],
 			"cs": [
-				"Rust cheaty přidávají ESP, radar a soft aim k základní hře. Tato stránka vysvětluje co jsou rust cheats, co obsahuje Rust Cheats, údržbu Easy Anti-Cheat a kam jít před nákupem."
+				"The Finals cheaty přidávají ESP, radar a soft aim k základní hře. Tato stránka vysvětluje co jsou the finals cheats, co obsahuje The Final Cheats, údržbu Easy Anti-Cheat a kam jít před nákupem."
 			],
 			"ro": [
-				"Rust cheats adaugă ESP, radar și soft aim peste jocul de bază. Această pagină explică ce sunt rust cheats, ce include Rust Cheats, mentenanța Easy Anti-Cheat și pașii înainte de cumpărare."
+				"The Finals cheats adaugă ESP, radar și soft aim peste jocul de bază. Această pagină explică ce sunt the finals cheats, ce include The Final Cheats, mentenanța Easy Anti-Cheat și pașii înainte de cumpărare."
 			],
 			"sv": [
-				"Rust cheats lägger till ESP, radar och soft aim ovanpå basspelet. Den här sidan förklarar vad rust cheats är, vad Rust Cheats innehåller, Easy Anti-Cheat-underhåll och nästa steg före köp."
+				"The Finals cheats lägger till ESP, radar och soft aim ovanpå basspelet. Den här sidan förklarar vad the finals cheats är, vad The Final Cheats innehåller, Easy Anti-Cheat-underhåll och nästa steg före köp."
 			]
 		},
 		"list1": {
@@ -1720,268 +1720,268 @@ export const PAGE_CONTENT = {
 		},
 		"list2": {
 			"en": [
-				"<a href=\"/rust-esp/\">Rust ESP & wallhack</a>",
-				"<a href=\"/rust-aimbot/\">Rust Aimbot & soft aim</a>",
-				"<a href=\"/rust-radar-hack/\">Radar hack overlay</a>",
+				"<a href=\"/finals-esp/\">The Finals ESP & wallhack</a>",
+				"<a href=\"/finals-aimbot/\">The Finals Aimbot & soft aim</a>",
+				"<a href=\"/finals-radar-hack/\">Radar hack overlay</a>",
 				"<a href=\"/features/\">Full feature list</a>"
 			],
 			"es": [
-				"<a href=\"/rust-esp/\">Rust ESP y wallhack</a>",
-				"<a href=\"/rust-aimbot/\">Rust Aimbot y soft aim</a>",
-				"<a href=\"/rust-radar-hack/\">Overlay radar hack</a>",
+				"<a href=\"/finals-esp/\">The Finals ESP y wallhack</a>",
+				"<a href=\"/finals-aimbot/\">The Finals Aimbot y soft aim</a>",
+				"<a href=\"/finals-radar-hack/\">Overlay radar hack</a>",
 				"<a href=\"/features/\">Lista completa de funciones</a>"
 			],
 			"fr": [
-				"<a href=\"/rust-esp/\">Rust ESP et wallhack</a>",
-				"<a href=\"/rust-aimbot/\">Rust Aimbot et soft aim</a>",
-				"<a href=\"/rust-radar-hack/\">Overlay radar hack</a>",
+				"<a href=\"/finals-esp/\">The Finals ESP et wallhack</a>",
+				"<a href=\"/finals-aimbot/\">The Finals Aimbot et soft aim</a>",
+				"<a href=\"/finals-radar-hack/\">Overlay radar hack</a>",
 				"<a href=\"/features/\">Liste complète des fonctions</a>"
 			],
 			"de": [
-				"<a href=\"/rust-esp/\">Rust ESP & Wallhack</a>",
-				"<a href=\"/rust-aimbot/\">Rust Aimbot & Soft Aim</a>",
-				"<a href=\"/rust-radar-hack/\">Radar-Hack-Overlay</a>",
+				"<a href=\"/finals-esp/\">The Finals ESP & Wallhack</a>",
+				"<a href=\"/finals-aimbot/\">The Finals Aimbot & Soft Aim</a>",
+				"<a href=\"/finals-radar-hack/\">Radar-Hack-Overlay</a>",
 				"<a href=\"/features/\">Vollständige Feature-Liste</a>"
 			],
 			"pt": [
-				"<a href=\"/rust-esp/\">Rust ESP e wallhack</a>",
-				"<a href=\"/rust-aimbot/\">Rust Aimbot e soft aim</a>",
-				"<a href=\"/rust-radar-hack/\">Overlay radar hack</a>",
+				"<a href=\"/finals-esp/\">The Finals ESP e wallhack</a>",
+				"<a href=\"/finals-aimbot/\">The Finals Aimbot e soft aim</a>",
+				"<a href=\"/finals-radar-hack/\">Overlay radar hack</a>",
 				"<a href=\"/features/\">Lista completa de recursos</a>"
 			],
 			"it": [
-				"<a href=\"/rust-esp/\">Rust ESP e wallhack</a>",
-				"<a href=\"/rust-aimbot/\">Rust Aimbot e soft aim</a>",
-				"<a href=\"/rust-radar-hack/\">Overlay radar hack</a>",
+				"<a href=\"/finals-esp/\">The Finals ESP e wallhack</a>",
+				"<a href=\"/finals-aimbot/\">The Finals Aimbot e soft aim</a>",
+				"<a href=\"/finals-radar-hack/\">Overlay radar hack</a>",
 				"<a href=\"/features/\">Elenco completo funzioni</a>"
 			],
 			"nl": [
-				"<a href=\"/rust-esp/\">Rust ESP & wallhack</a>",
-				"<a href=\"/rust-aimbot/\">Rust Aimbot & soft aim</a>",
-				"<a href=\"/rust-radar-hack/\">Radar hack overlay</a>",
+				"<a href=\"/finals-esp/\">The Finals ESP & wallhack</a>",
+				"<a href=\"/finals-aimbot/\">The Finals Aimbot & soft aim</a>",
+				"<a href=\"/finals-radar-hack/\">Radar hack overlay</a>",
 				"<a href=\"/features/\">Volledige functielijst</a>"
 			],
 			"pl": [
-				"<a href=\"/rust-esp/\">Rust ESP i wallhack</a>",
-				"<a href=\"/rust-aimbot/\">Rust Aimbot i soft aim</a>",
-				"<a href=\"/rust-radar-hack/\">Overlay radar hack</a>",
+				"<a href=\"/finals-esp/\">The Finals ESP i wallhack</a>",
+				"<a href=\"/finals-aimbot/\">The Finals Aimbot i soft aim</a>",
+				"<a href=\"/finals-radar-hack/\">Overlay radar hack</a>",
 				"<a href=\"/features/\">Pełna lista funkcji</a>"
 			],
 			"ru": [
-				"<a href=\"/rust-esp/\">Rust ESP и wallhack</a>",
-				"<a href=\"/rust-aimbot/\">Rust Aimbot и soft aim</a>",
-				"<a href=\"/rust-radar-hack/\">Radar hack overlay</a>",
+				"<a href=\"/finals-esp/\">The Finals ESP и wallhack</a>",
+				"<a href=\"/finals-aimbot/\">The Finals Aimbot и soft aim</a>",
+				"<a href=\"/finals-radar-hack/\">Radar hack overlay</a>",
 				"<a href=\"/features/\">Полный список функций</a>"
 			],
 			"tr": [
-				"<a href=\"/rust-esp/\">Rust ESP ve wallhack</a>",
-				"<a href=\"/rust-aimbot/\">Rust Aimbot ve soft aim</a>",
-				"<a href=\"/rust-radar-hack/\">Radar hack overlay</a>",
+				"<a href=\"/finals-esp/\">The Finals ESP ve wallhack</a>",
+				"<a href=\"/finals-aimbot/\">The Finals Aimbot ve soft aim</a>",
+				"<a href=\"/finals-radar-hack/\">Radar hack overlay</a>",
 				"<a href=\"/features/\">Tam özellik listesi</a>"
 			],
 			"ar": [
-				"<a href=\"/rust-esp/\">Rust ESP وWallhack</a>",
-				"<a href=\"/rust-aimbot/\">Rust Aimbot وSoft aim</a>",
-				"<a href=\"/rust-radar-hack/\">تراكب radar hack</a>",
+				"<a href=\"/finals-esp/\">The Finals ESP وWallhack</a>",
+				"<a href=\"/finals-aimbot/\">The Finals Aimbot وSoft aim</a>",
+				"<a href=\"/finals-radar-hack/\">تراكب radar hack</a>",
 				"<a href=\"/features/\">قائمة الميزات الكاملة</a>"
 			],
 			"ja": [
-				"<a href=\"/rust-esp/\">Rust ESP・Wallhack</a>",
-				"<a href=\"/rust-aimbot/\">Rust Aimbot・Soft aim</a>",
-				"<a href=\"/rust-radar-hack/\">レーダーハックオーバーレイ</a>",
+				"<a href=\"/finals-esp/\">The Finals ESP・Wallhack</a>",
+				"<a href=\"/finals-aimbot/\">The Finals Aimbot・Soft aim</a>",
+				"<a href=\"/finals-radar-hack/\">レーダーハックオーバーレイ</a>",
 				"<a href=\"/features/\">全機能リスト</a>"
 			],
 			"ko": [
-				"<a href=\"/rust-esp/\">Rust ESP 및 wallhack</a>",
-				"<a href=\"/rust-aimbot/\">Rust Aimbot 및 soft aim</a>",
-				"<a href=\"/rust-radar-hack/\">레이더 핵 오버레이</a>",
+				"<a href=\"/finals-esp/\">The Finals ESP 및 wallhack</a>",
+				"<a href=\"/finals-aimbot/\">The Finals Aimbot 및 soft aim</a>",
+				"<a href=\"/finals-radar-hack/\">레이더 핵 오버레이</a>",
 				"<a href=\"/features/\">전체 기능 목록</a>"
 			],
 			"zh": [
-				"<a href=\"/rust-esp/\">Rust ESP和透视</a>",
-				"<a href=\"/rust-aimbot/\">Rust自瞄和软瞄准</a>",
-				"<a href=\"/rust-radar-hack/\">雷达hack覆盖</a>",
+				"<a href=\"/finals-esp/\">The Finals ESP和透视</a>",
+				"<a href=\"/finals-aimbot/\">The Finals自瞄和软瞄准</a>",
+				"<a href=\"/finals-radar-hack/\">雷达hack覆盖</a>",
 				"<a href=\"/features/\">完整功能列表</a>"
 			],
 			"hi": [
-				"<a href=\"/rust-esp/\">Rust ESP और wallhack</a>",
-				"<a href=\"/rust-aimbot/\">Rust Aimbot और soft aim</a>",
-				"<a href=\"/rust-radar-hack/\">Radar hack overlay</a>",
+				"<a href=\"/finals-esp/\">The Finals ESP और wallhack</a>",
+				"<a href=\"/finals-aimbot/\">The Finals Aimbot और soft aim</a>",
+				"<a href=\"/finals-radar-hack/\">Radar hack overlay</a>",
 				"<a href=\"/features/\">पूरी फ़ीचर सूची</a>"
 			],
 			"id": [
-				"<a href=\"/rust-esp/\">Rust ESP & wallhack</a>",
-				"<a href=\"/rust-aimbot/\">Rust Aimbot & soft aim</a>",
-				"<a href=\"/rust-radar-hack/\">Overlay radar hack</a>",
+				"<a href=\"/finals-esp/\">The Finals ESP & wallhack</a>",
+				"<a href=\"/finals-aimbot/\">The Finals Aimbot & soft aim</a>",
+				"<a href=\"/finals-radar-hack/\">Overlay radar hack</a>",
 				"<a href=\"/features/\">Daftar fitur lengkap</a>"
 			],
 			"th": [
-				"<a href=\"/rust-esp/\">Rust ESP และ wallhack</a>",
-				"<a href=\"/rust-aimbot/\">Rust Aimbot และ soft aim</a>",
-				"<a href=\"/rust-radar-hack/\">โอเวอร์เลย์ radar hack</a>",
+				"<a href=\"/finals-esp/\">The Finals ESP และ wallhack</a>",
+				"<a href=\"/finals-aimbot/\">The Finals Aimbot และ soft aim</a>",
+				"<a href=\"/finals-radar-hack/\">โอเวอร์เลย์ radar hack</a>",
 				"<a href=\"/features/\">รายการฟีเจอร์ทั้งหมด</a>"
 			],
 			"vi": [
-				"<a href=\"/rust-esp/\">Rust ESP & wallhack</a>",
-				"<a href=\"/rust-aimbot/\">Rust Aimbot & soft aim</a>",
-				"<a href=\"/rust-radar-hack/\">Overlay radar hack</a>",
+				"<a href=\"/finals-esp/\">The Finals ESP & wallhack</a>",
+				"<a href=\"/finals-aimbot/\">The Finals Aimbot & soft aim</a>",
+				"<a href=\"/finals-radar-hack/\">Overlay radar hack</a>",
 				"<a href=\"/features/\">Danh sách tính năng đầy đủ</a>"
 			],
 			"uk": [
-				"<a href=\"/rust-esp/\">Rust ESP і wallhack</a>",
-				"<a href=\"/rust-aimbot/\">Rust Aimbot і soft aim</a>",
-				"<a href=\"/rust-radar-hack/\">Radar hack overlay</a>",
+				"<a href=\"/finals-esp/\">The Finals ESP і wallhack</a>",
+				"<a href=\"/finals-aimbot/\">The Finals Aimbot і soft aim</a>",
+				"<a href=\"/finals-radar-hack/\">Radar hack overlay</a>",
 				"<a href=\"/features/\">Повний список функцій</a>"
 			],
 			"cs": [
-				"<a href=\"/rust-esp/\">Rust ESP a wallhack</a>",
-				"<a href=\"/rust-aimbot/\">Rust Aimbot a soft aim</a>",
-				"<a href=\"/rust-radar-hack/\">Radar hack overlay</a>",
+				"<a href=\"/finals-esp/\">The Finals ESP a wallhack</a>",
+				"<a href=\"/finals-aimbot/\">The Finals Aimbot a soft aim</a>",
+				"<a href=\"/finals-radar-hack/\">Radar hack overlay</a>",
 				"<a href=\"/features/\">Úplný seznam funkcí</a>"
 			],
 			"ro": [
-				"<a href=\"/rust-esp/\">Rust ESP și wallhack</a>",
-				"<a href=\"/rust-aimbot/\">Rust Aimbot și soft aim</a>",
-				"<a href=\"/rust-radar-hack/\">Overlay radar hack</a>",
+				"<a href=\"/finals-esp/\">The Finals ESP și wallhack</a>",
+				"<a href=\"/finals-aimbot/\">The Finals Aimbot și soft aim</a>",
+				"<a href=\"/finals-radar-hack/\">Overlay radar hack</a>",
 				"<a href=\"/features/\">Lista completă de funcții</a>"
 			],
 			"sv": [
-				"<a href=\"/rust-esp/\">Rust ESP & wallhack</a>",
-				"<a href=\"/rust-aimbot/\">Rust Aimbot & soft aim</a>",
-				"<a href=\"/rust-radar-hack/\">Radar hack-overlay</a>",
+				"<a href=\"/finals-esp/\">The Finals ESP & wallhack</a>",
+				"<a href=\"/finals-aimbot/\">The Finals Aimbot & soft aim</a>",
+				"<a href=\"/finals-radar-hack/\">Radar hack-overlay</a>",
 				"<a href=\"/features/\">Fullständig funktionslista</a>"
 			]
 		},
 		"list3": {
 			"en": [
 				"<a href=\"/updates/\">Live status & patch notes</a>",
-				"<a href=\"/undetected-rust-cheats/\">Undetected cheats guide</a>",
+				"<a href=\"/undetected-finals-cheats/\">Undetected cheats guide</a>",
 				"<a href=\"/eac-bypass/\">Easy Anti-Cheat maintenance</a>",
 				"<a href=\"/faq/\">FAQ before you buy</a>"
 			],
 			"es": [
 				"<a href=\"/updates/\">Estado en vivo y notas de parche</a>",
-				"<a href=\"/undetected-rust-cheats/\">Guía de trucos indetectables</a>",
+				"<a href=\"/undetected-finals-cheats/\">Guía de trucos indetectables</a>",
 				"<a href=\"/eac-bypass/\">Mantenimiento Easy Anti-Cheat</a>",
 				"<a href=\"/faq/\">FAQ antes de comprar</a>"
 			],
 			"fr": [
 				"<a href=\"/updates/\">Statut en direct et notes de patch</a>",
-				"<a href=\"/undetected-rust-cheats/\">Guide triches indétectables</a>",
+				"<a href=\"/undetected-finals-cheats/\">Guide triches indétectables</a>",
 				"<a href=\"/eac-bypass/\">Maintenance Easy Anti-Cheat</a>",
 				"<a href=\"/faq/\">FAQ avant achat</a>"
 			],
 			"de": [
 				"<a href=\"/updates/\">Live-Status & Patchnotes</a>",
-				"<a href=\"/undetected-rust-cheats/\">Undetected Cheats Guide</a>",
+				"<a href=\"/undetected-finals-cheats/\">Undetected Cheats Guide</a>",
 				"<a href=\"/eac-bypass/\">Easy Anti-Cheat Wartung</a>",
 				"<a href=\"/faq/\">FAQ vor dem Kauf</a>"
 			],
 			"pt": [
 				"<a href=\"/updates/\">Status ao vivo e notas de patch</a>",
-				"<a href=\"/undetected-rust-cheats/\">Guia de cheats indetectáveis</a>",
+				"<a href=\"/undetected-finals-cheats/\">Guia de cheats indetectáveis</a>",
 				"<a href=\"/eac-bypass/\">Manutenção Easy Anti-Cheat</a>",
 				"<a href=\"/faq/\">FAQ antes de comprar</a>"
 			],
 			"it": [
 				"<a href=\"/updates/\">Stato live e note patch</a>",
-				"<a href=\"/undetected-rust-cheats/\">Guida cheat indetectable</a>",
+				"<a href=\"/undetected-finals-cheats/\">Guida cheat indetectable</a>",
 				"<a href=\"/eac-bypass/\">Manutenzione Easy Anti-Cheat</a>",
 				"<a href=\"/faq/\">FAQ prima di acquistare</a>"
 			],
 			"nl": [
 				"<a href=\"/updates/\">Live status en patchnotes</a>",
-				"<a href=\"/undetected-rust-cheats/\">Undetected cheats gids</a>",
+				"<a href=\"/undetected-finals-cheats/\">Undetected cheats gids</a>",
 				"<a href=\"/eac-bypass/\">Easy Anti-Cheat onderhoud</a>",
 				"<a href=\"/faq/\">FAQ voor aankoop</a>"
 			],
 			"pl": [
 				"<a href=\"/updates/\">Status na żywo i notatki patch</a>",
-				"<a href=\"/undetected-rust-cheats/\">Przewodnik cheatów undetected</a>",
+				"<a href=\"/undetected-finals-cheats/\">Przewodnik cheatów undetected</a>",
 				"<a href=\"/eac-bypass/\">Konserwacja Easy Anti-Cheat</a>",
 				"<a href=\"/faq/\">FAQ przed zakupem</a>"
 			],
 			"ru": [
 				"<a href=\"/updates/\">Статус онлайн и патч-ноуты</a>",
-				"<a href=\"/undetected-rust-cheats/\">Гайд undetected читов</a>",
+				"<a href=\"/undetected-finals-cheats/\">Гайд undetected читов</a>",
 				"<a href=\"/eac-bypass/\">Обслуживание Easy Anti-Cheat</a>",
 				"<a href=\"/faq/\">FAQ перед покупкой</a>"
 			],
 			"tr": [
 				"<a href=\"/updates/\">Canlı durum ve yama notları</a>",
-				"<a href=\"/undetected-rust-cheats/\">Undetected hile rehberi</a>",
+				"<a href=\"/undetected-finals-cheats/\">Undetected hile rehberi</a>",
 				"<a href=\"/eac-bypass/\">Easy Anti-Cheat bakımı</a>",
 				"<a href=\"/faq/\">Satın almadan önce SSS</a>"
 			],
 			"ar": [
 				"<a href=\"/updates/\">الحالة المباشرة وملاحظات التصحيح</a>",
-				"<a href=\"/undetected-rust-cheats/\">دليل الغش غير المكتشف</a>",
+				"<a href=\"/undetected-finals-cheats/\">دليل الغش غير المكتشف</a>",
 				"<a href=\"/eac-bypass/\">صيانة Easy Anti-Cheat</a>",
 				"<a href=\"/faq/\">الأسئلة الشائعة قبل الشراء</a>"
 			],
 			"ja": [
 				"<a href=\"/updates/\">ライブステータスとパッチノート</a>",
-				"<a href=\"/undetected-rust-cheats/\">Undetectedチートガイド</a>",
+				"<a href=\"/undetected-finals-cheats/\">Undetectedチートガイド</a>",
 				"<a href=\"/eac-bypass/\">Easy Anti-Cheatメンテナンス</a>",
 				"<a href=\"/faq/\">購入前FAQ</a>"
 			],
 			"ko": [
 				"<a href=\"/updates/\">실시간 상태 및 패치 노트</a>",
-				"<a href=\"/undetected-rust-cheats/\">Undetected 치트 가이드</a>",
+				"<a href=\"/undetected-finals-cheats/\">Undetected 치트 가이드</a>",
 				"<a href=\"/eac-bypass/\">Easy Anti-Cheat 유지보수</a>",
 				"<a href=\"/faq/\">구매 전 FAQ</a>"
 			],
 			"zh": [
 				"<a href=\"/updates/\">实时状态和补丁说明</a>",
-				"<a href=\"/undetected-rust-cheats/\">Undetected作弊指南</a>",
+				"<a href=\"/undetected-finals-cheats/\">Undetected作弊指南</a>",
 				"<a href=\"/eac-bypass/\">Easy Anti-Cheat维护</a>",
 				"<a href=\"/faq/\">购买前常见问题</a>"
 			],
 			"hi": [
 				"<a href=\"/updates/\">लाइव स्टेटस और पैच नोट्स</a>",
-				"<a href=\"/undetected-rust-cheats/\">Undetected cheats गाइड</a>",
+				"<a href=\"/undetected-finals-cheats/\">Undetected cheats गाइड</a>",
 				"<a href=\"/eac-bypass/\">Easy Anti-Cheat रखरखाव</a>",
 				"<a href=\"/faq/\">खरीदने से पहले FAQ</a>"
 			],
 			"id": [
 				"<a href=\"/updates/\">Status langsung & catatan patch</a>",
-				"<a href=\"/undetected-rust-cheats/\">Panduan cheat undetected</a>",
+				"<a href=\"/undetected-finals-cheats/\">Panduan cheat undetected</a>",
 				"<a href=\"/eac-bypass/\">Pemeliharaan Easy Anti-Cheat</a>",
 				"<a href=\"/faq/\">FAQ sebelum membeli</a>"
 			],
 			"th": [
 				"<a href=\"/updates/\">สถานะสดและบันทึกแพตช์</a>",
-				"<a href=\"/undetected-rust-cheats/\">คู่มือ cheat undetected</a>",
+				"<a href=\"/undetected-finals-cheats/\">คู่มือ cheat undetected</a>",
 				"<a href=\"/eac-bypass/\">การดูแล Easy Anti-Cheat</a>",
 				"<a href=\"/faq/\">FAQ ก่อนซื้อ</a>"
 			],
 			"vi": [
 				"<a href=\"/updates/\">Trạng thái trực tiếp & ghi chú bản vá</a>",
-				"<a href=\"/undetected-rust-cheats/\">Hướng dẫn cheat undetected</a>",
+				"<a href=\"/undetected-finals-cheats/\">Hướng dẫn cheat undetected</a>",
 				"<a href=\"/eac-bypass/\">Bảo trì Easy Anti-Cheat</a>",
 				"<a href=\"/faq/\">FAQ trước khi mua</a>"
 			],
 			"uk": [
 				"<a href=\"/updates/\">Статус онлайн і патч-ноти</a>",
-				"<a href=\"/undetected-rust-cheats/\">Гайд undetected чітів</a>",
+				"<a href=\"/undetected-finals-cheats/\">Гайд undetected чітів</a>",
 				"<a href=\"/eac-bypass/\">Обслуговування Easy Anti-Cheat</a>",
 				"<a href=\"/faq/\">FAQ перед покупкою</a>"
 			],
 			"cs": [
 				"<a href=\"/updates/\">Živý stav a patch poznámky</a>",
-				"<a href=\"/undetected-rust-cheats/\">Průvodce undetected cheaty</a>",
+				"<a href=\"/undetected-finals-cheats/\">Průvodce undetected cheaty</a>",
 				"<a href=\"/eac-bypass/\">Údržba Easy Anti-Cheat</a>",
 				"<a href=\"/faq/\">FAQ před nákupem</a>"
 			],
 			"ro": [
 				"<a href=\"/updates/\">Status live și note patch</a>",
-				"<a href=\"/undetected-rust-cheats/\">Ghid cheats undetected</a>",
+				"<a href=\"/undetected-finals-cheats/\">Ghid cheats undetected</a>",
 				"<a href=\"/eac-bypass/\">Mentenanță Easy Anti-Cheat</a>",
 				"<a href=\"/faq/\">FAQ înainte de cumpărare</a>"
 			],
 			"sv": [
 				"<a href=\"/updates/\">Livestatus och patchanteckningar</a>",
-				"<a href=\"/undetected-rust-cheats/\">Undetected cheats-guide</a>",
+				"<a href=\"/undetected-finals-cheats/\">Undetected cheats-guide</a>",
 				"<a href=\"/eac-bypass/\">Easy Anti-Cheat-underhåll</a>",
 				"<a href=\"/faq/\">FAQ innan köp</a>"
 			]
@@ -2099,7 +2099,7 @@ export const PAGE_CONTENT = {
 			]
 		}
 	},
-	"rust-esp": {
+	"finals-esp": {
 		"0": {
 			"en": [
 				"Boxes, distance, and filters for players, scientists, and loot."
@@ -2306,70 +2306,70 @@ export const PAGE_CONTENT = {
 		},
 		"intro": {
 			"en": [
-				"See players and loot through walls during Rust raids. Part of the same Rust Cheats license."
+				"See players and loot through walls during The Finals matches. Part of the same The Final Cheats license."
 			],
 			"es": [
-				"Ve jugadores y loot a través de las paredes durante raids de Rust. Parte de la misma licencia Rust Cheats."
+				"Ve jugadores y loot a través de las paredes durante matches de The Finals. Parte de la misma licencia The Final Cheats."
 			],
 			"fr": [
-				"Voyez joueurs et loot à travers les murs pendant les raids Rust. Inclus dans la même licence Rust Cheats."
+				"Voyez joueurs et loot à travers les murs pendant les matches The Finals. Inclus dans la même licence The Final Cheats."
 			],
 			"de": [
-				"Sieh Spieler und Loot durch Wände bei Rust-Raids. Teil derselben Rust Cheats-Lizenz."
+				"Sieh Spieler und Loot durch Wände bei The Finals-Raids. Teil derselben The Final Cheats-Lizenz."
 			],
 			"pt": [
-				"Veja jogadores e loot através das paredes em raids de Rust. Parte da mesma licença Rust Cheats."
+				"Veja jogadores e loot através das paredes em matches de The Finals. Parte da mesma licença The Final Cheats."
 			],
 			"it": [
-				"Vedi giocatori e loot attraverso i muri durante i raid Rust. Parte della stessa licenza Rust Cheats."
+				"Vedi giocatori e loot attraverso i muri durante i match The Finals. Parte della stessa licenza The Final Cheats."
 			],
 			"nl": [
-				"Zie spelers en loot door muren tijdens Rust raids. Onderdeel van dezelfde Rust Cheats-licentie."
+				"Zie spelers en loot door muren tijdens The Finals matches. Onderdeel van dezelfde The Final Cheats-licentie."
 			],
 			"pl": [
-				"Widz graczy i loot przez ściany podczas raidów Rust. Część tej samej licencji Rust Cheats."
+				"Widz graczy i loot przez ściany podczas matchów The Finals. Część tej samej licencji The Final Cheats."
 			],
 			"ru": [
-				"Видьте игроков и лут сквозь стены в рейдах Rust. Часть той же лицензии Rust Cheats."
+				"Видьте игроков и лут сквозь стены в рейдах The Finals. Часть той же лицензии The Final Cheats."
 			],
 			"tr": [
-				"Rust raidlerinde duvarların ardından oyuncuları ve loot'u görün. Aynı Rust Cheats lisansının parçası."
+				"The Finals matchlerinde duvarların ardından oyuncuları ve loot'u görün. Aynı The Final Cheats lisansının parçası."
 			],
 			"ar": [
-				"شاهد اللاعبين والloot عبر الجدران أثناء raids في Rust. جزء من نفس ترخيص Rust Cheats."
+				"شاهد اللاعبين والloot عبر الجدران أثناء matches في The Finals. جزء من نفس ترخيص The Final Cheats."
 			],
 			"ja": [
-				"Rustレイド中に壁越しでプレイヤーとlootを確認。同じRust Cheatsライセンスに含まれます。"
+				"The Finalsレイド中に壁越しでプレイヤーとlootを確認。同じThe Final Cheatsライセンスに含まれます。"
 			],
 			"ko": [
-				"Rust 레이드 중 벽 너머로 플레이어와 loot를 확인하세요. 동일 Rust Cheats 라이선스에 포함됩니다."
+				"The Finals 레이드 중 벽 너머로 플레이어와 loot를 확인하세요. 동일 The Final Cheats 라이선스에 포함됩니다."
 			],
 			"zh": [
-				"在 Rust raid 中透视玩家和物资。包含在同一 Rust Cheats 许可证中。"
+				"在 The Finals match 中透视玩家和物资。包含在同一 The Final Cheats 许可证中。"
 			],
 			"hi": [
-				"Rust raids में दीवारों के पार players और loot देखें। उसी Rust Cheats लाइसेंस का हिस्सा।"
+				"The Finals matches में दीवारों के पार players और loot देखें। उसी The Final Cheats लाइसेंस का हिस्सा।"
 			],
 			"id": [
-				"Lihat pemain dan loot menembus dinding saat raid Rust. Bagian dari lisensi Rust Cheats yang sama."
+				"Lihat pemain dan loot menembus dinding saat match The Finals. Bagian dari lisensi The Final Cheats yang sama."
 			],
 			"th": [
-				"มองเห็นผู้เล่นและ loot ผ่านกำแพงระหว่าง raid ใน Rust ส่วนหนึ่งของใบอนุญาต Rust Cheats เดียวกัน"
+				"มองเห็นผู้เล่นและ loot ผ่านกำแพงระหว่าง match ใน The Finals ส่วนหนึ่งของใบอนุญาต The Final Cheats เดียวกัน"
 			],
 			"vi": [
-				"Nhìn xuyên tường thấy người chơi và loot khi raid Rust. Thuộc cùng giấy phép Rust Cheats."
+				"Nhìn xuyên tường thấy người chơi và loot khi match The Finals. Thuộc cùng giấy phép The Final Cheats."
 			],
 			"uk": [
-				"Бачте гравців і loot крізь стіни під час raid у Rust. Частина тієї самої ліцензії Rust Cheats."
+				"Бачте гравців і loot крізь стіни під час match у The Finals. Частина тієї самої ліцензії The Final Cheats."
 			],
 			"cs": [
-				"Vidíte hráče a loot skrz zdi během raidů Rust. Součást stejné licence Rust Cheats."
+				"Vidíte hráče a loot skrz zdi během matchů The Finals. Součást stejné licence The Final Cheats."
 			],
 			"ro": [
-				"Vezi jucători și loot prin pereți în raid-uri Rust. Parte din aceeași licență Rust Cheats."
+				"Vezi jucători și loot prin pereți în match-uri The Finals. Parte din aceeași licență The Final Cheats."
 			],
 			"sv": [
-				"Se spelare och loot genom väggar under Rust raids. Ingår i samma Rust Cheats-licens."
+				"Se spelare och loot genom väggar under The Finals matches. Ingår i samma The Final Cheats-licens."
 			]
 		},
 		"list0": {
@@ -2709,31 +2709,31 @@ export const PAGE_CONTENT = {
 			]
 		}
 	},
-	"rust-aimbot": {
+	"finals-aimbot": {
 		"0": {
 			"en": [
-				"Set FOV, smoothness, and bone priority before you raid."
+				"Set FOV, smoothness, and bone priority before you queue."
 			],
 			"es": [
-				"Configura FOV, suavidad y prioridad de huesos antes del raid."
+				"Configura FOV, suavidad y prioridad de huesos antes del match."
 			],
 			"fr": [
-				"Réglez FOV, fluidité et priorité d'os avant le raid."
+				"Réglez FOV, fluidité et priorité d'os avant le match."
 			],
 			"de": [
 				"FOV, Smoothness und Knochenpriorität vor dem Raid einstellen."
 			],
 			"pt": [
-				"Configure FOV, suavidade e prioridade de ossos antes do raid."
+				"Configure FOV, suavidade e prioridade de ossos antes do match."
 			],
 			"it": [
-				"Imposta FOV, smoothness e priorità ossa prima del raid."
+				"Imposta FOV, smoothness e priorità ossa prima del match."
 			],
 			"nl": [
-				"Stel FOV, smoothness en bot-prioriteit in vóór de raid."
+				"Stel FOV, smoothness en bot-prioriteit in vóór de match."
 			],
 			"pl": [
-				"Ustaw FOV, smoothness i priorytet kości przed raid."
+				"Ustaw FOV, smoothness i priorytet kości przed match."
 			],
 			"ru": [
 				"Настройте FOV, плавность и приоритет костей перед рейдом."
@@ -2757,60 +2757,60 @@ export const PAGE_CONTENT = {
 				"Raid से पहले FOV, smoothness और bone priority सेट करें।"
 			],
 			"id": [
-				"Atur FOV, smoothness, dan prioritas tulang sebelum raid."
+				"Atur FOV, smoothness, dan prioritas tulang sebelum match."
 			],
 			"th": [
-				"ตั้งค่า FOV ความนุ่มนวล และลำดับกระดูกก่อน raid"
+				"ตั้งค่า FOV ความนุ่มนวล และลำดับกระดูกก่อน match"
 			],
 			"vi": [
-				"Đặt FOV, độ mượt và ưu tiên xương trước raid."
+				"Đặt FOV, độ mượt và ưu tiên xương trước match."
 			],
 			"uk": [
-				"Налаштуйте FOV, плавність і пріоритет кісток перед raid."
+				"Налаштуйте FOV, плавність і пріоритет кісток перед match."
 			],
 			"cs": [
-				"Před raid nastavte FOV, smoothness a prioritu kostí."
+				"Před match nastavte FOV, smoothness a prioritu kostí."
 			],
 			"ro": [
-				"Setează FOV, smoothness și prioritate oase înainte de raid."
+				"Setează FOV, smoothness și prioritate oase înainte de match."
 			],
 			"sv": [
-				"Ställ in FOV, mjukhet och benprioritet före raid."
+				"Ställ in FOV, mjukhet och benprioritet före match."
 			]
 		},
 		"1": {
 			"en": [
-				"Keep settings subtle for longer raids. Raise strength only when you accept more risk."
+				"Keep settings subtle for longer matches. Raise strength only when you accept more risk."
 			],
 			"es": [
-				"Mantén ajustes sutiles para raids largos. Sube la fuerza solo cuando aceptes más riesgo."
+				"Mantén ajustes sutiles para matches largos. Sube la fuerza solo cuando aceptes más riesgo."
 			],
 			"fr": [
-				"Gardez des réglages discrets pour les longs raids. Montez la force seulement si vous acceptez plus de risque."
+				"Gardez des réglages discrets pour les longs matches. Montez la force seulement si vous acceptez plus de risque."
 			],
 			"de": [
 				"Halte Einstellungen dezent für längere Raids. Erhöhe Stärke nur wenn du mehr Risiko akzeptierst."
 			],
 			"pt": [
-				"Mantenha ajustes sutis em raids longos. Aumente a força só quando aceitar mais risco."
+				"Mantenha ajustes sutis em matches longos. Aumente a força só quando aceitar mais risco."
 			],
 			"it": [
-				"Impostazioni discrete per raid lunghi. Alza la forza solo se accetti più rischio."
+				"Impostazioni discrete per match lunghi. Alza la forza solo se accetti più rischio."
 			],
 			"nl": [
-				"Houd instellingen subtiel voor langere raids. Verhoog kracht alleen als je meer risico accepteert."
+				"Houd instellingen subtiel voor langere matches. Verhoog kracht alleen als je meer risico accepteert."
 			],
 			"pl": [
-				"Trzymaj subtelne ustawienia na dłuższe raidy. Zwiększ siłę tylko gdy akceptujesz większe ryzyko."
+				"Trzymaj subtelne ustawienia na dłuższe matchy. Zwiększ siłę tylko gdy akceptujesz większe ryzyko."
 			],
 			"ru": [
 				"Держите настройки сдержанными для длинных рейдов. Повышайте силу только если готовы к риску."
 			],
 			"tr": [
-				"Uzun raidler için ayarları hafif tutun. Daha fazla risk kabul ediyorsanız gücü artırın."
+				"Uzun matchler için ayarları hafif tutun. Daha fazla risk kabul ediyorsanız gücü artırın."
 			],
 			"ar": [
-				"اجعل الإعدادات خفيفة للـ raids الطويلة. ارفع القوة فقط عند قبول المزيد من المخاطر."
+				"اجعل الإعدادات خفيفة للـ matches الطويلة. ارفع القوة فقط عند قبول المزيد من المخاطر."
 			],
 			"ja": [
 				"長時間レイドは控えめ設定。リスクを受け入れる時だけ強度を上げてください。"
@@ -2819,31 +2819,31 @@ export const PAGE_CONTENT = {
 				"긴 레이드는 미세한 설정 유지. 더 많은 위험을 감수할 때만 강도를 올리세요."
 			],
 			"zh": [
-				"长时间 raid 保持低调设置。只在接受更高风险时提高强度。"
+				"长时间 match 保持低调设置。只在接受更高风险时提高强度。"
 			],
 			"hi": [
-				"लंबे raids के लिए सेटिंग्स हल्की रखें। ज़्यादा जोखिम स्वीकार करें तभी strength बढ़ाएँ।"
+				"लंबे matches के लिए सेटिंग्स हल्की रखें। ज़्यादा जोखिम स्वीकार करें तभी strength बढ़ाएँ।"
 			],
 			"id": [
-				"Pertahankan pengaturan halus untuk raid panjang. Naikkan kekuatan hanya jika menerima risiko lebih."
+				"Pertahankan pengaturan halus untuk match panjang. Naikkan kekuatan hanya jika menerima risiko lebih."
 			],
 			"th": [
-				"ใช้การตั้งค่าเบาๆ สำหรับ raid ยาว เพิ่มความแรงเมื่อยอมรับความเสี่ยงมากขึ้น"
+				"ใช้การตั้งค่าเบาๆ สำหรับ match ยาว เพิ่มความแรงเมื่อยอมรับความเสี่ยงมากขึ้น"
 			],
 			"vi": [
-				"Giữ cài đặt tinh tế cho raid dài. Tăng cường độ chỉ khi chấp nhận rủi ro hơn."
+				"Giữ cài đặt tinh tế cho match dài. Tăng cường độ chỉ khi chấp nhận rủi ro hơn."
 			],
 			"uk": [
-				"Тримайте налаштування стримко для довгих raid. Підвищуйте силу лише коли приймаєте більший ризик."
+				"Тримайте налаштування стримко для довгих match. Підвищуйте силу лише коли приймаєте більший ризик."
 			],
 			"cs": [
-				"Pro delší raidy držte jemná nastavení. Sílu zvyšte jen když akceptujete větší riziko."
+				"Pro delší matchy držte jemná nastavení. Sílu zvyšte jen když akceptujete větší riziko."
 			],
 			"ro": [
-				"Păstrează setări subtile pentru raid-uri lungi. Crește puterea doar când accepți mai mult risc."
+				"Păstrează setări subtile pentru match-uri lungi. Crește puterea doar când accepți mai mult risc."
 			],
 			"sv": [
-				"Håll inställningarna subtila för längre raids. Höj styrkan bara när du accepterar mer risk."
+				"Håll inställningarna subtila för längre matches. Höj styrkan bara när du accepterar mer risk."
 			]
 		},
 		"2": {
@@ -2916,70 +2916,70 @@ export const PAGE_CONTENT = {
 		},
 		"intro": {
 			"en": [
-				"Soft aim and aim assist you can tune for Rust. Included in the same Rust Cheats license."
+				"Soft aim and aim assist you can tune for The Finals. Included in the same The Final Cheats license."
 			],
 			"es": [
-				"Soft aim y asistencia de puntería que puedes ajustar para Rust. Incluido en la misma licencia Rust Cheats."
+				"Soft aim y asistencia de puntería que puedes ajustar para The Finals. Incluido en la misma licencia The Final Cheats."
 			],
 			"fr": [
-				"Soft aim et aide à la visée réglables pour Rust. Inclus dans la même licence Rust Cheats."
+				"Soft aim et aide à la visée réglables pour The Finals. Inclus dans la même licence The Final Cheats."
 			],
 			"de": [
-				"Soft Aim und Zielhilfe, die du für Rust einstellen kannst. In derselben Rust Cheats-Lizenz enthalten."
+				"Soft Aim und Zielhilfe, die du für The Finals einstellen kannst. In derselben The Final Cheats-Lizenz enthalten."
 			],
 			"pt": [
-				"Soft aim e assistência de mira ajustáveis para Rust. Incluído na mesma licença Rust Cheats."
+				"Soft aim e assistência de mira ajustáveis para The Finals. Incluído na mesma licença The Final Cheats."
 			],
 			"it": [
-				"Soft aim e assistenza mira regolabili per Rust. Incluso nella stessa licenza Rust Cheats."
+				"Soft aim e assistenza mira regolabili per The Finals. Incluso nella stessa licenza The Final Cheats."
 			],
 			"nl": [
-				"Soft aim en richt-hulp die je voor Rust kunt afstellen. Inbegrepen in dezelfde Rust Cheats-licentie."
+				"Soft aim en richt-hulp die je voor The Finals kunt afstellen. Inbegrepen in dezelfde The Final Cheats-licentie."
 			],
 			"pl": [
-				"Soft aim i asysta celowania do ustawienia w Rust. W tej samej licencji Rust Cheats."
+				"Soft aim i asysta celowania do ustawienia w The Finals. W tej samej licencji The Final Cheats."
 			],
 			"ru": [
-				"Soft aim и помощь прицеливания, настраиваемые для Rust. Включено в ту же лицензию Rust Cheats."
+				"Soft aim и помощь прицеливания, настраиваемые для The Finals. Включено в ту же лицензию The Final Cheats."
 			],
 			"tr": [
-				"Rust için ayarlayabileceğiniz soft aim ve nişan desteği. Aynı Rust Cheats lisansına dahil."
+				"The Finals için ayarlayabileceğiniz soft aim ve nişan desteği. Aynı The Final Cheats lisansına dahil."
 			],
 			"ar": [
-				"Soft aim ومساعدة تصويب قابلة للضبط لـ Rust. مضمن في نفس ترخيص Rust Cheats."
+				"Soft aim ومساعدة تصويب قابلة للضبط لـ The Finals. مضمن في نفس ترخيص The Final Cheats."
 			],
 			"ja": [
-				"Rust向けに調整できるsoft aimとエイム支援。同じRust Cheatsライセンスに含まれます。"
+				"The Finals向けに調整できるsoft aimとエイム支援。同じThe Final Cheatsライセンスに含まれます。"
 			],
 			"ko": [
-				"Rust용으로 조절 가능한 soft aim 및 에임 보조. 동일 Rust Cheats 라이선스에 포함."
+				"The Finals용으로 조절 가능한 soft aim 및 에임 보조. 동일 The Final Cheats 라이선스에 포함."
 			],
 			"zh": [
-				"可为 Rust 调节的 soft aim 和瞄准辅助。包含在同一 Rust Cheats 许可证中。"
+				"可为 The Finals 调节的 soft aim 和瞄准辅助。包含在同一 The Final Cheats 许可证中。"
 			],
 			"hi": [
-				"Rust के लिए ट्यून करने योग्य soft aim और aim assist। उसी Rust Cheats लाइसेंस में शामिल।"
+				"The Finals के लिए ट्यून करने योग्य soft aim और aim assist। उसी The Final Cheats लाइसेंस में शामिल।"
 			],
 			"id": [
-				"Soft aim dan bantuan aim yang bisa disesuaikan untuk Rust. Termasuk dalam lisensi Rust Cheats yang sama."
+				"Soft aim dan bantuan aim yang bisa disesuaikan untuk The Finals. Termasuk dalam lisensi The Final Cheats yang sama."
 			],
 			"th": [
-				"Soft aim และการช่วยเล็งที่ปรับได้สำหรับ Rust รวมในใบอนุญาต Rust Cheats เดียวกัน"
+				"Soft aim และการช่วยเล็งที่ปรับได้สำหรับ The Finals รวมในใบอนุญาต The Final Cheats เดียวกัน"
 			],
 			"vi": [
-				"Soft aim và hỗ trợ ngắm có thể tinh chỉnh cho Rust. Thuộc cùng giấy phép Rust Cheats."
+				"Soft aim và hỗ trợ ngắm có thể tinh chỉnh cho The Finals. Thuộc cùng giấy phép The Final Cheats."
 			],
 			"uk": [
-				"Soft aim і допомога прицілювання, які можна налаштувати для Rust. У тій самій ліцензії Rust Cheats."
+				"Soft aim і допомога прицілювання, які можна налаштувати для The Finals. У тій самій ліцензії The Final Cheats."
 			],
 			"cs": [
-				"Soft aim a aim assist nastavitelný pro Rust. Součást stejné licence Rust Cheats."
+				"Soft aim a aim assist nastavitelný pro The Finals. Součást stejné licence The Final Cheats."
 			],
 			"ro": [
-				"Soft aim și asistență țintire reglabile pentru Rust. Inclus în aceeași licență Rust Cheats."
+				"Soft aim și asistență țintire reglabile pentru The Finals. Inclus în aceeași licență The Final Cheats."
 			],
 			"sv": [
-				"Soft aim och siktehjälp du kan ställa in för Rust. Ingår i samma Rust Cheats-licens."
+				"Soft aim och siktehjälp du kan ställa in för The Finals. Ingår i samma The Final Cheats-licens."
 			]
 		},
 		"list0": {
@@ -3322,34 +3322,34 @@ export const PAGE_CONTENT = {
 	"radar": {
 		"0": {
 			"en": [
-				"Nearby enemy cues with adjustable range for solo farmers and raiders."
+				"Nearby enemy cues with adjustable range for solo farmers and matchers."
 			],
 			"es": [
-				"Señales de enemigos cercanos con rango ajustable para farmers y raiders solitarios."
+				"Señales de enemigos cercanos con rango ajustable para farmers y matchers solitarios."
 			],
 			"fr": [
-				"Indices d'ennemis proches avec portée réglable pour farmers et raiders solo."
+				"Indices d'ennemis proches avec portée réglable pour farmers et matchers solo."
 			],
 			"de": [
 				"Nahe Feind-Hinweise mit einstellbarer Reichweite für Solo-Farmer und Raider."
 			],
 			"pt": [
-				"Sinais de inimigos próximos com alcance ajustável para farmers e raiders solo."
+				"Sinais de inimigos próximos com alcance ajustável para farmers e matchers solo."
 			],
 			"it": [
-				"Segnali nemici vicini con portata regolabile per farmer e raider solitari."
+				"Segnali nemici vicini con portata regolabile per farmer e matcher solitari."
 			],
 			"nl": [
-				"Nabije vijand-signalen met instelbaar bereik voor solo farmers en raiders."
+				"Nabije vijand-signalen met instelbaar bereik voor solo farmers en matchers."
 			],
 			"pl": [
-				"Sygnaly wrogów w pobliżu z regulowanym zasięgiem dla solo farmerów i raiderów."
+				"Sygnaly wrogów w pobliżu z regulowanym zasięgiem dla solo farmerów i matcherów."
 			],
 			"ru": [
 				"Подсказки о ближайших врагах с настраиваемой дальностью для соло-фармеров и рейдеров."
 			],
 			"tr": [
-				"Solo farmer ve raiderlar için ayarlanabilir menzilli yakın düşman işaretleri."
+				"Solo farmer ve matcherlar için ayarlanabilir menzilli yakın düşman işaretleri."
 			],
 			"ar": [
 				"إشارات أعداء قريبين مع نطاق قابل للضبط للfarmers والraiders المنفردين."
@@ -3361,31 +3361,31 @@ export const PAGE_CONTENT = {
 				"솔로 파밍·레이드용 조절 가능 범위의 근처 적 신호."
 			],
 			"zh": [
-				"为独狼玩家和 raider 提供可调范围的附近敌人提示。"
+				"为独狼玩家和 matcher 提供可调范围的附近敌人提示。"
 			],
 			"hi": [
-				"Solo farmers और raiders के लिए adjustable range के साथ nearby enemy cues।"
+				"Solo farmers और matchers के लिए adjustable range के साथ nearby enemy cues।"
 			],
 			"id": [
-				"Isyarat musuh terdekat dengan jangkauan adjustable untuk solo farmer dan raider."
+				"Isyarat musuh terdekat dengan jangkauan adjustable untuk solo farmer dan matcher."
 			],
 			"th": [
-				"สัญญาณศัตรูใกล้พร้อมระยะปรับได้สำหรับ solo farmer และ raider"
+				"สัญญาณศัตรูใกล้พร้อมระยะปรับได้สำหรับ solo farmer และ matcher"
 			],
 			"vi": [
-				"Tín hiệu địch gần với tầm điều chỉnh cho solo farmer và raider."
+				"Tín hiệu địch gần với tầm điều chỉnh cho solo farmer và matcher."
 			],
 			"uk": [
-				"Підказки про ближніх ворогів з регульованою дальністю для solo farmer і raider."
+				"Підказки про ближніх ворогів з регульованою дальністю для solo farmer і matcher."
 			],
 			"cs": [
-				"Signály blízkých nepřátel s nastavitelným dosahem pro solo farmáře a raider."
+				"Signály blízkých nepřátel s nastavitelným dosahem pro solo farmáře a matcher."
 			],
 			"ro": [
-				"Indicii inamici apropiați cu rază ajustabilă pentru solo farmers și raideri."
+				"Indicii inamici apropiați cu rază ajustabilă pentru solo farmers și matcheri."
 			],
 			"sv": [
-				"Närliggande fiendesignaler med justerbart avstånd för solo farmers och raiders."
+				"Närliggande fiendesignaler med justerbart avstånd för solo farmers och matchers."
 			]
 		},
 		"1": {
@@ -3458,70 +3458,70 @@ export const PAGE_CONTENT = {
 		},
 		"intro": {
 			"en": [
-				"A simple 2D radar for threats outside your view. Included in the same Rust Cheats license."
+				"A simple 2D radar for threats outside your view. Included in the same The Final Cheats license."
 			],
 			"es": [
-				"Un radar 2D simple para amenazas fuera de tu vista. Incluido en la misma licencia Rust Cheats."
+				"Un radar 2D simple para amenazas fuera de tu vista. Incluido en la misma licencia The Final Cheats."
 			],
 			"fr": [
-				"Un radar 2D simple pour les menaces hors champ. Inclus dans la même licence Rust Cheats."
+				"Un radar 2D simple pour les menaces hors champ. Inclus dans la même licence The Final Cheats."
 			],
 			"de": [
-				"Ein einfaches 2D-Radar für Bedrohungen außerhalb deines Sichtfelds. In derselben Rust Cheats-Lizenz enthalten."
+				"Ein einfaches 2D-Radar für Bedrohungen außerhalb deines Sichtfelds. In derselben The Final Cheats-Lizenz enthalten."
 			],
 			"pt": [
-				"Um radar 2D simples para ameaças fora da sua visão. Incluído na mesma licença Rust Cheats."
+				"Um radar 2D simples para ameaças fora da sua visão. Incluído na mesma licença The Final Cheats."
 			],
 			"it": [
-				"Un radar 2D semplice per minacce fuori vista. Incluso nella stessa licenza Rust Cheats."
+				"Un radar 2D semplice per minacce fuori vista. Incluso nella stessa licenza The Final Cheats."
 			],
 			"nl": [
-				"Een eenvoudige 2D-radar voor dreigingen buiten beeld. Inbegrepen in dezelfde Rust Cheats-licentie."
+				"Een eenvoudige 2D-radar voor dreigingen buiten beeld. Inbegrepen in dezelfde The Final Cheats-licentie."
 			],
 			"pl": [
-				"Prosty radar 2D na zagrożenia poza widokiem. W tej samej licencji Rust Cheats."
+				"Prosty radar 2D na zagrożenia poza widokiem. W tej samej licencji The Final Cheats."
 			],
 			"ru": [
-				"Простой 2D radar для угроз вне поля зрения. Включён в ту же лицензию Rust Cheats."
+				"Простой 2D radar для угроз вне поля зрения. Включён в ту же лицензию The Final Cheats."
 			],
 			"tr": [
-				"Görüş alanı dışındaki tehditler için basit 2D radar. Aynı Rust Cheats lisansına dahil."
+				"Görüş alanı dışındaki tehditler için basit 2D radar. Aynı The Final Cheats lisansına dahil."
 			],
 			"ar": [
-				"radar 2D بسيط للتهديدات خارج مجال رؤيتك. مضمن في نفس ترخيص Rust Cheats."
+				"radar 2D بسيط للتهديدات خارج مجال رؤيتك. مضمن في نفس ترخيص The Final Cheats."
 			],
 			"ja": [
-				"視界外の脅威向けシンプル2D radar。同じRust Cheatsライセンスに含まれます。"
+				"視界外の脅威向けシンプル2D radar。同じThe Final Cheatsライセンスに含まれます。"
 			],
 			"ko": [
-				"시야 밖 위협을 위한 간단한 2D radar. 동일 Rust Cheats 라이선스에 포함."
+				"시야 밖 위협을 위한 간단한 2D radar. 동일 The Final Cheats 라이선스에 포함."
 			],
 			"zh": [
-				"用于屏幕外威胁的简单 2D radar。包含在同一 Rust Cheats 许可证中。"
+				"用于屏幕外威胁的简单 2D radar。包含在同一 The Final Cheats 许可证中。"
 			],
 			"hi": [
-				"आपकी दृष्टि से बाहर threats के लिए सरल 2D radar। उसी Rust Cheats लाइसेंस में शामिल।"
+				"आपकी दृष्टि से बाहर threats के लिए सरल 2D radar। उसी The Final Cheats लाइसेंस में शामिल।"
 			],
 			"id": [
-				"Radar 2D sederhana untuk ancaman di luar pandangan. Termasuk dalam lisensi Rust Cheats yang sama."
+				"Radar 2D sederhana untuk ancaman di luar pandangan. Termasuk dalam lisensi The Final Cheats yang sama."
 			],
 			"th": [
-				"radar 2D เรียบง่ายสำหรับภัยคุกคามนอกสายตา รวมในใบอนุญาต Rust Cheats เดียวกัน"
+				"radar 2D เรียบง่ายสำหรับภัยคุกคามนอกสายตา รวมในใบอนุญาต The Final Cheats เดียวกัน"
 			],
 			"vi": [
-				"Radar 2D đơn giản cho mối đe dọa ngoài tầm nhìn. Thuộc cùng giấy phép Rust Cheats."
+				"Radar 2D đơn giản cho mối đe dọa ngoài tầm nhìn. Thuộc cùng giấy phép The Final Cheats."
 			],
 			"uk": [
-				"Простий 2D radar для загроз поза полем зору. У тій самій ліцензії Rust Cheats."
+				"Простий 2D radar для загроз поза полем зору. У тій самій ліцензії The Final Cheats."
 			],
 			"cs": [
-				"Jednoduchý 2D radar pro hrozby mimo dohled. Součást stejné licence Rust Cheats."
+				"Jednoduchý 2D radar pro hrozby mimo dohled. Součást stejné licence The Final Cheats."
 			],
 			"ro": [
-				"Radar 2D simplu pentru amenințări în afara vederii. Inclus în aceeași licență Rust Cheats."
+				"Radar 2D simplu pentru amenințări în afara vederii. Inclus în aceeași licență The Final Cheats."
 			],
 			"sv": [
-				"En enkel 2D-radar för hot utanför synfältet. Ingår i samma Rust Cheats-licens."
+				"En enkel 2D-radar för hot utanför synfältet. Ingår i samma The Final Cheats-licens."
 			]
 		},
 		"list0": {
@@ -3638,112 +3638,112 @@ export const PAGE_CONTENT = {
 		},
 		"list1": {
 			"en": [
-				"<a href=\"/rust-esp/\">ESP guide</a>",
+				"<a href=\"/finals-esp/\">ESP guide</a>",
 				"<a href=\"/\">Full product</a>",
 				"<a href=\"/pricing/\">Store</a>"
 			],
 			"es": [
-				"<a href=\"/rust-esp/\">Guía ESP</a>",
+				"<a href=\"/finals-esp/\">Guía ESP</a>",
 				"<a href=\"/\">Producto completo</a>",
 				"<a href=\"/pricing/\">Tienda</a>"
 			],
 			"fr": [
-				"<a href=\"/rust-esp/\">Guide ESP</a>",
+				"<a href=\"/finals-esp/\">Guide ESP</a>",
 				"<a href=\"/\">Produit complet</a>",
 				"<a href=\"/pricing/\">Boutique</a>"
 			],
 			"de": [
-				"<a href=\"/rust-esp/\">ESP-Guide</a>",
+				"<a href=\"/finals-esp/\">ESP-Guide</a>",
 				"<a href=\"/\">Vollständiges Produkt</a>",
 				"<a href=\"/pricing/\">Shop</a>"
 			],
 			"pt": [
-				"<a href=\"/rust-esp/\">Guia ESP</a>",
+				"<a href=\"/finals-esp/\">Guia ESP</a>",
 				"<a href=\"/\">Produto completo</a>",
 				"<a href=\"/pricing/\">Loja</a>"
 			],
 			"it": [
-				"<a href=\"/rust-esp/\">Guida ESP</a>",
+				"<a href=\"/finals-esp/\">Guida ESP</a>",
 				"<a href=\"/\">Prodotto completo</a>",
 				"<a href=\"/pricing/\">Negozio</a>"
 			],
 			"nl": [
-				"<a href=\"/rust-esp/\">ESP-gids</a>",
+				"<a href=\"/finals-esp/\">ESP-gids</a>",
 				"<a href=\"/\">Volledig product</a>",
 				"<a href=\"/pricing/\">Winkel</a>"
 			],
 			"pl": [
-				"<a href=\"/rust-esp/\">Przewodnik ESP</a>",
+				"<a href=\"/finals-esp/\">Przewodnik ESP</a>",
 				"<a href=\"/\">Pełny produkt</a>",
 				"<a href=\"/pricing/\">Sklep</a>"
 			],
 			"ru": [
-				"<a href=\"/rust-esp/\">Гайд ESP</a>",
+				"<a href=\"/finals-esp/\">Гайд ESP</a>",
 				"<a href=\"/\">Полный продукт</a>",
 				"<a href=\"/pricing/\">Магазин</a>"
 			],
 			"tr": [
-				"<a href=\"/rust-esp/\">ESP rehberi</a>",
+				"<a href=\"/finals-esp/\">ESP rehberi</a>",
 				"<a href=\"/\">Tam ürün</a>",
 				"<a href=\"/pricing/\">Mağaza</a>"
 			],
 			"ar": [
-				"<a href=\"/rust-esp/\">دليل ESP</a>",
+				"<a href=\"/finals-esp/\">دليل ESP</a>",
 				"<a href=\"/\">المنتج الكامل</a>",
 				"<a href=\"/pricing/\">المتجر</a>"
 			],
 			"ja": [
-				"<a href=\"/rust-esp/\">ESPガイド</a>",
+				"<a href=\"/finals-esp/\">ESPガイド</a>",
 				"<a href=\"/\">製品全体</a>",
 				"<a href=\"/pricing/\">ストア</a>"
 			],
 			"ko": [
-				"<a href=\"/rust-esp/\">ESP 가이드</a>",
+				"<a href=\"/finals-esp/\">ESP 가이드</a>",
 				"<a href=\"/\">전체 제품</a>",
 				"<a href=\"/pricing/\">스토어</a>"
 			],
 			"zh": [
-				"<a href=\"/rust-esp/\">ESP指南</a>",
+				"<a href=\"/finals-esp/\">ESP指南</a>",
 				"<a href=\"/\">完整产品</a>",
 				"<a href=\"/pricing/\">商店</a>"
 			],
 			"hi": [
-				"<a href=\"/rust-esp/\">ESP गाइड</a>",
+				"<a href=\"/finals-esp/\">ESP गाइड</a>",
 				"<a href=\"/\">पूरा उत्पाद</a>",
 				"<a href=\"/pricing/\">स्टोर</a>"
 			],
 			"id": [
-				"<a href=\"/rust-esp/\">Panduan ESP</a>",
+				"<a href=\"/finals-esp/\">Panduan ESP</a>",
 				"<a href=\"/\">Produk lengkap</a>",
 				"<a href=\"/pricing/\">Toko</a>"
 			],
 			"th": [
-				"<a href=\"/rust-esp/\">คู่มือ ESP</a>",
+				"<a href=\"/finals-esp/\">คู่มือ ESP</a>",
 				"<a href=\"/\">ผลิตภัณฑ์เต็มรูปแบบ</a>",
 				"<a href=\"/pricing/\">ร้านค้า</a>"
 			],
 			"vi": [
-				"<a href=\"/rust-esp/\">Hướng dẫn ESP</a>",
+				"<a href=\"/finals-esp/\">Hướng dẫn ESP</a>",
 				"<a href=\"/\">Sản phẩm đầy đủ</a>",
 				"<a href=\"/pricing/\">Cửa hàng</a>"
 			],
 			"uk": [
-				"<a href=\"/rust-esp/\">Гайд ESP</a>",
+				"<a href=\"/finals-esp/\">Гайд ESP</a>",
 				"<a href=\"/\">Повний продукт</a>",
 				"<a href=\"/pricing/\">Магазин</a>"
 			],
 			"cs": [
-				"<a href=\"/rust-esp/\">Průvodce ESP</a>",
+				"<a href=\"/finals-esp/\">Průvodce ESP</a>",
 				"<a href=\"/\">Kompletní produkt</a>",
 				"<a href=\"/pricing/\">Obchod</a>"
 			],
 			"ro": [
-				"<a href=\"/rust-esp/\">Ghid ESP</a>",
+				"<a href=\"/finals-esp/\">Ghid ESP</a>",
 				"<a href=\"/\">Produs complet</a>",
 				"<a href=\"/pricing/\">Magazin</a>"
 			],
 			"sv": [
-				"<a href=\"/rust-esp/\">ESP-guide</a>",
+				"<a href=\"/finals-esp/\">ESP-guide</a>",
 				"<a href=\"/\">Fullständig produkt</a>",
 				"<a href=\"/pricing/\">Butik</a>"
 			]
@@ -3820,173 +3820,173 @@ export const PAGE_CONTENT = {
 		},
 		"1": {
 			"en": [
-				"Run the loader as admin, paste your license, then launch Rust."
+				"Run the loader as admin, paste your license, then launch The Finals."
 			],
 			"es": [
-				"Ejecuta el loader como admin, pega tu licencia y lanza Rust."
+				"Ejecuta el loader como admin, pega tu licencia y lanza The Finals."
 			],
 			"fr": [
-				"Lancez le loader en admin, collez votre licence puis lancez Rust."
+				"Lancez le loader en admin, collez votre licence puis lancez The Finals."
 			],
 			"de": [
-				"Loader als Admin starten, Lizenz einfügen, dann Rust starten."
+				"Loader als Admin starten, Lizenz einfügen, dann The Finals starten."
 			],
 			"pt": [
-				"Execute o loader como admin, cole a licença e inicie Rust."
+				"Execute o loader como admin, cole a licença e inicie The Finals."
 			],
 			"it": [
-				"Avvia il loader come admin, incolla la licenza e lancia Rust."
+				"Avvia il loader come admin, incolla la licenza e lancia The Finals."
 			],
 			"nl": [
-				"Start loader als admin, plak licentie, start Rust."
+				"Start loader als admin, plak licentie, start The Finals."
 			],
 			"pl": [
-				"Uruchom loader jako admin, wklej licencję, uruchom Rust."
+				"Uruchom loader jako admin, wklej licencję, uruchom The Finals."
 			],
 			"ru": [
-				"Запустите loader от админа, вставьте лицензию, запустите Rust."
+				"Запустите loader от админа, вставьте лицензию, запустите The Finals."
 			],
 			"tr": [
-				"Loader'ı yönetici olarak çalıştırın, lisansı yapıştırın, Rust'ı başlatın."
+				"Loader'ı yönetici olarak çalıştırın, lisansı yapıştırın, The Finals'ı başlatın."
 			],
 			"ar": [
-				"شغّل loader كمسؤول، الصق الترخيص، ثم شغّل Rust."
+				"شغّل loader كمسؤول، الصق الترخيص، ثم شغّل The Finals."
 			],
 			"ja": [
-				"loaderを管理者実行、ライセンス貼り付け、Rust起動。"
+				"loaderを管理者実行、ライセンス貼り付け、The Finals起動。"
 			],
 			"ko": [
-				"loader를 관리자로 실행, 라이선스 붙여넣기, Rust 실행."
+				"loader를 관리자로 실행, 라이선스 붙여넣기, The Finals 실행."
 			],
 			"zh": [
-				"以管理员身份运行 loader，粘贴许可证，启动 Rust。"
+				"以管理员身份运行 loader，粘贴许可证，启动 The Finals。"
 			],
 			"hi": [
-				"Loader admin के रूप में चलाएँ, license paste करें, Rust launch करें।"
+				"Loader admin के रूप में चलाएँ, license paste करें, The Finals launch करें।"
 			],
 			"id": [
-				"Jalankan loader sebagai admin, tempel lisensi, lalu buka Rust."
+				"Jalankan loader sebagai admin, tempel lisensi, lalu buka The Finals."
 			],
 			"th": [
-				"รัน loader แบบ admin วางใบอนุญาต แล้วเปิด Rust"
+				"รัน loader แบบ admin วางใบอนุญาต แล้วเปิด The Finals"
 			],
 			"vi": [
-				"Chạy loader quyền admin, dán giấy phép, khởi động Rust."
+				"Chạy loader quyền admin, dán giấy phép, khởi động The Finals."
 			],
 			"uk": [
-				"Запустіть loader від адміна, вставте ліцензію, запустіть Rust."
+				"Запустіть loader від адміна, вставте ліцензію, запустіть The Finals."
 			],
 			"cs": [
-				"Spusťte loader jako admin, vložte licenci, spusťte Rust."
+				"Spusťte loader jako admin, vložte licenci, spusťte The Finals."
 			],
 			"ro": [
-				"Rulează loader ca admin, lipește licența, lansează Rust."
+				"Rulează loader ca admin, lipește licența, lansează The Finals."
 			],
 			"sv": [
-				"Kör loader som admin, klistra in licens, starta Rust."
+				"Kör loader som admin, klistra in licens, starta The Finals."
 			]
 		},
 		"2": {
 			"en": [
-				"Check Status after a patch. Email support@rustcheats.co with your order ID."
+				"Check Status after a patch. Email support@thefinalscheats.org with your order ID."
 			],
 			"es": [
-				"Revisa Estado tras un parche. Email a support@rustcheats.co con tu ID de pedido."
+				"Revisa Estado tras un parche. Email a support@thefinalscheats.org con tu ID de pedido."
 			],
 			"fr": [
-				"Consultez Statut après un patch. Email support@rustcheats.co avec votre ID commande."
+				"Consultez Statut après un patch. Email support@thefinalscheats.org avec votre ID commande."
 			],
 			"de": [
-				"Status nach Patch prüfen. E-Mail an support@rustcheats.co mit Bestell-ID."
+				"Status nach Patch prüfen. E-Mail an support@thefinalscheats.org mit Bestell-ID."
 			],
 			"pt": [
-				"Verifique Status após patch. Email support@rustcheats.co com ID do pedido."
+				"Verifique Status após patch. Email support@thefinalscheats.org com ID do pedido."
 			],
 			"it": [
-				"Controlla Stato dopo patch. Email support@rustcheats.co con ID ordine."
+				"Controlla Stato dopo patch. Email support@thefinalscheats.org con ID ordine."
 			],
 			"nl": [
-				"Check Status na patch. E-mail support@rustcheats.co met order-ID."
+				"Check Status na patch. E-mail support@thefinalscheats.org met order-ID."
 			],
 			"pl": [
-				"Sprawdź Status po patchu. Email support@rustcheats.co z ID zamówienia."
+				"Sprawdź Status po patchu. Email support@thefinalscheats.org z ID zamówienia."
 			],
 			"ru": [
-				"Проверьте Статус после патча. Email support@rustcheats.co с ID заказа."
+				"Проверьте Статус после патча. Email support@thefinalscheats.org с ID заказа."
 			],
 			"tr": [
-				"Yama sonrası Durum kontrol edin. Sipariş ID ile support@rustcheats.co."
+				"Yama sonrası Durum kontrol edin. Sipariş ID ile support@thefinalscheats.org."
 			],
 			"ar": [
-				"تحقق من الحالة بعد التصحيح. راسل support@rustcheats.co مع معرف الطلب."
+				"تحقق من الحالة بعد التصحيح. راسل support@thefinalscheats.org مع معرف الطلب."
 			],
 			"ja": [
-				"パッチ後はステータス確認。注文IDを添えてsupport@rustcheats.coへ。"
+				"パッチ後はステータス確認。注文IDを添えてsupport@thefinalscheats.orgへ。"
 			],
 			"ko": [
-				"패치 후 상태 확인. 주문 ID와 함께 support@rustcheats.co."
+				"패치 후 상태 확인. 주문 ID와 함께 support@thefinalscheats.org."
 			],
 			"zh": [
-				"补丁后查看状态。携带订单 ID 邮件 support@rustcheats.co。"
+				"补丁后查看状态。携带订单 ID 邮件 support@thefinalscheats.org。"
 			],
 			"hi": [
-				"पैच के बाद Status जांचें। ऑर्डर ID के साथ support@rustcheats.co।"
+				"पैच के बाद Status जांचें। ऑर्डर ID के साथ support@thefinalscheats.org।"
 			],
 			"id": [
-				"Cek Status setelah patch. Email support@rustcheats.co dengan ID pesanan."
+				"Cek Status setelah patch. Email support@thefinalscheats.org dengan ID pesanan."
 			],
 			"th": [
-				"ตรวจสถานะหลังแพตช์ อีเมล support@rustcheats.co พร้อมรหัสคำสั่งซื้อ"
+				"ตรวจสถานะหลังแพตช์ อีเมล support@thefinalscheats.org พร้อมรหัสคำสั่งซื้อ"
 			],
 			"vi": [
-				"Kiểm tra Trạng thái sau bản vá. Email support@rustcheats.co kèm ID đơn."
+				"Kiểm tra Trạng thái sau bản vá. Email support@thefinalscheats.org kèm ID đơn."
 			],
 			"uk": [
-				"Перевірте Статус після патчу. Email support@rustcheats.co з ID замовлення."
+				"Перевірте Статус після патчу. Email support@thefinalscheats.org з ID замовлення."
 			],
 			"cs": [
-				"Po patchi zkontrolujte Stav. Email support@rustcheats.co s ID objednávky."
+				"Po patchi zkontrolujte Stav. Email support@thefinalscheats.org s ID objednávky."
 			],
 			"ro": [
-				"Verifică Status după patch. Email support@rustcheats.co cu ID comandă."
+				"Verifică Status după patch. Email support@thefinalscheats.org cu ID comandă."
 			],
 			"sv": [
-				"Kontrollera Status efter patch. Mejla support@rustcheats.co med order-ID."
+				"Kontrollera Status efter patch. Mejla support@thefinalscheats.org med order-ID."
 			]
 		},
 		"intro": {
 			"en": [
-				"Install and activate your license on Windows 10 or 11 before your first raid."
+				"Install and activate your license on Windows 10 or 11 before your first match."
 			],
 			"es": [
-				"Instala y activa tu licencia en Windows 10 u 11 antes de tu primer raid."
+				"Instala y activa tu licencia en Windows 10 u 11 antes de tu primer match."
 			],
 			"fr": [
-				"Installez et activez votre licence sur Windows 10 ou 11 avant votre premier raid."
+				"Installez et activez votre licence sur Windows 10 ou 11 avant votre premier match."
 			],
 			"de": [
 				"Installiere und aktiviere deine Lizenz auf Windows 10 oder 11 vor deinem ersten Raid."
 			],
 			"pt": [
-				"Instale e ative sua licença no Windows 10 ou 11 antes do primeiro raid."
+				"Instale e ative sua licença no Windows 10 ou 11 antes do primeiro match."
 			],
 			"it": [
-				"Installa e attiva la licenza su Windows 10 o 11 prima del primo raid."
+				"Installa e attiva la licenza su Windows 10 o 11 prima del primo match."
 			],
 			"nl": [
-				"Installeer en activeer je licentie op Windows 10 of 11 vóór je eerste raid."
+				"Installeer en activeer je licentie op Windows 10 of 11 vóór je eerste match."
 			],
 			"pl": [
-				"Zainstaluj i aktywuj licencję na Windows 10 lub 11 przed pierwszym raid."
+				"Zainstaluj i aktywuj licencję na Windows 10 lub 11 przed pierwszym match."
 			],
 			"ru": [
 				"Установите и активируйте лицензию на Windows 10 или 11 перед первым рейдом."
 			],
 			"tr": [
-				"İlk raid öncesi Windows 10 veya 11'de lisansınızı kurun ve etkinleştirin."
+				"İlk match öncesi Windows 10 veya 11'de lisansınızı kurun ve etkinleştirin."
 			],
 			"ar": [
-				"ثبّت وفعّل ترخيصك على Windows 10 أو 11 قبل أول raid."
+				"ثبّت وفعّل ترخيصك على Windows 10 أو 11 قبل أول match."
 			],
 			"ja": [
 				"初回レイド前にWindows 10または11でライセンスをインストール・有効化。"
@@ -3995,31 +3995,31 @@ export const PAGE_CONTENT = {
 				"첫 레이드 전 Windows 10 또는 11에서 라이선스를 설치하고 활성화하세요."
 			],
 			"zh": [
-				"首次 raid 前在 Windows 10 或 11 上安装并激活许可证。"
+				"首次 match 前在 Windows 10 或 11 上安装并激活许可证。"
 			],
 			"hi": [
-				"पहले raid से पहले Windows 10 या 11 पर लाइसेंस इंस्टॉल और सक्रिय करें।"
+				"पहले match से पहले Windows 10 या 11 पर लाइसेंस इंस्टॉल और सक्रिय करें।"
 			],
 			"id": [
-				"Instal dan aktifkan lisensi di Windows 10 atau 11 sebelum raid pertama."
+				"Instal dan aktifkan lisensi di Windows 10 atau 11 sebelum match pertama."
 			],
 			"th": [
-				"ติดตั้งและเปิดใช้ใบอนุญาตบน Windows 10 หรือ 11 ก่อน raid ครั้งแรก"
+				"ติดตั้งและเปิดใช้ใบอนุญาตบน Windows 10 หรือ 11 ก่อน match ครั้งแรก"
 			],
 			"vi": [
-				"Cài và kích hoạt giấy phép trên Windows 10 hoặc 11 trước raid đầu tiên."
+				"Cài và kích hoạt giấy phép trên Windows 10 hoặc 11 trước match đầu tiên."
 			],
 			"uk": [
-				"Встановіть і активуйте ліцензію на Windows 10 або 11 перед першим raid."
+				"Встановіть і активуйте ліцензію на Windows 10 або 11 перед першим match."
 			],
 			"cs": [
-				"Nainstalujte a aktivujte licenci na Windows 10 nebo 11 před prvním raid."
+				"Nainstalujte a aktivujte licenci na Windows 10 nebo 11 před prvním match."
 			],
 			"ro": [
-				"Instalează și activează licența pe Windows 10 sau 11 înainte de primul raid."
+				"Instalează și activează licența pe Windows 10 sau 11 înainte de primul match."
 			],
 			"sv": [
-				"Installera och aktivera din licens på Windows 10 eller 11 före din första raid."
+				"Installera och aktivera din licens på Windows 10 eller 11 före din första match."
 			]
 		},
 		"list0": {
@@ -4362,70 +4362,70 @@ export const PAGE_CONTENT = {
 	"support": {
 		"0": {
 			"en": [
-				"Email support@rustcheats.co. Include your order ID and a short note about the issue."
+				"Email support@thefinalscheats.org. Include your order ID and a short note about the issue."
 			],
 			"es": [
-				"Email a support@rustcheats.co. Incluye tu ID de pedido y una nota breve sobre el problema."
+				"Email a support@thefinalscheats.org. Incluye tu ID de pedido y una nota breve sobre el problema."
 			],
 			"fr": [
-				"Email support@rustcheats.co. Incluez votre ID commande et une brève note."
+				"Email support@thefinalscheats.org. Incluez votre ID commande et une brève note."
 			],
 			"de": [
-				"E-Mail an support@rustcheats.co. Bestell-ID und kurze Problembeschreibung angeben."
+				"E-Mail an support@thefinalscheats.org. Bestell-ID und kurze Problembeschreibung angeben."
 			],
 			"pt": [
-				"Email support@rustcheats.co. Inclua ID do pedido e nota breve sobre o problema."
+				"Email support@thefinalscheats.org. Inclua ID do pedido e nota breve sobre o problema."
 			],
 			"it": [
-				"Email support@rustcheats.co. Includi ID ordine e breve nota sul problema."
+				"Email support@thefinalscheats.org. Includi ID ordine e breve nota sul problema."
 			],
 			"nl": [
-				"E-mail support@rustcheats.co. Voeg order-ID en korte probleemnotitie toe."
+				"E-mail support@thefinalscheats.org. Voeg order-ID en korte probleemnotitie toe."
 			],
 			"pl": [
-				"Email support@rustcheats.co. Dołącz ID zamówienia i krótki opis problemu."
+				"Email support@thefinalscheats.org. Dołącz ID zamówienia i krótki opis problemu."
 			],
 			"ru": [
-				"Email support@rustcheats.co. Укажите ID заказа и краткое описание проблемы."
+				"Email support@thefinalscheats.org. Укажите ID заказа и краткое описание проблемы."
 			],
 			"tr": [
-				"support@rustcheats.co adresine email. Sipariş ID ve kısa sorun notu ekleyin."
+				"support@thefinalscheats.org adresine email. Sipariş ID ve kısa sorun notu ekleyin."
 			],
 			"ar": [
-				"راسل support@rustcheats.co. أرفق معرف الطلب وملاحظة قصيرة."
+				"راسل support@thefinalscheats.org. أرفق معرف الطلب وملاحظة قصيرة."
 			],
 			"ja": [
-				"support@rustcheats.coへメール。注文IDと問題の概要を記載。"
+				"support@thefinalscheats.orgへメール。注文IDと問題の概要を記載。"
 			],
 			"ko": [
-				"support@rustcheats.co로 이메일. 주문 ID와 문제 요약 포함."
+				"support@thefinalscheats.org로 이메일. 주문 ID와 문제 요약 포함."
 			],
 			"zh": [
-				"邮件 support@rustcheats.co，附上订单 ID 和简要问题说明。"
+				"邮件 support@thefinalscheats.org，附上订单 ID 和简要问题说明。"
 			],
 			"hi": [
-				"support@rustcheats.co पर email। ऑर्डर ID और समस्या का संक्षिप्त विवरण दें।"
+				"support@thefinalscheats.org पर email। ऑर्डर ID और समस्या का संक्षिप्त विवरण दें।"
 			],
 			"id": [
-				"Email support@rustcheats.co. Sertakan ID pesanan dan catatan singkat masalah."
+				"Email support@thefinalscheats.org. Sertakan ID pesanan dan catatan singkat masalah."
 			],
 			"th": [
-				"อีเมล support@rustcheats.co พร้อมรหัสคำสั่งซื้อและรายละเอียดปัญหา"
+				"อีเมล support@thefinalscheats.org พร้อมรหัสคำสั่งซื้อและรายละเอียดปัญหา"
 			],
 			"vi": [
-				"Email support@rustcheats.co kèm ID đơn và mô tả ngắn."
+				"Email support@thefinalscheats.org kèm ID đơn và mô tả ngắn."
 			],
 			"uk": [
-				"Email support@rustcheats.co. Додайте ID замовлення і короткий опис проблеми."
+				"Email support@thefinalscheats.org. Додайте ID замовлення і короткий опис проблеми."
 			],
 			"cs": [
-				"Email support@rustcheats.co. Uveďte ID objednávky a stručný popis problému."
+				"Email support@thefinalscheats.org. Uveďte ID objednávky a stručný popis problému."
 			],
 			"ro": [
-				"Email support@rustcheats.co. Include ID comandă și notă scurtă despre problemă."
+				"Email support@thefinalscheats.org. Include ID comandă și notă scurtă despre problemă."
 			],
 			"sv": [
-				"Mejla support@rustcheats.co. Inkludera order-ID och kort problembeskrivning."
+				"Mejla support@thefinalscheats.org. Inkludera order-ID och kort problembeskrivning."
 			]
 		},
 		"1": {
@@ -4498,70 +4498,70 @@ export const PAGE_CONTENT = {
 		},
 		"intro": {
 			"en": [
-				"Get help with licenses, setup, and billing for Rust Cheats on Windows PC."
+				"Get help with licenses, setup, and billing for The Final Cheats on Windows PC."
 			],
 			"es": [
-				"Obtén ayuda con licencias, instalación y facturación de Rust Cheats en Windows PC."
+				"Obtén ayuda con licencias, instalación y facturación de The Final Cheats en Windows PC."
 			],
 			"fr": [
-				"Obtenez de l'aide pour licences, installation et facturation Rust Cheats sur PC Windows."
+				"Obtenez de l'aide pour licences, installation et facturation The Final Cheats sur PC Windows."
 			],
 			"de": [
-				"Hilfe zu Lizenzen, Setup und Abrechnung für Rust Cheats auf Windows PC."
+				"Hilfe zu Lizenzen, Setup und Abrechnung für The Final Cheats auf Windows PC."
 			],
 			"pt": [
-				"Obtenha ajuda com licenças, instalação e faturamento do Rust Cheats no Windows PC."
+				"Obtenha ajuda com licenças, instalação e faturamento do The Final Cheats no Windows PC."
 			],
 			"it": [
-				"Assistenza per licenze, setup e fatturazione Rust Cheats su Windows PC."
+				"Assistenza per licenze, setup e fatturazione The Final Cheats su Windows PC."
 			],
 			"nl": [
-				"Hulp bij licenties, setup en facturering voor Rust Cheats op Windows PC."
+				"Hulp bij licenties, setup en facturering voor The Final Cheats op Windows PC."
 			],
 			"pl": [
-				"Pomoc z licencjami, instalacją i rozliczeniami Rust Cheats na Windows PC."
+				"Pomoc z licencjami, instalacją i rozliczeniami The Final Cheats na Windows PC."
 			],
 			"ru": [
-				"Помощь с лицензиями, установкой и оплатой Rust Cheats на Windows PC."
+				"Помощь с лицензиями, установкой и оплатой The Final Cheats на Windows PC."
 			],
 			"tr": [
-				"Windows PC'de Rust Cheats lisans, kurulum ve faturalama desteği."
+				"Windows PC'de The Final Cheats lisans, kurulum ve faturalama desteği."
 			],
 			"ar": [
-				"احصل على مساعدة للتراخيص والتثبيت والفوترة لـ Rust Cheats على Windows PC."
+				"احصل على مساعدة للتراخيص والتثبيت والفوترة لـ The Final Cheats على Windows PC."
 			],
 			"ja": [
-				"Windows PC向けRust Cheatsのライセンス、セットアップ、請求のサポート。"
+				"Windows PC向けThe Final Cheatsのライセンス、セットアップ、請求のサポート。"
 			],
 			"ko": [
-				"Windows PC Rust Cheats 라이선스, 설치, 결제 지원."
+				"Windows PC The Final Cheats 라이선스, 설치, 결제 지원."
 			],
 			"zh": [
-				"获取 Windows PC 上 Rust Cheats 的许可证、安装和账单帮助。"
+				"获取 Windows PC 上 The Final Cheats 的许可证、安装和账单帮助。"
 			],
 			"hi": [
-				"Windows PC पर Rust Cheats लाइसेंस, setup और billing सहायता।"
+				"Windows PC पर The Final Cheats लाइसेंस, setup और billing सहायता।"
 			],
 			"id": [
-				"Bantuan lisensi, setup, dan billing Rust Cheats di Windows PC."
+				"Bantuan lisensi, setup, dan billing The Final Cheats di Windows PC."
 			],
 			"th": [
-				"ความช่วยเหลือด้านใบอนุญาต การติดตั้ง และการเรียกเก็บเงิน Rust Cheats บน Windows PC"
+				"ความช่วยเหลือด้านใบอนุญาต การติดตั้ง และการเรียกเก็บเงิน The Final Cheats บน Windows PC"
 			],
 			"vi": [
-				"Hỗ trợ giấy phép, cài đặt và thanh toán Rust Cheats trên Windows PC."
+				"Hỗ trợ giấy phép, cài đặt và thanh toán The Final Cheats trên Windows PC."
 			],
 			"uk": [
-				"Допомога з ліцензіями, встановленням і оплатою Rust Cheats на Windows PC."
+				"Допомога з ліцензіями, встановленням і оплатою The Final Cheats на Windows PC."
 			],
 			"cs": [
-				"Pomoc s licencemi, instalací a fakturací Rust Cheats na Windows PC."
+				"Pomoc s licencemi, instalací a fakturací The Final Cheats na Windows PC."
 			],
 			"ro": [
-				"Ajutor pentru licențe, instalare și facturare Rust Cheats pe Windows PC."
+				"Ajutor pentru licențe, instalare și facturare The Final Cheats pe Windows PC."
 			],
 			"sv": [
-				"Hjälp med licenser, setup och fakturering för Rust Cheats på Windows PC."
+				"Hjälp med licenser, setup och fakturering för The Final Cheats på Windows PC."
 			]
 		},
 		"list0": {
@@ -4860,70 +4860,70 @@ export const PAGE_CONTENT = {
 		},
 		"1": {
 			"en": [
-				"Follow Setup after you buy. Check Status after big Rust or Easy Anti-Cheat patches."
+				"Follow Setup after you buy. Check Status after big The Finals or Easy Anti-Cheat patches."
 			],
 			"es": [
-				"Sigue Instalación tras comprar. Revisa Estado tras parches grandes de Rust o Easy Anti-Cheat."
+				"Sigue Instalación tras comprar. Revisa Estado tras parches grandes de The Finals o Easy Anti-Cheat."
 			],
 			"fr": [
-				"Suivez Installation après achat. Consultez Statut après gros patchs Rust ou Easy Anti-Cheat."
+				"Suivez Installation après achat. Consultez Statut après gros patchs The Finals ou Easy Anti-Cheat."
 			],
 			"de": [
-				"Folge Setup nach Kauf. Prüfe Status nach großen Rust- oder Easy Anti-Cheat-Patches."
+				"Folge Setup nach Kauf. Prüfe Status nach großen The Finals- oder Easy Anti-Cheat-Patches."
 			],
 			"pt": [
-				"Siga Instalação após comprar. Verifique Status após patches grandes de Rust ou Easy Anti-Cheat."
+				"Siga Instalação após comprar. Verifique Status após patches grandes de The Finals ou Easy Anti-Cheat."
 			],
 			"it": [
-				"Segui Setup dopo l'acquisto. Controlla Stato dopo patch importanti Rust o Easy Anti-Cheat."
+				"Segui Setup dopo l'acquisto. Controlla Stato dopo patch importanti The Finals o Easy Anti-Cheat."
 			],
 			"nl": [
-				"Volg Setup na aankoop. Check Status na grote Rust- of Easy Anti-Cheat-patches."
+				"Volg Setup na aankoop. Check Status na grote The Finals- of Easy Anti-Cheat-patches."
 			],
 			"pl": [
-				"Postępuj według Instalacji po zakupie. Sprawdź Status po dużych patchach Rust lub Easy Anti-Cheat."
+				"Postępuj według Instalacji po zakupie. Sprawdź Status po dużych patchach The Finals lub Easy Anti-Cheat."
 			],
 			"ru": [
-				"Следуйте Установке после покупки. Проверяйте Статус после крупных патчей Rust или Easy Anti-Cheat."
+				"Следуйте Установке после покупки. Проверяйте Статус после крупных патчей The Finals или Easy Anti-Cheat."
 			],
 			"tr": [
-				"Satın aldıktan sonra Kurulumu izleyin. Büyük Rust veya Easy Anti-Cheat yamalarından sonra Durumu kontrol edin."
+				"Satın aldıktan sonra Kurulumu izleyin. Büyük The Finals veya Easy Anti-Cheat yamalarından sonra Durumu kontrol edin."
 			],
 			"ar": [
-				"اتبع التثبيت بعد الشراء. تحقق من الحالة بعد تصحيحات Rust أو Easy Anti-Cheat الكبيرة."
+				"اتبع التثبيت بعد الشراء. تحقق من الحالة بعد تصحيحات The Finals أو Easy Anti-Cheat الكبيرة."
 			],
 			"ja": [
-				"購入後はセットアップに従い、RustまたはEasy Anti-Cheat大型パッチ後はステータスを確認。"
+				"購入後はセットアップに従い、The FinalsまたはEasy Anti-Cheat大型パッチ後はステータスを確認。"
 			],
 			"ko": [
-				"구매 후 설치를 따르고 Rust 또는 Easy Anti-Cheat 대규모 패치 후 상태를 확인하세요."
+				"구매 후 설치를 따르고 The Finals 또는 Easy Anti-Cheat 대규모 패치 후 상태를 확인하세요."
 			],
 			"zh": [
-				"购买后按安装指南操作。Rust 或 Easy Anti-Cheat 重大补丁后查看状态。"
+				"购买后按安装指南操作。The Finals 或 Easy Anti-Cheat 重大补丁后查看状态。"
 			],
 			"hi": [
-				"खरीद के बाद Setup फॉलो करें। बड़े Rust या Easy Anti-Cheat पैच के बाद Status जांचें।"
+				"खरीद के बाद Setup फॉलो करें। बड़े The Finals या Easy Anti-Cheat पैच के बाद Status जांचें।"
 			],
 			"id": [
-				"Ikuti Setup setelah beli. Cek Status setelah patch besar Rust atau Easy Anti-Cheat."
+				"Ikuti Setup setelah beli. Cek Status setelah patch besar The Finals atau Easy Anti-Cheat."
 			],
 			"th": [
-				"ทำตามการติดตั้งหลังซื้อ ตรวจสถานะหลังแพตช์ใหญ่ของ Rust หรือ Easy Anti-Cheat"
+				"ทำตามการติดตั้งหลังซื้อ ตรวจสถานะหลังแพตช์ใหญ่ของ The Finals หรือ Easy Anti-Cheat"
 			],
 			"vi": [
-				"Làm theo Cài đặt sau khi mua. Kiểm tra Trạng thái sau bản vá lớn Rust hoặc Easy Anti-Cheat."
+				"Làm theo Cài đặt sau khi mua. Kiểm tra Trạng thái sau bản vá lớn The Finals hoặc Easy Anti-Cheat."
 			],
 			"uk": [
-				"Дотримуйтесь Встановлення після покупки. Перевіряйте Статус після великих патчів Rust або Easy Anti-Cheat."
+				"Дотримуйтесь Встановлення після покупки. Перевіряйте Статус після великих патчів The Finals або Easy Anti-Cheat."
 			],
 			"cs": [
-				"Po nákupu postupujte podle Instalace. Po velkých patchích Rust nebo Easy Anti-Cheat kontrolujte Stav."
+				"Po nákupu postupujte podle Instalace. Po velkých patchích The Finals nebo Easy Anti-Cheat kontrolujte Stav."
 			],
 			"ro": [
-				"Urmează Instalarea după cumpărare. Verifică Status după patch-uri mari Rust sau Easy Anti-Cheat."
+				"Urmează Instalarea după cumpărare. Verifică Status după patch-uri mari The Finals sau Easy Anti-Cheat."
 			],
 			"sv": [
-				"Följ Setup efter köp. Kontrollera Status efter stora Rust- eller Easy Anti-Cheat-patchar."
+				"Följ Setup efter köp. Kontrollera Status efter stora The Finals- eller Easy Anti-Cheat-patchar."
 			]
 		},
 		"2": {
@@ -4996,70 +4996,70 @@ export const PAGE_CONTENT = {
 		},
 		"intro": {
 			"en": [
-				"Common questions about Rust Cheats — delivery, setup, updates, and refunds."
+				"Common questions about The Final Cheats — delivery, setup, updates, and refunds."
 			],
 			"es": [
-				"Preguntas frecuentes sobre Rust Cheats — entrega, instalación, actualizaciones y reembolsos."
+				"Preguntas frecuentes sobre The Final Cheats — entrega, instalación, actualizaciones y reembolsos."
 			],
 			"fr": [
-				"Questions fréquentes sur Rust Cheats — livraison, installation, mises à jour et remboursements."
+				"Questions fréquentes sur The Final Cheats — livraison, installation, mises à jour et remboursements."
 			],
 			"de": [
-				"Häufige Fragen zu Rust Cheats — Lieferung, Setup, Updates und Rückerstattungen."
+				"Häufige Fragen zu The Final Cheats — Lieferung, Setup, Updates und Rückerstattungen."
 			],
 			"pt": [
-				"Perguntas frequentes sobre Rust Cheats — entrega, instalação, atualizações e reembolsos."
+				"Perguntas frequentes sobre The Final Cheats — entrega, instalação, atualizações e reembolsos."
 			],
 			"it": [
-				"Domande frequenti su Rust Cheats — consegna, setup, aggiornamenti e rimborsi."
+				"Domande frequenti su The Final Cheats — consegna, setup, aggiornamenti e rimborsi."
 			],
 			"nl": [
-				"Veelgestelde vragen over Rust Cheats — levering, setup, updates en restituties."
+				"Veelgestelde vragen over The Final Cheats — levering, setup, updates en restituties."
 			],
 			"pl": [
-				"FAQ o Rust Cheats — dostawa, instalacja, aktualizacje i zwroty."
+				"FAQ o The Final Cheats — dostawa, instalacja, aktualizacje i zwroty."
 			],
 			"ru": [
-				"Частые вопросы о Rust Cheats — доставка, установка, обновления и возвраты."
+				"Частые вопросы о The Final Cheats — доставка, установка, обновления и возвраты."
 			],
 			"tr": [
-				"Rust Cheats SSS — teslimat, kurulum, güncellemeler ve iadeler."
+				"The Final Cheats SSS — teslimat, kurulum, güncellemeler ve iadeler."
 			],
 			"ar": [
-				"أسئلة شائعة عن Rust Cheats — التسليم والتثبيت والتحديثات والاسترداد."
+				"أسئلة شائعة عن The Final Cheats — التسليم والتثبيت والتحديثات والاسترداد."
 			],
 			"ja": [
-				"Rust Cheats FAQ — 配信、セットアップ、更新、返金。"
+				"The Final Cheats FAQ — 配信、セットアップ、更新、返金。"
 			],
 			"ko": [
-				"Rust Cheats FAQ — 배송, 설치, 업데이트, 환불."
+				"The Final Cheats FAQ — 배송, 설치, 업데이트, 환불."
 			],
 			"zh": [
-				"Rust Cheats 常见问题 — 交付、安装、更新和退款。"
+				"The Final Cheats 常见问题 — 交付、安装、更新和退款。"
 			],
 			"hi": [
-				"Rust Cheats FAQ — डिलीवरी, setup, अपडेट और रिफंड।"
+				"The Final Cheats FAQ — डिलीवरी, setup, अपडेट और रिफंड।"
 			],
 			"id": [
-				"FAQ Rust Cheats — pengiriman, setup, pembaruan, dan refund."
+				"FAQ The Final Cheats — pengiriman, setup, pembaruan, dan refund."
 			],
 			"th": [
-				"FAQ Rust Cheats — การจัดส่ง การติดตั้ง อัปเดต และการคืนเงิน"
+				"FAQ The Final Cheats — การจัดส่ง การติดตั้ง อัปเดต และการคืนเงิน"
 			],
 			"vi": [
-				"FAQ Rust Cheats — giao hàng, cài đặt, cập nhật và hoàn tiền."
+				"FAQ The Final Cheats — giao hàng, cài đặt, cập nhật và hoàn tiền."
 			],
 			"uk": [
-				"FAQ Rust Cheats — доставка, встановлення, оновлення та повернення."
+				"FAQ The Final Cheats — доставка, встановлення, оновлення та повернення."
 			],
 			"cs": [
-				"FAQ Rust Cheats — doručení, instalace, aktualizace a vrácení peněz."
+				"FAQ The Final Cheats — doručení, instalace, aktualizace a vrácení peněz."
 			],
 			"ro": [
-				"FAQ Rust Cheats — livrare, instalare, actualizări și rambursări."
+				"FAQ The Final Cheats — livrare, instalare, actualizări și rambursări."
 			],
 			"sv": [
-				"Rust Cheats FAQ — leverans, setup, uppdateringar och återbetalningar."
+				"The Final Cheats FAQ — leverans, setup, uppdateringar och återbetalningar."
 			]
 		},
 		"list0": {

@@ -11,7 +11,7 @@ const files = [
 ];
 
 const reps = [
-	['EXT.epic', 'EXT.rust'],
+	['EXT.epic', 'EXT.finals'],
 	['Epic Games', 'Activision'],
 	['Epic platform', 'Activision platform'],
 	['Epic service', 'Activision service'],
@@ -19,7 +19,7 @@ const reps = [
 	['Epic outages', 'Activision outages'],
 	['Epic outage', 'Activision outage'],
 	["Epic's", "Activision's"],
-	['Rust', 'Rust'],
+	['The Finals', 'The Finals'],
 	['KW.eac', 'KW.eac'],
 	['Easy Anti-Cheat (EAC)', 'Easy Anti-Cheat'],
 ];

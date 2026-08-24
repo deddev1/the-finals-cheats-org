@@ -1,6 +1,6 @@
 /**
- * Import Rust cheat screenshots from Supabase public storage.
- * Writes crawl URLs: /images/rust-screenshot-01.webp … 15.webp
+ * Import The Finals cheat screenshots from Supabase public storage.
+ * Writes crawl URLs: /images/finals-screenshot-01.webp … 15.webp
  * plus -480w / -960w responsive variants. Does not touch hero assets.
  */
 import { mkdir, writeFile } from 'node:fs/promises';
@@ -28,31 +28,31 @@ const SOURCE_URLS = [
 const SCREENSHOT_COUNT = 15;
 
 const imagesDir = path.resolve('public/images');
-const tmpDir = path.resolve('tmp/rust-screenshots/sources');
+const tmpDir = path.resolve('tmp/finals-screenshots/sources');
 
 const CONTENT_WIDTHS = [480, 960];
 const WEBP = { quality: 82, effort: 6, smartSubsample: true };
 
 const LEGACY_MAP = {
-	'rust-screenshot-02': ['rust-cheats-esp.webp'],
-	'rust-screenshot-03': ['rust-cheats-wallhack.webp'],
-	'rust-screenshot-04': ['rust-cheats-aimbot.webp'],
-	'rust-screenshot-05': ['rust-cheats-aimbot-view.webp'],
-	'rust-screenshot-06': ['rust-cheats-radar.webp'],
-	'rust-screenshot-07': ['rust-cheats-session.webp'],
-	'rust-screenshot-08': ['rust-cheats-combat.webp'],
-	'rust-screenshot-09': ['rust-esp-player-tags.webp', 'rust-esp-radar.webp'],
-	'rust-screenshot-10': ['rust-aimbot-skeleton.webp', 'rust-aimbot-sniper.webp'],
-	'rust-screenshot-11': ['rust-extract-fight.webp'],
-	'rust-screenshot-12': ['rust-growth-run-combat.webp'],
-	'rust-screenshot-13': ['rust-growth-run-mode.webp'],
-	'rust-screenshot-14': ['rust-verdansk-map.webp'],
-	'rust-screenshot-15': ['rust-wallhack-skeleton.webp'],
+	'finals-screenshot-02': ['finals-cheats-esp.webp'],
+	'finals-screenshot-03': ['finals-cheats-wallhack.webp'],
+	'finals-screenshot-04': ['finals-cheats-aimbot.webp'],
+	'finals-screenshot-05': ['finals-cheats-aimbot-view.webp'],
+	'finals-screenshot-06': ['finals-cheats-radar.webp'],
+	'finals-screenshot-07': ['finals-cheats-session.webp'],
+	'finals-screenshot-08': ['finals-cheats-combat.webp'],
+	'finals-screenshot-09': ['finals-esp-player-tags.webp', 'finals-esp-radar.webp'],
+	'finals-screenshot-10': ['finals-aimbot-skeleton.webp', 'finals-aimbot-sniper.webp'],
+	'finals-screenshot-11': ['rust-extract-fight.webp'],
+	'finals-screenshot-12': ['rust-growth-run-combat.webp'],
+	'finals-screenshot-13': ['rust-growth-run-mode.webp'],
+	'finals-screenshot-14': ['rust-verdansk-map.webp'],
+	'finals-screenshot-15': ['finals-wallhack-skeleton.webp'],
 };
 
 async function fetchSource(url, index) {
 	const res = await fetch(url, {
-		headers: { 'User-Agent': 'Mozilla/5.0 (compatible; RustCheatsSite/1.0)' },
+		headers: { 'User-Agent': 'Mozilla/5.0 (compatible; FinalsCheatsSite/1.0)' },
 	});
 	if (!res.ok) throw new Error(`Download failed (${index + 1}): HTTP ${res.status} — ${url}`);
 	const buf = Buffer.from(await res.arrayBuffer());
@@ -104,7 +104,7 @@ let totalBytes = 0;
 
 for (let n = 1; n <= SCREENSHOT_COUNT; n += 1) {
 	const num = String(n).padStart(2, '0');
-	const base = `rust-screenshot-${num}`;
+	const base = `finals-screenshot-${num}`;
 	const png = sourceFiles[(n - 1) % sourceFiles.length];
 
 	console.log(`Processing ${base}…`);

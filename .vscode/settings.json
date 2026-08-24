@@ -3,7 +3,7 @@
   "remote.autoForwardPortsSource": "hybrid",
   "remote.portsAttributes": {
     "5173": {
-      "label": "Rust Hacks",
+      "label": "The Finals Hacks",
       "onAutoForward": "openBrowser",
       "protocol": "http"
     }

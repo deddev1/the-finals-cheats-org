@@ -40,36 +40,36 @@ const copyDefaults = {
 } as const;
 
 const seoDefaults = {
-	homeTitle: 'Rust Cheats 2026 | Undetected ESP, Aimbot & Wallhack',
+	homeTitle: 'The Finals Cheats 2026 | ESP, Aimbot & Wallhack',
 	homeDescription:
-		'Buy undetected rust cheats at rustcheats.co — ESP wallhack, soft aim, 2D radar & mod menu for Windows PC. Easy Anti-Cheat patch updates. Plans from $35/month.',
-	featuresTitle: 'Rust Features 2026 | ESP, Aimbot & Radar | {brand}',
+		'Buy undetected The Finals cheats at thefinalscheats.org — ESP, aimbot, wallhack & 2D radar for Windows PC. Easy Anti-Cheat updates after patches. Plans from $35/month.',
+	featuresTitle: 'The Finals Features 2026 | ESP, Aimbot & Radar | {brand}',
 	featuresDescription:
-		'Full rust cheats feature list at {brand} — ESP wallhack, soft aim, 2D radar and mod menu toggles for Windows PC. {antiCheat} maintenance included. Compare at rustcheats.co.',
-	storeTitle: 'Rust Cheats Pricing 2026 | $35/mo or $150 Lifetime',
+		'Full the finals cheats feature list at {brand} — ESP wallhack, soft aim, 2D radar and mod menu toggles for Windows PC. {antiCheat} maintenance included. Compare at thefinalscheats.org.',
+	storeTitle: 'The Final Cheats Pricing 2026 | $35/mo or $150 Lifetime',
 	storeDescription:
-		'Buy rust cheats at rustcheats.co — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.',
-	statusTitle: 'Rust Status 2026 | Undetected {antiCheat} Updates | {brand}',
+		'Buy the finals cheats at thefinalscheats.org — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.',
+	statusTitle: 'The Finals Status 2026 | Undetected {antiCheat} Updates | {brand}',
 	statusDescription:
-		'Live {brand} status after {game} or {antiCheat} patches. Check undetected ESP, aimbot and radar rebuilds on Windows PC before you raid. Updated at rustcheats.co.',
-	previewTitle: 'Rust Hacks Guide 2026 | ESP, Aimbot & Wallhack | {brand}',
+		'Live {brand} status after {game} or {antiCheat} patches. Check undetected ESP, aimbot and radar rebuilds on Windows PC before you queue. Updated at thefinalscheats.org.',
+	previewTitle: 'The Finals Hacks Guide 2026 | ESP, Aimbot & Wallhack | {brand}',
 	previewDescription:
-		'Full rust cheats guide from {brand} — undetected ESP wallhack, soft aim, 2D radar and {antiCheat} rebuilds on Windows PC. Compare features and buy at rustcheats.co from $35.',
-	setupTitle: 'Rust Cheats Setup 2026 | Windows PC Install Guide',
+		'Full the finals cheats guide from {brand} — undetected ESP wallhack, soft aim, 2D radar and {antiCheat} rebuilds on Windows PC. Compare features and buy at thefinalscheats.org from $35.',
+	setupTitle: 'The Final Cheats Setup 2026 | Windows PC Install Guide',
 	setupDescription:
-		'Install {brand} on Windows PC after checkout — activate ESP, soft aim and radar step by step. Setup guide at rustcheats.co. Check {antiCheat} status before your first raid.',
-	supportTitle: 'Rust Cheats Support 2026 | License & Setup Help',
+		'Install {brand} on Windows PC after checkout — activate ESP, soft aim and radar step by step. Setup guide at thefinalscheats.org. Check {antiCheat} status before your first match.',
+	supportTitle: 'The Final Cheats Support 2026 | License & Setup Help',
 	supportDescription:
-		'{brand} support for license delivery, ESP setup and billing on Windows PC. Email {email} with your order ID. Visit rustcheats.co/support for FAQs and guides.',
-	faqTitle: 'Rust Cheats FAQ 2026 | ESP, Aimbot & {antiCheat} Answers',
+		'{brand} support for license delivery, ESP setup and billing on Windows PC. Email {email} with your order ID. Visit thefinalscheats.org/support for FAQs and guides.',
+	faqTitle: 'The Final Cheats FAQ 2026 | ESP, Aimbot & {antiCheat} Answers',
 	faqDescription:
-		'{brand} FAQ — delivery, setup, undetected status, {antiCheat} updates, pricing and refunds for rust cheats on Windows PC. Clear answers at rustcheats.co before you buy.',
-	reviewsTitle: 'Rust Cheats Reviews 2026 | Real Buyer Feedback',
+		'{brand} FAQ — delivery, setup, undetected status, {antiCheat} updates, pricing and refunds for the finals cheats on Windows PC. Clear answers at thefinalscheats.org before you buy.',
+	reviewsTitle: 'The Final Cheats Reviews 2026 | Real Buyer Feedback',
 	reviewsDescription:
-		'Real buyer reviews for {brand} — ESP wallhack, soft aim, radar and {antiCheat} maintenance on Windows PC. See what license holders say before you buy at rustcheats.co.',
-	blogTitle: 'Rust Intel Blog 2026 | Guides & Patch Tips | {brand}',
+		'Real buyer reviews for {brand} — ESP wallhack, soft aim, radar and {antiCheat} maintenance on Windows PC. See what license holders say before you buy at thefinalscheats.org.',
+	blogTitle: 'Finals Intel Blog 2026 | Guides & Patch Tips | {brand}',
 	blogDescription:
-		'Rust Intel blog from {brand} — raid tips, ESP and aimbot guides, loot routes and {antiCheat} update notes for Windows PC players at rustcheats.co/blog.',
+		'Finals Intel blog from {brand} — arena tips, ESP and aimbot guides, cashout routes and {antiCheat} update notes for Windows PC players at thefinalscheats.org/blog.',
 } as const;
 
 type SeoShape = typeof seoDefaults;
@@ -130,9 +130,9 @@ export const productInfo = {
 	heroLede: fillBrandTokens(brandCopy.heroLede),
 	features: {
 		esp: [
-			'Solo farmers and raiders ESP / wallhack',
+			'Solo farmers and matchers ESP / wallhack',
 			'Player growth stage and threat cues',
-			'Loot and base markers',
+			'Loot and vault markers',
 			'Distance readouts',
 			'Toggleable ESP categories',
 			'Corpse and loot highlights',
@@ -144,7 +144,7 @@ export const productInfo = {
 			'Hotkeys mid-session',
 			'Per-weapon profiles',
 		],
-		radar: ['2D radar overlay', 'Adjustable range', 'Works in base raids and PvP fights'],
+		radar: ['2D radar overlay', 'Adjustable range', 'Works in cashout rounds and arena PvP fights'],
 		general: [
 			fillBrandTokens('{antiCheat} maintenance after patches'),
 			'Digital delivery after checkout',

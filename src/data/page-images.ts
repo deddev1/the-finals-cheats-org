@@ -2,7 +2,7 @@ import { siteConfig } from './site';
 import { pageIds, type PageId } from './i18n/routing';
 import { pageSitemapImageLabels } from './brand-sitemap';
 
-const shot = (n: number) => `/images/rust-screenshot-${String(n).padStart(2, '0')}.webp`;
+const shot = (n: number) => `/images/finals-screenshot-${String(n).padStart(2, '0')}.webp`;
 
 /** Rotating product screenshots for FAQ / review detail URLs. */
 export const crawlPhotoPool = [
@@ -19,9 +19,9 @@ export const crawlPhotoPool = [
  * Prefer compressed WebP screenshots so Google can fetch them quickly.
  */
 export const pageImageSrcById: Record<PageId, string> = {
-	home: '/images/rust-cheats-hero-1536w.webp',
-	'rust-esp': shot(2),
-	'rust-aimbot': shot(4),
+	home: '/images/finals-cheats-hero-1536w.webp',
+	'finals-esp': shot(2),
+	'finals-aimbot': shot(4),
 	features: shot(5),
 	pricing: shot(7),
 	setup: shot(2),

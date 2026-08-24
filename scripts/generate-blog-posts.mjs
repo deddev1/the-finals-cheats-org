@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Generates src/data/blog/posts.generated.ts — NLP-first Rust Intel posts.
+ * Generates src/data/blog/posts.generated.ts — NLP-first Finals Intel posts.
  * Natural language, entity-rich copy for Google semantic matching.
  * Run: node scripts/generate-blog-posts.mjs
  */
@@ -15,9 +15,9 @@ const LOCALES = ['en'];
 
 const EXT = {
 	rust:
-		'<a href="https://store.steampowered.com/app/252490/Rust/" target="_blank" rel="noopener noreferrer">Rust</a>',
+		'<a href="https://store.steampowered.com/app/2073850/THE_FINALS/" target="_blank" rel="noopener noreferrer">The Finals</a>',
 	status:
-		'<a href="https://store.steampowered.com/app/252490/Rust//" target="_blank" rel="noopener noreferrer">Rust on Steam</a>',
+		'<a href="https://store.steampowered.com/app/2073850/THE_FINALS//" target="_blank" rel="noopener noreferrer">The Finals on Steam</a>',
 	eac:
 		'<a href="https://www.easy.ac/" target="_blank" rel="noopener noreferrer">Easy Anti-Cheat</a>',
 };
@@ -35,12 +35,12 @@ const sources = [
 		category: 'Patch Notes',
 		featured: false,
 		slug: 'rust-patch-notes-guide',
-		title: 'How to Read Rust Patch Notes',
+		title: 'How to Read The Finals Patch Notes',
 		metaDescription:
-			'Learn how Rust patch notes change player builds, resource economy, and maps. What to do after Easy Anti-Cheat and major updates in 2026.',
-		h1: 'How to Read Rust Patch Notes Without Guessing',
+			'Learn how The Finals patch notes change player builds, resource economy, and maps. What to do after Easy Anti-Cheat and major updates in 2026.',
+		h1: 'How to Read The Finals Patch Notes Without Guessing',
 		intro:
-			'When Facepunch Studios drops a patch, most players skim the headline and load in anyway. That is how you walk into Outpost with the wrong ammo and a gun that just lost its damage output. Here is a calmer way to read Rust patch notes so your next raid still makes sense.',
+			'When Embark Studios drops a patch, most players skim the headline and load in anyway. That is how you walk into Arena with the wrong ammo and a gun that just lost its damage output. Here is a calmer way to read The Finals patch notes so your next match still makes sense.',
 		keywords: [
 			'the rust patch notes',
 			'rust major update',
@@ -48,29 +48,29 @@ const sources = [
 			'player build',
 			'rust intel',
 		],
-		imageAlt: 'Player reviewing Rust patch notes before a raid',
+		imageAlt: 'Player reviewing The Finals patch notes before a match',
 		sections: [
 			{
-				h2: 'What actually matters in a Rust patch?',
+				h2: 'What actually matters in a The Finals patch?',
 				paragraphs: [
-					`Official notes live on ${EXT.rust}. Treat that page as the source of truth — Discord rumors and streamer hot takes come second. Ask three plain questions for every bullet: Does this change how heavy armor kits fight? Does this change what loot is worth raiding? Does this change which base or map I should play tonight?`,
-					'Growth stat tables, armor tiers, heli spawn rates, and blueprint unlocks move the real economy. A small recoil control tweak on an mid-tier weapons looks boring in a video title, but it quietly reshapes mid-range fights on monuments and Outpost. Cosmetic lines and UI polish almost never decide whether you survive high-traffic zones.',
-					`If you also run third-player tools, separate game balance from anti-cheat maintenance. After a ${EXT.eac} or client update, check our <a href="/updates/">Rust Hacks status page</a> before you blame your own aim.`,
+					`Official notes live on ${EXT.finals}. Treat that page as the source of truth — Discord rumors and streamer hot takes come second. Ask three plain questions for every bullet: Does this change how heavy armor kits fight? Does this change what loot is worth matching? Does this change which base or map I should play tonight?`,
+					'Growth stat tables, armor tiers, heli spawn rates, and blueprint unlocks move the real economy. A small recoil control tweak on an mid-tier weapons looks boring in a video title, but it quietly reshapes mid-range fights in stadiums and Arena. Cosmetic lines and UI polish almost never decide whether you survive high-traffic zones.',
+					`If you also run third-player tools, separate game balance from anti-cheat maintenance. After a ${EXT.eac} or client update, check our <a href="/updates/">The Finals Hacks status page</a> before you blame your own aim.`,
 				],
 			},
 			{
 				h2: 'Buffs, nerfs, and removed items — a simple framework',
 				paragraphs: [
-					'When an item is removed from raid loot pools, delete it from your mental shopping list the same day. Heavy nerfs demote a weapon from “default kit” to “situational.” Light nerfs are fine if you already shoot cleaner than most lobbies. Buffs deserve a short test block — ten focused raids — before you rebuild your entire progress around them.',
-					'Growth stats and bite damage changes usually matter more than a single gun’s recoil control number. If a popular round loses penetration against heavy armor kits, your Outpost push into pack firefights suddenly needs a different mag. Pair this reading habit with our <a href="/blog/rust-player-tier-list/">Rust player tier list</a> so you are not chasing streamer builds that ignore your budget.',
+					'When an item is removed from match loot pools, delete it from your mental shopping list the same day. Heavy nerfs demote a weapon from “default kit” to “situational.” Light nerfs are fine if you already shoot cleaner than most lobbies. Buffs deserve a short test block — ten focused matches — before you rebuild your entire progress around them.',
+					'Growth stats and bite damage changes usually matter more than a single gun’s recoil control number. If a popular round loses penetration against heavy armor kits, your Arena push into pack arena fights suddenly needs a different mag. Pair this reading habit with our <a href="/blog/rust-player-tier-list/">The Finals player tier list</a> so you are not chasing streamer builds that ignore your budget.',
 				],
 			},
 			{
 				h2: 'How patches reshuffle loadouts and map plans',
 				paragraphs: [
-					'When mid-tier ARs feel strong, prioritize optics and stats that win 40–70 meter peeks. When recoil gets tighter, play more conservatively near monuments and compounds and avoid ego third-parties. When a map POI shifts — new locked rooms, moved spawns, heli spawn changes — rewrite your first three minutes on that map before you farm it for raid goals.',
+					'When mid-tier ARs feel strong, prioritize optics and stats that win 40–70 meter peeks. When recoil gets tighter, play more conservatively near arenas and cashout vaults and avoid ego third-parties. When a map POI shifts — new locked rooms, moved spawns, heli spawn changes — rewrite your first three minutes on that map before you farm it for match goals.',
 					'Keep in-game cosmetics chatter out of patch-day focus. Skin talk is fun; TTK and base camping patterns are what get you killed. For aggressive juvenile timing after a meta shift, see our <a href="/blog/rust-farming-run-aggressive-strategies/">farming-run strategies</a>.',
-					`On big mornings, confirm ${EXT.status} looks healthy before you assume your client is broken. Then run a short checklist: note removed items, update your progress “buy list,” play five intentional raids, and only then lock a new main kit.`,
+					`On big mornings, confirm ${EXT.status} looks healthy before you assume your client is broken. Then run a short checklist: note removed items, update your progress “buy list,” play five intentional matches, and only then lock a new main kit.`,
 				],
 			},
 		],
@@ -83,12 +83,12 @@ const sources = [
 		category: 'Cosmetics',
 		featured: false,
 		slug: 'rust-skin-leaks-guide',
-		title: 'Rust Cosmetics & Skin Previews: What Is Worth Buying',
+		title: 'The Finals Cosmetics & Skin Previews: What Is Worth Buying',
 		metaDescription:
-			'Sensible advice on Rust cosmetics and skin previews — what to buy on the in-game store, what to skip, and how looks affect raid readability.',
-		h1: 'Rust Cosmetics and Skin Previews: Buy Smart, Not Impulsive',
+			'Sensible advice on The Finals cosmetics and skin previews — what to buy on the in-game store, what to skip, and how looks affect match readability.',
+		h1: 'The Finals Cosmetics and Skin Previews: Buy Smart, Not Impulsive',
 		intro:
-			'Leaks make every patch cycle feel like a fashion drop. Before you dump scrap into another loud outfit, decide whether the skin helps you play Rust — or just looks cool in a screenshot.',
+			'Leaks make every patch cycle feel like a fashion drop. Before you dump scrap into another loud outfit, decide whether the skin helps you play The Finals — or just looks cool in a screenshot.',
 		keywords: [
 			'rust skins',
 			'rust cosmetics',
@@ -96,19 +96,19 @@ const sources = [
 			'the rust skins',
 			'rust intel',
 		],
-		imageAlt: 'Rust character cosmetics and skin appearance options',
+		imageAlt: 'The Finals character cosmetics and skin appearance options',
 		sections: [
 			{
 				h2: 'Why most impulse cosmetic buys feel bad after a week',
 				paragraphs: [
-					`Shop rotations and official skins come from ${EXT.rust}. Leaks are entertainment, not a shopping list. Many players spend hard-earned in-game currency the night before a patch cycle, then realize they still need stamina recovery, ammo, and a backup kit.`,
-					'Controversial but useful: most cosmetics do not raise your survival rate. Some loud patterns even make you easier to spot in bushes on monuments or near monument edges. Pros often prefer quieter silhouettes so enemy outlines stay readable in chaotic peeks.',
+					`Shop rotations and official skins come from ${EXT.finals}. Leaks are entertainment, not a shopping list. Many players spend hard-earned in-game currency the night before a patch cycle, then realize they still need stamina recovery, ammo, and a backup kit.`,
+					'Controversial but useful: most cosmetics do not raise your survival rate. Some loud patterns even make you easier to spot in bushes in stadiums or near monument edges. Pros often prefer quieter silhouettes so enemy outlines stay readable in chaotic peeks.',
 				],
 			},
 			{
-				h2: 'A simple worth-it checklist for Rust cosmetics',
+				h2: 'A simple worth-it checklist for The Finals cosmetics',
 				paragraphs: [
-					'Buy if you will still wear it in ninety days and it stays readable in night raids. Pause if it overlaps three outfits you already own. Skip FOMO bundles packed with fillers you will never equip. Always keep a rouble floor for ammo and healing before fashion.',
+					'Buy if you will still wear it in ninety days and it stays readable in night matches. Pause if it overlaps three outfits you already own. Skip FOMO bundles packed with fillers you will never equip. Always keep a rouble floor for ammo and healing before fashion.',
 					'Do the math on bundles. Paying extra for two fillers you hate is worse than waiting for a single piece on the in-game store. If a leak only hypes one jacket, wait for confirmation instead of panic-buying a full set.',
 				],
 			},
@@ -129,12 +129,12 @@ const sources = [
 		category: 'Weapons',
 		featured: true,
 		slug: 'rust-player-tier-list',
-		title: 'Rust Player Tier List: Best Weapons for Raids',
+		title: 'The Finals Player Tier List: Best Weapons for Raids',
 		metaDescription:
-			'A practical Rust player tier list for solo farmers and raiders raids — ARs, SMGs, and bolt-action rifles, ammo, and when each gun actually wins fights.',
-		h1: 'Rust Player Tier List: What Wins Raids in 2026',
+			'A practical The Finals player tier list for solo farmers and matchers matches — ARs, SMGs, and long-range rifles, ammo, and when each gun actually wins fights.',
+		h1: 'The Finals Player Tier List: What Wins Raids in 2026',
 		intro:
-			'Creator tier lists love flashy guns. Rust rewards expected value: damage output, recoil control you can control, and a kit you can rebuild after you die. Here is how to rank players for real raids — not highlight reels.',
+			'Creator tier lists love flashy guns. The Finals rewards expected value: damage output, recoil control you can control, and a kit you can rebuild after you die. Here is how to rank players for real matches — not highlight reels.',
 		keywords: [
 			'rust player tier list',
 			'best rust guns',
@@ -142,28 +142,28 @@ const sources = [
 			'rex rust',
 			'rust intel',
 		],
-		imageAlt: 'Rust players laid out for a weapon comparison for a weapon loadout comparison',
+		imageAlt: 'The Finals players laid out for a weapon comparison for a weapon loadout comparison',
 		sections: [
 			{
-				h2: 'How should you define S-tier in Rust?',
+				h2: 'How should you define S-tier in The Finals?',
 				paragraphs: [
-					'S-tier means the best expected value across a hundred player encounters on maps like Outpost, Woods, and Outpost — not the gun that looks strongest in a controlled offline range. Mid-range rifles win many of the fights that actually decide raids: forty to seventy meters through doorways, parking lots, and tree lines.',
-					'Shotguns still own tight interiors. Bolt-actions still punish long peeks on Shoreline and Lighthouse. Everything between those extremes is usually assault-rifle country, which is why a well-built M4A1 or similar 5.56 platform stays relevant patch cycle after patch cycle when ammo and mods are available.',
-					`Always re-check live values after patches on ${EXT.rust}. The hierarchy logic stays useful even when numbers nudge.`,
+					'S-tier means the best expected value across a hundred player encounters on maps like Arena, Woods, and Arena — not the gun that looks strongest in a controlled offline range. Mid-range rifles win many of the fights that actually decide matches: forty to seventy meters through doorways, parking lots, and tree lines.',
+					'Shotguns still own tight interiors. Long-ranges still punish long peeks on Shoreline and Lighthouse. Everything between those extremes is usually assault-rifle country, which is why a well-built M4A1 or similar 5.56 platform stays relevant patch cycle after patch cycle when ammo and mods are available.',
+					`Always re-check live values after patches on ${EXT.finals}. The hierarchy logic stays useful even when numbers nudge.`,
 				],
 			},
 			{
 				h2: 'Ammo, TTK, and peek discipline matter more than brand names',
 				paragraphs: [
-					'Time-to-kill in Rust is really time-to-pen. A soft gun with the right rounds beats a loud meta rifle feeding trash ammo into class-five armor. Learn which rounds you can afford this patch cycle, then pick a platform that controls recoil control at your skill level.',
-					'First-shot accuracy decides many peeks. A clean cadence — peek, fire a short burst, jiggle back, re-peek — beats standing still for ego sprays. Pair this mid-range plan with loot discipline from our <a href="/blog/rust-loot-routes-guide/">loot routes guide</a> so you actually load in with the ammo you planned to use.',
+					'Time-to-kill in The Finals is really time-to-pen. A soft gun with the right rounds beats a loud meta rifle feeding trash ammo into class-five armor. Learn which rounds you can afford this patch cycle, then pick a platform that controls recoil control at your skill level.',
+					'First-shot accuracy decides many peeks. A clean cadence — peek, fire a short burst, jiggle back, re-peek — beats standing still for ego sprays. Pair this mid-range plan with loot discipline from our <a href="/blog/rust-loot-routes-guide/">cashout routes guide</a> so you actually load in with the ammo you planned to use.',
 				],
 			},
 			{
 				h2: 'Loadout pairings and common mistakes',
 				paragraphs: [
-					'A durable kit is usually a reliable mid-tier AR, an SMG build in compound zones or high-traffic zones, enough meds, and an armor tier you can replace after deaths. In farming runs, that same spine supports the aggression patterns in our <a href="/blog/rust-farming-run-aggressive-strategies/">farming strategies article</a>.',
-					'Common mistakes: full-spraying from eighty meters, re-peeking the same pixel, swapping to an SMG at forty meters out of habit, and never practicing controlled bursts offline. If you also use aim-assist tooling, lock aim smoothing and fundamentals first, then review <a href="/rust-aimbot/">Rust Aimbot settings</a>.',
+					'A durable kit is usually a reliable mid-tier AR, an SMG build in cashout zones or high-traffic zones, enough meds, and an armor tier you can replace after deaths. In farming runs, that same spine supports the aggression patterns in our <a href="/blog/rust-farming-run-aggressive-strategies/">farming strategies article</a>.',
+					'Common mistakes: full-spraying from eighty meters, re-peeking the same pixel, swapping to an SMG at forty meters out of habit, and never practicing controlled bursts offline. If you also use aim-assist tooling, lock aim smoothing and fundamentals first, then review <a href="/finals-aimbot/">The Finals Aimbot settings</a>.',
 				],
 			},
 		],
@@ -176,40 +176,40 @@ const sources = [
 		category: 'Farming Runs',
 		featured: true,
 		slug: 'rust-farming-run-aggressive-strategies',
-		title: 'Rust Farming Run Strategies That Actually Farm Loot',
+		title: 'The Finals Farming Run Strategies That Actually Farm Loot',
 		metaDescription:
-			'Five aggressive but smart Rust farming strategies — timings, bases, third-players, and how to leave raids with loot instead of low growth.',
-		h1: 'Rust Farming Run Strategies: How to Leave With Growth',
+			'Five aggressive but smart The Finals farming strategies — timings, bases, third-players, and how to leave matches with loot instead of low growth.',
+		h1: 'The Finals Farming Run Strategies: How to Leave With Growth',
 		intro:
-			'Passive starting players wait behind a bush while two player teams erase each other, then spray into the mess and die. Strong farming runs manufacture a short advantage, grab what matters, and extract before the raid ends collapses on you.',
+			'Passive starting players wait behind a bush while two player teams erase each other, then spray into the mess and die. Strong farming runs manufacture a short advantage, grab what matters, and extract before the match ends collapses on you.',
 		keywords: [
 			'rust farming run',
 			'farming strategies',
 			'the rust juvenile',
 			'rust bases',
-			'Rust ESP',
+			'The Finals ESP',
 		],
-		imageAlt: 'starting player moving toward a base with loot in Rust',
+		imageAlt: 'starting player moving toward a base with loot in The Finals',
 		sections: [
 			{
 				h2: 'Why so many farming runs feel soft',
 				paragraphs: [
-					'starter kits are random, timers are limited, and player enemy players can turn on you. Waiting forever for a “perfect” third-player often means you arrive late to a patched lobby with nothing left. Information tools like <a href="/rust-esp/">Rust ESP</a> can help you see fights early — but you still need an exit plan.',
-					'Decide your raid route before you swing. Take a clear damage window, grab high-value loot, then leave. The usual third-player clock in hot POIs is only a few seconds long once gunfire starts.',
+					'starter kits are random, timers are limited, and player enemy players can turn on you. Waiting forever for a “perfect” third-player often means you arrive late to a patched lobby with nothing left. Information tools like <a href="/finals-esp/">The Finals ESP</a> can help you see fights early — but you still need an exit plan.',
+					'Decide your match route before you swing. Take a clear damage window, grab high-value loot, then leave. The usual third-player clock in hot POIs is only a few seconds long once gunfire starts.',
 				],
 			},
 			{
 				h2: 'Five aggressive habits that still work',
 				paragraphs: [
-					'Pre-aim common corners on Outpost high-traffic zones and Outpost tech stores so you clear angles in under a second. Enter rooms with an exit path, not a panic turn. Fake one side of a doorway, then finish from the safer angle when their stamina is low.',
-					`Stay close to hard cover while you move — never more than a short sprint from a wall or vehicle. Pressure late rotates near monuments and compounds when players are silhouetted and greedy. Mode rules evolve with ${EXT.rust} patch cycles; the geometry of first-shot advantage does not.`,
+					'Pre-aim common corners on Arena high-traffic zones and Arena tech stores so you clear angles in under a second. Enter rooms with an exit path, not a panic turn. Fake one side of a doorway, then finish from the safer angle when their stamina is low.',
+					`Stay close to hard cover while you move — never more than a short sprint from a wall or vehicle. Pressure late rotates near arenas and cashout vaults when players are silhouetted and greedy. Mode rules evolve with ${EXT.finals} patch cycles; the geometry of first-shot advantage does not.`,
 				],
 			},
 			{
 				h2: 'Warmup checklist before you load in with a starter kit',
 				paragraphs: [
-					'Know your map’s main bases, bring a simple med plan, and pick two POIs with cover ladders instead of open fields. Pair this article with <a href="/blog/rust-loot-routes-guide/">loot routes</a>, <a href="/blog/rust-player-tier-list/">player tiers</a>, and <a href="/blog/rust-warmup-maps-ranked/">warmup routines</a>.',
-					'Try one raid where you force early contact only when you have armor and a usable gun — then track whether you extracted before the third-player window closed.',
+					'Know your map’s main bases, bring a simple med plan, and pick two POIs with cover ladders instead of open fields. Pair this article with <a href="/blog/rust-loot-routes-guide/">cashout routes</a>, <a href="/blog/rust-player-tier-list/">player tiers</a>, and <a href="/blog/rust-warmup-maps-ranked/">warmup routines</a>.',
+					'Try one match where you force early contact only when you have armor and a usable gun — then track whether you extracted before the third-player window closed.',
 				],
 			},
 		],
@@ -222,12 +222,12 @@ const sources = [
 		category: 'Competitive',
 		featured: false,
 		slug: 'rust-competitive-meta-guide',
-		title: 'What Competitive Rust Players Optimize For',
+		title: 'What Competitive The Finals Players Optimize For',
 		metaDescription:
-			'What strong Rust competitors optimize — raid plans, loadouts, mid-session habits, and which competitive habits help normal raid sessions.',
-		h1: 'What Competitive Rust Players Optimize For',
+			'What strong The Finals competitors optimize — match plans, loadouts, mid-session habits, and which competitive habits help normal match sessions.',
+		h1: 'What Competitive The Finals Players Optimize For',
 		intro:
-			'Tournament winners and high-level pairs are not lucky spawn gods. They optimize expected value: safer loot paths, cleaner mid-session habits, and fights they choose on purpose. Here is what translates into your normal Rust load ins.',
+			'Tournament winners and high-level pairs are not lucky spawn gods. They optimize expected value: safer loot paths, cleaner mid-session habits, and fights they choose on purpose. Here is what translates into your normal The Finals load ins.',
 		keywords: [
 			'rust official server',
 			'rust competitive meta',
@@ -235,12 +235,12 @@ const sources = [
 			'survival habits',
 			'rust intel',
 		],
-		imageAlt: 'Competitive Rust players reviewing raid strategy',
+		imageAlt: 'Competitive The Finals players reviewing match strategy',
 		sections: [
 			{
 				h2: 'Watch official server stream replays like a coach, not a fan',
 				paragraphs: [
-					`Start with schedules and film from ${EXT.rust} official updates or trusted creators, then tag habits instead of memorizing a single POI name. Note the landing plan, first heal, first rotate, first voluntary fight, and the key late-session decision.`,
+					`Start with schedules and film from ${EXT.finals} official updates or trusted creators, then tag habits instead of memorizing a single POI name. Note the landing plan, first heal, first rotate, first voluntary fight, and the key late-session decision.`,
 					'Five clear timestamps beat a full passive watch. You are stealing decision patterns, not cosplaying someone else’s spawn.',
 				],
 			},
@@ -252,10 +252,10 @@ const sources = [
 				],
 			},
 			{
-				h2: 'What actually translates to normal raids',
+				h2: 'What actually translates to normal matches',
 				paragraphs: [
 					'Steal loot-timer discipline, a simple loot path, earlier rotates, and selective fights. Do not blindly mirror a trio drop when you solo load in. Winners rotate early enough to choose sides — the same idea shows up in our <a href="/blog/rust-farming-run-aggressive-strategies/">farming aggression guide</a>.',
-					'Try this: watch fifteen minutes of a strong stream replay with five timestamps. Steal one mid-session habit only. Run it for a six-session raid block before adding another.',
+					'Try this: watch fifteen minutes of a strong stream replay with five timestamps. Steal one mid-session habit only. Run it for a six-session match block before adding another.',
 				],
 			},
 		],
@@ -268,40 +268,40 @@ const sources = [
 		category: 'Loot Routes',
 		featured: true,
 		slug: 'rust-loot-routes-guide',
-		title: 'Rust Loot Routes That Leave Spawn Ready to Fight',
+		title: 'The Finals Loot Routes That Leave Spawn Ready to Fight',
 		metaDescription:
-			'High-percentage Rust loot routes for Outpost, Woods, and Outpost — how to leave load in with guns, armor, and stamina recovery that win mid-session fights.',
-		h1: 'Rust Loot Routes: Leave Spawn Ready to Fight',
+			'High-percentage The Finals cashout routes for Arena, Woods, and Arena — how to leave load in with guns, armor, and stamina recovery that win mid-session fights.',
+		h1: 'The Finals Loot Routes: Leave Spawn Ready to Fight',
 		intro:
-			'Winning in Rust starts before the first gunfight. Random looting gets you killed with a pistol and no stamina recovery. These route habits consistently convert a load into a kit you can actually fight with.',
+			'Winning in The Finals starts before the first gunfight. Random looting gets you killed with a pistol and no stamina recovery. These route habits consistently convert a load into a kit you can actually fight with.',
 		keywords: [
-			'rust loot routes',
-			'Outpost loot routes',
-			'Outpost loot spawns',
+			'rust cashout routes',
+			'Arena cashout routes',
+			'Arena loot spawns',
 			'rust spawn guide',
-			'Rust ESP',
+			'The Finals ESP',
 		],
-		imageAlt: 'Loot route planning across a Rust map',
+		imageAlt: 'Loot route planning across a The Finals map',
 		sections: [
 			{
 				h2: 'Why early inventory is the real bottleneck',
 				paragraphs: [
-					'Many early raid deaths happen because players loot like tourists. Strong players treat the first ninety seconds like a shopping list: usable gun, enough ammo, basic armor, and a heal. Drop spot matters less than sequence — a mediocre POI with discipline beats a stacked landmark with panic looting.',
-					'Secure a primary growth stage and stamina recovery before firefighting kills. Early ego chases are how hot-spawn players stay broke.',
+					'Many early match deaths happen because players loot like tourists. Strong players treat the first ninety seconds like a shopping list: usable gun, enough ammo, basic armor, and a heal. Drop spot matters less than sequence — a mediocre POI with discipline beats a stacked landmark with panic looting.',
+					'Secure a primary growth stage and stamina recovery before arena fighting kills. Early ego chases are how hot-spawn players stay broke.',
 				],
 			},
 			{
 				h2: 'Three route archetypes that keep printing gear',
 				paragraphs: [
 					'Contested edge POI: land outer loot, snake inward, leave before late third parties. Uncontested chain: sacrifice early fights for a fuller kit by minute three. Mid-map surge: vacuum piles ninety to one hundred fifty seconds after hot spawns empty out.',
-					`Timing targets help: first gun quickly, clear a cluster, grab heals, then upgrade or leave. Slot priority is usually gun, ammo, armor, stamina recovery, then flex loot. POI names shift with ${EXT.rust} patch cycles — keep the geometry, not just the landmark brand.`,
+					`Timing targets help: first gun quickly, clear a cluster, grab heals, then upgrade or leave. Slot priority is usually gun, ammo, armor, stamina recovery, then flex loot. POI names shift with ${EXT.finals} patch cycles — keep the geometry, not just the landmark brand.`,
 				],
 			},
 			{
 				h2: 'Convert a strong load into a win',
 				paragraphs: [
 					'Pair these routes with <a href="/blog/rust-farming-run-aggressive-strategies/">farming aggression</a> and <a href="/blog/rust-player-tier-list/">player tiers</a>. Leave load in with gear advantage so mid-session becomes a skill check instead of a desperate growth panic.',
-					'If you practice with loot markers, read <a href="/rust-esp/">Rust ESP</a> for category toggles — then still run the timer so your habits stay sharp without overlays.',
+					'If you practice with vault markers, read <a href="/finals-esp/">The Finals ESP</a> for category toggles — then still run the timer so your habits stay sharp without overlays.',
 				],
 			},
 		],
@@ -314,12 +314,12 @@ const sources = [
 		category: 'Settings',
 		featured: false,
 		slug: 'rust-pro-settings-guide',
-		title: 'Rust Pro Settings That Actually Help You See Enemies',
+		title: 'The Finals Pro Settings That Actually Help You See Enemies',
 		metaDescription:
-			'Practical Rust settings used by strong players — visibility, audio cues, aim smoothing, and what to copy vs ignore from pro configs.',
-		h1: 'Rust Settings Guide: See More, Panic Less',
+			'Practical The Finals settings used by strong players — visibility, audio cues, aim smoothing, and what to copy vs ignore from pro configs.',
+		h1: 'The Finals Settings Guide: See More, Panic Less',
 		intro:
-			'Copying a champion’s entire config will not make you one. But a few Rust settings reliably improve visibility, audio reads, and aim consistency. Here is what is worth stealing.',
+			'Copying a champion’s entire config will not make you one. But a few The Finals settings reliably improve visibility, audio reads, and aim consistency. Here is what is worth stealing.',
 		keywords: [
 			'rust settings',
 			'rust aim smoothing',
@@ -327,27 +327,27 @@ const sources = [
 			'rust audio settings',
 			'rust intel',
 		],
-		imageAlt: 'Rust graphics and control settings menu',
+		imageAlt: 'The Finals graphics and control settings menu',
 		sections: [
 			{
 				h2: 'Visibility and performance before fancy numbers',
 				paragraphs: [
-					'If your frame rate collapses in monument river zones or Outpost interiors, no aim smoothing tip will save you. Prioritize a stable FPS and readable shadows over maximum eye candy. Many strong players lower clutter so player silhouettes pop sooner in tree lines and warehouse lighting.',
-					'Test changes in practice server or a quiet juvenile before locking them for serious raids. Your eyes adapt in a few raids — give settings that long before declaring them useless.',
+					'If your frame rate collapses in monument river zones or Arena interiors, no aim smoothing tip will save you. Prioritize a stable FPS and readable shadows over maximum eye candy. Many strong players lower clutter so player silhouettes pop sooner in tree lines and warehouse lighting.',
+					'Test changes in practice server or a quiet juvenile before locking them for serious matches. Your eyes adapt in a few matches — give settings that long before declaring them useless.',
 				],
 			},
 			{
 				h2: 'Sensitivity, ADS, and muscle memory',
 				paragraphs: [
 					'Pick one hip-fire and ADS relationship and stick with it for at least a week. Constantly rewriting sens after every death trains nothing. Warm up with the routine in our <a href="/blog/rust-warmup-maps-ranked/">warmup guide</a> so your hands match the new numbers.',
-					'If you later add soft aim tooling, match the in-game sens first, then tune FOV in the <a href="/rust-aimbot/">aimbot guide</a>. Tools on top of a chaotic sens feel robotic and obvious.',
+					'If you later add soft aim tooling, match the in-game sens first, then tune FOV in the <a href="/finals-aimbot/">aimbot guide</a>. Tools on top of a chaotic sens feel robotic and obvious.',
 				],
 			},
 			{
 				h2: 'Audio cues that win bases',
 				paragraphs: [
 					'Footsteps, ability cooldowns, and footstep audio often matter more than a tiny graphics slider. Use headphones, keep voice chat from drowning game audio, and learn the sound difference between a NPC shuffle and a player push.',
-					'Settings are leverage, not a cheat code. Pair them with map knowledge from our <a href="/blog/rust-loot-routes-guide/">loot routes</a> article so you know where those sounds are coming from.',
+					'Settings are leverage, not a cheat code. Pair them with map knowledge from our <a href="/blog/rust-loot-routes-guide/">cashout routes</a> article so you know where those sounds are coming from.',
 				],
 			},
 		],
@@ -360,12 +360,12 @@ const sources = [
 		category: 'Warmup',
 		featured: false,
 		slug: 'rust-warmup-maps-ranked',
-		title: 'Rust Warmup Routine Before Serious Raid Raids',
+		title: 'The Finals Warmup Routine Before Serious Raid Raids',
 		metaDescription:
-			'A short Rust warmup routine before raids — aim, peeks, audio focus, and what to practice offline so your first fight is not your warmup.',
-		h1: 'Rust Warmup Routine Before You Queue player',
+			'A short The Finals warmup routine before matches — aim, peeks, audio focus, and what to practice offline so your first fight is not your warmup.',
+		h1: 'The Finals Warmup Routine Before You Queue player',
 		intro:
-			'Queuing cold into high-traffic zones or high-traffic zones is how you donate a kit. A short Rust warmup — even ten to fifteen minutes — makes your first real fight feel like your third.',
+			'Queuing cold into high-traffic zones or high-traffic zones is how you donate a kit. A short The Finals warmup — even ten to fifteen minutes — makes your first real fight feel like your third.',
 		keywords: [
 			'rust warmup',
 			'rust aim practice',
@@ -373,12 +373,12 @@ const sources = [
 			'rust aim train sessions',
 			'rust intel',
 		],
-		imageAlt: 'Player warming up aim before a Rust raid',
+		imageAlt: 'Player warming up aim before a The Finals match',
 		sections: [
 			{
-				h2: 'Why your first raid should not be the warmup',
+				h2: 'Why your first match should not be the warmup',
 				paragraphs: [
-					'Most players boot the game, slap on a kit, and die to the first clean peeker. Hands are cold, audio is not dialed, and map timing feels off. Treat warmup as part of the raid, not optional fluff.',
+					'Most players boot the game, slap on a kit, and die to the first clean peeker. Hands are cold, audio is not dialed, and map timing feels off. Treat warmup as part of the match, not optional fluff.',
 					'Offline practice, practice server habits, and a couple of low-stakes farming runs exist so your expensive grown player is not the experiment.',
 				],
 			},
@@ -386,106 +386,106 @@ const sources = [
 				h2: 'A simple 15-minute routine that scales',
 				paragraphs: [
 					'Minutes 1–5: tracking and short bursts on a practice server with NPCs. Minutes 6–10: ambush practice on common angles — jiggle, counter-strafe, pre-aim head height. Minutes 11–15: one focused aim train or practice server block where you only work one habit, like holding a base or clearing dense cover.',
-					'Keep the routine identical for a week so improvements are measurable. Rotate maps later — Outpost one day, Woods the next — after the habit sticks.',
+					'Keep the routine identical for a week so improvements are measurable. Rotate maps later — Arena one day, Woods the next — after the habit sticks.',
 				],
 			},
 			{
 				h2: 'What to do right before you ready up',
 				paragraphs: [
-					'Check progress, stamina recovery, and raid plans, confirm your map bases, and skim <a href="/updates/">cheat status</a> if you use overlays after a patch. Pair warmup with <a href="/blog/rust-pro-settings-guide/">settings</a> and <a href="/blog/rust-player-tier-list/">player tiers</a> so you are not reinventing the kit every night.',
+					'Check progress, stamina recovery, and match plans, confirm your map bases, and skim <a href="/updates/">cheat status</a> if you use overlays after a patch. Pair warmup with <a href="/blog/rust-pro-settings-guide/">settings</a> and <a href="/blog/rust-player-tier-list/">player tiers</a> so you are not reinventing the kit every night.',
 					'If the first two player deaths feel mechanical, stop stacking kits and repeat five minutes of ambush practice. Ego loading in while tilted is not a strategy.',
 				],
 			},
 		],
 	},
 	{
-		id: 'rust-cheats-complete-guide',
+		id: 'finals-cheats-complete-guide',
 		imageKey: 'espWallhack',
 		published: '2026-07-30',
 		updated: '2026-08-13',
 		category: 'Cheats Guide',
 		featured: true,
-		slug: 'rust-cheats-complete-guide-2026',
-		title: 'Rust Hacks 2026: Complete Undetected Guide',
+		slug: 'finals-cheats-complete-guide-2026',
+		title: 'The Finals Hacks 2026: Complete Undetected Guide',
 		metaDescription:
-			'A clear 2026 guide to rust cheats — what ESP, soft aim, and radar actually do in Rust, how Easy Anti-Cheat maintenance works, and how to buy safely.',
-		h1: 'Rust Hacks in 2026: What They Are and How to Use Them Carefully',
+			'A clear 2026 guide to the finals cheats — what ESP, soft aim, and radar actually do in The Finals, how Easy Anti-Cheat maintenance works, and how to buy safely.',
+		h1: 'The Finals Hacks in 2026: What They Are and How to Use Them Carefully',
 		intro:
-			'People search “rust cheats” for a simple reason: Rust is information-heavy, punishing, and full of base campers. This guide explains what modern undetected packages actually include, how Easy Anti-Cheat maintenance works, and how to decide whether a tool fits your play style.',
+			'People search “the finals cheats” for a simple reason: The Finals is information-heavy, punishing, and full of base campers. This guide explains what modern undetected packages actually include, how Easy Anti-Cheat maintenance works, and how to decide whether a tool fits your play style.',
 		keywords: [
-			'rust cheats',
-			'undetected rust cheats',
-			'Rust ESP',
-			'Rust Aimbot',
+			'the finals cheats',
+			'undetected the finals cheats',
+			'The Finals ESP',
+			'The Finals Aimbot',
 			'eac',
 		],
-		imageAlt: 'Overview of Rust Hacks ESP soft aim and radar tools for 2026',
+		imageAlt: 'Overview of The Finals Hacks ESP soft aim and radar tools for 2026',
 		sections: [
 			{
-				h2: 'What do people mean when they say rust cheats?',
+				h2: 'What do people mean when they say the finals cheats?',
 				paragraphs: [
-					'In plain language, rust cheats are third-player tools that add information or aim assistance on top of Rust client. The common stack is ESP wallhack for players and loot, a 2D radar for threats outside your view, and configurable soft aim for firefights. One license should cover that loop instead of forcing you to juggle separate downloads.',
-					'Searchers also say “rust cheats,” “rust cheats,” or “rust wallhack.” Those phrases usually point at the same intent: survive raids with better reads. Start at our <a href="/">Rust Hacks pillar</a> if you want the product overview without the long essay.',
+					'In plain language, the finals cheats are third-player tools that add information or aim assistance on top of The Finals client. The common stack is ESP wallhack for players and loot, a 2D radar for threats outside your view, and configurable soft aim for arena fights. One license should cover that loop instead of forcing you to juggle separate downloads.',
+					'Searchers also say “the finals cheats,” “the finals cheats,” or “the finals wallhack.” Those phrases usually point at the same intent: survive matches with better reads. Start at our <a href="/">The Finals Hacks pillar</a> if you want the product overview without the long essay.',
 				],
 			},
 			{
 				h2: 'ESP, soft aim, and radar — what each tool is for',
 				paragraphs: [
 					'ESP answers “who is near me and what is worth looting?” Soft aim answers “can I finish the fight once I choose it?” Radar answers “is someone flanking while I heal?” Used together, they cover information and combat. Used badly, they create noisy overlays and obvious aim corrections.',
-					'Deep dives live on <a href="/rust-esp/">ESP</a>, <a href="/rust-aimbot/">aimbot</a>, <a href="/rust-wallhack/">wallhack</a>, and <a href="/rust-radar-hack/">radar</a>. Read those before you buy if you only need one job done well.',
+					'Deep dives live on <a href="/finals-esp/">ESP</a>, <a href="/finals-aimbot/">aimbot</a>, <a href="/finals-wallhack/">wallhack</a>, and <a href="/finals-radar-hack/">radar</a>. Read those before you buy if you only need one job done well.',
 				],
 			},
 			{
 				h2: 'Easy Anti-Cheat, “undetected,” and honest expectations',
 				paragraphs: [
-					`${EXT.eac} protects Rust. No seller can promise permanent undetected status. What a serious vendor can offer is maintenance: rebuilds after patches, a public status note, and clear setup steps. That workflow is documented on <a href="/undetected-rust-cheats/">undetected rust cheats</a> and <a href="/eac-bypass/">Easy Anti-Cheat maintenance</a>.`,
+					`${EXT.eac} protects The Finals. No seller can promise permanent undetected status. What a serious vendor can offer is maintenance: rebuilds after patches, a public status note, and clear setup steps. That workflow is documented on <a href="/undetected-finals-cheats/">undetected the finals cheats</a> and <a href="/eac-bypass/">Easy Anti-Cheat maintenance</a>.`,
 					'Before every patch-day load in, read <a href="/updates/">Updates</a>. If status is quiet, wait. Responsible settings matter as much as the binary itself.',
 				],
 			},
 			{
 				h2: 'How to buy and set up without wasting a night',
 				paragraphs: [
-					'Compare monthly and lifetime on <a href="/pricing/">Pricing</a>, then follow <a href="/setup/">Setup</a> after delivery. Keep your order ID ready for <a href="/support/">Support</a>. If you are still shopping, the <a href="/blog/rust-cheats-buyers-guide/">buyers guide</a> lists the checklist we wish every shopper used.',
-					'Rust Hacks is built for Windows PC solo farmers and raiders play. It will not replace map knowledge — it amplifies the reads you already practice in raids.',
+					'Compare monthly and lifetime on <a href="/pricing/">Pricing</a>, then follow <a href="/setup/">Setup</a> after delivery. Keep your order ID ready for <a href="/support/">Support</a>. If you are still shopping, the <a href="/blog/finals-cheats-buyers-guide/">buyers guide</a> lists the checklist we wish every shopper used.',
+					'The Finals Hacks is built for Windows PC solo farmers and matchers play. It will not replace map knowledge — it amplifies the reads you already practice in matches.',
 				],
 			},
 		],
 	},
 	{
-		id: 'rust-cheats-buyers-guide',
+		id: 'finals-cheats-buyers-guide',
 		imageKey: 'hacksPackage',
 		published: '2026-07-28',
 		updated: '2026-08-13',
 		category: 'Buyers Guide',
 		featured: true,
-		slug: 'rust-cheats-buyers-guide',
-		title: 'Rust Cheats Buyers Guide',
+		slug: 'finals-cheats-buyers-guide',
+		title: 'The Final Cheats Buyers Guide',
 		metaDescription:
-			'What to check before you buy rust cheats — status pages, ESP features, soft aim, refunds, pricing, and red flags in 2026.',
-		h1: 'Rust Cheats: What to Check Before You Buy',
+			'What to check before you buy the finals cheats — status pages, ESP features, soft aim, refunds, pricing, and red flags in 2026.',
+		h1: 'The Final Cheats: What to Check Before You Buy',
 		intro:
-			'Buying rust cheats is noisy. Every storefront promises “undetected,” instant delivery, and god mode. This buyers guide slows you down with a practical checklist so you spend money on maintenance and clarity — not banners.',
+			'Buying the finals cheats is noisy. Every storefront promises “undetected,” instant delivery, and god mode. This buyers guide slows you down with a practical checklist so you spend money on maintenance and clarity — not banners.',
 		keywords: [
-			'rust cheats',
-			'rust cheats buyers guide',
-			'buy rust cheats',
-			'undetected rust cheats',
+			'the finals cheats',
+			'the finals cheats buyers guide',
+			'buy the finals cheats',
+			'undetected the finals cheats',
 			'rust pricing',
 		],
-		imageAlt: 'Checklist for buying Rust Hacks safely',
+		imageAlt: 'Checklist for buying The Finals Hacks safely',
 		sections: [
 			{
 				h2: 'Start with status, not screenshots',
 				paragraphs: [
-					'Ask whether the seller publishes a dated status page after Easy Anti-Cheat or client patches. Fancy galleries do not help if the tool is offline for three days. Rust Hacks posts rebuild notes on <a href="/updates/">Updates</a> for that reason.',
+					'Ask whether the seller publishes a dated status page after Easy Anti-Cheat or client patches. Fancy galleries do not help if the tool is offline for three days. The Finals Hacks posts rebuild notes on <a href="/updates/">Updates</a> for that reason.',
 					'If a shop only answers in private Discord and never writes public notes, assume you will miss patch windows.',
 				],
 			},
 			{
-				h2: 'Feature checklist that matches real Rust raids',
+				h2: 'Feature checklist that matches real The Finals matches',
 				paragraphs: [
-					'For Rust, useful features usually mean player ESP with distance, loot filters, base awareness, radar for flanks, and soft aim you can tone down. “Unlock all” marketing and other-game leftovers are red flags that the page was cloned from another game.',
-					'Compare the stack on <a href="/features/">Features</a>, <a href="/rust-esp/">ESP</a>, and <a href="/rust-aimbot/">Aimbot</a>. If radar matters to how you hold bases, confirm it exists before checkout.',
+					'For The Finals, useful features usually mean player ESP with distance, loot filters, base awareness, radar for flanks, and soft aim you can tone down. “Unlock all” marketing and other-game leftovers are red flags that the page was cloned from another game.',
+					'Compare the stack on <a href="/features/">Features</a>, <a href="/finals-esp/">ESP</a>, and <a href="/finals-aimbot/">Aimbot</a>. If radar matters to how you hold bases, confirm it exists before checkout.',
 				],
 			},
 			{
@@ -498,228 +498,228 @@ const sources = [
 		],
 	},
 	{
-		id: 'rust-cheats-2026-whats-new',
+		id: 'finals-cheats-2026-whats-new',
 		imageKey: 'hero',
 		published: '2026-07-26',
 		updated: '2026-08-13',
 		category: 'Product Updates',
 		featured: false,
-		slug: 'rust-cheats-2026-whats-new',
-		title: 'Rust Hacks 2026: What Changed This Year',
+		slug: 'finals-cheats-2026-whats-new',
+		title: 'The Finals Hacks 2026: What Changed This Year',
 		metaDescription:
-			'What changed for rust cheats in 2026 — patch cycle cadence, Easy Anti-Cheat maintenance habits, ESP focus, and how Rust Hacks adapted for Rust.',
-		h1: 'What Changed for Rust Hacks in 2026',
+			'What changed for the finals cheats in 2026 — patch cycle cadence, Easy Anti-Cheat maintenance habits, ESP focus, and how The Finals Hacks adapted for The Finals.',
+		h1: 'What Changed for The Finals Hacks in 2026',
 		intro:
-			'2026 did not invent cheating in Rust — it raised the bar for maintenance. Wipes, Easy Anti-Cheat pushes, and map updates punish stale builds. Here is what changed in how serious Rust Hacks packages need to operate.',
+			'2026 did not invent cheating in The Finals — it raised the bar for maintenance. Wipes, Easy Anti-Cheat pushes, and map updates punish stale builds. Here is what changed in how serious The Finals Hacks packages need to operate.',
 		keywords: [
-			'rust cheats 2026',
-			'rust cheats 2026',
+			'the finals cheats 2026',
+			'the finals cheats 2026',
 			'eac 2026',
 			'rust patch cycle',
-			'rust cheats updates',
+			'the finals cheats updates',
 		],
-		imageAlt: '2026 updates for Rust Hacks on Rust',
+		imageAlt: '2026 updates for The Finals Hacks on The Finals',
 		sections: [
 			{
 				h2: 'Why 2026 buyers care more about status pages',
 				paragraphs: [
-					'Players got tired of “undetected forever” slogans. They want a dated note after patches. That is why we invest in the <a href="/updates/">Updates</a> log and the <a href="/undetected-rust-cheats/">undetected explainer</a> instead of empty guarantees.',
-					`${EXT.eac} and Rust client updates still force rebuilds. The shops that survive are the ones that communicate during those windows.`,
+					'Players got tired of “undetected forever” slogans. They want a dated note after patches. That is why we invest in the <a href="/updates/">Updates</a> log and the <a href="/undetected-finals-cheats/">undetected explainer</a> instead of empty guarantees.',
+					`${EXT.eac} and The Finals client updates still force rebuilds. The shops that survive are the ones that communicate during those windows.`,
 				],
 			},
 			{
-				h2: 'Feature focus shifted toward raid information',
+				h2: 'Feature focus shifted toward match information',
 				paragraphs: [
-					'The winning feature set in 2026 is still ESP, radar, and tunable soft aim — because Rust fights are about information and first peeks. Loud rage features matter less than readable overlays you can turn down near monuments and compounds.',
-					'See the current stack on <a href="/features/">Features</a> and the pillar at <a href="/">rust cheats</a>.',
+					'The winning feature set in 2026 is still ESP, radar, and tunable soft aim — because The Finals fights are about information and first peeks. Loud rage features matter less than readable overlays you can turn down near arenas and cashout vaults.',
+					'See the current stack on <a href="/features/">Features</a> and the pillar at <a href="/">the finals cheats</a>.',
 				],
 			},
 			{
 				h2: 'What we recommend you do differently this year',
 				paragraphs: [
-					'Check status before patch-day load ins. Keep soft aim conservative. Use loot ESP filters so your screen stays clean. Read the <a href="/blog/rust-cheats-complete-guide-2026/">complete 2026 guide</a> if you are new to the category.',
+					'Check status before patch-day load ins. Keep soft aim conservative. Use vault ESP filters so your screen stays clean. Read the <a href="/blog/finals-cheats-complete-guide-2026/">complete 2026 guide</a> if you are new to the category.',
 					'Pricing remains monthly and lifetime on <a href="/pricing/">Pricing</a> with digital delivery after payment.',
 				],
 			},
 		],
 	},
 	{
-		id: 'rust-aimbot-settings-guide',
+		id: 'finals-aimbot-settings-guide',
 		imageKey: 'aimbotCombat',
 		published: '2026-07-24',
 		updated: '2026-08-13',
 		category: 'Aimbot',
 		featured: false,
-		slug: 'rust-aimbot-settings-guide',
-		title: 'Rust Aimbot Settings: Smooth FOV Without Looking Robotic',
+		slug: 'finals-aimbot-settings-guide',
+		title: 'The Finals Aimbot Settings: Smooth FOV Without Looking Robotic',
 		metaDescription:
-			'How to tune Rust Aimbot and soft aim settings — FOV, smoothness, bone priority, and per-weapon profiles that feel natural in Rust raids.',
-		h1: 'Rust Aimbot Settings That Feel Natural',
+			'How to tune The Finals Aimbot and soft aim settings — FOV, smoothness, bone priority, and per-weapon profiles that feel natural in The Finals matches.',
+		h1: 'The Finals Aimbot Settings That Feel Natural',
 		intro:
-			'A harsh aimbot gets you killed by reports and by your own bad habits. Soft, tunable aim assistance is what most Rust players actually want. Here is how to think about FOV, smoothness, and weapon profiles.',
+			'A harsh aimbot gets you killed by reports and by your own bad habits. Soft, tunable aim assistance is what most The Finals players actually want. Here is how to think about FOV, smoothness, and weapon profiles.',
 		keywords: [
-			'Rust Aimbot settings',
+			'The Finals Aimbot settings',
 			'rust soft aim',
 			'aimbot fov',
 			'rust aim assist',
-			'rust cheats',
+			'the finals cheats',
 		],
-		imageAlt: 'Soft aim and FOV settings for Rust Aimbot on Windows PC',
+		imageAlt: 'Soft aim and FOV settings for The Finals Aimbot on Windows PC',
 		sections: [
 			{
 				h2: 'Start softer than you think you need',
 				paragraphs: [
-					'Begin with a smaller FOV and higher smoothness so the assist helps tracking instead of snapping. Play five raids on Outpost or high-traffic zones and only then widen FOV. If friends watching a demo say it looks robotic, you went too far.',
-					'Full control docs live on <a href="/rust-aimbot/">Rust Aimbot</a> and <a href="/rust-soft-aim/">soft aim</a>.',
+					'Begin with a smaller FOV and higher smoothness so the assist helps tracking instead of snapping. Play five matches on Arena or high-traffic zones and only then widen FOV. If friends watching a demo say it looks robotic, you went too far.',
+					'Full control docs live on <a href="/finals-aimbot/">The Finals Aimbot</a> and <a href="/finals-soft-aim/">soft aim</a>.',
 				],
 			},
 			{
 				h2: 'Per-weapon profiles beat one global slider',
 				paragraphs: [
-					'ARs, SMGs, and bolt-action rifles want different assist. Save separate profiles so close-range sprays and long monument ambushes do not share the same magnet. Bone priority should favor what you can actually hit under stress — usually upper chest to head transitions, not miracles.',
+					'ARs, SMGs, and long-range rifles want different assist. Save separate profiles so close-range sprays and long monument ambushes do not share the same magnet. Bone priority should favor what you can actually hit under stress — usually upper chest to head transitions, not miracles.',
 					'Hotkeys matter mid-session. You need to disable assist when you are looting friendlies or holding a suspicious angle where obvious corrections would look wrong.',
 				],
 			},
 			{
 				h2: 'Pair aim settings with information tools',
 				paragraphs: [
-					'Soft aim finishes fights that ESP and radar help you choose. If your overlays are noisy, fix <a href="/rust-esp/">ESP categories</a> before blaming aim. After Easy Anti-Cheat patches, confirm <a href="/updates/">Updates</a> before you tune anything on an old build.',
+					'Soft aim finishes fights that ESP and radar help you choose. If your overlays are noisy, fix <a href="/finals-esp/">ESP categories</a> before blaming aim. After Easy Anti-Cheat patches, confirm <a href="/updates/">Updates</a> before you tune anything on an old build.',
 				],
 			},
 		],
 	},
 	{
-		id: 'rust-esp-wallhack-explained',
+		id: 'finals-esp-wallhack-explained',
 		imageKey: 'espWallhack',
 		published: '2026-07-21',
 		updated: '2026-08-13',
 		category: 'ESP',
 		featured: false,
-		slug: 'rust-esp-wallhack-explained',
-		title: 'Rust ESP and Wallhack Explained in Plain English',
+		slug: 'finals-esp-wallhack-explained',
+		title: 'The Finals ESP and Wallhack Explained in Plain English',
 		metaDescription:
-			'What rust ESP and wallhack actually show in Rust — players, loot, distance, bases — and how to keep overlays readable in raids.',
-		h1: 'Rust ESP and Wallhack Explained Clearly',
+			'What rust ESP and wallhack actually show in The Finals — players, loot, distance, bases — and how to keep overlays readable in matches.',
+		h1: 'The Finals ESP and Wallhack Explained Clearly',
 		intro:
-			'“ESP” and “wallhack” get used interchangeably. In Rust they both mean information through walls — but the useful details are distance, filters, and what you choose to hide so your screen stays readable.',
+			'“ESP” and “wallhack” get used interchangeably. In The Finals they both mean information through walls — but the useful details are distance, filters, and what you choose to hide so your screen stays readable.',
 		keywords: [
-			'Rust ESP',
-			'rust wallhack',
-			'Rust ESP',
+			'The Finals ESP',
+			'the finals wallhack',
+			'The Finals ESP',
 			'loot esp rust',
-			'rust cheats',
+			'the finals cheats',
 		],
-		imageAlt: 'ESP wallhack overlay showing players and loot in Rust',
+		imageAlt: 'ESP wallhack overlay showing players and loot in The Finals',
 		sections: [
 			{
-				h2: 'What ESP shows during a real raid',
+				h2: 'What ESP shows during a real match',
 				paragraphs: [
-					'Player ESP outlines players and NPCs through walls and terrain, often with distance. Loot ESP highlights loot or high-value items. Base cues help you avoid camping surprises. That information gap is why people search for Rust ESP in the first place.',
-					'Read the dedicated pages for <a href="/rust-esp/">ESP</a> and <a href="/rust-wallhack/">wallhack</a> if you want category-level detail.',
+					'Player ESP outlines players and NPCs through walls and terrain, often with distance. Loot ESP highlights loot or high-value items. Base cues help you avoid camping surprises. That information gap is why people search for The Finals ESP in the first place.',
+					'Read the dedicated pages for <a href="/finals-esp/">ESP</a> and <a href="/finals-wallhack/">wallhack</a> if you want category-level detail.',
 				],
 			},
 			{
 				h2: 'How to keep overlays from becoming noise',
 				paragraphs: [
 					'Toggle categories. During a hot push you may want players only. During a loot route you may want loot. Near bases you may want threats and exits. Too many boxes at once create hesitation — the opposite of an advantage.',
-					'Pair ESP with <a href="/rust-radar-hack/">radar</a> for flanks outside your field of view. Visibility wins information wars; aim tools cover the firefight afterward.',
+					'Pair ESP with <a href="/finals-radar-hack/">radar</a> for flanks outside your field of view. Visibility wins information wars; aim tools cover the arena fight afterward.',
 				],
 			},
 			{
 				h2: 'Maintenance and responsible use',
 				paragraphs: [
-					'ESP modules rebuild after Easy Anti-Cheat patches like everything else. Check <a href="/updates/">Updates</a> and the <a href="/undetected-rust-cheats/">undetected guide</a>. No overlay replaces listening and map knowledge — it shortens the time between “I heard something” and “I know where.”',
+					'ESP modules rebuild after Easy Anti-Cheat patches like everything else. Check <a href="/updates/">Updates</a> and the <a href="/undetected-finals-cheats/">undetected guide</a>. No overlay replaces listening and map knowledge — it shortens the time between “I heard something” and “I know where.”',
 				],
 			},
 		],
 	},
 	{
-		id: 'undetected-rust-cheats-eac',
+		id: 'undetected-finals-cheats-eac',
 		imageKey: 'playerEsp',
 		published: '2026-07-19',
 		updated: '2026-08-13',
 		category: 'Undetected',
 		featured: true,
-		slug: 'undetected-rust-cheats-eac',
-		title: 'Undetected Rust Hacks and Easy Anti-Cheat Reality',
+		slug: 'undetected-finals-cheats-eac',
+		title: 'Undetected The Finals Hacks and Easy Anti-Cheat Reality',
 		metaDescription:
-			'What “undetected rust cheats” really means under Easy Anti-Cheat — maintenance, patch days, risk, and how to read status before you raid Rust.',
-		h1: 'Undetected Rust Hacks: What Easy Anti-Cheat Reality Looks Like',
+			'What “undetected the finals cheats” really means under Easy Anti-Cheat — maintenance, patch days, risk, and how to read status before you queue The Finals.',
+		h1: 'Undetected The Finals Hacks: What Easy Anti-Cheat Reality Looks Like',
 		intro:
-			'“Undetected” is the most abused word in cheat marketing. Under Easy Anti-Cheat, it means a package is being maintained against current detections — not that bans are impossible. Here is the honest version for Rust players.',
+			'“Undetected” is the most abused word in cheat marketing. Under Easy Anti-Cheat, it means a package is being maintained against current detections — not that bans are impossible. Here is the honest version for The Finals players.',
 		keywords: [
-			'undetected rust cheats',
+			'undetected the finals cheats',
 			'eac rust',
 			'rust ban risk',
 			'rust undetected',
 			'rust status',
 		],
-		imageAlt: 'Easy Anti-Cheat maintenance status for undetected rust cheats',
+		imageAlt: 'Easy Anti-Cheat maintenance status for undetected the finals cheats',
 		sections: [
 			{
 				h2: 'What undetected can honestly mean',
 				paragraphs: [
-					`Easy Anti-Cheat is documented at ${EXT.eac}. It evolves. Vendors who care publish rebuild notes when ESP, radar, or aim modules need work. Rust Hacks does that on <a href="/updates/">Updates</a> and explains the workflow on <a href="/eac-bypass/">Easy Anti-Cheat maintenance</a>.`,
+					`Easy Anti-Cheat is documented at ${EXT.eac}. It evolves. Vendors who care publish rebuild notes when ESP, radar, or aim modules need work. The Finals Hacks does that on <a href="/updates/">Updates</a> and explains the workflow on <a href="/eac-bypass/">Easy Anti-Cheat maintenance</a>.`,
 					'If a seller says “100% undetected forever,” treat it as advertising. Your risk also depends on how obviously you play.',
 				],
 			},
 			{
 				h2: 'Patch-day habits that reduce pain',
 				paragraphs: [
-					`After a Rust or Easy Anti-Cheat update, wait for a status note before loading in. Confirm Steam services on ${EXT.status} if the launcher itself is failing. Do not run yesterday’s build into today’s anti-cheat and call it bad luck.`,
+					`After a The Finals or Easy Anti-Cheat update, wait for a status note before loading in. Confirm Steam services on ${EXT.status} if the launcher itself is failing. Do not run yesterday’s build into today’s anti-cheat and call it bad luck.`,
 					'Keep soft aim conservative and avoid highlight-reel rage settings that attract reports even when the binary is clean.',
 				],
 			},
 			{
 				h2: 'Where to go next',
 				paragraphs: [
-					'Read <a href="/undetected-rust-cheats/">undetected rust cheats</a>, the <a href="/blog/rust-cheats-complete-guide-2026/">2026 complete guide</a>, and <a href="/pricing/">Pricing</a> if you want the maintained stack. Undetected status is a process you check — not a sticker on the box.',
+					'Read <a href="/undetected-finals-cheats/">undetected the finals cheats</a>, the <a href="/blog/finals-cheats-complete-guide-2026/">2026 complete guide</a>, and <a href="/pricing/">Pricing</a> if you want the maintained stack. Undetected status is a process you check — not a sticker on the box.',
 				],
 			},
 		],
 	},
 	{
-		id: 'rust-cheats-vs-cheatvault',
+		id: 'finals-cheats-vs-cheatvault',
 		imageKey: 'hacksPackage',
 		published: '2026-07-15',
 		updated: '2026-08-13',
 		category: 'Comparisons',
 		featured: false,
-		slug: 'rust-cheats-vs-cheatvault-comparison',
-		title: 'Rust Hacks vs Typical Budget Rust Cheat Shops',
+		slug: 'finals-cheats-vs-cheatvault-comparison',
+		title: 'The Finals Hacks vs Typical Budget The Finals Cheat Shops',
 		metaDescription:
-			'How Rust Hacks compares to typical budget rust cheat shops — ESP depth, radar, status pages, pricing, and what “cheap” usually skips.',
-		h1: 'Rust Hacks vs Typical Budget Rust Cheat Shops',
+			'How The Finals Hacks compares to typical budget the finals cheat shops — ESP depth, radar, status pages, pricing, and what “cheap” usually skips.',
+		h1: 'The Finals Hacks vs Typical Budget The Finals Cheat Shops',
 		intro:
-			'Budget Rust stores often look identical: neon banners, “undetected” badges, and a low weekly price. Rust Hacks costs more than the cheapest tier on purpose. Here is what you usually trade when you chase the lowest sticker.',
+			'Budget The Finals stores often look identical: neon banners, “undetected” badges, and a low weekly price. The Finals Hacks costs more than the cheapest tier on purpose. Here is what you usually trade when you chase the lowest sticker.',
 		keywords: [
-			'rust cheats comparison',
-			'budget rust cheats',
-			'rust cheats vs other shops',
+			'the finals cheats comparison',
+			'budget the finals cheats',
+			'the finals cheats vs other shops',
 			'esp radar pricing',
-			'rust cheats',
+			'the finals cheats',
 		],
-		imageAlt: 'Comparing Rust Hacks features against budget rust cheat shops',
+		imageAlt: 'Comparing The Finals Hacks features against budget the finals cheat shops',
 		sections: [
 			{
 				h2: 'What budget shops usually optimize for',
 				paragraphs: [
-					'Low entry price and fast checkout. That can be fine for a weekend experiment. The common gaps are thin loot ESP, no real radar, Discord-only status, and slow rebuild communication after Easy Anti-Cheat pushes.',
-					'Rust Hacks focuses on a full raid stack — player ESP, loot filters, radar, soft aim profiles — with a public <a href="/updates/">Updates</a> page. See <a href="/features/">Features</a> for the list.',
+					'Low entry price and fast checkout. That can be fine for a weekend experiment. The common gaps are thin vault ESP, no real radar, Discord-only status, and slow rebuild communication after Easy Anti-Cheat pushes.',
+					'The Finals Hacks focuses on a full match stack — player ESP, loot filters, radar, soft aim profiles — with a public <a href="/updates/">Updates</a> page. See <a href="/features/">Features</a> for the list.',
 				],
 			},
 			{
-				h2: 'Price versus what you touch every raid',
+				h2: 'Price versus what you touch every match',
 				paragraphs: [
-					'If you only want basic player boxes in casual raids, a cheaper shop might feel enough. If you hold bases, run loot routes, and hate dying to unseen flanks, radar and clean filters pay for themselves quickly.',
-					'Our monthly and lifetime options are on <a href="/pricing/">Pricing</a>. Read the <a href="/blog/rust-cheats-buyers-guide/">buyers guide</a> before you compare three storefronts at once.',
+					'If you only want basic player boxes in casual matches, a cheaper shop might feel enough. If you hold bases, run cashout routes, and hate dying to unseen flanks, radar and clean filters pay for themselves quickly.',
+					'Our monthly and lifetime options are on <a href="/pricing/">Pricing</a>. Read the <a href="/blog/finals-cheats-buyers-guide/">buyers guide</a> before you compare three storefronts at once.',
 				],
 			},
 			{
 				h2: 'How to decide without brand loyalty',
 				paragraphs: [
-					'Write down must-haves: dated status, loot ESP, radar, soft aim profiles, Windows PC support. Open each seller’s status channel and feature list side by side. If a shop fails the status test, price does not matter.',
-					'Then return to <a href="/">rust cheats</a> and <a href="/undetected-rust-cheats/">undetected notes</a> if that checklist matches what we ship.',
+					'Write down must-haves: dated status, vault ESP, radar, soft aim profiles, Windows PC support. Open each seller’s status channel and feature list side by side. If a shop fails the status test, price does not matter.',
+					'Then return to <a href="/">the finals cheats</a> and <a href="/undetected-finals-cheats/">undetected notes</a> if that checklist matches what we ship.',
 				],
 			},
 		],
@@ -731,101 +731,101 @@ const sources = [
 		updated: '2026-08-13',
 		category: 'Comparisons',
 		featured: false,
-		slug: 'elitefn-vs-rust-cheats-two-week-test',
-		title: 'I Tested Another Rust Cheat for 2 Weeks First',
+		slug: 'elitefn-vs-finals-cheats-two-week-test',
+		title: 'I Tested Another The Finals Cheat for 2 Weeks First',
 		metaDescription:
-			'A two-week test of another budget rust cheat before switching to Rust Hacks — ESP feel, soft aim, patch downtime, and support differences.',
-		h1: 'I Tested Another Rust Cheat for Two Weeks Before Switching',
+			'A two-week test of another budget the finals cheat before switching to The Finals Hacks — ESP feel, soft aim, patch downtime, and support differences.',
+		h1: 'I Tested Another The Finals Cheat for Two Weeks Before Switching',
 		intro:
-			'My Discord kept recommending a popular budget rust cheat shop. I gave it fourteen days on the same PC and official servers, then moved to Rust Hacks. This is what actually differed — without the usual affiliate script.',
+			'My Discord kept recommending a popular budget the finals cheat shop. I gave it fourteen days on the same PC and official servers, then moved to The Finals Hacks. This is what actually differed — without the usual affiliate script.',
 		keywords: [
-			'rust cheats review',
-			'rust cheat comparison',
-			'rust cheat downtime',
+			'the finals cheats review',
+			'the finals cheat comparison',
+			'the finals cheat downtime',
 			'soft aim test',
-			'rust cheats',
+			'the finals cheats',
 		],
-		imageAlt: 'Two week hands-on comparison between rust cheat providers',
+		imageAlt: 'Two week hands-on comparison between the finals cheat providers',
 		sections: [
 			{
 				h2: 'Week one — setup and first impressions',
 				paragraphs: [
 					'Delivery was fine: license in email, loader as admin, overlays disabled. Menu learning took a couple evenings. Player ESP was readable. Loot ESP felt secondary. I ran several nights with information tools only and no aim assist so I could judge visibility on its own.',
-					'Rust Hacks later felt similar on install time, but filters for loot and bases were easier to toggle independently during loot routes.',
+					'The Finals Hacks later felt similar on install time, but filters for loot and bases were easier to toggle independently during cashout routes.',
 				],
 			},
 			{
 				h2: 'Soft aim and the mid-session feel',
 				paragraphs: [
 					'Conservative FOV soft aim helped SMG and AR tracking. Sniping needed manual profile swaps that slowed me down. When I pushed smoothness too low, corrections looked obvious in review clips. Tuning toward smoother tracking fixed kills and reduced the robotic look.',
-					'On Rust Hacks I relied more on per-weapon profiles so high-traffic zones and long peeks did not share one magnet. Details are in the <a href="/rust-aimbot/">aimbot guide</a>.',
+					'On The Finals Hacks I relied more on per-weapon profiles so high-traffic zones and long peeks did not share one magnet. Details are in the <a href="/finals-aimbot/">aimbot guide</a>.',
 				],
 			},
 			{
 				h2: 'The patch window that ended the trial',
 				paragraphs: [
-					'A Rust plus Easy Anti-Cheat update landed mid-test. The other tool’s status went quiet without a clear ETA. I skipped load ins while my group played without me. A rebuild arrived days later; stability was mixed. That downtime — not a single feature screenshot — pushed me to switch.',
-					'Rust Hacks won me over with written notes on <a href="/updates/">Updates</a>. I still do not load in blind after patches on any tool.',
+					'A The Finals plus Easy Anti-Cheat update landed mid-test. The other tool’s status went quiet without a clear ETA. I skipped load ins while my group played without me. A rebuild arrived days later; stability was mixed. That downtime — not a single feature screenshot — pushed me to switch.',
+					'The Finals Hacks won me over with written notes on <a href="/updates/">Updates</a>. I still do not load in blind after patches on any tool.',
 				],
 			},
 			{
-				h2: 'After switching — what improved for my raids',
+				h2: 'After switching — what improved for my matches',
 				paragraphs: [
-					'Independent loot and player toggles cleaned late-session screens. Radar helped compound zones. Support replies with order ID were fast enough during setup week. Pricing math favored a single full stack over stacking weekly subs — see <a href="/pricing/">Pricing</a>.',
+					'Independent loot and player toggles cleaned late-session screens. Radar helped cashout zones. Support replies with order ID were fast enough during setup week. Pricing math favored a single full stack over stacking weekly subs — see <a href="/pricing/">Pricing</a>.',
 					'If you run your own test, measure patch downtime hours, not just day-one vibes. Then read <a href="/setup/">Setup</a> before you buy anything.',
 				],
 			},
 		],
 	},
 	{
-		id: 'rust-cheats-vs-ghostware',
+		id: 'finals-cheats-vs-ghostware',
 		imageKey: 'espWallhack',
 		published: '2026-07-05',
 		updated: '2026-08-13',
 		category: 'Comparisons',
 		featured: false,
-		slug: 'rust-cheats-vs-ghostware-features-pricing',
-		title: 'Full-Stack Rust Hacks vs Minimal ESP Tools',
+		slug: 'finals-cheats-vs-ghostware-features-pricing',
+		title: 'Full-Stack The Finals Hacks vs Minimal ESP Tools',
 		metaDescription:
-			'Full-stack Rust Hacks versus minimal ESP-only Rust tools — feature depth, radar, soft aim, pricing, and who should buy which style.',
-		h1: 'Full-Stack Rust Hacks vs Minimal ESP-Only Tools',
+			'Full-stack The Finals Hacks versus minimal ESP-only The Finals tools — feature depth, radar, soft aim, pricing, and who should buy which style.',
+		h1: 'Full-Stack The Finals Hacks vs Minimal ESP-Only Tools',
 		intro:
-			'Some Rust tools sell a slim ESP module and call it a day. Rust Hacks ships the wider raid stack. Neither philosophy is automatically wrong — they fit different players. Here is a clear comparison.',
+			'Some The Finals tools sell a slim ESP module and call it a day. The Finals Hacks ships the wider match stack. Neither philosophy is automatically wrong — they fit different players. Here is a clear comparison.',
 		keywords: [
-			'Rust ESP only cheat',
-			'rust cheats features',
+			'The Finals ESP only cheat',
+			'the finals cheats features',
 			'radar vs esp',
-			'rust cheat pricing',
-			'rust cheats',
+			'the finals cheat pricing',
+			'the finals cheats',
 		],
-		imageAlt: 'Full stack Rust Hacks compared with minimal ESP-only tools',
+		imageAlt: 'Full stack The Finals Hacks compared with minimal ESP-only tools',
 		sections: [
 			{
-				h2: 'Two philosophies: minimal surface vs full raid loop',
+				h2: 'Two philosophies: minimal surface vs full match loop',
 				paragraphs: [
 					'Minimal tools focus on player boxes and light assist. Fewer features can mean a simpler menu and a lower price. Full-stack tools add loot filters, radar, and soft aim profiles so one menu covers information and fights.',
-					'Rust Hacks is intentionally full-stack. If you only need outlines in quiet raids, a slim ESP product may feel enough. If you rotate, loot, and hold bases, missing radar becomes obvious.',
+					'The Finals Hacks is intentionally full-stack. If you only need outlines in quiet matches, a slim ESP product may feel enough. If you rotate, loot, and hold bases, missing radar becomes obvious.',
 				],
 			},
 			{
 				h2: 'Feature and pricing reality check',
 				paragraphs: [
-					'Rust Hacks monthly is $35 and lifetime is $150 for ESP, radar, and soft aim together. Slimmer competitors often undercut sticker price while charging extra for modules you assumed were included. Always read the feature list, not the banner.',
-					'Our public comparison points live on <a href="/features/">Features</a>, <a href="/rust-esp/">ESP</a>, <a href="/rust-radar-hack/">radar</a>, and <a href="/pricing/">Pricing</a>.',
+					'The Finals Hacks monthly is $35 and lifetime is $150 for ESP, radar, and soft aim together. Slimmer competitors often undercut sticker price while charging extra for modules you assumed were included. Always read the feature list, not the banner.',
+					'Our public comparison points live on <a href="/features/">Features</a>, <a href="/finals-esp/">ESP</a>, <a href="/finals-radar-hack/">radar</a>, and <a href="/pricing/">Pricing</a>.',
 				],
 			},
 			{
 				h2: 'Detection talk without fairy tales',
 				paragraphs: [
 					'Smaller user bases generate fewer public ban screenshots — that is not proof of safety. Larger brands generate more noise even when maintenance is solid. Judge sellers by patch communication speed and whether you can find a dated status note.',
-					'Rust Hacks documents maintenance on <a href="/eac-bypass/">Easy Anti-Cheat workflow</a> and <a href="/undetected-rust-cheats/">undetected notes</a>.',
+					'The Finals Hacks documents maintenance on <a href="/eac-bypass/">Easy Anti-Cheat workflow</a> and <a href="/undetected-finals-cheats/">undetected notes</a>.',
 				],
 			},
 			{
 				h2: 'Which style should you buy?',
 				paragraphs: [
-					'Choose minimal ESP if budget is tight, you play casually, and you accept Discord-only status tracking. Choose Rust Hacks if radar, loot filters, configurable soft aim, and a public Updates URL are must-haves.',
-					'Decide your must-haves on paper first. Then open <a href="/">rust cheats</a> or keep shopping slim tools — but do not skip patch-day checks on either path.',
+					'Choose minimal ESP if budget is tight, you play casually, and you accept Discord-only status tracking. Choose The Finals Hacks if radar, loot filters, configurable soft aim, and a public Updates URL are must-haves.',
+					'Decide your must-haves on paper first. Then open <a href="/">the finals cheats</a> or keep shopping slim tools — but do not skip patch-day checks on either path.',
 				],
 			},
 		],
@@ -849,72 +849,72 @@ function normalizeKeywords(keywords) {
 /** Cleaner on-page H1 titles and shorter keyword sets per post. */
 const POST_META = {
 	'patch-notes-breakdown': {
-		h1: 'How to Read Rust Patch Notes',
+		h1: 'How to Read The Finals Patch Notes',
 		keywords: ['the rust patch notes', 'rust updates', 'eac patch'],
 	},
 	'rust-skin-leaks': {
-		h1: 'Rust Cosmetics Buying Guide',
+		h1: 'The Finals Cosmetics Buying Guide',
 		keywords: ['rust skins', 'rust cosmetics', 'the rust store'],
 	},
 	'rust-player-tier-list': {
-		h1: 'Rust Player Tier List for 2026',
+		h1: 'The Finals Player Tier List for 2026',
 		keywords: ['rust tier list', 'best rust players', 'rust meta'],
 	},
 	'rust-growth-run-meta': {
-		h1: 'Rust Farming Run Strategies',
+		h1: 'The Finals Farming Run Strategies',
 		keywords: ['rust farming run', 'the rust juvenile', 'rust bases'],
 	},
 	'rust-competitive-meta': {
-		h1: 'Competitive Rust Meta Guide',
+		h1: 'Competitive The Finals Meta Guide',
 		keywords: ['rust competitive', 'rust meta', 'official servers'],
 	},
 	'rust-loot-routes': {
-		h1: 'Rust Loot Routes Guide',
-		keywords: ['rust loot routes', 'rust spawn guide', 'rust esp'],
+		h1: 'The Finals Loot Routes Guide',
+		keywords: ['rust cashout routes', 'rust spawn guide', 'the finals esp'],
 	},
 	'rust-pro-settings': {
-		h1: 'Rust Pro Settings Guide',
+		h1: 'The Finals Pro Settings Guide',
 		keywords: ['rust settings', 'rust visibility', 'rust audio'],
 	},
 	'rust-warmup-maps': {
-		h1: 'Rust Warmup Routine',
+		h1: 'The Finals Warmup Routine',
 		keywords: ['rust warmup', 'rust aim practice', 'survival routine'],
 	},
-	'rust-cheats-complete-guide': {
-		h1: 'Rust Hacks Guide for 2026',
-		keywords: ['rust cheats', 'undetected hacks', 'rust esp'],
+	'finals-cheats-complete-guide': {
+		h1: 'The Finals Hacks Guide for 2026',
+		keywords: ['the finals cheats', 'undetected hacks', 'the finals esp'],
 	},
-	'rust-cheats-buyers-guide': {
-		h1: 'Rust Hacks Buyers Guide',
-		keywords: ['buy rust cheats', 'rust cheats guide', 'rust pricing'],
+	'finals-cheats-buyers-guide': {
+		h1: 'The Finals Hacks Buyers Guide',
+		keywords: ['buy the finals cheats', 'the finals cheats guide', 'rust pricing'],
 	},
-	'rust-cheats-2026-whats-new': {
-		h1: 'Rust Hacks Updates in 2026',
-		keywords: ['rust cheats 2026', 'eac updates', 'hack status'],
+	'finals-cheats-2026-whats-new': {
+		h1: 'The Finals Hacks Updates in 2026',
+		keywords: ['the finals cheats 2026', 'eac updates', 'hack status'],
 	},
-	'rust-aimbot-settings-guide': {
-		h1: 'Rust Aimbot Settings Guide',
-		keywords: ['rust aimbot', 'soft aim', 'aimbot fov'],
+	'finals-aimbot-settings-guide': {
+		h1: 'The Finals Aimbot Settings Guide',
+		keywords: ['the finals aimbot', 'soft aim', 'aimbot fov'],
 	},
-	'rust-esp-wallhack-explained': {
-		h1: 'Rust ESP and Wallhack Guide',
-		keywords: ['rust esp', 'rust wallhack', 'rust cheats'],
+	'finals-esp-wallhack-explained': {
+		h1: 'The Finals ESP and Wallhack Guide',
+		keywords: ['the finals esp', 'the finals wallhack', 'the finals cheats'],
 	},
-	'undetected-rust-cheats-eac': {
-		h1: 'Undetected Rust Hacks Explained',
-		keywords: ['undetected rust cheats', 'eac rust', 'ban risk'],
+	'undetected-finals-cheats-eac': {
+		h1: 'Undetected The Finals Hacks Explained',
+		keywords: ['undetected the finals cheats', 'eac rust', 'ban risk'],
 	},
-	'rust-cheats-vs-cheatvault': {
-		h1: 'Rust Hacks vs Budget Shops',
-		keywords: ['rust cheats comparison', 'budget rust cheats', 'esp radar'],
+	'finals-cheats-vs-cheatvault': {
+		h1: 'The Finals Hacks vs Budget Shops',
+		keywords: ['the finals cheats comparison', 'budget the finals cheats', 'esp radar'],
 	},
 	'elitefn-two-week-test': {
-		h1: 'Two-Week Rust Cheat Comparison Test',
-		keywords: ['rust cheats review', 'hack comparison', 'soft aim test'],
+		h1: 'Two-Week The Finals Cheat Comparison Test',
+		keywords: ['the finals cheats review', 'hack comparison', 'soft aim test'],
 	},
-	'rust-cheats-vs-ghostware': {
-		h1: 'Full-Stack vs ESP-Only Rust Cheats',
-		keywords: ['rust esp cheat', 'full stack hacks', 'radar vs esp'],
+	'finals-cheats-vs-ghostware': {
+		h1: 'Full-Stack vs ESP-Only The Final Cheats',
+		keywords: ['the finals esp cheat', 'full stack hacks', 'radar vs esp'],
 	},
 };
 
@@ -922,10 +922,10 @@ const POST_META = {
 const EXTRA_SECTIONS = {
 	'patch-notes-breakdown': [
 		{
-			h2: 'Staying ahead after every Rust update',
+			h2: 'Staying ahead after every The Finals update',
 			paragraphs: [
-				'Patch days are when most players lose progress — not because the game broke, but because they never updated their habits. After you read the notes, spend ten minutes on our <a href="/updates/">status page</a> if you use overlays, then adjust your main loadout and raid plan before you queue.',
-				'If you rely on information tools, confirm the stack on <a href="/rust-cheats/">Rust Hacks</a> still matches the current client. Pair patch reading with the <a href="/faq/">FAQ</a> when something in the notes is unclear — guessing costs more time than one careful read.',
+				'Patch days are when most players lose progress — not because the game broke, but because they never updated their habits. After you read the notes, spend ten minutes on our <a href="/updates/">status page</a> if you use overlays, then adjust your main loadout and match plan before you queue.',
+				'If you rely on information tools, confirm the stack on <a href="/finals-cheats/">The Finals Hacks</a> still matches the current client. Pair patch reading with the <a href="/faq/">FAQ</a> when something in the notes is unclear — guessing costs more time than one careful read.',
 			],
 		},
 	],
@@ -933,17 +933,17 @@ const EXTRA_SECTIONS = {
 		{
 			h2: 'Cosmetics vs survival tools — keep the budget split clear',
 			paragraphs: [
-				'Skins are fun, but they do not replace map reads, raid timing, or a stable kit. If you play for information advantage, budget for <a href="/rust-esp/">ESP</a> and <a href="/features/">features</a> before you chase another cosmetic drop.',
+				'Skins are fun, but they do not replace map reads, match timing, or a stable kit. If you play for information advantage, budget for <a href="/finals-esp/">ESP</a> and <a href="/features/">features</a> before you chase another cosmetic drop.',
 				'When a patch cycle shifts visibility or lighting, revisit your settings in our <a href="/blog/rust-pro-settings-guide/">pro settings guide</a> before you blame a skin for a lost fight.',
 			],
 		},
 	],
 	'rust-player-tier-list': [
 		{
-			h2: 'Turn tier knowledge into raid wins',
+			h2: 'Turn tier knowledge into match wins',
 			paragraphs: [
-				'A tier list only helps when you load in with the right plan. Match your pick to your map, raid route, and whether you solo or trio. Competitive players often pair loadout choice with <a href="/rust-radar-hack/">radar</a> reads so flanks do not erase a good spawn.',
-				'If you want the full cheat-side stack that supports aggressive picks, start at <a href="/rust-cheats/">Rust Hacks</a> and compare plans on <a href="/pricing/">Pricing</a> before you commit to a main loadout for the wipe.',
+				'A tier list only helps when you load in with the right plan. Match your pick to your map, match route, and whether you solo or trio. Competitive players often pair loadout choice with <a href="/finals-radar-hack/">radar</a> reads so flanks do not erase a good spawn.',
+				'If you want the full cheat-side stack that supports aggressive picks, start at <a href="/finals-cheats/">The Finals Hacks</a> and compare plans on <a href="/pricing/">Pricing</a> before you commit to a main loadout for the patch.',
 			],
 		},
 	],
@@ -951,17 +951,17 @@ const EXTRA_SECTIONS = {
 		{
 			h2: 'Growth runs and information tools work together',
 			paragraphs: [
-				'Juvenile timing is about seconds. Seeing a fight early — through sound, map knowledge, or <a href="/rust-esp/">ESP</a> — lets you third-party with a plan instead of sprinting into a crossfire.',
-				'After a strong farming run, protect the kit with conservative settings from our <a href="/rust-aimbot/">aimbot guide</a> and check <a href="/updates/">Updates</a> before long raids on patch weeks.',
+				'Juvenile timing is about seconds. Seeing a fight early — through sound, map knowledge, or <a href="/finals-esp/">ESP</a> — lets you third-party with a plan instead of sprinting into a crossfire.',
+				'After a strong farming run, protect the kit with conservative settings from our <a href="/finals-aimbot/">aimbot guide</a> and check <a href="/updates/">Updates</a> before long matches on patch weeks.',
 			],
 		},
 	],
 	'rust-competitive-meta': [
 		{
-			h2: 'Competitive habits that pair with Rust Hacks tools',
+			h2: 'Competitive habits that pair with The Finals Hacks tools',
 			paragraphs: [
 				'High-level players win on information timing: who rotates first, who holds the base, who peeks with armor. That is the same loop <a href="/features/">ESP, radar, and soft aim</a> support when tuned conservatively.',
-				'If you study competitive meta, also read <a href="/rust-cheats/">Rust Hacks</a> and <a href="/setup/">Setup</a> so your overlay stack stays readable instead of noisy during real fights.',
+				'If you study competitive meta, also read <a href="/finals-cheats/">The Finals Hacks</a> and <a href="/setup/">Setup</a> so your overlay stack stays readable instead of noisy during real fights.',
 			],
 		},
 	],
@@ -969,8 +969,8 @@ const EXTRA_SECTIONS = {
 		{
 			h2: 'Route discipline plus loot awareness',
 			paragraphs: [
-				'Routes fail when players loot like tourists. Mark your ninety-second plan, stick to cover ladders, and use <a href="/rust-esp/">loot ESP filters</a> only to confirm what your route already predicted — not to replace map knowledge.',
-				'Strong routes feed into farming runs and competitive spawns. Link this guide with <a href="/rust-cheats/">Rust Hacks</a> if you want radar for compound zones after your kit is online.',
+				'Routes fail when players loot like tourists. Mark your ninety-second plan, stick to cover ladders, and use <a href="/finals-esp/">vault ESP filters</a> only to confirm what your route already predicted — not to replace map knowledge.',
+				'Strong routes feed into farming runs and competitive spawns. Link this guide with <a href="/finals-cheats/">The Finals Hacks</a> if you want radar for cashout zones after your kit is online.',
 			],
 		},
 	],
@@ -978,8 +978,8 @@ const EXTRA_SECTIONS = {
 		{
 			h2: 'Settings that support ESP and aim tools',
 			paragraphs: [
-				'Stable FPS and clean silhouettes make every tool better. Before you tune <a href="/rust-aimbot/">soft aim</a>, fix sensitivity and visibility here so assists feel natural instead of robotic.',
-				'Audio and shadow clarity also reduce how much you need to toggle <a href="/rust-esp/">ESP categories</a> mid-fight. Revisit settings after major patches on <a href="/updates/">Updates</a>.',
+				'Stable FPS and clean silhouettes make every tool better. Before you tune <a href="/finals-aimbot/">soft aim</a>, fix sensitivity and visibility here so assists feel natural instead of robotic.',
+				'Audio and shadow clarity also reduce how much you need to toggle <a href="/finals-esp/">ESP categories</a> mid-fight. Revisit settings after major patches on <a href="/updates/">Updates</a>.',
 			],
 		},
 	],
@@ -988,70 +988,70 @@ const EXTRA_SECTIONS = {
 			h2: 'Warm up before you trust expensive kits',
 			paragraphs: [
 				'Warmup protects grown players and paid licenses alike. Run the routine, then confirm <a href="/updates/">status</a> if you use overlays after a patch.',
-				'Pair warmup with <a href="/rust-aimbot/">aim profiles</a> and <a href="/rust-esp/">ESP toggles</a> you already plan to use in-session — not new settings you have never tested under pressure.',
+				'Pair warmup with <a href="/finals-aimbot/">aim profiles</a> and <a href="/finals-esp/">ESP toggles</a> you already plan to use in-session — not new settings you have never tested under pressure.',
 			],
 		},
 	],
-	'rust-cheats-complete-guide': [
+	'finals-cheats-complete-guide': [
 		{
 			h2: 'Your next steps after reading this guide',
 			paragraphs: [
 				'If the stack fits your play style, compare monthly and lifetime on <a href="/pricing/">Pricing</a>, then follow <a href="/setup/">Setup</a> line by line. Keep <a href="/updates/">Updates</a> bookmarked for patch weeks.',
-				'For deeper category pages, read <a href="/rust-esp/">ESP</a>, <a href="/rust-aimbot/">aimbot</a>, and <a href="/undetected-rust-cheats/">undetected notes</a>. Questions before checkout go to <a href="/faq/">FAQ</a> and <a href="/support/">Support</a>.',
+				'For deeper category pages, read <a href="/finals-esp/">ESP</a>, <a href="/finals-aimbot/">aimbot</a>, and <a href="/undetected-finals-cheats/">undetected notes</a>. Questions before checkout go to <a href="/faq/">FAQ</a> and <a href="/support/">Support</a>.',
 			],
 		},
 	],
-	'rust-cheats-buyers-guide': [
+	'finals-cheats-buyers-guide': [
 		{
 			h2: 'Final checklist before checkout',
 			paragraphs: [
-				'Confirm dated status, loot ESP, radar, soft aim profiles, Windows support, and a written refund policy. If any item is missing, pause — cheap weekly subs add up when rebuilds are slow.',
-				'When the checklist passes, open <a href="/rust-cheats/">Rust Hacks</a>, compare <a href="/pricing/">Pricing</a>, and read <a href="/blog/rust-cheats-complete-guide-2026/">the 2026 complete guide</a> for feature context.',
+				'Confirm dated status, vault ESP, radar, soft aim profiles, Windows support, and a written refund policy. If any item is missing, pause — cheap weekly subs add up when rebuilds are slow.',
+				'When the checklist passes, open <a href="/finals-cheats/">The Finals Hacks</a>, compare <a href="/pricing/">Pricing</a>, and read <a href="/blog/finals-cheats-complete-guide-2026/">the 2026 complete guide</a> for feature context.',
 			],
 		},
 	],
-	'rust-cheats-2026-whats-new': [
+	'finals-cheats-2026-whats-new': [
 		{
 			h2: 'What to watch for the rest of 2026',
 			paragraphs: [
 				'Expect more frequent client and anti-cheat touchpoints, not fewer. Shops that survive will keep publishing rebuild notes and tightening overlay readability.',
-				'Follow <a href="/updates/">Updates</a>, review <a href="/features/">Features</a> after each major push, and treat <a href="/undetected-rust-cheats/">undetected</a> as a maintenance process — not a permanent badge.',
+				'Follow <a href="/updates/">Updates</a>, review <a href="/features/">Features</a> after each major push, and treat <a href="/undetected-finals-cheats/">undetected</a> as a maintenance process — not a permanent badge.',
 			],
 		},
 	],
-	'rust-aimbot-settings-guide': [
+	'finals-aimbot-settings-guide': [
 		{
 			h2: 'Build a profile set you can trust in bases',
 			paragraphs: [
-				'Save AR, SMG, and bolt-action profiles separately. Test each on <a href="/blog/rust-warmup-maps-ranked/">warmup maps</a> before you take a geared player into high-traffic zones.',
-				'Combine tuned aim with <a href="/rust-esp/">ESP</a> and <a href="/rust-radar-hack/">radar</a> so you only assist fights you chose on purpose. After patches, confirm <a href="/updates/">Updates</a> before you tweak FOV on an old build.',
+				'Save AR, SMG, and long-range profiles separately. Test each on <a href="/blog/rust-warmup-maps-ranked/">warmup maps</a> before you take a geared player into high-traffic zones.',
+				'Combine tuned aim with <a href="/finals-esp/">ESP</a> and <a href="/finals-radar-hack/">radar</a> so you only assist fights you chose on purpose. After patches, confirm <a href="/updates/">Updates</a> before you tweak FOV on an old build.',
 			],
 		},
 	],
-	'rust-esp-wallhack-explained': [
+	'finals-esp-wallhack-explained': [
 		{
-			h2: 'ESP in real Rust raids — practical takeaways',
+			h2: 'ESP in real The Finals matches — practical takeaways',
 			paragraphs: [
-				'Use player ESP when rotating, loot ESP when routing, and raid cues when holding water or cliffs. Switch profiles instead of leaving every box on — clutter kills reaction time.',
-				'For the maintained stack behind this guide, see <a href="/rust-cheats/">Rust Hacks</a>, <a href="/rust-radar-hack/">radar</a>, and <a href="/pricing/">Pricing</a>. Patch-day rules live on <a href="/updates/">Updates</a>.',
+				'Use player ESP when rotating, vault ESP when routing, and match cues when holding water or cliffs. Switch profiles instead of leaving every box on — clutter kills reaction time.',
+				'For the maintained stack behind this guide, see <a href="/finals-cheats/">The Finals Hacks</a>, <a href="/finals-radar-hack/">radar</a>, and <a href="/pricing/">Pricing</a>. Patch-day rules live on <a href="/updates/">Updates</a>.',
 			],
 		},
 	],
-	'undetected-rust-cheats-eac': [
+	'undetected-finals-cheats-eac': [
 		{
-			h2: 'Responsible undetected habits for Rust',
+			h2: 'Responsible undetected habits for The Finals',
 			paragraphs: [
 				'Undetected means maintained today — not immune forever. Read public notes, wait for rebuilds, and avoid rage settings that draw reports even on clean builds.',
-				'Use <a href="/updates/">Updates</a>, <a href="/eac-bypass/">EAC maintenance</a>, and <a href="/setup/">Setup</a> as your patch-week routine. Compare the full stack on <a href="/rust-cheats/">Rust Hacks</a> when you are ready to buy.',
+				'Use <a href="/updates/">Updates</a>, <a href="/eac-bypass/">EAC maintenance</a>, and <a href="/setup/">Setup</a> as your patch-week routine. Compare the full stack on <a href="/finals-cheats/">The Finals Hacks</a> when you are ready to buy.',
 			],
 		},
 	],
-	'rust-cheats-vs-cheatvault': [
+	'finals-cheats-vs-cheatvault': [
 		{
 			h2: 'Side-by-side before you choose a shop',
 			paragraphs: [
 				'Open each seller’s status page, feature list, and support channel on the same screen. If one shop hides status in private Discord only, weigh that against a lower sticker price.',
-				'When the checklist favors a full stack, compare <a href="/features/">Features</a> and <a href="/pricing/">Pricing</a> here, then read <a href="/blog/rust-cheats-buyers-guide/">the buyers guide</a> before checkout.',
+				'When the checklist favors a full stack, compare <a href="/features/">Features</a> and <a href="/pricing/">Pricing</a> here, then read <a href="/blog/finals-cheats-buyers-guide/">the buyers guide</a> before checkout.',
 			],
 		},
 	],
@@ -1059,17 +1059,17 @@ const EXTRA_SECTIONS = {
 		{
 			h2: 'How to run your own fair comparison',
 			paragraphs: [
-				'Match the same PC, servers, and raid length for each tool. Track patch downtime hours, not just first-night impressions — that is usually where budget shops lose.',
-				'If you switch, follow <a href="/setup/">Setup</a>, bookmark <a href="/updates/">Updates</a>, and tune <a href="/rust-aimbot/">aim profiles</a> before you judge the full stack.',
+				'Match the same PC, servers, and match length for each tool. Track patch downtime hours, not just first-night impressions — that is usually where budget shops lose.',
+				'If you switch, follow <a href="/setup/">Setup</a>, bookmark <a href="/updates/">Updates</a>, and tune <a href="/finals-aimbot/">aim profiles</a> before you judge the full stack.',
 			],
 		},
 	],
-	'rust-cheats-vs-ghostware': [
+	'finals-cheats-vs-ghostware': [
 		{
 			h2: 'Pick the stack that matches how you play',
 			paragraphs: [
-				'Casual outline-only players may tolerate minimal ESP. Players who rotate, loot, and hold bases usually need radar and filters in one menu — that is the full-stack case for <a href="/rust-cheats/">Rust Hacks</a>.',
-				'Compare <a href="/rust-esp/">ESP</a>, <a href="/rust-radar-hack/">radar</a>, and <a href="/pricing/">Pricing</a> on paper first. Then read <a href="/undetected-rust-cheats/">undetected notes</a> on whichever path you choose.',
+				'Casual outline-only players may tolerate minimal ESP. Players who rotate, loot, and hold bases usually need radar and filters in one menu — that is the full-stack case for <a href="/finals-cheats/">The Finals Hacks</a>.',
+				'Compare <a href="/finals-esp/">ESP</a>, <a href="/finals-radar-hack/">radar</a>, and <a href="/pricing/">Pricing</a> on paper first. Then read <a href="/undetected-finals-cheats/">undetected notes</a> on whichever path you choose.',
 			],
 		},
 	],

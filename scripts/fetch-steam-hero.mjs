@@ -8,7 +8,7 @@ const imagesDir = path.resolve('public/images');
 
 const heroBuffer = Buffer.from(
 	await fetch(STEAM_LIBRARY_HERO, {
-		headers: { 'User-Agent': 'Mozilla/5.0 (compatible; TheRustCheatsSite/1.0)' },
+		headers: { 'User-Agent': 'Mozilla/5.0 (compatible; TheFinalsCheatsSite/1.0)' },
 	}).then((r) => {
 		if (!r.ok) throw new Error(`HTTP ${r.status}`);
 		return r.arrayBuffer();
@@ -25,16 +25,16 @@ for (const width of [640, 1024, 1536]) {
 		.resize(width, height, { fit: 'cover' })
 		.webp({ quality: 86 })
 		.toBuffer();
-	await writeFile(path.join(imagesDir, `rust-cheats-hero-${width}w.webp`), webp);
-	console.log(`✓ rust-cheats-hero-${width}w.webp (${width}x${height})`);
+	await writeFile(path.join(imagesDir, `finals-cheats-hero-${width}w.webp`), webp);
+	console.log(`✓ finals-cheats-hero-${width}w.webp (${width}x${height})`);
 }
 
 await writeFile(
-	path.join(imagesDir, 'rust-cheats-hero.png'),
+	path.join(imagesDir, 'finals-cheats-hero.png'),
 	await sharp(heroBuffer).png().toBuffer(),
 );
 await writeFile(
-	path.join(imagesDir, 'rust-cheats-hero.webp'),
+	path.join(imagesDir, 'finals-cheats-hero.webp'),
 	await sharp(heroBuffer).webp({ quality: 86 }).toBuffer(),
 );
 

@@ -2,11 +2,11 @@ import { siteConfig } from './site';
 
 /** Homepage product demo — stable on-domain URLs for crawl + VideoObject schema. */
 export const demoVideo = {
-	src: '/videos/rust-cheats-demo.mp4',
-	poster: '/images/rust-cheats-demo-poster.webp',
-	title: 'Rust Cheats ESP, aimbot and radar demo',
+	src: '/videos/finals-cheats-demo.mp4',
+	poster: '/images/finals-cheats-demo-poster.webp',
+	title: 'The Final Cheats ESP, aimbot and radar demo',
 	description:
-		'Gameplay demo of Rust Cheats on Windows PC — ESP wallhack overlays, soft aim, and 2D radar during a live Rust raid.',
+		'Gameplay demo of The Final Cheats on Windows PC — ESP wallhack overlays, soft aim, and 2D radar during a live The Finals match.',
 	width: 960,
 	height: 540,
 	durationIso: 'PT20S',

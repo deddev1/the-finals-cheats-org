@@ -41,16 +41,16 @@ export function contentSrcSet(baseSrc: string): string | undefined {
  * Homepage / banner hero — wide banner (~3.15:1); LCP uses the 1536w WebP variant.
  */
 export const heroResponsive: ResponsiveWidth[] = [
-	{ src: '/images/rust-cheats-hero-640w.webp', width: 640 },
-	{ src: '/images/rust-cheats-hero-1024w.webp', width: 1024 },
-	{ src: '/images/rust-cheats-hero-1536w.webp', width: 1536 },
-	{ src: '/images/rust-cheats-hero-1778w.webp', width: 1778 },
+	{ src: '/images/finals-cheats-hero-640w.webp', width: 640 },
+	{ src: '/images/finals-cheats-hero-1024w.webp', width: 1024 },
+	{ src: '/images/finals-cheats-hero-1536w.webp', width: 1536 },
+	{ src: '/images/finals-cheats-hero-1778w.webp', width: 1778 },
 ];
 
 export const heroDesktopResponsive: ResponsiveWidth[] = heroResponsive;
 
 /** Default LCP src — sharp mid-high ladder WebP for retina desktops. */
-export const heroSrc = '/images/rust-cheats-hero-1536w.webp';
+export const heroSrc = '/images/finals-cheats-hero-1536w.webp';
 export const heroSrcSet = buildSrcSet(heroResponsive);
 export const heroSizes = '100vw';
 
@@ -67,7 +67,7 @@ export const contentWidths = [480, 960] as const;
 
 /** Canonical screenshot path — responsive variants use -480w / -960w suffixes. */
 export function screenshotSrc(n: number): string {
-	return `/images/rust-screenshot-${String(n).padStart(2, '0')}.webp`;
+	return `/images/finals-screenshot-${String(n).padStart(2, '0')}.webp`;
 }
 
 export const galleryFeaturedSizes = '(max-width: 560px) 100vw, (max-width: 900px) 90vw, 640px';

@@ -61,7 +61,7 @@ function buildI18nContent() {
 
 		// Validate required page keys
 		const requiredPages = [
-			'home', 'rust-esp', 'rust-aimbot', 'features', 'pricing', 'setup',
+			'home', 'finals-esp', 'finals-aimbot', 'features', 'pricing', 'setup',
 			'updates', 'faq', 'support', 'undetected', 'wallhack', 'radar', 'eac',
 			'cheats-2026', 'hacks', 'cheat-download', 'mod-menu', 'soft-aim', 'best-cheats',
 			'aimbot-hack', 'esp-hack', 'unlock-all', 'privacy', 'refund', 'terms',
@@ -71,7 +71,10 @@ function buildI18nContent() {
 			const p = pages[pageId];
 			if (p.title.length > 60) console.warn(`WARN [${locale}/${pageId}] title ${p.title.length} chars: ${p.title}`);
 			if (p.description.length > 160) console.warn(`WARN [${locale}/${pageId}] desc ${p.description.length} chars`);
-			if (!p.heroImage?.startsWith('/images/rust') && !p.heroImage?.startsWith('/images/the-rust')) {
+			if (
+				!p.heroImage?.startsWith('/images/finals') &&
+				!p.heroImage?.startsWith('/images/the-finals')
+			) {
 				throw new Error(`Invalid heroImage for ${locale}/${pageId}: ${p.heroImage}`);
 			}
 			if (pageId === 'home' && p.sections.length !== 2) {

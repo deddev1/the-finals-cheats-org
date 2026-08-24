@@ -60,7 +60,7 @@ function localizeMeta(enPage, locale, pageKey) {
 		description: clampDesc(stripZadeyoFromMeta(`${topicName}: ${focus}. ${p.delivery}. ${p.undetected} — ${p.win}.`)),
 		h1: topicName,
 		intro: p.s1(`${topicName}. ${focus}.`),
-		imageAlt: PAGE_IMAGE_ALTS[pageKey] || `${topicName} — Rust Cheats`,
+		imageAlt: PAGE_IMAGE_ALTS[pageKey] || `${topicName} — The Final Cheats`,
 		galleryTitle: topicName,
 		ctaPrimary: p.buy,
 		ctaSecondary: home?.cta2 ?? p.buy,
@@ -90,16 +90,16 @@ function localizeRichPage(enPage, locale, pageKey) {
 /** Optional native h2 overrides for rich pages. */
 const RICH_SECTION_H2 = {
 	es: {
-		'rust-esp': ['Qué resuelve el ESP en raids', 'Categorías ESP jugador, apex y loot', 'ESP indetectable con mantenimiento EAC', 'ESP — siguientes pasos'],
-		hacks: ['¿Qué son los trucos de Rust?', 'Qué incluye Rust Cheats', 'Estado indetectable y Easy Anti-Cheat', 'Primeros pasos'],
+		'finals-esp': ['Qué resuelve el ESP en matches', 'Categorías ESP jugador, apex y loot', 'ESP indetectable con mantenimiento EAC', 'ESP — siguientes pasos'],
+		hacks: ['¿Qué son los trucos de The Finals?', 'Qué incluye The Final Cheats', 'Estado indetectable y Easy Anti-Cheat', 'Primeros pasos'],
 	},
 	fr: {
-		'rust-esp': ['Ce que l\'ESP résout en raid', 'Catégories ESP joueur, apex et loot', 'ESP indétectable avec maintenance EAC', 'ESP — prochaines étapes'],
-		hacks: ['Que sont les triches Rust ?', 'Ce que Rust Cheats inclut', 'Statut indétectable et Easy Anti-Cheat', 'Premiers pas'],
+		'finals-esp': ['Ce que l\'ESP résout en match', 'Catégories ESP joueur, apex et loot', 'ESP indétectable avec maintenance EAC', 'ESP — prochaines étapes'],
+		hacks: ['Que sont les triches The Finals ?', 'Ce que The Final Cheats inclut', 'Statut indétectable et Easy Anti-Cheat', 'Premiers pas'],
 	},
 	de: {
-		'rust-esp': ['Was ESP in Raids löst', 'Spieler-, Apex- und Loot-ESP-Kategorien', 'Undetected ESP mit EAC-Wartung', 'ESP — nächste Schritte'],
-		hacks: ['Was sind Rust Cheats?', 'Was Rust Cheats enthält', 'Undetected-Status und Easy Anti-Cheat', 'Erste Schritte'],
+		'finals-esp': ['Was ESP in Raids löst', 'Spieler-, Apex- und Loot-ESP-Kategorien', 'Undetected ESP mit EAC-Wartung', 'ESP — nächste Schritte'],
+		hacks: ['Was sind The Final Cheats?', 'Was The Final Cheats enthält', 'Undetected-Status und Easy Anti-Cheat', 'Erste Schritte'],
 	},
 };
 

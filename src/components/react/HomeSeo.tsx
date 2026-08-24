@@ -17,9 +17,9 @@ function HomeSeoInner({ faqs }: Props) {
 			hintKey: 'homeSeo.catFeaturesHint',
 			links: [
 				{ href: '/features/', labelKey: 'homeSeo.linkAllFeatures' },
-				{ href: '/rust-esp/', labelKey: 'homeSeo.linkEsp' },
-				{ href: '/rust-aimbot/', labelKey: 'homeSeo.linkAimbot' },
-				{ href: '/rust-radar-hack/', labelKey: 'homeSeo.linkRadar' },
+				{ href: '/finals-esp/', labelKey: 'homeSeo.linkEsp' },
+				{ href: '/finals-aimbot/', labelKey: 'homeSeo.linkAimbot' },
+				{ href: '/finals-radar-hack/', labelKey: 'homeSeo.linkRadar' },
 			],
 		},
 		{
@@ -38,7 +38,7 @@ function HomeSeoInner({ faqs }: Props) {
 			links: [
 				{ href: '/pricing/', labelKey: 'homeSeo.linkPlans' },
 				{ href: '/reviews/', labelKey: 'homeSeo.linkReviews' },
-				{ href: '/', labelKey: 'homeSeo.linkRustCheats' },
+				{ href: '/', labelKey: 'homeSeo.linkFinalsCheats' },
 				{ href: '/features/', labelKey: 'homeSeo.linkAllFeatures' },
 			],
 		},

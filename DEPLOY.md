@@ -1,11 +1,11 @@
-# Deploy rustcheats.co
+# Deploy thefinalscheats.org
 
-Step-by-step guide to deploy the Rust Hacks static site to **rustcheats.co** on Cloudflare Pages, configure DNS, and submit to Google Search Console.
+Step-by-step guide to deploy the The Finals Hacks static site to **thefinalscheats.org** on Cloudflare Pages, configure DNS, and submit to Google Search Console.
 
 ## Prerequisites
 
 - Node.js **≥ 22.12.0**
-- Cloudflare account with access to **rustcheats.co** DNS
+- Cloudflare account with access to **thefinalscheats.org** DNS
 - Wrangler CLI (included as dev dependency): `npx wrangler login`
 
 ## 1. Build and validate locally
@@ -64,13 +64,13 @@ npm run build:validate
 npm run pages:deploy
 ```
 
-This runs `wrangler pages deploy dist --project-name=rustcheats` (see `wrangler.toml`).
+This runs `wrangler pages deploy dist --project-name=thefinalscheats` (see `wrangler.toml`).
 
 ## 3. Custom domain and DNS
 
-Add **rustcheats.co** as the primary custom domain on the Pages project.
+Add **thefinalscheats.org** as the primary custom domain on the Pages project.
 
-### Apex (rustcheats.co)
+### Apex (thefinalscheats.org)
 
 In **Cloudflare DNS** for the zone:
 
@@ -84,11 +84,11 @@ Cloudflare CNAME flattening handles apex records automatically.
 
 1. Add a DNS record for `www` pointing to the same Pages project (proxied CNAME or A record).
 2. In **Rules** → **Redirect Rules** (or Bulk Redirects), create:
-   - **Source:** `www.rustcheats.co/*`
-   - **Target:** `https://rustcheats.co/${1}`
+   - **Source:** `www.thefinalscheats.org/*`
+   - **Target:** `https://thefinalscheats.org/${1}`
    - **Status:** 301
 
-The deployed `functions/_middleware.js` also enforces apex canonical host, legacy domain redirects (`rustcheats.co`, `.net`, `.com`), and legacy path redirects.
+The deployed `functions/_middleware.js` also enforces apex canonical host, legacy domain redirects (`thefinalscheats.org`, `.net`, `.com`), and legacy path redirects.
 
 ### SSL / HTTPS
 
@@ -100,35 +100,35 @@ The deployed `functions/_middleware.js` also enforces apex canonical host, legac
 
 Verify these URLs return **200** with correct content:
 
-- `https://rustcheats.co/`
-- `https://rustcheats.co/es/`
-- `https://rustcheats.co/rust-cheats/`
-- `https://rustcheats.co/rust-aimbot/`
-- `https://rustcheats.co/sitemap.xml`
-- `https://rustcheats.co/robots.txt`
+- `https://thefinalscheats.org/`
+- `https://thefinalscheats.org/es/`
+- `https://thefinalscheats.org/finals-cheats/`
+- `https://thefinalscheats.org/finals-aimbot/`
+- `https://thefinalscheats.org/sitemap.xml`
+- `https://thefinalscheats.org/robots.txt`
 
 Verify redirects:
 
-- `http://rustcheats.co` → `https://rustcheats.co` (301)
-- `https://www.rustcheats.co` → `https://rustcheats.co` (301)
-- Legacy domains (e.g. `rustcheats.co`) → `https://rustcheats.co` (301)
+- `http://thefinalscheats.org` → `https://thefinalscheats.org` (301)
+- `https://www.thefinalscheats.org` → `https://thefinalscheats.org` (301)
+- Legacy domains (e.g. `thefinalscheats.org`) → `https://thefinalscheats.org` (301)
 - `/sitemap-index.xml` → `/sitemap.xml` (301)
-- Legacy paths (e.g. `/fortnite-hacks/`) → Rust equivalents (301)
+- Legacy paths (e.g. `/fortnite-hacks/`) → The Finals equivalents (301)
 
 ## 5. Google Search Console
 
 1. Go to [Google Search Console](https://search.google.com/search-console).
-2. **Add property** → choose **Domain** → enter `rustcheats.co`.
+2. **Add property** → choose **Domain** → enter `thefinalscheats.org`.
 3. Verify ownership via the **DNS TXT record** Cloudflare provides (add in Cloudflare DNS, wait for propagation, then confirm in GSC).
 4. After verification, open **Sitemaps** and submit:
    ```
-   https://rustcheats.co/sitemap.xml
+   https://thefinalscheats.org/sitemap.xml
    ```
-   Remove any legacy submissions (`sitemap-index.xml`, old `rustcheats.co` URLs).
+   Remove any legacy submissions (`sitemap-index.xml`, old `thefinalscheats.org` URLs).
 5. Use **URL Inspection** to request indexing for:
    - Homepage (`/`)
-   - Pillar page (`/rust-cheats/`)
-   - Key landing pages (`/rust-aimbot/`, `/rust-esp/`, `/rust-cheats-2026/`, etc.)
+   - Pillar page (`/finals-cheats/`)
+   - Key landing pages (`/finals-aimbot/`, `/finals-esp/`, `/finals-cheats-2026/`, etc.)
    - A sample of locale homepages (`/es/`, `/de/`, `/fr/`)
 6. Monitor **Pages** (Coverage), **Core Web Vitals**, and **International targeting** (hreflang) over the following weeks.
 
@@ -146,11 +146,11 @@ Verify redirects:
 
 - [ ] `npm run build:validate` passes locally
 - [ ] Cloudflare Pages project attached to this repo
-- [ ] Custom domain `rustcheats.co` attached and active
+- [ ] Custom domain `thefinalscheats.org` attached and active
 - [ ] `www` redirects to apex
-- [ ] Legacy domains 301 to `rustcheats.co`
+- [ ] Legacy domains 301 to `thefinalscheats.org`
 - [ ] Always Use HTTPS enabled
-- [ ] `robots.txt` and sitemaps serve from `https://rustcheats.co`
+- [ ] `robots.txt` and sitemaps serve from `https://thefinalscheats.org`
 - [ ] Google Search Console domain verified
 - [ ] `sitemap.xml` submitted in GSC
-- [ ] Homepage and `/rust-cheats/` requested for indexing
+- [ ] Homepage and `/finals-cheats/` requested for indexing

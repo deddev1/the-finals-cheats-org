@@ -1,6 +1,6 @@
 /**
- * SVG overlay generators for rust cheats marketing images.
- * Composited on top of IGN Rust gameplay screenshots.
+ * SVG overlay generators for the finals cheats marketing images.
+ * Composited on top of IGN The Finals gameplay screenshots.
  */
 
 const PURPLE = '#c084fc';

@@ -16,7 +16,7 @@ for (const locale of LOCALES) {
 		failed++;
 	} else {
 		// Spot-check key pages section counts
-		for (const key of ['features', 'pricing', 'hacks', 'rust-esp', 'faq', 'home']) {
+		for (const key of ['features', 'pricing', 'hacks', 'finals-esp', 'faq', 'home']) {
 			const en = key === 'home' ? pages.home : canonical[key];
 			const loc = pages[key];
 			if (en.sections.length !== loc.sections.length) {

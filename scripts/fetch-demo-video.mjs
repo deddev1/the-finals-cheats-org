@@ -1,6 +1,6 @@
 /**
  * Fetch and optimize the homepage product demo video from Supabase.
- * Outputs: public/videos/rust-cheats-demo.mp4 + poster WebP.
+ * Outputs: public/videos/finals-cheats-demo.mp4 + poster WebP.
  */
 import { mkdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
@@ -16,15 +16,15 @@ const SOURCE_URL =
 const tmpDir = path.resolve('tmp/demo-video');
 const sourcePath = path.join(tmpDir, 'source.mp4');
 const posterPng = path.join(tmpDir, 'poster.png');
-const videoOut = path.resolve('public/videos/rust-cheats-demo.mp4');
-const posterOut = path.resolve('public/images/rust-cheats-demo-poster.webp');
+const videoOut = path.resolve('public/videos/finals-cheats-demo.mp4');
+const posterOut = path.resolve('public/images/finals-cheats-demo-poster.webp');
 
 await mkdir(tmpDir, { recursive: true });
 await mkdir(path.dirname(videoOut), { recursive: true });
 
 console.log('Downloading demo video…');
 const res = await fetch(SOURCE_URL, {
-	headers: { 'User-Agent': 'Mozilla/5.0 (compatible; RustCheatsSite/1.0)' },
+	headers: { 'User-Agent': 'Mozilla/5.0 (compatible; FinalsCheatsSite/1.0)' },
 });
 if (!res.ok) throw new Error(`Download failed: HTTP ${res.status}`);
 await writeFile(sourcePath, Buffer.from(await res.arrayBuffer()));

@@ -1,6 +1,6 @@
-# Rust Cheats — Marketing Site
+# The Final Cheats — Marketing Site
 
-Static Astro 7 site for [rustcheats.co](https://rustcheats.co). Primary SEO keyword: **rust cheats** (secondary: rust hacks, rust aimbot, rust ESP).
+Static Astro 7 site for [thefinalscheats.org](https://thefinalscheats.org). Primary SEO keyword: **the finals cheats** (secondary: the finals hacks, the finals aimbot, rust ESP).
 
 ## Stack
 
@@ -45,7 +45,7 @@ npm run build:validate
 2. Connect this repo
 3. Build command: `npm run build`
 4. Output directory: `dist`
-5. Add custom domain **rustcheats.co** (apex) and redirect **www** → apex
+5. Add custom domain **thefinalscheats.org** (apex) and redirect **www** → apex
 6. Enable SSL **Always Use HTTPS**
 
 CLI deploy:
@@ -57,8 +57,8 @@ npm run deploy
 ## Environment
 
 - Node.js >= 22.12.0
-- Checkout URL: Zadeyo Rust product (`brand.checkoutUrl` in `src/data/brand.ts`)
+- Checkout URL: Zadeyo The Finals product (`brand.checkoutUrl` in `src/data/brand.ts`)
 
 ## License
 
-Private — for rustcheats.co deployment only.
+Private — for thefinalscheats.org deployment only.

@@ -65,12 +65,12 @@ Do **not** invent a new SEO architecture, title pattern, or dense paragraph styl
 ## Bad vs good
 
 ```text
-❌ BAD H1: Ultimate Undetected Rust Hacks Feature Control List 2026
+❌ BAD H1: Ultimate Undetected The Finals Hacks Feature Control List 2026
 ✅ GOOD H1: Features
 
-❌ BAD intro: Rust Hacks is the undetected rust cheats package also searched as rust cheats…
-✅ GOOD intro: Everything included in one license for Rust on Windows PC.
+❌ BAD intro: The Finals Hacks is the undetected the finals cheats package also searched as the finals cheats…
+✅ GOOD intro: Everything included in one license for The Finals on Windows PC.
 
-❌ BAD: Hardcode "Rust Hacks" in Hero.astro
+❌ BAD: Hardcode "The Finals Hacks" in Hero.astro
 ✅ GOOD: {siteConfig.name}
 ```

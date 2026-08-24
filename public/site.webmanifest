@@ -1,11 +1,11 @@
 {
-  "name": "Rust Cheats",
-  "short_name": "Rust Cheats",
-  "description": "Undetected rust cheats — ESP, aimbot, and radar for PC",
+  "name": "The Final Cheats",
+  "short_name": "The Final Cheats",
+  "description": "Undetected the finals cheats — ESP, aimbot, and radar for PC",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#070707",
-  "theme_color": "#070707",
+  "background_color": "#0a0a0f",
+  "theme_color": "#0a0a0f",
   "icons": [
     {
       "src": "/favicon.png",

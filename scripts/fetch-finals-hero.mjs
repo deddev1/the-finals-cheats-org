@@ -6,7 +6,7 @@ import sharp from 'sharp';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const HERO_URL =
 	process.env.RUST_HERO_URL ??
-	'file://' + path.resolve(__dirname, 'assets/rust-hero-source.png');
+	'file://' + path.resolve(__dirname, 'assets/finals-hero-source.png');
 const imagesDir = path.resolve('public/images');
 /** High-quality WebP — hero is LCP; prioritize clarity over file size. */
 const HERO_WEBP = { quality: 94, effort: 6, smartSubsample: false, alphaQuality: 100 };
@@ -21,7 +21,7 @@ const heroBuffer = Buffer.from(
 	await (HERO_URL.startsWith('file://')
 		? readFile(HERO_URL.replace('file://', ''))
 		: fetch(HERO_URL, {
-				headers: { 'User-Agent': 'Mozilla/5.0 (compatible; RustCheatsSite/1.0)' },
+				headers: { 'User-Agent': 'Mozilla/5.0 (compatible; FinalsCheatsSite/1.0)' },
 			}).then((r) => {
 				if (!r.ok) throw new Error(`HTTP ${r.status}`);
 				return r.arrayBuffer();
@@ -54,19 +54,19 @@ function resizeHero(width) {
 for (const width of outputWidths) {
 	const height = bannerHeight(width);
 	const webp = await resizeHero(width).webp(HERO_WEBP).toBuffer();
-	await writeFile(path.join(imagesDir, `rust-cheats-hero-${width}w.webp`), webp);
-	console.log(`✓ rust-cheats-hero-${width}w.webp (${width}x${height}, ${Math.round(webp.length / 1024)}KB)`);
+	await writeFile(path.join(imagesDir, `finals-cheats-hero-${width}w.webp`), webp);
+	console.log(`✓ finals-cheats-hero-${width}w.webp (${width}x${height}, ${Math.round(webp.length / 1024)}KB)`);
 }
 
 const lcpWidth = outputWidths.includes(1536) ? 1536 : outputWidths.at(-1) ?? 1024;
 const canonicalHeight = bannerHeight(lcpWidth);
 const canonical = await resizeHero(lcpWidth).webp(HERO_WEBP).toBuffer();
-for (const name of ['rust-cheats-hero.webp', 'rust-hero-banner.webp', 'hero-banner.webp']) {
+for (const name of ['finals-cheats-hero.webp', 'finals-hero-banner.webp', 'hero-banner.webp']) {
 	await writeFile(path.join(imagesDir, name), canonical);
 }
 
 const png = await resizeHero(lcpWidth).png({ compressionLevel: 6 }).toBuffer();
-await writeFile(path.join(imagesDir, 'rust-cheats-hero.png'), png);
+await writeFile(path.join(imagesDir, 'finals-cheats-hero.png'), png);
 
 console.log(
 	`Done — hero banner ${BANNER_RATIO}:1 (LCP ${lcpWidth}x${canonicalHeight}), fit: cover, quality ${HERO_WEBP.quality}`,

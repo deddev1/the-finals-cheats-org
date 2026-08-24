@@ -53,13 +53,13 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 					'See players, scientists, and loot through walls with distance readouts.',
 					'Use filters so the overlay stays clear in monument zones, compounds, and high-traffic PvP areas.',
 				],
-				list: ['Player boxes & distance', 'Loot and base markers', 'Heli and Bradley filters'],
+				list: ['Player boxes & distance', 'Loot and vault markers', 'Heli and Bradley filters'],
 			},
 			{
 				h2: 'Aimbot & soft aim',
 				paragraphs: [
 					'Aim help you can tune to feel natural.',
-					'Set FOV, smoothness, and bone priority per weapon before you raid.',
+					'Set FOV, smoothness, and bone priority per weapon before you queue.',
 				],
 				list: ['Smooth aim strength', 'FOV and bone priority', 'Hotkeys mid-match'],
 			},
@@ -67,9 +67,9 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 				h2: 'Radar',
 				paragraphs: [
 					'A simple 2D radar for threats outside your view.',
-					'Spot flanks near monuments and compounds without filling the whole screen.',
+					'Spot flanks near arenas and cashout vaults without filling the whole screen.',
 				],
-				list: ['Nearby enemy cues', 'Adjustable range', 'Works in raids & roaming'],
+				list: ['Nearby enemy cues', 'Adjustable range', 'Works in matches & roaming'],
 			},
 			{
 				h2: 'Explore related topics',
@@ -77,14 +77,14 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 					'Most {game} cheat sites cover ESP, aimbot, radar, setup, and status on separate pages. Use these guides next:',
 				],
 				list: [
-					'<a href="/rust-esp/">ESP & wallhack guide</a>',
-					'<a href="/rust-aimbot/">Aimbot & soft aim</a>',
-					'<a href="/rust-radar-hack/">2D radar overlay</a>',
+					'<a href="/finals-esp/">ESP & wallhack guide</a>',
+					'<a href="/finals-aimbot/">Aimbot & soft aim</a>',
+					'<a href="/finals-radar-hack/">2D radar overlay</a>',
 					'<a href="/setup/">Setup guide</a>',
 					'<a href="/updates/">Live status</a>',
-					'<a href="/blog/">Rust Intel blog</a>',
-					'<a href="https://store.steampowered.com/app/252490/news/" target="_blank" rel="noopener noreferrer">Official Steam patch notes</a>',
-					'<a href="https://rust.fandom.com/wiki/Rust" target="_blank" rel="noopener noreferrer">Rust Wiki (Fandom)</a>',
+					'<a href="/blog/">Finals Intel blog</a>',
+					'<a href="https://store.steampowered.com/app/2073850/news/" target="_blank" rel="noopener noreferrer">Official Steam patch notes</a>',
+					'<a href="https://thefinals.fandom.com/wiki/The_Finals" target="_blank" rel="noopener noreferrer">The Finals Wiki (Fandom)</a>',
 				],
 			},
 			{
@@ -92,7 +92,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 				paragraphs: [
 					'We rebuild after big {game} or {antiCheat} patches.',
 					'Check Status before you play after a patch day.',
-					'Verify official changes on <a href="https://store.steampowered.com/app/252490/news/" target="_blank" rel="noopener noreferrer">Steam patch notes</a> and the <a href="https://rust.fandom.com/wiki/Rust" target="_blank" rel="noopener noreferrer">Rust Wiki</a> before you tune overlays.',
+					'Verify official changes on <a href="https://store.steampowered.com/app/2073850/news/" target="_blank" rel="noopener noreferrer">Steam patch notes</a> and the <a href="https://thefinals.fandom.com/wiki/The_Finals" target="_blank" rel="noopener noreferrer">The Finals Wiki</a> before you tune overlays.',
 				],
 				list: ['Status on the Status page', 'Setup guide included', 'Email support with your order ID'],
 			},
@@ -141,18 +141,18 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		h1: 'Status',
 		intro: brandCopy.statusIntro,
 		ctaPrimary: brandCopy.ctaBuy,
-		ctaSecondary: 'Rust Cheats overview',
+		ctaSecondary: 'The Final Cheats overview',
 		ctaSecondaryHref: '/',
 		galleryTitle: 'In-game look',
 		sections: [
 			{
 				h2: 'Current status',
 				paragraphs: [
-					'As of 13 Aug 2026 the package is online for Rust on Windows PC. We post a new note here when a game or Easy Anti-Cheat patch needs a rebuild.',
-					'If Status is green, you can raid. If we are rebuilding, wait for the next note.',
+					'As of 13 Aug 2026 the package is online for The Finals on Windows PC. We post a new note here when a game or Easy Anti-Cheat patch needs a rebuild.',
+					'If Status is green, you can match. If we are rebuilding, wait for the next note.',
 				],
 				list: [
-					'Check this page before every raid after a patch',
+					'Check this page before every match after a patch',
 					'Monthly and lifetime licenses get rebuilds while active',
 					'No cheat stays undetected forever — status first, then play',
 				],
@@ -174,25 +174,25 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 	hacks: page({
 		title: brandSeo.previewTitle,
 		description: brandSeo.previewDescription,
-		h1: 'Rust Cheats — Full Guide',
+		h1: 'The Final Cheats — Full Guide',
 		intro:
-			'Rust cheats add ESP, radar, and soft aim on top of the base game. This page explains what rust cheats are, what Rust Cheats includes, how Easy Anti-Cheat maintenance works, and where to go next before you buy.',
+			'The Finals cheats add ESP, radar, and soft aim on top of the base game. This page explains what the finals cheats are, what The Final Cheats includes, how Easy Anti-Cheat maintenance works, and where to go next before you buy.',
 		ctaPrimary: brandCopy.ctaBuy,
 		ctaSecondary: 'View features',
 		ctaSecondaryHref: '/features/',
-		galleryTitle: 'Rust cheats in action',
+		galleryTitle: 'The Finals cheats in action',
 		sections: [
 			{
-				h2: 'What are rust cheats?',
+				h2: 'What are the finals cheats?',
 				paragraphs: [
-					'Rust cheats are third-party tools that give you extra information and combat assist during raids. Most players search for rust cheats when they want player ESP, loot visibility, off-screen radar, or smoother aim under pressure.',
-					'Rust Cheats bundles those tools in one license for Windows PC — no stacking separate downloads for wallhack, radar, and aimbot.',
+					'The Finals cheats are third-party tools that give you extra information and combat assist during matches. Most players search for the finals cheats when they want player ESP, loot visibility, off-screen radar, or smoother aim under pressure.',
+					'The Final Cheats bundles those tools in one license for Windows PC — no stacking separate downloads for wallhack, radar, and aimbot.',
 				],
 			},
 			{
-				h2: 'What Rust Cheats includes',
+				h2: 'What The Final Cheats includes',
 				paragraphs: [
-					'One license covers the full raid stack: player ESP with distance, loot markers, 2D radar for flanks, and configurable soft aim profiles per weapon.',
+					'One license covers the full match stack: player ESP with distance, vault markers, 2D radar for flanks, and configurable soft aim profiles per weapon.',
 				],
 				list: [
 					'ESP / wallhack with distance readouts',
@@ -208,20 +208,20 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 					'Each tool has its own deep-dive page if you want details before checkout.',
 				],
 				list: [
-					'<a href="/rust-esp/">Rust ESP & wallhack</a>',
-					'<a href="/rust-aimbot/">Rust Aimbot & soft aim</a>',
-					'<a href="/rust-radar-hack/">Radar hack overlay</a>',
+					'<a href="/finals-esp/">The Finals ESP & wallhack</a>',
+					'<a href="/finals-aimbot/">The Finals Aimbot & soft aim</a>',
+					'<a href="/finals-radar-hack/">Radar hack overlay</a>',
 					'<a href="/features/">Full feature list</a>',
 				],
 			},
 			{
 				h2: 'Undetected status & patches',
 				paragraphs: [
-					'Rust uses Easy Anti-Cheat. No cheat stays undetected forever — maintenance after patches is what matters. Check the Status page after every Rust or EAC update before you load in.',
+					'The Finals uses Easy Anti-Cheat. No cheat stays undetected forever — maintenance after patches is what matters. Check the Status page after every The Finals or EAC update before you load in.',
 				],
 				list: [
 					'<a href="/updates/">Live status & patch notes</a>',
-					'<a href="/undetected-rust-cheats/">Undetected cheats guide</a>',
+					'<a href="/undetected-finals-cheats/">Undetected cheats guide</a>',
 					'<a href="/eac-bypass/">Easy Anti-Cheat maintenance</a>',
 					'<a href="/faq/">FAQ before you buy</a>',
 				],
@@ -239,16 +239,16 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 			},
 		],
 	}),
-	'rust-esp': page({
-		title: 'Rust ESP 2026 | Wallhack & Player Boxes | {brand}',
+	'finals-esp': page({
+		title: 'The Finals ESP 2026 | Wallhack & Player Boxes | {brand}',
 		description:
-			'Rust ESP wallhack with player boxes, loot markers and distance tags on Windows PC. Undetected rust cheats from {brand} — aimbot and radar included. Buy at rustcheats.co.',
+			'The Finals ESP wallhack with player boxes, vault markers and distance tags on Windows PC. Undetected the finals cheats from {brand} — aimbot and radar included. Buy at thefinalscheats.org.',
 		h1: 'ESP',
-		intro: 'See players and loot through walls during Rust raids. Part of the same {brand} license.',
+		intro: 'See players and loot through walls during The Finals matches. Part of the same {brand} license.',
 		ctaPrimary: brandCopy.ctaBuy,
-		ctaSecondary: 'Rust Cheats overview',
+		ctaSecondary: 'The Final Cheats overview',
 		ctaSecondaryHref: '/',
-		galleryTitle: 'ESP in raid',
+		galleryTitle: 'ESP in match',
 		sections: [
 			{
 				h2: 'What ESP shows',
@@ -271,25 +271,25 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 			},
 		],
 	}),
-	'rust-aimbot': page({
-		title: 'Rust Aimbot 2026 | Soft Aim Settings | {brand}',
+	'finals-aimbot': page({
+		title: 'The Finals Aimbot 2026 | Soft Aim Settings | {brand}',
 		description:
-			'Rust aimbot and soft aim with FOV, bone priority and hotkeys on Windows PC. Part of undetected {brand} with ESP wallhack and radar. Plans from $35 at rustcheats.co.',
+			'The Finals aimbot and soft aim with FOV, bone priority and hotkeys on Windows PC. Part of undetected {brand} with ESP wallhack and radar. Plans from $35 at thefinalscheats.org.',
 		h1: 'Aimbot',
-		intro: 'Soft aim and aim assist you can tune for Rust. Included in the same {brand} license.',
+		intro: 'Soft aim and aim assist you can tune for The Finals. Included in the same {brand} license.',
 		ctaPrimary: brandCopy.ctaBuy,
-		ctaSecondary: 'Rust Cheats overview',
+		ctaSecondary: 'The Final Cheats overview',
 		ctaSecondaryHref: '/',
 		galleryTitle: 'Aimbot view',
 		sections: [
 			{
 				h2: 'Controls',
-				paragraphs: ['Set FOV, smoothness, and bone priority before you raid.'],
+				paragraphs: ['Set FOV, smoothness, and bone priority before you queue.'],
 				list: ['Soft aim strength', 'Bone priority', 'Hotkeys mid-match'],
 			},
 			{
 				h2: 'Play styles',
-				paragraphs: ['Keep settings subtle for longer raids. Raise strength only when you accept more risk.'],
+				paragraphs: ['Keep settings subtle for longer matches. Raise strength only when you accept more risk.'],
 				list: ['Legit soft aim', 'Per-weapon profiles', 'Works with ESP'],
 			},
 			{
@@ -304,26 +304,26 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		],
 	}),
 	radar: page({
-		title: 'Rust Radar Hack 2026 | 2D Threat Map | {brand}',
+		title: 'The Finals Radar Hack 2026 | 2D Threat Map | {brand}',
 		description:
-			'Rust 2D radar hack for flank awareness on Windows PC. Bundled with ESP wallhack and soft aim in one {brand} license. Undetected with Easy Anti-Cheat maintenance at rustcheats.co.',
+			'The Finals 2D radar hack for flank awareness on Windows PC. Bundled with ESP wallhack and soft aim in one {brand} license. Undetected with Easy Anti-Cheat maintenance at thefinalscheats.org.',
 		h1: 'Radar',
 		intro: 'A simple 2D radar for threats outside your view. Included in the same {brand} license.',
 		ctaPrimary: brandCopy.ctaBuy,
-		ctaSecondary: 'Rust Cheats overview',
+		ctaSecondary: 'The Final Cheats overview',
 		ctaSecondaryHref: '/',
 		galleryTitle: 'Radar overlay',
 		sections: [
 			{
 				h2: 'What it shows',
-				paragraphs: ['Nearby enemy cues with adjustable range for solo farmers and raiders.'],
+				paragraphs: ['Nearby enemy cues with adjustable range for solo farmers and matchers.'],
 				list: ['Flank awareness', 'Base approaches', 'Adjustable range'],
 			},
 			{
 				h2: 'With ESP',
 				paragraphs: ['Use radar for threats you cannot see yet. Use ESP when you push.'],
 				list: [
-					'<a href="/rust-esp/">ESP guide</a>',
+					'<a href="/finals-esp/">ESP guide</a>',
 					'<a href="/">Full product</a>',
 					'<a href="/pricing/">Store</a>',
 				],

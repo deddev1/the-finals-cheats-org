@@ -20,15 +20,15 @@
     "closeMenu": "Close menu"
   },
   "hero": {
-    "accent": "Triches Rust indétectables",
-    "accentShort": "Rust Cheats",
-    "subtitle": "ESP wallhack, radar hack et Aimbot pour Rust sur PC Windows — maintenance Easy Anti-Cheat incluse.",
-    "subtitleShort": "ESP, radar et Aimbot pour Rust PC",
+    "accent": "Triches The Finals indétectables",
+    "accentShort": "The Final Cheats",
+    "subtitle": "ESP wallhack, radar hack et Aimbot pour The Finals sur PC Windows — maintenance Easy Anti-Cheat incluse.",
+    "subtitleShort": "ESP, radar et Aimbot pour The Finals PC",
     "buyNow": "Acheter",
     "seeFeatures": "Voir les fonctions",
-    "title": "Rust Cheats",
+    "title": "The Final Cheats",
     "priceFrom": "from",
-    "imageAlt": "{{brand}} — Rust ESP and aimbot overlay",
+    "imageAlt": "{{brand}} — The Finals ESP and aimbot overlay",
     "chipEsp": "ESP / wallhack",
     "chipAim": "Soft aim",
     "chipRadar": "2D radar",
@@ -40,7 +40,7 @@
   },
   "trust": {
     "status": "En ligne",
-    "statusNote": "Le pack Rust Cheats est actif pour Rust sur PC Windows.",
+    "statusNote": "Le pack The Final Cheats est actif pour The Finals sur PC Windows.",
     "statusShort": "Actif",
     "delivery": "Livraison numérique instantanée",
     "platform": "Windows 10 et 11",
@@ -48,12 +48,12 @@
     "antiCheatShort": "Easy Anti-Cheat inclus"
   },
   "product": {
-    "title": "Rust Cheats",
+    "title": "The Final Cheats",
     "addToCart": "Ajouter au panier",
     "monthly": "Mensuel",
     "lifetime": "À vie",
     "available": "Disponible",
-    "gameBadge": "Rust",
+    "gameBadge": "The Finals",
     "platformBadge": "PC Windows",
     "statusBadge": "Pack indétectable",
     "days30": "30",
@@ -66,18 +66,18 @@
   },
   "reviews": {
     "title": "Ce que disent les joueurs",
-    "subtitle": "Avis récents des acheteurs Rust Cheats",
+    "subtitle": "Avis récents des acheteurs The Final Cheats",
     "outOf": "sur 5",
     "countLabel": "avis",
     "eyebrow": "Ce que disent les joueurs",
-    "homeTitle": "Rust Cheats Ce que disent les joueurs",
+    "homeTitle": "The Final Cheats Ce que disent les joueurs",
     "buyerReviews": "avis",
     "averageAria": "Ce que disent les joueurs",
     "outOfFiveAria": "sur 5",
     "readAll": "→"
   },
   "common": {
-    "buyNow": "Buy Rust Cheats",
+    "buyNow": "Buy The Final Cheats",
     "readGuide": "Read guide",
     "language": "Language",
     "officialLanguageNote": "English is official; other locales are translated.",
@@ -114,14 +114,14 @@
   "footer": {
     "explore": "Explorer",
     "help": "Aide et légal",
-    "tagline": "ESP, wallhack, radar et Aimbot indétectables pour Rust — checkout via Zadeyo."
+    "tagline": "ESP, wallhack, radar et Aimbot indétectables pour The Finals — checkout via Zadeyo."
   },
   "home": {
-    "aboutTitle": "Rust Cheats — ESP, Wallhack et Aimbot indétectables",
-    "aboutP1": "Pack undetected pour Rust sur PC Windows : ESP wallhack, radar et Aimbot avec maintenance Easy Anti-Cheat après chaque patch. Tarifs · Mises à jour.",
+    "aboutTitle": "The Final Cheats — ESP, Wallhack et Aimbot indétectables",
+    "aboutP1": "Pack undetected pour The Finals sur PC Windows : ESP wallhack, radar et Aimbot avec maintenance Easy Anti-Cheat après chaque patch. Tarifs · Mises à jour.",
     "aboutPricingCta": "Comparer les tarifs",
     "aboutP2Before": "Commencez par le",
-    "aboutPillar": "pilier Rust Cheats",
+    "aboutPillar": "pilier The Final Cheats",
     "aboutEsp": "guide ESP",
     "aboutAimbot": "contrôles aimbot",
     "aboutUndetected": "statut indétectable",
@@ -151,7 +151,7 @@
     "linkSetup": "Installation",
     "linkPlans": "Formules",
     "linkReviews": "Avis",
-    "linkRustCheats": "Triches Rust",
+    "linkFinalsCheats": "Triches The Finals",
     "linkFaq": "FAQ",
     "linkSupport": "Support",
     "linkSetupGuide": "Guide d'installation",
@@ -190,11 +190,11 @@
     "blog": "Blog"
   },
   "internalLinks": {
-    "relatedLede": "Rust Cheats — Pages associées.",
+    "relatedLede": "The Final Cheats — Pages associées.",
     "topicsTitle": "Fonctions",
     "topicsLabel": "Fonctions",
     "topicsLede": "ESP, Aimbot, Tarifs, Installation, Mises à jour.",
-    "overview": "Rust Cheats",
+    "overview": "The Final Cheats",
     "esp": "ESP & wallhack",
     "aimbot": "Aimbot",
     "radar": "Radar",
@@ -215,7 +215,7 @@
     "pillsTitle": "Guides officiels et ressources",
     "pillsLabel": "Guides officiels et ressources",
     "steam": {
-      "label": "Rust sur Steam",
+      "label": "The Finals sur Steam",
       "note": "Page officielle, configuration requise et avis."
     },
     "patch": {
@@ -223,11 +223,11 @@
       "note": "Lisez les mises à jour officielles avant de changer votre loadout."
     },
     "official": {
-      "label": "Site officiel Rust",
-      "note": "Présentation du jeu par Facepunch Studios."
+      "label": "Site officiel The Finals",
+      "note": "Présentation du jeu par Embark Studios."
     },
     "wiki": {
-      "label": "Wiki Rust (Fandom)",
+      "label": "Wiki The Finals (Fandom)",
       "note": "Stats joueurs, cartes et mécaniques de survie."
     },
     "community": {
@@ -236,95 +236,95 @@
     }
   },
   "images": {
-    "hero": "Rust Cheats hero — ESP and aimbot overlay in Rust",
+    "hero": "The Final Cheats hero — ESP and aimbot overlay in The Finals",
     "espWallhack": "Wallhack outlines showing players and NPCs through walls",
-    "aimbotCombat": "Soft aim assist overlay during a Rust raid",
-    "squadFight": "Rust Cheats combat overlay during a squad fight",
-    "playerEsp": "Player ESP boxes and distance readouts in a Rust raid",
-    "headerArt": "Aimbot view and bone priority controls for Rust",
-    "hacksPackage": "2D radar threat overlay for Rust",
-    "raidFight": "Aimbot assist during a Rust firefight",
-    "battleRoyale": "Rust Cheats in-session overview for Windows PC",
-    "raidMap": "ESP markers for loot and bases in Rust"
+    "aimbotCombat": "Soft aim assist overlay during a The Finals match",
+    "squadFight": "The Final Cheats combat overlay during a squad fight",
+    "playerEsp": "Player ESP boxes and distance readouts in a The Finals match",
+    "headerArt": "Aimbot view and bone priority controls for The Finals",
+    "hacksPackage": "2D radar threat overlay for The Finals",
+    "raidFight": "Aimbot assist during a The Finals arena fight",
+    "battleRoyale": "The Final Cheats in-session overview for Windows PC",
+    "raidMap": "ESP markers for loot and bases in The Finals"
   },
   "blog": {
-    "blogTitle": "Rust Cheats Blog | ESP, Cheats & Meta Tips",
-    "blogDescription": "rust cheats and rust cheats guides — ESP, aimbot, ranked meta, loot routes, and Easy Anti-Cheat updates. Global English blog at rustcheats.co/blog/.",
-    "blogH1": "Rust Cheats Intel",
-    "blogIntro": "Actionable Rust guides for raid and farming run — meta breakdowns, loot routes, player tiers, and pro warmup routines. Pair these tips with our rust cheats pages for ESP boxes, soft aim, and cloud DMA when you need in-match tools.",
+    "blogTitle": "The Final Cheats Blog | ESP, Cheats & Meta Tips",
+    "blogDescription": "the finals cheats and the finals cheats guides — ESP, aimbot, ranked meta, cashout routes, and Easy Anti-Cheat updates. Global English blog at thefinalscheats.org/blog/.",
+    "blogH1": "The Final Cheats Intel",
+    "blogIntro": "Actionable The Finals guides for match and farming run — meta breakdowns, cashout routes, player tiers, and pro warmup routines. Pair these tips with our the finals cheats pages for ESP boxes, soft aim, and cloud DMA when you need in-match tools.",
     "readMore": "Read guide",
     "published": "Published",
     "updated": "Updated",
-    "relatedPosts": "Related Rust guides",
+    "relatedPosts": "Related The Finals guides",
     "allPosts": "All blog posts",
-    "home": "Rust Cheats home",
+    "home": "The Final Cheats home",
     "language": "Language",
-    "label": "Rust Intel"
+    "label": "Finals Intel"
   },
   "gallery": {
-    "eyebrow": "the rust cheats",
-    "title": "rust cheats gallery",
-    "subtitle": "Simple rust cheats visuals — ESP, wallhack, aimbot, and radar for Rust on PC.",
-    "lead": "Rust Cheats helps you spot players, NPCs, loot, and bases with ESP, aimbot, and radar in one license.",
-    "highlightEspTitle": "rust cheats esp",
-    "highlightEspCopy": "See players through walls with rust cheats esp and wallhack overlays.",
-    "highlightRadarTitle": "rust cheats radar",
-    "highlightRadarCopy": "Track nearby threats with rust cheats radar before you push or extract.",
-    "highlightAimbotTitle": "rust cheats aimbot",
-    "highlightAimbotCopy": "Use soft aim and aimbot controls tuned for Rust raids on Windows PC.",
-    "updatesLabel": "rust cheats updates",
+    "eyebrow": "the finals cheats",
+    "title": "the finals cheats gallery",
+    "subtitle": "Simple the finals cheats visuals — ESP, wallhack, aimbot, and radar for The Finals on PC.",
+    "lead": "The Final Cheats helps you spot players, NPCs, loot, and bases with ESP, aimbot, and radar in one license.",
+    "highlightEspTitle": "the finals cheats esp",
+    "highlightEspCopy": "See players through walls with the finals cheats esp and wallhack overlays.",
+    "highlightRadarTitle": "the finals cheats radar",
+    "highlightRadarCopy": "Track nearby threats with the finals cheats radar before you push or extract.",
+    "highlightAimbotTitle": "the finals cheats aimbot",
+    "highlightAimbotCopy": "Use soft aim and aimbot controls tuned for The Finals matches on Windows PC.",
+    "updatesLabel": "the finals cheats updates",
     "updatesShort": "Updates"
   },
   "faq": {
     "items": {
-      "what-are-rust-cheats": {
-        "q": "Qu'est-ce que Rust Cheats ?",
-        "a": "Rust Cheats est un pack de triches indétectables pour Rust sur PC Windows. Il inclut ESP wallhack, radar 2D et contrôles aimbot, avec maintenance Easy Anti-Cheat et aide à l'installation."
+      "what-are-finals-cheats": {
+        "q": "Qu'est-ce que The Final Cheats ?",
+        "a": "The Final Cheats est un pack de triches indétectables pour The Finals sur PC Windows. Il inclut ESP wallhack, radar 2D et contrôles aimbot, avec maintenance Easy Anti-Cheat et aide à l'installation."
       },
-      "are-rust-cheats-undetected-in-2026": {
-        "q": "Les triches Rust sont-elles indétectables en 2026 ?",
-        "a": "Rust Cheats est maintenu pour Rust avec des rebuilds après les patchs Easy Anti-Cheat et du jeu. Consultez la page Statut avant de raid. Aucune triche ne garantit une indétectabilité permanente."
+      "are-finals-cheats-undetected-in-2026": {
+        "q": "Les triches The Finals sont-elles indétectables en 2026 ?",
+        "a": "The Final Cheats est maintenu pour The Finals avec des rebuilds après les patchs Easy Anti-Cheat et du jeu. Consultez la page Statut avant de match. Aucune triche ne garantit une indétectabilité permanente."
       },
       "solo-farmer-and-raider-sessions": {
-        "q": "Est-ce que ça fonctionne en raids de base et en PvP ?",
-        "a": "Oui. ESP, radar et aimbot sont conçus pour le flux de raid Rust — lire les joueurs et NPCs, repérer le loot et rester vigilant près des monuments."
+        "q": "Est-ce que ça fonctionne en matches de base et en PvP ?",
+        "a": "Oui. ESP, radar et aimbot sont conçus pour le flux de match The Finals — lire les joueurs et NPCs, repérer le loot et rester vigilant près des monuments."
       },
       "esp-wallhack-radar-or-aimbot": {
         "q": "Qu'est-ce qui est inclus — ESP, wallhack, radar ou Aimbot ?",
-        "a": "Rust Cheats regroupe ESP wallhack, marqueurs de loot, radar 2D et Aimbot configurable dans une licence. Voir Fonctions pour la liste complète."
+        "a": "The Final Cheats regroupe ESP wallhack, marqueurs de loot, radar 2D et Aimbot configurable dans une licence. Voir Fonctions pour la liste complète."
       },
       "how-are-licenses-delivered": {
         "q": "Comment les licences sont-elles livrées ?",
         "a": "Après confirmation du paiement, les détails de licence sont livrés numériquement via le checkout. Gardez la confirmation de commande si vous contactez le support."
       },
       "where-to-check-updates": {
-        "q": "Où vérifier les mises à jour après un patch Rust ou Easy Anti-Cheat ?",
+        "q": "Où vérifier les mises à jour après un patch The Finals ou Easy Anti-Cheat ?",
         "a": "Les notes de maintenance sont publiées sur la page Statut quand un patch affecte le pack. C'est l'endroit le plus rapide pour confirmer une nouvelle build."
       },
       "how-to-contact-support": {
         "q": "Comment contacter le support ?",
-        "a": "Utilisez la page Support ou écrivez à support@rustcheats.co avec les détails de votre commande et une description claire du problème."
+        "a": "Utilisez la page Support ou écrivez à support@thefinalscheats.org avec les détails de votre commande et une description claire du problème."
       },
-      "what-is-a-rust-wallhack": {
-        "q": "Qu'est-ce qu'un wallhack Rust ?",
-        "a": "Un wallhack Rust est un overlay ESP qui affiche joueurs, NPCs et loot à travers les murs. Rust Cheats inclut distances, signaux de raid et catégories configurables."
+      "what-is-a-finals-wallhack": {
+        "q": "Qu'est-ce qu'un wallhack The Finals ?",
+        "a": "Un wallhack The Finals est un overlay ESP qui affiche joueurs, NPCs et loot à travers les murs. The Final Cheats inclut distances, signaux de match et catégories configurables."
       },
-      "does-rust-cheats-include-radar-hack": {
-        "q": "Rust Cheats inclut-il un radar hack ?",
-        "a": "Oui. Rust Cheats inclut des overlays radar 2D qui mettent en évidence les menaces proches hors de votre champ de vision."
+      "does-finals-cheats-include-radar-hack": {
+        "q": "The Final Cheats inclut-il un radar hack ?",
+        "a": "Oui. The Final Cheats inclut des overlays radar 2D qui mettent en évidence les menaces proches hors de votre champ de vision."
       },
-      "eac-anti-cheat-and-rust-cheats": {
-        "q": "Comment Easy Anti-Cheat affecte-t-il les triches Rust ?",
-        "a": "Easy Anti-Cheat surveille Rust sur PC Windows. Rust Cheats publie des notes de maintenance après les patchs. Consultez Statut avant de jouer."
+      "eac-anti-cheat-and-finals-cheats": {
+        "q": "Comment Easy Anti-Cheat affecte-t-il les triches The Finals ?",
+        "a": "Easy Anti-Cheat surveille The Finals sur PC Windows. The Final Cheats publie des notes de maintenance après les patchs. Consultez Statut avant de jouer."
       },
-      "buy-undetected-rust-cheats-windows-pc": {
-        "q": "Puis-je acheter des triches Rust indétectables pour PC Windows ?",
-        "a": "Oui — Rust Cheats vend des licences mensuelles et à vie pour PC Windows avec ESP, radar et aimbot. Comparez les formules sur la page Tarifs."
+      "buy-undetected-finals-cheats-windows-pc": {
+        "q": "Puis-je acheter des triches The Finals indétectables pour PC Windows ?",
+        "a": "Oui — The Final Cheats vend des licences mensuelles et à vie pour PC Windows avec ESP, radar et aimbot. Comparez les formules sur la page Tarifs."
       }
     }
   },
   "media": {
-    "demoVideoTitle": "Rust Cheats ESP, Aimbot demo",
+    "demoVideoTitle": "The Final Cheats ESP, Aimbot demo",
     "playVideo": "Play video"
   }
 }
