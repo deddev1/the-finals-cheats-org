@@ -14,7 +14,7 @@ export const PAGE_IDS = [
 
 /** Hero image per page — simple thefinals cheats keyword filenames. */
 export const HERO_IMAGES = {
-	home: '/images/finals-cheats-esp.webp',
+	home: '/images/finals-cheats-hero-1448w.webp',
 	'finals-esp': '/images/finals-cheats-radar.webp',
 	'finals-aimbot': '/images/finals-cheats-aimbot.webp',
 	features: '/images/finals-cheats-aimbot-view.webp',

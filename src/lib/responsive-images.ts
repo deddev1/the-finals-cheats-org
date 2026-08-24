@@ -43,14 +43,13 @@ export function contentSrcSet(baseSrc: string): string | undefined {
 export const heroResponsive: ResponsiveWidth[] = [
 	{ src: '/images/finals-cheats-hero-640w.webp', width: 640 },
 	{ src: '/images/finals-cheats-hero-1024w.webp', width: 1024 },
-	{ src: '/images/finals-cheats-hero-1536w.webp', width: 1536 },
-	{ src: '/images/finals-cheats-hero-1778w.webp', width: 1778 },
+	{ src: '/images/finals-cheats-hero-1448w.webp', width: 1448 },
 ];
 
 export const heroDesktopResponsive: ResponsiveWidth[] = heroResponsive;
 
 /** Default LCP src — sharp mid-high ladder WebP for retina desktops. */
-export const heroSrc = '/images/finals-cheats-hero-1536w.webp';
+export const heroSrc = '/images/finals-cheats-hero-1448w.webp';
 export const heroSrcSet = buildSrcSet(heroResponsive);
 export const heroSizes = '100vw';
 
@@ -58,9 +57,9 @@ export const heroSizes = '100vw';
 export const heroPreloadSrc = heroSrc;
 export const heroMimeType = 'image/webp';
 
-/** Intrinsic dimensions of the default LCP asset (1536w variant). */
-export const heroWidth = 1536;
-export const heroHeight = 488;
+/** Intrinsic dimensions of the default LCP asset (1448w variant). */
+export const heroWidth = 1448;
+export const heroHeight = 460;
 
 /** Responsive widths for below-fold content images. */
 export const contentWidths = [480, 960] as const;

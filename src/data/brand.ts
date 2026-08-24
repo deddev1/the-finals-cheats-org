@@ -27,8 +27,8 @@ export const brand = {
 	logoRasterWidth: 512,
 	logoRasterHeight: 512,
 	logoAlt: 'The Final Cheats logo',
-	defaultOgImage: '/images/finals-cheats-hero-1536w.webp',
-	heroImage: '/images/finals-cheats-hero-1536w.webp',
+	defaultOgImage: '/images/finals-cheats-hero-1448w.webp',
+	heroImage: '/images/finals-cheats-hero-1448w.webp',
 
 	plans: [
 		{ id: 'monthly', label: 'Monthly', price: 35, duration: 'P30D' },

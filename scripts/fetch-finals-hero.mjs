@@ -5,6 +5,7 @@ import sharp from 'sharp';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const HERO_URL =
+	process.env.FINALS_HERO_URL ??
 	process.env.RUST_HERO_URL ??
 	'file://' + path.resolve(__dirname, 'assets/finals-hero-source.png');
 const imagesDir = path.resolve('public/images');
