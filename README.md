@@ -1,6 +1,6 @@
 # The Final Cheats — Marketing Site
 
-Static Astro 7 site for [thefinalscheats.org](https://thefinalscheats.org). Primary SEO keyword: **the finals cheats** (secondary: the finals hacks, the finals aimbot, rust ESP).
+Static Astro 7 site for [thefinalscheats.org](https://thefinalscheats.org). Primary SEO keyword: **thefinals cheats** (secondary: thefinals hacks, thefinals aimbot, rust ESP).
 
 ## Stack
 

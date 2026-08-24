@@ -97,21 +97,21 @@ const replacements = [
 	['after a Escape', 'after an Escape'],
 
 	// Keyword stuffing / nonsense duplicates
-	['the finals cheats & the finals cheats', 'the finals cheats'],
+	['thefinals cheats & thefinals cheats', 'thefinals cheats'],
 	[
-		'covering both the finals cheats and the finals cheats search intent',
-		'covering both “the finals cheats” and “the finals cheats” search intent',
+		'covering both thefinals cheats and thefinals cheats search intent',
+		'covering both “thefinals cheats” and “thefinals cheats” search intent',
 	],
 	[
-		'also searched as the finals cheats and the finals cheat.',
+		'also searched as thefinals cheats and thefinals cheat.',
 		'built for The Finals on Windows PC.',
 	],
 	[
-		'the finals cheats vs the finals cheats — same stack, clear pages',
+		'thefinals cheats vs thefinals cheats — same stack, clear pages',
 		'How this The Finals Hacks pillar fits nearby pages',
 	],
 	[
-		'Searchers use the finals cheats and the finals cheats interchangeably. This pillar focuses on hacks language; the',
+		'Searchers use thefinals cheats and thefinals cheats interchangeably. This pillar focuses on hacks language; the',
 		'Use this pillar for the core product overview. For year-specific buying notes, see the',
 	],
 
@@ -119,9 +119,9 @@ const replacements = [
 	['/finals-esp-hack/', '/finals-esp/'],
 	['/finals-aimbot-hack/', '/finals-aimbot/'],
 	['/best-finals-cheats/', '/'],
-	['best the finals cheats guide', 'The Finals Hacks pillar'],
-	['best the finals cheats checklist', 'the finals cheats checklist'],
-	['best the finals cheats', 'the finals cheats'],
+	['best thefinals cheats guide', 'The Finals Hacks pillar'],
+	['best thefinals cheats checklist', 'thefinals cheats checklist'],
+	['best thefinals cheats', 'thefinals cheats'],
 	[
 		'Prefer softer tracking? Read the <a href="/finals-soft-aim/">soft aim guide</a>. Want the search term most players use? See <a href="/finals-aimbot/">aimbot hack</a>.',
 		'Prefer softer tracking? Read the <a href="/finals-soft-aim/">soft aim guide</a>.',

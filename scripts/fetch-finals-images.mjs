@@ -14,9 +14,9 @@ const BR = 'https://sm.ign.com/t/ign_br/screenshot/default';
 const PK = 'https://sm.ign.com/t/ign_pk/screenshot/default';
 
 /**
- * the finals cheats image pipeline:
+ * thefinals cheats image pipeline:
  * 1. Download real The Finals gameplay from IGN
- * 2. Composite ESP / aimbot / radar / mod-menu overlays for the finals cheats marketing
+ * 2. Composite ESP / aimbot / radar / mod-menu overlays for thefinals cheats marketing
  */
 const KEYWORD_ASSETS = [
 	{
@@ -176,4 +176,4 @@ if (heroBuffer) {
 	console.log('Generated logo + favicons from hero.');
 }
 
-console.log(`\nDone — ${saved}/${KEYWORD_ASSETS.length} the finals cheats images (IGN base + ESP/aimbot overlays).`);
+console.log(`\nDone — ${saved}/${KEYWORD_ASSETS.length} thefinals cheats images (IGN base + ESP/aimbot overlays).`);

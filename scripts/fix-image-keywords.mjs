@@ -2,7 +2,7 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 
 const SIMPLE =
-	"images: { hero: 'the finals cheats', espWallhack: 'the finals cheats wallhack', aimbotCombat: 'the finals cheats aimbot', squadFight: 'the finals cheats', playerEsp: 'the finals cheats esp', headerArt: 'the finals cheats aimbot', hacksPackage: 'the finals cheats radar', matchFight: 'the finals cheats aimbot', battleRoyale: 'the finals cheats', matchMap: 'the finals cheats esp' }";
+	"images: { hero: 'thefinals cheats', espWallhack: 'thefinals cheats wallhack', aimbotCombat: 'thefinals cheats aimbot', squadFight: 'thefinals cheats', playerEsp: 'thefinals cheats esp', headerArt: 'thefinals cheats aimbot', hacksPackage: 'thefinals cheats radar', matchFight: 'thefinals cheats aimbot', battleRoyale: 'thefinals cheats', matchMap: 'thefinals cheats esp' }";
 
 const re =
 	/images: \{ hero: '[^']+', espWallhack: '[^']+', aimbotCombat: '[^']+', squadFight: '[^']+', playerEsp: '[^']+', headerArt: '[^']+', hacksPackage: '[^']+', matchFight: '[^']+', battleRoyale: '[^']+', matchMap: '[^']+' \}/g;
@@ -15,30 +15,30 @@ for (const f of ['scripts/i18n-data/ui-strings-part1.mjs', 'scripts/i18n-data/ui
 }
 
 const altMap = [
-	["imageAlt: 'The Finals ESP player tags hack'", "imageAlt: 'the finals cheats esp'"],
-	["imageAlt: 'The Finals ESP radar hack'", "imageAlt: 'the finals cheats radar'"],
-	["imageAlt: 'The Finals Aimbot sniper kill'", "imageAlt: 'the finals cheats aimbot'"],
-	["imageAlt: 'The Finals Aimbot skeleton targeting'", "imageAlt: 'the finals cheats aimbot'"],
-	["imageAlt: 'the finals cheats ADS combat'", "imageAlt: 'the finals cheats'"],
-	["imageAlt: 'the finals cheats setup PC activation'", "imageAlt: 'the finals cheats'"],
-	["imageAlt: 'the finals cheats updates Easy Anti-Cheat maintenance'", "imageAlt: 'the finals cheats'"],
-	["imageAlt: 'the finals cheats FAQ ESP aimbot'", "imageAlt: 'the finals cheats'"],
-	["imageAlt: 'the finals cheats support license help'", "imageAlt: 'the finals cheats'"],
-	["imageAlt: 'Undetected the finals cheats ESP wallhack'", "imageAlt: 'undetected the finals cheats'"],
-	["imageAlt: 'the finals wallhack skeleton ESP'", "imageAlt: 'the finals cheats wallhack'"],
-	["imageAlt: 'Easy Anti-Cheat bypass rust ESP aimbot'", "imageAlt: 'the finals cheats eac'"],
-	["imageAlt: 'the finals cheats 2026 ESP aimbot'", "imageAlt: 'the finals cheats'"],
-	["imageAlt: 'the finals cheats combat aimbot'", "imageAlt: 'the finals cheats'"],
-	["imageAlt: 'the finals cheat download ESP aimbot'", "imageAlt: 'the finals cheats download'"],
-	["imageAlt: 'The Finals mod menu ESP aimbot'", "imageAlt: 'the finals cheats mod menu'"],
-	["imageAlt: 'The Finals soft aim aimbot settings'", "imageAlt: 'the finals cheats soft aim'"],
-	["imageAlt: 'Best the finals cheats 2026 ESP'", "imageAlt: 'best the finals cheats'"],
-	["imageAlt: 'The Finals Aimbot hack combat'", "imageAlt: 'the finals cheats aimbot'"],
-	["imageAlt: 'The Finals ESP hack wallhack'", "imageAlt: 'the finals cheats esp'"],
-	["imageAlt: 'The Finals unlock all items ESP aimbot guide'", "imageAlt: 'the finals cheats'"],
-	["imageAlt: 'the finals cheats privacy policy'", "imageAlt: 'the finals cheats'"],
-	["imageAlt: 'the finals cheats refund policy'", "imageAlt: 'the finals cheats'"],
-	["imageAlt: 'the finals cheats terms of use'", "imageAlt: 'the finals cheats'"],
+	["imageAlt: 'The Finals ESP player tags hack'", "imageAlt: 'thefinals cheats esp'"],
+	["imageAlt: 'The Finals ESP radar hack'", "imageAlt: 'thefinals cheats radar'"],
+	["imageAlt: 'The Finals Aimbot sniper kill'", "imageAlt: 'thefinals cheats aimbot'"],
+	["imageAlt: 'The Finals Aimbot skeleton targeting'", "imageAlt: 'thefinals cheats aimbot'"],
+	["imageAlt: 'thefinals cheats ADS combat'", "imageAlt: 'thefinals cheats'"],
+	["imageAlt: 'thefinals cheats setup PC activation'", "imageAlt: 'thefinals cheats'"],
+	["imageAlt: 'thefinals cheats updates Easy Anti-Cheat maintenance'", "imageAlt: 'thefinals cheats'"],
+	["imageAlt: 'thefinals cheats FAQ ESP aimbot'", "imageAlt: 'thefinals cheats'"],
+	["imageAlt: 'thefinals cheats support license help'", "imageAlt: 'thefinals cheats'"],
+	["imageAlt: 'Undetected thefinals cheats ESP wallhack'", "imageAlt: 'undetected thefinals cheats'"],
+	["imageAlt: 'thefinals wallhack skeleton ESP'", "imageAlt: 'thefinals cheats wallhack'"],
+	["imageAlt: 'Easy Anti-Cheat bypass rust ESP aimbot'", "imageAlt: 'thefinals cheats eac'"],
+	["imageAlt: 'thefinals cheats 2026 ESP aimbot'", "imageAlt: 'thefinals cheats'"],
+	["imageAlt: 'thefinals cheats combat aimbot'", "imageAlt: 'thefinals cheats'"],
+	["imageAlt: 'thefinals cheat download ESP aimbot'", "imageAlt: 'thefinals cheats download'"],
+	["imageAlt: 'The Finals mod menu ESP aimbot'", "imageAlt: 'thefinals cheats mod menu'"],
+	["imageAlt: 'The Finals soft aim aimbot settings'", "imageAlt: 'thefinals cheats soft aim'"],
+	["imageAlt: 'Best thefinals cheats 2026 ESP'", "imageAlt: 'best thefinals cheats'"],
+	["imageAlt: 'The Finals Aimbot hack combat'", "imageAlt: 'thefinals cheats aimbot'"],
+	["imageAlt: 'The Finals ESP hack wallhack'", "imageAlt: 'thefinals cheats esp'"],
+	["imageAlt: 'The Finals unlock all items ESP aimbot guide'", "imageAlt: 'thefinals cheats'"],
+	["imageAlt: 'thefinals cheats privacy policy'", "imageAlt: 'thefinals cheats'"],
+	["imageAlt: 'thefinals cheats refund policy'", "imageAlt: 'thefinals cheats'"],
+	["imageAlt: 'thefinals cheats terms of use'", "imageAlt: 'thefinals cheats'"],
 ];
 
 let pages = readFileSync('scripts/i18n-data/pages-en.mjs', 'utf8');
@@ -50,12 +50,12 @@ console.log('pages-en imageAlts simplified');
 let i18n = readFileSync('scripts/i18n-data/pages-i18n.mjs', 'utf8');
 i18n = i18n
 	.split("imageAlt: `The Finals ${meta.altKeyword}`")
-	.join("imageAlt: 'the finals cheats'")
+	.join("imageAlt: 'thefinals cheats'")
 	.split("galleryTitle: `The Finals Hacks ${topicName}`")
-	.join("galleryTitle: 'the finals cheats'")
-	.split("imageAlt: `the finals cheats ${kind} policy`")
-	.join("imageAlt: 'the finals cheats'")
+	.join("galleryTitle: 'thefinals cheats'")
+	.split("imageAlt: `thefinals cheats ${kind} policy`")
+	.join("imageAlt: 'thefinals cheats'")
 	.split("galleryTitle: `The Finals Hacks ${kind} resources`")
-	.join("galleryTitle: 'the finals cheats'");
+	.join("galleryTitle: 'thefinals cheats'");
 writeFileSync('scripts/i18n-data/pages-i18n.mjs', i18n);
 console.log('pages-i18n image alts simplified');

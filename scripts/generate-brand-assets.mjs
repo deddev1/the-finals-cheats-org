@@ -59,7 +59,7 @@ async function generateWebManifest() {
 	const manifest = {
 		name: 'The Finals Hacks',
 		short_name: 'The Finals Hacks',
-		description: 'Undetected the finals cheats — ESP, aimbot, radar and for PC',
+		description: 'Undetected thefinals cheats — ESP, aimbot, radar and for PC',
 		start_url: '/',
 		display: 'standalone',
 		background_color: '#0a0612',

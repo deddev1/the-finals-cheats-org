@@ -46,15 +46,15 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				hero: {
 					accent: "2026 — Undetected ESP, Aimbot & Wallhack",
-					accentShort: "Undetected the finals cheats 2026",
-					subtitle: "the finals cheats with The Finals ESP, radar hack and The Finals Aimbot for Windows PC — Easy Anti-Cheat maintenance included.",
+					accentShort: "Undetected thefinals cheats 2026",
+					subtitle: "thefinals cheats with The Finals ESP, radar hack and The Finals Aimbot for Windows PC — Easy Anti-Cheat maintenance included.",
 					subtitleShort: "The Finals ESP, radar & aimbot for PC",
 					buyNow: "Buy The Final Cheats",
 					seeFeatures: "See Features",
 				},
 				trust: {
 					status: "Online",
-					statusNote: "The Final Cheats — undetected the finals cheats live for The Finals on Windows PC.",
+					statusNote: "The Final Cheats — undetected thefinals cheats live for The Finals on Windows PC.",
 					statusShort: "Live",
 					delivery: "Instant digital delivery",
 					platform: "Windows 10 & 11",
@@ -69,7 +69,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					available: "Available now",
 					gameBadge: "The Finals",
 					platformBadge: "Windows PC",
-					statusBadge: "Undetected the finals cheats",
+					statusBadge: "Undetected thefinals cheats",
 				},
 				reviews: {
 					title: "What players say",
@@ -87,7 +87,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				footer: {
 					explore: "Explore",
 					help: "Help & legal",
-					tagline: "Undetected the finals cheats for PC.\nESP, wallhack, radar & aimbot.",
+					tagline: "Undetected thefinals cheats for PC.\nESP, wallhack, radar & aimbot.",
 				},
 				images: {
 					hero: "The Final Cheats hero — ESP and aimbot overlay in The Finals",
@@ -104,8 +104,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 			},
 			pages: {
 				home: {
-					title: "The Finals Cheats 2026 | ESP, Aimbot & Wallhack",
-					description: "Buy undetected The Finals cheats at thefinalscheats.org — ESP, aimbot, wallhack & 2D radar for Windows PC. Easy Anti-Cheat updates after patches. Plans from",
+					title: "thefinals Cheats 2026 | ESP, Aimbot & Wallhack",
+					description: "Buy undetected thefinals cheats at thefinalscheats.org — ESP, aimbot, wallhack & 2D radar for Windows PC. Easy Anti-Cheat updates after patches. Plans from",
 					h1: "The Final Cheats — Undetected ESP, Wallhack & Aimbot",
 					intro: "The Final Cheats is the undetected The Finals cheat package for Windows PC — ESP wallhack, 2D radar, and soft aim with Easy Anti-Cheat maintenance after every major patch.",
 					imageAlt: "The Final Cheats homepage hero — ESP and aimbot for The Finals",
@@ -115,7 +115,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/features/",
 					sections: [
 						{
-							h2: "Why players choose the finals cheats in 2026",
+							h2: "Why players choose thefinals cheats in 2026",
 							paragraphs: [
 								"The Finals rewards map awareness. The Final Cheats combines ESP wallhack for enemy players and loot, radar-style threat cues, and configurable Aimbot so you can read fights before committing — on match, farming run, and official servers.",
 								"Official seasons, patches, and anti-cheat updates come from undefined and <a href=\"https://www.easy.ac/\" target=\"_blank\" rel=\"noopener noreferrer\">Easy Anti-Cheat</a>. We rebuild ESP, radar, and Aimbot modules when those patches require maintenance — then post status on the <a href=\"/updates/\">Updates page</a>.",
@@ -126,7 +126,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "ESP wallhack, radar hack, and Aimbot in one license",
 							paragraphs: [
-								"Instead of stacking separate tools, The Final Cheats bundles player ESP wallhack, vault markers, 2D radar overlays, and Aimbot profiles in one undetected package built for cashout rounds and arena PvP fights — covering both “the finals cheats” and “the finals cheats” search intent.",
+								"Instead of stacking separate tools, The Final Cheats bundles player ESP wallhack, vault markers, 2D radar overlays, and Aimbot profiles in one undetected package built for cashout rounds and arena PvP fights — covering both “thefinals cheats” and “thefinals cheats” search intent.",
 								"Browse the <a href=\"/finals-esp/\">ESP</a>, <a href=\"/finals-aimbot/\">Aimbot</a>, <a href=\"/finals-esp/\">wallhack</a>, and <a href=\"/finals-radar-hack/\">radar</a> pages for control details — or jump to <a href=\"/pricing/\">Pricing</a> for monthly and lifetime options.",
 								"Before patch days, check <a href=\"https://store.steampowered.com/app/2073850/THE_FINALS/\" target=\"_blank\" rel=\"noopener noreferrer\">The Finals on Steam</a> for The Finals server status, then confirm our maintenance notes so you are not loading in on an outdated build.",
 								"Ready to buy? Open <a href=\"/pricing/\">Pricing</a>, follow <a href=\"/setup/\">Setup</a> after delivery, and keep <a href=\"/faq/\">FAQ</a> / <a href=\"/support/\">Support</a> bookmarked for license questions.",
@@ -137,7 +137,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"finals-esp": {
 					title: "The Finals ESP 2026 | Wallhack & Player Boxes | The Final Cheats",
-					description: "The Finals ESP wallhack with player boxes, vault markers and distance tags on Windows PC. Undetected the finals cheats from The Final Cheats — aimbot and radar included. Buy at thefinalscheats.org.",
+					description: "The Finals ESP wallhack with player boxes, vault markers and distance tags on Windows PC. Undetected thefinals cheats from The Final Cheats — aimbot and radar included. Buy at thefinalscheats.org.",
 					h1: "ESP",
 					intro: "See players and loot through walls during The Finals matches. Part of the same The Final Cheats license.",
 					imageAlt: "The Finals ESP player boxes and distance readouts in a match",
@@ -237,7 +237,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				features: {
 					title: "The Finals Features 2026 | ESP, Aimbot & Radar | The Final Cheats",
-					description: "Full the finals cheats feature list at The Final Cheats — ESP wallhack, soft aim, 2D radar and mod menu toggles for Windows PC. Easy Anti-Cheat maintenance included. Compare at thefinalscheats.org.",
+					description: "Full thefinals cheats feature list at The Final Cheats — ESP wallhack, soft aim, 2D radar and mod menu toggles for Windows PC. Easy Anti-Cheat maintenance included. Compare at thefinalscheats.org.",
 					h1: "Features",
 					intro: "Everything included in one license for The Finals on Windows PC.",
 					imageAlt: "The Final Cheats features — ESP, soft aim, and radar screenshots",
@@ -317,7 +317,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				pricing: {
 					title: "The Final Cheats Pricing 2026 | $35/mo or $150 Lifetime",
-					description: "Buy the finals cheats at thefinalscheats.org — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.",
+					description: "Buy thefinals cheats at thefinalscheats.org — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.",
 					h1: "Store",
 					intro: "Monthly and lifetime plans with the same ESP, soft aim, and radar stack.",
 					imageAlt: "The Final Cheats store plans for monthly and lifetime licenses",
@@ -466,7 +466,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				faq: {
 					title: "The Final Cheats FAQ 2026 | ESP, Aimbot & Easy Anti-Cheat Answers",
-					description: "The Final Cheats FAQ — delivery, setup, undetected status, Easy Anti-Cheat updates, pricing and refunds for the finals cheats on Windows PC. Clear answers at thefinalscheats.org before you buy.",
+					description: "The Final Cheats FAQ — delivery, setup, undetected status, Easy Anti-Cheat updates, pricing and refunds for thefinals cheats on Windows PC. Clear answers at thefinalscheats.org before you buy.",
 					h1: "FAQ",
 					intro: "Common questions about The Final Cheats — delivery, setup, updates, and refunds.",
 					imageAlt: "The Final Cheats FAQ — delivery, setup, and update answers",
@@ -552,7 +552,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				undetected: {
 					title: "Undetected The Final Cheats 2026 | EAC Safe | The Final",
-					description: "Undetected the finals cheats with Easy Anti-Cheat maintenance for ESP, soft aim and radar on Windows PC. Check live status at The Final Cheats before every",
+					description: "Undetected thefinals cheats with Easy Anti-Cheat maintenance for ESP, soft aim and radar on Windows PC. Check live status at The Final Cheats before every",
 					h1: "Undetected The Final Cheats — Easy Anti-Cheat Maintenance",
 					intro: "How The Final Cheats stays maintained for The Finals after Easy Anti-Cheat patches — ESP wallhack, radar hack, and Aimbot rebuilds for Windows PC.",
 					imageAlt: "The Final Cheats undetected status overview for Windows PC",
@@ -582,7 +582,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"Combine maintenance with conservative in-game settings. Read the <a href=\"/faq/\">FAQ</a> and Updates log regularly — undetected status is not a one-time promise.",
 								"Lifetime and monthly plans include rebuild access during active terms — see <a href=\"/pricing/\">Pricing</a>.",
-								"New buyers should also read <a href=\"/finals-cheats/\">the finals cheats 2026</a> and complete <a href=\"/setup/\">Setup</a> after delivery.",
+								"New buyers should also read <a href=\"/finals-cheats/\">thefinals cheats 2026</a> and complete <a href=\"/setup/\">Setup</a> after delivery.",
 							],
 						},
 					],
@@ -590,7 +590,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				wallhack: {
 					title: "The Finals Wallhack 2026 | ESP Boxes & Loot | The Final",
-					description: "The Finals wallhack ESP — player boxes, vault markers and skeleton overlays on Windows PC. Undetected the finals cheats from The Final Cheats with EAC patch",
+					description: "The Finals wallhack ESP — player boxes, vault markers and skeleton overlays on Windows PC. Undetected thefinals cheats from The Final Cheats with EAC patch",
 					h1: "The Finals Wallhack — ESP Boxes & Visibility",
 					intro: "The Finals wallhack ESP for The Finals — see players, loot, enemy players, and resource nodes through toggleable wallhack overlays built for cashout rounds and arena PvP fights.",
 					imageAlt: "the finals wallhack visibility through walls in a match",
@@ -619,7 +619,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Undetected wallhack maintenance",
 							paragraphs: [
 								"ESP wallhack modules rebuild after Easy Anti-Cheat patches. Follow the <a href=\"/updates/\">Updates page</a> and complete checkout for instant license delivery on Windows PC.",
-								"Learn the full maintenance story on <a href=\"/finals-cheats/\">undetected the finals cheats</a> and <a href=\"/updates/\">Easy Anti-Cheat bypass</a>.",
+								"Learn the full maintenance story on <a href=\"/finals-cheats/\">undetected thefinals cheats</a> and <a href=\"/updates/\">Easy Anti-Cheat bypass</a>.",
 								"Ready to buy? Compare <a href=\"/pricing/\">Pricing</a> or continue to the <a href=\"/finals-esp/\">ESP hack</a> landing for alternate search wording.",
 							],
 						},
@@ -688,7 +688,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"The team tests ESP overlays, radar signatures, and Aimbot profiles against the new build, publishes status on <a href=\"/updates/\">Updates</a>, and ships rebuilt packages to active licenses.",
 								"Confirm The Finals server status on <a href=\"https://store.steampowered.com/app/2073850/THE_FINALS/\" target=\"_blank\" rel=\"noopener noreferrer\">The Finals on Steam</a> if the launcher or matchmaking fails during the same window.",
-								"Avoid loading in on old builds after major patch days until maintenance notes confirm a new release. Related reading: <a href=\"/finals-cheats/\">undetected the finals cheats</a>.",
+								"Avoid loading in on old builds after major patch days until maintenance notes confirm a new release. Related reading: <a href=\"/finals-cheats/\">undetected thefinals cheats</a>.",
 							],
 						},
 						{
@@ -704,7 +704,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheats-2026": {
 					title: "The Final Cheats 2026 | Undetected Hacks for Windows PC",
-					description: "Best the finals cheats 2026 — undetected ESP wallhack, soft aim and 2D radar for Windows PC. Easy Anti-Cheat maintenance and instant delivery from The Final",
+					description: "Best thefinals cheats 2026 — undetected ESP wallhack, soft aim and 2D radar for Windows PC. Easy Anti-Cheat maintenance and instant delivery from The Final",
 					h1: "The Final Cheats 2026 — ESP, Soft Aim & Radar",
 					intro: "The 2026 The Final Cheats package for The Finals — undetected ESP wallhack, radar hack, and Aimbot with Easy Anti-Cheat maintenance, instant delivery, and Windows PC support.",
 					imageAlt: "The Final Cheats product overview for The Finals",
@@ -714,7 +714,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/features/",
 					sections: [
 						{
-							h2: "Why the finals cheats buyers choose The Final Cheats in 2026",
+							h2: "Why thefinals cheats buyers choose The Final Cheats in 2026",
 							paragraphs: [
 								"2026 updates bring new maps, player balance changes, and Easy Anti-Cheat patches. The Final Cheats bundles ESP wallhack, radar hack, and Aimbot with active maintenance — not a stale prior-year build.",
 								"Track official season messaging on undefined, then use our <a href=\"/updates/\">Updates log</a> for product rebuild timing.",
@@ -732,8 +732,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Before you buy in 2026",
 							paragraphs: [
-								"Read the <a href=\"/finals-cheats/\">the finals cheats</a> pillar, Features, Pricing, Setup, and Updates pages. Check undetected status notes after every major patch — responsible use and maintenance awareness matter.",
-								"Also compare the <a href=\"/finals-cheats/\">the finals cheats</a> checklist, <a href=\"/blog/finals-cheats-2026-whats-new/\">2026 blog guide</a>, and <a href=\"/faq/\">FAQ</a>.",
+								"Read the <a href=\"/finals-cheats/\">thefinals cheats</a> pillar, Features, Pricing, Setup, and Updates pages. Check undetected status notes after every major patch — responsible use and maintenance awareness matter.",
+								"Also compare the <a href=\"/finals-cheats/\">thefinals cheats</a> checklist, <a href=\"/blog/finals-cheats-2026-whats-new/\">2026 blog guide</a>, and <a href=\"/faq/\">FAQ</a>.",
 								"Support is available at support@thefinalscheats.org via the <a href=\"/support/\">Support page</a>.",
 							],
 						},
@@ -742,9 +742,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				hacks: {
 					title: "The Finals Hacks Guide 2026 | ESP, Aimbot & Wallhack | The Final Cheats",
-					description: "Full the finals cheats guide from The Final Cheats — undetected ESP wallhack, soft aim, 2D radar and Easy Anti-Cheat rebuilds on Windows PC. Compare features and buy at thefinalscheats.org from $35.",
+					description: "Full thefinals cheats guide from The Final Cheats — undetected ESP wallhack, soft aim, 2D radar and Easy Anti-Cheat rebuilds on Windows PC. Compare features and buy at thefinalscheats.org from $35.",
 					h1: "The Final Cheats — Full Guide",
-					intro: "The Finals cheats add ESP, radar, and soft aim on top of the base game. This page explains what the finals cheats are, what The Final Cheats includes, how Easy Anti-Cheat maintenance works, and where to go next before you buy.",
+					intro: "The Finals cheats add ESP, radar, and soft aim on top of the base game. This page explains what thefinals cheats are, what The Final Cheats includes, how Easy Anti-Cheat maintenance works, and where to go next before you buy.",
 					imageAlt: "The Final Cheats overview — ESP, aimbot, and radar for The Finals",
 					galleryTitle: "The Finals cheats in action",
 					ctaPrimary: "Get Access",
@@ -752,9 +752,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/features/",
 					sections: [
 						{
-							h2: "What are the finals cheats?",
+							h2: "What are thefinals cheats?",
 							paragraphs: [
-								"The Finals cheats are third-party tools that give you extra information and combat assist during matches. Most players search for the finals cheats when they want player ESP, loot visibility, off-screen radar, or smoother aim under pressure.",
+								"The Finals cheats are third-party tools that give you extra information and combat assist during matches. Most players search for thefinals cheats when they want player ESP, loot visibility, off-screen radar, or smoother aim under pressure.",
 								"The Final Cheats bundles those tools in one license for Windows PC — no stacking separate downloads for wallhack, radar, and aimbot.",
 							],
 						},
@@ -817,15 +817,15 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "The Finals Cheat Download 2026 | Instant Access | The Final",
 					description: "The Finals cheat download with instant license delivery — ESP, soft aim and radar for Windows PC. Buy The Final Cheats, activate and match. Secure checkout at",
 					h1: "The Finals Hack Download — Instant License Delivery",
-					intro: "How the finals cheat download works for The Finals — digital license delivery after payment confirmation, with ESP wallhack, radar hack, and Aimbot access on Windows PC.",
+					intro: "How thefinals cheat download works for The Finals — digital license delivery after payment confirmation, with ESP wallhack, radar hack, and Aimbot access on Windows PC.",
 					imageAlt: "The Final Cheats download and install delivery flow",
-					galleryTitle: "the finals cheat download visuals",
+					galleryTitle: "thefinals cheat download visuals",
 					ctaPrimary: "Buy The Final Cheats",
 					ctaSecondary: "Setup guide",
 					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
-							h2: "How the finals cheat download delivery works",
+							h2: "How thefinals cheat download delivery works",
 							paragraphs: [
 								"After checkout confirms payment, The Final Cheats license details arrive digitally by email. No physical shipment — access begins once activation instructions are delivered.",
 								"Keep your order confirmation and license email ready for the <a href=\"/setup/\">Setup guide</a> and Support requests.",
@@ -835,7 +835,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "What your download unlocks",
 							paragraphs: [
-								"Every the finals cheat download includes player ESP wallhack, loot and vault markers, 2D radar overlays, Aimbot profiles, and in-client toggles for cashout rounds and arena PvP fights.",
+								"Every thefinals cheat download includes player ESP wallhack, loot and vault markers, 2D radar overlays, Aimbot profiles, and in-client toggles for cashout rounds and arena PvP fights.",
 								"Monthly ($35) and lifetime ($150) plans share the same feature stack — compare options on the <a href=\"/pricing/\">Pricing page</a>.",
 								"Feature detail: <a href=\"/features/\">Features</a>. Module pages: <a href=\"/finals-esp/\">ESP</a>, <a href=\"/finals-aimbot/\">Aimbot</a>.",
 							],
@@ -929,33 +929,33 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"best-cheats": {
 					title: "Best The Final Cheats 2026 | Compare & Buy | The Final",
-					description: "Best the finals cheats for 2026 — undetected ESP, soft aim and Easy Anti-Cheat maintenance on Windows PC. Use this The Final Cheats buyer checklist before",
+					description: "Best thefinals cheats for 2026 — undetected ESP, soft aim and Easy Anti-Cheat maintenance on Windows PC. Use this The Final Cheats buyer checklist before",
 					h1: "Best The Final Cheats — 2026 Buyer Guide",
-					intro: "Compare the finals cheats for The Finals in 2026 — undetected ESP wallhack, radar hack, and Aimbot in one maintained package with Easy Anti-Cheat rebuilds and instant delivery.",
+					intro: "Compare thefinals cheats for The Finals in 2026 — undetected ESP wallhack, radar hack, and Aimbot in one maintained package with Easy Anti-Cheat rebuilds and instant delivery.",
 					imageAlt: "The Final Cheats overview for The Finals on PC",
-					galleryTitle: "Best the finals cheats gallery",
+					galleryTitle: "Best thefinals cheats gallery",
 					ctaPrimary: "Buy The Final Cheats",
 					ctaSecondary: "Compare pricing",
 					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
-							h2: "What makes the finals cheats in 2026",
+							h2: "What makes thefinals cheats in 2026",
 							paragraphs: [
-								"The the finals cheats combine active Easy Anti-Cheat maintenance, a full ESP wallhack and radar stack, configurable Aimbot, and clear update communication — not a stale build from a prior season.",
+								"The thefinals cheats combine active Easy Anti-Cheat maintenance, a full ESP wallhack and radar stack, configurable Aimbot, and clear update communication — not a stale build from a prior season.",
 								"The Final Cheats covers match and farming run with in-client toggles and post-patch rebuilds.",
 								"Verify the live game is healthy via <a href=\"https://store.steampowered.com/app/2073850/THE_FINALS/\" target=\"_blank\" rel=\"noopener noreferrer\">The Finals on Steam</a>, then confirm our <a href=\"/updates/\">Updates</a> note before you judge any package “best.”",
 							],
 						},
 						{
-							h2: "Best the finals cheats feature checklist",
+							h2: "Best thefinals cheats feature checklist",
 							paragraphs: [
 								"Look for player ESP wallhack, vault markers, 2D radar overlays, Aimbot profiles, hotkey toggles, and documented maintenance after The Finals patches.",
-								"Review <a href=\"/features/\">Features</a>, <a href=\"/finals-cheats/\">undetected status</a>, and <a href=\"/finals-cheats/\">the finals cheats 2026</a> before checkout — monthly ($35) and lifetime ($150) plans available.",
+								"Review <a href=\"/features/\">Features</a>, <a href=\"/finals-cheats/\">undetected status</a>, and <a href=\"/finals-cheats/\">thefinals cheats 2026</a> before checkout — monthly ($35) and lifetime ($150) plans available.",
 								"Module pages worth opening: <a href=\"/finals-esp/\">ESP</a>, <a href=\"/finals-aimbot/\">Aimbot</a>, <a href=\"/finals-cheats/\">hacks</a>.",
 							],
 						},
 						{
-							h2: "Buying the finals cheats safely",
+							h2: "Buying thefinals cheats safely",
 							paragraphs: [
 								"Purchase through secure checkout for instant digital delivery. Read Setup, FAQ, and Updates pages before your first load in — and contact Support with order details if activation needs help.",
 								"No cheat guarantees permanent undetected status — combine maintenance with responsible in-game settings.",
@@ -1005,7 +1005,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"esp-hack": {
 					title: "The Finals ESP Hack 2026 | Player & Loot Boxes | The Final",
-					description: "The Finals ESP hack with player boxes and vault markers on Windows PC. Undetected the finals cheats from The Final Cheats — wallhack, radar and aimbot",
+					description: "The Finals ESP hack with player boxes and vault markers on Windows PC. Undetected thefinals cheats from The Final Cheats — wallhack, radar and aimbot included.",
 					h1: "The Finals ESP Hack — Player Boxes Guide",
 					intro: "The Finals ESP hack overlays for The Finals — player outlines, threat cues, loot and resources markers with distance readouts across match and farming run.",
 					imageAlt: "The Finals ESP hack boxes and vault markers",
@@ -1043,7 +1043,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"unlock-all": {
 					title: "The Finals Unlock All 2026 | What It Means | The Final",
-					description: "The Finals unlock-all explained vs real the finals cheats — ESP wallhack, soft aim and radar for Windows PC. Know what The Final Cheats actually provides",
+					description: "The Finals unlock-all explained vs real thefinals cheats — ESP wallhack, soft aim and radar for Windows PC. Know what The Final Cheats actually provides before",
 					h1: "The Finals Unlock All — What Players Search For",
 					intro: "The Finals unlock-all is a common search term for The Finals — this page clarifies what unlock-all tools claim versus the ESP wallhack, radar hack, and Aimbot tools The Final Cheats actually provides on Windows PC.",
 					imageAlt: "The Final Cheats license features overview",
@@ -1065,7 +1065,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"ESP wallhack helps you spot enemy squads, enemy players, and high-value loot during live matches. Radar hack adds flank awareness; Aimbot covers combat assist with smoothness and hotkey controls.",
 								"For loadout planning during a match, loot and vault markers speed map rotations — see the <a href=\"/finals-esp/\">ESP</a> and <a href=\"/features/\">Features</a> pages for the full tool list.",
-								"Related: <a href=\"/finals-cheats/\">the finals cheats</a> and <a href=\"/finals-cheats/\">the finals cheats</a>.",
+								"Related: <a href=\"/finals-cheats/\">thefinals cheats</a> and <a href=\"/finals-cheats/\">thefinals cheats</a>.",
 							],
 						},
 						{
@@ -1081,7 +1081,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				privacy: {
 					title: "Privacy Policy | The Final Cheats — thefinalscheats.org",
-					description: "Privacy policy for The Final Cheats at thefinalscheats.org. How we handle support emails, order data and secure checkout for the finals cheats licenses on",
+					description: "Privacy policy for The Final Cheats at thefinalscheats.org. How we handle support emails, order data and secure checkout for thefinals cheats licenses on",
 					h1: "Privacy Policy",
 					intro: "How The Final Cheats handles information when you browse thefinalscheats.org or contact support about a The Finals license.",
 					imageAlt: "The Final Cheats privacy policy page",
@@ -1156,7 +1156,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				terms: {
 					title: "Terms of Use | The Final Cheats — thefinalscheats.org",
-					description: "Terms of use for thefinalscheats.org and The Final Cheats licenses. Usage rules, Easy Anti-Cheat risk disclaimer and liability for Windows PC the finals cheats.",
+					description: "Terms of use for thefinalscheats.org and The Final Cheats licenses. Usage rules, Easy Anti-Cheat risk disclaimer and liability for Windows PC thefinals cheats.",
 					h1: "Terms of Use",
 					intro: "Terms governing use of thefinalscheats.org and The Final Cheats licenses for The Finals on Windows PC.",
 					imageAlt: "The Final Cheats terms of use page",
@@ -1294,7 +1294,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"finals-esp": {
 					title: "ESP| Wallhack & Player Boxes | The Final Cheats",
-					description: "The Finals ESP wallhack with player boxes, vault markers and distance tags on Windows PC. Undetected the finals cheats from The Final Cheats — aimbot and radar included. Buy at thefinalscheats.org.",
+					description: "The Finals ESP wallhack with player boxes, vault markers and distance tags on Windows PC. Undetected thefinals cheats from The Final Cheats — aimbot and radar included. Buy at thefinalscheats.org.",
 					h1: "ESP",
 					intro: "Ve jugadores y loot a través de las paredes durante matches de The Finals. Parte de la misma licencia The Final Cheats.",
 					imageAlt: "The Finals ESP player boxes and distance readouts in a match",
@@ -1474,7 +1474,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				pricing: {
 					title: "Tienda| $35/mo or $150 Lifetime",
-					description: "Buy the finals cheats at thefinalscheats.org — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.",
+					description: "Buy thefinals cheats at thefinalscheats.org — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.",
 					h1: "Tienda",
 					intro: "The Final Cheats ofrece ESP wallhack, radar hack y The Finals Aimbot indetectables para The Finals en Windows PC. Tienda — $35/mes y $150 de por vida.",
 					imageAlt: "The Final Cheats store plans for monthly and lifetime licenses",
@@ -1623,7 +1623,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				faq: {
 					title: "FAQ| ESP, Aimbot & Easy Anti-Cheat Answers",
-					description: "The Final Cheats FAQ — delivery, setup, undetected status, Easy Anti-Cheat updates, pricing and refunds for the finals cheats on Windows PC. Clear answers at thefinalscheats.org before you buy.",
+					description: "The Final Cheats FAQ — delivery, setup, undetected status, Easy Anti-Cheat updates, pricing and refunds for thefinals cheats on Windows PC. Clear answers at thefinalscheats.org before you buy.",
 					h1: "FAQ",
 					intro: "Preguntas frecuentes sobre The Final Cheats — entrega, instalación, actualizaciones y reembolsos.",
 					imageAlt: "The Final Cheats FAQ — delivery, setup, and update answers",
@@ -1750,7 +1750,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					description: "The Finals Wallhack: wallhack ESP para jugadores, loot y distancia. entrega digital instantánea. indetectables — Windows PC.",
 					h1: "The Finals Wallhack",
 					intro: "The Final Cheats ofrece ESP wallhack, radar hack y The Finals Aimbot indetectables para The Finals en Windows PC. The Finals Wallhack. wallhack ESP para jugadores, loot y distancia.",
-					imageAlt: "the finals wallhack visibility through walls in a match",
+					imageAlt: "thefinals wallhack visibility through walls in a match",
 					galleryTitle: "The Finals Wallhack",
 					ctaPrimary: "Comprar The Final Cheats",
 					ctaSecondary: "Ver funciones",
@@ -1861,9 +1861,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheats-2026": {
 					title: "Trucos The Finals 2026 | Guía del comprador",
-					description: "Trucos The Finals 2026: checklist de the finals cheats 2026 antes del checkout. entrega digital instantánea. indetectables — Windows PC.",
+					description: "Trucos The Finals 2026: checklist de thefinals cheats 2026 antes del checkout. entrega digital instantánea. indetectables — Windows PC.",
 					h1: "Trucos The Finals 2026",
-					intro: "The Final Cheats ofrece ESP wallhack, radar hack y The Finals Aimbot indetectables para The Finals en Windows PC. Trucos The Finals 2026. checklist de the finals cheats 2026 antes del checkout.",
+					intro: "The Final Cheats ofrece ESP wallhack, radar hack y The Finals Aimbot indetectables para The Finals en Windows PC. Trucos The Finals 2026. checklist de thefinals cheats 2026 antes del checkout.",
 					imageAlt: "The Final Cheats product overview for The Finals",
 					galleryTitle: "Trucos The Finals 2026",
 					ctaPrimary: "Comprar The Final Cheats",
@@ -1871,9 +1871,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/finals-cheats/",
 					sections: [
 						{
-							h2: "Why the finals cheats buyers choose The Final Cheats in 2026",
+							h2: "Why thefinals cheats buyers choose The Final Cheats in 2026",
 							paragraphs: [
-								"The Final Cheats ofrece ESP wallhack, radar hack y The Finals Aimbot indetectables para The Finals en Windows PC. checklist de the finals cheats 2026 antes del checkout",
+								"The Final Cheats ofrece ESP wallhack, radar hack y The Finals Aimbot indetectables para The Finals en Windows PC. checklist de thefinals cheats 2026 antes del checkout",
 								"Track official season messaging on undefined, then use our <a href=\"/updates/\">Estado en vivo</a> for product rebuild timing.",
 								"Monthly ($35) and lifetime ($150) plans cover match and farming run loops — see <a href=\"/pricing/\">Tienda</a>.",
 							],
@@ -1881,7 +1881,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Full feature stack for 2026 buyers",
 							paragraphs: [
-								"The Final Cheats ofrece ESP wallhack, radar hack y The Finals Aimbot indetectables para The Finals en Windows PC. checklist de the finals cheats 2026 antes del checkout",
+								"The Final Cheats ofrece ESP wallhack, radar hack y The Finals Aimbot indetectables para The Finals en Windows PC. checklist de thefinals cheats 2026 antes del checkout",
 								"Deep links: <a href=\"/finals-cheats/\">Resumen The Final Cheats</a>, <a href=\"/finals-esp/\">Guía ESP y wallhack</a>, <a href=\"/finals-aimbot/\">Aimbot y soft aim</a>, <a href=\"/finals-esp/\">Guía ESP y wallhack</a>, <a href=\"/finals-radar-hack/\">Overlay radar 2D</a>, <a href=\"/finals-cheats/\">Resumen The Final Cheats</a>.",
 								"Consulta la página Updates antes de jugar tras parches de Easy Anti-Cheat. Ningún cheat garantiza estado indetectable permanente.",
 							],
@@ -1899,9 +1899,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				hacks: {
 					title: "The Final Cheats — Guía completa| ESP, Aimbot & Wallhack | The Final Cheats",
-					description: "Full the finals cheats guide from The Final Cheats — undetected ESP wallhack, soft aim, 2D radar and Easy Anti-Cheat rebuilds on Windows PC. Compare features and buy at thefinalscheats.org from $35.",
+					description: "Full thefinals cheats guide from The Final Cheats — undetected ESP wallhack, soft aim, 2D radar and Easy Anti-Cheat rebuilds on Windows PC. Compare features and buy at thefinalscheats.org from $35.",
 					h1: "The Final Cheats — Guía completa",
-					intro: "Los trucos de The Finals añaden ESP, radar y soft aim sobre el juego base. Esta página explica qué son los the finals cheats, qué incluye The Final Cheats, cómo funciona el mantenimiento de Easy Anti-Cheat y dónde ir antes de comprar.",
+					intro: "Los trucos de The Finals añaden ESP, radar y soft aim sobre el juego base. Esta página explica qué son los thefinals cheats, qué incluye The Final Cheats, cómo funciona el mantenimiento de Easy Anti-Cheat y dónde ir antes de comprar.",
 					imageAlt: "The Final Cheats overview — ESP, aimbot, and radar for The Finals",
 					galleryTitle: "Aspecto en juego",
 					ctaPrimary: "Comprar The Final Cheats",
@@ -1911,7 +1911,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "¿Qué son los trucos de The Finals?",
 							paragraphs: [
-								"Los trucos de The Finals son herramientas de terceros que te dan información extra y asistencia en combate durante matches. La mayoría busca the finals cheats cuando quieren ESP de jugadores, visibilidad de loot, radar fuera de pantalla o puntería más suave bajo presión.",
+								"Los trucos de The Finals son herramientas de terceros que te dan información extra y asistencia en combate durante matches. La mayoría busca thefinals cheats cuando quieren ESP de jugadores, visibilidad de loot, radar fuera de pantalla o puntería más suave bajo presión.",
 								"The Final Cheats agrupa esas herramientas en una licencia para Windows PC — sin descargas separadas para wallhack, radar y aimbot.",
 							],
 						},
@@ -1982,7 +1982,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
-							h2: "How the finals cheat download delivery works",
+							h2: "How thefinals cheat download delivery works",
 							paragraphs: [
 								"The Final Cheats ofrece ESP wallhack, radar hack y The Finals Aimbot indetectables para The Finals en Windows PC. descarga de licencia digital tras el pago",
 								"Keep your order confirmation and license email ready for the <a href=\"/setup/\">Guía de instalación</a> and Support requests.",
@@ -2086,9 +2086,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"best-cheats": {
 					title: "Mejores trucos The Finals | Lista de compra",
-					description: "Mejores trucos The Finals: qué comparar antes de comprar the finals cheats. entrega digital instantánea. indetectables — Windows PC.",
+					description: "Mejores trucos The Finals: qué comparar antes de comprar thefinals cheats. entrega digital instantánea. indetectables — Windows PC.",
 					h1: "Mejores trucos The Finals",
-					intro: "The Final Cheats ofrece ESP wallhack, radar hack y The Finals Aimbot indetectables para The Finals en Windows PC. Mejores trucos The Finals. qué comparar antes de comprar the finals cheats.",
+					intro: "The Final Cheats ofrece ESP wallhack, radar hack y The Finals Aimbot indetectables para The Finals en Windows PC. Mejores trucos The Finals. qué comparar antes de comprar thefinals cheats.",
 					imageAlt: "The Final Cheats overview for The Finals on PC",
 					galleryTitle: "Mejores trucos The Finals",
 					ctaPrimary: "Comprar The Final Cheats",
@@ -2096,25 +2096,25 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
-							h2: "What makes the finals cheats in 2026",
+							h2: "What makes thefinals cheats in 2026",
 							paragraphs: [
-								"The Final Cheats ofrece ESP wallhack, radar hack y The Finals Aimbot indetectables para The Finals en Windows PC. qué comparar antes de comprar the finals cheats",
+								"The Final Cheats ofrece ESP wallhack, radar hack y The Finals Aimbot indetectables para The Finals en Windows PC. qué comparar antes de comprar thefinals cheats",
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Easy Anti-Cheat.",
 								"Verify the live game is healthy via <a href=\"https://store.steampowered.com/app/2073850/THE_FINALS/\" target=\"_blank\" rel=\"noopener noreferrer\">The Finals on Steam</a>, then confirm our <a href=\"/updates/\">Estado en vivo</a> note before you judge any package “best.”",
 							],
 						},
 						{
-							h2: "Best the finals cheats feature checklist",
+							h2: "Best thefinals cheats feature checklist",
 							paragraphs: [
-								"The Final Cheats ofrece ESP wallhack, radar hack y The Finals Aimbot indetectables para The Finals en Windows PC. qué comparar antes de comprar the finals cheats",
+								"The Final Cheats ofrece ESP wallhack, radar hack y The Finals Aimbot indetectables para The Finals en Windows PC. qué comparar antes de comprar thefinals cheats",
 								"Review <a href=\"/features/\">Todas las funciones</a>, <a href=\"/finals-cheats/\">Resumen The Final Cheats</a>, and <a href=\"/finals-cheats/\">Resumen The Final Cheats</a> before checkout — monthly ($35) and lifetime ($150) plans available.",
 								"Module pages worth opening: <a href=\"/finals-esp/\">Guía ESP y wallhack</a>, <a href=\"/finals-aimbot/\">Aimbot y soft aim</a>, <a href=\"/finals-cheats/\">Resumen The Final Cheats</a>.",
 							],
 						},
 						{
-							h2: "Buying the finals cheats safely",
+							h2: "Buying thefinals cheats safely",
 							paragraphs: [
-								"The Final Cheats ofrece ESP wallhack, radar hack y The Finals Aimbot indetectables para The Finals en Windows PC. qué comparar antes de comprar the finals cheats",
+								"The Final Cheats ofrece ESP wallhack, radar hack y The Finals Aimbot indetectables para The Finals en Windows PC. qué comparar antes de comprar thefinals cheats",
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Easy Anti-Cheat.",
 								"Consulta la página Updates antes de jugar tras parches de Easy Anti-Cheat. Ningún cheat garantiza estado indetectable permanente.",
 							],
@@ -2446,7 +2446,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"finals-esp": {
 					title: "ESP| Wallhack & Player Boxes | The Final Cheats",
-					description: "The Finals ESP wallhack with player boxes, vault markers and distance tags on Windows PC. Undetected the finals cheats from The Final Cheats — aimbot and radar included. Buy at thefinalscheats.org.",
+					description: "The Finals ESP wallhack with player boxes, vault markers and distance tags on Windows PC. Undetected thefinals cheats from The Final Cheats — aimbot and radar included. Buy at thefinalscheats.org.",
 					h1: "ESP",
 					intro: "Voyez joueurs et loot à travers les murs pendant les matches The Finals. Inclus dans la même licence The Final Cheats.",
 					imageAlt: "The Finals ESP player boxes and distance readouts in a match",
@@ -2626,7 +2626,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				pricing: {
 					title: "Boutique| $35/mo or $150 Lifetime",
-					description: "Buy the finals cheats at thefinalscheats.org — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.",
+					description: "Buy thefinals cheats at thefinalscheats.org — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.",
 					h1: "Boutique",
 					intro: "The Final Cheats combine ESP wallhack, radar hack et The Finals Aimbot indétectables pour The Finals sur PC Windows. Boutique — 35 $/mois y 150 $ à vie.",
 					imageAlt: "The Final Cheats store plans for monthly and lifetime licenses",
@@ -2775,7 +2775,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				faq: {
 					title: "FAQ| ESP, Aimbot & Easy Anti-Cheat Answers",
-					description: "The Final Cheats FAQ — delivery, setup, undetected status, Easy Anti-Cheat updates, pricing and refunds for the finals cheats on Windows PC. Clear answers at thefinalscheats.org before you buy.",
+					description: "The Final Cheats FAQ — delivery, setup, undetected status, Easy Anti-Cheat updates, pricing and refunds for thefinals cheats on Windows PC. Clear answers at thefinalscheats.org before you buy.",
 					h1: "FAQ",
 					intro: "Questions fréquentes sur The Final Cheats — livraison, installation, mises à jour et remboursements.",
 					imageAlt: "The Final Cheats FAQ — delivery, setup, and update answers",
@@ -2902,7 +2902,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					description: "The Finals Wallhack: wallhack ESP pour joueurs, loot et distance. livraison numérique instantanée. indétectables — PC Windows.",
 					h1: "The Finals Wallhack",
 					intro: "The Final Cheats combine ESP wallhack, radar hack et The Finals Aimbot indétectables pour The Finals sur PC Windows. The Finals Wallhack. wallhack ESP pour joueurs, loot et distance.",
-					imageAlt: "the finals wallhack visibility through walls in a match",
+					imageAlt: "thefinals wallhack visibility through walls in a match",
 					galleryTitle: "The Finals Wallhack",
 					ctaPrimary: "Acheter The Final Cheats",
 					ctaSecondary: "Voir les fonctions",
@@ -3013,9 +3013,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheats-2026": {
 					title: "Triches The Finals 2026 | Guide acheteur",
-					description: "Triches The Finals 2026: checklist the finals cheats 2026 avant checkout. livraison numérique instantanée. indétectables — PC Windows.",
+					description: "Triches The Finals 2026: checklist thefinals cheats 2026 avant checkout. livraison numérique instantanée. indétectables — PC Windows.",
 					h1: "Triches The Finals 2026",
-					intro: "The Final Cheats combine ESP wallhack, radar hack et The Finals Aimbot indétectables pour The Finals sur PC Windows. Triches The Finals 2026. checklist the finals cheats 2026 avant checkout.",
+					intro: "The Final Cheats combine ESP wallhack, radar hack et The Finals Aimbot indétectables pour The Finals sur PC Windows. Triches The Finals 2026. checklist thefinals cheats 2026 avant checkout.",
 					imageAlt: "The Final Cheats product overview for The Finals",
 					galleryTitle: "Triches The Finals 2026",
 					ctaPrimary: "Acheter The Final Cheats",
@@ -3023,9 +3023,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/finals-cheats/",
 					sections: [
 						{
-							h2: "Why the finals cheats buyers choose The Final Cheats in 2026",
+							h2: "Why thefinals cheats buyers choose The Final Cheats in 2026",
 							paragraphs: [
-								"The Final Cheats combine ESP wallhack, radar hack et The Finals Aimbot indétectables pour The Finals sur PC Windows. checklist the finals cheats 2026 avant checkout",
+								"The Final Cheats combine ESP wallhack, radar hack et The Finals Aimbot indétectables pour The Finals sur PC Windows. checklist thefinals cheats 2026 avant checkout",
 								"Track official season messaging on undefined, then use our <a href=\"/updates/\">Statut en direct</a> for product rebuild timing.",
 								"Monthly ($35) and lifetime ($150) plans cover match and farming run loops — see <a href=\"/pricing/\">Boutique</a>.",
 							],
@@ -3033,7 +3033,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Full feature stack for 2026 buyers",
 							paragraphs: [
-								"The Final Cheats combine ESP wallhack, radar hack et The Finals Aimbot indétectables pour The Finals sur PC Windows. checklist the finals cheats 2026 avant checkout",
+								"The Final Cheats combine ESP wallhack, radar hack et The Finals Aimbot indétectables pour The Finals sur PC Windows. checklist thefinals cheats 2026 avant checkout",
 								"Deep links: <a href=\"/finals-cheats/\">Aperçu The Final Cheats</a>, <a href=\"/finals-esp/\">Guide ESP et wallhack</a>, <a href=\"/finals-aimbot/\">Aimbot et soft aim</a>, <a href=\"/finals-esp/\">Guide ESP et wallhack</a>, <a href=\"/finals-radar-hack/\">Overlay radar 2D</a>, <a href=\"/finals-cheats/\">Aperçu The Final Cheats</a>.",
 								"Consultez Updates après les patchs Easy Anti-Cheat. Aucune triche ne garantit un statut indétectable permanent.",
 							],
@@ -3051,9 +3051,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				hacks: {
 					title: "The Final Cheats — Guide complet| ESP, Aimbot & Wallhack | The Final Cheats",
-					description: "Full the finals cheats guide from The Final Cheats — undetected ESP wallhack, soft aim, 2D radar and Easy Anti-Cheat rebuilds on Windows PC. Compare features and buy at thefinalscheats.org from $35.",
+					description: "Full thefinals cheats guide from The Final Cheats — undetected ESP wallhack, soft aim, 2D radar and Easy Anti-Cheat rebuilds on Windows PC. Compare features and buy at thefinalscheats.org from $35.",
 					h1: "The Final Cheats — Guide complet",
-					intro: "Les triches The Finals ajoutent ESP, radar et soft aim au jeu de base. Cette page explique ce que sont les the finals cheats, ce que The Final Cheats inclut, la maintenance Easy Anti-Cheat et où aller avant d'acheter.",
+					intro: "Les triches The Finals ajoutent ESP, radar et soft aim au jeu de base. Cette page explique ce que sont les thefinals cheats, ce que The Final Cheats inclut, la maintenance Easy Anti-Cheat et où aller avant d'acheter.",
 					imageAlt: "The Final Cheats overview — ESP, aimbot, and radar for The Finals",
 					galleryTitle: "Rendu en jeu",
 					ctaPrimary: "Acheter The Final Cheats",
@@ -3063,7 +3063,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Que sont les triches The Finals ?",
 							paragraphs: [
-								"Les triches The Finals sont des outils tiers qui donnent des infos supplémentaires et une aide au combat pendant les matches. La plupart cherchent the finals cheats pour l'ESP joueurs, le loot, le radar hors écran ou une visée plus fluide sous pression.",
+								"Les triches The Finals sont des outils tiers qui donnent des infos supplémentaires et une aide au combat pendant les matches. La plupart cherchent thefinals cheats pour l'ESP joueurs, le loot, le radar hors écran ou une visée plus fluide sous pression.",
 								"The Final Cheats regroupe ces outils dans une licence PC Windows — sans empiler wallhack, radar et aimbot séparément.",
 							],
 						},
@@ -3134,7 +3134,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
-							h2: "How the finals cheat download delivery works",
+							h2: "How thefinals cheat download delivery works",
 							paragraphs: [
 								"The Final Cheats combine ESP wallhack, radar hack et The Finals Aimbot indétectables pour The Finals sur PC Windows. téléchargement licence numérique après paiement",
 								"Keep your order confirmation and license email ready for the <a href=\"/setup/\">Guide d'installation</a> and Support requests.",
@@ -3238,9 +3238,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"best-cheats": {
 					title: "Meilleures triches The Finals | Checklist acheteur",
-					description: "Meilleures triches The Finals: quoi comparer avant d'acheter the finals cheats. livraison numérique instantanée. indétectables — PC Windows.",
+					description: "Meilleures triches The Finals: quoi comparer avant d'acheter thefinals cheats. livraison numérique instantanée. indétectables — PC Windows.",
 					h1: "Meilleures triches The Finals",
-					intro: "The Final Cheats combine ESP wallhack, radar hack et The Finals Aimbot indétectables pour The Finals sur PC Windows. Meilleures triches The Finals. quoi comparer avant d'acheter the finals cheats.",
+					intro: "The Final Cheats combine ESP wallhack, radar hack et The Finals Aimbot indétectables pour The Finals sur PC Windows. Meilleures triches The Finals. quoi comparer avant d'acheter thefinals cheats.",
 					imageAlt: "The Final Cheats overview for The Finals on PC",
 					galleryTitle: "Meilleures triches The Finals",
 					ctaPrimary: "Acheter The Final Cheats",
@@ -3248,25 +3248,25 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
-							h2: "What makes the finals cheats in 2026",
+							h2: "What makes thefinals cheats in 2026",
 							paragraphs: [
-								"The Final Cheats combine ESP wallhack, radar hack et The Finals Aimbot indétectables pour The Finals sur PC Windows. quoi comparer avant d'acheter the finals cheats",
+								"The Final Cheats combine ESP wallhack, radar hack et The Finals Aimbot indétectables pour The Finals sur PC Windows. quoi comparer avant d'acheter thefinals cheats",
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Easy Anti-Cheat.",
 								"Verify the live game is healthy via <a href=\"https://store.steampowered.com/app/2073850/THE_FINALS/\" target=\"_blank\" rel=\"noopener noreferrer\">The Finals on Steam</a>, then confirm our <a href=\"/updates/\">Statut en direct</a> note before you judge any package “best.”",
 							],
 						},
 						{
-							h2: "Best the finals cheats feature checklist",
+							h2: "Best thefinals cheats feature checklist",
 							paragraphs: [
-								"The Final Cheats combine ESP wallhack, radar hack et The Finals Aimbot indétectables pour The Finals sur PC Windows. quoi comparer avant d'acheter the finals cheats",
+								"The Final Cheats combine ESP wallhack, radar hack et The Finals Aimbot indétectables pour The Finals sur PC Windows. quoi comparer avant d'acheter thefinals cheats",
 								"Review <a href=\"/features/\">Toutes les fonctions</a>, <a href=\"/finals-cheats/\">Aperçu The Final Cheats</a>, and <a href=\"/finals-cheats/\">Aperçu The Final Cheats</a> before checkout — monthly ($35) and lifetime ($150) plans available.",
 								"Module pages worth opening: <a href=\"/finals-esp/\">Guide ESP et wallhack</a>, <a href=\"/finals-aimbot/\">Aimbot et soft aim</a>, <a href=\"/finals-cheats/\">Aperçu The Final Cheats</a>.",
 							],
 						},
 						{
-							h2: "Buying the finals cheats safely",
+							h2: "Buying thefinals cheats safely",
 							paragraphs: [
-								"The Final Cheats combine ESP wallhack, radar hack et The Finals Aimbot indétectables pour The Finals sur PC Windows. quoi comparer avant d'acheter the finals cheats",
+								"The Final Cheats combine ESP wallhack, radar hack et The Finals Aimbot indétectables pour The Finals sur PC Windows. quoi comparer avant d'acheter thefinals cheats",
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Easy Anti-Cheat.",
 								"Consultez Updates après les patchs Easy Anti-Cheat. Aucune triche ne garantit un statut indétectable permanent.",
 							],
@@ -3598,7 +3598,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"finals-esp": {
 					title: "ESP| Wallhack & Player Boxes | The Final Cheats",
-					description: "The Finals ESP wallhack with player boxes, vault markers and distance tags on Windows PC. Undetected the finals cheats from The Final Cheats — aimbot and radar included. Buy at thefinalscheats.org.",
+					description: "The Finals ESP wallhack with player boxes, vault markers and distance tags on Windows PC. Undetected thefinals cheats from The Final Cheats — aimbot and radar included. Buy at thefinalscheats.org.",
 					h1: "ESP",
 					intro: "Sieh Spieler und Loot durch Wände bei The Finals-Raids. Teil derselben The Final Cheats-Lizenz.",
 					imageAlt: "The Finals ESP player boxes and distance readouts in a match",
@@ -3778,7 +3778,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				pricing: {
 					title: "Shop| $35/mo or $150 Lifetime",
-					description: "Buy the finals cheats at thefinalscheats.org — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.",
+					description: "Buy thefinals cheats at thefinalscheats.org — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.",
 					h1: "Shop",
 					intro: "The Final Cheats bündelt ESP wallhack, radar hack und The Finals Aimbot als undetected Paket für The Finals auf Windows PC. Shop — $35/Monat y $150 Lifetime.",
 					imageAlt: "The Final Cheats store plans for monthly and lifetime licenses",
@@ -3927,7 +3927,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				faq: {
 					title: "FAQ| ESP, Aimbot & Easy Anti-Cheat Answers",
-					description: "The Final Cheats FAQ — delivery, setup, undetected status, Easy Anti-Cheat updates, pricing and refunds for the finals cheats on Windows PC. Clear answers at thefinalscheats.org before you buy.",
+					description: "The Final Cheats FAQ — delivery, setup, undetected status, Easy Anti-Cheat updates, pricing and refunds for thefinals cheats on Windows PC. Clear answers at thefinalscheats.org before you buy.",
 					h1: "FAQ",
 					intro: "Häufige Fragen zu The Final Cheats — Lieferung, Setup, Updates und Rückerstattungen.",
 					imageAlt: "The Final Cheats FAQ — delivery, setup, and update answers",
@@ -4054,7 +4054,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					description: "The Finals Wallhack: Wallhack ESP für Spieler, Kadaver und Entfernung. sofortige digitale Lieferung. undetected — Windows PC.",
 					h1: "The Finals Wallhack",
 					intro: "The Final Cheats bündelt ESP wallhack, radar hack und The Finals Aimbot als undetected Paket für The Finals auf Windows PC. The Finals Wallhack. Wallhack ESP für Spieler, Kadaver und Entfernung.",
-					imageAlt: "the finals wallhack visibility through walls in a match",
+					imageAlt: "thefinals wallhack visibility through walls in a match",
 					galleryTitle: "The Finals Wallhack",
 					ctaPrimary: "The Final Cheats kaufen",
 					ctaSecondary: "Features ansehen",
@@ -4165,9 +4165,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheats-2026": {
 					title: "The Final Cheats 2026 | Käuferleitfaden",
-					description: "The Final Cheats 2026: 2026 the finals cheats Checkliste vor dem Checkout. sofortige digitale Lieferung. undetected — Windows PC.",
+					description: "The Final Cheats 2026: 2026 thefinals cheats Checkliste vor dem Checkout. sofortige digitale Lieferung. undetected — Windows PC.",
 					h1: "The Final Cheats 2026",
-					intro: "The Final Cheats bündelt ESP wallhack, radar hack und The Finals Aimbot als undetected Paket für The Finals auf Windows PC. The Final Cheats 2026. 2026 the finals cheats Checkliste vor dem Checkout.",
+					intro: "The Final Cheats bündelt ESP wallhack, radar hack und The Finals Aimbot als undetected Paket für The Finals auf Windows PC. The Final Cheats 2026. 2026 thefinals cheats Checkliste vor dem Checkout.",
 					imageAlt: "The Final Cheats product overview for The Finals",
 					galleryTitle: "The Final Cheats 2026",
 					ctaPrimary: "The Final Cheats kaufen",
@@ -4175,9 +4175,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/finals-cheats/",
 					sections: [
 						{
-							h2: "Why the finals cheats buyers choose The Final Cheats in 2026",
+							h2: "Why thefinals cheats buyers choose The Final Cheats in 2026",
 							paragraphs: [
-								"The Final Cheats bündelt ESP wallhack, radar hack und The Finals Aimbot als undetected Paket für The Finals auf Windows PC. 2026 the finals cheats Checkliste vor dem Checkout",
+								"The Final Cheats bündelt ESP wallhack, radar hack und The Finals Aimbot als undetected Paket für The Finals auf Windows PC. 2026 thefinals cheats Checkliste vor dem Checkout",
 								"Track official season messaging on undefined, then use our <a href=\"/updates/\">Live-Status</a> for product rebuild timing.",
 								"Monthly ($35) and lifetime ($150) plans cover match and farming run loops — see <a href=\"/pricing/\">Shop</a>.",
 							],
@@ -4185,7 +4185,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Full feature stack for 2026 buyers",
 							paragraphs: [
-								"The Final Cheats bündelt ESP wallhack, radar hack und The Finals Aimbot als undetected Paket für The Finals auf Windows PC. 2026 the finals cheats Checkliste vor dem Checkout",
+								"The Final Cheats bündelt ESP wallhack, radar hack und The Finals Aimbot als undetected Paket für The Finals auf Windows PC. 2026 thefinals cheats Checkliste vor dem Checkout",
 								"Deep links: <a href=\"/finals-cheats/\">The Final Cheats Übersicht</a>, <a href=\"/finals-esp/\">ESP- und Wallhack-Guide</a>, <a href=\"/finals-aimbot/\">Aimbot und Soft Aim</a>, <a href=\"/finals-esp/\">ESP- und Wallhack-Guide</a>, <a href=\"/finals-radar-hack/\">2D-Radar-Overlay</a>, <a href=\"/finals-cheats/\">The Final Cheats Übersicht</a>.",
 								"Updates-Seite nach Easy Anti-Cheat-Patches prüfen. Kein Cheat garantiert dauerhaft undetected Status.",
 							],
@@ -4203,9 +4203,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				hacks: {
 					title: "The Final Cheats — Vollständiger Guide| ESP, Aimbot & Wallhack | The Final Cheats",
-					description: "Full the finals cheats guide from The Final Cheats — undetected ESP wallhack, soft aim, 2D radar and Easy Anti-Cheat rebuilds on Windows PC. Compare features and buy at thefinalscheats.org from $35.",
+					description: "Full thefinals cheats guide from The Final Cheats — undetected ESP wallhack, soft aim, 2D radar and Easy Anti-Cheat rebuilds on Windows PC. Compare features and buy at thefinalscheats.org from $35.",
 					h1: "The Final Cheats — Vollständiger Guide",
-					intro: "The Final Cheats fügen ESP, Radar und Soft Aim zum Basisspiel hinzu. Diese Seite erklärt the finals cheats, den The Final Cheats-Umfang, Easy Anti-Cheat-Wartung und nächste Schritte vor dem Kauf.",
+					intro: "The Final Cheats fügen ESP, Radar und Soft Aim zum Basisspiel hinzu. Diese Seite erklärt thefinals cheats, den The Final Cheats-Umfang, Easy Anti-Cheat-Wartung und nächste Schritte vor dem Kauf.",
 					imageAlt: "The Final Cheats overview — ESP, aimbot, and radar for The Finals",
 					galleryTitle: "Ingame-Ansicht",
 					ctaPrimary: "The Final Cheats kaufen",
@@ -4215,7 +4215,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Was sind The Final Cheats?",
 							paragraphs: [
-								"The Final Cheats sind Drittanbieter-Tools mit Extra-Infos und Kampfhilfe bei Raids. Die meisten suchen the finals cheats für Spieler-ESP, Loot-Sicht, Off-Screen-Radar oder sanfteres Zielen unter Druck.",
+								"The Final Cheats sind Drittanbieter-Tools mit Extra-Infos und Kampfhilfe bei Raids. Die meisten suchen thefinals cheats für Spieler-ESP, Loot-Sicht, Off-Screen-Radar oder sanfteres Zielen unter Druck.",
 								"The Final Cheats bündelt diese Tools in einer Windows-PC-Lizenz — ohne separate Downloads für Wallhack, Radar und Aimbot.",
 							],
 						},
@@ -4286,7 +4286,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
-							h2: "How the finals cheat download delivery works",
+							h2: "How thefinals cheat download delivery works",
 							paragraphs: [
 								"The Final Cheats bündelt ESP wallhack, radar hack und The Finals Aimbot als undetected Paket für The Finals auf Windows PC. digitaler Lizenz-Download nach Zahlung",
 								"Keep your order confirmation and license email ready for the <a href=\"/setup/\">Setup-Anleitung</a> and Support requests.",
@@ -4390,9 +4390,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"best-cheats": {
 					title: "Beste The Final Cheats | Käufer-Checkliste",
-					description: "Beste The Final Cheats: was vor dem Kauf der the finals cheats verglichen werden sollte. sofortige digitale Lieferung. undetected — Windows PC.",
+					description: "Beste The Final Cheats: was vor dem Kauf der thefinals cheats verglichen werden sollte. sofortige digitale Lieferung. undetected — Windows PC.",
 					h1: "Beste The Final Cheats",
-					intro: "The Final Cheats bündelt ESP wallhack, radar hack und The Finals Aimbot als undetected Paket für The Finals auf Windows PC. Beste The Final Cheats. was vor dem Kauf der the finals cheats verglichen werden sollte.",
+					intro: "The Final Cheats bündelt ESP wallhack, radar hack und The Finals Aimbot als undetected Paket für The Finals auf Windows PC. Beste The Final Cheats. was vor dem Kauf der thefinals cheats verglichen werden sollte.",
 					imageAlt: "The Final Cheats overview for The Finals on PC",
 					galleryTitle: "Beste The Final Cheats",
 					ctaPrimary: "The Final Cheats kaufen",
@@ -4400,25 +4400,25 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
-							h2: "What makes the finals cheats in 2026",
+							h2: "What makes thefinals cheats in 2026",
 							paragraphs: [
-								"The Final Cheats bündelt ESP wallhack, radar hack und The Finals Aimbot als undetected Paket für The Finals auf Windows PC. was vor dem Kauf der the finals cheats verglichen werden sollte",
+								"The Final Cheats bündelt ESP wallhack, radar hack und The Finals Aimbot als undetected Paket für The Finals auf Windows PC. was vor dem Kauf der thefinals cheats verglichen werden sollte",
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Easy Anti-Cheat-Wartung.",
 								"Verify the live game is healthy via <a href=\"https://store.steampowered.com/app/2073850/THE_FINALS/\" target=\"_blank\" rel=\"noopener noreferrer\">The Finals on Steam</a>, then confirm our <a href=\"/updates/\">Live-Status</a> note before you judge any package “best.”",
 							],
 						},
 						{
-							h2: "Best the finals cheats feature checklist",
+							h2: "Best thefinals cheats feature checklist",
 							paragraphs: [
-								"The Final Cheats bündelt ESP wallhack, radar hack und The Finals Aimbot als undetected Paket für The Finals auf Windows PC. was vor dem Kauf der the finals cheats verglichen werden sollte",
+								"The Final Cheats bündelt ESP wallhack, radar hack und The Finals Aimbot als undetected Paket für The Finals auf Windows PC. was vor dem Kauf der thefinals cheats verglichen werden sollte",
 								"Review <a href=\"/features/\">Alle Features</a>, <a href=\"/finals-cheats/\">The Final Cheats Übersicht</a>, and <a href=\"/finals-cheats/\">The Final Cheats Übersicht</a> before checkout — monthly ($35) and lifetime ($150) plans available.",
 								"Module pages worth opening: <a href=\"/finals-esp/\">ESP- und Wallhack-Guide</a>, <a href=\"/finals-aimbot/\">Aimbot und Soft Aim</a>, <a href=\"/finals-cheats/\">The Final Cheats Übersicht</a>.",
 							],
 						},
 						{
-							h2: "Buying the finals cheats safely",
+							h2: "Buying thefinals cheats safely",
 							paragraphs: [
-								"The Final Cheats bündelt ESP wallhack, radar hack und The Finals Aimbot als undetected Paket für The Finals auf Windows PC. was vor dem Kauf der the finals cheats verglichen werden sollte",
+								"The Final Cheats bündelt ESP wallhack, radar hack und The Finals Aimbot als undetected Paket für The Finals auf Windows PC. was vor dem Kauf der thefinals cheats verglichen werden sollte",
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Easy Anti-Cheat-Wartung.",
 								"Updates-Seite nach Easy Anti-Cheat-Patches prüfen. Kein Cheat garantiert dauerhaft undetected Status.",
 							],
@@ -4750,7 +4750,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"finals-esp": {
 					title: "ESP| Wallhack & Player Boxes | The Final Cheats",
-					description: "The Finals ESP wallhack with player boxes, vault markers and distance tags on Windows PC. Undetected the finals cheats from The Final Cheats — aimbot and radar included. Buy at thefinalscheats.org.",
+					description: "The Finals ESP wallhack with player boxes, vault markers and distance tags on Windows PC. Undetected thefinals cheats from The Final Cheats — aimbot and radar included. Buy at thefinalscheats.org.",
 					h1: "ESP",
 					intro: "Veja jogadores e loot através das paredes em matches de The Finals. Parte da mesma licença The Final Cheats.",
 					imageAlt: "The Finals ESP player boxes and distance readouts in a match",
@@ -4929,7 +4929,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				pricing: {
 					title: "Loja| $35/mo or $150 Lifetime",
-					description: "Buy the finals cheats at thefinalscheats.org — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.",
+					description: "Buy thefinals cheats at thefinalscheats.org — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.",
 					h1: "Loja",
 					intro: "The Final Cheats reúne ESP wallhack, radar hack e The Finals Aimbot indetectáveis para The Finals no PC Windows. Loja — $35/mês y $150 vitalício.",
 					imageAlt: "The Final Cheats store plans for monthly and lifetime licenses",
@@ -5078,7 +5078,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				faq: {
 					title: "FAQ| ESP, Aimbot & Easy Anti-Cheat Answers",
-					description: "The Final Cheats FAQ — delivery, setup, undetected status, Easy Anti-Cheat updates, pricing and refunds for the finals cheats on Windows PC. Clear answers at thefinalscheats.org before you buy.",
+					description: "The Final Cheats FAQ — delivery, setup, undetected status, Easy Anti-Cheat updates, pricing and refunds for thefinals cheats on Windows PC. Clear answers at thefinalscheats.org before you buy.",
 					h1: "FAQ",
 					intro: "Perguntas frequentes sobre The Final Cheats — entrega, instalação, atualizações e reembolsos.",
 					imageAlt: "The Final Cheats FAQ — delivery, setup, and update answers",
@@ -5205,7 +5205,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					description: "The Finals Wallhack: wallhack ESP para jogadores, carcaças e distância. entrega digital instantânea. indetectáveis — PC Windows.",
 					h1: "The Finals Wallhack",
 					intro: "The Final Cheats reúne ESP wallhack, radar hack e The Finals Aimbot indetectáveis para The Finals no PC Windows. The Finals Wallhack. wallhack ESP para jogadores, carcaças e distância.",
-					imageAlt: "the finals wallhack visibility through walls in a match",
+					imageAlt: "thefinals wallhack visibility through walls in a match",
 					galleryTitle: "The Finals Wallhack",
 					ctaPrimary: "Comprar The Final Cheats",
 					ctaSecondary: "Ver recursos",
@@ -5316,9 +5316,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheats-2026": {
 					title: "Cheats The Finals 2026 | Guia do comprador",
-					description: "Cheats The Finals 2026: checklist de the finals cheats 2026 antes do checkout. entrega digital instantânea. indetectáveis — PC Windows.",
+					description: "Cheats The Finals 2026: checklist de thefinals cheats 2026 antes do checkout. entrega digital instantânea. indetectáveis — PC Windows.",
 					h1: "Cheats The Finals 2026",
-					intro: "The Final Cheats reúne ESP wallhack, radar hack e The Finals Aimbot indetectáveis para The Finals no PC Windows. Cheats The Finals 2026. checklist de the finals cheats 2026 antes do checkout.",
+					intro: "The Final Cheats reúne ESP wallhack, radar hack e The Finals Aimbot indetectáveis para The Finals no PC Windows. Cheats The Finals 2026. checklist de thefinals cheats 2026 antes do checkout.",
 					imageAlt: "The Final Cheats product overview for The Finals",
 					galleryTitle: "Cheats The Finals 2026",
 					ctaPrimary: "Comprar The Final Cheats",
@@ -5326,9 +5326,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/finals-cheats/",
 					sections: [
 						{
-							h2: "Why the finals cheats buyers choose The Final Cheats in 2026",
+							h2: "Why thefinals cheats buyers choose The Final Cheats in 2026",
 							paragraphs: [
-								"The Final Cheats reúne ESP wallhack, radar hack e The Finals Aimbot indetectáveis para The Finals no PC Windows. checklist de the finals cheats 2026 antes do checkout",
+								"The Final Cheats reúne ESP wallhack, radar hack e The Finals Aimbot indetectáveis para The Finals no PC Windows. checklist de thefinals cheats 2026 antes do checkout",
 								"Track official season messaging on undefined, then use our <a href=\"/updates/\">Status ao vivo</a> for product rebuild timing.",
 								"Monthly ($35) and lifetime ($150) plans cover match and farming run loops — see <a href=\"/pricing/\">Loja</a>.",
 							],
@@ -5336,7 +5336,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Full feature stack for 2026 buyers",
 							paragraphs: [
-								"The Final Cheats reúne ESP wallhack, radar hack e The Finals Aimbot indetectáveis para The Finals no PC Windows. checklist de the finals cheats 2026 antes do checkout",
+								"The Final Cheats reúne ESP wallhack, radar hack e The Finals Aimbot indetectáveis para The Finals no PC Windows. checklist de thefinals cheats 2026 antes do checkout",
 								"Deep links: <a href=\"/finals-cheats/\">Visão geral The Final Cheats</a>, <a href=\"/finals-esp/\">Guia ESP e wallhack</a>, <a href=\"/finals-aimbot/\">Aimbot e soft aim</a>, <a href=\"/finals-esp/\">Guia ESP e wallhack</a>, <a href=\"/finals-radar-hack/\">Overlay radar 2D</a>, <a href=\"/finals-cheats/\">Visão geral The Final Cheats</a>.",
 								"Verifique Updates após patches Easy Anti-Cheat. Nenhum cheat garante status indetectável permanente.",
 							],
@@ -5354,9 +5354,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				hacks: {
 					title: "The Final Cheats — Guia completo| ESP, Aimbot & Wallhack | The Final Cheats",
-					description: "Full the finals cheats guide from The Final Cheats — undetected ESP wallhack, soft aim, 2D radar and Easy Anti-Cheat rebuilds on Windows PC. Compare features and buy at thefinalscheats.org from $35.",
+					description: "Full thefinals cheats guide from The Final Cheats — undetected ESP wallhack, soft aim, 2D radar and Easy Anti-Cheat rebuilds on Windows PC. Compare features and buy at thefinalscheats.org from $35.",
 					h1: "The Final Cheats — Guia completo",
-					intro: "The Finals cheats adicionam ESP, radar e soft aim ao jogo base. Esta página explica o que são the finals cheats, o que o The Final Cheats inclui, manutenção Easy Anti-Cheat e próximos passos antes de comprar.",
+					intro: "The Finals cheats adicionam ESP, radar e soft aim ao jogo base. Esta página explica o que são thefinals cheats, o que o The Final Cheats inclui, manutenção Easy Anti-Cheat e próximos passos antes de comprar.",
 					imageAlt: "The Final Cheats overview — ESP, aimbot, and radar for The Finals",
 					galleryTitle: "Visual in-game",
 					ctaPrimary: "Comprar The Final Cheats",
@@ -5366,7 +5366,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "O que são cheats de The Finals?",
 							paragraphs: [
-								"The Finals cheats são ferramentas de terceiros que dão informação extra e assistência de combate em matches. A maioria procura the finals cheats por ESP de jogadores, loot, radar off-screen ou mira mais suave sob pressão.",
+								"The Finals cheats são ferramentas de terceiros que dão informação extra e assistência de combate em matches. A maioria procura thefinals cheats por ESP de jogadores, loot, radar off-screen ou mira mais suave sob pressão.",
 								"The Final Cheats reúne essas ferramentas numa licença Windows PC — sem empilhar wallhack, radar e aimbot separados.",
 							],
 						},
@@ -5437,7 +5437,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
-							h2: "How the finals cheat download delivery works",
+							h2: "How thefinals cheat download delivery works",
 							paragraphs: [
 								"The Final Cheats reúne ESP wallhack, radar hack e The Finals Aimbot indetectáveis para The Finals no PC Windows. download de licença digital após pagamento",
 								"Keep your order confirmation and license email ready for the <a href=\"/setup/\">Guia de instalação</a> and Support requests.",
@@ -5541,9 +5541,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"best-cheats": {
 					title: "Melhores cheats The Finals | Checklist do comprador",
-					description: "Melhores cheats The Finals: o que comparar antes de comprar the finals cheats. entrega digital instantânea. indetectáveis — PC Windows.",
+					description: "Melhores cheats The Finals: o que comparar antes de comprar thefinals cheats. entrega digital instantânea. indetectáveis — PC Windows.",
 					h1: "Melhores cheats The Finals",
-					intro: "The Final Cheats reúne ESP wallhack, radar hack e The Finals Aimbot indetectáveis para The Finals no PC Windows. Melhores cheats The Finals. o que comparar antes de comprar the finals cheats.",
+					intro: "The Final Cheats reúne ESP wallhack, radar hack e The Finals Aimbot indetectáveis para The Finals no PC Windows. Melhores cheats The Finals. o que comparar antes de comprar thefinals cheats.",
 					imageAlt: "The Final Cheats overview for The Finals on PC",
 					galleryTitle: "Melhores cheats The Finals",
 					ctaPrimary: "Comprar The Final Cheats",
@@ -5551,25 +5551,25 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
-							h2: "What makes the finals cheats in 2026",
+							h2: "What makes thefinals cheats in 2026",
 							paragraphs: [
-								"The Final Cheats reúne ESP wallhack, radar hack e The Finals Aimbot indetectáveis para The Finals no PC Windows. o que comparar antes de comprar the finals cheats",
+								"The Final Cheats reúne ESP wallhack, radar hack e The Finals Aimbot indetectáveis para The Finals no PC Windows. o que comparar antes de comprar thefinals cheats",
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Easy Anti-Cheat.",
 								"Verify the live game is healthy via <a href=\"https://store.steampowered.com/app/2073850/THE_FINALS/\" target=\"_blank\" rel=\"noopener noreferrer\">The Finals on Steam</a>, then confirm our <a href=\"/updates/\">Status ao vivo</a> note before you judge any package “best.”",
 							],
 						},
 						{
-							h2: "Best the finals cheats feature checklist",
+							h2: "Best thefinals cheats feature checklist",
 							paragraphs: [
-								"The Final Cheats reúne ESP wallhack, radar hack e The Finals Aimbot indetectáveis para The Finals no PC Windows. o que comparar antes de comprar the finals cheats",
+								"The Final Cheats reúne ESP wallhack, radar hack e The Finals Aimbot indetectáveis para The Finals no PC Windows. o que comparar antes de comprar thefinals cheats",
 								"Review <a href=\"/features/\">Todos os recursos</a>, <a href=\"/finals-cheats/\">Visão geral The Final Cheats</a>, and <a href=\"/finals-cheats/\">Visão geral The Final Cheats</a> before checkout — monthly ($35) and lifetime ($150) plans available.",
 								"Module pages worth opening: <a href=\"/finals-esp/\">Guia ESP e wallhack</a>, <a href=\"/finals-aimbot/\">Aimbot e soft aim</a>, <a href=\"/finals-cheats/\">Visão geral The Final Cheats</a>.",
 							],
 						},
 						{
-							h2: "Buying the finals cheats safely",
+							h2: "Buying thefinals cheats safely",
 							paragraphs: [
-								"The Final Cheats reúne ESP wallhack, radar hack e The Finals Aimbot indetectáveis para The Finals no PC Windows. o que comparar antes de comprar the finals cheats",
+								"The Final Cheats reúne ESP wallhack, radar hack e The Finals Aimbot indetectáveis para The Finals no PC Windows. o que comparar antes de comprar thefinals cheats",
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Easy Anti-Cheat.",
 								"Verifique Updates após patches Easy Anti-Cheat. Nenhum cheat garante status indetectável permanente.",
 							],
@@ -5901,7 +5901,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"finals-esp": {
 					title: "ESP| Wallhack & Player Boxes | The Final Cheats",
-					description: "The Finals ESP wallhack with player boxes, vault markers and distance tags on Windows PC. Undetected the finals cheats from The Final Cheats — aimbot and radar included. Buy at thefinalscheats.org.",
+					description: "The Finals ESP wallhack with player boxes, vault markers and distance tags on Windows PC. Undetected thefinals cheats from The Final Cheats — aimbot and radar included. Buy at thefinalscheats.org.",
 					h1: "ESP",
 					intro: "Vedi giocatori e loot attraverso i muri durante i match The Finals. Parte della stessa licenza The Final Cheats.",
 					imageAlt: "The Finals ESP player boxes and distance readouts in a match",
@@ -6080,7 +6080,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				pricing: {
 					title: "Negozio| $35/mo or $150 Lifetime",
-					description: "Buy the finals cheats at thefinalscheats.org — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.",
+					description: "Buy thefinals cheats at thefinalscheats.org — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.",
 					h1: "Negozio",
 					intro: "The Final Cheats unisce ESP wallhack, radar hack e The Finals Aimbot indetectable per The Finals su PC Windows. Negozio — $35/mese y $150 a vita.",
 					imageAlt: "The Final Cheats store plans for monthly and lifetime licenses",
@@ -6229,7 +6229,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				faq: {
 					title: "FAQ| ESP, Aimbot & Easy Anti-Cheat Answers",
-					description: "The Final Cheats FAQ — delivery, setup, undetected status, Easy Anti-Cheat updates, pricing and refunds for the finals cheats on Windows PC. Clear answers at thefinalscheats.org before you buy.",
+					description: "The Final Cheats FAQ — delivery, setup, undetected status, Easy Anti-Cheat updates, pricing and refunds for thefinals cheats on Windows PC. Clear answers at thefinalscheats.org before you buy.",
 					h1: "FAQ",
 					intro: "Domande frequenti su The Final Cheats — consegna, setup, aggiornamenti e rimborsi.",
 					imageAlt: "The Final Cheats FAQ — delivery, setup, and update answers",
@@ -6356,7 +6356,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					description: "The Finals Wallhack: wallhack ESP per giocatori, loot e distanza. consegna digitale istantanea. indetectable — PC Windows.",
 					h1: "The Finals Wallhack",
 					intro: "The Final Cheats unisce ESP wallhack, radar hack e The Finals Aimbot indetectable per The Finals su PC Windows. The Finals Wallhack. wallhack ESP per giocatori, loot e distanza.",
-					imageAlt: "the finals wallhack visibility through walls in a match",
+					imageAlt: "thefinals wallhack visibility through walls in a match",
 					galleryTitle: "The Finals Wallhack",
 					ctaPrimary: "Acquista The Final Cheats",
 					ctaSecondary: "Vedi funzioni",
@@ -6467,9 +6467,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheats-2026": {
 					title: "Cheat The Finals 2026 | Guida acquirente",
-					description: "Cheat The Finals 2026: checklist the finals cheats 2026 prima del checkout. consegna digitale istantanea. indetectable — PC Windows.",
+					description: "Cheat The Finals 2026: checklist thefinals cheats 2026 prima del checkout. consegna digitale istantanea. indetectable — PC Windows.",
 					h1: "Cheat The Finals 2026",
-					intro: "The Final Cheats unisce ESP wallhack, radar hack e The Finals Aimbot indetectable per The Finals su PC Windows. Cheat The Finals 2026. checklist the finals cheats 2026 prima del checkout.",
+					intro: "The Final Cheats unisce ESP wallhack, radar hack e The Finals Aimbot indetectable per The Finals su PC Windows. Cheat The Finals 2026. checklist thefinals cheats 2026 prima del checkout.",
 					imageAlt: "The Final Cheats product overview for The Finals",
 					galleryTitle: "Cheat The Finals 2026",
 					ctaPrimary: "Acquista The Final Cheats",
@@ -6477,9 +6477,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/finals-cheats/",
 					sections: [
 						{
-							h2: "Why the finals cheats buyers choose The Final Cheats in 2026",
+							h2: "Why thefinals cheats buyers choose The Final Cheats in 2026",
 							paragraphs: [
-								"The Final Cheats unisce ESP wallhack, radar hack e The Finals Aimbot indetectable per The Finals su PC Windows. checklist the finals cheats 2026 prima del checkout",
+								"The Final Cheats unisce ESP wallhack, radar hack e The Finals Aimbot indetectable per The Finals su PC Windows. checklist thefinals cheats 2026 prima del checkout",
 								"Track official season messaging on undefined, then use our <a href=\"/updates/\">Stato live</a> for product rebuild timing.",
 								"Monthly ($35) and lifetime ($150) plans cover match and farming run loops — see <a href=\"/pricing/\">Negozio</a>.",
 							],
@@ -6487,7 +6487,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Full feature stack for 2026 buyers",
 							paragraphs: [
-								"The Final Cheats unisce ESP wallhack, radar hack e The Finals Aimbot indetectable per The Finals su PC Windows. checklist the finals cheats 2026 prima del checkout",
+								"The Final Cheats unisce ESP wallhack, radar hack e The Finals Aimbot indetectable per The Finals su PC Windows. checklist thefinals cheats 2026 prima del checkout",
 								"Deep links: <a href=\"/finals-cheats/\">Panoramica The Final Cheats</a>, <a href=\"/finals-esp/\">Guida ESP e wallhack</a>, <a href=\"/finals-aimbot/\">Aimbot e soft aim</a>, <a href=\"/finals-esp/\">Guida ESP e wallhack</a>, <a href=\"/finals-radar-hack/\">Overlay radar 2D</a>, <a href=\"/finals-cheats/\">Panoramica The Final Cheats</a>.",
 								"Controlla Updates dopo patch Easy Anti-Cheat. Nessun cheat garantisce stato indetectable permanente.",
 							],
@@ -6505,9 +6505,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				hacks: {
 					title: "The Final Cheats — Guida completa| ESP, Aimbot & Wallhack | The Final Cheats",
-					description: "Full the finals cheats guide from The Final Cheats — undetected ESP wallhack, soft aim, 2D radar and Easy Anti-Cheat rebuilds on Windows PC. Compare features and buy at thefinalscheats.org from $35.",
+					description: "Full thefinals cheats guide from The Final Cheats — undetected ESP wallhack, soft aim, 2D radar and Easy Anti-Cheat rebuilds on Windows PC. Compare features and buy at thefinalscheats.org from $35.",
 					h1: "The Final Cheats — Guida completa",
-					intro: "I cheat The Finals aggiungono ESP, radar e soft aim al gioco base. Questa pagina spiega cosa sono i the finals cheats, cosa include The Final Cheats, manutenzione Easy Anti-Cheat e dove andare prima dell'acquisto.",
+					intro: "I cheat The Finals aggiungono ESP, radar e soft aim al gioco base. Questa pagina spiega cosa sono i thefinals cheats, cosa include The Final Cheats, manutenzione Easy Anti-Cheat e dove andare prima dell'acquisto.",
 					imageAlt: "The Final Cheats overview — ESP, aimbot, and radar for The Finals",
 					galleryTitle: "Aspetto in-game",
 					ctaPrimary: "Acquista The Final Cheats",
@@ -6517,7 +6517,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Cosa sono i cheat The Finals?",
 							paragraphs: [
-								"I cheat The Finals sono tool di terze parti che danno info extra e assistenza in combattimento durante i match. Molti cercano the finals cheats per ESP giocatori, loot, radar off-screen o mira più fluida sotto pressione.",
+								"I cheat The Finals sono tool di terze parti che danno info extra e assistenza in combattimento durante i match. Molti cercano thefinals cheats per ESP giocatori, loot, radar off-screen o mira più fluida sotto pressione.",
 								"The Final Cheats raggruppa questi tool in una licenza Windows PC — senza download separati per wallhack, radar e aimbot.",
 							],
 						},
@@ -6588,7 +6588,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
-							h2: "How the finals cheat download delivery works",
+							h2: "How thefinals cheat download delivery works",
 							paragraphs: [
 								"The Final Cheats unisce ESP wallhack, radar hack e The Finals Aimbot indetectable per The Finals su PC Windows. download licenza digitale dopo il pagamento",
 								"Keep your order confirmation and license email ready for the <a href=\"/setup/\">Guida installazione</a> and Support requests.",
@@ -6692,9 +6692,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"best-cheats": {
 					title: "Migliori cheat The Finals | Checklist acquirente",
-					description: "Migliori cheat The Finals: cosa confrontare prima di acquistare the finals cheats. consegna digitale istantanea. indetectable — PC Windows.",
+					description: "Migliori cheat The Finals: cosa confrontare prima di acquistare thefinals cheats. consegna digitale istantanea. indetectable — PC Windows.",
 					h1: "Migliori cheat The Finals",
-					intro: "The Final Cheats unisce ESP wallhack, radar hack e The Finals Aimbot indetectable per The Finals su PC Windows. Migliori cheat The Finals. cosa confrontare prima di acquistare the finals cheats.",
+					intro: "The Final Cheats unisce ESP wallhack, radar hack e The Finals Aimbot indetectable per The Finals su PC Windows. Migliori cheat The Finals. cosa confrontare prima di acquistare thefinals cheats.",
 					imageAlt: "The Final Cheats overview for The Finals on PC",
 					galleryTitle: "Migliori cheat The Finals",
 					ctaPrimary: "Acquista The Final Cheats",
@@ -6702,25 +6702,25 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
-							h2: "What makes the finals cheats in 2026",
+							h2: "What makes thefinals cheats in 2026",
 							paragraphs: [
-								"The Final Cheats unisce ESP wallhack, radar hack e The Finals Aimbot indetectable per The Finals su PC Windows. cosa confrontare prima di acquistare the finals cheats",
+								"The Final Cheats unisce ESP wallhack, radar hack e The Finals Aimbot indetectable per The Finals su PC Windows. cosa confrontare prima di acquistare thefinals cheats",
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Easy Anti-Cheat.",
 								"Verify the live game is healthy via <a href=\"https://store.steampowered.com/app/2073850/THE_FINALS/\" target=\"_blank\" rel=\"noopener noreferrer\">The Finals on Steam</a>, then confirm our <a href=\"/updates/\">Stato live</a> note before you judge any package “best.”",
 							],
 						},
 						{
-							h2: "Best the finals cheats feature checklist",
+							h2: "Best thefinals cheats feature checklist",
 							paragraphs: [
-								"The Final Cheats unisce ESP wallhack, radar hack e The Finals Aimbot indetectable per The Finals su PC Windows. cosa confrontare prima di acquistare the finals cheats",
+								"The Final Cheats unisce ESP wallhack, radar hack e The Finals Aimbot indetectable per The Finals su PC Windows. cosa confrontare prima di acquistare thefinals cheats",
 								"Review <a href=\"/features/\">Tutte le funzioni</a>, <a href=\"/finals-cheats/\">Panoramica The Final Cheats</a>, and <a href=\"/finals-cheats/\">Panoramica The Final Cheats</a> before checkout — monthly ($35) and lifetime ($150) plans available.",
 								"Module pages worth opening: <a href=\"/finals-esp/\">Guida ESP e wallhack</a>, <a href=\"/finals-aimbot/\">Aimbot e soft aim</a>, <a href=\"/finals-cheats/\">Panoramica The Final Cheats</a>.",
 							],
 						},
 						{
-							h2: "Buying the finals cheats safely",
+							h2: "Buying thefinals cheats safely",
 							paragraphs: [
-								"The Final Cheats unisce ESP wallhack, radar hack e The Finals Aimbot indetectable per The Finals su PC Windows. cosa confrontare prima di acquistare the finals cheats",
+								"The Final Cheats unisce ESP wallhack, radar hack e The Finals Aimbot indetectable per The Finals su PC Windows. cosa confrontare prima di acquistare thefinals cheats",
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Easy Anti-Cheat.",
 								"Controlla Updates dopo patch Easy Anti-Cheat. Nessun cheat garantisce stato indetectable permanente.",
 							],
@@ -7024,7 +7024,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 			pages: {
 				home: {
 					title: "The Final Cheats 2026 | ESP, Wallhack & Aimbot",
-					description: "Undetected the finals cheats voor The Finals op PC. ESP wallhack, radar hack en Aimbot met Easy Anti-Cheat-onderhoud. Directe digitale levering.",
+					description: "Undetected thefinals cheats voor The Finals op PC. ESP wallhack, radar hack en Aimbot met Easy Anti-Cheat-onderhoud. Directe digitale levering.",
 					h1: "The Final Cheats — Undetected ESP, Wallhack & Aimbot",
 					intro: "Undetected Windows PC pakket voor The Finals: ESP wallhack, radar en Aimbot met Easy Anti-Cheat-onderhoud na elke patch.",
 					imageAlt: "The Finals ESP player tags hack",
@@ -7052,7 +7052,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"finals-esp": {
 					title: "ESP| Wallhack & Player Boxes | The Final Cheats",
-					description: "The Finals ESP wallhack with player boxes, vault markers and distance tags on Windows PC. Undetected the finals cheats from The Final Cheats — aimbot and radar included. Buy at thefinalscheats.org.",
+					description: "The Finals ESP wallhack with player boxes, vault markers and distance tags on Windows PC. Undetected thefinals cheats from The Final Cheats — aimbot and radar included. Buy at thefinalscheats.org.",
 					h1: "ESP",
 					intro: "Zie spelers en loot door muren tijdens The Finals matches. Onderdeel van dezelfde The Final Cheats-licentie.",
 					imageAlt: "The Finals ESP player boxes and distance readouts in a match",
@@ -7231,7 +7231,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				pricing: {
 					title: "Winkel| $35/mo or $150 Lifetime",
-					description: "Buy the finals cheats at thefinalscheats.org — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.",
+					description: "Buy thefinals cheats at thefinalscheats.org — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.",
 					h1: "Winkel",
 					intro: "The Final Cheats bundelt ESP wallhack, radar hack en The Finals Aimbot als undetected pakket voor The Finals op Windows PC. Winkel — $35/maand y $150 lifetime.",
 					imageAlt: "The Final Cheats store plans for monthly and lifetime licenses",
@@ -7380,7 +7380,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				faq: {
 					title: "FAQ| ESP, Aimbot & Easy Anti-Cheat Answers",
-					description: "The Final Cheats FAQ — delivery, setup, undetected status, Easy Anti-Cheat updates, pricing and refunds for the finals cheats on Windows PC. Clear answers at thefinalscheats.org before you buy.",
+					description: "The Final Cheats FAQ — delivery, setup, undetected status, Easy Anti-Cheat updates, pricing and refunds for thefinals cheats on Windows PC. Clear answers at thefinalscheats.org before you buy.",
 					h1: "FAQ",
 					intro: "Veelgestelde vragen over The Final Cheats — levering, setup, updates en restituties.",
 					imageAlt: "The Final Cheats FAQ — delivery, setup, and update answers",
@@ -7507,7 +7507,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					description: "The Finals Wallhack: wallhack ESP voor spelers, karkassen en afstand. directe digitale levering. undetected — Windows PC.",
 					h1: "The Finals Wallhack",
 					intro: "The Final Cheats bundelt ESP wallhack, radar hack en The Finals Aimbot als undetected pakket voor The Finals op Windows PC. The Finals Wallhack. wallhack ESP voor spelers, karkassen en afstand.",
-					imageAlt: "the finals wallhack visibility through walls in a match",
+					imageAlt: "thefinals wallhack visibility through walls in a match",
 					galleryTitle: "The Finals Wallhack",
 					ctaPrimary: "The Final Cheats kopen",
 					ctaSecondary: "Bekijk functies",
@@ -7618,9 +7618,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheats-2026": {
 					title: "The Final Cheats 2026 | cheats-2026",
-					description: "The Final Cheats 2026: 2026 the finals cheats checklist vóór checkout. directe digitale levering. undetected — Windows PC.",
+					description: "The Final Cheats 2026: 2026 thefinals cheats checklist vóór checkout. directe digitale levering. undetected — Windows PC.",
 					h1: "The Final Cheats 2026",
-					intro: "The Final Cheats bundelt ESP wallhack, radar hack en The Finals Aimbot als undetected pakket voor The Finals op Windows PC. The Final Cheats 2026. 2026 the finals cheats checklist vóór checkout.",
+					intro: "The Final Cheats bundelt ESP wallhack, radar hack en The Finals Aimbot als undetected pakket voor The Finals op Windows PC. The Final Cheats 2026. 2026 thefinals cheats checklist vóór checkout.",
 					imageAlt: "The Final Cheats product overview for The Finals",
 					galleryTitle: "The Final Cheats 2026",
 					ctaPrimary: "The Final Cheats kopen",
@@ -7628,9 +7628,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/finals-cheats/",
 					sections: [
 						{
-							h2: "Why the finals cheats buyers choose The Final Cheats in 2026",
+							h2: "Why thefinals cheats buyers choose The Final Cheats in 2026",
 							paragraphs: [
-								"The Final Cheats bundelt ESP wallhack, radar hack en The Finals Aimbot als undetected pakket voor The Finals op Windows PC. 2026 the finals cheats checklist vóór checkout",
+								"The Final Cheats bundelt ESP wallhack, radar hack en The Finals Aimbot als undetected pakket voor The Finals op Windows PC. 2026 thefinals cheats checklist vóór checkout",
 								"Track official season messaging on undefined, then use our <a href=\"/updates/\">Live status</a> for product rebuild timing.",
 								"Monthly ($35) and lifetime ($150) plans cover match and farming run loops — see <a href=\"/pricing/\">Winkel</a>.",
 							],
@@ -7638,7 +7638,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Full feature stack for 2026 buyers",
 							paragraphs: [
-								"The Final Cheats bundelt ESP wallhack, radar hack en The Finals Aimbot als undetected pakket voor The Finals op Windows PC. 2026 the finals cheats checklist vóór checkout",
+								"The Final Cheats bundelt ESP wallhack, radar hack en The Finals Aimbot als undetected pakket voor The Finals op Windows PC. 2026 thefinals cheats checklist vóór checkout",
 								"Deep links: <a href=\"/finals-cheats/\">The Final Cheats overzicht</a>, <a href=\"/finals-esp/\">ESP- en wallhack-gids</a>, <a href=\"/finals-aimbot/\">Aimbot en soft aim</a>, <a href=\"/finals-esp/\">ESP- en wallhack-gids</a>, <a href=\"/finals-radar-hack/\">2D-radaroverlay</a>, <a href=\"/finals-cheats/\">The Final Cheats overzicht</a>.",
 								"Check Updates na Easy Anti-Cheat-patches. Geen cheat garandeert permanent undetected status.",
 							],
@@ -7656,9 +7656,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				hacks: {
 					title: "The Final Cheats — Volledige gids| ESP, Aimbot & Wallhack | The Final Cheats",
-					description: "Full the finals cheats guide from The Final Cheats — undetected ESP wallhack, soft aim, 2D radar and Easy Anti-Cheat rebuilds on Windows PC. Compare features and buy at thefinalscheats.org from $35.",
+					description: "Full thefinals cheats guide from The Final Cheats — undetected ESP wallhack, soft aim, 2D radar and Easy Anti-Cheat rebuilds on Windows PC. Compare features and buy at thefinalscheats.org from $35.",
 					h1: "The Final Cheats — Volledige gids",
-					intro: "The Finals cheats voegen ESP, radar en soft aim toe aan het basisspel. Deze pagina legt uit wat the finals cheats zijn, wat The Final Cheats bevat, Easy Anti-Cheat-onderhoud en volgende stappen vóór aankoop.",
+					intro: "The Finals cheats voegen ESP, radar en soft aim toe aan het basisspel. Deze pagina legt uit wat thefinals cheats zijn, wat The Final Cheats bevat, Easy Anti-Cheat-onderhoud en volgende stappen vóór aankoop.",
 					imageAlt: "The Final Cheats overview — ESP, aimbot, and radar for The Finals",
 					galleryTitle: "In-game weergave",
 					ctaPrimary: "The Final Cheats kopen",
@@ -7668,7 +7668,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Wat zijn The Finals cheats?",
 							paragraphs: [
-								"The Finals cheats zijn tools van derden met extra info en gevechtshulp tijdens matches. De meeste zoeken the finals cheats voor speler-ESP, loot, off-screen radar of soepeler richten onder druk.",
+								"The Finals cheats zijn tools van derden met extra info en gevechtshulp tijdens matches. De meeste zoeken thefinals cheats voor speler-ESP, loot, off-screen radar of soepeler richten onder druk.",
 								"The Final Cheats bundelt die tools in één Windows PC-licentie — geen aparte wallhack-, radar- en aimbot-downloads.",
 							],
 						},
@@ -7739,7 +7739,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
-							h2: "How the finals cheat download delivery works",
+							h2: "How thefinals cheat download delivery works",
 							paragraphs: [
 								"The Final Cheats bundelt ESP wallhack, radar hack en The Finals Aimbot als undetected pakket voor The Finals op Windows PC. digitale licentiedownload na betaling",
 								"Keep your order confirmation and license email ready for the <a href=\"/setup/\">Installatiegids</a> and Support requests.",
@@ -7843,9 +7843,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"best-cheats": {
 					title: "Beste The Final Cheats | best-cheats",
-					description: "Beste The Final Cheats: wat te vergelijken vóór aankoop van the finals cheats. directe digitale levering. undetected — Windows PC.",
+					description: "Beste The Final Cheats: wat te vergelijken vóór aankoop van thefinals cheats. directe digitale levering. undetected — Windows PC.",
 					h1: "Beste The Final Cheats",
-					intro: "The Final Cheats bundelt ESP wallhack, radar hack en The Finals Aimbot als undetected pakket voor The Finals op Windows PC. Beste The Final Cheats. wat te vergelijken vóór aankoop van the finals cheats.",
+					intro: "The Final Cheats bundelt ESP wallhack, radar hack en The Finals Aimbot als undetected pakket voor The Finals op Windows PC. Beste The Final Cheats. wat te vergelijken vóór aankoop van thefinals cheats.",
 					imageAlt: "The Final Cheats overview for The Finals on PC",
 					galleryTitle: "Beste The Final Cheats",
 					ctaPrimary: "The Final Cheats kopen",
@@ -7853,25 +7853,25 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
-							h2: "What makes the finals cheats in 2026",
+							h2: "What makes thefinals cheats in 2026",
 							paragraphs: [
-								"The Final Cheats bundelt ESP wallhack, radar hack en The Finals Aimbot als undetected pakket voor The Finals op Windows PC. wat te vergelijken vóór aankoop van the finals cheats",
+								"The Final Cheats bundelt ESP wallhack, radar hack en The Finals Aimbot als undetected pakket voor The Finals op Windows PC. wat te vergelijken vóór aankoop van thefinals cheats",
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Easy Anti-Cheat-onderhoud.",
 								"Verify the live game is healthy via <a href=\"https://store.steampowered.com/app/2073850/THE_FINALS/\" target=\"_blank\" rel=\"noopener noreferrer\">The Finals on Steam</a>, then confirm our <a href=\"/updates/\">Live status</a> note before you judge any package “best.”",
 							],
 						},
 						{
-							h2: "Best the finals cheats feature checklist",
+							h2: "Best thefinals cheats feature checklist",
 							paragraphs: [
-								"The Final Cheats bundelt ESP wallhack, radar hack en The Finals Aimbot als undetected pakket voor The Finals op Windows PC. wat te vergelijken vóór aankoop van the finals cheats",
+								"The Final Cheats bundelt ESP wallhack, radar hack en The Finals Aimbot als undetected pakket voor The Finals op Windows PC. wat te vergelijken vóór aankoop van thefinals cheats",
 								"Review <a href=\"/features/\">Alle functies</a>, <a href=\"/finals-cheats/\">The Final Cheats overzicht</a>, and <a href=\"/finals-cheats/\">The Final Cheats overzicht</a> before checkout — monthly ($35) and lifetime ($150) plans available.",
 								"Module pages worth opening: <a href=\"/finals-esp/\">ESP- en wallhack-gids</a>, <a href=\"/finals-aimbot/\">Aimbot en soft aim</a>, <a href=\"/finals-cheats/\">The Final Cheats overzicht</a>.",
 							],
 						},
 						{
-							h2: "Buying the finals cheats safely",
+							h2: "Buying thefinals cheats safely",
 							paragraphs: [
-								"The Final Cheats bundelt ESP wallhack, radar hack en The Finals Aimbot als undetected pakket voor The Finals op Windows PC. wat te vergelijken vóór aankoop van the finals cheats",
+								"The Final Cheats bundelt ESP wallhack, radar hack en The Finals Aimbot als undetected pakket voor The Finals op Windows PC. wat te vergelijken vóór aankoop van thefinals cheats",
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Easy Anti-Cheat-onderhoud.",
 								"Check Updates na Easy Anti-Cheat-patches. Geen cheat garandeert permanent undetected status.",
 							],
@@ -8203,7 +8203,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"finals-esp": {
 					title: "ESP| Wallhack & Player Boxes | The Final Cheats",
-					description: "The Finals ESP wallhack with player boxes, vault markers and distance tags on Windows PC. Undetected the finals cheats from The Final Cheats — aimbot and radar included. Buy at thefinalscheats.org.",
+					description: "The Finals ESP wallhack with player boxes, vault markers and distance tags on Windows PC. Undetected thefinals cheats from The Final Cheats — aimbot and radar included. Buy at thefinalscheats.org.",
 					h1: "ESP",
 					intro: "Widz graczy i loot przez ściany podczas matchów The Finals. Część tej samej licencji The Final Cheats.",
 					imageAlt: "The Finals ESP player boxes and distance readouts in a match",
@@ -8382,7 +8382,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				pricing: {
 					title: "Sklep| $35/mo or $150 Lifetime",
-					description: "Buy the finals cheats at thefinalscheats.org — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.",
+					description: "Buy thefinals cheats at thefinalscheats.org — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.",
 					h1: "Sklep",
 					intro: "The Final Cheats łączy ESP wallhack, radar hack i The Finals Aimbot jako pakiet undetected dla The Finals na PC Windows. Sklep — $35/mies. y $150 lifetime.",
 					imageAlt: "The Final Cheats store plans for monthly and lifetime licenses",
@@ -8531,7 +8531,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				faq: {
 					title: "FAQ| ESP, Aimbot & Easy Anti-Cheat Answers",
-					description: "The Final Cheats FAQ — delivery, setup, undetected status, Easy Anti-Cheat updates, pricing and refunds for the finals cheats on Windows PC. Clear answers at thefinalscheats.org before you buy.",
+					description: "The Final Cheats FAQ — delivery, setup, undetected status, Easy Anti-Cheat updates, pricing and refunds for thefinals cheats on Windows PC. Clear answers at thefinalscheats.org before you buy.",
 					h1: "FAQ",
 					intro: "FAQ o The Final Cheats — dostawa, instalacja, aktualizacje i zwroty.",
 					imageAlt: "The Final Cheats FAQ — delivery, setup, and update answers",
@@ -8658,7 +8658,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					description: "The Finals Wallhack: wallhack ESP dla graczy, tusz i dystansu. natychmiastowa dostawa cyfrowa. undetected — PC Windows.",
 					h1: "The Finals Wallhack",
 					intro: "The Final Cheats łączy ESP wallhack, radar hack i The Finals Aimbot jako pakiet undetected dla The Finals na PC Windows. The Finals Wallhack. wallhack ESP dla graczy, tusz i dystansu.",
-					imageAlt: "the finals wallhack visibility through walls in a match",
+					imageAlt: "thefinals wallhack visibility through walls in a match",
 					galleryTitle: "The Finals Wallhack",
 					ctaPrimary: "Kup The Final Cheats",
 					ctaSecondary: "Zobacz funkcje",
@@ -8769,9 +8769,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheats-2026": {
 					title: "Cheaty The Finals 2026 | cheats-2026",
-					description: "Cheaty The Finals 2026: checklista the finals cheats 2026 przed checkout. natychmiastowa dostawa cyfrowa. undetected — PC Windows.",
+					description: "Cheaty The Finals 2026: checklista thefinals cheats 2026 przed checkout. natychmiastowa dostawa cyfrowa. undetected — PC Windows.",
 					h1: "Cheaty The Finals 2026",
-					intro: "The Final Cheats łączy ESP wallhack, radar hack i The Finals Aimbot jako pakiet undetected dla The Finals na PC Windows. Cheaty The Finals 2026. checklista the finals cheats 2026 przed checkout.",
+					intro: "The Final Cheats łączy ESP wallhack, radar hack i The Finals Aimbot jako pakiet undetected dla The Finals na PC Windows. Cheaty The Finals 2026. checklista thefinals cheats 2026 przed checkout.",
 					imageAlt: "The Final Cheats product overview for The Finals",
 					galleryTitle: "Cheaty The Finals 2026",
 					ctaPrimary: "Kup The Final Cheats",
@@ -8779,9 +8779,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/finals-cheats/",
 					sections: [
 						{
-							h2: "Why the finals cheats buyers choose The Final Cheats in 2026",
+							h2: "Why thefinals cheats buyers choose The Final Cheats in 2026",
 							paragraphs: [
-								"The Final Cheats łączy ESP wallhack, radar hack i The Finals Aimbot jako pakiet undetected dla The Finals na PC Windows. checklista the finals cheats 2026 przed checkout",
+								"The Final Cheats łączy ESP wallhack, radar hack i The Finals Aimbot jako pakiet undetected dla The Finals na PC Windows. checklista thefinals cheats 2026 przed checkout",
 								"Track official season messaging on undefined, then use our <a href=\"/updates/\">Status na żywo</a> for product rebuild timing.",
 								"Monthly ($35) and lifetime ($150) plans cover match and farming run loops — see <a href=\"/pricing/\">Sklep</a>.",
 							],
@@ -8789,7 +8789,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Full feature stack for 2026 buyers",
 							paragraphs: [
-								"The Final Cheats łączy ESP wallhack, radar hack i The Finals Aimbot jako pakiet undetected dla The Finals na PC Windows. checklista the finals cheats 2026 przed checkout",
+								"The Final Cheats łączy ESP wallhack, radar hack i The Finals Aimbot jako pakiet undetected dla The Finals na PC Windows. checklista thefinals cheats 2026 przed checkout",
 								"Deep links: <a href=\"/finals-cheats/\">Przegląd The Final Cheats</a>, <a href=\"/finals-esp/\">Przewodnik ESP i wallhack</a>, <a href=\"/finals-aimbot/\">Aimbot i soft aim</a>, <a href=\"/finals-esp/\">Przewodnik ESP i wallhack</a>, <a href=\"/finals-radar-hack/\">Overlay radaru 2D</a>, <a href=\"/finals-cheats/\">Przegląd The Final Cheats</a>.",
 								"Sprawdź Updates po patchach Easy Anti-Cheat. Żaden cheat nie gwarantuje permanentnego undetected statusu.",
 							],
@@ -8807,9 +8807,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				hacks: {
 					title: "The Final Cheats — Pełny przewodnik| ESP, Aimbot & Wallhack | The Final Cheats",
-					description: "Full the finals cheats guide from The Final Cheats — undetected ESP wallhack, soft aim, 2D radar and Easy Anti-Cheat rebuilds on Windows PC. Compare features and buy at thefinalscheats.org from $35.",
+					description: "Full thefinals cheats guide from The Final Cheats — undetected ESP wallhack, soft aim, 2D radar and Easy Anti-Cheat rebuilds on Windows PC. Compare features and buy at thefinalscheats.org from $35.",
 					h1: "The Final Cheats — Pełny przewodnik",
-					intro: "The Finals cheats dodają ESP, radar i soft aim do gry bazowej. Ta strona wyjaśnia czym są the finals cheats, co zawiera The Final Cheats, konserwację Easy Anti-Cheat i co dalej przed zakupem.",
+					intro: "The Finals cheats dodają ESP, radar i soft aim do gry bazowej. Ta strona wyjaśnia czym są thefinals cheats, co zawiera The Final Cheats, konserwację Easy Anti-Cheat i co dalej przed zakupem.",
 					imageAlt: "The Final Cheats overview — ESP, aimbot, and radar for The Finals",
 					galleryTitle: "Wygląd w grze",
 					ctaPrimary: "Kup The Final Cheats",
@@ -8819,7 +8819,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Czym są cheaty The Finals?",
 							paragraphs: [
-								"The Finals cheats to narzędzia firm trzecich dające dodatkowe info i wsparcie w walce podczas matchów. Większość szuka the finals cheats dla ESP graczy, lootu, radaru off-screen lub płynniejszego aimu pod presją.",
+								"The Finals cheats to narzędzia firm trzecich dające dodatkowe info i wsparcie w walce podczas matchów. Większość szuka thefinals cheats dla ESP graczy, lootu, radaru off-screen lub płynniejszego aimu pod presją.",
 								"The Final Cheats łączy te narzędzia w jednej licencji na Windows PC — bez osobnych pobrań wallhack, radar i aimbot.",
 							],
 						},
@@ -8890,7 +8890,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
-							h2: "How the finals cheat download delivery works",
+							h2: "How thefinals cheat download delivery works",
 							paragraphs: [
 								"The Final Cheats łączy ESP wallhack, radar hack i The Finals Aimbot jako pakiet undetected dla The Finals na PC Windows. cyfrowe pobranie licencji po płatności",
 								"Keep your order confirmation and license email ready for the <a href=\"/setup/\">Przewodnik instalacji</a> and Support requests.",
@@ -8994,9 +8994,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"best-cheats": {
 					title: "Najlepsze cheaty The Finals | best-cheats",
-					description: "Najlepsze cheaty The Finals: co porównać przed zakupem the finals cheats. natychmiastowa dostawa cyfrowa. undetected — PC Windows.",
+					description: "Najlepsze cheaty The Finals: co porównać przed zakupem thefinals cheats. natychmiastowa dostawa cyfrowa. undetected — PC Windows.",
 					h1: "Najlepsze cheaty The Finals",
-					intro: "The Final Cheats łączy ESP wallhack, radar hack i The Finals Aimbot jako pakiet undetected dla The Finals na PC Windows. Najlepsze cheaty The Finals. co porównać przed zakupem the finals cheats.",
+					intro: "The Final Cheats łączy ESP wallhack, radar hack i The Finals Aimbot jako pakiet undetected dla The Finals na PC Windows. Najlepsze cheaty The Finals. co porównać przed zakupem thefinals cheats.",
 					imageAlt: "The Final Cheats overview for The Finals on PC",
 					galleryTitle: "Najlepsze cheaty The Finals",
 					ctaPrimary: "Kup The Final Cheats",
@@ -9004,25 +9004,25 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
-							h2: "What makes the finals cheats in 2026",
+							h2: "What makes thefinals cheats in 2026",
 							paragraphs: [
-								"The Final Cheats łączy ESP wallhack, radar hack i The Finals Aimbot jako pakiet undetected dla The Finals na PC Windows. co porównać przed zakupem the finals cheats",
+								"The Final Cheats łączy ESP wallhack, radar hack i The Finals Aimbot jako pakiet undetected dla The Finals na PC Windows. co porównać przed zakupem thefinals cheats",
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Easy Anti-Cheat.",
 								"Verify the live game is healthy via <a href=\"https://store.steampowered.com/app/2073850/THE_FINALS/\" target=\"_blank\" rel=\"noopener noreferrer\">The Finals on Steam</a>, then confirm our <a href=\"/updates/\">Status na żywo</a> note before you judge any package “best.”",
 							],
 						},
 						{
-							h2: "Best the finals cheats feature checklist",
+							h2: "Best thefinals cheats feature checklist",
 							paragraphs: [
-								"The Final Cheats łączy ESP wallhack, radar hack i The Finals Aimbot jako pakiet undetected dla The Finals na PC Windows. co porównać przed zakupem the finals cheats",
+								"The Final Cheats łączy ESP wallhack, radar hack i The Finals Aimbot jako pakiet undetected dla The Finals na PC Windows. co porównać przed zakupem thefinals cheats",
 								"Review <a href=\"/features/\">Wszystkie funkcje</a>, <a href=\"/finals-cheats/\">Przegląd The Final Cheats</a>, and <a href=\"/finals-cheats/\">Przegląd The Final Cheats</a> before checkout — monthly ($35) and lifetime ($150) plans available.",
 								"Module pages worth opening: <a href=\"/finals-esp/\">Przewodnik ESP i wallhack</a>, <a href=\"/finals-aimbot/\">Aimbot i soft aim</a>, <a href=\"/finals-cheats/\">Przegląd The Final Cheats</a>.",
 							],
 						},
 						{
-							h2: "Buying the finals cheats safely",
+							h2: "Buying thefinals cheats safely",
 							paragraphs: [
-								"The Final Cheats łączy ESP wallhack, radar hack i The Finals Aimbot jako pakiet undetected dla The Finals na PC Windows. co porównać przed zakupem the finals cheats",
+								"The Final Cheats łączy ESP wallhack, radar hack i The Finals Aimbot jako pakiet undetected dla The Finals na PC Windows. co porównać przed zakupem thefinals cheats",
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Easy Anti-Cheat.",
 								"Sprawdź Updates po patchach Easy Anti-Cheat. Żaden cheat nie gwarantuje permanentnego undetected statusu.",
 							],
@@ -9354,7 +9354,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"finals-esp": {
 					title: "ESP| Wallhack & Player Boxes | The Final Cheats",
-					description: "The Finals ESP wallhack with player boxes, vault markers and distance tags on Windows PC. Undetected the finals cheats from The Final Cheats — aimbot and radar included. Buy at thefinalscheats.org.",
+					description: "The Finals ESP wallhack with player boxes, vault markers and distance tags on Windows PC. Undetected thefinals cheats from The Final Cheats — aimbot and radar included. Buy at thefinalscheats.org.",
 					h1: "ESP",
 					intro: "Видьте игроков и лут сквозь стены в рейдах The Finals. Часть той же лицензии The Final Cheats.",
 					imageAlt: "The Finals ESP player boxes and distance readouts in a match",
@@ -9533,7 +9533,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				pricing: {
 					title: "Магазин| $35/mo or $150 Lifetime",
-					description: "Buy the finals cheats at thefinalscheats.org — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.",
+					description: "Buy thefinals cheats at thefinalscheats.org — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.",
 					h1: "Магазин",
 					intro: "The Final Cheats объединяет ESP wallhack, radar hack и The Finals Aimbot в undetected пакете для The Finals на Windows PC. Магазин — $35/мес y $150 навсегда.",
 					imageAlt: "The Final Cheats store plans for monthly and lifetime licenses",
@@ -9682,7 +9682,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				faq: {
 					title: "FAQ| ESP, Aimbot & Easy Anti-Cheat Answers",
-					description: "The Final Cheats FAQ — delivery, setup, undetected status, Easy Anti-Cheat updates, pricing and refunds for the finals cheats on Windows PC. Clear answers at thefinalscheats.org before you buy.",
+					description: "The Final Cheats FAQ — delivery, setup, undetected status, Easy Anti-Cheat updates, pricing and refunds for thefinals cheats on Windows PC. Clear answers at thefinalscheats.org before you buy.",
 					h1: "FAQ",
 					intro: "Частые вопросы о The Final Cheats — доставка, установка, обновления и возвраты.",
 					imageAlt: "The Final Cheats FAQ — delivery, setup, and update answers",
@@ -9809,7 +9809,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					description: "The Finals Wallhack: wallhack ESP для игроков, туш и дистанции. мгновенная цифровая доставка. undetected — Windows PC.",
 					h1: "The Finals Wallhack",
 					intro: "The Final Cheats объединяет ESP wallhack, radar hack и The Finals Aimbot в undetected пакете для The Finals на Windows PC. The Finals Wallhack. wallhack ESP для игроков, туш и дистанции.",
-					imageAlt: "the finals wallhack visibility through walls in a match",
+					imageAlt: "thefinals wallhack visibility through walls in a match",
 					galleryTitle: "The Finals Wallhack",
 					ctaPrimary: "Купить The Final Cheats",
 					ctaSecondary: "Смотреть функции",
@@ -9920,9 +9920,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheats-2026": {
 					title: "Читы The Finals 2026 | Гайд покупателя",
-					description: "Читы The Finals 2026: чеклист the finals cheats 2026 перед checkout. мгновенная цифровая доставка. undetected — Windows PC.",
+					description: "Читы The Finals 2026: чеклист thefinals cheats 2026 перед checkout. мгновенная цифровая доставка. undetected — Windows PC.",
 					h1: "Читы The Finals 2026",
-					intro: "The Final Cheats объединяет ESP wallhack, radar hack и The Finals Aimbot в undetected пакете для The Finals на Windows PC. Читы The Finals 2026. чеклист the finals cheats 2026 перед checkout.",
+					intro: "The Final Cheats объединяет ESP wallhack, radar hack и The Finals Aimbot в undetected пакете для The Finals на Windows PC. Читы The Finals 2026. чеклист thefinals cheats 2026 перед checkout.",
 					imageAlt: "The Final Cheats product overview for The Finals",
 					galleryTitle: "Читы The Finals 2026",
 					ctaPrimary: "Купить The Final Cheats",
@@ -9930,9 +9930,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/finals-cheats/",
 					sections: [
 						{
-							h2: "Why the finals cheats buyers choose The Final Cheats in 2026",
+							h2: "Why thefinals cheats buyers choose The Final Cheats in 2026",
 							paragraphs: [
-								"The Final Cheats объединяет ESP wallhack, radar hack и The Finals Aimbot в undetected пакете для The Finals на Windows PC. чеклист the finals cheats 2026 перед checkout",
+								"The Final Cheats объединяет ESP wallhack, radar hack и The Finals Aimbot в undetected пакете для The Finals на Windows PC. чеклист thefinals cheats 2026 перед checkout",
 								"Track official season messaging on undefined, then use our <a href=\"/updates/\">Статус онлайн</a> for product rebuild timing.",
 								"Monthly ($35) and lifetime ($150) plans cover match and farming run loops — see <a href=\"/pricing/\">Магазин</a>.",
 							],
@@ -9940,7 +9940,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Full feature stack for 2026 buyers",
 							paragraphs: [
-								"The Final Cheats объединяет ESP wallhack, radar hack и The Finals Aimbot в undetected пакете для The Finals на Windows PC. чеклист the finals cheats 2026 перед checkout",
+								"The Final Cheats объединяет ESP wallhack, radar hack и The Finals Aimbot в undetected пакете для The Finals на Windows PC. чеклист thefinals cheats 2026 перед checkout",
 								"Deep links: <a href=\"/finals-cheats/\">Обзор The Final Cheats</a>, <a href=\"/finals-esp/\">Гайд ESP и wallhack</a>, <a href=\"/finals-aimbot/\">Aimbot и soft aim</a>, <a href=\"/finals-esp/\">Гайд ESP и wallhack</a>, <a href=\"/finals-radar-hack/\">2D радар overlay</a>, <a href=\"/finals-cheats/\">Обзор The Final Cheats</a>.",
 								"Проверяйте Updates после патчей Easy Anti-Cheat. Ни один чит не гарантирует постоянный undetected статус.",
 							],
@@ -9958,9 +9958,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				hacks: {
 					title: "The Final Cheats — Полный гайд| ESP, Aimbot & Wallhack | The Final Cheats",
-					description: "Full the finals cheats guide from The Final Cheats — undetected ESP wallhack, soft aim, 2D radar and Easy Anti-Cheat rebuilds on Windows PC. Compare features and buy at thefinalscheats.org from $35.",
+					description: "Full thefinals cheats guide from The Final Cheats — undetected ESP wallhack, soft aim, 2D radar and Easy Anti-Cheat rebuilds on Windows PC. Compare features and buy at thefinalscheats.org from $35.",
 					h1: "The Final Cheats — Полный гайд",
-					intro: "The Finals cheats добавляют ESP, radar и soft aim к базовой игре. Эта страница объясняет что такое the finals cheats, что входит в The Final Cheats, обслуживание Easy Anti-Cheat и куда идти перед покупкой.",
+					intro: "The Finals cheats добавляют ESP, radar и soft aim к базовой игре. Эта страница объясняет что такое thefinals cheats, что входит в The Final Cheats, обслуживание Easy Anti-Cheat и куда идти перед покупкой.",
 					imageAlt: "The Final Cheats overview — ESP, aimbot, and radar for The Finals",
 					galleryTitle: "Вид в игре",
 					ctaPrimary: "Купить The Final Cheats",
@@ -9970,7 +9970,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Что такое читы The Finals?",
 							paragraphs: [
-								"The Finals cheats — сторонние инструменты с доп. информацией и боевой помощью в рейдах. Ищут the finals cheats за ESP игроков, лут, off-screen radar или более плавный aim под давлением.",
+								"The Finals cheats — сторонние инструменты с доп. информацией и боевой помощью в рейдах. Ищут thefinals cheats за ESP игроков, лут, off-screen radar или более плавный aim под давлением.",
 								"The Final Cheats объединяет эти инструменты в одной лицензии для Windows PC — без отдельных загрузок wallhack, radar и aimbot.",
 							],
 						},
@@ -10041,7 +10041,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
-							h2: "How the finals cheat download delivery works",
+							h2: "How thefinals cheat download delivery works",
 							paragraphs: [
 								"The Final Cheats объединяет ESP wallhack, radar hack и The Finals Aimbot в undetected пакете для The Finals на Windows PC. цифровая загрузка лицензии после оплаты",
 								"Keep your order confirmation and license email ready for the <a href=\"/setup/\">Гайд по установке</a> and Support requests.",
@@ -10145,9 +10145,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"best-cheats": {
 					title: "Лучшие читы The Finals | Чеклист покупателя",
-					description: "Лучшие читы The Finals: что сравнить перед покупкой the finals cheats. мгновенная цифровая доставка. undetected — Windows PC.",
+					description: "Лучшие читы The Finals: что сравнить перед покупкой thefinals cheats. мгновенная цифровая доставка. undetected — Windows PC.",
 					h1: "Лучшие читы The Finals",
-					intro: "The Final Cheats объединяет ESP wallhack, radar hack и The Finals Aimbot в undetected пакете для The Finals на Windows PC. Лучшие читы The Finals. что сравнить перед покупкой the finals cheats.",
+					intro: "The Final Cheats объединяет ESP wallhack, radar hack и The Finals Aimbot в undetected пакете для The Finals на Windows PC. Лучшие читы The Finals. что сравнить перед покупкой thefinals cheats.",
 					imageAlt: "The Final Cheats overview for The Finals on PC",
 					galleryTitle: "Лучшие читы The Finals",
 					ctaPrimary: "Купить The Final Cheats",
@@ -10155,25 +10155,25 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
-							h2: "What makes the finals cheats in 2026",
+							h2: "What makes thefinals cheats in 2026",
 							paragraphs: [
-								"The Final Cheats объединяет ESP wallhack, radar hack и The Finals Aimbot в undetected пакете для The Finals на Windows PC. что сравнить перед покупкой the finals cheats",
+								"The Final Cheats объединяет ESP wallhack, radar hack и The Finals Aimbot в undetected пакете для The Finals на Windows PC. что сравнить перед покупкой thefinals cheats",
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Easy Anti-Cheat.",
 								"Verify the live game is healthy via <a href=\"https://store.steampowered.com/app/2073850/THE_FINALS/\" target=\"_blank\" rel=\"noopener noreferrer\">The Finals on Steam</a>, then confirm our <a href=\"/updates/\">Статус онлайн</a> note before you judge any package “best.”",
 							],
 						},
 						{
-							h2: "Best the finals cheats feature checklist",
+							h2: "Best thefinals cheats feature checklist",
 							paragraphs: [
-								"The Final Cheats объединяет ESP wallhack, radar hack и The Finals Aimbot в undetected пакете для The Finals на Windows PC. что сравнить перед покупкой the finals cheats",
+								"The Final Cheats объединяет ESP wallhack, radar hack и The Finals Aimbot в undetected пакете для The Finals на Windows PC. что сравнить перед покупкой thefinals cheats",
 								"Review <a href=\"/features/\">Все функции</a>, <a href=\"/finals-cheats/\">Обзор The Final Cheats</a>, and <a href=\"/finals-cheats/\">Обзор The Final Cheats</a> before checkout — monthly ($35) and lifetime ($150) plans available.",
 								"Module pages worth opening: <a href=\"/finals-esp/\">Гайд ESP и wallhack</a>, <a href=\"/finals-aimbot/\">Aimbot и soft aim</a>, <a href=\"/finals-cheats/\">Обзор The Final Cheats</a>.",
 							],
 						},
 						{
-							h2: "Buying the finals cheats safely",
+							h2: "Buying thefinals cheats safely",
 							paragraphs: [
-								"The Final Cheats объединяет ESP wallhack, radar hack и The Finals Aimbot в undetected пакете для The Finals на Windows PC. что сравнить перед покупкой the finals cheats",
+								"The Final Cheats объединяет ESP wallhack, radar hack и The Finals Aimbot в undetected пакете для The Finals на Windows PC. что сравнить перед покупкой thefinals cheats",
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Easy Anti-Cheat.",
 								"Проверяйте Updates после патчей Easy Anti-Cheat. Ни один чит не гарантирует постоянный undetected статус.",
 							],
@@ -10505,7 +10505,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"finals-esp": {
 					title: "ESP| Wallhack & Player Boxes | The Final Cheats",
-					description: "The Finals ESP wallhack with player boxes, vault markers and distance tags on Windows PC. Undetected the finals cheats from The Final Cheats — aimbot and radar included. Buy at thefinalscheats.org.",
+					description: "The Finals ESP wallhack with player boxes, vault markers and distance tags on Windows PC. Undetected thefinals cheats from The Final Cheats — aimbot and radar included. Buy at thefinalscheats.org.",
 					h1: "ESP",
 					intro: "The Finals matchlerinde duvarların ardından oyuncuları ve loot'u görün. Aynı The Final Cheats lisansının parçası.",
 					imageAlt: "The Finals ESP player boxes and distance readouts in a match",
@@ -10684,7 +10684,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				pricing: {
 					title: "Mağaza| $35/mo or $150 Lifetime",
-					description: "Buy the finals cheats at thefinalscheats.org — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.",
+					description: "Buy thefinals cheats at thefinalscheats.org — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.",
 					h1: "Mağaza",
 					intro: "The Final Cheats, The Finals için Windows PC üzerinde ESP wallhack, radar hack ve The Finals Aimbot undetected paket sunar. Mağaza — $35/ay y $150 ömür boyu.",
 					imageAlt: "The Final Cheats store plans for monthly and lifetime licenses",
@@ -10833,7 +10833,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				faq: {
 					title: "SSS| ESP, Aimbot & Easy Anti-Cheat Answers",
-					description: "The Final Cheats FAQ — delivery, setup, undetected status, Easy Anti-Cheat updates, pricing and refunds for the finals cheats on Windows PC. Clear answers at thefinalscheats.org before you buy.",
+					description: "The Final Cheats FAQ — delivery, setup, undetected status, Easy Anti-Cheat updates, pricing and refunds for thefinals cheats on Windows PC. Clear answers at thefinalscheats.org before you buy.",
 					h1: "SSS",
 					intro: "The Final Cheats SSS — teslimat, kurulum, güncellemeler ve iadeler.",
 					imageAlt: "The Final Cheats FAQ — delivery, setup, and update answers",
@@ -10960,7 +10960,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					description: "The Finals Wallhack: oyuncular, leşler ve mesafe için wallhack ESP. anında dijital teslimat. undetected — Windows PC.",
 					h1: "The Finals Wallhack",
 					intro: "The Final Cheats, The Finals için Windows PC üzerinde ESP wallhack, radar hack ve The Finals Aimbot undetected paket sunar. The Finals Wallhack. oyuncular, leşler ve mesafe için wallhack ESP.",
-					imageAlt: "the finals wallhack visibility through walls in a match",
+					imageAlt: "thefinals wallhack visibility through walls in a match",
 					galleryTitle: "The Finals Wallhack",
 					ctaPrimary: "The Final Cheats satın al",
 					ctaSecondary: "Özellikleri gör",
@@ -11071,9 +11071,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheats-2026": {
 					title: "The Finals Hileleri 2026 | cheats-2026",
-					description: "The Finals Hileleri 2026: checkout öncesi 2026 the finals cheats kontrol listesi. anında dijital teslimat. undetected — Windows PC.",
+					description: "The Finals Hileleri 2026: checkout öncesi 2026 thefinals cheats kontrol listesi. anında dijital teslimat. undetected — Windows PC.",
 					h1: "The Finals Hileleri 2026",
-					intro: "The Final Cheats, The Finals için Windows PC üzerinde ESP wallhack, radar hack ve The Finals Aimbot undetected paket sunar. The Finals Hileleri 2026. checkout öncesi 2026 the finals cheats kontrol listesi.",
+					intro: "The Final Cheats, The Finals için Windows PC üzerinde ESP wallhack, radar hack ve The Finals Aimbot undetected paket sunar. The Finals Hileleri 2026. checkout öncesi 2026 thefinals cheats kontrol listesi.",
 					imageAlt: "The Final Cheats product overview for The Finals",
 					galleryTitle: "The Finals Hileleri 2026",
 					ctaPrimary: "The Final Cheats satın al",
@@ -11081,9 +11081,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/finals-cheats/",
 					sections: [
 						{
-							h2: "Why the finals cheats buyers choose The Final Cheats in 2026",
+							h2: "Why thefinals cheats buyers choose The Final Cheats in 2026",
 							paragraphs: [
-								"The Final Cheats, The Finals için Windows PC üzerinde ESP wallhack, radar hack ve The Finals Aimbot undetected paket sunar. checkout öncesi 2026 the finals cheats kontrol listesi",
+								"The Final Cheats, The Finals için Windows PC üzerinde ESP wallhack, radar hack ve The Finals Aimbot undetected paket sunar. checkout öncesi 2026 thefinals cheats kontrol listesi",
 								"Track official season messaging on undefined, then use our <a href=\"/updates/\">Canlı durum</a> for product rebuild timing.",
 								"Monthly ($35) and lifetime ($150) plans cover match and farming run loops — see <a href=\"/pricing/\">Mağaza</a>.",
 							],
@@ -11091,7 +11091,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Full feature stack for 2026 buyers",
 							paragraphs: [
-								"The Final Cheats, The Finals için Windows PC üzerinde ESP wallhack, radar hack ve The Finals Aimbot undetected paket sunar. checkout öncesi 2026 the finals cheats kontrol listesi",
+								"The Final Cheats, The Finals için Windows PC üzerinde ESP wallhack, radar hack ve The Finals Aimbot undetected paket sunar. checkout öncesi 2026 thefinals cheats kontrol listesi",
 								"Deep links: <a href=\"/finals-cheats/\">The Final Cheats genel bakış</a>, <a href=\"/finals-esp/\">ESP ve wallhack rehberi</a>, <a href=\"/finals-aimbot/\">Aimbot ve soft aim</a>, <a href=\"/finals-esp/\">ESP ve wallhack rehberi</a>, <a href=\"/finals-radar-hack/\">2D radar overlay</a>, <a href=\"/finals-cheats/\">The Final Cheats genel bakış</a>.",
 								"Easy Anti-Cheat yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı undetected garantisi vermez.",
 							],
@@ -11109,9 +11109,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				hacks: {
 					title: "The Final Cheats — Tam rehber| ESP, Aimbot & Wallhack | The Final Cheats",
-					description: "Full the finals cheats guide from The Final Cheats — undetected ESP wallhack, soft aim, 2D radar and Easy Anti-Cheat rebuilds on Windows PC. Compare features and buy at thefinalscheats.org from $35.",
+					description: "Full thefinals cheats guide from The Final Cheats — undetected ESP wallhack, soft aim, 2D radar and Easy Anti-Cheat rebuilds on Windows PC. Compare features and buy at thefinalscheats.org from $35.",
 					h1: "The Final Cheats — Tam rehber",
-					intro: "The Finals hileleri temel oyuna ESP, radar ve soft aim ekler. Bu sayfa the finals cheats nedir, The Final Cheats neleri içerir, Easy Anti-Cheat bakımı ve satın almadan önce nereye gidileceğini açıklar.",
+					intro: "The Finals hileleri temel oyuna ESP, radar ve soft aim ekler. Bu sayfa thefinals cheats nedir, The Final Cheats neleri içerir, Easy Anti-Cheat bakımı ve satın almadan önce nereye gidileceğini açıklar.",
 					imageAlt: "The Final Cheats overview — ESP, aimbot, and radar for The Finals",
 					galleryTitle: "Oyun içi görünüm",
 					ctaPrimary: "The Final Cheats satın al",
@@ -11121,7 +11121,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "The Finals hileleri nedir?",
 							paragraphs: [
-								"The Finals hileleri match sırasında ekstra bilgi ve savaş desteği veren üçüncü taraf araçlardır. Çoğu oyuncu ESP, loot, off-screen radar veya baskı altında daha yumuşak nişan için the finals cheats arar.",
+								"The Finals hileleri match sırasında ekstra bilgi ve savaş desteği veren üçüncü taraf araçlardır. Çoğu oyuncu ESP, loot, off-screen radar veya baskı altında daha yumuşak nişan için thefinals cheats arar.",
 								"The Final Cheats bu araçları Windows PC için tek lisans altında toplar — ayrı wallhack, radar ve aimbot indirmeleri yok.",
 							],
 						},
@@ -11192,7 +11192,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
-							h2: "How the finals cheat download delivery works",
+							h2: "How thefinals cheat download delivery works",
 							paragraphs: [
 								"The Final Cheats, The Finals için Windows PC üzerinde ESP wallhack, radar hack ve The Finals Aimbot undetected paket sunar. ödeme sonrası dijital lisans indirme",
 								"Keep your order confirmation and license email ready for the <a href=\"/setup/\">Kurulum rehberi</a> and Support requests.",
@@ -11296,9 +11296,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"best-cheats": {
 					title: "En İyi The Finals Hileleri | best-cheats",
-					description: "En İyi The Finals Hileleri: the finals cheats satın almadan önce ne karşılaştırılmalı. anında dijital teslimat. undetected — Windows PC.",
+					description: "En İyi The Finals Hileleri: thefinals cheats satın almadan önce ne karşılaştırılmalı. anında dijital teslimat. undetected — Windows PC.",
 					h1: "En İyi The Finals Hileleri",
-					intro: "The Final Cheats, The Finals için Windows PC üzerinde ESP wallhack, radar hack ve The Finals Aimbot undetected paket sunar. En İyi The Finals Hileleri. the finals cheats satın almadan önce ne karşılaştırılmalı.",
+					intro: "The Final Cheats, The Finals için Windows PC üzerinde ESP wallhack, radar hack ve The Finals Aimbot undetected paket sunar. En İyi The Finals Hileleri. thefinals cheats satın almadan önce ne karşılaştırılmalı.",
 					imageAlt: "The Final Cheats overview for The Finals on PC",
 					galleryTitle: "En İyi The Finals Hileleri",
 					ctaPrimary: "The Final Cheats satın al",
@@ -11306,25 +11306,25 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
-							h2: "What makes the finals cheats in 2026",
+							h2: "What makes thefinals cheats in 2026",
 							paragraphs: [
-								"The Final Cheats, The Finals için Windows PC üzerinde ESP wallhack, radar hack ve The Finals Aimbot undetected paket sunar. the finals cheats satın almadan önce ne karşılaştırılmalı",
+								"The Final Cheats, The Finals için Windows PC üzerinde ESP wallhack, radar hack ve The Finals Aimbot undetected paket sunar. thefinals cheats satın almadan önce ne karşılaştırılmalı",
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Easy Anti-Cheat bakımı içerir.",
 								"Verify the live game is healthy via <a href=\"https://store.steampowered.com/app/2073850/THE_FINALS/\" target=\"_blank\" rel=\"noopener noreferrer\">The Finals on Steam</a>, then confirm our <a href=\"/updates/\">Canlı durum</a> note before you judge any package “best.”",
 							],
 						},
 						{
-							h2: "Best the finals cheats feature checklist",
+							h2: "Best thefinals cheats feature checklist",
 							paragraphs: [
-								"The Final Cheats, The Finals için Windows PC üzerinde ESP wallhack, radar hack ve The Finals Aimbot undetected paket sunar. the finals cheats satın almadan önce ne karşılaştırılmalı",
+								"The Final Cheats, The Finals için Windows PC üzerinde ESP wallhack, radar hack ve The Finals Aimbot undetected paket sunar. thefinals cheats satın almadan önce ne karşılaştırılmalı",
 								"Review <a href=\"/features/\">Tüm özellikler</a>, <a href=\"/finals-cheats/\">The Final Cheats genel bakış</a>, and <a href=\"/finals-cheats/\">The Final Cheats genel bakış</a> before checkout — monthly ($35) and lifetime ($150) plans available.",
 								"Module pages worth opening: <a href=\"/finals-esp/\">ESP ve wallhack rehberi</a>, <a href=\"/finals-aimbot/\">Aimbot ve soft aim</a>, <a href=\"/finals-cheats/\">The Final Cheats genel bakış</a>.",
 							],
 						},
 						{
-							h2: "Buying the finals cheats safely",
+							h2: "Buying thefinals cheats safely",
 							paragraphs: [
-								"The Final Cheats, The Finals için Windows PC üzerinde ESP wallhack, radar hack ve The Finals Aimbot undetected paket sunar. the finals cheats satın almadan önce ne karşılaştırılmalı",
+								"The Final Cheats, The Finals için Windows PC üzerinde ESP wallhack, radar hack ve The Finals Aimbot undetected paket sunar. thefinals cheats satın almadan önce ne karşılaştırılmalı",
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Easy Anti-Cheat bakımı içerir.",
 								"Easy Anti-Cheat yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı undetected garantisi vermez.",
 							],
@@ -11656,7 +11656,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"finals-esp": {
 					title: "ESP| Wallhack & Player Boxes | The Final Cheats",
-					description: "The Finals ESP wallhack with player boxes, vault markers and distance tags on Windows PC. Undetected the finals cheats from The Final Cheats — aimbot and radar included. Buy at thefinalscheats.org.",
+					description: "The Finals ESP wallhack with player boxes, vault markers and distance tags on Windows PC. Undetected thefinals cheats from The Final Cheats — aimbot and radar included. Buy at thefinalscheats.org.",
 					h1: "ESP",
 					intro: "شاهد اللاعبين والloot عبر الجدران أثناء matches في The Finals. جزء من نفس ترخيص The Final Cheats.",
 					imageAlt: "The Finals ESP player boxes and distance readouts in a match",
@@ -11835,7 +11835,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				pricing: {
 					title: "المتجر| $35/mo or $150 Lifetime",
-					description: "Buy the finals cheats at thefinalscheats.org — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.",
+					description: "Buy thefinals cheats at thefinalscheats.org — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.",
 					h1: "المتجر",
 					intro: "The Final Cheats يجمع ESP wallhack وradar hack وThe Finals Aimbot غير مكتشف لـ The Finals على Windows PC. المتجر — 35$/شهر y 150$ مدى الحياة.",
 					imageAlt: "The Final Cheats store plans for monthly and lifetime licenses",
@@ -11984,7 +11984,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				faq: {
 					title: "الأسئلة الشائعة| ESP, Aimbot & Easy Anti-Cheat Answers",
-					description: "The Final Cheats FAQ — delivery, setup, undetected status, Easy Anti-Cheat updates, pricing and refunds for the finals cheats on Windows PC. Clear answers at thefinalscheats.org before you buy.",
+					description: "The Final Cheats FAQ — delivery, setup, undetected status, Easy Anti-Cheat updates, pricing and refunds for thefinals cheats on Windows PC. Clear answers at thefinalscheats.org before you buy.",
 					h1: "الأسئلة الشائعة",
 					intro: "أسئلة شائعة عن The Final Cheats — التسليم والتثبيت والتحديثات والاسترداد.",
 					imageAlt: "The Final Cheats FAQ — delivery, setup, and update answers",
@@ -12111,7 +12111,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					description: "The Finals Wallhack: wallhack ESP للاعبين والجيف والمسافة. تسليم رقمي فوري. غير مكتشف — Windows PC.",
 					h1: "The Finals Wallhack",
 					intro: "The Final Cheats يجمع ESP wallhack وradar hack وThe Finals Aimbot غير مكتشف لـ The Finals على Windows PC. The Finals Wallhack. wallhack ESP للاعبين والجيف والمسافة.",
-					imageAlt: "the finals wallhack visibility through walls in a match",
+					imageAlt: "thefinals wallhack visibility through walls in a match",
 					galleryTitle: "The Finals Wallhack",
 					ctaPrimary: "اشترِ The Final Cheats",
 					ctaSecondary: "عرض الميزات",
@@ -12222,9 +12222,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheats-2026": {
 					title: "غش The Finals 2026 | cheats-2026",
-					description: "غش The Finals 2026: قائمة the finals cheats 2026 قبل checkout. تسليم رقمي فوري. غير مكتشف — Windows PC.",
+					description: "غش The Finals 2026: قائمة thefinals cheats 2026 قبل checkout. تسليم رقمي فوري. غير مكتشف — Windows PC.",
 					h1: "غش The Finals 2026",
-					intro: "The Final Cheats يجمع ESP wallhack وradar hack وThe Finals Aimbot غير مكتشف لـ The Finals على Windows PC. غش The Finals 2026. قائمة the finals cheats 2026 قبل checkout.",
+					intro: "The Final Cheats يجمع ESP wallhack وradar hack وThe Finals Aimbot غير مكتشف لـ The Finals على Windows PC. غش The Finals 2026. قائمة thefinals cheats 2026 قبل checkout.",
 					imageAlt: "The Final Cheats product overview for The Finals",
 					galleryTitle: "غش The Finals 2026",
 					ctaPrimary: "اشترِ The Final Cheats",
@@ -12232,9 +12232,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/finals-cheats/",
 					sections: [
 						{
-							h2: "Why the finals cheats buyers choose The Final Cheats in 2026",
+							h2: "Why thefinals cheats buyers choose The Final Cheats in 2026",
 							paragraphs: [
-								"The Final Cheats يجمع ESP wallhack وradar hack وThe Finals Aimbot غير مكتشف لـ The Finals على Windows PC. قائمة the finals cheats 2026 قبل checkout",
+								"The Final Cheats يجمع ESP wallhack وradar hack وThe Finals Aimbot غير مكتشف لـ The Finals على Windows PC. قائمة thefinals cheats 2026 قبل checkout",
 								"Track official season messaging on undefined, then use our <a href=\"/updates/\">الحالة المباشرة</a> for product rebuild timing.",
 								"Monthly ($35) and lifetime ($150) plans cover match and farming run loops — see <a href=\"/pricing/\">المتجر</a>.",
 							],
@@ -12242,7 +12242,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Full feature stack for 2026 buyers",
 							paragraphs: [
-								"The Final Cheats يجمع ESP wallhack وradar hack وThe Finals Aimbot غير مكتشف لـ The Finals على Windows PC. قائمة the finals cheats 2026 قبل checkout",
+								"The Final Cheats يجمع ESP wallhack وradar hack وThe Finals Aimbot غير مكتشف لـ The Finals على Windows PC. قائمة thefinals cheats 2026 قبل checkout",
 								"Deep links: <a href=\"/finals-cheats/\">نظرة عامة على The Final Cheats</a>, <a href=\"/finals-esp/\">دليل ESP وWallhack</a>, <a href=\"/finals-aimbot/\">Aimbot وSoft aim</a>, <a href=\"/finals-esp/\">دليل ESP وWallhack</a>, <a href=\"/finals-radar-hack/\">تراكب رادار 2D</a>, <a href=\"/finals-cheats/\">نظرة عامة على The Final Cheats</a>.",
 								"راجع Updates بعد تص patches Easy Anti-Cheat. لا يضمن أي غش حالة undetected دائمة.",
 							],
@@ -12260,9 +12260,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				hacks: {
 					title: "The Final Cheats — دليل كامل| ESP, Aimbot & Wallhack | The Final Cheats",
-					description: "Full the finals cheats guide from The Final Cheats — undetected ESP wallhack, soft aim, 2D radar and Easy Anti-Cheat rebuilds on Windows PC. Compare features and buy at thefinalscheats.org from $35.",
+					description: "Full thefinals cheats guide from The Final Cheats — undetected ESP wallhack, soft aim, 2D radar and Easy Anti-Cheat rebuilds on Windows PC. Compare features and buy at thefinalscheats.org from $35.",
 					h1: "The Final Cheats — دليل كامل",
-					intro: "تضيف the finals cheats الـ ESP والرادار وsoft aim فوق اللعبة الأساسية. تشرح هذه الصفحة ما هي the finals cheats وما يتضمنه The Final Cheats وصيانة Easy Anti-Cheat وأين تذهب قبل الشراء.",
+					intro: "تضيف thefinals cheats الـ ESP والرادار وsoft aim فوق اللعبة الأساسية. تشرح هذه الصفحة ما هي thefinals cheats وما يتضمنه The Final Cheats وصيانة Easy Anti-Cheat وأين تذهب قبل الشراء.",
 					imageAlt: "The Final Cheats overview — ESP, aimbot, and radar for The Finals",
 					galleryTitle: "المظهر داخل اللعبة",
 					ctaPrimary: "اشترِ The Final Cheats",
@@ -12272,7 +12272,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "ما هي غش The Finals؟",
 							paragraphs: [
-								"the finals cheats أدوات طرف ثالث تمنحك معلومات إضافية ومساعدة قتالية أثناء الraid. يبحث معظم اللاعبين عن the finals cheats لـ ESP اللاعبين والloot والradar خارج الشاشة أو تصويب أنعم تحت الضغط.",
+								"thefinals cheats أدوات طرف ثالث تمنحك معلومات إضافية ومساعدة قتالية أثناء الraid. يبحث معظم اللاعبين عن thefinals cheats لـ ESP اللاعبين والloot والradar خارج الشاشة أو تصويب أنعم تحت الضغط.",
 								"The Final Cheats يجمع هذه الأدوات في ترخيص واحد لـ Windows PC — دون تحميلات منفصلة للwallhack والradar والaimbot.",
 							],
 						},
@@ -12343,7 +12343,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
-							h2: "How the finals cheat download delivery works",
+							h2: "How thefinals cheat download delivery works",
 							paragraphs: [
 								"The Final Cheats يجمع ESP wallhack وradar hack وThe Finals Aimbot غير مكتشف لـ The Finals على Windows PC. تنزيل ترخيص رقمي بعد الدفع",
 								"Keep your order confirmation and license email ready for the <a href=\"/setup/\">دليل التثبيت</a> and Support requests.",
@@ -12447,9 +12447,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"best-cheats": {
 					title: "أفضل غش The Finals | best-cheats",
-					description: "أفضل غش The Finals: ما يجب مقارنته قبل شراء the finals cheats. تسليم رقمي فوري. غير مكتشف — Windows PC.",
+					description: "أفضل غش The Finals: ما يجب مقارنته قبل شراء thefinals cheats. تسليم رقمي فوري. غير مكتشف — Windows PC.",
 					h1: "أفضل غش The Finals",
-					intro: "The Final Cheats يجمع ESP wallhack وradar hack وThe Finals Aimbot غير مكتشف لـ The Finals على Windows PC. أفضل غش The Finals. ما يجب مقارنته قبل شراء the finals cheats.",
+					intro: "The Final Cheats يجمع ESP wallhack وradar hack وThe Finals Aimbot غير مكتشف لـ The Finals على Windows PC. أفضل غش The Finals. ما يجب مقارنته قبل شراء thefinals cheats.",
 					imageAlt: "The Final Cheats overview for The Finals on PC",
 					galleryTitle: "أفضل غش The Finals",
 					ctaPrimary: "اشترِ The Final Cheats",
@@ -12457,25 +12457,25 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
-							h2: "What makes the finals cheats in 2026",
+							h2: "What makes thefinals cheats in 2026",
 							paragraphs: [
-								"The Final Cheats يجمع ESP wallhack وradar hack وThe Finals Aimbot غير مكتشف لـ The Finals على Windows PC. ما يجب مقارنته قبل شراء the finals cheats",
+								"The Final Cheats يجمع ESP wallhack وradar hack وThe Finals Aimbot غير مكتشف لـ The Finals على Windows PC. ما يجب مقارنته قبل شراء thefinals cheats",
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Easy Anti-Cheat.",
 								"Verify the live game is healthy via <a href=\"https://store.steampowered.com/app/2073850/THE_FINALS/\" target=\"_blank\" rel=\"noopener noreferrer\">The Finals on Steam</a>, then confirm our <a href=\"/updates/\">الحالة المباشرة</a> note before you judge any package “best.”",
 							],
 						},
 						{
-							h2: "Best the finals cheats feature checklist",
+							h2: "Best thefinals cheats feature checklist",
 							paragraphs: [
-								"The Final Cheats يجمع ESP wallhack وradar hack وThe Finals Aimbot غير مكتشف لـ The Finals على Windows PC. ما يجب مقارنته قبل شراء the finals cheats",
+								"The Final Cheats يجمع ESP wallhack وradar hack وThe Finals Aimbot غير مكتشف لـ The Finals على Windows PC. ما يجب مقارنته قبل شراء thefinals cheats",
 								"Review <a href=\"/features/\">جميع الميزات</a>, <a href=\"/finals-cheats/\">نظرة عامة على The Final Cheats</a>, and <a href=\"/finals-cheats/\">نظرة عامة على The Final Cheats</a> before checkout — monthly ($35) and lifetime ($150) plans available.",
 								"Module pages worth opening: <a href=\"/finals-esp/\">دليل ESP وWallhack</a>, <a href=\"/finals-aimbot/\">Aimbot وSoft aim</a>, <a href=\"/finals-cheats/\">نظرة عامة على The Final Cheats</a>.",
 							],
 						},
 						{
-							h2: "Buying the finals cheats safely",
+							h2: "Buying thefinals cheats safely",
 							paragraphs: [
-								"The Final Cheats يجمع ESP wallhack وradar hack وThe Finals Aimbot غير مكتشف لـ The Finals على Windows PC. ما يجب مقارنته قبل شراء the finals cheats",
+								"The Final Cheats يجمع ESP wallhack وradar hack وThe Finals Aimbot غير مكتشف لـ The Finals على Windows PC. ما يجب مقارنته قبل شراء thefinals cheats",
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Easy Anti-Cheat.",
 								"راجع Updates بعد تص patches Easy Anti-Cheat. لا يضمن أي غش حالة undetected دائمة.",
 							],
@@ -12782,7 +12782,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					description: "The Finals向けundetectedチート。ESP wallhack、radar hack、Aimbot、Easy Anti-Cheatメンテナンス。即時デジタル配信。",
 					h1: "The Final Cheats — Undetected ESP・Wallhack・Aimbot",
 					intro: "The Finals Windows PC向けundetectedパッケージ：ESP wallhack、radar、Aimbot、Easy Anti-Cheatメンテナンス付き。",
-					imageAlt: "the finals cheats hero ESP aimbot wallhack",
+					imageAlt: "thefinals cheats hero ESP aimbot wallhack",
 					galleryTitle: "The Final Cheatsギャラリー — ESP、Aimbot、wallhack",
 					heroImage: "/images/finals-cheats-esp.webp",
 					ctaPrimary: "The Final Cheatsを購入",
@@ -12807,7 +12807,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"finals-esp": {
 					title: "ESP| Wallhack & Player Boxes | The Final Cheats",
-					description: "The Finals ESP wallhack with player boxes, vault markers and distance tags on Windows PC. Undetected the finals cheats from The Final Cheats — aimbot and radar included. Buy at thefinalscheats.org.",
+					description: "The Finals ESP wallhack with player boxes, vault markers and distance tags on Windows PC. Undetected thefinals cheats from The Final Cheats — aimbot and radar included. Buy at thefinalscheats.org.",
 					h1: "ESP",
 					intro: "The Finalsレイド中に壁越しでプレイヤーとlootを確認。同じThe Final Cheatsライセンスに含まれます。",
 					imageAlt: "The Finals ESP player boxes and distance readouts in a match",
@@ -12986,7 +12986,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				pricing: {
 					title: "ストア| $35/mo or $150 Lifetime",
-					description: "Buy the finals cheats at thefinalscheats.org — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.",
+					description: "Buy thefinals cheats at thefinalscheats.org — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.",
 					h1: "ストア",
 					intro: "The Final CheatsはThe Finals向けWindows PC用ESP wallhack、radar hack、The Finals Aimbotのundetectedパッケージです。ストア — $35/月 y $150永久.",
 					imageAlt: "The Final Cheats store plans for monthly and lifetime licenses",
@@ -13135,7 +13135,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				faq: {
 					title: "FAQ| ESP, Aimbot & Easy Anti-Cheat Answers",
-					description: "The Final Cheats FAQ — delivery, setup, undetected status, Easy Anti-Cheat updates, pricing and refunds for the finals cheats on Windows PC. Clear answers at thefinalscheats.org before you buy.",
+					description: "The Final Cheats FAQ — delivery, setup, undetected status, Easy Anti-Cheat updates, pricing and refunds for thefinals cheats on Windows PC. Clear answers at thefinalscheats.org before you buy.",
 					h1: "FAQ",
 					intro: "The Final Cheats FAQ — 配信、セットアップ、更新、返金。",
 					imageAlt: "The Final Cheats FAQ — delivery, setup, and update answers",
@@ -13262,7 +13262,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					description: "The Finals Wallhack: プレイヤー、死体、距離向けwallhack ESP. 即時デジタル配信. undetected — Windows PC.",
 					h1: "The Finals Wallhack",
 					intro: "The Final CheatsはThe Finals向けWindows PC用ESP wallhack、radar hack、The Finals Aimbotのundetectedパッケージです。The Finals Wallhack. プレイヤー、死体、距離向けwallhack ESP.",
-					imageAlt: "the finals wallhack visibility through walls in a match",
+					imageAlt: "thefinals wallhack visibility through walls in a match",
 					galleryTitle: "The Finals Wallhack",
 					ctaPrimary: "The Final Cheatsを購入",
 					ctaSecondary: "機能を見る",
@@ -13373,9 +13373,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheats-2026": {
 					title: "The Final Cheats 2026 | cheats-2026",
-					description: "The Final Cheats 2026: checkout前の2026 the finals cheatsチェックリスト. 即時デジタル配信. undetected — Windows PC.",
+					description: "The Final Cheats 2026: checkout前の2026 thefinals cheatsチェックリスト. 即時デジタル配信. undetected — Windows PC.",
 					h1: "The Final Cheats 2026",
-					intro: "The Final CheatsはThe Finals向けWindows PC用ESP wallhack、radar hack、The Finals Aimbotのundetectedパッケージです。The Final Cheats 2026. checkout前の2026 the finals cheatsチェックリスト.",
+					intro: "The Final CheatsはThe Finals向けWindows PC用ESP wallhack、radar hack、The Finals Aimbotのundetectedパッケージです。The Final Cheats 2026. checkout前の2026 thefinals cheatsチェックリスト.",
 					imageAlt: "The Final Cheats product overview for The Finals",
 					galleryTitle: "The Final Cheats 2026",
 					ctaPrimary: "The Final Cheatsを購入",
@@ -13383,9 +13383,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/finals-cheats/",
 					sections: [
 						{
-							h2: "Why the finals cheats buyers choose The Final Cheats in 2026",
+							h2: "Why thefinals cheats buyers choose The Final Cheats in 2026",
 							paragraphs: [
-								"The Final CheatsはThe Finals向けWindows PC用ESP wallhack、radar hack、The Finals Aimbotのundetectedパッケージです。checkout前の2026 the finals cheatsチェックリスト",
+								"The Final CheatsはThe Finals向けWindows PC用ESP wallhack、radar hack、The Finals Aimbotのundetectedパッケージです。checkout前の2026 thefinals cheatsチェックリスト",
 								"Track official season messaging on undefined, then use our <a href=\"/updates/\">ライブステータス</a> for product rebuild timing.",
 								"Monthly ($35) and lifetime ($150) plans cover match and farming run loops — see <a href=\"/pricing/\">ストア</a>.",
 							],
@@ -13393,7 +13393,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Full feature stack for 2026 buyers",
 							paragraphs: [
-								"The Final CheatsはThe Finals向けWindows PC用ESP wallhack、radar hack、The Finals Aimbotのundetectedパッケージです。checkout前の2026 the finals cheatsチェックリスト",
+								"The Final CheatsはThe Finals向けWindows PC用ESP wallhack、radar hack、The Finals Aimbotのundetectedパッケージです。checkout前の2026 thefinals cheatsチェックリスト",
 								"Deep links: <a href=\"/finals-cheats/\">The Final Cheats概要</a>, <a href=\"/finals-esp/\">ESP・Wallhackガイド</a>, <a href=\"/finals-aimbot/\">Aimbot・Soft aim</a>, <a href=\"/finals-esp/\">ESP・Wallhackガイド</a>, <a href=\"/finals-radar-hack/\">2Dレーダーオーバーレイ</a>, <a href=\"/finals-cheats/\">The Final Cheats概要</a>.",
 								"Easy Anti-Cheatパッチ後はUpdatesページを確認。永久undetectedは保証されません。",
 							],
@@ -13411,9 +13411,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				hacks: {
 					title: "The Final Cheats — 完全ガイド| ESP, Aimbot & Wallhack | The Final Cheats",
-					description: "Full the finals cheats guide from The Final Cheats — undetected ESP wallhack, soft aim, 2D radar and Easy Anti-Cheat rebuilds on Windows PC. Compare features and buy at thefinalscheats.org from $35.",
+					description: "Full thefinals cheats guide from The Final Cheats — undetected ESP wallhack, soft aim, 2D radar and Easy Anti-Cheat rebuilds on Windows PC. Compare features and buy at thefinalscheats.org from $35.",
 					h1: "The Final Cheats — 完全ガイド",
-					intro: "The FinalsチートはベースゲームにESP、radar、soft aimを追加します。このページではthe finals cheatsの概要、The Final Cheatsの内容、Easy Anti-Cheatメンテナンス、購入前の確認先を説明します。",
+					intro: "The FinalsチートはベースゲームにESP、radar、soft aimを追加します。このページではthefinals cheatsの概要、The Final Cheatsの内容、Easy Anti-Cheatメンテナンス、購入前の確認先を説明します。",
 					imageAlt: "The Final Cheats overview — ESP, aimbot, and radar for The Finals",
 					galleryTitle: "ゲーム内の見た目",
 					ctaPrimary: "The Final Cheatsを購入",
@@ -13423,7 +13423,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "The Finalsチートとは？",
 							paragraphs: [
-								"The Finalsチートはレイド中に追加情報と戦闘支援を提供するサードパーティツールです。プレイヤーESP、loot、オフスクリーンradar、プレッシャー下でのスムーズなエイム目的でthe finals cheatsを探す人が多いです。",
+								"The Finalsチートはレイド中に追加情報と戦闘支援を提供するサードパーティツールです。プレイヤーESP、loot、オフスクリーンradar、プレッシャー下でのスムーズなエイム目的でthefinals cheatsを探す人が多いです。",
 								"The Final Cheatsはwallhack、radar、aimbotをWindows PC向け1ライセンスにまとめます — 個別ダウンロード不要。",
 							],
 						},
@@ -13494,7 +13494,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
-							h2: "How the finals cheat download delivery works",
+							h2: "How thefinals cheat download delivery works",
 							paragraphs: [
 								"The Final CheatsはThe Finals向けWindows PC用ESP wallhack、radar hack、The Finals Aimbotのundetectedパッケージです。支払い後のデジタルライセンスダウンロード",
 								"Keep your order confirmation and license email ready for the <a href=\"/setup/\">セットアップガイド</a> and Support requests.",
@@ -13598,9 +13598,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"best-cheats": {
 					title: "最強The Finalsチート | best-cheats",
-					description: "最強The Finalsチート: the finals cheats購入前に比較すべき点. 即時デジタル配信. undetected — Windows PC.",
+					description: "最強The Finalsチート: thefinals cheats購入前に比較すべき点. 即時デジタル配信. undetected — Windows PC.",
 					h1: "最強The Finalsチート",
-					intro: "The Final CheatsはThe Finals向けWindows PC用ESP wallhack、radar hack、The Finals Aimbotのundetectedパッケージです。最強The Finalsチート. the finals cheats購入前に比較すべき点.",
+					intro: "The Final CheatsはThe Finals向けWindows PC用ESP wallhack、radar hack、The Finals Aimbotのundetectedパッケージです。最強The Finalsチート. thefinals cheats購入前に比較すべき点.",
 					imageAlt: "The Final Cheats overview for The Finals on PC",
 					galleryTitle: "最強The Finalsチート",
 					ctaPrimary: "The Final Cheatsを購入",
@@ -13608,25 +13608,25 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
-							h2: "What makes the finals cheats in 2026",
+							h2: "What makes thefinals cheats in 2026",
 							paragraphs: [
-								"The Final CheatsはThe Finals向けWindows PC用ESP wallhack、radar hack、The Finals Aimbotのundetectedパッケージです。the finals cheats購入前に比較すべき点",
+								"The Final CheatsはThe Finals向けWindows PC用ESP wallhack、radar hack、The Finals Aimbotのundetectedパッケージです。thefinals cheats購入前に比較すべき点",
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにEasy Anti-Cheatメンテナンス含む。",
 								"Verify the live game is healthy via <a href=\"https://store.steampowered.com/app/2073850/THE_FINALS/\" target=\"_blank\" rel=\"noopener noreferrer\">The Finals on Steam</a>, then confirm our <a href=\"/updates/\">ライブステータス</a> note before you judge any package “best.”",
 							],
 						},
 						{
-							h2: "Best the finals cheats feature checklist",
+							h2: "Best thefinals cheats feature checklist",
 							paragraphs: [
-								"The Final CheatsはThe Finals向けWindows PC用ESP wallhack、radar hack、The Finals Aimbotのundetectedパッケージです。the finals cheats購入前に比較すべき点",
+								"The Final CheatsはThe Finals向けWindows PC用ESP wallhack、radar hack、The Finals Aimbotのundetectedパッケージです。thefinals cheats購入前に比較すべき点",
 								"Review <a href=\"/features/\">全機能</a>, <a href=\"/finals-cheats/\">The Final Cheats概要</a>, and <a href=\"/finals-cheats/\">The Final Cheats概要</a> before checkout — monthly ($35) and lifetime ($150) plans available.",
 								"Module pages worth opening: <a href=\"/finals-esp/\">ESP・Wallhackガイド</a>, <a href=\"/finals-aimbot/\">Aimbot・Soft aim</a>, <a href=\"/finals-cheats/\">The Final Cheats概要</a>.",
 							],
 						},
 						{
-							h2: "Buying the finals cheats safely",
+							h2: "Buying thefinals cheats safely",
 							paragraphs: [
-								"The Final CheatsはThe Finals向けWindows PC用ESP wallhack、radar hack、The Finals Aimbotのundetectedパッケージです。the finals cheats購入前に比較すべき点",
+								"The Final CheatsはThe Finals向けWindows PC用ESP wallhack、radar hack、The Finals Aimbotのundetectedパッケージです。thefinals cheats購入前に比較すべき点",
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにEasy Anti-Cheatメンテナンス含む。",
 								"Easy Anti-Cheatパッチ後はUpdatesページを確認。永久undetectedは保証されません。",
 							],
@@ -13933,7 +13933,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					description: "The Finals undetected 치트. ESP wallhack, radar hack, Aimbot, Easy Anti-Cheat 유지보수. 즉시 디지털 배송.",
 					h1: "The Final Cheats — Undetected ESP, Wallhack, Aimbot",
 					intro: "The Finals Windows PC undetected 패키지: ESP wallhack, radar, Aimbot, Easy Anti-Cheat 유지보수 포함.",
-					imageAlt: "the finals cheats hero ESP aimbot wallhack",
+					imageAlt: "thefinals cheats hero ESP aimbot wallhack",
 					galleryTitle: "The Final Cheats 갤러리 — ESP, Aimbot, wallhack",
 					heroImage: "/images/finals-cheats-esp.webp",
 					ctaPrimary: "The Final Cheats 구매",
@@ -13958,7 +13958,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"finals-esp": {
 					title: "ESP| Wallhack & Player Boxes | The Final Cheats",
-					description: "The Finals ESP wallhack with player boxes, vault markers and distance tags on Windows PC. Undetected the finals cheats from The Final Cheats — aimbot and radar included. Buy at thefinalscheats.org.",
+					description: "The Finals ESP wallhack with player boxes, vault markers and distance tags on Windows PC. Undetected thefinals cheats from The Final Cheats — aimbot and radar included. Buy at thefinalscheats.org.",
 					h1: "ESP",
 					intro: "The Finals 레이드 중 벽 너머로 플레이어와 loot를 확인하세요. 동일 The Final Cheats 라이선스에 포함됩니다.",
 					imageAlt: "The Finals ESP player boxes and distance readouts in a match",
@@ -14137,7 +14137,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				pricing: {
 					title: "스토어| $35/mo or $150 Lifetime",
-					description: "Buy the finals cheats at thefinalscheats.org — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.",
+					description: "Buy thefinals cheats at thefinalscheats.org — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.",
 					h1: "스토어",
 					intro: "The Final Cheats는 The Finals Windows PC용 ESP wallhack, radar hack, The Finals Aimbot undetected 패키지입니다. 스토어 — $35/월 y $150 평생.",
 					imageAlt: "The Final Cheats store plans for monthly and lifetime licenses",
@@ -14286,7 +14286,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				faq: {
 					title: "FAQ| ESP, Aimbot & Easy Anti-Cheat Answers",
-					description: "The Final Cheats FAQ — delivery, setup, undetected status, Easy Anti-Cheat updates, pricing and refunds for the finals cheats on Windows PC. Clear answers at thefinalscheats.org before you buy.",
+					description: "The Final Cheats FAQ — delivery, setup, undetected status, Easy Anti-Cheat updates, pricing and refunds for thefinals cheats on Windows PC. Clear answers at thefinalscheats.org before you buy.",
 					h1: "FAQ",
 					intro: "The Final Cheats FAQ — 배송, 설치, 업데이트, 환불.",
 					imageAlt: "The Final Cheats FAQ — delivery, setup, and update answers",
@@ -14413,7 +14413,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					description: "The Finals Wallhack: 플레이어, 시체, 거리용 wallhack ESP. 즉시 디지털 배송. undetected — Windows PC.",
 					h1: "The Finals Wallhack",
 					intro: "The Final Cheats는 The Finals Windows PC용 ESP wallhack, radar hack, The Finals Aimbot undetected 패키지입니다. The Finals Wallhack. 플레이어, 시체, 거리용 wallhack ESP.",
-					imageAlt: "the finals wallhack visibility through walls in a match",
+					imageAlt: "thefinals wallhack visibility through walls in a match",
 					galleryTitle: "The Finals Wallhack",
 					ctaPrimary: "The Final Cheats 구매",
 					ctaSecondary: "기능 보기",
@@ -14524,9 +14524,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheats-2026": {
 					title: "The Final Cheats 2026 | cheats-2026",
-					description: "The Final Cheats 2026: checkout 전 2026 the finals cheats 체크리스트. 즉시 디지털 배송. undetected — Windows PC.",
+					description: "The Final Cheats 2026: checkout 전 2026 thefinals cheats 체크리스트. 즉시 디지털 배송. undetected — Windows PC.",
 					h1: "The Final Cheats 2026",
-					intro: "The Final Cheats는 The Finals Windows PC용 ESP wallhack, radar hack, The Finals Aimbot undetected 패키지입니다. The Final Cheats 2026. checkout 전 2026 the finals cheats 체크리스트.",
+					intro: "The Final Cheats는 The Finals Windows PC용 ESP wallhack, radar hack, The Finals Aimbot undetected 패키지입니다. The Final Cheats 2026. checkout 전 2026 thefinals cheats 체크리스트.",
 					imageAlt: "The Final Cheats product overview for The Finals",
 					galleryTitle: "The Final Cheats 2026",
 					ctaPrimary: "The Final Cheats 구매",
@@ -14534,9 +14534,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/finals-cheats/",
 					sections: [
 						{
-							h2: "Why the finals cheats buyers choose The Final Cheats in 2026",
+							h2: "Why thefinals cheats buyers choose The Final Cheats in 2026",
 							paragraphs: [
-								"The Final Cheats는 The Finals Windows PC용 ESP wallhack, radar hack, The Finals Aimbot undetected 패키지입니다. checkout 전 2026 the finals cheats 체크리스트",
+								"The Final Cheats는 The Finals Windows PC용 ESP wallhack, radar hack, The Finals Aimbot undetected 패키지입니다. checkout 전 2026 thefinals cheats 체크리스트",
 								"Track official season messaging on undefined, then use our <a href=\"/updates/\">실시간 상태</a> for product rebuild timing.",
 								"Monthly ($35) and lifetime ($150) plans cover match and farming run loops — see <a href=\"/pricing/\">스토어</a>.",
 							],
@@ -14544,7 +14544,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Full feature stack for 2026 buyers",
 							paragraphs: [
-								"The Final Cheats는 The Finals Windows PC용 ESP wallhack, radar hack, The Finals Aimbot undetected 패키지입니다. checkout 전 2026 the finals cheats 체크리스트",
+								"The Final Cheats는 The Finals Windows PC용 ESP wallhack, radar hack, The Finals Aimbot undetected 패키지입니다. checkout 전 2026 thefinals cheats 체크리스트",
 								"Deep links: <a href=\"/finals-cheats/\">The Final Cheats 개요</a>, <a href=\"/finals-esp/\">ESP 및 wallhack 가이드</a>, <a href=\"/finals-aimbot/\">Aimbot 및 soft aim</a>, <a href=\"/finals-esp/\">ESP 및 wallhack 가이드</a>, <a href=\"/finals-radar-hack/\">2D 레이더 오버레이</a>, <a href=\"/finals-cheats/\">The Final Cheats 개요</a>.",
 								"Easy Anti-Cheat 패치 후 Updates 페이지 확인. 영구 undetected 보장 없음.",
 							],
@@ -14562,9 +14562,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				hacks: {
 					title: "The Final Cheats — 전체 가이드| ESP, Aimbot & Wallhack | The Final Cheats",
-					description: "Full the finals cheats guide from The Final Cheats — undetected ESP wallhack, soft aim, 2D radar and Easy Anti-Cheat rebuilds on Windows PC. Compare features and buy at thefinalscheats.org from $35.",
+					description: "Full thefinals cheats guide from The Final Cheats — undetected ESP wallhack, soft aim, 2D radar and Easy Anti-Cheat rebuilds on Windows PC. Compare features and buy at thefinalscheats.org from $35.",
 					h1: "The Final Cheats — 전체 가이드",
-					intro: "The Finals 치트는 기본 게임 위에 ESP, radar, soft aim을 추가합니다. 이 페이지는 the finals cheats란, The Final Cheats 포함 사항, Easy Anti-Cheat 유지보수, 구매 전 확인할 곳을 설명합니다.",
+					intro: "The Finals 치트는 기본 게임 위에 ESP, radar, soft aim을 추가합니다. 이 페이지는 thefinals cheats란, The Final Cheats 포함 사항, Easy Anti-Cheat 유지보수, 구매 전 확인할 곳을 설명합니다.",
 					imageAlt: "The Final Cheats overview — ESP, aimbot, and radar for The Finals",
 					galleryTitle: "인게임 화면",
 					ctaPrimary: "The Final Cheats 구매",
@@ -14574,7 +14574,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "The Finals 치트란?",
 							paragraphs: [
-								"The Finals 치트는 레이드 중 추가 정보와 전투 보조를 제공하는 서드파티 도구입니다. 플레이어 ESP, loot, off-screen radar, 압박 상황에서 부드러운 에임을 위해 the finals cheats를 찾습니다.",
+								"The Finals 치트는 레이드 중 추가 정보와 전투 보조를 제공하는 서드파티 도구입니다. 플레이어 ESP, loot, off-screen radar, 압박 상황에서 부드러운 에임을 위해 thefinals cheats를 찾습니다.",
 								"The Final Cheats는 wallhack, radar, aimbot을 Windows PC 단일 라이선스로 묶습니다 — 별도 다운로드 불필요.",
 							],
 						},
@@ -14645,7 +14645,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
-							h2: "How the finals cheat download delivery works",
+							h2: "How thefinals cheat download delivery works",
 							paragraphs: [
 								"The Final Cheats는 The Finals Windows PC용 ESP wallhack, radar hack, The Finals Aimbot undetected 패키지입니다. 결제 후 디지털 라이선스 다운로드",
 								"Keep your order confirmation and license email ready for the <a href=\"/setup/\">설치 가이드</a> and Support requests.",
@@ -14749,9 +14749,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"best-cheats": {
 					title: "최고의 The Finals 치트 | best-cheats",
-					description: "최고의 The Finals 치트: the finals cheats 구매 전 비교할 항목. 즉시 디지털 배송. undetected — Windows PC.",
+					description: "최고의 The Finals 치트: thefinals cheats 구매 전 비교할 항목. 즉시 디지털 배송. undetected — Windows PC.",
 					h1: "최고의 The Finals 치트",
-					intro: "The Final Cheats는 The Finals Windows PC용 ESP wallhack, radar hack, The Finals Aimbot undetected 패키지입니다. 최고의 The Finals 치트. the finals cheats 구매 전 비교할 항목.",
+					intro: "The Final Cheats는 The Finals Windows PC용 ESP wallhack, radar hack, The Finals Aimbot undetected 패키지입니다. 최고의 The Finals 치트. thefinals cheats 구매 전 비교할 항목.",
 					imageAlt: "The Final Cheats overview for The Finals on PC",
 					galleryTitle: "최고의 The Finals 치트",
 					ctaPrimary: "The Final Cheats 구매",
@@ -14759,25 +14759,25 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
-							h2: "What makes the finals cheats in 2026",
+							h2: "What makes thefinals cheats in 2026",
 							paragraphs: [
-								"The Final Cheats는 The Finals Windows PC용 ESP wallhack, radar hack, The Finals Aimbot undetected 패키지입니다. the finals cheats 구매 전 비교할 항목",
+								"The Final Cheats는 The Finals Windows PC용 ESP wallhack, radar hack, The Finals Aimbot undetected 패키지입니다. thefinals cheats 구매 전 비교할 항목",
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Easy Anti-Cheat 유지보수 포함.",
 								"Verify the live game is healthy via <a href=\"https://store.steampowered.com/app/2073850/THE_FINALS/\" target=\"_blank\" rel=\"noopener noreferrer\">The Finals on Steam</a>, then confirm our <a href=\"/updates/\">실시간 상태</a> note before you judge any package “best.”",
 							],
 						},
 						{
-							h2: "Best the finals cheats feature checklist",
+							h2: "Best thefinals cheats feature checklist",
 							paragraphs: [
-								"The Final Cheats는 The Finals Windows PC용 ESP wallhack, radar hack, The Finals Aimbot undetected 패키지입니다. the finals cheats 구매 전 비교할 항목",
+								"The Final Cheats는 The Finals Windows PC용 ESP wallhack, radar hack, The Finals Aimbot undetected 패키지입니다. thefinals cheats 구매 전 비교할 항목",
 								"Review <a href=\"/features/\">모든 기능</a>, <a href=\"/finals-cheats/\">The Final Cheats 개요</a>, and <a href=\"/finals-cheats/\">The Final Cheats 개요</a> before checkout — monthly ($35) and lifetime ($150) plans available.",
 								"Module pages worth opening: <a href=\"/finals-esp/\">ESP 및 wallhack 가이드</a>, <a href=\"/finals-aimbot/\">Aimbot 및 soft aim</a>, <a href=\"/finals-cheats/\">The Final Cheats 개요</a>.",
 							],
 						},
 						{
-							h2: "Buying the finals cheats safely",
+							h2: "Buying thefinals cheats safely",
 							paragraphs: [
-								"The Final Cheats는 The Finals Windows PC용 ESP wallhack, radar hack, The Finals Aimbot undetected 패키지입니다. the finals cheats 구매 전 비교할 항목",
+								"The Final Cheats는 The Finals Windows PC용 ESP wallhack, radar hack, The Finals Aimbot undetected 패키지입니다. thefinals cheats 구매 전 비교할 항목",
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Easy Anti-Cheat 유지보수 포함.",
 								"Easy Anti-Cheat 패치 후 Updates 페이지 확인. 영구 undetected 보장 없음.",
 							],
@@ -15084,7 +15084,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					description: "The Finals undetected作弊。ESP wallhack、radar hack、Aimbot、Easy Anti-Cheat维护。即时数字交付。",
 					h1: "The Final Cheats — Undetected ESP、Wallhack、Aimbot",
 					intro: "The Finals Windows PC undetected套餐：ESP wallhack、radar、Aimbot，含Easy Anti-Cheat维护。",
-					imageAlt: "the finals cheats hero ESP aimbot wallhack",
+					imageAlt: "thefinals cheats hero ESP aimbot wallhack",
 					galleryTitle: "The Final Cheats图库 — ESP、Aimbot、wallhack",
 					heroImage: "/images/finals-cheats-esp.webp",
 					ctaPrimary: "购买 The Final Cheats",
@@ -15109,7 +15109,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"finals-esp": {
 					title: "ESP| Wallhack & Player Boxes | The Final Cheats",
-					description: "The Finals ESP wallhack with player boxes, vault markers and distance tags on Windows PC. Undetected the finals cheats from The Final Cheats — aimbot and radar included. Buy at thefinalscheats.org.",
+					description: "The Finals ESP wallhack with player boxes, vault markers and distance tags on Windows PC. Undetected thefinals cheats from The Final Cheats — aimbot and radar included. Buy at thefinalscheats.org.",
 					h1: "ESP",
 					intro: "在 The Finals match 中透视玩家和物资。包含在同一 The Final Cheats 许可证中。",
 					imageAlt: "The Finals ESP player boxes and distance readouts in a match",
@@ -15288,7 +15288,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				pricing: {
 					title: "商店| $35/mo or $150 Lifetime",
-					description: "Buy the finals cheats at thefinalscheats.org — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.",
+					description: "Buy thefinals cheats at thefinalscheats.org — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.",
 					h1: "商店",
 					intro: "The Final Cheats为The FinalsWindows PC提供ESP wallhack、radar hack和The Finals Aimbotundetected套餐。商店 — $35/月 y $150终身.",
 					imageAlt: "The Final Cheats store plans for monthly and lifetime licenses",
@@ -15437,7 +15437,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				faq: {
 					title: "常见问题| ESP, Aimbot & Easy Anti-Cheat Answers",
-					description: "The Final Cheats FAQ — delivery, setup, undetected status, Easy Anti-Cheat updates, pricing and refunds for the finals cheats on Windows PC. Clear answers at thefinalscheats.org before you buy.",
+					description: "The Final Cheats FAQ — delivery, setup, undetected status, Easy Anti-Cheat updates, pricing and refunds for thefinals cheats on Windows PC. Clear answers at thefinalscheats.org before you buy.",
 					h1: "常见问题",
 					intro: "The Final Cheats 常见问题 — 交付、安装、更新和退款。",
 					imageAlt: "The Final Cheats FAQ — delivery, setup, and update answers",
@@ -15564,7 +15564,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					description: "The Finals Wallhack: 玩家、尸体和距离的wallhack ESP. 即时数字交付. undetected — Windows PC.",
 					h1: "The Finals Wallhack",
 					intro: "The Final Cheats为The FinalsWindows PC提供ESP wallhack、radar hack和The Finals Aimbotundetected套餐。The Finals Wallhack. 玩家、尸体和距离的wallhack ESP.",
-					imageAlt: "the finals wallhack visibility through walls in a match",
+					imageAlt: "thefinals wallhack visibility through walls in a match",
 					galleryTitle: "The Finals Wallhack",
 					ctaPrimary: "购买 The Final Cheats",
 					ctaSecondary: "查看功能",
@@ -15675,9 +15675,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheats-2026": {
 					title: "The Finals作弊 2026 | cheats-2026",
-					description: "The Finals作弊 2026: checkout前的2026 the finals cheats清单. 即时数字交付. undetected — Windows PC.",
+					description: "The Finals作弊 2026: checkout前的2026 thefinals cheats清单. 即时数字交付. undetected — Windows PC.",
 					h1: "The Finals作弊 2026",
-					intro: "The Final Cheats为The FinalsWindows PC提供ESP wallhack、radar hack和The Finals Aimbotundetected套餐。The Finals作弊 2026. checkout前的2026 the finals cheats清单.",
+					intro: "The Final Cheats为The FinalsWindows PC提供ESP wallhack、radar hack和The Finals Aimbotundetected套餐。The Finals作弊 2026. checkout前的2026 thefinals cheats清单.",
 					imageAlt: "The Final Cheats product overview for The Finals",
 					galleryTitle: "The Finals作弊 2026",
 					ctaPrimary: "购买 The Final Cheats",
@@ -15685,9 +15685,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/finals-cheats/",
 					sections: [
 						{
-							h2: "Why the finals cheats buyers choose The Final Cheats in 2026",
+							h2: "Why thefinals cheats buyers choose The Final Cheats in 2026",
 							paragraphs: [
-								"The Final Cheats为The FinalsWindows PC提供ESP wallhack、radar hack和The Finals Aimbotundetected套餐。checkout前的2026 the finals cheats清单",
+								"The Final Cheats为The FinalsWindows PC提供ESP wallhack、radar hack和The Finals Aimbotundetected套餐。checkout前的2026 thefinals cheats清单",
 								"Track official season messaging on undefined, then use our <a href=\"/updates/\">实时状态</a> for product rebuild timing.",
 								"Monthly ($35) and lifetime ($150) plans cover match and farming run loops — see <a href=\"/pricing/\">商店</a>.",
 							],
@@ -15695,7 +15695,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Full feature stack for 2026 buyers",
 							paragraphs: [
-								"The Final Cheats为The FinalsWindows PC提供ESP wallhack、radar hack和The Finals Aimbotundetected套餐。checkout前的2026 the finals cheats清单",
+								"The Final Cheats为The FinalsWindows PC提供ESP wallhack、radar hack和The Finals Aimbotundetected套餐。checkout前的2026 thefinals cheats清单",
 								"Deep links: <a href=\"/finals-cheats/\">The Final Cheats概览</a>, <a href=\"/finals-esp/\">ESP和透视指南</a>, <a href=\"/finals-aimbot/\">自瞄和软瞄准</a>, <a href=\"/finals-esp/\">ESP和透视指南</a>, <a href=\"/finals-radar-hack/\">2D雷达覆盖</a>, <a href=\"/finals-cheats/\">The Final Cheats概览</a>.",
 								"Easy Anti-Cheat补丁后请查看Updates页面。无任何作弊保证永久undetected。",
 							],
@@ -15713,9 +15713,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				hacks: {
 					title: "The Final Cheats — 完整指南| ESP, Aimbot & Wallhack | The Final Cheats",
-					description: "Full the finals cheats guide from The Final Cheats — undetected ESP wallhack, soft aim, 2D radar and Easy Anti-Cheat rebuilds on Windows PC. Compare features and buy at thefinalscheats.org from $35.",
+					description: "Full thefinals cheats guide from The Final Cheats — undetected ESP wallhack, soft aim, 2D radar and Easy Anti-Cheat rebuilds on Windows PC. Compare features and buy at thefinalscheats.org from $35.",
 					h1: "The Final Cheats — 完整指南",
-					intro: "The Finals cheats 在基础游戏上添加 ESP、radar 和 soft aim。本页说明什么是 the finals cheats、The Final Cheats 包含什么、Easy Anti-Cheat 维护以及购买前该看哪里。",
+					intro: "The Finals cheats 在基础游戏上添加 ESP、radar 和 soft aim。本页说明什么是 thefinals cheats、The Final Cheats 包含什么、Easy Anti-Cheat 维护以及购买前该看哪里。",
 					imageAlt: "The Final Cheats overview — ESP, aimbot, and radar for The Finals",
 					galleryTitle: "游戏内效果",
 					ctaPrimary: "购买 The Final Cheats",
@@ -15725,7 +15725,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "什么是The Finals作弊？",
 							paragraphs: [
-								"The Finals cheats 是第三方工具，在 match 中提供额外信息和战斗辅助。多数玩家为玩家 ESP、物资可见、屏幕外 radar 或高压下更稳的瞄准而搜索 the finals cheats。",
+								"The Finals cheats 是第三方工具，在 match 中提供额外信息和战斗辅助。多数玩家为玩家 ESP、物资可见、屏幕外 radar 或高压下更稳的瞄准而搜索 thefinals cheats。",
 								"The Final Cheats 将这些工具整合为 Windows PC 单一许可证 — 无需分别下载 wallhack、radar 和 aimbot。",
 							],
 						},
@@ -15796,7 +15796,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
-							h2: "How the finals cheat download delivery works",
+							h2: "How thefinals cheat download delivery works",
 							paragraphs: [
 								"The Final Cheats为The FinalsWindows PC提供ESP wallhack、radar hack和The Finals Aimbotundetected套餐。付款后的数字许可证下载",
 								"Keep your order confirmation and license email ready for the <a href=\"/setup/\">安装指南</a> and Support requests.",
@@ -15900,9 +15900,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"best-cheats": {
 					title: "最佳The Finals作弊 | best-cheats",
-					description: "最佳The Finals作弊: 购买the finals cheats前应比较的内容. 即时数字交付. undetected — Windows PC.",
+					description: "最佳The Finals作弊: 购买thefinals cheats前应比较的内容. 即时数字交付. undetected — Windows PC.",
 					h1: "最佳The Finals作弊",
-					intro: "The Final Cheats为The FinalsWindows PC提供ESP wallhack、radar hack和The Finals Aimbotundetected套餐。最佳The Finals作弊. 购买the finals cheats前应比较的内容.",
+					intro: "The Final Cheats为The FinalsWindows PC提供ESP wallhack、radar hack和The Finals Aimbotundetected套餐。最佳The Finals作弊. 购买thefinals cheats前应比较的内容.",
 					imageAlt: "The Final Cheats overview for The Finals on PC",
 					galleryTitle: "最佳The Finals作弊",
 					ctaPrimary: "购买 The Final Cheats",
@@ -15910,25 +15910,25 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
-							h2: "What makes the finals cheats in 2026",
+							h2: "What makes thefinals cheats in 2026",
 							paragraphs: [
-								"The Final Cheats为The FinalsWindows PC提供ESP wallhack、radar hack和The Finals Aimbotundetected套餐。购买the finals cheats前应比较的内容",
+								"The Final Cheats为The FinalsWindows PC提供ESP wallhack、radar hack和The Finals Aimbotundetected套餐。购买thefinals cheats前应比较的内容",
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Easy Anti-Cheat维护。",
 								"Verify the live game is healthy via <a href=\"https://store.steampowered.com/app/2073850/THE_FINALS/\" target=\"_blank\" rel=\"noopener noreferrer\">The Finals on Steam</a>, then confirm our <a href=\"/updates/\">实时状态</a> note before you judge any package “best.”",
 							],
 						},
 						{
-							h2: "Best the finals cheats feature checklist",
+							h2: "Best thefinals cheats feature checklist",
 							paragraphs: [
-								"The Final Cheats为The FinalsWindows PC提供ESP wallhack、radar hack和The Finals Aimbotundetected套餐。购买the finals cheats前应比较的内容",
+								"The Final Cheats为The FinalsWindows PC提供ESP wallhack、radar hack和The Finals Aimbotundetected套餐。购买thefinals cheats前应比较的内容",
 								"Review <a href=\"/features/\">所有功能</a>, <a href=\"/finals-cheats/\">The Final Cheats概览</a>, and <a href=\"/finals-cheats/\">The Final Cheats概览</a> before checkout — monthly ($35) and lifetime ($150) plans available.",
 								"Module pages worth opening: <a href=\"/finals-esp/\">ESP和透视指南</a>, <a href=\"/finals-aimbot/\">自瞄和软瞄准</a>, <a href=\"/finals-cheats/\">The Final Cheats概览</a>.",
 							],
 						},
 						{
-							h2: "Buying the finals cheats safely",
+							h2: "Buying thefinals cheats safely",
 							paragraphs: [
-								"The Final Cheats为The FinalsWindows PC提供ESP wallhack、radar hack和The Finals Aimbotundetected套餐。购买the finals cheats前应比较的内容",
+								"The Final Cheats为The FinalsWindows PC提供ESP wallhack、radar hack和The Finals Aimbotundetected套餐。购买thefinals cheats前应比较的内容",
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Easy Anti-Cheat维护。",
 								"Easy Anti-Cheat补丁后请查看Updates页面。无任何作弊保证永久undetected。",
 							],
@@ -16172,7 +16172,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					buyNow: "अभी खरीदें",
 				},
 				hero: {
-					accent: "Undetected the finals cheats",
+					accent: "Undetected thefinals cheats",
 					accentShort: "The Final Cheats",
 					subtitle: "The Finals Windows PC के लिए ESP wallhack, radar hack और Aimbot — Easy Anti-Cheat maintenance शामिल।",
 					subtitleShort: "The Finals PC के लिए ESP, radar और Aimbot",
@@ -16235,7 +16235,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					description: "The Finals undetected cheats. ESP wallhack, radar hack, Aimbot, Easy Anti-Cheat maintenance. Instant digital delivery.",
 					h1: "The Final Cheats — Undetected ESP, Wallhack और Aimbot",
 					intro: "The Finals Windows PC undetected पैकेज: ESP wallhack, radar, Aimbot, Easy Anti-Cheat maintenance सहित.",
-					imageAlt: "the finals cheats hero ESP aimbot wallhack",
+					imageAlt: "thefinals cheats hero ESP aimbot wallhack",
 					galleryTitle: "The Final Cheats gallery — ESP, Aimbot, wallhack",
 					heroImage: "/images/finals-cheats-esp.webp",
 					ctaPrimary: "The Final Cheats खरीदें",
@@ -16260,7 +16260,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"finals-esp": {
 					title: "ESP| Wallhack & Player Boxes | The Final Cheats",
-					description: "The Finals ESP wallhack with player boxes, vault markers and distance tags on Windows PC. Undetected the finals cheats from The Final Cheats — aimbot and radar included. Buy at thefinalscheats.org.",
+					description: "The Finals ESP wallhack with player boxes, vault markers and distance tags on Windows PC. Undetected thefinals cheats from The Final Cheats — aimbot and radar included. Buy at thefinalscheats.org.",
 					h1: "ESP",
 					intro: "The Finals matches में दीवारों के पार players और loot देखें। उसी The Final Cheats लाइसेंस का हिस्सा।",
 					imageAlt: "The Finals ESP player boxes and distance readouts in a match",
@@ -16439,7 +16439,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				pricing: {
 					title: "स्टोर| $35/mo or $150 Lifetime",
-					description: "Buy the finals cheats at thefinalscheats.org — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.",
+					description: "Buy thefinals cheats at thefinalscheats.org — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.",
 					h1: "स्टोर",
 					intro: "The Final Cheats The Finals के लिए Windows PC पर ESP wallhack, radar hack और The Finals Aimbot undetected पैकेज देता है। स्टोर — $35/माह y $150 लाइफ़टाइम.",
 					imageAlt: "The Final Cheats store plans for monthly and lifetime licenses",
@@ -16588,7 +16588,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				faq: {
 					title: "FAQ| ESP, Aimbot & Easy Anti-Cheat Answers",
-					description: "The Final Cheats FAQ — delivery, setup, undetected status, Easy Anti-Cheat updates, pricing and refunds for the finals cheats on Windows PC. Clear answers at thefinalscheats.org before you buy.",
+					description: "The Final Cheats FAQ — delivery, setup, undetected status, Easy Anti-Cheat updates, pricing and refunds for thefinals cheats on Windows PC. Clear answers at thefinalscheats.org before you buy.",
 					h1: "FAQ",
 					intro: "The Final Cheats FAQ — डिलीवरी, setup, अपडेट और रिफंड।",
 					imageAlt: "The Final Cheats FAQ — delivery, setup, and update answers",
@@ -16715,7 +16715,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					description: "The Finals Wallhack: players, loot और distance के लिए wallhack ESP. तुरंत डिजिटल डिलीवरी. undetected — Windows PC.",
 					h1: "The Finals Wallhack",
 					intro: "The Final Cheats The Finals के लिए Windows PC पर ESP wallhack, radar hack और The Finals Aimbot undetected पैकेज देता है। The Finals Wallhack. players, loot और distance के लिए wallhack ESP.",
-					imageAlt: "the finals wallhack visibility through walls in a match",
+					imageAlt: "thefinals wallhack visibility through walls in a match",
 					galleryTitle: "The Finals Wallhack",
 					ctaPrimary: "The Final Cheats खरीदें",
 					ctaSecondary: "फ़ीचर्स देखें",
@@ -16826,9 +16826,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheats-2026": {
 					title: "The Final Cheats 2026 | cheats-2026",
-					description: "The Final Cheats 2026: checkout से पहले 2026 the finals cheats checklist. तुरंत डिजिटल डिलीवरी. undetected — Windows PC.",
+					description: "The Final Cheats 2026: checkout से पहले 2026 thefinals cheats checklist. तुरंत डिजिटल डिलीवरी. undetected — Windows PC.",
 					h1: "The Final Cheats 2026",
-					intro: "The Final Cheats The Finals के लिए Windows PC पर ESP wallhack, radar hack और The Finals Aimbot undetected पैकेज देता है। The Final Cheats 2026. checkout से पहले 2026 the finals cheats checklist.",
+					intro: "The Final Cheats The Finals के लिए Windows PC पर ESP wallhack, radar hack और The Finals Aimbot undetected पैकेज देता है। The Final Cheats 2026. checkout से पहले 2026 thefinals cheats checklist.",
 					imageAlt: "The Final Cheats product overview for The Finals",
 					galleryTitle: "The Final Cheats 2026",
 					ctaPrimary: "The Final Cheats खरीदें",
@@ -16836,9 +16836,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/finals-cheats/",
 					sections: [
 						{
-							h2: "Why the finals cheats buyers choose The Final Cheats in 2026",
+							h2: "Why thefinals cheats buyers choose The Final Cheats in 2026",
 							paragraphs: [
-								"The Final Cheats The Finals के लिए Windows PC पर ESP wallhack, radar hack और The Finals Aimbot undetected पैकेज देता है। checkout से पहले 2026 the finals cheats checklist",
+								"The Final Cheats The Finals के लिए Windows PC पर ESP wallhack, radar hack और The Finals Aimbot undetected पैकेज देता है। checkout से पहले 2026 thefinals cheats checklist",
 								"Track official season messaging on undefined, then use our <a href=\"/updates/\">लाइव स्टेटस</a> for product rebuild timing.",
 								"Monthly ($35) and lifetime ($150) plans cover match and farming run loops — see <a href=\"/pricing/\">स्टोर</a>.",
 							],
@@ -16846,7 +16846,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Full feature stack for 2026 buyers",
 							paragraphs: [
-								"The Final Cheats The Finals के लिए Windows PC पर ESP wallhack, radar hack और The Finals Aimbot undetected पैकेज देता है। checkout से पहले 2026 the finals cheats checklist",
+								"The Final Cheats The Finals के लिए Windows PC पर ESP wallhack, radar hack और The Finals Aimbot undetected पैकेज देता है। checkout से पहले 2026 thefinals cheats checklist",
 								"Deep links: <a href=\"/finals-cheats/\">The Final Cheats अवलोकन</a>, <a href=\"/finals-esp/\">ESP और wallhack गाइड</a>, <a href=\"/finals-aimbot/\">Aimbot और soft aim</a>, <a href=\"/finals-esp/\">ESP और wallhack गाइड</a>, <a href=\"/finals-radar-hack/\">2D रडार ओवरले</a>, <a href=\"/finals-cheats/\">The Final Cheats अवलोकन</a>.",
 								"Easy Anti-Cheat पैच के बाद Updates पेज देखें। कोई भी cheat permanent undetected गारंटी नहीं देता।",
 							],
@@ -16864,9 +16864,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				hacks: {
 					title: "The Final Cheats — पूर्ण गाइड| ESP, Aimbot & Wallhack | The Final Cheats",
-					description: "Full the finals cheats guide from The Final Cheats — undetected ESP wallhack, soft aim, 2D radar and Easy Anti-Cheat rebuilds on Windows PC. Compare features and buy at thefinalscheats.org from $35.",
+					description: "Full thefinals cheats guide from The Final Cheats — undetected ESP wallhack, soft aim, 2D radar and Easy Anti-Cheat rebuilds on Windows PC. Compare features and buy at thefinalscheats.org from $35.",
 					h1: "The Final Cheats — पूर्ण गाइड",
-					intro: "The Finals cheats बेस गेम पर ESP, radar और soft aim जोड़ते हैं। यह पेज बताता है the finals cheats क्या हैं, The Final Cheats में क्या है, Easy Anti-Cheat रखरखाव और खरीद से पहले कहाँ जाएँ।",
+					intro: "The Finals cheats बेस गेम पर ESP, radar और soft aim जोड़ते हैं। यह पेज बताता है thefinals cheats क्या हैं, The Final Cheats में क्या है, Easy Anti-Cheat रखरखाव और खरीद से पहले कहाँ जाएँ।",
 					imageAlt: "The Final Cheats overview — ESP, aimbot, and radar for The Finals",
 					galleryTitle: "इन-गेम लुक",
 					ctaPrimary: "The Final Cheats खरीदें",
@@ -16876,7 +16876,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "The Finals cheats क्या हैं?",
 							paragraphs: [
-								"The Finals cheats तीसरे पक्ष के टूल हैं जो match में अतिरिक्त जानकारी और combat assist देते हैं। ज़्यादातर player ESP, loot visibility, off-screen radar या दबाव में smoother aim के लिए the finals cheats खोजते हैं।",
+								"The Finals cheats तीसरे पक्ष के टूल हैं जो match में अतिरिक्त जानकारी और combat assist देते हैं। ज़्यादातर player ESP, loot visibility, off-screen radar या दबाव में smoother aim के लिए thefinals cheats खोजते हैं।",
 								"The Final Cheats इन टूल को Windows PC की एक लाइसेंस में बंडल करता है — अलग wallhack, radar, aimbot डाउनलोड नहीं।",
 							],
 						},
@@ -16947,7 +16947,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
-							h2: "How the finals cheat download delivery works",
+							h2: "How thefinals cheat download delivery works",
 							paragraphs: [
 								"The Final Cheats The Finals के लिए Windows PC पर ESP wallhack, radar hack और The Finals Aimbot undetected पैकेज देता है। payment के बाद digital license download",
 								"Keep your order confirmation and license email ready for the <a href=\"/setup/\">सेटअप गाइड</a> and Support requests.",
@@ -17051,9 +17051,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"best-cheats": {
 					title: "सर्वश्रेष्ठ The Final Cheats | best-cheats",
-					description: "सर्वश्रेष्ठ The Final Cheats: the finals cheats खरीदने से पहले क्या compare करें. तुरंत डिजिटल डिलीवरी. undetected — Windows PC.",
+					description: "सर्वश्रेष्ठ The Final Cheats: thefinals cheats खरीदने से पहले क्या compare करें. तुरंत डिजिटल डिलीवरी. undetected — Windows PC.",
 					h1: "सर्वश्रेष्ठ The Final Cheats",
-					intro: "The Final Cheats The Finals के लिए Windows PC पर ESP wallhack, radar hack और The Finals Aimbot undetected पैकेज देता है। सर्वश्रेष्ठ The Final Cheats. the finals cheats खरीदने से पहले क्या compare करें.",
+					intro: "The Final Cheats The Finals के लिए Windows PC पर ESP wallhack, radar hack और The Finals Aimbot undetected पैकेज देता है। सर्वश्रेष्ठ The Final Cheats. thefinals cheats खरीदने से पहले क्या compare करें.",
 					imageAlt: "The Final Cheats overview for The Finals on PC",
 					galleryTitle: "सर्वश्रेष्ठ The Final Cheats",
 					ctaPrimary: "The Final Cheats खरीदें",
@@ -17061,25 +17061,25 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
-							h2: "What makes the finals cheats in 2026",
+							h2: "What makes thefinals cheats in 2026",
 							paragraphs: [
-								"The Final Cheats The Finals के लिए Windows PC पर ESP wallhack, radar hack और The Finals Aimbot undetected पैकेज देता है। the finals cheats खरीदने से पहले क्या compare करें",
+								"The Final Cheats The Finals के लिए Windows PC पर ESP wallhack, radar hack और The Finals Aimbot undetected पैकेज देता है। thefinals cheats खरीदने से पहले क्या compare करें",
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Easy Anti-Cheat maintenance शामिल।",
 								"Verify the live game is healthy via <a href=\"https://store.steampowered.com/app/2073850/THE_FINALS/\" target=\"_blank\" rel=\"noopener noreferrer\">The Finals on Steam</a>, then confirm our <a href=\"/updates/\">लाइव स्टेटस</a> note before you judge any package “best.”",
 							],
 						},
 						{
-							h2: "Best the finals cheats feature checklist",
+							h2: "Best thefinals cheats feature checklist",
 							paragraphs: [
-								"The Final Cheats The Finals के लिए Windows PC पर ESP wallhack, radar hack और The Finals Aimbot undetected पैकेज देता है। the finals cheats खरीदने से पहले क्या compare करें",
+								"The Final Cheats The Finals के लिए Windows PC पर ESP wallhack, radar hack और The Finals Aimbot undetected पैकेज देता है। thefinals cheats खरीदने से पहले क्या compare करें",
 								"Review <a href=\"/features/\">सभी फ़ीचर्स</a>, <a href=\"/finals-cheats/\">The Final Cheats अवलोकन</a>, and <a href=\"/finals-cheats/\">The Final Cheats अवलोकन</a> before checkout — monthly ($35) and lifetime ($150) plans available.",
 								"Module pages worth opening: <a href=\"/finals-esp/\">ESP और wallhack गाइड</a>, <a href=\"/finals-aimbot/\">Aimbot और soft aim</a>, <a href=\"/finals-cheats/\">The Final Cheats अवलोकन</a>.",
 							],
 						},
 						{
-							h2: "Buying the finals cheats safely",
+							h2: "Buying thefinals cheats safely",
 							paragraphs: [
-								"The Final Cheats The Finals के लिए Windows PC पर ESP wallhack, radar hack और The Finals Aimbot undetected पैकेज देता है। the finals cheats खरीदने से पहले क्या compare करें",
+								"The Final Cheats The Finals के लिए Windows PC पर ESP wallhack, radar hack और The Finals Aimbot undetected पैकेज देता है। thefinals cheats खरीदने से पहले क्या compare करें",
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Easy Anti-Cheat maintenance शामिल।",
 								"Easy Anti-Cheat पैच के बाद Updates पेज देखें। कोई भी cheat permanent undetected गारंटी नहीं देता।",
 							],
@@ -17411,7 +17411,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"finals-esp": {
 					title: "ESP| Wallhack & Player Boxes | The Final Cheats",
-					description: "The Finals ESP wallhack with player boxes, vault markers and distance tags on Windows PC. Undetected the finals cheats from The Final Cheats — aimbot and radar included. Buy at thefinalscheats.org.",
+					description: "The Finals ESP wallhack with player boxes, vault markers and distance tags on Windows PC. Undetected thefinals cheats from The Final Cheats — aimbot and radar included. Buy at thefinalscheats.org.",
 					h1: "ESP",
 					intro: "Lihat pemain dan loot menembus dinding saat match The Finals. Bagian dari lisensi The Final Cheats yang sama.",
 					imageAlt: "The Finals ESP player boxes and distance readouts in a match",
@@ -17590,7 +17590,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				pricing: {
 					title: "Toko| $35/mo or $150 Lifetime",
-					description: "Buy the finals cheats at thefinalscheats.org — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.",
+					description: "Buy thefinals cheats at thefinalscheats.org — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.",
 					h1: "Toko",
 					intro: "The Final Cheats menyediakan ESP wallhack, radar hack, dan The Finals Aimbot undetected untuk The Finals di PC Windows. Toko — $35/bulan y $150 seumur hidup.",
 					imageAlt: "The Final Cheats store plans for monthly and lifetime licenses",
@@ -17739,7 +17739,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				faq: {
 					title: "FAQ| ESP, Aimbot & Easy Anti-Cheat Answers",
-					description: "The Final Cheats FAQ — delivery, setup, undetected status, Easy Anti-Cheat updates, pricing and refunds for the finals cheats on Windows PC. Clear answers at thefinalscheats.org before you buy.",
+					description: "The Final Cheats FAQ — delivery, setup, undetected status, Easy Anti-Cheat updates, pricing and refunds for thefinals cheats on Windows PC. Clear answers at thefinalscheats.org before you buy.",
 					h1: "FAQ",
 					intro: "FAQ The Final Cheats — pengiriman, setup, pembaruan, dan refund.",
 					imageAlt: "The Final Cheats FAQ — delivery, setup, and update answers",
@@ -17866,7 +17866,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					description: "The Finals Wallhack: wallhack ESP untuk pemain, bangkai, dan jarak. pengiriman digital instan. undetected — PC Windows.",
 					h1: "The Finals Wallhack",
 					intro: "The Final Cheats menyediakan ESP wallhack, radar hack, dan The Finals Aimbot undetected untuk The Finals di PC Windows. The Finals Wallhack. wallhack ESP untuk pemain, bangkai, dan jarak.",
-					imageAlt: "the finals wallhack visibility through walls in a match",
+					imageAlt: "thefinals wallhack visibility through walls in a match",
 					galleryTitle: "The Finals Wallhack",
 					ctaPrimary: "Beli The Final Cheats",
 					ctaSecondary: "Lihat fitur",
@@ -17977,9 +17977,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheats-2026": {
 					title: "Cheat The Finals 2026 | cheats-2026",
-					description: "Cheat The Finals 2026: checklist the finals cheats 2026 sebelum checkout. pengiriman digital instan. undetected — PC Windows.",
+					description: "Cheat The Finals 2026: checklist thefinals cheats 2026 sebelum checkout. pengiriman digital instan. undetected — PC Windows.",
 					h1: "Cheat The Finals 2026",
-					intro: "The Final Cheats menyediakan ESP wallhack, radar hack, dan The Finals Aimbot undetected untuk The Finals di PC Windows. Cheat The Finals 2026. checklist the finals cheats 2026 sebelum checkout.",
+					intro: "The Final Cheats menyediakan ESP wallhack, radar hack, dan The Finals Aimbot undetected untuk The Finals di PC Windows. Cheat The Finals 2026. checklist thefinals cheats 2026 sebelum checkout.",
 					imageAlt: "The Final Cheats product overview for The Finals",
 					galleryTitle: "Cheat The Finals 2026",
 					ctaPrimary: "Beli The Final Cheats",
@@ -17987,9 +17987,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/finals-cheats/",
 					sections: [
 						{
-							h2: "Why the finals cheats buyers choose The Final Cheats in 2026",
+							h2: "Why thefinals cheats buyers choose The Final Cheats in 2026",
 							paragraphs: [
-								"The Final Cheats menyediakan ESP wallhack, radar hack, dan The Finals Aimbot undetected untuk The Finals di PC Windows. checklist the finals cheats 2026 sebelum checkout",
+								"The Final Cheats menyediakan ESP wallhack, radar hack, dan The Finals Aimbot undetected untuk The Finals di PC Windows. checklist thefinals cheats 2026 sebelum checkout",
 								"Track official season messaging on undefined, then use our <a href=\"/updates/\">Status langsung</a> for product rebuild timing.",
 								"Monthly ($35) and lifetime ($150) plans cover match and farming run loops — see <a href=\"/pricing/\">Toko</a>.",
 							],
@@ -17997,7 +17997,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Full feature stack for 2026 buyers",
 							paragraphs: [
-								"The Final Cheats menyediakan ESP wallhack, radar hack, dan The Finals Aimbot undetected untuk The Finals di PC Windows. checklist the finals cheats 2026 sebelum checkout",
+								"The Final Cheats menyediakan ESP wallhack, radar hack, dan The Finals Aimbot undetected untuk The Finals di PC Windows. checklist thefinals cheats 2026 sebelum checkout",
 								"Deep links: <a href=\"/finals-cheats/\">Ringkasan The Final Cheats</a>, <a href=\"/finals-esp/\">Panduan ESP & wallhack</a>, <a href=\"/finals-aimbot/\">Aimbot & soft aim</a>, <a href=\"/finals-esp/\">Panduan ESP & wallhack</a>, <a href=\"/finals-radar-hack/\">Overlay radar 2D</a>, <a href=\"/finals-cheats/\">Ringkasan The Final Cheats</a>.",
 								"Periksa Updates setelah patch Easy Anti-Cheat. Tidak ada cheat yang menjamin undetected permanen.",
 							],
@@ -18015,9 +18015,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				hacks: {
 					title: "The Final Cheats — Panduan lengkap| ESP, Aimbot & Wallhack | The Final Cheats",
-					description: "Full the finals cheats guide from The Final Cheats — undetected ESP wallhack, soft aim, 2D radar and Easy Anti-Cheat rebuilds on Windows PC. Compare features and buy at thefinalscheats.org from $35.",
+					description: "Full thefinals cheats guide from The Final Cheats — undetected ESP wallhack, soft aim, 2D radar and Easy Anti-Cheat rebuilds on Windows PC. Compare features and buy at thefinalscheats.org from $35.",
 					h1: "The Final Cheats — Panduan lengkap",
-					intro: "The Finals cheats menambahkan ESP, radar, dan soft aim di atas game dasar. Halaman ini menjelaskan apa itu the finals cheats, apa yang termasuk The Final Cheats, pemeliharaan Easy Anti-Cheat, dan langkah sebelum membeli.",
+					intro: "The Finals cheats menambahkan ESP, radar, dan soft aim di atas game dasar. Halaman ini menjelaskan apa itu thefinals cheats, apa yang termasuk The Final Cheats, pemeliharaan Easy Anti-Cheat, dan langkah sebelum membeli.",
 					imageAlt: "The Final Cheats overview — ESP, aimbot, and radar for The Finals",
 					galleryTitle: "Tampilan in-game",
 					ctaPrimary: "Beli The Final Cheats",
@@ -18027,7 +18027,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Apa itu cheat The Finals?",
 							paragraphs: [
-								"The Finals cheats adalah alat pihak ketiga yang memberi info ekstra dan bantuan tempur saat match. Kebanyakan mencari the finals cheats untuk ESP pemain, loot, radar off-screen, atau aim lebih halus under pressure.",
+								"The Finals cheats adalah alat pihak ketiga yang memberi info ekstra dan bantuan tempur saat match. Kebanyakan mencari thefinals cheats untuk ESP pemain, loot, radar off-screen, atau aim lebih halus under pressure.",
 								"The Final Cheats menggabungkan alat tersebut dalam satu lisensi Windows PC — tanpa unduhan terpisah wallhack, radar, aimbot.",
 							],
 						},
@@ -18098,7 +18098,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
-							h2: "How the finals cheat download delivery works",
+							h2: "How thefinals cheat download delivery works",
 							paragraphs: [
 								"The Final Cheats menyediakan ESP wallhack, radar hack, dan The Finals Aimbot undetected untuk The Finals di PC Windows. unduhan lisensi digital setelah pembayaran",
 								"Keep your order confirmation and license email ready for the <a href=\"/setup/\">Panduan setup</a> and Support requests.",
@@ -18202,9 +18202,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"best-cheats": {
 					title: "Cheat The Finals terbaik | best-cheats",
-					description: "Cheat The Finals terbaik: apa yang dibandingkan sebelum membeli the finals cheats. pengiriman digital instan. undetected — PC Windows.",
+					description: "Cheat The Finals terbaik: apa yang dibandingkan sebelum membeli thefinals cheats. pengiriman digital instan. undetected — PC Windows.",
 					h1: "Cheat The Finals terbaik",
-					intro: "The Final Cheats menyediakan ESP wallhack, radar hack, dan The Finals Aimbot undetected untuk The Finals di PC Windows. Cheat The Finals terbaik. apa yang dibandingkan sebelum membeli the finals cheats.",
+					intro: "The Final Cheats menyediakan ESP wallhack, radar hack, dan The Finals Aimbot undetected untuk The Finals di PC Windows. Cheat The Finals terbaik. apa yang dibandingkan sebelum membeli thefinals cheats.",
 					imageAlt: "The Final Cheats overview for The Finals on PC",
 					galleryTitle: "Cheat The Finals terbaik",
 					ctaPrimary: "Beli The Final Cheats",
@@ -18212,25 +18212,25 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
-							h2: "What makes the finals cheats in 2026",
+							h2: "What makes thefinals cheats in 2026",
 							paragraphs: [
-								"The Final Cheats menyediakan ESP wallhack, radar hack, dan The Finals Aimbot undetected untuk The Finals di PC Windows. apa yang dibandingkan sebelum membeli the finals cheats",
+								"The Final Cheats menyediakan ESP wallhack, radar hack, dan The Finals Aimbot undetected untuk The Finals di PC Windows. apa yang dibandingkan sebelum membeli thefinals cheats",
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Easy Anti-Cheat.",
 								"Verify the live game is healthy via <a href=\"https://store.steampowered.com/app/2073850/THE_FINALS/\" target=\"_blank\" rel=\"noopener noreferrer\">The Finals on Steam</a>, then confirm our <a href=\"/updates/\">Status langsung</a> note before you judge any package “best.”",
 							],
 						},
 						{
-							h2: "Best the finals cheats feature checklist",
+							h2: "Best thefinals cheats feature checklist",
 							paragraphs: [
-								"The Final Cheats menyediakan ESP wallhack, radar hack, dan The Finals Aimbot undetected untuk The Finals di PC Windows. apa yang dibandingkan sebelum membeli the finals cheats",
+								"The Final Cheats menyediakan ESP wallhack, radar hack, dan The Finals Aimbot undetected untuk The Finals di PC Windows. apa yang dibandingkan sebelum membeli thefinals cheats",
 								"Review <a href=\"/features/\">Semua fitur</a>, <a href=\"/finals-cheats/\">Ringkasan The Final Cheats</a>, and <a href=\"/finals-cheats/\">Ringkasan The Final Cheats</a> before checkout — monthly ($35) and lifetime ($150) plans available.",
 								"Module pages worth opening: <a href=\"/finals-esp/\">Panduan ESP & wallhack</a>, <a href=\"/finals-aimbot/\">Aimbot & soft aim</a>, <a href=\"/finals-cheats/\">Ringkasan The Final Cheats</a>.",
 							],
 						},
 						{
-							h2: "Buying the finals cheats safely",
+							h2: "Buying thefinals cheats safely",
 							paragraphs: [
-								"The Final Cheats menyediakan ESP wallhack, radar hack, dan The Finals Aimbot undetected untuk The Finals di PC Windows. apa yang dibandingkan sebelum membeli the finals cheats",
+								"The Final Cheats menyediakan ESP wallhack, radar hack, dan The Finals Aimbot undetected untuk The Finals di PC Windows. apa yang dibandingkan sebelum membeli thefinals cheats",
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Easy Anti-Cheat.",
 								"Periksa Updates setelah patch Easy Anti-Cheat. Tidak ada cheat yang menjamin undetected permanen.",
 							],
@@ -18474,7 +18474,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					buyNow: "ซื้อเลย",
 				},
 				hero: {
-					accent: "the finals cheats ไม่ถูกตรวจจับ",
+					accent: "thefinals cheats ไม่ถูกตรวจจับ",
 					accentShort: "The Final Cheats",
 					subtitle: "ESP wallhack, radar hack และ Aimbot สำหรับ The Finals บน Windows PC — รวมการดูแล Easy Anti-Cheat",
 					subtitleShort: "ESP, radar และ Aimbot สำหรับ The Finals PC",
@@ -18562,7 +18562,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"finals-esp": {
 					title: "ESP| Wallhack & Player Boxes | The Final Cheats",
-					description: "The Finals ESP wallhack with player boxes, vault markers and distance tags on Windows PC. Undetected the finals cheats from The Final Cheats — aimbot and radar included. Buy at thefinalscheats.org.",
+					description: "The Finals ESP wallhack with player boxes, vault markers and distance tags on Windows PC. Undetected thefinals cheats from The Final Cheats — aimbot and radar included. Buy at thefinalscheats.org.",
 					h1: "ESP",
 					intro: "มองเห็นผู้เล่นและ loot ผ่านกำแพงระหว่าง match ใน The Finals ส่วนหนึ่งของใบอนุญาต The Final Cheats เดียวกัน",
 					imageAlt: "The Finals ESP player boxes and distance readouts in a match",
@@ -18741,7 +18741,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				pricing: {
 					title: "ร้านค้า| $35/mo or $150 Lifetime",
-					description: "Buy the finals cheats at thefinalscheats.org — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.",
+					description: "Buy thefinals cheats at thefinalscheats.org — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.",
 					h1: "ร้านค้า",
 					intro: "The Final Cheats รวม ESP wallhack, radar hack และ The Finals Aimbot แบบ undetected สำหรับ The Finals บน Windows PC ร้านค้า — $35/เดือน y $150 ตลอดชีพ.",
 					imageAlt: "The Final Cheats store plans for monthly and lifetime licenses",
@@ -18890,7 +18890,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				faq: {
 					title: "FAQ| ESP, Aimbot & Easy Anti-Cheat Answers",
-					description: "The Final Cheats FAQ — delivery, setup, undetected status, Easy Anti-Cheat updates, pricing and refunds for the finals cheats on Windows PC. Clear answers at thefinalscheats.org before you buy.",
+					description: "The Final Cheats FAQ — delivery, setup, undetected status, Easy Anti-Cheat updates, pricing and refunds for thefinals cheats on Windows PC. Clear answers at thefinalscheats.org before you buy.",
 					h1: "FAQ",
 					intro: "FAQ The Final Cheats — การจัดส่ง การติดตั้ง อัปเดต และการคืนเงิน",
 					imageAlt: "The Final Cheats FAQ — delivery, setup, and update answers",
@@ -19017,7 +19017,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					description: "The Finals Wallhack: wallhack ESP สำหรับผู้เล่น ซาก และระยะทาง. จัดส่งดิจิทัลทันที. undetected — Windows PC.",
 					h1: "The Finals Wallhack",
 					intro: "The Final Cheats รวม ESP wallhack, radar hack และ The Finals Aimbot แบบ undetected สำหรับ The Finals บน Windows PC The Finals Wallhack. wallhack ESP สำหรับผู้เล่น ซาก และระยะทาง.",
-					imageAlt: "the finals wallhack visibility through walls in a match",
+					imageAlt: "thefinals wallhack visibility through walls in a match",
 					galleryTitle: "The Finals Wallhack",
 					ctaPrimary: "ซื้อ The Final Cheats",
 					ctaSecondary: "ดูฟีเจอร์",
@@ -19128,9 +19128,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheats-2026": {
 					title: "The Final Cheats 2026 | cheats-2026",
-					description: "The Final Cheats 2026: checklist the finals cheats 2026 ก่อน checkout. จัดส่งดิจิทัลทันที. undetected — Windows PC.",
+					description: "The Final Cheats 2026: checklist thefinals cheats 2026 ก่อน checkout. จัดส่งดิจิทัลทันที. undetected — Windows PC.",
 					h1: "The Final Cheats 2026",
-					intro: "The Final Cheats รวม ESP wallhack, radar hack และ The Finals Aimbot แบบ undetected สำหรับ The Finals บน Windows PC The Final Cheats 2026. checklist the finals cheats 2026 ก่อน checkout.",
+					intro: "The Final Cheats รวม ESP wallhack, radar hack และ The Finals Aimbot แบบ undetected สำหรับ The Finals บน Windows PC The Final Cheats 2026. checklist thefinals cheats 2026 ก่อน checkout.",
 					imageAlt: "The Final Cheats product overview for The Finals",
 					galleryTitle: "The Final Cheats 2026",
 					ctaPrimary: "ซื้อ The Final Cheats",
@@ -19138,9 +19138,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/finals-cheats/",
 					sections: [
 						{
-							h2: "Why the finals cheats buyers choose The Final Cheats in 2026",
+							h2: "Why thefinals cheats buyers choose The Final Cheats in 2026",
 							paragraphs: [
-								"The Final Cheats รวม ESP wallhack, radar hack และ The Finals Aimbot แบบ undetected สำหรับ The Finals บน Windows PC checklist the finals cheats 2026 ก่อน checkout",
+								"The Final Cheats รวม ESP wallhack, radar hack และ The Finals Aimbot แบบ undetected สำหรับ The Finals บน Windows PC checklist thefinals cheats 2026 ก่อน checkout",
 								"Track official season messaging on undefined, then use our <a href=\"/updates/\">สถานะสด</a> for product rebuild timing.",
 								"Monthly ($35) and lifetime ($150) plans cover match and farming run loops — see <a href=\"/pricing/\">ร้านค้า</a>.",
 							],
@@ -19148,7 +19148,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Full feature stack for 2026 buyers",
 							paragraphs: [
-								"The Final Cheats รวม ESP wallhack, radar hack และ The Finals Aimbot แบบ undetected สำหรับ The Finals บน Windows PC checklist the finals cheats 2026 ก่อน checkout",
+								"The Final Cheats รวม ESP wallhack, radar hack และ The Finals Aimbot แบบ undetected สำหรับ The Finals บน Windows PC checklist thefinals cheats 2026 ก่อน checkout",
 								"Deep links: <a href=\"/finals-cheats/\">ภาพรวม The Final Cheats</a>, <a href=\"/finals-esp/\">คู่มือ ESP และ wallhack</a>, <a href=\"/finals-aimbot/\">Aimbot และ soft aim</a>, <a href=\"/finals-esp/\">คู่มือ ESP และ wallhack</a>, <a href=\"/finals-radar-hack/\">โอเวอร์เลย์เรดาร์ 2D</a>, <a href=\"/finals-cheats/\">ภาพรวม The Final Cheats</a>.",
 								"ตรวจ Updates หลังแพตช์ Easy Anti-Cheat ไม่มี cheat รับประกัน undetected ถาวร",
 							],
@@ -19166,9 +19166,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				hacks: {
 					title: "The Final Cheats — คู่มือฉบับสมบูรณ์| ESP, Aimbot & Wallhack | The Final Cheats",
-					description: "Full the finals cheats guide from The Final Cheats — undetected ESP wallhack, soft aim, 2D radar and Easy Anti-Cheat rebuilds on Windows PC. Compare features and buy at thefinalscheats.org from $35.",
+					description: "Full thefinals cheats guide from The Final Cheats — undetected ESP wallhack, soft aim, 2D radar and Easy Anti-Cheat rebuilds on Windows PC. Compare features and buy at thefinalscheats.org from $35.",
 					h1: "The Final Cheats — คู่มือฉบับสมบูรณ์",
-					intro: "The Finals cheats เพิ่ม ESP, radar และ soft aim บนเกมหลัก หน้านี้อธิบาย the finals cheats คืออะไร The Final Cheats รวมอะไร การดูแล Easy Anti-Cheat และขั้นตอนก่อนซื้อ",
+					intro: "The Finals cheats เพิ่ม ESP, radar และ soft aim บนเกมหลัก หน้านี้อธิบาย thefinals cheats คืออะไร The Final Cheats รวมอะไร การดูแล Easy Anti-Cheat และขั้นตอนก่อนซื้อ",
 					imageAlt: "The Final Cheats overview — ESP, aimbot, and radar for The Finals",
 					galleryTitle: "ลุคในเกม",
 					ctaPrimary: "ซื้อ The Final Cheats",
@@ -19178,7 +19178,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "The Finals cheats คืออะไร?",
 							paragraphs: [
-								"The Finals cheats เป็นเครื่องมือบุคคลที่สามที่ให้ข้อมูลเพิ่มและช่วยต่อสู้ระหว่าง match ผู้เล่นส่วนใหญ่ค้นหา the finals cheats เพื่อ ESP ผู้เล่น loot radar นอกจอ หรือ aim ที่นุ่มนวลภายใต้ความกดดัน",
+								"The Finals cheats เป็นเครื่องมือบุคคลที่สามที่ให้ข้อมูลเพิ่มและช่วยต่อสู้ระหว่าง match ผู้เล่นส่วนใหญ่ค้นหา thefinals cheats เพื่อ ESP ผู้เล่น loot radar นอกจอ หรือ aim ที่นุ่มนวลภายใต้ความกดดัน",
 								"The Final Cheats รวมเครื่องมือเหล่านี้ในใบอนุญาต Windows PC เดียว — ไม่ต้องดาวน์โหลด wallhack radar aimbot แยก",
 							],
 						},
@@ -19249,7 +19249,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
-							h2: "How the finals cheat download delivery works",
+							h2: "How thefinals cheat download delivery works",
 							paragraphs: [
 								"The Final Cheats รวม ESP wallhack, radar hack และ The Finals Aimbot แบบ undetected สำหรับ The Finals บน Windows PC ดาวน์โหลดใบอนุญาตดิจิทัลหลังชำระเงิน",
 								"Keep your order confirmation and license email ready for the <a href=\"/setup/\">คู่มือติดตั้ง</a> and Support requests.",
@@ -19353,9 +19353,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"best-cheats": {
 					title: "Cheat The Finals ที่ดีที่สุด | best-cheats",
-					description: "Cheat The Finals ที่ดีที่สุด: สิ่งที่ควรเปรียบเทียบก่อนซื้อ the finals cheats. จัดส่งดิจิทัลทันที. undetected — Windows PC.",
+					description: "Cheat The Finals ที่ดีที่สุด: สิ่งที่ควรเปรียบเทียบก่อนซื้อ thefinals cheats. จัดส่งดิจิทัลทันที. undetected — Windows PC.",
 					h1: "Cheat The Finals ที่ดีที่สุด",
-					intro: "The Final Cheats รวม ESP wallhack, radar hack และ The Finals Aimbot แบบ undetected สำหรับ The Finals บน Windows PC Cheat The Finals ที่ดีที่สุด. สิ่งที่ควรเปรียบเทียบก่อนซื้อ the finals cheats.",
+					intro: "The Final Cheats รวม ESP wallhack, radar hack และ The Finals Aimbot แบบ undetected สำหรับ The Finals บน Windows PC Cheat The Finals ที่ดีที่สุด. สิ่งที่ควรเปรียบเทียบก่อนซื้อ thefinals cheats.",
 					imageAlt: "The Final Cheats overview for The Finals on PC",
 					galleryTitle: "Cheat The Finals ที่ดีที่สุด",
 					ctaPrimary: "ซื้อ The Final Cheats",
@@ -19363,25 +19363,25 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
-							h2: "What makes the finals cheats in 2026",
+							h2: "What makes thefinals cheats in 2026",
 							paragraphs: [
-								"The Final Cheats รวม ESP wallhack, radar hack และ The Finals Aimbot แบบ undetected สำหรับ The Finals บน Windows PC สิ่งที่ควรเปรียบเทียบก่อนซื้อ the finals cheats",
+								"The Final Cheats รวม ESP wallhack, radar hack และ The Finals Aimbot แบบ undetected สำหรับ The Finals บน Windows PC สิ่งที่ควรเปรียบเทียบก่อนซื้อ thefinals cheats",
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Easy Anti-Cheat",
 								"Verify the live game is healthy via <a href=\"https://store.steampowered.com/app/2073850/THE_FINALS/\" target=\"_blank\" rel=\"noopener noreferrer\">The Finals on Steam</a>, then confirm our <a href=\"/updates/\">สถานะสด</a> note before you judge any package “best.”",
 							],
 						},
 						{
-							h2: "Best the finals cheats feature checklist",
+							h2: "Best thefinals cheats feature checklist",
 							paragraphs: [
-								"The Final Cheats รวม ESP wallhack, radar hack และ The Finals Aimbot แบบ undetected สำหรับ The Finals บน Windows PC สิ่งที่ควรเปรียบเทียบก่อนซื้อ the finals cheats",
+								"The Final Cheats รวม ESP wallhack, radar hack และ The Finals Aimbot แบบ undetected สำหรับ The Finals บน Windows PC สิ่งที่ควรเปรียบเทียบก่อนซื้อ thefinals cheats",
 								"Review <a href=\"/features/\">ฟีเจอร์ทั้งหมด</a>, <a href=\"/finals-cheats/\">ภาพรวม The Final Cheats</a>, and <a href=\"/finals-cheats/\">ภาพรวม The Final Cheats</a> before checkout — monthly ($35) and lifetime ($150) plans available.",
 								"Module pages worth opening: <a href=\"/finals-esp/\">คู่มือ ESP และ wallhack</a>, <a href=\"/finals-aimbot/\">Aimbot และ soft aim</a>, <a href=\"/finals-cheats/\">ภาพรวม The Final Cheats</a>.",
 							],
 						},
 						{
-							h2: "Buying the finals cheats safely",
+							h2: "Buying thefinals cheats safely",
 							paragraphs: [
-								"The Final Cheats รวม ESP wallhack, radar hack และ The Finals Aimbot แบบ undetected สำหรับ The Finals บน Windows PC สิ่งที่ควรเปรียบเทียบก่อนซื้อ the finals cheats",
+								"The Final Cheats รวม ESP wallhack, radar hack และ The Finals Aimbot แบบ undetected สำหรับ The Finals บน Windows PC สิ่งที่ควรเปรียบเทียบก่อนซื้อ thefinals cheats",
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Easy Anti-Cheat",
 								"ตรวจ Updates หลังแพตช์ Easy Anti-Cheat ไม่มี cheat รับประกัน undetected ถาวร",
 							],
@@ -19713,7 +19713,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"finals-esp": {
 					title: "ESP| Wallhack & Player Boxes | The Final Cheats",
-					description: "The Finals ESP wallhack with player boxes, vault markers and distance tags on Windows PC. Undetected the finals cheats from The Final Cheats — aimbot and radar included. Buy at thefinalscheats.org.",
+					description: "The Finals ESP wallhack with player boxes, vault markers and distance tags on Windows PC. Undetected thefinals cheats from The Final Cheats — aimbot and radar included. Buy at thefinalscheats.org.",
 					h1: "ESP",
 					intro: "Nhìn xuyên tường thấy người chơi và loot khi match The Finals. Thuộc cùng giấy phép The Final Cheats.",
 					imageAlt: "The Finals ESP player boxes and distance readouts in a match",
@@ -19892,7 +19892,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				pricing: {
 					title: "Cửa hàng| $35/mo or $150 Lifetime",
-					description: "Buy the finals cheats at thefinalscheats.org — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.",
+					description: "Buy thefinals cheats at thefinalscheats.org — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.",
 					h1: "Cửa hàng",
 					intro: "The Final Cheats cung cấp ESP wallhack, radar hack và The Finals Aimbot undetected cho The Finals trên PC Windows. Cửa hàng — $35/tháng y $150 trọn đời.",
 					imageAlt: "The Final Cheats store plans for monthly and lifetime licenses",
@@ -20041,7 +20041,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				faq: {
 					title: "FAQ| ESP, Aimbot & Easy Anti-Cheat Answers",
-					description: "The Final Cheats FAQ — delivery, setup, undetected status, Easy Anti-Cheat updates, pricing and refunds for the finals cheats on Windows PC. Clear answers at thefinalscheats.org before you buy.",
+					description: "The Final Cheats FAQ — delivery, setup, undetected status, Easy Anti-Cheat updates, pricing and refunds for thefinals cheats on Windows PC. Clear answers at thefinalscheats.org before you buy.",
 					h1: "FAQ",
 					intro: "FAQ The Final Cheats — giao hàng, cài đặt, cập nhật và hoàn tiền.",
 					imageAlt: "The Final Cheats FAQ — delivery, setup, and update answers",
@@ -20168,7 +20168,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					description: "The Finals Wallhack: wallhack ESP cho người chơi, xác thịt và khoảng cách. giao hàng kỹ thuật số tức thì. undetected — PC Windows.",
 					h1: "The Finals Wallhack",
 					intro: "The Final Cheats cung cấp ESP wallhack, radar hack và The Finals Aimbot undetected cho The Finals trên PC Windows. The Finals Wallhack. wallhack ESP cho người chơi, xác thịt và khoảng cách.",
-					imageAlt: "the finals wallhack visibility through walls in a match",
+					imageAlt: "thefinals wallhack visibility through walls in a match",
 					galleryTitle: "The Finals Wallhack",
 					ctaPrimary: "Mua The Final Cheats",
 					ctaSecondary: "Xem tính năng",
@@ -20279,9 +20279,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheats-2026": {
 					title: "Cheat The Finals 2026 | cheats-2026",
-					description: "Cheat The Finals 2026: checklist the finals cheats 2026 trước checkout. giao hàng kỹ thuật số tức thì. undetected — PC Windows.",
+					description: "Cheat The Finals 2026: checklist thefinals cheats 2026 trước checkout. giao hàng kỹ thuật số tức thì. undetected — PC Windows.",
 					h1: "Cheat The Finals 2026",
-					intro: "The Final Cheats cung cấp ESP wallhack, radar hack và The Finals Aimbot undetected cho The Finals trên PC Windows. Cheat The Finals 2026. checklist the finals cheats 2026 trước checkout.",
+					intro: "The Final Cheats cung cấp ESP wallhack, radar hack và The Finals Aimbot undetected cho The Finals trên PC Windows. Cheat The Finals 2026. checklist thefinals cheats 2026 trước checkout.",
 					imageAlt: "The Final Cheats product overview for The Finals",
 					galleryTitle: "Cheat The Finals 2026",
 					ctaPrimary: "Mua The Final Cheats",
@@ -20289,9 +20289,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/finals-cheats/",
 					sections: [
 						{
-							h2: "Why the finals cheats buyers choose The Final Cheats in 2026",
+							h2: "Why thefinals cheats buyers choose The Final Cheats in 2026",
 							paragraphs: [
-								"The Final Cheats cung cấp ESP wallhack, radar hack và The Finals Aimbot undetected cho The Finals trên PC Windows. checklist the finals cheats 2026 trước checkout",
+								"The Final Cheats cung cấp ESP wallhack, radar hack và The Finals Aimbot undetected cho The Finals trên PC Windows. checklist thefinals cheats 2026 trước checkout",
 								"Track official season messaging on undefined, then use our <a href=\"/updates/\">Trạng thái trực tiếp</a> for product rebuild timing.",
 								"Monthly ($35) and lifetime ($150) plans cover match and farming run loops — see <a href=\"/pricing/\">Cửa hàng</a>.",
 							],
@@ -20299,7 +20299,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Full feature stack for 2026 buyers",
 							paragraphs: [
-								"The Final Cheats cung cấp ESP wallhack, radar hack và The Finals Aimbot undetected cho The Finals trên PC Windows. checklist the finals cheats 2026 trước checkout",
+								"The Final Cheats cung cấp ESP wallhack, radar hack và The Finals Aimbot undetected cho The Finals trên PC Windows. checklist thefinals cheats 2026 trước checkout",
 								"Deep links: <a href=\"/finals-cheats/\">Tổng quan The Final Cheats</a>, <a href=\"/finals-esp/\">Hướng dẫn ESP & wallhack</a>, <a href=\"/finals-aimbot/\">Aimbot & soft aim</a>, <a href=\"/finals-esp/\">Hướng dẫn ESP & wallhack</a>, <a href=\"/finals-radar-hack/\">Overlay radar 2D</a>, <a href=\"/finals-cheats/\">Tổng quan The Final Cheats</a>.",
 								"Kiểm tra Updates sau bản vá Easy Anti-Cheat. Không cheat nào đảm bảo undetected vĩnh viễn.",
 							],
@@ -20317,9 +20317,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				hacks: {
 					title: "The Final Cheats — Hướng dẫn đầy đủ| ESP, Aimbot & Wallhack | The Final Cheats",
-					description: "Full the finals cheats guide from The Final Cheats — undetected ESP wallhack, soft aim, 2D radar and Easy Anti-Cheat rebuilds on Windows PC. Compare features and buy at thefinalscheats.org from $35.",
+					description: "Full thefinals cheats guide from The Final Cheats — undetected ESP wallhack, soft aim, 2D radar and Easy Anti-Cheat rebuilds on Windows PC. Compare features and buy at thefinalscheats.org from $35.",
 					h1: "The Final Cheats — Hướng dẫn đầy đủ",
-					intro: "The Finals cheats thêm ESP, radar và soft aim lên game gốc. Trang này giải thích the finals cheats là gì, The Final Cheats gồm gì, bảo trì Easy Anti-Cheat và bước tiếp theo trước khi mua.",
+					intro: "The Finals cheats thêm ESP, radar và soft aim lên game gốc. Trang này giải thích thefinals cheats là gì, The Final Cheats gồm gì, bảo trì Easy Anti-Cheat và bước tiếp theo trước khi mua.",
 					imageAlt: "The Final Cheats overview — ESP, aimbot, and radar for The Finals",
 					galleryTitle: "Giao diện trong game",
 					ctaPrimary: "Mua The Final Cheats",
@@ -20329,7 +20329,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Cheat The Finals là gì?",
 							paragraphs: [
-								"The Finals cheats là công cụ bên thứ ba cung cấp thông tin thêm và hỗ trợ chiến đấu khi match. Nhiều người tìm the finals cheats cho ESP người chơi, loot, radar ngoài màn hình hoặc aim mượt hơn dưới áp lực.",
+								"The Finals cheats là công cụ bên thứ ba cung cấp thông tin thêm và hỗ trợ chiến đấu khi match. Nhiều người tìm thefinals cheats cho ESP người chơi, loot, radar ngoài màn hình hoặc aim mượt hơn dưới áp lực.",
 								"The Final Cheats gom các công cụ trong một giấy phép Windows PC — không cần tải riêng wallhack, radar, aimbot.",
 							],
 						},
@@ -20400,7 +20400,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
-							h2: "How the finals cheat download delivery works",
+							h2: "How thefinals cheat download delivery works",
 							paragraphs: [
 								"The Final Cheats cung cấp ESP wallhack, radar hack và The Finals Aimbot undetected cho The Finals trên PC Windows. tải giấy phép kỹ thuật số sau thanh toán",
 								"Keep your order confirmation and license email ready for the <a href=\"/setup/\">Hướng dẫn cài đặt</a> and Support requests.",
@@ -20504,9 +20504,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"best-cheats": {
 					title: "Cheat The Finals tốt nhất | best-cheats",
-					description: "Cheat The Finals tốt nhất: nên so sánh gì trước khi mua the finals cheats. giao hàng kỹ thuật số tức thì. undetected — PC Windows.",
+					description: "Cheat The Finals tốt nhất: nên so sánh gì trước khi mua thefinals cheats. giao hàng kỹ thuật số tức thì. undetected — PC Windows.",
 					h1: "Cheat The Finals tốt nhất",
-					intro: "The Final Cheats cung cấp ESP wallhack, radar hack và The Finals Aimbot undetected cho The Finals trên PC Windows. Cheat The Finals tốt nhất. nên so sánh gì trước khi mua the finals cheats.",
+					intro: "The Final Cheats cung cấp ESP wallhack, radar hack và The Finals Aimbot undetected cho The Finals trên PC Windows. Cheat The Finals tốt nhất. nên so sánh gì trước khi mua thefinals cheats.",
 					imageAlt: "The Final Cheats overview for The Finals on PC",
 					galleryTitle: "Cheat The Finals tốt nhất",
 					ctaPrimary: "Mua The Final Cheats",
@@ -20514,25 +20514,25 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
-							h2: "What makes the finals cheats in 2026",
+							h2: "What makes thefinals cheats in 2026",
 							paragraphs: [
-								"The Final Cheats cung cấp ESP wallhack, radar hack và The Finals Aimbot undetected cho The Finals trên PC Windows. nên so sánh gì trước khi mua the finals cheats",
+								"The Final Cheats cung cấp ESP wallhack, radar hack và The Finals Aimbot undetected cho The Finals trên PC Windows. nên so sánh gì trước khi mua thefinals cheats",
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Easy Anti-Cheat.",
 								"Verify the live game is healthy via <a href=\"https://store.steampowered.com/app/2073850/THE_FINALS/\" target=\"_blank\" rel=\"noopener noreferrer\">The Finals on Steam</a>, then confirm our <a href=\"/updates/\">Trạng thái trực tiếp</a> note before you judge any package “best.”",
 							],
 						},
 						{
-							h2: "Best the finals cheats feature checklist",
+							h2: "Best thefinals cheats feature checklist",
 							paragraphs: [
-								"The Final Cheats cung cấp ESP wallhack, radar hack và The Finals Aimbot undetected cho The Finals trên PC Windows. nên so sánh gì trước khi mua the finals cheats",
+								"The Final Cheats cung cấp ESP wallhack, radar hack và The Finals Aimbot undetected cho The Finals trên PC Windows. nên so sánh gì trước khi mua thefinals cheats",
 								"Review <a href=\"/features/\">Tất cả tính năng</a>, <a href=\"/finals-cheats/\">Tổng quan The Final Cheats</a>, and <a href=\"/finals-cheats/\">Tổng quan The Final Cheats</a> before checkout — monthly ($35) and lifetime ($150) plans available.",
 								"Module pages worth opening: <a href=\"/finals-esp/\">Hướng dẫn ESP & wallhack</a>, <a href=\"/finals-aimbot/\">Aimbot & soft aim</a>, <a href=\"/finals-cheats/\">Tổng quan The Final Cheats</a>.",
 							],
 						},
 						{
-							h2: "Buying the finals cheats safely",
+							h2: "Buying thefinals cheats safely",
 							paragraphs: [
-								"The Final Cheats cung cấp ESP wallhack, radar hack và The Finals Aimbot undetected cho The Finals trên PC Windows. nên so sánh gì trước khi mua the finals cheats",
+								"The Final Cheats cung cấp ESP wallhack, radar hack và The Finals Aimbot undetected cho The Finals trên PC Windows. nên so sánh gì trước khi mua thefinals cheats",
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Easy Anti-Cheat.",
 								"Kiểm tra Updates sau bản vá Easy Anti-Cheat. Không cheat nào đảm bảo undetected vĩnh viễn.",
 							],
@@ -20864,7 +20864,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"finals-esp": {
 					title: "ESP| Wallhack & Player Boxes | The Final Cheats",
-					description: "The Finals ESP wallhack with player boxes, vault markers and distance tags on Windows PC. Undetected the finals cheats from The Final Cheats — aimbot and radar included. Buy at thefinalscheats.org.",
+					description: "The Finals ESP wallhack with player boxes, vault markers and distance tags on Windows PC. Undetected thefinals cheats from The Final Cheats — aimbot and radar included. Buy at thefinalscheats.org.",
 					h1: "ESP",
 					intro: "Бачте гравців і loot крізь стіни під час match у The Finals. Частина тієї самої ліцензії The Final Cheats.",
 					imageAlt: "The Finals ESP player boxes and distance readouts in a match",
@@ -21043,7 +21043,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				pricing: {
 					title: "Магазин| $35/mo or $150 Lifetime",
-					description: "Buy the finals cheats at thefinalscheats.org — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.",
+					description: "Buy thefinals cheats at thefinalscheats.org — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.",
 					h1: "Магазин",
 					intro: "The Final Cheats об'єднує ESP wallhack, radar hack і The Finals Aimbot у undetected пакеті для The Finals на Windows PC. Магазин — $35/міс y $150 назавжди.",
 					imageAlt: "The Final Cheats store plans for monthly and lifetime licenses",
@@ -21192,7 +21192,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				faq: {
 					title: "FAQ| ESP, Aimbot & Easy Anti-Cheat Answers",
-					description: "The Final Cheats FAQ — delivery, setup, undetected status, Easy Anti-Cheat updates, pricing and refunds for the finals cheats on Windows PC. Clear answers at thefinalscheats.org before you buy.",
+					description: "The Final Cheats FAQ — delivery, setup, undetected status, Easy Anti-Cheat updates, pricing and refunds for thefinals cheats on Windows PC. Clear answers at thefinalscheats.org before you buy.",
 					h1: "FAQ",
 					intro: "FAQ The Final Cheats — доставка, встановлення, оновлення та повернення.",
 					imageAlt: "The Final Cheats FAQ — delivery, setup, and update answers",
@@ -21319,7 +21319,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					description: "The Finals Wallhack: wallhack ESP для гравців, туш і дистанції. миттєва цифрова доставка. undetected — Windows PC.",
 					h1: "The Finals Wallhack",
 					intro: "The Final Cheats об'єднує ESP wallhack, radar hack і The Finals Aimbot у undetected пакеті для The Finals на Windows PC. The Finals Wallhack. wallhack ESP для гравців, туш і дистанції.",
-					imageAlt: "the finals wallhack visibility through walls in a match",
+					imageAlt: "thefinals wallhack visibility through walls in a match",
 					galleryTitle: "The Finals Wallhack",
 					ctaPrimary: "Купити The Final Cheats",
 					ctaSecondary: "Дивитися функції",
@@ -21430,9 +21430,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheats-2026": {
 					title: "Чіти The Finals 2026 | cheats-2026",
-					description: "Чіти The Finals 2026: чеклист the finals cheats 2026 перед checkout. миттєва цифрова доставка. undetected — Windows PC.",
+					description: "Чіти The Finals 2026: чеклист thefinals cheats 2026 перед checkout. миттєва цифрова доставка. undetected — Windows PC.",
 					h1: "Чіти The Finals 2026",
-					intro: "The Final Cheats об'єднує ESP wallhack, radar hack і The Finals Aimbot у undetected пакеті для The Finals на Windows PC. Чіти The Finals 2026. чеклист the finals cheats 2026 перед checkout.",
+					intro: "The Final Cheats об'єднує ESP wallhack, radar hack і The Finals Aimbot у undetected пакеті для The Finals на Windows PC. Чіти The Finals 2026. чеклист thefinals cheats 2026 перед checkout.",
 					imageAlt: "The Final Cheats product overview for The Finals",
 					galleryTitle: "Чіти The Finals 2026",
 					ctaPrimary: "Купити The Final Cheats",
@@ -21440,9 +21440,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/finals-cheats/",
 					sections: [
 						{
-							h2: "Why the finals cheats buyers choose The Final Cheats in 2026",
+							h2: "Why thefinals cheats buyers choose The Final Cheats in 2026",
 							paragraphs: [
-								"The Final Cheats об'єднує ESP wallhack, radar hack і The Finals Aimbot у undetected пакеті для The Finals на Windows PC. чеклист the finals cheats 2026 перед checkout",
+								"The Final Cheats об'єднує ESP wallhack, radar hack і The Finals Aimbot у undetected пакеті для The Finals на Windows PC. чеклист thefinals cheats 2026 перед checkout",
 								"Track official season messaging on undefined, then use our <a href=\"/updates/\">Статус онлайн</a> for product rebuild timing.",
 								"Monthly ($35) and lifetime ($150) plans cover match and farming run loops — see <a href=\"/pricing/\">Магазин</a>.",
 							],
@@ -21450,7 +21450,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Full feature stack for 2026 buyers",
 							paragraphs: [
-								"The Final Cheats об'єднує ESP wallhack, radar hack і The Finals Aimbot у undetected пакеті для The Finals на Windows PC. чеклист the finals cheats 2026 перед checkout",
+								"The Final Cheats об'єднує ESP wallhack, radar hack і The Finals Aimbot у undetected пакеті для The Finals на Windows PC. чеклист thefinals cheats 2026 перед checkout",
 								"Deep links: <a href=\"/finals-cheats/\">Огляд The Final Cheats</a>, <a href=\"/finals-esp/\">Гайд ESP і wallhack</a>, <a href=\"/finals-aimbot/\">Aimbot і soft aim</a>, <a href=\"/finals-esp/\">Гайд ESP і wallhack</a>, <a href=\"/finals-radar-hack/\">2D радар overlay</a>, <a href=\"/finals-cheats/\">Огляд The Final Cheats</a>.",
 								"Перевіряйте Updates після патчів Easy Anti-Cheat. Жоден чит не гарантує постійний undetected статус.",
 							],
@@ -21468,9 +21468,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				hacks: {
 					title: "The Final Cheats — Повний гайд| ESP, Aimbot & Wallhack | The Final Cheats",
-					description: "Full the finals cheats guide from The Final Cheats — undetected ESP wallhack, soft aim, 2D radar and Easy Anti-Cheat rebuilds on Windows PC. Compare features and buy at thefinalscheats.org from $35.",
+					description: "Full thefinals cheats guide from The Final Cheats — undetected ESP wallhack, soft aim, 2D radar and Easy Anti-Cheat rebuilds on Windows PC. Compare features and buy at thefinalscheats.org from $35.",
 					h1: "The Final Cheats — Повний гайд",
-					intro: "The Finals cheats додають ESP, radar і soft aim до базової гри. Ця сторінка пояснює що таке the finals cheats, що входить у The Final Cheats, обслуговування Easy Anti-Cheat і куди йти перед покупкою.",
+					intro: "The Finals cheats додають ESP, radar і soft aim до базової гри. Ця сторінка пояснює що таке thefinals cheats, що входить у The Final Cheats, обслуговування Easy Anti-Cheat і куди йти перед покупкою.",
 					imageAlt: "The Final Cheats overview — ESP, aimbot, and radar for The Finals",
 					galleryTitle: "Вигляд у грі",
 					ctaPrimary: "Купити The Final Cheats",
@@ -21480,7 +21480,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Що таке чіти The Finals?",
 							paragraphs: [
-								"The Finals cheats — сторонні інструменти з додатковою інформацією та боєвою допомогою під час match. Шукають the finals cheats за ESP гравців, loot, off-screen radar або плавніший aim під тиском.",
+								"The Finals cheats — сторонні інструменти з додатковою інформацією та боєвою допомогою під час match. Шукають thefinals cheats за ESP гравців, loot, off-screen radar або плавніший aim під тиском.",
 								"The Final Cheats об’єднує ці інструменти в одній ліцензії для Windows PC — без окремих завантажень wallhack, radar і aimbot.",
 							],
 						},
@@ -21551,7 +21551,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
-							h2: "How the finals cheat download delivery works",
+							h2: "How thefinals cheat download delivery works",
 							paragraphs: [
 								"The Final Cheats об'єднує ESP wallhack, radar hack і The Finals Aimbot у undetected пакеті для The Finals на Windows PC. цифрове завантаження ліцензії після оплати",
 								"Keep your order confirmation and license email ready for the <a href=\"/setup/\">Гайд з встановлення</a> and Support requests.",
@@ -21655,9 +21655,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"best-cheats": {
 					title: "Найкращі чіти The Finals | best-cheats",
-					description: "Найкращі чіти The Finals: що порівняти перед покупкою the finals cheats. миттєва цифрова доставка. undetected — Windows PC.",
+					description: "Найкращі чіти The Finals: що порівняти перед покупкою thefinals cheats. миттєва цифрова доставка. undetected — Windows PC.",
 					h1: "Найкращі чіти The Finals",
-					intro: "The Final Cheats об'єднує ESP wallhack, radar hack і The Finals Aimbot у undetected пакеті для The Finals на Windows PC. Найкращі чіти The Finals. що порівняти перед покупкою the finals cheats.",
+					intro: "The Final Cheats об'єднує ESP wallhack, radar hack і The Finals Aimbot у undetected пакеті для The Finals на Windows PC. Найкращі чіти The Finals. що порівняти перед покупкою thefinals cheats.",
 					imageAlt: "The Final Cheats overview for The Finals on PC",
 					galleryTitle: "Найкращі чіти The Finals",
 					ctaPrimary: "Купити The Final Cheats",
@@ -21665,25 +21665,25 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
-							h2: "What makes the finals cheats in 2026",
+							h2: "What makes thefinals cheats in 2026",
 							paragraphs: [
-								"The Final Cheats об'єднує ESP wallhack, radar hack і The Finals Aimbot у undetected пакеті для The Finals на Windows PC. що порівняти перед покупкою the finals cheats",
+								"The Final Cheats об'єднує ESP wallhack, radar hack і The Finals Aimbot у undetected пакеті для The Finals на Windows PC. що порівняти перед покупкою thefinals cheats",
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Easy Anti-Cheat.",
 								"Verify the live game is healthy via <a href=\"https://store.steampowered.com/app/2073850/THE_FINALS/\" target=\"_blank\" rel=\"noopener noreferrer\">The Finals on Steam</a>, then confirm our <a href=\"/updates/\">Статус онлайн</a> note before you judge any package “best.”",
 							],
 						},
 						{
-							h2: "Best the finals cheats feature checklist",
+							h2: "Best thefinals cheats feature checklist",
 							paragraphs: [
-								"The Final Cheats об'єднує ESP wallhack, radar hack і The Finals Aimbot у undetected пакеті для The Finals на Windows PC. що порівняти перед покупкою the finals cheats",
+								"The Final Cheats об'єднує ESP wallhack, radar hack і The Finals Aimbot у undetected пакеті для The Finals на Windows PC. що порівняти перед покупкою thefinals cheats",
 								"Review <a href=\"/features/\">Усі функції</a>, <a href=\"/finals-cheats/\">Огляд The Final Cheats</a>, and <a href=\"/finals-cheats/\">Огляд The Final Cheats</a> before checkout — monthly ($35) and lifetime ($150) plans available.",
 								"Module pages worth opening: <a href=\"/finals-esp/\">Гайд ESP і wallhack</a>, <a href=\"/finals-aimbot/\">Aimbot і soft aim</a>, <a href=\"/finals-cheats/\">Огляд The Final Cheats</a>.",
 							],
 						},
 						{
-							h2: "Buying the finals cheats safely",
+							h2: "Buying thefinals cheats safely",
 							paragraphs: [
-								"The Final Cheats об'єднує ESP wallhack, radar hack і The Finals Aimbot у undetected пакеті для The Finals на Windows PC. що порівняти перед покупкою the finals cheats",
+								"The Final Cheats об'єднує ESP wallhack, radar hack і The Finals Aimbot у undetected пакеті для The Finals на Windows PC. що порівняти перед покупкою thefinals cheats",
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Easy Anti-Cheat.",
 								"Перевіряйте Updates після патчів Easy Anti-Cheat. Жоден чит не гарантує постійний undetected статус.",
 							],
@@ -21927,7 +21927,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					buyNow: "Koupit",
 				},
 				hero: {
-					accent: "Undetected the finals cheaty",
+					accent: "Undetected thefinals cheaty",
 					accentShort: "The Final Cheats",
 					subtitle: "ESP wallhack, radar hack a Aimbot pro The Finals na Windows PC — údržba Easy Anti-Cheat v ceně.",
 					subtitleShort: "ESP, radar a Aimbot pro The Finals PC",
@@ -21987,7 +21987,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 			pages: {
 				home: {
 					title: "The Final Cheats 2026 | ESP, Wallhack a Aimbot",
-					description: "Undetected the finals cheaty pro The Finals na PC. ESP wallhack, radar hack, Aimbot, údržba Easy Anti-Cheat. Okamžité digitální doručení.",
+					description: "Undetected thefinals cheaty pro The Finals na PC. ESP wallhack, radar hack, Aimbot, údržba Easy Anti-Cheat. Okamžité digitální doručení.",
 					h1: "The Final Cheats — Undetected ESP, Wallhack a Aimbot",
 					intro: "Undetected balíček pro The Finals na Windows PC: ESP wallhack, radar, Aimbot s údržbou Easy Anti-Cheat.",
 					imageAlt: "The Finals ESP player tags hack",
@@ -22015,7 +22015,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"finals-esp": {
 					title: "ESP| Wallhack & Player Boxes | The Final Cheats",
-					description: "The Finals ESP wallhack with player boxes, vault markers and distance tags on Windows PC. Undetected the finals cheats from The Final Cheats — aimbot and radar included. Buy at thefinalscheats.org.",
+					description: "The Finals ESP wallhack with player boxes, vault markers and distance tags on Windows PC. Undetected thefinals cheats from The Final Cheats — aimbot and radar included. Buy at thefinalscheats.org.",
 					h1: "ESP",
 					intro: "Vidíte hráče a loot skrz zdi během matchů The Finals. Součást stejné licence The Final Cheats.",
 					imageAlt: "The Finals ESP player boxes and distance readouts in a match",
@@ -22194,7 +22194,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				pricing: {
 					title: "Obchod| $35/mo or $150 Lifetime",
-					description: "Buy the finals cheats at thefinalscheats.org — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.",
+					description: "Buy thefinals cheats at thefinalscheats.org — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.",
 					h1: "Obchod",
 					intro: "The Final Cheats spojuje ESP wallhack, radar hack a The Finals Aimbot jako undetected balíček pro The Finals na Windows PC. Obchod — $35/měs. y $150 lifetime.",
 					imageAlt: "The Final Cheats store plans for monthly and lifetime licenses",
@@ -22343,7 +22343,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				faq: {
 					title: "FAQ| ESP, Aimbot & Easy Anti-Cheat Answers",
-					description: "The Final Cheats FAQ — delivery, setup, undetected status, Easy Anti-Cheat updates, pricing and refunds for the finals cheats on Windows PC. Clear answers at thefinalscheats.org before you buy.",
+					description: "The Final Cheats FAQ — delivery, setup, undetected status, Easy Anti-Cheat updates, pricing and refunds for thefinals cheats on Windows PC. Clear answers at thefinalscheats.org before you buy.",
 					h1: "FAQ",
 					intro: "FAQ The Final Cheats — doručení, instalace, aktualizace a vrácení peněz.",
 					imageAlt: "The Final Cheats FAQ — delivery, setup, and update answers",
@@ -22470,7 +22470,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					description: "The Finals Wallhack: wallhack ESP pro hráče, kadávery a vzdálenost. okamžité digitální doručení. undetected — Windows PC.",
 					h1: "The Finals Wallhack",
 					intro: "The Final Cheats spojuje ESP wallhack, radar hack a The Finals Aimbot jako undetected balíček pro The Finals na Windows PC. The Finals Wallhack. wallhack ESP pro hráče, kadávery a vzdálenost.",
-					imageAlt: "the finals wallhack visibility through walls in a match",
+					imageAlt: "thefinals wallhack visibility through walls in a match",
 					galleryTitle: "The Finals Wallhack",
 					ctaPrimary: "Koupit The Final Cheats",
 					ctaSecondary: "Zobrazit funkce",
@@ -22580,20 +22580,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/finals-cheats-aimbot.webp",
 				},
 				"cheats-2026": {
-					title: "the finals cheaty 2026 | cheats-2026",
-					description: "the finals cheaty 2026: checklist the finals cheats 2026 před checkout. okamžité digitální doručení. undetected — Windows PC.",
-					h1: "the finals cheaty 2026",
-					intro: "The Final Cheats spojuje ESP wallhack, radar hack a The Finals Aimbot jako undetected balíček pro The Finals na Windows PC. the finals cheaty 2026. checklist the finals cheats 2026 před checkout.",
+					title: "thefinals cheaty 2026 | cheats-2026",
+					description: "thefinals cheaty 2026: checklist thefinals cheats 2026 před checkout. okamžité digitální doručení. undetected — Windows PC.",
+					h1: "thefinals cheaty 2026",
+					intro: "The Final Cheats spojuje ESP wallhack, radar hack a The Finals Aimbot jako undetected balíček pro The Finals na Windows PC. thefinals cheaty 2026. checklist thefinals cheats 2026 před checkout.",
 					imageAlt: "The Final Cheats product overview for The Finals",
-					galleryTitle: "the finals cheaty 2026",
+					galleryTitle: "thefinals cheaty 2026",
 					ctaPrimary: "Koupit The Final Cheats",
 					ctaSecondary: "Zobrazit funkce",
 					ctaSecondaryHref: "/finals-cheats/",
 					sections: [
 						{
-							h2: "Why the finals cheats buyers choose The Final Cheats in 2026",
+							h2: "Why thefinals cheats buyers choose The Final Cheats in 2026",
 							paragraphs: [
-								"The Final Cheats spojuje ESP wallhack, radar hack a The Finals Aimbot jako undetected balíček pro The Finals na Windows PC. checklist the finals cheats 2026 před checkout",
+								"The Final Cheats spojuje ESP wallhack, radar hack a The Finals Aimbot jako undetected balíček pro The Finals na Windows PC. checklist thefinals cheats 2026 před checkout",
 								"Track official season messaging on undefined, then use our <a href=\"/updates/\">Živý stav</a> for product rebuild timing.",
 								"Monthly ($35) and lifetime ($150) plans cover match and farming run loops — see <a href=\"/pricing/\">Obchod</a>.",
 							],
@@ -22601,7 +22601,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Full feature stack for 2026 buyers",
 							paragraphs: [
-								"The Final Cheats spojuje ESP wallhack, radar hack a The Finals Aimbot jako undetected balíček pro The Finals na Windows PC. checklist the finals cheats 2026 před checkout",
+								"The Final Cheats spojuje ESP wallhack, radar hack a The Finals Aimbot jako undetected balíček pro The Finals na Windows PC. checklist thefinals cheats 2026 před checkout",
 								"Deep links: <a href=\"/finals-cheats/\">Přehled The Final Cheats</a>, <a href=\"/finals-esp/\">Průvodce ESP a wallhack</a>, <a href=\"/finals-aimbot/\">Aimbot a soft aim</a>, <a href=\"/finals-esp/\">Průvodce ESP a wallhack</a>, <a href=\"/finals-radar-hack/\">2D radar overlay</a>, <a href=\"/finals-cheats/\">Přehled The Final Cheats</a>.",
 								"Po patchích Easy Anti-Cheat zkontrolujte Updates. Žádný cheat negarantuje trvalý undetected stav.",
 							],
@@ -22619,9 +22619,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				hacks: {
 					title: "The Final Cheats — Kompletní průvodce| ESP, Aimbot & Wallhack | The Final Cheats",
-					description: "Full the finals cheats guide from The Final Cheats — undetected ESP wallhack, soft aim, 2D radar and Easy Anti-Cheat rebuilds on Windows PC. Compare features and buy at thefinalscheats.org from $35.",
+					description: "Full thefinals cheats guide from The Final Cheats — undetected ESP wallhack, soft aim, 2D radar and Easy Anti-Cheat rebuilds on Windows PC. Compare features and buy at thefinalscheats.org from $35.",
 					h1: "The Final Cheats — Kompletní průvodce",
-					intro: "The Finals cheaty přidávají ESP, radar a soft aim k základní hře. Tato stránka vysvětluje co jsou the finals cheats, co obsahuje The Final Cheats, údržbu Easy Anti-Cheat a kam jít před nákupem.",
+					intro: "The Finals cheaty přidávají ESP, radar a soft aim k základní hře. Tato stránka vysvětluje co jsou thefinals cheats, co obsahuje The Final Cheats, údržbu Easy Anti-Cheat a kam jít před nákupem.",
 					imageAlt: "The Final Cheats overview — ESP, aimbot, and radar for The Finals",
 					galleryTitle: "Vzhled ve hře",
 					ctaPrimary: "Koupit The Final Cheats",
@@ -22629,9 +22629,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/features/",
 					sections: [
 						{
-							h2: "Co jsou the finals cheaty?",
+							h2: "Co jsou thefinals cheaty?",
 							paragraphs: [
-								"The Finals cheaty jsou nástroje třetích stran s extra informacemi a bojovou asistencí při matchech. Většina hledá the finals cheats pro ESP hráčů, loot, off-screen radar nebo plynulejší aim pod tlakem.",
+								"The Finals cheaty jsou nástroje třetích stran s extra informacemi a bojovou asistencí při matchech. Většina hledá thefinals cheats pro ESP hráčů, loot, off-screen radar nebo plynulejší aim pod tlakem.",
 								"The Final Cheats spojuje tyto nástroje v jedné licenci pro Windows PC — bez samostatných downloadů wallhack, radar a aimbot.",
 							],
 						},
@@ -22702,7 +22702,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
-							h2: "How the finals cheat download delivery works",
+							h2: "How thefinals cheat download delivery works",
 							paragraphs: [
 								"The Final Cheats spojuje ESP wallhack, radar hack a The Finals Aimbot jako undetected balíček pro The Finals na Windows PC. digitální stažení licence po platbě",
 								"Keep your order confirmation and license email ready for the <a href=\"/setup/\">Průvodce instalací</a> and Support requests.",
@@ -22805,36 +22805,36 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/finals-cheats-aimbot-view.webp",
 				},
 				"best-cheats": {
-					title: "Nejlepší the finals cheaty | best-cheats",
-					description: "Nejlepší the finals cheaty: co porovnat před nákupem the finals cheats. okamžité digitální doručení. undetected — Windows PC.",
-					h1: "Nejlepší the finals cheaty",
-					intro: "The Final Cheats spojuje ESP wallhack, radar hack a The Finals Aimbot jako undetected balíček pro The Finals na Windows PC. Nejlepší the finals cheaty. co porovnat před nákupem the finals cheats.",
+					title: "Nejlepší thefinals cheaty | best-cheats",
+					description: "Nejlepší thefinals cheaty: co porovnat před nákupem thefinals cheats. okamžité digitální doručení. undetected — Windows PC.",
+					h1: "Nejlepší thefinals cheaty",
+					intro: "The Final Cheats spojuje ESP wallhack, radar hack a The Finals Aimbot jako undetected balíček pro The Finals na Windows PC. Nejlepší thefinals cheaty. co porovnat před nákupem thefinals cheats.",
 					imageAlt: "The Final Cheats overview for The Finals on PC",
-					galleryTitle: "Nejlepší the finals cheaty",
+					galleryTitle: "Nejlepší thefinals cheaty",
 					ctaPrimary: "Koupit The Final Cheats",
 					ctaSecondary: "Zobrazit funkce",
 					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
-							h2: "What makes the finals cheats in 2026",
+							h2: "What makes thefinals cheats in 2026",
 							paragraphs: [
-								"The Final Cheats spojuje ESP wallhack, radar hack a The Finals Aimbot jako undetected balíček pro The Finals na Windows PC. co porovnat před nákupem the finals cheats",
+								"The Final Cheats spojuje ESP wallhack, radar hack a The Finals Aimbot jako undetected balíček pro The Finals na Windows PC. co porovnat před nákupem thefinals cheats",
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Easy Anti-Cheat.",
 								"Verify the live game is healthy via <a href=\"https://store.steampowered.com/app/2073850/THE_FINALS/\" target=\"_blank\" rel=\"noopener noreferrer\">The Finals on Steam</a>, then confirm our <a href=\"/updates/\">Živý stav</a> note before you judge any package “best.”",
 							],
 						},
 						{
-							h2: "Best the finals cheats feature checklist",
+							h2: "Best thefinals cheats feature checklist",
 							paragraphs: [
-								"The Final Cheats spojuje ESP wallhack, radar hack a The Finals Aimbot jako undetected balíček pro The Finals na Windows PC. co porovnat před nákupem the finals cheats",
+								"The Final Cheats spojuje ESP wallhack, radar hack a The Finals Aimbot jako undetected balíček pro The Finals na Windows PC. co porovnat před nákupem thefinals cheats",
 								"Review <a href=\"/features/\">Všechny funkce</a>, <a href=\"/finals-cheats/\">Přehled The Final Cheats</a>, and <a href=\"/finals-cheats/\">Přehled The Final Cheats</a> before checkout — monthly ($35) and lifetime ($150) plans available.",
 								"Module pages worth opening: <a href=\"/finals-esp/\">Průvodce ESP a wallhack</a>, <a href=\"/finals-aimbot/\">Aimbot a soft aim</a>, <a href=\"/finals-cheats/\">Přehled The Final Cheats</a>.",
 							],
 						},
 						{
-							h2: "Buying the finals cheats safely",
+							h2: "Buying thefinals cheats safely",
 							paragraphs: [
-								"The Final Cheats spojuje ESP wallhack, radar hack a The Finals Aimbot jako undetected balíček pro The Finals na Windows PC. co porovnat před nákupem the finals cheats",
+								"The Final Cheats spojuje ESP wallhack, radar hack a The Finals Aimbot jako undetected balíček pro The Finals na Windows PC. co porovnat před nákupem thefinals cheats",
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Easy Anti-Cheat.",
 								"Po patchích Easy Anti-Cheat zkontrolujte Updates. Žádný cheat negarantuje trvalý undetected stav.",
 							],
@@ -23166,7 +23166,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"finals-esp": {
 					title: "ESP| Wallhack & Player Boxes | The Final Cheats",
-					description: "The Finals ESP wallhack with player boxes, vault markers and distance tags on Windows PC. Undetected the finals cheats from The Final Cheats — aimbot and radar included. Buy at thefinalscheats.org.",
+					description: "The Finals ESP wallhack with player boxes, vault markers and distance tags on Windows PC. Undetected thefinals cheats from The Final Cheats — aimbot and radar included. Buy at thefinalscheats.org.",
 					h1: "ESP",
 					intro: "Vezi jucători și loot prin pereți în match-uri The Finals. Parte din aceeași licență The Final Cheats.",
 					imageAlt: "The Finals ESP player boxes and distance readouts in a match",
@@ -23345,7 +23345,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				pricing: {
 					title: "Magazin| $35/mo or $150 Lifetime",
-					description: "Buy the finals cheats at thefinalscheats.org — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.",
+					description: "Buy thefinals cheats at thefinalscheats.org — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.",
 					h1: "Magazin",
 					intro: "The Final Cheats combină ESP wallhack, radar hack și The Finals Aimbot undetected pentru The Finals pe PC Windows. Magazin — $35/lună y $150 pe viață.",
 					imageAlt: "The Final Cheats store plans for monthly and lifetime licenses",
@@ -23494,7 +23494,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				faq: {
 					title: "FAQ| ESP, Aimbot & Easy Anti-Cheat Answers",
-					description: "The Final Cheats FAQ — delivery, setup, undetected status, Easy Anti-Cheat updates, pricing and refunds for the finals cheats on Windows PC. Clear answers at thefinalscheats.org before you buy.",
+					description: "The Final Cheats FAQ — delivery, setup, undetected status, Easy Anti-Cheat updates, pricing and refunds for thefinals cheats on Windows PC. Clear answers at thefinalscheats.org before you buy.",
 					h1: "FAQ",
 					intro: "FAQ The Final Cheats — livrare, instalare, actualizări și rambursări.",
 					imageAlt: "The Final Cheats FAQ — delivery, setup, and update answers",
@@ -23621,7 +23621,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					description: "The Finals Wallhack: wallhack ESP pentru jucători, carcase și distanță. livrare digitală instantă. undetected — PC Windows.",
 					h1: "The Finals Wallhack",
 					intro: "The Final Cheats combină ESP wallhack, radar hack și The Finals Aimbot undetected pentru The Finals pe PC Windows. The Finals Wallhack. wallhack ESP pentru jucători, carcase și distanță.",
-					imageAlt: "the finals wallhack visibility through walls in a match",
+					imageAlt: "thefinals wallhack visibility through walls in a match",
 					galleryTitle: "The Finals Wallhack",
 					ctaPrimary: "Cumpără The Final Cheats",
 					ctaSecondary: "Vezi funcții",
@@ -23732,9 +23732,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheats-2026": {
 					title: "Cheats The Finals 2026 | cheats-2026",
-					description: "Cheats The Finals 2026: checklist the finals cheats 2026 înainte de checkout. livrare digitală instantă. undetected — PC Windows.",
+					description: "Cheats The Finals 2026: checklist thefinals cheats 2026 înainte de checkout. livrare digitală instantă. undetected — PC Windows.",
 					h1: "Cheats The Finals 2026",
-					intro: "The Final Cheats combină ESP wallhack, radar hack și The Finals Aimbot undetected pentru The Finals pe PC Windows. Cheats The Finals 2026. checklist the finals cheats 2026 înainte de checkout.",
+					intro: "The Final Cheats combină ESP wallhack, radar hack și The Finals Aimbot undetected pentru The Finals pe PC Windows. Cheats The Finals 2026. checklist thefinals cheats 2026 înainte de checkout.",
 					imageAlt: "The Final Cheats product overview for The Finals",
 					galleryTitle: "Cheats The Finals 2026",
 					ctaPrimary: "Cumpără The Final Cheats",
@@ -23742,9 +23742,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/finals-cheats/",
 					sections: [
 						{
-							h2: "Why the finals cheats buyers choose The Final Cheats in 2026",
+							h2: "Why thefinals cheats buyers choose The Final Cheats in 2026",
 							paragraphs: [
-								"The Final Cheats combină ESP wallhack, radar hack și The Finals Aimbot undetected pentru The Finals pe PC Windows. checklist the finals cheats 2026 înainte de checkout",
+								"The Final Cheats combină ESP wallhack, radar hack și The Finals Aimbot undetected pentru The Finals pe PC Windows. checklist thefinals cheats 2026 înainte de checkout",
 								"Track official season messaging on undefined, then use our <a href=\"/updates/\">Status live</a> for product rebuild timing.",
 								"Monthly ($35) and lifetime ($150) plans cover match and farming run loops — see <a href=\"/pricing/\">Magazin</a>.",
 							],
@@ -23752,7 +23752,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Full feature stack for 2026 buyers",
 							paragraphs: [
-								"The Final Cheats combină ESP wallhack, radar hack și The Finals Aimbot undetected pentru The Finals pe PC Windows. checklist the finals cheats 2026 înainte de checkout",
+								"The Final Cheats combină ESP wallhack, radar hack și The Finals Aimbot undetected pentru The Finals pe PC Windows. checklist thefinals cheats 2026 înainte de checkout",
 								"Deep links: <a href=\"/finals-cheats/\">Prezentare The Final Cheats</a>, <a href=\"/finals-esp/\">Ghid ESP și wallhack</a>, <a href=\"/finals-aimbot/\">Aimbot și soft aim</a>, <a href=\"/finals-esp/\">Ghid ESP și wallhack</a>, <a href=\"/finals-radar-hack/\">Overlay radar 2D</a>, <a href=\"/finals-cheats/\">Prezentare The Final Cheats</a>.",
 								"Verificați Updates după patch-uri Easy Anti-Cheat. Niciun cheat nu garantează undetected permanent.",
 							],
@@ -23770,9 +23770,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				hacks: {
 					title: "The Final Cheats — Ghid complet| ESP, Aimbot & Wallhack | The Final Cheats",
-					description: "Full the finals cheats guide from The Final Cheats — undetected ESP wallhack, soft aim, 2D radar and Easy Anti-Cheat rebuilds on Windows PC. Compare features and buy at thefinalscheats.org from $35.",
+					description: "Full thefinals cheats guide from The Final Cheats — undetected ESP wallhack, soft aim, 2D radar and Easy Anti-Cheat rebuilds on Windows PC. Compare features and buy at thefinalscheats.org from $35.",
 					h1: "The Final Cheats — Ghid complet",
-					intro: "The Finals cheats adaugă ESP, radar și soft aim peste jocul de bază. Această pagină explică ce sunt the finals cheats, ce include The Final Cheats, mentenanța Easy Anti-Cheat și pașii înainte de cumpărare.",
+					intro: "The Finals cheats adaugă ESP, radar și soft aim peste jocul de bază. Această pagină explică ce sunt thefinals cheats, ce include The Final Cheats, mentenanța Easy Anti-Cheat și pașii înainte de cumpărare.",
 					imageAlt: "The Final Cheats overview — ESP, aimbot, and radar for The Finals",
 					galleryTitle: "Aspect în joc",
 					ctaPrimary: "Cumpără The Final Cheats",
@@ -23782,7 +23782,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Ce sunt cheats The Finals?",
 							paragraphs: [
-								"The Finals cheats sunt tool-uri terțe care oferă info extra și asistență de luptă în match-uri. Majoritatea caută the finals cheats pentru ESP jucători, loot, radar off-screen sau aim mai lin sub presiune.",
+								"The Finals cheats sunt tool-uri terțe care oferă info extra și asistență de luptă în match-uri. Majoritatea caută thefinals cheats pentru ESP jucători, loot, radar off-screen sau aim mai lin sub presiune.",
 								"The Final Cheats grupează aceste tool-uri într-o licență Windows PC — fără descărcări separate wallhack, radar, aimbot.",
 							],
 						},
@@ -23853,7 +23853,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
-							h2: "How the finals cheat download delivery works",
+							h2: "How thefinals cheat download delivery works",
 							paragraphs: [
 								"The Final Cheats combină ESP wallhack, radar hack și The Finals Aimbot undetected pentru The Finals pe PC Windows. descărcare licență digitală după plată",
 								"Keep your order confirmation and license email ready for the <a href=\"/setup/\">Ghid de instalare</a> and Support requests.",
@@ -23957,9 +23957,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"best-cheats": {
 					title: "Cele mai bune cheats The Finals | best-cheats",
-					description: "Cele mai bune cheats The Finals: ce să compari înainte de a cumpăra the finals cheats. livrare digitală instantă. undetected — PC Windows.",
+					description: "Cele mai bune cheats The Finals: ce să compari înainte de a cumpăra thefinals cheats. livrare digitală instantă. undetected — PC Windows.",
 					h1: "Cele mai bune cheats The Finals",
-					intro: "The Final Cheats combină ESP wallhack, radar hack și The Finals Aimbot undetected pentru The Finals pe PC Windows. Cele mai bune cheats The Finals. ce să compari înainte de a cumpăra the finals cheats.",
+					intro: "The Final Cheats combină ESP wallhack, radar hack și The Finals Aimbot undetected pentru The Finals pe PC Windows. Cele mai bune cheats The Finals. ce să compari înainte de a cumpăra thefinals cheats.",
 					imageAlt: "The Final Cheats overview for The Finals on PC",
 					galleryTitle: "Cele mai bune cheats The Finals",
 					ctaPrimary: "Cumpără The Final Cheats",
@@ -23967,25 +23967,25 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
-							h2: "What makes the finals cheats in 2026",
+							h2: "What makes thefinals cheats in 2026",
 							paragraphs: [
-								"The Final Cheats combină ESP wallhack, radar hack și The Finals Aimbot undetected pentru The Finals pe PC Windows. ce să compari înainte de a cumpăra the finals cheats",
+								"The Final Cheats combină ESP wallhack, radar hack și The Finals Aimbot undetected pentru The Finals pe PC Windows. ce să compari înainte de a cumpăra thefinals cheats",
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Easy Anti-Cheat.",
 								"Verify the live game is healthy via <a href=\"https://store.steampowered.com/app/2073850/THE_FINALS/\" target=\"_blank\" rel=\"noopener noreferrer\">The Finals on Steam</a>, then confirm our <a href=\"/updates/\">Status live</a> note before you judge any package “best.”",
 							],
 						},
 						{
-							h2: "Best the finals cheats feature checklist",
+							h2: "Best thefinals cheats feature checklist",
 							paragraphs: [
-								"The Final Cheats combină ESP wallhack, radar hack și The Finals Aimbot undetected pentru The Finals pe PC Windows. ce să compari înainte de a cumpăra the finals cheats",
+								"The Final Cheats combină ESP wallhack, radar hack și The Finals Aimbot undetected pentru The Finals pe PC Windows. ce să compari înainte de a cumpăra thefinals cheats",
 								"Review <a href=\"/features/\">Toate funcțiile</a>, <a href=\"/finals-cheats/\">Prezentare The Final Cheats</a>, and <a href=\"/finals-cheats/\">Prezentare The Final Cheats</a> before checkout — monthly ($35) and lifetime ($150) plans available.",
 								"Module pages worth opening: <a href=\"/finals-esp/\">Ghid ESP și wallhack</a>, <a href=\"/finals-aimbot/\">Aimbot și soft aim</a>, <a href=\"/finals-cheats/\">Prezentare The Final Cheats</a>.",
 							],
 						},
 						{
-							h2: "Buying the finals cheats safely",
+							h2: "Buying thefinals cheats safely",
 							paragraphs: [
-								"The Final Cheats combină ESP wallhack, radar hack și The Finals Aimbot undetected pentru The Finals pe PC Windows. ce să compari înainte de a cumpăra the finals cheats",
+								"The Final Cheats combină ESP wallhack, radar hack și The Finals Aimbot undetected pentru The Finals pe PC Windows. ce să compari înainte de a cumpăra thefinals cheats",
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Easy Anti-Cheat.",
 								"Verificați Updates după patch-uri Easy Anti-Cheat. Niciun cheat nu garantează undetected permanent.",
 							],
@@ -24229,7 +24229,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					buyNow: "Köp nu",
 				},
 				hero: {
-					accent: "Undetected the finals cheats",
+					accent: "Undetected thefinals cheats",
 					accentShort: "The Final Cheats",
 					subtitle: "ESP wallhack, radar hack och Aimbot för The Finals på Windows PC — Easy Anti-Cheat-underhåll ingår.",
 					subtitleShort: "ESP, radar & Aimbot för The Finals PC",
@@ -24289,7 +24289,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 			pages: {
 				home: {
 					title: "The Final Cheats 2026 | ESP, Wallhack & Aimbot",
-					description: "Undetected the finals cheats för The Finals på PC. ESP wallhack, radar hack, Aimbot, Easy Anti-Cheat-underhåll. Omedelbar digital leverans.",
+					description: "Undetected thefinals cheats för The Finals på PC. ESP wallhack, radar hack, Aimbot, Easy Anti-Cheat-underhåll. Omedelbar digital leverans.",
 					h1: "The Final Cheats — Undetected ESP, Wallhack & Aimbot",
 					intro: "Undetected paket för The Finals på Windows PC: ESP wallhack, radar, Aimbot med Easy Anti-Cheat-underhåll.",
 					imageAlt: "The Finals ESP player tags hack",
@@ -24317,7 +24317,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"finals-esp": {
 					title: "ESP| Wallhack & Player Boxes | The Final Cheats",
-					description: "The Finals ESP wallhack with player boxes, vault markers and distance tags on Windows PC. Undetected the finals cheats from The Final Cheats — aimbot and radar included. Buy at thefinalscheats.org.",
+					description: "The Finals ESP wallhack with player boxes, vault markers and distance tags on Windows PC. Undetected thefinals cheats from The Final Cheats — aimbot and radar included. Buy at thefinalscheats.org.",
 					h1: "ESP",
 					intro: "Se spelare och loot genom väggar under The Finals matches. Ingår i samma The Final Cheats-licens.",
 					imageAlt: "The Finals ESP player boxes and distance readouts in a match",
@@ -24496,7 +24496,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				pricing: {
 					title: "Butik| $35/mo or $150 Lifetime",
-					description: "Buy the finals cheats at thefinalscheats.org — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.",
+					description: "Buy thefinals cheats at thefinalscheats.org — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.",
 					h1: "Butik",
 					intro: "The Final Cheats kombinerar ESP wallhack, radar hack och The Finals Aimbot som undetected paket för The Finals på Windows PC. Butik — $35/mån y $150 lifetime.",
 					imageAlt: "The Final Cheats store plans for monthly and lifetime licenses",
@@ -24645,7 +24645,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				faq: {
 					title: "FAQ| ESP, Aimbot & Easy Anti-Cheat Answers",
-					description: "The Final Cheats FAQ — delivery, setup, undetected status, Easy Anti-Cheat updates, pricing and refunds for the finals cheats on Windows PC. Clear answers at thefinalscheats.org before you buy.",
+					description: "The Final Cheats FAQ — delivery, setup, undetected status, Easy Anti-Cheat updates, pricing and refunds for thefinals cheats on Windows PC. Clear answers at thefinalscheats.org before you buy.",
 					h1: "FAQ",
 					intro: "The Final Cheats FAQ — leverans, setup, uppdateringar och återbetalningar.",
 					imageAlt: "The Final Cheats FAQ — delivery, setup, and update answers",
@@ -24772,7 +24772,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					description: "The Finals Wallhack: wallhack ESP för spelare, kadaver och avstånd. omedelbar digital leverans. undetected — Windows PC.",
 					h1: "The Finals Wallhack",
 					intro: "The Final Cheats kombinerar ESP wallhack, radar hack och The Finals Aimbot som undetected paket för The Finals på Windows PC. The Finals Wallhack. wallhack ESP för spelare, kadaver och avstånd.",
-					imageAlt: "the finals wallhack visibility through walls in a match",
+					imageAlt: "thefinals wallhack visibility through walls in a match",
 					galleryTitle: "The Finals Wallhack",
 					ctaPrimary: "Köp The Final Cheats",
 					ctaSecondary: "Se funktioner",
@@ -24883,9 +24883,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheats-2026": {
 					title: "The Final Cheats 2026 | cheats-2026",
-					description: "The Final Cheats 2026: 2026 the finals cheats checklist före checkout. omedelbar digital leverans. undetected — Windows PC.",
+					description: "The Final Cheats 2026: 2026 thefinals cheats checklist före checkout. omedelbar digital leverans. undetected — Windows PC.",
 					h1: "The Final Cheats 2026",
-					intro: "The Final Cheats kombinerar ESP wallhack, radar hack och The Finals Aimbot som undetected paket för The Finals på Windows PC. The Final Cheats 2026. 2026 the finals cheats checklist före checkout.",
+					intro: "The Final Cheats kombinerar ESP wallhack, radar hack och The Finals Aimbot som undetected paket för The Finals på Windows PC. The Final Cheats 2026. 2026 thefinals cheats checklist före checkout.",
 					imageAlt: "The Final Cheats product overview for The Finals",
 					galleryTitle: "The Final Cheats 2026",
 					ctaPrimary: "Köp The Final Cheats",
@@ -24893,9 +24893,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/finals-cheats/",
 					sections: [
 						{
-							h2: "Why the finals cheats buyers choose The Final Cheats in 2026",
+							h2: "Why thefinals cheats buyers choose The Final Cheats in 2026",
 							paragraphs: [
-								"The Final Cheats kombinerar ESP wallhack, radar hack och The Finals Aimbot som undetected paket för The Finals på Windows PC. 2026 the finals cheats checklist före checkout",
+								"The Final Cheats kombinerar ESP wallhack, radar hack och The Finals Aimbot som undetected paket för The Finals på Windows PC. 2026 thefinals cheats checklist före checkout",
 								"Track official season messaging on undefined, then use our <a href=\"/updates/\">Livestatus</a> for product rebuild timing.",
 								"Monthly ($35) and lifetime ($150) plans cover match and farming run loops — see <a href=\"/pricing/\">Butik</a>.",
 							],
@@ -24903,7 +24903,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Full feature stack for 2026 buyers",
 							paragraphs: [
-								"The Final Cheats kombinerar ESP wallhack, radar hack och The Finals Aimbot som undetected paket för The Finals på Windows PC. 2026 the finals cheats checklist före checkout",
+								"The Final Cheats kombinerar ESP wallhack, radar hack och The Finals Aimbot som undetected paket för The Finals på Windows PC. 2026 thefinals cheats checklist före checkout",
 								"Deep links: <a href=\"/finals-cheats/\">The Final Cheats-översikt</a>, <a href=\"/finals-esp/\">ESP- och wallhack-guide</a>, <a href=\"/finals-aimbot/\">Aimbot och soft aim</a>, <a href=\"/finals-esp/\">ESP- och wallhack-guide</a>, <a href=\"/finals-radar-hack/\">2D-radaroverlay</a>, <a href=\"/finals-cheats/\">The Final Cheats-översikt</a>.",
 								"Kontrollera Updates ruster Easy Anti-Cheat-patchar. Ingen cheat garanterar permanent undetected status.",
 							],
@@ -24921,9 +24921,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				hacks: {
 					title: "The Final Cheats — Fullständig guide| ESP, Aimbot & Wallhack | The Final Cheats",
-					description: "Full the finals cheats guide from The Final Cheats — undetected ESP wallhack, soft aim, 2D radar and Easy Anti-Cheat rebuilds on Windows PC. Compare features and buy at thefinalscheats.org from $35.",
+					description: "Full thefinals cheats guide from The Final Cheats — undetected ESP wallhack, soft aim, 2D radar and Easy Anti-Cheat rebuilds on Windows PC. Compare features and buy at thefinalscheats.org from $35.",
 					h1: "The Final Cheats — Fullständig guide",
-					intro: "The Finals cheats lägger till ESP, radar och soft aim ovanpå basspelet. Den här sidan förklarar vad the finals cheats är, vad The Final Cheats innehåller, Easy Anti-Cheat-underhåll och nästa steg före köp.",
+					intro: "The Finals cheats lägger till ESP, radar och soft aim ovanpå basspelet. Den här sidan förklarar vad thefinals cheats är, vad The Final Cheats innehåller, Easy Anti-Cheat-underhåll och nästa steg före köp.",
 					imageAlt: "The Final Cheats overview — ESP, aimbot, and radar for The Finals",
 					galleryTitle: "Utseende i spelet",
 					ctaPrimary: "Köp The Final Cheats",
@@ -24933,7 +24933,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Vad är The Finals cheats?",
 							paragraphs: [
-								"The Finals cheats är tredjepartsverktyg med extra info och stridsassistans under matches. De flesta söker the finals cheats för spelar-ESP, loot, off-screen radar eller mjukare sikte under press.",
+								"The Finals cheats är tredjepartsverktyg med extra info och stridsassistans under matches. De flesta söker thefinals cheats för spelar-ESP, loot, off-screen radar eller mjukare sikte under press.",
 								"The Final Cheats buntar ihop dessa verktyg i en Windows PC-licens — inga separata nedladdningar för wallhack, radar och aimbot.",
 							],
 						},
@@ -25004,7 +25004,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
-							h2: "How the finals cheat download delivery works",
+							h2: "How thefinals cheat download delivery works",
 							paragraphs: [
 								"The Final Cheats kombinerar ESP wallhack, radar hack och The Finals Aimbot som undetected paket för The Finals på Windows PC. digital licensnedladdning efter betalning",
 								"Keep your order confirmation and license email ready for the <a href=\"/setup/\">Installationsguide</a> and Support requests.",
@@ -25108,9 +25108,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"best-cheats": {
 					title: "Bästa The Final Cheats | best-cheats",
-					description: "Bästa The Final Cheats: vad du ska jämföra innan du köper the finals cheats. omedelbar digital leverans. undetected — Windows PC.",
+					description: "Bästa The Final Cheats: vad du ska jämföra innan du köper thefinals cheats. omedelbar digital leverans. undetected — Windows PC.",
 					h1: "Bästa The Final Cheats",
-					intro: "The Final Cheats kombinerar ESP wallhack, radar hack och The Finals Aimbot som undetected paket för The Finals på Windows PC. Bästa The Final Cheats. vad du ska jämföra innan du köper the finals cheats.",
+					intro: "The Final Cheats kombinerar ESP wallhack, radar hack och The Finals Aimbot som undetected paket för The Finals på Windows PC. Bästa The Final Cheats. vad du ska jämföra innan du köper thefinals cheats.",
 					imageAlt: "The Final Cheats overview for The Finals on PC",
 					galleryTitle: "Bästa The Final Cheats",
 					ctaPrimary: "Köp The Final Cheats",
@@ -25118,25 +25118,25 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
-							h2: "What makes the finals cheats in 2026",
+							h2: "What makes thefinals cheats in 2026",
 							paragraphs: [
-								"The Final Cheats kombinerar ESP wallhack, radar hack och The Finals Aimbot som undetected paket för The Finals på Windows PC. vad du ska jämföra innan du köper the finals cheats",
+								"The Final Cheats kombinerar ESP wallhack, radar hack och The Finals Aimbot som undetected paket för The Finals på Windows PC. vad du ska jämföra innan du köper thefinals cheats",
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Easy Anti-Cheat-underhåll.",
 								"Verify the live game is healthy via <a href=\"https://store.steampowered.com/app/2073850/THE_FINALS/\" target=\"_blank\" rel=\"noopener noreferrer\">The Finals on Steam</a>, then confirm our <a href=\"/updates/\">Livestatus</a> note before you judge any package “best.”",
 							],
 						},
 						{
-							h2: "Best the finals cheats feature checklist",
+							h2: "Best thefinals cheats feature checklist",
 							paragraphs: [
-								"The Final Cheats kombinerar ESP wallhack, radar hack och The Finals Aimbot som undetected paket för The Finals på Windows PC. vad du ska jämföra innan du köper the finals cheats",
+								"The Final Cheats kombinerar ESP wallhack, radar hack och The Finals Aimbot som undetected paket för The Finals på Windows PC. vad du ska jämföra innan du köper thefinals cheats",
 								"Review <a href=\"/features/\">Alla funktioner</a>, <a href=\"/finals-cheats/\">The Final Cheats-översikt</a>, and <a href=\"/finals-cheats/\">The Final Cheats-översikt</a> before checkout — monthly ($35) and lifetime ($150) plans available.",
 								"Module pages worth opening: <a href=\"/finals-esp/\">ESP- och wallhack-guide</a>, <a href=\"/finals-aimbot/\">Aimbot och soft aim</a>, <a href=\"/finals-cheats/\">The Final Cheats-översikt</a>.",
 							],
 						},
 						{
-							h2: "Buying the finals cheats safely",
+							h2: "Buying thefinals cheats safely",
 							paragraphs: [
-								"The Final Cheats kombinerar ESP wallhack, radar hack och The Finals Aimbot som undetected paket för The Finals på Windows PC. vad du ska jämföra innan du köper the finals cheats",
+								"The Final Cheats kombinerar ESP wallhack, radar hack och The Finals Aimbot som undetected paket för The Finals på Windows PC. vad du ska jämföra innan du köper thefinals cheats",
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Easy Anti-Cheat-underhåll.",
 								"Kontrollera Updates ruster Easy Anti-Cheat-patchar. Ingen cheat garanterar permanent undetected status.",
 							],

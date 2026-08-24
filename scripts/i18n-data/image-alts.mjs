@@ -24,7 +24,7 @@ export const PAGE_IMAGE_ALTS = {
 	faq: 'The Final Cheats FAQ — delivery, setup, and update answers',
 	support: 'The Final Cheats support page for license and setup help',
 	undetected: 'The Final Cheats undetected status overview for Windows PC',
-	wallhack: 'the finals wallhack visibility through walls in a match',
+	wallhack: 'thefinals wallhack visibility through walls in a match',
 	radar: 'The Finals 2D radar overlay showing nearby threats',
 	eac: 'The Final Cheats maintenance after a Easy Anti-Cheat patch',
 	'cheats-2026': 'The Final Cheats product overview for The Finals',

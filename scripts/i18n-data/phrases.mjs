@@ -2,9 +2,9 @@ import { HERO_IMAGES, clampTitle, clampDesc, section } from './constants.mjs';
 
 /** Shared product terms kept in English for SEO keywords across locales. */
 const KW = {
-	hacks: 'the finals cheats',
-	cheats: 'the finals cheats',
-	hack: 'the finals cheat',
+	hacks: 'thefinals cheats',
+	cheats: 'thefinals cheats',
+	hack: 'thefinals cheat',
 	esp: 'The Finals ESP',
 	wallhack: 'ESP wallhack',
 	radar: 'radar hack',

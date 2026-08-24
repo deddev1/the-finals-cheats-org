@@ -40,21 +40,21 @@ const copyDefaults = {
 } as const;
 
 const seoDefaults = {
-	homeTitle: 'The Finals Cheats 2026 | ESP, Aimbot & Wallhack',
+	homeTitle: 'thefinals Cheats 2026 | ESP, Aimbot & Wallhack',
 	homeDescription:
-		'Buy undetected The Finals cheats at thefinalscheats.org — ESP, aimbot, wallhack & 2D radar for Windows PC. Easy Anti-Cheat updates after patches. Plans from $35/month.',
+		'Buy undetected thefinals cheats at thefinalscheats.org — ESP, aimbot, wallhack & 2D radar for Windows PC. Easy Anti-Cheat updates after patches. Plans from $35/month.',
 	featuresTitle: 'The Finals Features 2026 | ESP, Aimbot & Radar | {brand}',
 	featuresDescription:
-		'Full the finals cheats feature list at {brand} — ESP wallhack, soft aim, 2D radar and mod menu toggles for Windows PC. {antiCheat} maintenance included. Compare at thefinalscheats.org.',
+		'Full thefinals cheats feature list at {brand} — ESP wallhack, soft aim, 2D radar and mod menu toggles for Windows PC. {antiCheat} maintenance included. Compare at thefinalscheats.org.',
 	storeTitle: 'The Final Cheats Pricing 2026 | $35/mo or $150 Lifetime',
 	storeDescription:
-		'Buy the finals cheats at thefinalscheats.org — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.',
+		'Buy thefinals cheats at thefinalscheats.org — $35 monthly or $150 lifetime for undetected ESP, aimbot and radar on Windows PC. Same features on both plans. Instant delivery after checkout.',
 	statusTitle: 'The Finals Status 2026 | Undetected {antiCheat} Updates | {brand}',
 	statusDescription:
 		'Live {brand} status after {game} or {antiCheat} patches. Check undetected ESP, aimbot and radar rebuilds on Windows PC before you queue. Updated at thefinalscheats.org.',
 	previewTitle: 'The Finals Hacks Guide 2026 | ESP, Aimbot & Wallhack | {brand}',
 	previewDescription:
-		'Full the finals cheats guide from {brand} — undetected ESP wallhack, soft aim, 2D radar and {antiCheat} rebuilds on Windows PC. Compare features and buy at thefinalscheats.org from $35.',
+		'Full thefinals cheats guide from {brand} — undetected ESP wallhack, soft aim, 2D radar and {antiCheat} rebuilds on Windows PC. Compare features and buy at thefinalscheats.org from $35.',
 	setupTitle: 'The Final Cheats Setup 2026 | Windows PC Install Guide',
 	setupDescription:
 		'Install {brand} on Windows PC after checkout — activate ESP, soft aim and radar step by step. Setup guide at thefinalscheats.org. Check {antiCheat} status before your first match.',
@@ -63,7 +63,7 @@ const seoDefaults = {
 		'{brand} support for license delivery, ESP setup and billing on Windows PC. Email {email} with your order ID. Visit thefinalscheats.org/support for FAQs and guides.',
 	faqTitle: 'The Final Cheats FAQ 2026 | ESP, Aimbot & {antiCheat} Answers',
 	faqDescription:
-		'{brand} FAQ — delivery, setup, undetected status, {antiCheat} updates, pricing and refunds for the finals cheats on Windows PC. Clear answers at thefinalscheats.org before you buy.',
+		'{brand} FAQ — delivery, setup, undetected status, {antiCheat} updates, pricing and refunds for thefinals cheats on Windows PC. Clear answers at thefinalscheats.org before you buy.',
 	reviewsTitle: 'The Final Cheats Reviews 2026 | Real Buyer Feedback',
 	reviewsDescription:
 		'Real buyer reviews for {brand} — ESP wallhack, soft aim, radar and {antiCheat} maintenance on Windows PC. See what license holders say before you buy at thefinalscheats.org.',

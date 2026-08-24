@@ -67,7 +67,7 @@ const reps = [
 	['/finals-aimbot-hack/', '/finals-aimbot/'],
 	['/finals-esp-hack/', '/finals-esp/'],
 	['/best-finals-cheats/', '/'],
-	['best the finals cheats', 'the finals cheats'],
+	['best thefinals cheats', 'thefinals cheats'],
 	['hot drops', 'hot spawns'],
 	['ranked grinders', 'session grinders'],
 	['before Ranked', 'before a match'],

@@ -9,7 +9,7 @@ const SRC = path.resolve(ROOT, '..', 'amansand');
 
 const UI_REPLACEMENTS = [
 	['The Finals Hacks', 'The Finals Hacks'],
-	['the finals cheats', 'the finals cheats'],
+	['thefinals cheats', 'thefinals cheats'],
 	['The Finals Hacks', 'The Finals Hacks'],
 	['The Finals', 'The Finals'],
 	['The Finals', 'The Finals'],

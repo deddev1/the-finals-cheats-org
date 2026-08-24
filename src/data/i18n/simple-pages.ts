@@ -176,16 +176,16 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		description: brandSeo.previewDescription,
 		h1: 'The Final Cheats — Full Guide',
 		intro:
-			'The Finals cheats add ESP, radar, and soft aim on top of the base game. This page explains what the finals cheats are, what The Final Cheats includes, how Easy Anti-Cheat maintenance works, and where to go next before you buy.',
+			'The Finals cheats add ESP, radar, and soft aim on top of the base game. This page explains what thefinals cheats are, what The Final Cheats includes, how Easy Anti-Cheat maintenance works, and where to go next before you buy.',
 		ctaPrimary: brandCopy.ctaBuy,
 		ctaSecondary: 'View features',
 		ctaSecondaryHref: '/features/',
 		galleryTitle: 'The Finals cheats in action',
 		sections: [
 			{
-				h2: 'What are the finals cheats?',
+				h2: 'What are thefinals cheats?',
 				paragraphs: [
-					'The Finals cheats are third-party tools that give you extra information and combat assist during matches. Most players search for the finals cheats when they want player ESP, loot visibility, off-screen radar, or smoother aim under pressure.',
+					'The Finals cheats are third-party tools that give you extra information and combat assist during matches. Most players search for thefinals cheats when they want player ESP, loot visibility, off-screen radar, or smoother aim under pressure.',
 					'The Final Cheats bundles those tools in one license for Windows PC — no stacking separate downloads for wallhack, radar, and aimbot.',
 				],
 			},
@@ -242,7 +242,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 	'finals-esp': page({
 		title: 'The Finals ESP 2026 | Wallhack & Player Boxes | {brand}',
 		description:
-			'The Finals ESP wallhack with player boxes, vault markers and distance tags on Windows PC. Undetected the finals cheats from {brand} — aimbot and radar included. Buy at thefinalscheats.org.',
+			'The Finals ESP wallhack with player boxes, vault markers and distance tags on Windows PC. Undetected thefinals cheats from {brand} — aimbot and radar included. Buy at thefinalscheats.org.',
 		h1: 'ESP',
 		intro: 'See players and loot through walls during The Finals matches. Part of the same {brand} license.',
 		ctaPrimary: brandCopy.ctaBuy,

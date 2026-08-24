@@ -1,5 +1,5 @@
 /**
- * SVG overlay generators for the finals cheats marketing images.
+ * SVG overlay generators for thefinals cheats marketing images.
  * Composited on top of IGN The Finals gameplay screenshots.
  */
 

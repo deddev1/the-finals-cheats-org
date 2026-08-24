@@ -188,7 +188,7 @@ export const blogUi: Record<
 			'The Final Cheats blog met undetected ESP, wallhack, radar en Aimbot gidsen voor The Finals op Windows PC.',
 		blogH1: 'The Final Cheats Blog — Wereldwijde gidsen',
 		blogIntro:
-			'SEO-gidsen voor undetected the finals cheats, ESP wallhack, radar hack, Aimbot en Easy Anti-Cheat in 22 talen.',
+			'SEO-gidsen voor undetected thefinals cheats, ESP wallhack, radar hack, Aimbot en Easy Anti-Cheat in 22 talen.',
 		readMore: 'Lees gids',
 		published: 'Gepubliceerd',
 		updated: 'Bijgewerkt',
@@ -308,7 +308,7 @@ export const blogUi: Record<
 			'The Final Cheats ब्लॉग: undetected ESP, wallhack, radar और Aimbot गाइड The Finals Windows PC के लिए।',
 		blogH1: 'The Final Cheats ब्लॉग — वैश्विक गाइड',
 		blogIntro:
-			'undetected the finals cheats, ESP wallhack, radar hack, Aimbot और Easy Anti-Cheat SEO गाइड 22 भाषाओं में।',
+			'undetected thefinals cheats, ESP wallhack, radar hack, Aimbot और Easy Anti-Cheat SEO गाइड 22 भाषाओं में।',
 		readMore: 'गाइड पढ़ें',
 		published: 'प्रकाशित',
 		updated: 'अपडेट',
@@ -383,7 +383,7 @@ export const blogUi: Record<
 			'Blog The Final Cheats: undetected ESP, wallhack, radar a Aimbot pro The Finals na Windows PC.',
 		blogH1: 'Blog The Final Cheats — Globální průvodce',
 		blogIntro:
-			'SEO průvodce undetected the finals cheaty, ESP wallhack, radar hack, Aimbot a Easy Anti-Cheat ve 22 jazycích.',
+			'SEO průvodce undetected thefinals cheaty, ESP wallhack, radar hack, Aimbot a Easy Anti-Cheat ve 22 jazycích.',
 		readMore: 'Číst průvodce',
 		published: 'Publikováno',
 		updated: 'Aktualizováno',
@@ -413,7 +413,7 @@ export const blogUi: Record<
 			'The Final Cheats blogg med undetected ESP, wallhack, radar och Aimbot guider för The Finals på PC.',
 		blogH1: 'The Final Cheats Blogg — Globala guider',
 		blogIntro:
-			'SEO-guider för undetected the finals cheats, ESP wallhack, radar hack, Aimbot och Easy Anti-Cheat på 22 språk.',
+			'SEO-guider för undetected thefinals cheats, ESP wallhack, radar hack, Aimbot och Easy Anti-Cheat på 22 språk.',
 		readMore: 'Läs guide',
 		published: 'Publicerad',
 		updated: 'Uppdaterad',

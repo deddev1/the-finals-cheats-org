@@ -3,12 +3,12 @@
 export const uiStrings = {
 	en: {
 		nav: { home: 'Home', hacks: 'Hacks', aimbot: 'Aimbot', esp: 'ESP', features: 'Features', pricing: 'Pricing', setup: 'Setup', updates: 'Updates', faq: 'FAQ', buyNow: 'Buy Now' },
-		hero: { accent: '2026 — Undetected ESP, Aimbot & Wallhack', accentShort: 'Undetected the finals cheats 2026', subtitle: 'the finals cheats with The Finals ESP, radar hack and The Finals Aimbot for Windows PC — Easy Anti-Cheat maintenance included.', subtitleShort: 'The Finals ESP, radar & aimbot for PC', buyNow: 'Buy The Final Cheats', seeFeatures: 'See Features' },
-		trust: { status: 'Online', statusNote: 'The Final Cheats — undetected the finals cheats live for The Finals on Windows PC.', statusShort: 'Live', delivery: 'Instant digital delivery', platform: 'Windows 10 & 11', antiCheat: 'Easy Anti-Cheat maintenance supported', antiCheatShort: 'Easy Anti-Cheat supported' },
-		product: { title: 'The Final Cheats', addToCart: 'Add to Cart', monthly: 'Monthly', lifetime: 'Lifetime', available: 'Available now', gameBadge: 'The Finals', platformBadge: 'Windows PC', statusBadge: 'Undetected the finals cheats' },
+		hero: { accent: '2026 — Undetected ESP, Aimbot & Wallhack', accentShort: 'Undetected thefinals cheats 2026', subtitle: 'thefinals cheats with The Finals ESP, radar hack and The Finals Aimbot for Windows PC — Easy Anti-Cheat maintenance included.', subtitleShort: 'The Finals ESP, radar & aimbot for PC', buyNow: 'Buy The Final Cheats', seeFeatures: 'See Features' },
+		trust: { status: 'Online', statusNote: 'The Final Cheats — undetected thefinals cheats live for The Finals on Windows PC.', statusShort: 'Live', delivery: 'Instant digital delivery', platform: 'Windows 10 & 11', antiCheat: 'Easy Anti-Cheat maintenance supported', antiCheatShort: 'Easy Anti-Cheat supported' },
+		product: { title: 'The Final Cheats', addToCart: 'Add to Cart', monthly: 'Monthly', lifetime: 'Lifetime', available: 'Available now', gameBadge: 'The Finals', platformBadge: 'Windows PC', statusBadge: 'Undetected thefinals cheats' },
 		reviews: { title: 'What players say', subtitle: 'Recent feedback from The Final Cheats buyers', outOf: 'out of 5', countLabel: 'reviews' },
 		common: { buyNow: 'Buy The Final Cheats', readGuide: 'Read guide', language: 'Language', officialLanguageNote: 'English is official; other locales are translated.', relatedPages: 'Related pages' },
-		footer: { explore: 'Explore', help: 'Help & legal', tagline: 'Undetected the finals cheats for PC.\nESP, wallhack, radar & aimbot.' },
+		footer: { explore: 'Explore', help: 'Help & legal', tagline: 'Undetected thefinals cheats for PC.\nESP, wallhack, radar & aimbot.' },
 		images: {
 		hero: "The Final Cheats hero — ESP and aimbot overlay in The Finals",
 		espWallhack: "Wallhack outlines showing players and NPCs through walls",

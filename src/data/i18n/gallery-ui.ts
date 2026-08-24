@@ -12,16 +12,16 @@ export type GalleryUi = {
 
 export const galleryUi: Record<LocaleCode, GalleryUi> = {
 	en: {
-		eyebrow: 'the finals cheats',
-		title: 'the finals cheats gallery',
-		subtitle: 'Simple the finals cheats visuals — ESP, wallhack, aimbot, and radar for The Finals on PC.',
+		eyebrow: 'thefinals cheats',
+		title: 'thefinals cheats gallery',
+		subtitle: 'Simple thefinals cheats visuals — ESP, wallhack, aimbot, and radar for The Finals on PC.',
 		lead: 'The Final Cheats helps you spot players, NPCs, loot, and bases with ESP, aimbot, and radar in one license.',
 		highlights: [
-			{ title: 'the finals cheats esp', copy: 'See players through walls with the finals cheats esp and wallhack overlays.' },
-			{ title: 'the finals cheats radar', copy: 'Track nearby threats with the finals cheats radar before you push or extract.' },
-			{ title: 'the finals cheats aimbot', copy: 'Use soft aim and aimbot controls tuned for The Finals matches on Windows PC.' },
+			{ title: 'thefinals cheats esp', copy: 'See players through walls with thefinals cheats esp and wallhack overlays.' },
+			{ title: 'thefinals cheats radar', copy: 'Track nearby threats with thefinals cheats radar before you push or extract.' },
+			{ title: 'thefinals cheats aimbot', copy: 'Use soft aim and aimbot controls tuned for The Finals matches on Windows PC.' },
 		],
-		updatesLabel: 'the finals cheats updates',
+		updatesLabel: 'thefinals cheats updates',
 		updatesShort: 'Updates',
 	},
 	es: {

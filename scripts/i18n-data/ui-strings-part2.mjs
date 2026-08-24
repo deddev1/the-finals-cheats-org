@@ -87,7 +87,7 @@ export const uiStringsPart2 = {
 	},
 	hi: {
 		nav: { home: 'होम', hacks: 'Hacks', aimbot: 'Aimbot', esp: 'ESP', features: 'फ़ीचर्स', pricing: 'कीमत', setup: 'सेटअप', updates: 'अपडेट', faq: 'FAQ', buyNow: 'अभी खरीदें' },
-		hero: { accent: 'Undetected the finals cheats', accentShort: 'The Final Cheats', subtitle: 'The Finals Windows PC के लिए ESP wallhack, radar hack और Aimbot — Easy Anti-Cheat maintenance शामिल।', subtitleShort: 'The Finals PC के लिए ESP, radar और Aimbot', buyNow: 'अभी खरीदें', seeFeatures: 'फ़ीचर्स देखें' },
+		hero: { accent: 'Undetected thefinals cheats', accentShort: 'The Final Cheats', subtitle: 'The Finals Windows PC के लिए ESP wallhack, radar hack और Aimbot — Easy Anti-Cheat maintenance शामिल।', subtitleShort: 'The Finals PC के लिए ESP, radar और Aimbot', buyNow: 'अभी खरीदें', seeFeatures: 'फ़ीचर्स देखें' },
 		trust: { status: 'ऑनलाइन', statusNote: 'The Final Cheats पैकेज The Finals Windows PC के लिए सक्रिय है।', statusShort: 'सक्रिय', delivery: 'तुरंत डिजिटल डिलीवरी', platform: 'Windows 10 और 11', antiCheat: 'Easy Anti-Cheat maintenance समर्थित', antiCheatShort: 'Easy Anti-Cheat समर्थित' },
 		product: { title: 'The Final Cheats', addToCart: 'कार्ट में जोड़ें', monthly: 'मासिक', lifetime: 'लाइफ़टाइम', available: 'अभी उपलब्ध', gameBadge: 'The Finals', platformBadge: 'Windows PC', statusBadge: 'Undetected पैकेज' },
 		reviews: { title: 'खिलाड़ी क्या कहते हैं', subtitle: 'The Final Cheats खरीदारों की हाल की प्रतिक्रिया', outOf: '/5', countLabel: 'समीक्षाएँ' },
@@ -129,7 +129,7 @@ export const uiStringsPart2 = {
 	},
 	th: {
 		nav: { home: 'หน้าแรก', hacks: 'Hacks', aimbot: 'Aimbot', esp: 'ESP', features: 'ฟีเจอร์', pricing: 'ราคา', setup: 'ติดตั้ง', updates: 'อัปเดต', faq: 'FAQ', buyNow: 'ซื้อเลย' },
-		hero: { accent: 'the finals cheats ไม่ถูกตรวจจับ', accentShort: 'The Final Cheats', subtitle: 'ESP wallhack, radar hack และ Aimbot สำหรับ The Finals บน Windows PC — รวมการดูแล Easy Anti-Cheat', subtitleShort: 'ESP, radar และ Aimbot สำหรับ The Finals PC', buyNow: 'ซื้อเลย', seeFeatures: 'ดูฟีเจอร์' },
+		hero: { accent: 'thefinals cheats ไม่ถูกตรวจจับ', accentShort: 'The Final Cheats', subtitle: 'ESP wallhack, radar hack และ Aimbot สำหรับ The Finals บน Windows PC — รวมการดูแล Easy Anti-Cheat', subtitleShort: 'ESP, radar และ Aimbot สำหรับ The Finals PC', buyNow: 'ซื้อเลย', seeFeatures: 'ดูฟีเจอร์' },
 		trust: { status: 'ออนไลน์', statusNote: 'แพ็กเกจ The Final Cheats พร้อมใช้งานสำหรับ The Finals บน Windows PC', statusShort: 'ใช้งาน', delivery: 'จัดส่งดิจิทัลทันที', platform: 'Windows 10 และ 11', antiCheat: 'รองรับการดูแล Easy Anti-Cheat', antiCheatShort: 'Easy Anti-Cheat รองรับ' },
 		product: { title: 'The Final Cheats', addToCart: 'เพิ่มในตะกร้า', monthly: 'รายเดือน', lifetime: 'ตลอดชีพ', available: 'พร้อมใช้งาน', gameBadge: 'The Finals', platformBadge: 'Windows PC', statusBadge: 'แพ็กเกจ undetected' },
 		reviews: { title: 'ผู้เล่นพูดว่าอย่างไร', subtitle: 'ความคิดเห็นล่าสุดจากผู้ซื้อ The Final Cheats', outOf: 'จาก 5', countLabel: 'รีวิว' },
@@ -192,7 +192,7 @@ export const uiStringsPart2 = {
 	},
 	cs: {
 		nav: { home: 'Domů', hacks: 'Hacks', aimbot: 'Aimbot', esp: 'ESP', features: 'Funkce', pricing: 'Ceny', setup: 'Instalace', updates: 'Aktualizace', faq: 'FAQ', buyNow: 'Koupit' },
-		hero: { accent: 'Undetected the finals cheaty', accentShort: 'The Final Cheats', subtitle: 'ESP wallhack, radar hack a Aimbot pro The Finals na Windows PC — údržba Easy Anti-Cheat v ceně.', subtitleShort: 'ESP, radar a Aimbot pro The Finals PC', buyNow: 'Koupit', seeFeatures: 'Zobrazit funkce' },
+		hero: { accent: 'Undetected thefinals cheaty', accentShort: 'The Final Cheats', subtitle: 'ESP wallhack, radar hack a Aimbot pro The Finals na Windows PC — údržba Easy Anti-Cheat v ceně.', subtitleShort: 'ESP, radar a Aimbot pro The Finals PC', buyNow: 'Koupit', seeFeatures: 'Zobrazit funkce' },
 		trust: { status: 'Online', statusNote: 'Balíček The Final Cheats je aktivní pro The Finals na Windows PC.', statusShort: 'Aktivní', delivery: 'Okamžité digitální doručení', platform: 'Windows 10 a 11', antiCheat: 'Podpora údržby Easy Anti-Cheat', antiCheatShort: 'Easy Anti-Cheat podpora' },
 		product: { title: 'The Final Cheats', addToCart: 'Přidat do košíku', monthly: 'Měsíčně', lifetime: 'Doživotně', available: 'Dostupné nyní', gameBadge: 'The Finals', platformBadge: 'Windows PC', statusBadge: 'Undetected balíček' },
 		reviews: { title: 'Co říkají hráči', subtitle: 'Nedávná zpětná vazba od kupujících The Final Cheats', outOf: 'z 5', countLabel: 'recenzí' },
@@ -234,7 +234,7 @@ export const uiStringsPart2 = {
 	},
 	sv: {
 		nav: { home: 'Hem', hacks: 'Hacks', aimbot: 'Aimbot', esp: 'ESP', features: 'Funktioner', pricing: 'Priser', setup: 'Installation', updates: 'Uppdateringar', faq: 'FAQ', buyNow: 'Köp nu' },
-		hero: { accent: 'Undetected the finals cheats', accentShort: 'The Final Cheats', subtitle: 'ESP wallhack, radar hack och Aimbot för The Finals på Windows PC — Easy Anti-Cheat-underhåll ingår.', subtitleShort: 'ESP, radar & Aimbot för The Finals PC', buyNow: 'Köp nu', seeFeatures: 'Se funktioner' },
+		hero: { accent: 'Undetected thefinals cheats', accentShort: 'The Final Cheats', subtitle: 'ESP wallhack, radar hack och Aimbot för The Finals på Windows PC — Easy Anti-Cheat-underhåll ingår.', subtitleShort: 'ESP, radar & Aimbot för The Finals PC', buyNow: 'Köp nu', seeFeatures: 'Se funktioner' },
 		trust: { status: 'Online', statusNote: 'The Final Cheats-paketet är live för The Finals på Windows PC.', statusShort: 'Live', delivery: 'Omedelbar digital leverans', platform: 'Windows 10 & 11', antiCheat: 'Easy Anti-Cheat-underhåll stöds', antiCheatShort: 'Easy Anti-Cheat stöd' },
 		product: { title: 'The Final Cheats', addToCart: 'Lägg i varukorg', monthly: 'Månadsvis', lifetime: 'Lifetime', available: 'Tillgänglig nu', gameBadge: 'The Finals', platformBadge: 'Windows PC', statusBadge: 'Undetected paket' },
 		reviews: { title: 'Vad spelare säger', subtitle: 'Senaste feedback från The Final Cheats-köpare', outOf: 'av 5', countLabel: 'recensioner' },

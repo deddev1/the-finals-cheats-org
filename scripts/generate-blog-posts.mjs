@@ -408,13 +408,13 @@ const sources = [
 		slug: 'finals-cheats-complete-guide-2026',
 		title: 'The Finals Hacks 2026: Complete Undetected Guide',
 		metaDescription:
-			'A clear 2026 guide to the finals cheats — what ESP, soft aim, and radar actually do in The Finals, how Easy Anti-Cheat maintenance works, and how to buy safely.',
+			'A clear 2026 guide to thefinals cheats — what ESP, soft aim, and radar actually do in The Finals, how Easy Anti-Cheat maintenance works, and how to buy safely.',
 		h1: 'The Finals Hacks in 2026: What They Are and How to Use Them Carefully',
 		intro:
-			'People search “the finals cheats” for a simple reason: The Finals is information-heavy, punishing, and full of base campers. This guide explains what modern undetected packages actually include, how Easy Anti-Cheat maintenance works, and how to decide whether a tool fits your play style.',
+			'People search “thefinals cheats” for a simple reason: The Finals is information-heavy, punishing, and full of base campers. This guide explains what modern undetected packages actually include, how Easy Anti-Cheat maintenance works, and how to decide whether a tool fits your play style.',
 		keywords: [
-			'the finals cheats',
-			'undetected the finals cheats',
+			'thefinals cheats',
+			'undetected thefinals cheats',
 			'The Finals ESP',
 			'The Finals Aimbot',
 			'eac',
@@ -422,10 +422,10 @@ const sources = [
 		imageAlt: 'Overview of The Finals Hacks ESP soft aim and radar tools for 2026',
 		sections: [
 			{
-				h2: 'What do people mean when they say the finals cheats?',
+				h2: 'What do people mean when they say thefinals cheats?',
 				paragraphs: [
-					'In plain language, the finals cheats are third-player tools that add information or aim assistance on top of The Finals client. The common stack is ESP wallhack for players and loot, a 2D radar for threats outside your view, and configurable soft aim for arena fights. One license should cover that loop instead of forcing you to juggle separate downloads.',
-					'Searchers also say “the finals cheats,” “the finals cheats,” or “the finals wallhack.” Those phrases usually point at the same intent: survive matches with better reads. Start at our <a href="/">The Finals Hacks pillar</a> if you want the product overview without the long essay.',
+					'In plain language, thefinals cheats are third-player tools that add information or aim assistance on top of The Finals client. The common stack is ESP wallhack for players and loot, a 2D radar for threats outside your view, and configurable soft aim for arena fights. One license should cover that loop instead of forcing you to juggle separate downloads.',
+					'Searchers also say “thefinals cheats,” “thefinals cheats,” or “thefinals wallhack.” Those phrases usually point at the same intent: survive matches with better reads. Start at our <a href="/">The Finals Hacks pillar</a> if you want the product overview without the long essay.',
 				],
 			},
 			{
@@ -438,7 +438,7 @@ const sources = [
 			{
 				h2: 'Easy Anti-Cheat, “undetected,” and honest expectations',
 				paragraphs: [
-					`${EXT.eac} protects The Finals. No seller can promise permanent undetected status. What a serious vendor can offer is maintenance: rebuilds after patches, a public status note, and clear setup steps. That workflow is documented on <a href="/undetected-finals-cheats/">undetected the finals cheats</a> and <a href="/eac-bypass/">Easy Anti-Cheat maintenance</a>.`,
+					`${EXT.eac} protects The Finals. No seller can promise permanent undetected status. What a serious vendor can offer is maintenance: rebuilds after patches, a public status note, and clear setup steps. That workflow is documented on <a href="/undetected-finals-cheats/">undetected thefinals cheats</a> and <a href="/eac-bypass/">Easy Anti-Cheat maintenance</a>.`,
 					'Before every patch-day load in, read <a href="/updates/">Updates</a>. If status is quiet, wait. Responsible settings matter as much as the binary itself.',
 				],
 			},
@@ -461,15 +461,15 @@ const sources = [
 		slug: 'finals-cheats-buyers-guide',
 		title: 'The Final Cheats Buyers Guide',
 		metaDescription:
-			'What to check before you buy the finals cheats — status pages, ESP features, soft aim, refunds, pricing, and red flags in 2026.',
+			'What to check before you buy thefinals cheats — status pages, ESP features, soft aim, refunds, pricing, and red flags in 2026.',
 		h1: 'The Final Cheats: What to Check Before You Buy',
 		intro:
-			'Buying the finals cheats is noisy. Every storefront promises “undetected,” instant delivery, and god mode. This buyers guide slows you down with a practical checklist so you spend money on maintenance and clarity — not banners.',
+			'Buying thefinals cheats is noisy. Every storefront promises “undetected,” instant delivery, and god mode. This buyers guide slows you down with a practical checklist so you spend money on maintenance and clarity — not banners.',
 		keywords: [
-			'the finals cheats',
-			'the finals cheats buyers guide',
-			'buy the finals cheats',
-			'undetected the finals cheats',
+			'thefinals cheats',
+			'thefinals cheats buyers guide',
+			'buy thefinals cheats',
+			'undetected thefinals cheats',
 			'rust pricing',
 		],
 		imageAlt: 'Checklist for buying The Finals Hacks safely',
@@ -507,16 +507,16 @@ const sources = [
 		slug: 'finals-cheats-2026-whats-new',
 		title: 'The Finals Hacks 2026: What Changed This Year',
 		metaDescription:
-			'What changed for the finals cheats in 2026 — patch cycle cadence, Easy Anti-Cheat maintenance habits, ESP focus, and how The Finals Hacks adapted for The Finals.',
+			'What changed for thefinals cheats in 2026 — patch cycle cadence, Easy Anti-Cheat maintenance habits, ESP focus, and how The Finals Hacks adapted for The Finals.',
 		h1: 'What Changed for The Finals Hacks in 2026',
 		intro:
 			'2026 did not invent cheating in The Finals — it raised the bar for maintenance. Wipes, Easy Anti-Cheat pushes, and map updates punish stale builds. Here is what changed in how serious The Finals Hacks packages need to operate.',
 		keywords: [
-			'the finals cheats 2026',
-			'the finals cheats 2026',
+			'thefinals cheats 2026',
+			'thefinals cheats 2026',
 			'eac 2026',
 			'rust patch cycle',
-			'the finals cheats updates',
+			'thefinals cheats updates',
 		],
 		imageAlt: '2026 updates for The Finals Hacks on The Finals',
 		sections: [
@@ -531,7 +531,7 @@ const sources = [
 				h2: 'Feature focus shifted toward match information',
 				paragraphs: [
 					'The winning feature set in 2026 is still ESP, radar, and tunable soft aim — because The Finals fights are about information and first peeks. Loud rage features matter less than readable overlays you can turn down near arenas and cashout vaults.',
-					'See the current stack on <a href="/features/">Features</a> and the pillar at <a href="/">the finals cheats</a>.',
+					'See the current stack on <a href="/features/">Features</a> and the pillar at <a href="/">thefinals cheats</a>.',
 				],
 			},
 			{
@@ -562,7 +562,7 @@ const sources = [
 			'rust soft aim',
 			'aimbot fov',
 			'rust aim assist',
-			'the finals cheats',
+			'thefinals cheats',
 		],
 		imageAlt: 'Soft aim and FOV settings for The Finals Aimbot on Windows PC',
 		sections: [
@@ -604,10 +604,10 @@ const sources = [
 			'“ESP” and “wallhack” get used interchangeably. In The Finals they both mean information through walls — but the useful details are distance, filters, and what you choose to hide so your screen stays readable.',
 		keywords: [
 			'The Finals ESP',
-			'the finals wallhack',
+			'thefinals wallhack',
 			'The Finals ESP',
 			'loot esp rust',
-			'the finals cheats',
+			'thefinals cheats',
 		],
 		imageAlt: 'ESP wallhack overlay showing players and loot in The Finals',
 		sections: [
@@ -643,18 +643,18 @@ const sources = [
 		slug: 'undetected-finals-cheats-eac',
 		title: 'Undetected The Finals Hacks and Easy Anti-Cheat Reality',
 		metaDescription:
-			'What “undetected the finals cheats” really means under Easy Anti-Cheat — maintenance, patch days, risk, and how to read status before you queue The Finals.',
+			'What “undetected thefinals cheats” really means under Easy Anti-Cheat — maintenance, patch days, risk, and how to read status before you queue The Finals.',
 		h1: 'Undetected The Finals Hacks: What Easy Anti-Cheat Reality Looks Like',
 		intro:
 			'“Undetected” is the most abused word in cheat marketing. Under Easy Anti-Cheat, it means a package is being maintained against current detections — not that bans are impossible. Here is the honest version for The Finals players.',
 		keywords: [
-			'undetected the finals cheats',
+			'undetected thefinals cheats',
 			'eac rust',
 			'rust ban risk',
 			'rust undetected',
 			'rust status',
 		],
-		imageAlt: 'Easy Anti-Cheat maintenance status for undetected the finals cheats',
+		imageAlt: 'Easy Anti-Cheat maintenance status for undetected thefinals cheats',
 		sections: [
 			{
 				h2: 'What undetected can honestly mean',
@@ -673,7 +673,7 @@ const sources = [
 			{
 				h2: 'Where to go next',
 				paragraphs: [
-					'Read <a href="/undetected-finals-cheats/">undetected the finals cheats</a>, the <a href="/blog/finals-cheats-complete-guide-2026/">2026 complete guide</a>, and <a href="/pricing/">Pricing</a> if you want the maintained stack. Undetected status is a process you check — not a sticker on the box.',
+					'Read <a href="/undetected-finals-cheats/">undetected thefinals cheats</a>, the <a href="/blog/finals-cheats-complete-guide-2026/">2026 complete guide</a>, and <a href="/pricing/">Pricing</a> if you want the maintained stack. Undetected status is a process you check — not a sticker on the box.',
 				],
 			},
 		],
@@ -688,18 +688,18 @@ const sources = [
 		slug: 'finals-cheats-vs-cheatvault-comparison',
 		title: 'The Finals Hacks vs Typical Budget The Finals Cheat Shops',
 		metaDescription:
-			'How The Finals Hacks compares to typical budget the finals cheat shops — ESP depth, radar, status pages, pricing, and what “cheap” usually skips.',
+			'How The Finals Hacks compares to typical budget thefinals cheat shops — ESP depth, radar, status pages, pricing, and what “cheap” usually skips.',
 		h1: 'The Finals Hacks vs Typical Budget The Finals Cheat Shops',
 		intro:
 			'Budget The Finals stores often look identical: neon banners, “undetected” badges, and a low weekly price. The Finals Hacks costs more than the cheapest tier on purpose. Here is what you usually trade when you chase the lowest sticker.',
 		keywords: [
-			'the finals cheats comparison',
-			'budget the finals cheats',
-			'the finals cheats vs other shops',
+			'thefinals cheats comparison',
+			'budget thefinals cheats',
+			'thefinals cheats vs other shops',
 			'esp radar pricing',
-			'the finals cheats',
+			'thefinals cheats',
 		],
-		imageAlt: 'Comparing The Finals Hacks features against budget the finals cheat shops',
+		imageAlt: 'Comparing The Finals Hacks features against budget thefinals cheat shops',
 		sections: [
 			{
 				h2: 'What budget shops usually optimize for',
@@ -719,7 +719,7 @@ const sources = [
 				h2: 'How to decide without brand loyalty',
 				paragraphs: [
 					'Write down must-haves: dated status, vault ESP, radar, soft aim profiles, Windows PC support. Open each seller’s status channel and feature list side by side. If a shop fails the status test, price does not matter.',
-					'Then return to <a href="/">the finals cheats</a> and <a href="/undetected-finals-cheats/">undetected notes</a> if that checklist matches what we ship.',
+					'Then return to <a href="/">thefinals cheats</a> and <a href="/undetected-finals-cheats/">undetected notes</a> if that checklist matches what we ship.',
 				],
 			},
 		],
@@ -734,18 +734,18 @@ const sources = [
 		slug: 'elitefn-vs-finals-cheats-two-week-test',
 		title: 'I Tested Another The Finals Cheat for 2 Weeks First',
 		metaDescription:
-			'A two-week test of another budget the finals cheat before switching to The Finals Hacks — ESP feel, soft aim, patch downtime, and support differences.',
+			'A two-week test of another budget thefinals cheat before switching to The Finals Hacks — ESP feel, soft aim, patch downtime, and support differences.',
 		h1: 'I Tested Another The Finals Cheat for Two Weeks Before Switching',
 		intro:
-			'My Discord kept recommending a popular budget the finals cheat shop. I gave it fourteen days on the same PC and official servers, then moved to The Finals Hacks. This is what actually differed — without the usual affiliate script.',
+			'My Discord kept recommending a popular budget thefinals cheat shop. I gave it fourteen days on the same PC and official servers, then moved to The Finals Hacks. This is what actually differed — without the usual affiliate script.',
 		keywords: [
-			'the finals cheats review',
-			'the finals cheat comparison',
-			'the finals cheat downtime',
+			'thefinals cheats review',
+			'thefinals cheat comparison',
+			'thefinals cheat downtime',
 			'soft aim test',
-			'the finals cheats',
+			'thefinals cheats',
 		],
-		imageAlt: 'Two week hands-on comparison between the finals cheat providers',
+		imageAlt: 'Two week hands-on comparison between thefinals cheat providers',
 		sections: [
 			{
 				h2: 'Week one — setup and first impressions',
@@ -793,10 +793,10 @@ const sources = [
 			'Some The Finals tools sell a slim ESP module and call it a day. The Finals Hacks ships the wider match stack. Neither philosophy is automatically wrong — they fit different players. Here is a clear comparison.',
 		keywords: [
 			'The Finals ESP only cheat',
-			'the finals cheats features',
+			'thefinals cheats features',
 			'radar vs esp',
-			'the finals cheat pricing',
-			'the finals cheats',
+			'thefinals cheat pricing',
+			'thefinals cheats',
 		],
 		imageAlt: 'Full stack The Finals Hacks compared with minimal ESP-only tools',
 		sections: [
@@ -825,7 +825,7 @@ const sources = [
 				h2: 'Which style should you buy?',
 				paragraphs: [
 					'Choose minimal ESP if budget is tight, you play casually, and you accept Discord-only status tracking. Choose The Finals Hacks if radar, loot filters, configurable soft aim, and a public Updates URL are must-haves.',
-					'Decide your must-haves on paper first. Then open <a href="/">the finals cheats</a> or keep shopping slim tools — but do not skip patch-day checks on either path.',
+					'Decide your must-haves on paper first. Then open <a href="/">thefinals cheats</a> or keep shopping slim tools — but do not skip patch-day checks on either path.',
 				],
 			},
 		],
@@ -870,7 +870,7 @@ const POST_META = {
 	},
 	'rust-loot-routes': {
 		h1: 'The Finals Loot Routes Guide',
-		keywords: ['rust cashout routes', 'rust spawn guide', 'the finals esp'],
+		keywords: ['rust cashout routes', 'rust spawn guide', 'thefinals esp'],
 	},
 	'rust-pro-settings': {
 		h1: 'The Finals Pro Settings Guide',
@@ -882,39 +882,39 @@ const POST_META = {
 	},
 	'finals-cheats-complete-guide': {
 		h1: 'The Finals Hacks Guide for 2026',
-		keywords: ['the finals cheats', 'undetected hacks', 'the finals esp'],
+		keywords: ['thefinals cheats', 'undetected hacks', 'thefinals esp'],
 	},
 	'finals-cheats-buyers-guide': {
 		h1: 'The Finals Hacks Buyers Guide',
-		keywords: ['buy the finals cheats', 'the finals cheats guide', 'rust pricing'],
+		keywords: ['buy thefinals cheats', 'thefinals cheats guide', 'rust pricing'],
 	},
 	'finals-cheats-2026-whats-new': {
 		h1: 'The Finals Hacks Updates in 2026',
-		keywords: ['the finals cheats 2026', 'eac updates', 'hack status'],
+		keywords: ['thefinals cheats 2026', 'eac updates', 'hack status'],
 	},
 	'finals-aimbot-settings-guide': {
 		h1: 'The Finals Aimbot Settings Guide',
-		keywords: ['the finals aimbot', 'soft aim', 'aimbot fov'],
+		keywords: ['thefinals aimbot', 'soft aim', 'aimbot fov'],
 	},
 	'finals-esp-wallhack-explained': {
 		h1: 'The Finals ESP and Wallhack Guide',
-		keywords: ['the finals esp', 'the finals wallhack', 'the finals cheats'],
+		keywords: ['thefinals esp', 'thefinals wallhack', 'thefinals cheats'],
 	},
 	'undetected-finals-cheats-eac': {
 		h1: 'Undetected The Finals Hacks Explained',
-		keywords: ['undetected the finals cheats', 'eac rust', 'ban risk'],
+		keywords: ['undetected thefinals cheats', 'eac rust', 'ban risk'],
 	},
 	'finals-cheats-vs-cheatvault': {
 		h1: 'The Finals Hacks vs Budget Shops',
-		keywords: ['the finals cheats comparison', 'budget the finals cheats', 'esp radar'],
+		keywords: ['thefinals cheats comparison', 'budget thefinals cheats', 'esp radar'],
 	},
 	'elitefn-two-week-test': {
 		h1: 'Two-Week The Finals Cheat Comparison Test',
-		keywords: ['the finals cheats review', 'hack comparison', 'soft aim test'],
+		keywords: ['thefinals cheats review', 'hack comparison', 'soft aim test'],
 	},
 	'finals-cheats-vs-ghostware': {
 		h1: 'Full-Stack vs ESP-Only The Final Cheats',
-		keywords: ['the finals esp cheat', 'full stack hacks', 'radar vs esp'],
+		keywords: ['thefinals esp cheat', 'full stack hacks', 'radar vs esp'],
 	},
 };
 

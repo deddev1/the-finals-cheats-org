@@ -1134,91 +1134,91 @@ export const PAGE_CONTENT = {
 	"hacks": {
 		"0": {
 			"en": [
-				"The Finals cheats are third-party tools that give you extra information and combat assist during matches. Most players search for the finals cheats when they want player ESP, loot visibility, off-screen radar, or smoother aim under pressure.",
+				"The Finals cheats are third-party tools that give you extra information and combat assist during matches. Most players search for thefinals cheats when they want player ESP, loot visibility, off-screen radar, or smoother aim under pressure.",
 				"The Final Cheats bundles those tools in one license for Windows PC — no stacking separate downloads for wallhack, radar, and aimbot."
 			],
 			"es": [
-				"Los trucos de The Finals son herramientas de terceros que te dan información extra y asistencia en combate durante matches. La mayoría busca the finals cheats cuando quieren ESP de jugadores, visibilidad de loot, radar fuera de pantalla o puntería más suave bajo presión.",
+				"Los trucos de The Finals son herramientas de terceros que te dan información extra y asistencia en combate durante matches. La mayoría busca thefinals cheats cuando quieren ESP de jugadores, visibilidad de loot, radar fuera de pantalla o puntería más suave bajo presión.",
 				"The Final Cheats agrupa esas herramientas en una licencia para Windows PC — sin descargas separadas para wallhack, radar y aimbot."
 			],
 			"fr": [
-				"Les triches The Finals sont des outils tiers qui donnent des infos supplémentaires et une aide au combat pendant les matches. La plupart cherchent the finals cheats pour l'ESP joueurs, le loot, le radar hors écran ou une visée plus fluide sous pression.",
+				"Les triches The Finals sont des outils tiers qui donnent des infos supplémentaires et une aide au combat pendant les matches. La plupart cherchent thefinals cheats pour l'ESP joueurs, le loot, le radar hors écran ou une visée plus fluide sous pression.",
 				"The Final Cheats regroupe ces outils dans une licence PC Windows — sans empiler wallhack, radar et aimbot séparément."
 			],
 			"de": [
-				"The Final Cheats sind Drittanbieter-Tools mit Extra-Infos und Kampfhilfe bei Raids. Die meisten suchen the finals cheats für Spieler-ESP, Loot-Sicht, Off-Screen-Radar oder sanfteres Zielen unter Druck.",
+				"The Final Cheats sind Drittanbieter-Tools mit Extra-Infos und Kampfhilfe bei Raids. Die meisten suchen thefinals cheats für Spieler-ESP, Loot-Sicht, Off-Screen-Radar oder sanfteres Zielen unter Druck.",
 				"The Final Cheats bündelt diese Tools in einer Windows-PC-Lizenz — ohne separate Downloads für Wallhack, Radar und Aimbot."
 			],
 			"pt": [
-				"The Finals cheats são ferramentas de terceiros que dão informação extra e assistência de combate em matches. A maioria procura the finals cheats por ESP de jogadores, loot, radar off-screen ou mira mais suave sob pressão.",
+				"The Finals cheats são ferramentas de terceiros que dão informação extra e assistência de combate em matches. A maioria procura thefinals cheats por ESP de jogadores, loot, radar off-screen ou mira mais suave sob pressão.",
 				"The Final Cheats reúne essas ferramentas numa licença Windows PC — sem empilhar wallhack, radar e aimbot separados."
 			],
 			"it": [
-				"I cheat The Finals sono tool di terze parti che danno info extra e assistenza in combattimento durante i match. Molti cercano the finals cheats per ESP giocatori, loot, radar off-screen o mira più fluida sotto pressione.",
+				"I cheat The Finals sono tool di terze parti che danno info extra e assistenza in combattimento durante i match. Molti cercano thefinals cheats per ESP giocatori, loot, radar off-screen o mira più fluida sotto pressione.",
 				"The Final Cheats raggruppa questi tool in una licenza Windows PC — senza download separati per wallhack, radar e aimbot."
 			],
 			"nl": [
-				"The Finals cheats zijn tools van derden met extra info en gevechtshulp tijdens matches. De meeste zoeken the finals cheats voor speler-ESP, loot, off-screen radar of soepeler richten onder druk.",
+				"The Finals cheats zijn tools van derden met extra info en gevechtshulp tijdens matches. De meeste zoeken thefinals cheats voor speler-ESP, loot, off-screen radar of soepeler richten onder druk.",
 				"The Final Cheats bundelt die tools in één Windows PC-licentie — geen aparte wallhack-, radar- en aimbot-downloads."
 			],
 			"pl": [
-				"The Finals cheats to narzędzia firm trzecich dające dodatkowe info i wsparcie w walce podczas matchów. Większość szuka the finals cheats dla ESP graczy, lootu, radaru off-screen lub płynniejszego aimu pod presją.",
+				"The Finals cheats to narzędzia firm trzecich dające dodatkowe info i wsparcie w walce podczas matchów. Większość szuka thefinals cheats dla ESP graczy, lootu, radaru off-screen lub płynniejszego aimu pod presją.",
 				"The Final Cheats łączy te narzędzia w jednej licencji na Windows PC — bez osobnych pobrań wallhack, radar i aimbot."
 			],
 			"ru": [
-				"The Finals cheats — сторонние инструменты с доп. информацией и боевой помощью в рейдах. Ищут the finals cheats за ESP игроков, лут, off-screen radar или более плавный aim под давлением.",
+				"The Finals cheats — сторонние инструменты с доп. информацией и боевой помощью в рейдах. Ищут thefinals cheats за ESP игроков, лут, off-screen radar или более плавный aim под давлением.",
 				"The Final Cheats объединяет эти инструменты в одной лицензии для Windows PC — без отдельных загрузок wallhack, radar и aimbot."
 			],
 			"tr": [
-				"The Finals hileleri match sırasında ekstra bilgi ve savaş desteği veren üçüncü taraf araçlardır. Çoğu oyuncu ESP, loot, off-screen radar veya baskı altında daha yumuşak nişan için the finals cheats arar.",
+				"The Finals hileleri match sırasında ekstra bilgi ve savaş desteği veren üçüncü taraf araçlardır. Çoğu oyuncu ESP, loot, off-screen radar veya baskı altında daha yumuşak nişan için thefinals cheats arar.",
 				"The Final Cheats bu araçları Windows PC için tek lisans altında toplar — ayrı wallhack, radar ve aimbot indirmeleri yok."
 			],
 			"ar": [
-				"the finals cheats أدوات طرف ثالث تمنحك معلومات إضافية ومساعدة قتالية أثناء الraid. يبحث معظم اللاعبين عن the finals cheats لـ ESP اللاعبين والloot والradar خارج الشاشة أو تصويب أنعم تحت الضغط.",
+				"thefinals cheats أدوات طرف ثالث تمنحك معلومات إضافية ومساعدة قتالية أثناء الraid. يبحث معظم اللاعبين عن thefinals cheats لـ ESP اللاعبين والloot والradar خارج الشاشة أو تصويب أنعم تحت الضغط.",
 				"The Final Cheats يجمع هذه الأدوات في ترخيص واحد لـ Windows PC — دون تحميلات منفصلة للwallhack والradar والaimbot."
 			],
 			"ja": [
-				"The Finalsチートはレイド中に追加情報と戦闘支援を提供するサードパーティツールです。プレイヤーESP、loot、オフスクリーンradar、プレッシャー下でのスムーズなエイム目的でthe finals cheatsを探す人が多いです。",
+				"The Finalsチートはレイド中に追加情報と戦闘支援を提供するサードパーティツールです。プレイヤーESP、loot、オフスクリーンradar、プレッシャー下でのスムーズなエイム目的でthefinals cheatsを探す人が多いです。",
 				"The Final Cheatsはwallhack、radar、aimbotをWindows PC向け1ライセンスにまとめます — 個別ダウンロード不要。"
 			],
 			"ko": [
-				"The Finals 치트는 레이드 중 추가 정보와 전투 보조를 제공하는 서드파티 도구입니다. 플레이어 ESP, loot, off-screen radar, 압박 상황에서 부드러운 에임을 위해 the finals cheats를 찾습니다.",
+				"The Finals 치트는 레이드 중 추가 정보와 전투 보조를 제공하는 서드파티 도구입니다. 플레이어 ESP, loot, off-screen radar, 압박 상황에서 부드러운 에임을 위해 thefinals cheats를 찾습니다.",
 				"The Final Cheats는 wallhack, radar, aimbot을 Windows PC 단일 라이선스로 묶습니다 — 별도 다운로드 불필요."
 			],
 			"zh": [
-				"The Finals cheats 是第三方工具，在 match 中提供额外信息和战斗辅助。多数玩家为玩家 ESP、物资可见、屏幕外 radar 或高压下更稳的瞄准而搜索 the finals cheats。",
+				"The Finals cheats 是第三方工具，在 match 中提供额外信息和战斗辅助。多数玩家为玩家 ESP、物资可见、屏幕外 radar 或高压下更稳的瞄准而搜索 thefinals cheats。",
 				"The Final Cheats 将这些工具整合为 Windows PC 单一许可证 — 无需分别下载 wallhack、radar 和 aimbot。"
 			],
 			"hi": [
-				"The Finals cheats तीसरे पक्ष के टूल हैं जो match में अतिरिक्त जानकारी और combat assist देते हैं। ज़्यादातर player ESP, loot visibility, off-screen radar या दबाव में smoother aim के लिए the finals cheats खोजते हैं।",
+				"The Finals cheats तीसरे पक्ष के टूल हैं जो match में अतिरिक्त जानकारी और combat assist देते हैं। ज़्यादातर player ESP, loot visibility, off-screen radar या दबाव में smoother aim के लिए thefinals cheats खोजते हैं।",
 				"The Final Cheats इन टूल को Windows PC की एक लाइसेंस में बंडल करता है — अलग wallhack, radar, aimbot डाउनलोड नहीं।"
 			],
 			"id": [
-				"The Finals cheats adalah alat pihak ketiga yang memberi info ekstra dan bantuan tempur saat match. Kebanyakan mencari the finals cheats untuk ESP pemain, loot, radar off-screen, atau aim lebih halus under pressure.",
+				"The Finals cheats adalah alat pihak ketiga yang memberi info ekstra dan bantuan tempur saat match. Kebanyakan mencari thefinals cheats untuk ESP pemain, loot, radar off-screen, atau aim lebih halus under pressure.",
 				"The Final Cheats menggabungkan alat tersebut dalam satu lisensi Windows PC — tanpa unduhan terpisah wallhack, radar, aimbot."
 			],
 			"th": [
-				"The Finals cheats เป็นเครื่องมือบุคคลที่สามที่ให้ข้อมูลเพิ่มและช่วยต่อสู้ระหว่าง match ผู้เล่นส่วนใหญ่ค้นหา the finals cheats เพื่อ ESP ผู้เล่น loot radar นอกจอ หรือ aim ที่นุ่มนวลภายใต้ความกดดัน",
+				"The Finals cheats เป็นเครื่องมือบุคคลที่สามที่ให้ข้อมูลเพิ่มและช่วยต่อสู้ระหว่าง match ผู้เล่นส่วนใหญ่ค้นหา thefinals cheats เพื่อ ESP ผู้เล่น loot radar นอกจอ หรือ aim ที่นุ่มนวลภายใต้ความกดดัน",
 				"The Final Cheats รวมเครื่องมือเหล่านี้ในใบอนุญาต Windows PC เดียว — ไม่ต้องดาวน์โหลด wallhack radar aimbot แยก"
 			],
 			"vi": [
-				"The Finals cheats là công cụ bên thứ ba cung cấp thông tin thêm và hỗ trợ chiến đấu khi match. Nhiều người tìm the finals cheats cho ESP người chơi, loot, radar ngoài màn hình hoặc aim mượt hơn dưới áp lực.",
+				"The Finals cheats là công cụ bên thứ ba cung cấp thông tin thêm và hỗ trợ chiến đấu khi match. Nhiều người tìm thefinals cheats cho ESP người chơi, loot, radar ngoài màn hình hoặc aim mượt hơn dưới áp lực.",
 				"The Final Cheats gom các công cụ trong một giấy phép Windows PC — không cần tải riêng wallhack, radar, aimbot."
 			],
 			"uk": [
-				"The Finals cheats — сторонні інструменти з додатковою інформацією та боєвою допомогою під час match. Шукають the finals cheats за ESP гравців, loot, off-screen radar або плавніший aim під тиском.",
+				"The Finals cheats — сторонні інструменти з додатковою інформацією та боєвою допомогою під час match. Шукають thefinals cheats за ESP гравців, loot, off-screen radar або плавніший aim під тиском.",
 				"The Final Cheats об’єднує ці інструменти в одній ліцензії для Windows PC — без окремих завантажень wallhack, radar і aimbot."
 			],
 			"cs": [
-				"The Finals cheaty jsou nástroje třetích stran s extra informacemi a bojovou asistencí při matchech. Většina hledá the finals cheats pro ESP hráčů, loot, off-screen radar nebo plynulejší aim pod tlakem.",
+				"The Finals cheaty jsou nástroje třetích stran s extra informacemi a bojovou asistencí při matchech. Většina hledá thefinals cheats pro ESP hráčů, loot, off-screen radar nebo plynulejší aim pod tlakem.",
 				"The Final Cheats spojuje tyto nástroje v jedné licenci pro Windows PC — bez samostatných downloadů wallhack, radar a aimbot."
 			],
 			"ro": [
-				"The Finals cheats sunt tool-uri terțe care oferă info extra și asistență de luptă în match-uri. Majoritatea caută the finals cheats pentru ESP jucători, loot, radar off-screen sau aim mai lin sub presiune.",
+				"The Finals cheats sunt tool-uri terțe care oferă info extra și asistență de luptă în match-uri. Majoritatea caută thefinals cheats pentru ESP jucători, loot, radar off-screen sau aim mai lin sub presiune.",
 				"The Final Cheats grupează aceste tool-uri într-o licență Windows PC — fără descărcări separate wallhack, radar, aimbot."
 			],
 			"sv": [
-				"The Finals cheats är tredjepartsverktyg med extra info och stridsassistans under matches. De flesta söker the finals cheats för spelar-ESP, loot, off-screen radar eller mjukare sikte under press.",
+				"The Finals cheats är tredjepartsverktyg med extra info och stridsassistans under matches. De flesta söker thefinals cheats för spelar-ESP, loot, off-screen radar eller mjukare sikte under press.",
 				"The Final Cheats buntar ihop dessa verktyg i en Windows PC-licens — inga separata nedladdningar för wallhack, radar och aimbot."
 			]
 		},
@@ -1496,70 +1496,70 @@ export const PAGE_CONTENT = {
 		},
 		"intro": {
 			"en": [
-				"The Finals cheats add ESP, radar, and soft aim on top of the base game. This page explains what the finals cheats are, what The Final Cheats includes, how Easy Anti-Cheat maintenance works, and where to go next before you buy."
+				"The Finals cheats add ESP, radar, and soft aim on top of the base game. This page explains what thefinals cheats are, what The Final Cheats includes, how Easy Anti-Cheat maintenance works, and where to go next before you buy."
 			],
 			"es": [
-				"Los trucos de The Finals añaden ESP, radar y soft aim sobre el juego base. Esta página explica qué son los the finals cheats, qué incluye The Final Cheats, cómo funciona el mantenimiento de Easy Anti-Cheat y dónde ir antes de comprar."
+				"Los trucos de The Finals añaden ESP, radar y soft aim sobre el juego base. Esta página explica qué son los thefinals cheats, qué incluye The Final Cheats, cómo funciona el mantenimiento de Easy Anti-Cheat y dónde ir antes de comprar."
 			],
 			"fr": [
-				"Les triches The Finals ajoutent ESP, radar et soft aim au jeu de base. Cette page explique ce que sont les the finals cheats, ce que The Final Cheats inclut, la maintenance Easy Anti-Cheat et où aller avant d'acheter."
+				"Les triches The Finals ajoutent ESP, radar et soft aim au jeu de base. Cette page explique ce que sont les thefinals cheats, ce que The Final Cheats inclut, la maintenance Easy Anti-Cheat et où aller avant d'acheter."
 			],
 			"de": [
-				"The Final Cheats fügen ESP, Radar und Soft Aim zum Basisspiel hinzu. Diese Seite erklärt the finals cheats, den The Final Cheats-Umfang, Easy Anti-Cheat-Wartung und nächste Schritte vor dem Kauf."
+				"The Final Cheats fügen ESP, Radar und Soft Aim zum Basisspiel hinzu. Diese Seite erklärt thefinals cheats, den The Final Cheats-Umfang, Easy Anti-Cheat-Wartung und nächste Schritte vor dem Kauf."
 			],
 			"pt": [
-				"The Finals cheats adicionam ESP, radar e soft aim ao jogo base. Esta página explica o que são the finals cheats, o que o The Final Cheats inclui, manutenção Easy Anti-Cheat e próximos passos antes de comprar."
+				"The Finals cheats adicionam ESP, radar e soft aim ao jogo base. Esta página explica o que são thefinals cheats, o que o The Final Cheats inclui, manutenção Easy Anti-Cheat e próximos passos antes de comprar."
 			],
 			"it": [
-				"I cheat The Finals aggiungono ESP, radar e soft aim al gioco base. Questa pagina spiega cosa sono i the finals cheats, cosa include The Final Cheats, manutenzione Easy Anti-Cheat e dove andare prima dell'acquisto."
+				"I cheat The Finals aggiungono ESP, radar e soft aim al gioco base. Questa pagina spiega cosa sono i thefinals cheats, cosa include The Final Cheats, manutenzione Easy Anti-Cheat e dove andare prima dell'acquisto."
 			],
 			"nl": [
-				"The Finals cheats voegen ESP, radar en soft aim toe aan het basisspel. Deze pagina legt uit wat the finals cheats zijn, wat The Final Cheats bevat, Easy Anti-Cheat-onderhoud en volgende stappen vóór aankoop."
+				"The Finals cheats voegen ESP, radar en soft aim toe aan het basisspel. Deze pagina legt uit wat thefinals cheats zijn, wat The Final Cheats bevat, Easy Anti-Cheat-onderhoud en volgende stappen vóór aankoop."
 			],
 			"pl": [
-				"The Finals cheats dodają ESP, radar i soft aim do gry bazowej. Ta strona wyjaśnia czym są the finals cheats, co zawiera The Final Cheats, konserwację Easy Anti-Cheat i co dalej przed zakupem."
+				"The Finals cheats dodają ESP, radar i soft aim do gry bazowej. Ta strona wyjaśnia czym są thefinals cheats, co zawiera The Final Cheats, konserwację Easy Anti-Cheat i co dalej przed zakupem."
 			],
 			"ru": [
-				"The Finals cheats добавляют ESP, radar и soft aim к базовой игре. Эта страница объясняет что такое the finals cheats, что входит в The Final Cheats, обслуживание Easy Anti-Cheat и куда идти перед покупкой."
+				"The Finals cheats добавляют ESP, radar и soft aim к базовой игре. Эта страница объясняет что такое thefinals cheats, что входит в The Final Cheats, обслуживание Easy Anti-Cheat и куда идти перед покупкой."
 			],
 			"tr": [
-				"The Finals hileleri temel oyuna ESP, radar ve soft aim ekler. Bu sayfa the finals cheats nedir, The Final Cheats neleri içerir, Easy Anti-Cheat bakımı ve satın almadan önce nereye gidileceğini açıklar."
+				"The Finals hileleri temel oyuna ESP, radar ve soft aim ekler. Bu sayfa thefinals cheats nedir, The Final Cheats neleri içerir, Easy Anti-Cheat bakımı ve satın almadan önce nereye gidileceğini açıklar."
 			],
 			"ar": [
-				"تضيف the finals cheats الـ ESP والرادار وsoft aim فوق اللعبة الأساسية. تشرح هذه الصفحة ما هي the finals cheats وما يتضمنه The Final Cheats وصيانة Easy Anti-Cheat وأين تذهب قبل الشراء."
+				"تضيف thefinals cheats الـ ESP والرادار وsoft aim فوق اللعبة الأساسية. تشرح هذه الصفحة ما هي thefinals cheats وما يتضمنه The Final Cheats وصيانة Easy Anti-Cheat وأين تذهب قبل الشراء."
 			],
 			"ja": [
-				"The FinalsチートはベースゲームにESP、radar、soft aimを追加します。このページではthe finals cheatsの概要、The Final Cheatsの内容、Easy Anti-Cheatメンテナンス、購入前の確認先を説明します。"
+				"The FinalsチートはベースゲームにESP、radar、soft aimを追加します。このページではthefinals cheatsの概要、The Final Cheatsの内容、Easy Anti-Cheatメンテナンス、購入前の確認先を説明します。"
 			],
 			"ko": [
-				"The Finals 치트는 기본 게임 위에 ESP, radar, soft aim을 추가합니다. 이 페이지는 the finals cheats란, The Final Cheats 포함 사항, Easy Anti-Cheat 유지보수, 구매 전 확인할 곳을 설명합니다."
+				"The Finals 치트는 기본 게임 위에 ESP, radar, soft aim을 추가합니다. 이 페이지는 thefinals cheats란, The Final Cheats 포함 사항, Easy Anti-Cheat 유지보수, 구매 전 확인할 곳을 설명합니다."
 			],
 			"zh": [
-				"The Finals cheats 在基础游戏上添加 ESP、radar 和 soft aim。本页说明什么是 the finals cheats、The Final Cheats 包含什么、Easy Anti-Cheat 维护以及购买前该看哪里。"
+				"The Finals cheats 在基础游戏上添加 ESP、radar 和 soft aim。本页说明什么是 thefinals cheats、The Final Cheats 包含什么、Easy Anti-Cheat 维护以及购买前该看哪里。"
 			],
 			"hi": [
-				"The Finals cheats बेस गेम पर ESP, radar और soft aim जोड़ते हैं। यह पेज बताता है the finals cheats क्या हैं, The Final Cheats में क्या है, Easy Anti-Cheat रखरखाव और खरीद से पहले कहाँ जाएँ।"
+				"The Finals cheats बेस गेम पर ESP, radar और soft aim जोड़ते हैं। यह पेज बताता है thefinals cheats क्या हैं, The Final Cheats में क्या है, Easy Anti-Cheat रखरखाव और खरीद से पहले कहाँ जाएँ।"
 			],
 			"id": [
-				"The Finals cheats menambahkan ESP, radar, dan soft aim di atas game dasar. Halaman ini menjelaskan apa itu the finals cheats, apa yang termasuk The Final Cheats, pemeliharaan Easy Anti-Cheat, dan langkah sebelum membeli."
+				"The Finals cheats menambahkan ESP, radar, dan soft aim di atas game dasar. Halaman ini menjelaskan apa itu thefinals cheats, apa yang termasuk The Final Cheats, pemeliharaan Easy Anti-Cheat, dan langkah sebelum membeli."
 			],
 			"th": [
-				"The Finals cheats เพิ่ม ESP, radar และ soft aim บนเกมหลัก หน้านี้อธิบาย the finals cheats คืออะไร The Final Cheats รวมอะไร การดูแล Easy Anti-Cheat และขั้นตอนก่อนซื้อ"
+				"The Finals cheats เพิ่ม ESP, radar และ soft aim บนเกมหลัก หน้านี้อธิบาย thefinals cheats คืออะไร The Final Cheats รวมอะไร การดูแล Easy Anti-Cheat และขั้นตอนก่อนซื้อ"
 			],
 			"vi": [
-				"The Finals cheats thêm ESP, radar và soft aim lên game gốc. Trang này giải thích the finals cheats là gì, The Final Cheats gồm gì, bảo trì Easy Anti-Cheat và bước tiếp theo trước khi mua."
+				"The Finals cheats thêm ESP, radar và soft aim lên game gốc. Trang này giải thích thefinals cheats là gì, The Final Cheats gồm gì, bảo trì Easy Anti-Cheat và bước tiếp theo trước khi mua."
 			],
 			"uk": [
-				"The Finals cheats додають ESP, radar і soft aim до базової гри. Ця сторінка пояснює що таке the finals cheats, що входить у The Final Cheats, обслуговування Easy Anti-Cheat і куди йти перед покупкою."
+				"The Finals cheats додають ESP, radar і soft aim до базової гри. Ця сторінка пояснює що таке thefinals cheats, що входить у The Final Cheats, обслуговування Easy Anti-Cheat і куди йти перед покупкою."
 			],
 			"cs": [
-				"The Finals cheaty přidávají ESP, radar a soft aim k základní hře. Tato stránka vysvětluje co jsou the finals cheats, co obsahuje The Final Cheats, údržbu Easy Anti-Cheat a kam jít před nákupem."
+				"The Finals cheaty přidávají ESP, radar a soft aim k základní hře. Tato stránka vysvětluje co jsou thefinals cheats, co obsahuje The Final Cheats, údržbu Easy Anti-Cheat a kam jít před nákupem."
 			],
 			"ro": [
-				"The Finals cheats adaugă ESP, radar și soft aim peste jocul de bază. Această pagină explică ce sunt the finals cheats, ce include The Final Cheats, mentenanța Easy Anti-Cheat și pașii înainte de cumpărare."
+				"The Finals cheats adaugă ESP, radar și soft aim peste jocul de bază. Această pagină explică ce sunt thefinals cheats, ce include The Final Cheats, mentenanța Easy Anti-Cheat și pașii înainte de cumpărare."
 			],
 			"sv": [
-				"The Finals cheats lägger till ESP, radar och soft aim ovanpå basspelet. Den här sidan förklarar vad the finals cheats är, vad The Final Cheats innehåller, Easy Anti-Cheat-underhåll och nästa steg före köp."
+				"The Finals cheats lägger till ESP, radar och soft aim ovanpå basspelet. Den här sidan förklarar vad thefinals cheats är, vad The Final Cheats innehåller, Easy Anti-Cheat-underhåll och nästa steg före köp."
 			]
 		},
 		"list1": {

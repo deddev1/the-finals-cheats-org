@@ -55,10 +55,10 @@ function buildFaqOverlay(locale, enFaq) {
 const EN_FAQ_ITEMS = {
 	'what-are-finals-cheats': {
 		q: 'What is The Final Cheats?',
-		a: 'The Final Cheats is an undetected the finals cheats package for The Finals on Windows PC. It includes ESP wallhack, 2D radar, and aimbot controls, with Easy Anti-Cheat maintenance and setup support.',
+		a: 'The Final Cheats is an undetected thefinals cheats package for The Finals on Windows PC. It includes ESP wallhack, 2D radar, and aimbot controls, with Easy Anti-Cheat maintenance and setup support.',
 	},
 	'are-finals-cheats-undetected-in-2026': {
-		q: 'Are the finals cheats undetected in 2026?',
+		q: 'Are thefinals cheats undetected in 2026?',
 		a: 'The Final Cheats is maintained for The Finals with rebuilds after Easy Anti-Cheat and game patches. Check the Status page before you queue. No cheat can guarantee permanent undetected status — maintenance and responsible use matter.',
 	},
 	'solo-farmer-and-raider-sessions': {
@@ -90,7 +90,7 @@ const EN_FAQ_ITEMS = {
 		a: 'Yes. The Final Cheats includes 2D radar overlays that highlight nearby threats outside your view — useful for flanks and cashout zones.',
 	},
 	'eac-anti-cheat-and-finals-cheats': {
-		q: 'How does Easy Anti-Cheat affect the finals cheats?',
+		q: 'How does Easy Anti-Cheat affect thefinals cheats?',
 		a: 'Easy Anti-Cheat monitors The Finals on Windows PC. The Final Cheats posts maintenance notes after patches that may need a rebuild. Check Status before you queue.',
 	},
 	'buy-undetected-finals-cheats-windows-pc': {

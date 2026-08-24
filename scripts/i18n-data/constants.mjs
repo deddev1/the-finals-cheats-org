@@ -12,7 +12,7 @@ export const PAGE_IDS = [
 	'aimbot-hack', 'esp-hack', 'unlock-all', 'privacy', 'refund', 'terms',
 ];
 
-/** Hero image per page — simple the finals cheats keyword filenames. */
+/** Hero image per page — simple thefinals cheats keyword filenames. */
 export const HERO_IMAGES = {
 	home: '/images/finals-cheats-esp.webp',
 	'finals-esp': '/images/finals-cheats-radar.webp',
