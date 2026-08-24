@@ -14,6 +14,8 @@ export type BrandThemeInput = {
 	deep?: string;
 	hover?: string;
 	panel?: string;
+	ink?: string;
+	inkMuted?: string;
 };
 
 export type BrandThemeResolved = {
@@ -157,6 +159,9 @@ export function deriveBrandTheme(input: Partial<BrandThemeInput> = {}): BrandThe
 	const line = mixHex(bg, '#ffffff', 0.12);
 	const lineStrong = mixHex(bg, '#ffffff', 0.18);
 	const toneVoid = mixHex(bg, '#000000', 0.35);
+	const ink = normalizeHex(input.ink) ?? '#F8FAFC';
+	const inkMuted = normalizeHex(input.inkMuted) ?? '#A1A1AA';
+	const inkFaint = mixHex(inkMuted, bg, 0.35);
 
 	return {
 		accent,
@@ -170,9 +175,9 @@ export function deriveBrandTheme(input: Partial<BrandThemeInput> = {}): BrandThe
 		line,
 		lineSoft,
 		lineStrong,
-		ink: '#f5f5f7',
-		inkMuted: '#a1a1aa',
-		inkFaint: '#8b8b93',
+		ink,
+		inkMuted,
+		inkFaint,
 		ok: '#34d399',
 		warn: '#f43f5e',
 		toneVoid,
@@ -201,6 +206,8 @@ export const brandTheme: BrandThemeResolved = deriveBrandTheme({
 	deep: raw.theme?.deep,
 	hover: raw.theme?.hover,
 	panel: raw.theme?.panel,
+	ink: raw.theme?.ink,
+	inkMuted: raw.theme?.inkMuted,
 });
 
 /** Inline style for <html> — overrides @theme defaults site-wide. */
