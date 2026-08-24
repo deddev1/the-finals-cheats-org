@@ -2,6 +2,7 @@
 import { demoVideo } from '../data/media';
 import { getLocalizedPath } from '../data/i18n/routing';
 import type { LocaleCode } from '../data/i18n/locales';
+import { siteConfig } from '../data/site';
 import { getT } from '../i18n/server';
 
 interface Props {
@@ -10,7 +11,6 @@ interface Props {
 
 const { locale } = Astro.props;
 const t = getT(locale);
-const pricingHref = getLocalizedPath('pricing', locale);
 const homeHref = getLocalizedPath('home', locale);
 const espHref = getLocalizedPath('finals-esp', locale);
 const aimbotHref = getLocalizedPath('finals-aimbot', locale);
@@ -25,7 +25,7 @@ const updatesHref = getLocalizedPath('updates', locale);
 			</h2>
 			<p>{t('home.aboutP1')}</p>
 			<div class="home__about-actions">
-				<a class="home__about-pricing" href={pricingHref}>
+				<a class="home__about-pricing" href={siteConfig.checkoutUrl} rel="noopener noreferrer">
 					{t('home.aboutPricingCta')}
 				</a>
 			</div>

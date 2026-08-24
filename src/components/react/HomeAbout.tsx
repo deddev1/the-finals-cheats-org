@@ -5,7 +5,7 @@ import I18nProvider from './I18nProvider';
 
 type Props = {
 	locale: string;
-	pricingHref: string;
+	checkoutUrl: string;
 };
 
 function DemoVideo() {
@@ -57,7 +57,7 @@ function DemoVideo() {
 	);
 }
 
-function HomeAboutInner({ pricingHref }: Pick<Props, 'pricingHref'>) {
+function HomeAboutInner({ checkoutUrl }: Pick<Props, 'checkoutUrl'>) {
 	const { t } = useTranslation();
 
 	return (
@@ -69,7 +69,7 @@ function HomeAboutInner({ pricingHref }: Pick<Props, 'pricingHref'>) {
 					</h2>
 					<p>{t('home.aboutP1')}</p>
 					<div className="home__about-actions">
-						<a className="home__about-pricing" href={pricingHref}>
+						<a className="home__about-pricing" href={checkoutUrl} rel="noopener noreferrer">
 							{t('home.aboutPricingCta')}
 						</a>
 					</div>
@@ -94,7 +94,7 @@ function HomeAboutInner({ pricingHref }: Pick<Props, 'pricingHref'>) {
 export default function HomeAboutApp(props: Props) {
 	return (
 		<I18nProvider locale={props.locale}>
-			<HomeAboutInner pricingHref={props.pricingHref} />
+			<HomeAboutInner checkoutUrl={props.checkoutUrl} />
 		</I18nProvider>
 	);
 }
